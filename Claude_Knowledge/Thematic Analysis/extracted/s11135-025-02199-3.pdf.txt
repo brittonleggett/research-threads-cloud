@@ -1,0 +1,697 @@
+Vol.:(0123456789)
+Quality & Quantity (2025) 59:5491–5510
+https://doi.org/10.1007/s11135-025-02199-3
+Thematic analysis of interview data with ChatGPT: designing 
+and testing a reliable research protocol for qualitative 
+research
+Manuel Goyanes1
+ · Carlos Lopezosa2  · Beatriz Jordá1,3
+Accepted: 8 May 2025 / Published online: 20 June 2025
+© The Author(s) 2025
+Abstract
+In recent years, artificial intelligence has developed into a powerful tool for processing 
+and generating human-like texts, unlocking innovative possibilities for quantitative and 
+qualitative data analysis. Within qualitative research, artificial intelligence in general, and 
+ChatGPT in particular, represent promising avenues to explore and examine textual tran￾scriptions from interview data. This study is a step forward in this direction, advancing a 
+reliable research protocol for using ChatGPT to conduct thematic analysis, which includes 
+the following standard steps: (1) data preparation, (2) defining the analysis process, (3) 
+chatbot interaction, (4) iterative process, (5) review and validation, and (6) analysis and 
+interpretation. Results of the analysis revealed that ChatGPT may significantly facilitate 
+qualitative data analysis exploration, especially during initial research stages and when 
+dealing with extensive transcription material. Additionally, our protocol design is able to 
+reliably identify different thematic patterns emerging from the text, although the granular￾ity of the output may vary depending on the quality of the prompt and human intelligence 
+interpretation. Accordingly, we conclude that despite its vast power, the ChatGPT model 
+in its current state is unable to substitute the contextual insights and subtle metaphorical 
+nuances associated with human qualitative analysis, interpretation and reflexivity.
+Keywords Thematic analysis · ChatGPT · Qualitative research · Qualitative data analysis · 
+Interview data · Transcriptions
+* Manuel Goyanes 
+mgoyanes@hum.uc3m.es
+https://scholar.google.es/citations?user=ouvI-lQAAAAJ&hl=es&oi=ao
+Carlos Lopezosa 
+https://scholar.google.es/citations?user=v8EFUW4AAAAJ&hl=es&oi=ao
+Beatriz Jordá 
+https://scholar.google.es/citations?user=1_tUinMAAAAJ&hl=es
+1 Department of Communication, Universidad Carlos III de Madrid, Madrid, Spain
+2 Department of Communication, Universitat de Barcelona, Barcelona, Spain
+3 Department of English, Saint Louis University, Madrid campus, Madrid, Spain
+
+5492 M. Goyanes et al.
+In recent years, the advent of new technologies has significantly transformed methodol￾ogies for data analysis, expanding the range of tools available to researchers across dis￾ciplines (e.g., Hariri 2023; Mohd Zabidi et al. 2022; Morgan 2023; Gil de Zúñiga et al. 
+2024). Among these innovations, ChatGPT—a state-of-the-art language model developed 
+by OpenAI—has emerged as a powerful resource capable of processing and generating 
+human-like text (Hariri 2023; Lingard 2023). According to recent research (De Paoli and 
+Mathis 2024; Kumar 2023; Sallam 2023; Shtykalo and Yamnenko 2024), its application in 
+qualitative studies, particularly in coding and thematic analysis, has gained attention for its 
+potential to streamline the analytical process. In fact, a number of studies have suggested 
+that when employed ethically and under human supervision (Zhang et  al. 2024), Chat￾GPT can assist in generating initial codes or providing alternative interpretations, thereby 
+enhancing the efficiency and depth of analysis (Morgan 2023).
+Qualitative research is particularly valued for its ability to capture the depth and 
+nuances of human experiences, behaviors, and interactions (Taylor et al. 2015; Lapan 
+et al. 2011). Unlike quantitative approaches, qualitative research relies on interpretative 
+methodologies that enable researchers to explore complex real-world contexts (Ham￾mersley 2012; Lacey and Luff 2001; Pilcher and Cortazzi 2024; Thompson 2017). This 
+methodological approach plays a crucial role in theory development by illustrating the 
+nuances of culture, identity, and social structures (Patton 2014; Taylor et  al. 2015). 
+Within this broader qualitative framework, thematic analysis has emerged as one of the 
+most widely used methods for systematically identifying, analyzing, and reporting pat￾terns or themes in textual data (Braun and Clarke 2006; Byrne 2022; Javadi and Zarea 
+2016). Taken together, extant research has extensively discussed and empirically dem￾onstrated the flexibility of thematic analysis in deriving meaningful insights into partici￾pants’ experiences, perceptions, and perspectives (Vaismoradi et al. 2016).
+In this context, the integration of ChatGPT into thematic analysis presents novel 
+possibilities for enhancing qualitative research. Researchers can now leverage artificial 
+intelligence to navigate complex and voluminous datasets more efficiently (De Paoli and 
+Mathis 2024; Morgan 2023). Specifically, ChatGPT can fulfill at least four key roles 
+in thematic analysis. First, it can standardize the coding process by reducing the vari￾ability introduced by manual coding performed by human teams, thereby promoting 
+consistency across analyses (De Paoli and Mathis 2024; Zhang et al. 2024). Second, it 
+can minimize individual biases that may inadvertently shape research outcomes (Yan 
+et  al. 2024). By automating the initial stages of interpretation, ChatGPT supports a 
+more objective preliminary analysis, independent of prior human assumptions. Third, 
+it can enhance efficiency by rapidly processing large volumes of textual data, allowing 
+researchers to allocate more time to interpretative synthesis (Zhang et al. 2023). Finally, 
+ChatGPT can identify emerging themes that might not be immediately apparent, uncov￾ering latent patterns that enrich the analytical process (Aboalela 2023).
+Despite these advantages, the complexities associated with AI-assisted thematic 
+analysis underscore the need for a structured research protocol to ensure its methodo￾logical soundness and ethical integrity. This study addresses this critical gap by pre￾senting a practical, step-by-step protocol for incorporating ChatGPT into thematic 
+analysis. By systematically exploring the intersection of artificial intelligence and quali￾tative research, this paper aims to bridge the gap between human critical thinking and 
+AI-assisted thematic analysis. In doing so, it seeks to equip researchers with a clearer 
+understanding of ChatGPT’s capabilities and limitations, fostering its responsible use in 
+qualitative inquiry.
+
+Thematic analysis of interview data with ChatGPT: designing… 5493
+1  Qualitative research and data analysis
+Qualitative research encompasses a wide range of data collection techniques that aim to 
+provide a detailed and socio-contextual interpretation of social phenomena, such as in￾depth interviews, focus groups or participant observation (Vaismoradi et al. 2016). These 
+methods are conducted in a flexible, open-ended manner, drawing on rich narrative mate￾rial that allows researchers to get to know the interpretations, thoughts and feelings of the 
+people studied in an intimate way (Denscombe 2009; Patton 2014; Pilcher and Cortazzi 
+2024). When analyzing data, qualitative researchers develop concepts, categories and 
+insights from the patterns in data, which are also flexible and open-ended in character 
+(Hammersley 2012; Taylor et al. 2015).
+Qualitative research emerged as an anti-positivist movement that rejected quantitative 
+methods and their reduction of social reality to variables and that moved instead towards 
+theorizing (Alasuutari 2010). It is often associated with the interpretivist paradigm and has 
+sometimes been labeled “unscientific” by some quantitative scholars due to its lack of gen￾eralizability (Adler 2022; Pilcher and Cortazzi 2024; Sarma 2015). However, qualitative 
+methods are frequently used in contemporary research and their importance for a more 
+comprehensive understanding of social and cultural phenomena is often acknowledged 
+(Mohajan 2018). Unlike quantitative research, whose strength lies in its ability to gener￾alize and replicate data in other settings, qualitative methods have the unique ability to 
+develop new theoretical insights. Moreover, by examining the context of social phenom￾ena and the meanings people attach to them, qualitative methods reach the parts of knowl￾edge that quantitative methods cannot. They investigate the questions of “how” and “why” 
+rather than “when”,” “what” and “where” (Creswell and Poth 2016; Thorogood and Green 
+2018). These methods therefore examine phenomena as a whole and not as individual vari￾ables, which leads to a complex and holistic picture of them (Taylor et al. 2015).
+The process of qualitative data analysis follows inductive reasoning. This means that 
+qualitative researchers do not base their analysis on existing theories, ideas and hypotheses, 
+as is the case with quantitative methods, but begin by examining the empirical observa￾tions they have collected (Madondo 2021; Mohd Zabidi et al. 2022). This means that they 
+first delve into participants’ “thick descriptions”—their “views, intents, circumstances, 
+motives, meanings, and understandings” (Younas et al. 2023, p. 1)—and begin to think in 
+increasingly abstract ways until their vague ideas become precise theoretical concepts and 
+propositions (Neuman 2019).
+Within this framework, qualitative data analysis has been described as one of the most 
+challenging parts of qualitative research (Castleberry and Nolen 2018; O’Kane et al. 2021). 
+Very often, qualitative researchers are faced with large amounts of textual data to analyze, 
+not quite knowing how to proceed. This occurs because, unlike in quantitative methods, 
+there are no explicit rules for data analysis in qualitative research (Graue 2015; Mohd 
+Zabidi et al. 2022). The confusion about this process is compounded by the fact that quali￾tative researchers generally do not describe their analytic processes very clearly or sys￾tematically (Kekez 2019; Tuckett 2005). Analysis tends to be murky and, as a result, some 
+scholars have questioned its rigor, sometimes accusing qualitative scholars of adopting 
+an “anything goes” mentality (Braun and Clarke 2006; O’Kane et al. 2021; Sarma 2015). 
+However, when done right, the flexible nature of the qualitative approach does not preclude 
+it from being rigorous and systematic.
+Accordingly, qualitative scholars have focused for many years on developing 
+guidelines and techniques to analyze and elucidate patterns in textual data in a more 
+
+5494 M. Goyanes et al.
+standardized way. Some of these techniques are widely used, such as grounded theory 
+(Corbin and Strauss 1990), narrative analysis (Polkinghorne 1995) or thematic analy￾sis (Braun and Clarke 2006). The latter has become one of the best-known and most 
+popular analytical strategies in recent decades, which can be traced back to the much￾cited methodological paper by Braun and Clarke (2006). Thematic analysis is a method 
+for identifying, analyzing and reporting themes in data and is described as “the more 
+systematic and explicit form” of data analysis in qualitative research (Javadi and Zarea 
+2016, p. 30). It ensures standardization and transparency while maintaining the flex￾ibility that is so characteristic of qualitative methods.
+Braun and Clarke (2006) proposed a six-phase guideline for it. These six stages 
+provide a systematic but theoretically open-ended procedure for coding and examining 
+descriptions through the discovery of themes (Braun and Clarke 2006; Byrne 2022; 
+Vaismoradi et  al. 2016). This analytic procedure goes as follows. First, researchers 
+need to familiarize themselves with their data by transcribing, reading and re-reading 
+it and writing down initial ideas. Second, they have to generate initial codes for the 
+entire data set and select data relevant to the codes. Next, researchers need to look for 
+themes by finding common patterns in codes. Themes may be described as “the sub￾jective meaning and cultural-contextual message of data” (Vaismoradi and Snelgrove 
+2019, p. 2) and are the end product of thematic analysis. Researchers must then review, 
+define and name themes, and finally, conduct a final analysis and write the report.
+In addition to introducing clearer guidelines for analyzing textual data, qualitative 
+scholars have increasingly integrated new technologies into these processes. Computer￾based programs such as NVivo or Atlas.ti are now commonly used by researchers and 
+serve as tools to find, categorize, and retrieve data much faster than manual searching 
+(Liamputtong 2009). These programs support and enhance the overall analysis pro￾cess and allow for more complex and in-depth analysis of data, especially in studies 
+working with large datasets (Castleberry and Nolen 2018; Hwang 2008; Liamputtong 
+2009). More importantly, they are proving useful in demonstrating more transparent 
+and trustworthy work (O’Kane et al. 2021).
+Now, recent technological advances in the field of artificial intelligence have opened 
+up new possibilities for the systematization and transparency of qualitative research. 
+This is the case with ChatGPT, the state-of-the-art language model developed by Ope￾nAI, which is gradually being implemented in analytical procedures, research and even 
+writing. Although some concerns have been raised about its use in research and the 
+risk of bias, plagiarism or lack of originality (Lingard 2023), utilized ethically Chat￾GPT, like the software programs mentioned above, can support research processes 
+such as qualitative data analysis as a powerful tool and further enhance their rigor. 
+In a recent review of this AI-based tool for thematic analysis, Morgan (2023) notes 
+that ChatGPT is successful in finding concrete, descriptive themes and points to its 
+“substantial potential” (p. 9) to contribute to qualitative analysis. Accordingly, in the 
+following section, we provide a six-step guide for conducting thematic analysis using 
+ChatGPT, including examples of prompts and a dataset comprised of 30 interviews, 
+in the hope that it will serve as a guide for future researchers interested in its use. The 
+complete list of the prompts we used and the subsequent ChatGPT responses can be 
+found in the Online Appendix. Each prompt number we indicate in the protocol cor￾responds to the prompt of the same number in Appendix A.
+
+Thematic analysis of interview data with ChatGPT: designing… 5495
+2  Thematic analysis with ChatGPT
+To better illustrate the research protocol, a dataset comprising 30 semi-structured, in￾depth interviews was utilized. This dataset originated from a qualitative study that 
+examined citizens’ use of social media, personality traits, and consumption of political 
+content, as well as its influence on their political opinions. The primary aim of the study 
+was to explore citizens’ awareness of the influence they experience on social media and 
+to investigate the role their personality traits play in these processes. The study was 
+guided by three research questions:
+RQ1 What are the personality traits of users who change their political opinions on social 
+media?
+RQ2 What kind of political content influences social media users’ political opinions?
+RQ3 On which topics do social media users tend to change their political opinions?
+The interview guide was structured around three topic areas. The first one examined 
+citizens’ use of social media as an information source for public affairs and politics. 
+The second part examined personality traits and the openness of participants to opinion 
+change. Finally, the third part inquired about citizens’ exposure to political content and 
+discussions in social media, political opinion expression, and the influence that such 
+political content may have on citizens’ political opinions. The interviews were tran￾scribed manually. The content addressed in this study mainly revolves around the use of 
+social media to change citizens’ opinions.
+2.1  Phase 1: Data preparation
+Researchers should upload their textual data to ChatGPT following certain steps to 
+ensure that the generative artificial intelligence (GenAI) processes it accurately. This 
+process enables the AI to store the dataset, allowing researchers to make targeted que￾ries later. In addition, it saves time, as researchers do not need to immerse themselves 
+in the data so thoroughly at this stage. Traditionally, thematic analysis requires substan￾tial time for researchers to familiarize themselves with the dataset through transcription, 
+repeated reading, and iterative engagement with the text (Braun and Clarke 2006). By 
+contrast, researchers utilizing ChatGPT only need to ensure that their data is transcribed 
+beforehand, streamlining the early stages of analysis.
+Accordingly, before uploading data to ChatGPT, it is essential to ensure that all 
+information is consolidated within a single document, complete with appropriate head￾ings, labels, or questions. Once the data is properly organized, the next step is to access 
+ChatGPT and provide an initial instruction (prompt) to contextualize the platform, spec￾ifying that a dataset will be uploaded (Prompt 1). Following this prompt, ChatGPT will 
+register the interaction as a new chat, which will appear in the left-hand history panel of 
+the user interface. Users may retain the default name assigned by ChatGPT or rename it 
+according to their preference. It is recommended that researchers choose a project name 
+that accurately reflects its content and enhances ease of identification.
+
+5496 M. Goyanes et al.
+The next step involves inputting the dataset—30 interviews in this case—into Chat￾GPT for analysis (Prompt 2). Due to the general length of qualitative data and the inher￾ent word count limitation of ChatGPT, it is advisable to load the material gradually to 
+avoid potential errors in the GenAI system. Studies suggest that ChatGPT is prone to 
+problems when processing inputs that exceed a certain number of words, even though 
+there is no specific word limit defined (e.g., Lubiana et al. 2023). It is recommended to 
+subdivide the interviews into 1000-word fragments to prevent technical issues, ensuring 
+that each fragment is clearly labeled with the corresponding interviewee number. This 
+will also enable the AI to analyze the set of interviews globally and recognize the origin 
+of each answer, whether it belongs to interviewee 1, 2, and so forth, up to 30. With the 
+release of GPT-4o, this limitation has been addressed, as the latest version allows for the 
+direct upload of complete documents, such as full interview transcripts, which can then 
+be analyzed without the need for manual segmentation.
+Nevertheless, uploading the dataset per interviewee and subdividing it offers two key 
+advantages. First, researchers can create prompts tailored to specific interviewees, allow￾ing for more precise query refinement. Second, ChatGPT can recognize that it is process￾ing a structured dataset composed of a specific number of interviews, ensuring that each 
+response remains associated with the corresponding interviewee, thus minimizing potential 
+errors in data processing and interpretation. Once all interviews have been integrated, it 
+is essential to verify that ChatGPT has successfully loaded them by issuing a follow-up 
+prompt (Prompt 3). After ChatGPT confirms that the content has been uploaded correctly, 
+this phase is considered complete.
+2.2  Phase 2: Defining the analysis process
+The second phase of thematic analysis using ChatGPT focuses on identifying themes, 
+patterns, or key concepts within the data. In manual analysis, researchers typically begin 
+coding only after thoroughly familiarizing themselves with the dataset (Braun and Clarke 
+2006; Maguire and Delahunt 2017; Vaismoradi et al. 2016). During this stage, they label 
+data and make marginal annotations to identify potential patterns, gradually refining the 
+dataset and preparing it for the subsequent phase: searching for themes that will ultimately 
+form the foundation of the final report (Braun and Clarke 2006; Tuckett 2005). In thematic 
+analysis conducted with ChatGPT, however, this sequence is reversed. The AI first identi￾fies overarching themes, and only in the next phase can researchers instruct it to display the 
+specific codes or extracts associated with each theme. This inversion occurs because Chat￾GPT can detect patterns and derive themes without necessarily generating initial codes 
+beforehand, streamlining the thematic analysis process.
+To achieve this, OpenAI’s GenAI is instructed within the chat thread to identify com￾mon and recurring themes “as exhaustively as possible”, considering the entirety of the 
+uploaded content (Prompt 5). This instruction enables ChatGPT to systematically track 
+central themes within the dataset by recognizing patterns of repetition. As a result, Chat￾GPT provides a set of specific themes that can vary depending on the characteristics of the 
+dataset (see Figures 1 and 2 in Online Appendix B for more detail). In our case, this results 
+in twelve thematic axes around which we can structure the thematic analysis of our 30 
+interviews (see Table 1). In addition, each theme contains some representative statements. 
+It is also worth noting that researchers can ask ChatGPT to expand the themes found or 
+specify the number of themes to display depending on their research interest.
+
+Thematic analysis of interview data with ChatGPT: designing… 5497
+After obtaining a general understanding of the central themes and keywords derived 
+from the main topics of the interviews, the next step involves instructing ChatGPT to sum￾marize each of the identified themes individually. This process requires addressing the 
+twelve themes separately, as requesting a summary of the entire dataset—comprising 30 
+interviews—results in an error due to processing limitations. For instance, the first theme 
+identified by ChatGPT was “Social Media Influence.” To summarize this theme, the fol￾lowing prompt was used: “Summarize the main points of the topic Social Media Influence 
+identified in the previous prompt, using the dataset of 30 interviews” (Prompt 7).
+The output provided a breakdown of the most important subtopics within this thematic 
+axis and a summary for each subtopic. Additionally, ChatGPT generated an overview of 
+the most significant elements from the interviews related to this theme.
+Once the summaries are generated, they can be further analyzed by using ChatGPT to 
+identify and list specific verbatims related to particular topics. To achieve targeted results, 
+it is recommended to request “the best examples,” as this approach minimizes the likeli￾hood of receiving random or unrepresentative statements (Prompt 8). The output consists 
+of specific quotes categorized by subtopics, which can be expanded through additional 
+prompts if necessary. This process should be repeated for each of the identified topics—
+twelve in this case—resulting in a comprehensive set of core statements. These statements 
+provide a detailed overview of the most representative verbatims for each topic and their 
+respective subtopics as identified by ChatGPT.
+2.3  Phase 3: Chatbot interaction
+In the third phase of analysis, and in the subsequent one, researchers further explore the 
+themes identified by ChatGPT along with the codes and extracts that constitute them. Spe￾cifically, the third phase involves two key activities. First, it examines the convergences 
+and divergences in the interviewees’ statements. Convergences refer to common themes 
+or patterns emerging from respondents’ answers, primarily encompassing areas of agree￾ment, while divergences highlight differences or contradictions in their responses, often 
+providing nuanced insights. Second, this phase focuses on extracting direct quotes related 
+to the primary and secondary themes identified in the previous phase. This process allows 
+Table 1  Thematic axes of 
+ChatGPT resulting from the 30 
+interviews
+Thematic axes
+Social media influence
+Political engagement
+Political opinions
+Social change and activism
+Personal identity and values
+Confidence and open-mindedness
+Media influence and unity/division
+Youth perspective
+Economic and job perspectives
+Critical view of politics
+Information seeking behavior
+Skepticism and lack of trust
+
+5498 M. Goyanes et al.
+researchers to critically analyze the themes and their corresponding codes while thoroughly 
+reviewing both.
+At this stage, the chat thread containing the uploaded dataset is revisited, and ChatGPT 
+is instructed to identify convergences and divergences for each of the general topics identi￾fied in phase two. For instance, using the theme “Social Media Influence” as an example, 
+the following prompt was provided to ChatGPT:
+Identify convergences and divergences in the topic Social Media Influence resulted 
+in the previous prompt and taking for this purpose the 30 interviews. Identify the 
+approximate percentage of such convergences and divergences. Start with an intro 
+where you give an overview of this result (Prompt 9).
+This prompt identifies statements related to a specific topic and assigns a percentage 
+based on the similarity of responses. ChatGPT performs this task by analyzing the 30 inter￾views and detecting patterns of dichotomous responses. The results (see Figure 3 in Online 
+Appendix B for more detail) provide researchers with three key insights: first, an overview 
+of the convergences and divergences in respondents’ statements on a given topic; second, 
+the percentage of similarity between different statements; and third, the identification of 
+direct, contextually relevant quotes.
+After identifying the diverse perspectives of the interviewees across the 12 thematic 
+axes, the next step involves exploring these themes in greater depth by searching for 
+key terms or categories. This categorization is designed to encapsulate the central ideas 
+expressed by the entire group of interviewees for each of the 12 themes. This is achieved 
+by instructing ChatGPT with a prompt similar to the following:
+Find and list terms related to the topic Social Media Influence resulted in the previ￾ous prompt and taking for this purpose the 30 interviews. Start with an intro where 
+you give an overview of this result (Prompt 10).
+This instruction allows the researchers to get an overview of each theme considering 
+the statements of all interviewees. The result is a series of specific categories (codes) that 
+reveal the central elements of the themes. This compilation not only shows the variety of 
+terms used by respondents on the topic of “Social Media Influence,” but also provides a 
+general description of the terms that can help researchers understand the meaning of the 
+categories (see Figure 4 in the Online Appendix B). A subsequent “manual” or AI-assisted 
+analysis can be performed.
+After completing this step, ChatGPT can be instructed to provide the most representa￾tive direct quotes for each theme, complementing the previous analysis (Prompt 11). This 
+process results in a collection of specific quotes that encapsulate the central ideas of the 
+selected theme. For researchers seeking a higher level of thematic precision in the quotes, 
+additional prompts can be used to request literal statements. For instance, the AI was asked 
+to:
+Provide literal statements from the 30 interviewees that support the social issue 
+resulting from the first prompt and more specifically the result: “Social media, espe￾cially Instagram and Twitter, is a primary source of information for the majority.” 
+There should be one statement for each interviewee, if an interviewee does not talk 
+about it, represent the answer as N/A. Start with an intro where you give an overview 
+of this finding (Prompt 12).
+This instruction is based on several key elements that enable the AI to achieve an opti￾mal result. The first sentence is specific, instructing ChatGPT to focus not on the topic 
+
+Thematic analysis of interview data with ChatGPT: designing… 5499
+“Social Media Influence” but on its specific subtheme “Instagram and Twitter, as the pri￾mary source of information for the majority” (which follows from the previous prompts 
+in phase 2). The second sentence instructs the AI to go through the 30 interviews and also 
+mark those interviewees who do not make a statement on the subtheme.
+2.4  Phase 4: Iterative process
+In the fourth stage, researchers “define and refine” themes by engaging in an iterative con￾versation with the chatbot to acquire specific themes, associated keywords, and relevant 
+excerpts from the identified thematic axes. This phase is crucial as it is during this stage 
+that the AI will systematize the final outcome of the thematic analysis for each of the 12 
+core axes obtained in the previous phase. Additionally, as in traditional thematic analysis, it 
+helps researchers understand the essence of each theme and the story they want to tell with 
+them (Braun and Clarke 2006).
+To deepen the analysis, ChatGPT should be instructed to “perform a thematic analy￾sis” for each individual theme identified in the initial prompt (Prompt 13). For example, 
+when the AI was asked to conduct a detailed thematic analysis for the theme “Social Media 
+Influence,” it produced six key elements. First, the AI provided an overview of the topic, 
+emphasizing the complex relationship between interviewees and social media. Second, it 
+outlined key themes, such as the significance of social media as a primary source of infor￾mation, its influence on political opinions, its convenience and accessibility, and the trust 
+and reliability of the information it offers. Third, the AI presented key terms associated 
+with this central theme. Fourth, it analyzed convergences, which primarily revolved around 
+the role of social media as a source of information, and divergences, which were mostly 
+centered on trust in the information provided. Fifth, ChatGPT incorporated direct quotes 
+from interviewees to illustrate specific examples of individual perspectives on social media 
+use and its influence on opinions. Finally, the AI provided a conclusion and an overall sum￾mary of the findings.
+Another major feature that adds systematization to the thematic analysis is a reasonable 
+use of tables. Accordingly, at this stage, it is advisable to incorporate the following prompt:
+Make a table where a thematic analysis is carried out on the “Social media influ￾ence” axis following all the steps proposed in the previous prompts. The chatbot 
+should respond with identified topics, associated keywords, and relevant text excerpts 
+(Prompt 14).
+The result is a table that summarizes information on specific themes, associated key￾words, and relevant excerpts, providing a structured and clear overview of the thematic 
+analysis conducted on the “Social Media Influence” topic (see Table 2 for more detail). 
+In this case, ChatGPT mentions that the table incorporates steps from previous prompts, 
+suggesting that this information is the cumulative result of a broader process. This table 
+reflects a quick and accessible understanding of key aspects derived from the thematic 
+analysis so far. After applying these two prompts to all thematic axes, the next step will be 
+to carefully review ChatGPT’s thematic analysis.
+2.5  Phase 5: Review and validation
+This phase involves a thorough review of the final results obtained from the previous stage. 
+Specifically, this step aims to assess the accuracy and replicability of the AI-generated 
+
+5500 M. Goyanes et al. Table 2 Specific themes, keywords, and relevant excerpts on “Social Media Influence” Themes Keywords Verbatims Primary information source Social media, Instagram, Twitter, information “I update Instagram and get the news. On Twitter, it has to be something specific that I look for” Influence on political opinions Political content, perspectives, influence “Well, I have formed my opinion regarding the situations, right? What I have wit- nessed and what I have not… I just don’t know how to explain it, honestly” Convenience and accessibility Convenience, quick accessibility “The convenience of accessing information quickly and effortlessly through social media is emphasized” Trust and reliability Trust, reliability, skepticism “Yes, they influence me. Because he seems to me like a guy who has clear ideas, who knows what he’s saying, and… I kind of trust him” Filter bubbles and echo chambers Filter bubbles, echo chambers, algorithmic nature “Acknowledgment of social media’s impact on creating filter bubbles and echo chambers is evident. Users recognize the algorithmic nature of content deliv- ery…” Digital agora Digital agora, public discourse, exchange of ideas “Social media platforms are metaphorically likened to a digital agora, symbolizing a space for public discourse and the exchange of ideas” Variety of perspectives Diverse perspectives, variety of opinions “Despite concerns about echo chambers, users appreciate the ability to encounter a variety of perspectives on social and political issues” Instant gratification Instant gratification, quick information dissemination “The instant nature of information dissemination on social media is highlighted, contributing to users’ preference for these platforms” Likes and shares impact Likes, shares, metrics, news importance “Some users express concern about the influence of likes and shares, questioning how these metrics shape perceptions of news importance”
+
+Thematic analysis of interview data with ChatGPT: designing… 5501
+results. Given that the same study using the same dataset may yield different insights 
+depending on the researcher’s perspective and reflexivity, it is important to consider the 
+variability inherent in qualitative analysis. Accordingly, if a researcher conducts the the￾matic analysis manually instead of relying on AI, will the results be similar or different? 
+The answer is that they will inevitably differ. However, this does not imply that the AI￾generated results are incorrect; rather, they represent one of many possible interpretations 
+that can be derived from the same dataset. Therefore, this phase of thematic analysis serves 
+a twofold purpose: (1) to evaluate the validity and reliability of the obtained results, and (2) 
+to determine whether these findings can serve as a foundation for researchers seeking to 
+extend the analysis through their own critical interpretation.
+To check the reliability of the results obtained, we propose a three-step checklist using 
+the most common methods to perform thematic analysis: (1) manually, (2) using CAQDAS 
+software (NVivo), and (3) using an AI-powered CAQDAS (in this case, Atlas.ti’s AI Cod￾ing Beta Service). It is important to note that this checklist contains a set of core questions 
+that can be adapted for different studies and outcomes within the thematic analysis meth￾odology. In this case, the checklist focuses on the thematic axis of Social Media Influence, 
+specifically the results of prompts 13 and 14 (see Online Appendix A).
+At the first level, critical thinking is applied through a series of questions on each the￾matic axis. Researchers are required to answer these control questions. In case of a nega￾tive result, an explanation and corrective action in the form of a new question is required. 
+For the thematic axis of the influence of social media, the control questions are as follows:
+Q1 The exploration of 30 interviews provides a rich tapestry of perspectives, revealing 
+commonalities and distinctions in how people perceive and engage with these digital 
+spaces as sources of information?
+Q2 After reviewing the 30 interviews, can we confirm that the identified themes could be: 
+primary information source, influence on political opinions, convenience and accessibility, 
+trust and reliability, and filter bubbles and echo chambers?
+Q3 Considering the responses of the interviewees, are the convergences and divergences 
+proposed by ChatGPT correct?
+Q4 Do the direct quotes provided by ChatGPT exist, and do they match the statements of 
+the interviewees?
+Q5 The keywords identified by ChatGPT accurately represent the statements of the 30 
+interviewees in the thematic axis of social media influence?
+After the critical examination of the questions for the 12 thematic axes, the qualitative 
+analysis tool Nvivo (one of the most frequently used CAQDAS services for thematic analy￾sis) is used at the second control level. Specifically, two of its functions are used: (1) word 
+frequency query and (2) word tree.
+On the one hand, the word frequency query allows listing the words that occur most 
+frequently in different choice sets. Therefore, in this task, researchers need to confirm 
+whether, after uploading the 30 interviews to NVivo and using the “word frequency query” 
+tool, they can obtain a tag cloud that can directly or at least partially represent the 12 axes 
+identified by ChatGPT. On the other hand, a word tree is a visual representation, in the 
+
+5502 M. Goyanes et al.
+form of a graph, that helps identify frequent words and phrases within the data, demon￾strating how themes and insights have been derived. For illustration purposes, the keyword 
+word tree will be applied to the theme “Social Media Influence.” This review task aims to 
+assess whether the direct quotes obtained from the word tree for the selected thematic axis 
+align with or are similar to those provided by ChatGPT. The word tree should be applied to 
+each thematic axis to evaluate the consistency of the results generated by ChatGPT.
+In the third and final phase of the inspection, the AI Coding Beta Tool of the CAQ￾DAS software Atlas.ti is used. This tool was developed to automate the coding of inter￾views through its AI-driven support. In this context, two questions are asked in the review 
+checklist. The first question aims to determine whether, after uploading the 30 interviews 
+to Atlas.ti and using the “AI Coding Beta” tool, any of the automatically generated codes 
+match the key themes identified by ChatGPT. The second question aims to see if the codes 
+generated by Atlas.ti use the same or similar key phrases or terms that we obtained through 
+our prompts. These questions aim to assess the consistency of the results.
+All checklist questions must be carefully analyzed by the co-authors. If, after analysis, 
+the researchers can confirm that ChatGPT has given a correct answer, they should also 
+justify why the result is correct. On the other hand, if the answer is incorrect or ambiguous, 
+the co-authors should review earlier stages, refine the instructions or continue the conver￾sation to ensure the accuracy of the results.
+Below we provide templates (see Tables 3, 4, 5) for a possible three-phase verification 
+guide with which to review the results obtained with ChatGPT.
+After completing this three-phase protocol for the social media influence thematic axis, 
+we can proceed by asking:
+Repeat the thematic analysis for the social media influence axis as done in previ￾ous prompts and incorporate the following improvements: do a more exhaustive job, 
+expand and better clarify the Additional Key Phrases identified (Prompt 15).
+The outcome of this prompt will serve as the foundation for the development of the next 
+phase.
+2.6  Phase 6: Analysis and interpretation
+At this point in the process, researchers should collect and take ownership of ChatGPT’s 
+results in order to more thoroughly and reflectively examine the results obtained through 
+the platform. Below is an example of insights generated through human analysis assisted 
+by ChatGPT, focusing on the ‘Social Media Influence’ axis, which could be perfectively 
+incorporated into the results section of an original research paper:
+When examining the convergences and divergences between interviewees’ statements 
+on the thematic axis of social media influence, there is consensus on the central role of 
+social media as a primary source of information. The recognition of the convenience and 
+quick accessibility offered by platforms such as Instagram and Twitter stand out as a com￾mon perspective among participants. However, in terms of trust in the information obtained 
+via these platforms, there are differing views that reveal varying levels of trust and a degree 
+of skepticism.
+In this sense, and taking into account the thematic axis “Social media influence” with its 
+categories, keywords and interviewees’ statements, we can confirm that in today’s digital 
+age, social networks have become the primary source of information for many users, with 
+Instagram and Twitter being the most well-known platforms. “I update Instagram and get 
+
+Thematic analysis of interview data with ChatGPT: designing… 5503 Table 3 Checklist proposal for review and validation: phase 1—verification of results from prompts 13 and 14 (manual review) Checklist question Yes/no Justification Proposed improvement if necessary The exploration of 30 interviews provides a rich tap- estry of perspectives, revealing commonalities and distinctions in how people perceive and engage with these digital spaces as sources of information? Yes The exploration of 30 interviews offers a valuable and comprehensive approach to understanding individu- als’ perspectives and interactions with digital spaces as sources of information N/A After reviewing the 30 interviews, can we confirm that the identified themes could be: primary information source, influence on political opinions, convenience and accessibility, trust and reliability, and filter bub- bles and echo chambers? Yes Although the themes may differ to some extent manually, we can confirm that they are indeed appropriate. Yes, the identification of themes such as primary information source, influence on political opinions, convenience and accessibility, trust and reliability, and filter bubbles and echo chambers is plausible and justified after reviewing the 30 interviews N/A After analyzing the 30 interviews, can we confirm that the key phrases or terms could be the same as those obtained with ChatGPT? No Yes, after analyzing the 30 interviews, we can confirm that the key phrases or terms could be the same as those obtained with ChatGPT. However, further exploration would be recommendable, since terms such as “digital agora,” “variety of perspectives,” “instant gratification,” and “likes and shares impact” appear to be too broad It is recommended to use a broader prompt or manu- ally utilize “digital agora,” “variety of perspec- tives,” “instant gratification,” and “likes and shares impact” as a foundation to achieve more specific results Considering the responses of the interviewees, are the convergences and divergences proposed by ChatGPT correct? Yes After analyzing the interviews, it is confirmed that the convergences and divergences identified by ChatGPT for the social media influence thematic axis are valid N/A Do the direct quotes provided by ChatGPT exist, and do they match the statements of the interviewees? Yes After conducting a search for the obtained direct quotes, it is confirmed that they exist and align with the thematic axis of social media influence N/A The keywords identified by ChatGPT accurately rep- resent the statements of the 30 interviewees in the thematic axis of social media influence? Yes After analyzing the key words provided by ChatGPT, we confirm that these are indeed valid and align with both the statements of the interviewees and the thematic axis of social media influence N/A
+
+5504 M. Goyanes et al.
+the news. On Twitter, it has to be something specific that I look for,” claims one of the 
+interviewees. In this context, real-time updates and diverse content are the most important 
+aspects of this process, according to the users interviewed.
+As far as political opinions are concerned, active opinion-forming can be observed, 
+even if some respondents have difficulty articulating their views. In general, the conveni￾ence and accessibility of obtaining information quickly and effortlessly are highlighted as 
+advantages of the digital environment. However, some statements confirm that concerns 
+arise regarding trust in the information, with varying degrees of skepticism and the need to 
+fact-check. In addition, interviewees acknowledge the existence of filter bubbles and echo 
+chambers and understand the algorithmic provision of content potentially limits access 
+to different perspectives. In this context, the importance of reviewing and searching for 
+diverse information becomes clear.
+On the other hand, in this digital scenario presented by the interviewees, social media 
+platforms are metaphorically understood as a digital agora “where people come together, 
+share and discuss ideas”, as one of the interviewees acknowledges. Despite concerns about 
+echo chambers, respondents generally value social media because it offers them the oppor￾tunity to learn about different worldviews on social and political issues. In addition, the 
+instant gratification that comes with the rapid dissemination of information on social media 
+is highlighted as a key factor that attracts users. However, there are also concerns about 
+how metrics such as likes and shares can influence perceptions of news relevance, lead￾ing to considerations about the authenticity of assigned relevance: “The number of likes 
+and shares impacts how I perceive news importance, and that’s a bit concerning,” said one 
+interviewee. Another key point of this thematic axis focuses on the challenges of media 
+literacy and emphasizes the crucial need to evaluate and interpret the information found on 
+these platforms. Finally, interviewees acknowledge that media literacy on social media is 
+both important and challenging, as not everyone critically evaluates what they see.
+Overall, the findings of this case study extend previous research on social media effects, 
+which has mostly relied on hypothetic-deductive methods, by delving into the context in 
+Table 4  Checklist proposal for review and validation: phase 2—verification of results from prompts 13 and 
+14 (semiautomatic review with Nvivo)
+Checklist question Yes/no Justification Proposed improvement if 
+necessary
+After uploading the 30 
+interviews to the NVivo 
+software and using the “word 
+frequency query” tool, do we 
+obtain a tags cloud in which 
+a terms is identified that 
+directly aligns with the social 
+media influence axis identi￾fied by ChatGPT?
+No The results are fairly differ￾ent. After examining both 
+ChatGPT and NVivo, we can 
+confirm that those provided 
+by ChatGPT are more 
+accurate
+It is advisable to discuss with 
+co-authors whether to incor￾porate additional queries to 
+NVivo, and then analyze it 
+with ChatGPT
+After uploading the 30 inter￾views to the NVivo software 
+and using the ‘word tree’ 
+tool applied to the concept 
+of social media influence, do 
+we obtain direct quotes that 
+align or are similar to those 
+obtained by ChatGPT?
+No The outcomes vary signifi￾cantly. After examining the 
+outcomes of both ChatGPT 
+and NVivo, we can conclude 
+that those of ChatGPT are 
+more precise
+It is recommended to analyze 
+whether there is any element 
+that NVivo could addition￾ally highlight and include. 
+In our case, there are none, 
+which further confirms that 
+ChatGPT’s precision is better 
+than NVivo’s
+
+Thematic analysis of interview data with ChatGPT: designing… 5505 Table 5 Checklist proposal for review and validation: phase 3—verification of results from prompts 13 and 14 (automatic review with Atlas.ti) Checklist question Yes/no Justification Proposed Improvement if Necessary After uploading the 30 interviews to the Atlas. ti software and using the ‘AI Coding Beta’ tool, do any of the automatically generated codes align with the central themes identified by ChatGPT? Yes Although the coding results from Atlas.ti differ from those obtained by ChatGPT, there are direct connections between them N/A After inspecting the different codes created by AI Coding Beta, can we confirm that they use the same or similar key phrases or terms obtained with ChatGPT? No It differs in some aspects. Atlas.ti provides a greater number of codes. However, ChatGPT offers more efficient coding Although the results obtained by ChatGPT are cor- rect, researchers could consider the possibility of including an additional code for the analyzed axis, either manually or using a new prompt
+
+5506 M. Goyanes et al.
+which social media influence regarding current affairs and politics occurs. By doing so, 
+the study sheds light on the evolving influence of social media and the factors that shape 
+it, such as the varying levels of trust these platforms inspire or the qualities users value 
+in social media information, such as rapid dissemination. It also contributes with richer 
+insights into new information consumption patterns, political perspectives and the intricate 
+landscape of social media platforms.
+From this thematic analysis, we can infer that ChatGPT is effective in identifying the 
+themes discussed in the interviews; however, it struggles to demonstrate how these themes 
+interrelate to form a cohesive academic narrative. While ChatGPT could also perform this 
+contextualization, as shown in the previous example, human intelligence remains superior 
+in applying metaphorical thinking and synthesizing related interpretative codes.
+3  Discussion and conclusions
+In recent years, the emergence and development of language models as powerful tools 
+for processing and generating human-like text has significantly transformed the experi￾ence of conducting both quantitative and qualitative data analysis (De Paoli and Mathis 
+2024; Hariri 2023; Morgan 2023; Lubiana et al. 2023). In the case of qualitative research, 
+artificial intelligence in general, and ChatGPT in particular, represent promising avenues 
+to explore text transcriptions from interview data and facilitate the work of qualitative 
+researchers (De Paoli and Mathis 2024; Morgan 2023). However, these promises have not 
+yet been practically explored and empirically validated. This methodological paper is a 
+step in this direction by providing a reliable research protocol for using ChatGPT and simi￾lar language models for qualitative data analysis.
+Most notably, our paper puts forward a tested research protocol for thematic analysis 
+with ChatGPT, which can be further tested and refined by other researchers. This protocol 
+is based on the foundational work of Braun and Clarke (2006) being widely used by the 
+qualitative research community around the globe (Byrne 2022; Forbes 2021; Javadi and 
+Zarea 2016; Pilcher and Cortazzi 2024; Vaismoradi et al. 2016). That is, it is intended to 
+resemble that original proposal, particularly in terms of the approach and spirit of data 
+preparation, data analysis and data validation. Accordingly, this guideline attempts to cap￾ture the nuances of thematic analysis by proposing the following six steps: (1) data prepa￾ration, (2) defining the analysis process, (3) chatbot interaction, (4) iterative process, (5) 
+review and validation, and (6) analysis and interpretation.
+After the iterative process of data analysis, perhaps the hardest test for data validation is 
+to examine the reliability of the proposed thematic patterns that emerge from the data. Our 
+approach in this case was to test the reliability of the coding patterns using two other quali￾tative data analysis software programs, Atlas.ti and Nvivo, and then assess the reliability of 
+the data using the checklist suggested in Table 3 and human intelligence. Any significant 
+deviation from the results of the two software programs and the natural conclusions sug￾gested by human intelligence must be explained in detail and the next best course of action 
+indicated. This design, which aims to evaluate the thematic patterns and verbatims emerg￾ing from ChatGPT using two independent qualitative data analysis software programs in 
+addition to human intelligence, showcases the nature of this proposal and the transparent 
+orientation of the data analysis.
+The paper also offers theoretical implications, as it extends ongoing scholarly con￾versations about the use of AI and ChatGPT specifically in key aspects of research (e.g., 
+
+Thematic analysis of interview data with ChatGPT: designing… 5507
+De Paoli and Mathis 2024; Kumar 2023; Sallam 2023; Shtykalo and Yamnenko 2024). 
+Although this AI tool is not the ultimate platform for qualitative data analysis (various soft￾ware packages have been successfully implemented in recent decades, such as Nvivo, Atlas.
+ti, etc.), its powerful language model and its ability to summarize, interpret, and solve vari￾ous research problems make this artificial intelligence model an ideal candidate to assist 
+researchers in many phases of empirical investigation (Morgan 2023). Thus, our study 
+contributes to this body of research by providing a deeper understanding of the potential 
+research uses of this tool while opening new avenues on the nuances of its applicability.
+Similarly, this study contributes to the literature on advancements in qualitative data 
+analysis (Castleberry and Nolen 2018; Hilal and Alabri 2013; Mohd Zabidi et al. 2022; 
+O’Kane et al. 2021). This type of analysis is often described as one of the most challeng￾ing parts of qualitative research due to its time-consuming nature and the lack of explicit 
+rules (Graue 2015; Hilal and Alabri 2013; Tuckett 2005). The ambiguity surrounding this 
+process has also made it a target of criticism. Within this framework, the literature has 
+been extensive in developing standardized models for coding documentary material with 
+thematic analysis (see Maguire and Delahunt 2017), as well as in comparing quantitative 
+and qualitative text analyses to extract codifications that distill the information contained in 
+documents (Malandrino 2024). Similarly, prior research has been prolific in problematizing 
+and refining thematic analysis, proposing frameworks to extend its scope and make it more 
+reflective (Byrne 2022), or to clarify in detail its phases, nature, and practice (Finlay 2021). 
+In this regard, the present study contributes to these discussions by proposing a protocol for 
+thematic analysis assisted by artificial intelligence (see similar endeavors in Zhang et al. 
+2023, 2024). This approach adheres to the guiding principles of traditional thematic analy￾sis while expanding the procedure to integrate new technological tools, ensuring both rigor 
+and efficiency in the analysis process.
+In sum, this study provides the literature and interested researchers with a reliable proto￾col with which to analyze textual data, successfully expanding the possibilities of qualita￾tive data analysis.
+3.1  Limitations
+In terms of limitations, we must acknowledge that ChatGPT is far from capable of replac￾ing the human skills required for qualitative research. While ChatGPT may provide an 
+explicit but generally descriptive analysis of qualitative data, human intelligence remains 
+essential for deriving more meaningful and implicit theoretical insights (De Paoli and 
+Mathis 2024; Morgan 2023). Therefore, we highly recommend that researchers monitor 
+and analyze the data alongside ChatGPT. Our examination of the platform in terms of the 
+quality and granularity of thematic patterns reveals shortcomings, especially regarding the 
+subtle nuances and contextual insights generally associated with qualitative research. To 
+generate more granular insights with contextual meaning, the protocol needs to specify 
+and design the prompt in detail, which may not make up for the time spent, as this could 
+already be done by human intelligence. In short, perfecting the prompt is only worthwhile 
+if the quality of the output, including nuance and contextual explanations, can improve the 
+quality of human reasoning, which is difficult to achieve currently.
+Finally, the ethos of qualitative research has always been linked to the creative pro￾cess derived from human intelligence. The standardization of research craft in qualitative 
+research can improve the rigor and logical coherence of findings, but it can also suppress 
+the metaphorical thinking and narrative craft of qualitative scholars. In essence, qualitative 
+
+5508 M. Goyanes et al.
+research is based on the hunches, highs and lows of researchers immersing themselves in 
+the data and understanding the meaningful but sometimes subtle nuances of context and 
+reflexivity. Summarizing the qualitative data analysis process may be appropriate for stud￾ies that focus on structure and description, but extending AI-powered qualitative analysis 
+to all qualitative research could ultimately generate a more insipid, yet solid science.
+Supplementary Information The online version contains supplementary material available at https://doi.
+org/10.1007/s11135-025-02199-3.
+Author contributions All authors contributed to the study conception and design. Material preparation, data 
+collection and analysis were performed by Manuel Goyanes, Carlos Lopezosa and Beatriz Jordá. The first 
+draft of the manuscript was written by Manuel Goyanes and all authors commented on previous versions of 
+the manuscript. All authors read and approved the final manuscript.
+Funding Open Access funding provided thanks to the CRUE-CSIC agreement with Springer Nature. 
+The authors declare that no funds, grants, or other support were received during the preparation of this 
+manuscript.
+Declarations
+Conflict of interest The authors have no relevant financial or non-financial interests to disclose.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, 
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long 
+as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Com￾mons licence, and indicate if changes were made. The images or other third party material in this article 
+are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly 
+from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+References
+Aboalela, R. A.: ChatGPT for Generating Questions and Assessments Based On Accreditations. arXiv pre￾print arXiv:2312.00047 (2023)
+Adler, R.H.: Trustworthiness in qualitative research. J. Hum. Lact. 38(4), 598–602 (2022)
+Alasuutari, P.: The rise and relevance of qualitative research. Int. J. Soc. Res. Methodol. 13(2), 139–155 
+(2010)
+Braun, V., Clarke, V.: Using thematic analysis in psychology. Qual. Res. Psychol. 3(2), 77–101 (2006)
+Byrne, D.: A worked example of Braun and Clarke’s approach to reflexive thematic analysis. Qual. Quant. 
+56(3), 1391–1412 (2022)
+Castleberry, A., Nolen, A.: Thematic analysis of qualitative research data: Is it as easy as it sounds? Curr. 
+Pharm. Teach. Learn. 10(6), 807–815 (2018)
+Corbin, J.M., Strauss, A.: Grounded theory research: procedures, canons, and evaluative criteria. Qual. 
+Sociol. 13(1), 3–21 (1990)
+Creswell, J.W., Poth, C.N.: Qualitative Inquiry and Research Design: Choosing Among Five Approaches. 
+Sage, Thousand Oaks (2016)
+Denscombe, M.: Ground Rules for Social Research: Guidelines for Good Practice. McGraw-Hill Education. 
+Berkshire (UK) (2009)
+De Paoli, S., Mathis, W.S.: Reflections on inductive thematic saturation as a potential metric for measuring 
+the validity of an inductive thematic analysis with LLMs. Qual. Quant. 59, 1–27 (2024)
+Finlay, L.: Thematic analysis: the ‘good’, the ‘bad’and the ‘ugly.’ Eur. J. Qual. Res. Psychother. 11, 103–116 
+(2021)
+Forbes, M.: Thematic Analysis: A Practical Guide. New York: Sage Publishing (2021)
+Gil de Zúñiga, H., Goyanes, M., Durotoye, T.: A scholarly definition of artificial intelligence (AI): advanc￾ing AI as a conceptual framework in communication research. Polit. Commun. 41(2), 317–334 (2024)
+
+Thematic analysis of interview data with ChatGPT: designing… 5509
+Graue, C.: Qualitative data analysis. Int. J. Sales Retail. Mark. 4(9), 5–14 (2015)
+Hammersley, M.: What is Qualitative Research? Bloomsbury Academic. Berkshire (UK) (2012)
+Hariri, W.: Unlocking the Potential of ChatGPT: A Comprehensive Exploration of its Applications, Advan￾tages, Limitations, and Future Directions in Natural Language Processing. arXiv preprint arXiv:2304.
+02017 (2023)
+Hilal, A.H., Alabri, S.S.: Using NVivo for data analysis in qualitative research. Int. Interdiscip. J. Educ. 
+2(2), 181–186 (2013)
+Hwang, S.: Utilizing qualitative data analysis software: a review of Atlas Ti. Soc. Sci. Comput. Rev. 26(4), 
+519–527 (2008)
+Javadi, M., Zarea, K.: Understanding thematic analysis and its pitfall. J. Client Care 1(1), 33–39 (2016)
+Kekez, A.: 21. Qualitative data analysis in implementation and street-level bureaucracy research. In: 
+Research Handbook on Street-Level Bureaucracy, p. 317. Edward Elgar Publishing, Cheltenham (UK) 
+(2019)
+Kumar, A.H.: Analysis of ChatGPT tool to assess the potential of its utility for academic writing in biomedi￾cal domain. Biol. Eng. Med. Sci. Rep. 9(1), 24–30 (2023)
+Lacey, A., Luff, D.: Qualitative Data Analysis. Trent Focus, Sheffield (2001)
+Lapan, S.D., Quartaroli, M.T., Riemer, F.J.: Qualitative Research: An Introduction to Methods and Designs, 
+vol. 37. Wiley, Hoboken (2011)
+Liamputtong, P.: Qualitative data analysis: Conceptual and practical considerations. Health Promot. J. Austr. 
+20(2), 133–139 (2009)
+Lingard, L.: Writing with ChatGPT: An illustration of its capacity, limitations & implications for academic 
+writers. Perspect. Med. Educ. 12(1), 261 (2023)
+Lubiana, T., Lopes, R., Medeiros, P., Silva, J.C., Goncalves, A.N.A., Maracaja-Coutinho, V., Nakaya, H.I.: 
+Ten quick tips for harnessing the power of ChatGPT in computational biology. PLOS Comput. Biol. 
+19(8), e1011319 (2023)
+Madondo, S.M.: Data Analysis and Methods of Qualitative Research: Emerging Research and Opportuni￾ties: Emerging Research and Opportunities. Pensilvania: IGI Global Scientific Publishing (2021)
+Maguire, M., Delahunt, B.: Doing a thematic analysis: a practical, step-by-step guide for learning and teach￾ing scholars. All Irel. J. High. Educ. 9(3), 1–14 (2017)
+Malandrino, A.: Comparing qualitative and quantitative text analysis methods in combination with docu￾ment-based social network analysis to understand policy networks. Qual. Quant. 58(3), 2543–2570 
+(2024)
+Mohajan, H.K.: Qualitative research methodology in social sciences and related subjects. J. Econ. Dev. 
+Environ. People 7(1), 23–48 (2018)
+Mohd Zabidi, Z., Sumintono, B., Abdullah, Z.: Enhancing analytic rigor in qualitative analysis: Developing 
+and testing code scheme using many facet Rasch model. Qual. Quant. 56, 1–15 (2022)
+Morgan, D.L.: Exploring the use of artificial intelligence for qualitative data analysis: the case of ChatGPT. 
+Int J Qual Methods 22, 16094069231211248 (2023)
+Neuman, W.L.: Social Research Methods. Bacon: Allyn (2019)
+O’Kane, P., Smith, A., Lerman, M.P.: Building transparency and trustworthiness in inductive research 
+through computer-aided qualitative data analysis software. Organ. Res. Methods 24(1), 104–139 
+(2021)
+Patton, M.Q.: Qualitative Research & Evaluation Methods: Integrating Theory and Practice. Sage, Thou￾sand Oaks (2014)
+Pilcher, N., Cortazzi, M.: ’Qualitative’and’quantitative’methods and approaches across subject fields: impli￾cations for research values, assumptions, and practices. Qual. Quant. 58(3), 2357–2387 (2024)
+Polkinghorne, D.E.: Narrative configuration in qualitative analysis. Int. J. Qual. Stud. Educ. 8(1), 5–23 
+(1995)
+Sallam, M.: ChatGPT utility in healthcare education, research, and practice: systematic review on the prom￾ising perspectives and valid concerns. Healthcare 11(6), 887 (2023)
+Sarma, S.K.: Qualitative research: Examining the misconceptions. South Asian J. Manag. 22(3), 176 (2015)
+Shtykalo, O., Yamnenko, I.: ChatGPT and other AI tools for academic research and education. In: IEEE 
+International Conference on Advanced Trends in Radioelectronics, Telecommunications and Com￾puter Engineering, pp. 605–630. Springer, Cham (2024)
+Taylor, S.J., Bogdan, R., DeVault, M.: Introduction to Qualitative Research Methods: A Guidebook and 
+Resource. Wiley, Hoboken (2015)
+Thompson, K. (2017). Qualitative research rules: using qualitative and ethnographic methods to access the 
+human dimensions of technology. In: Evaluation of Rail Technology, pp. 75–110. CRC Press, Boca 
+Raton
+Thorogood, N., Green, J.: Qualitative methods for health research. Qual. Methods Health Res. 1–440 (2018)
+
+5510 M. Goyanes et al.
+Tuckett, A.G.: Applying thematic analysis theory to practice: a researcher’s experience. Contemp. Nurse 
+19(1–2), 75–87 (2005)
+Vaismoradi, M., Jones, J., Turunen, H., & Snelgrove, S.: Theme development in qualitative content analysis 
+and thematic analysis. Journal of Nursing Education and Practice, 6(5), 6–7 (2016)
+Vaismoradi, M., Snelgrove, S.: Theme in qualitative content analysis and thematic analysis. https://nordo
+pen.nord.no/nord-xmlui/bitstream/handle/11250/2627867/Vaismoradi.pdf (2019)
+Yan, L., Echeverria, V., Fernandez-Nieto, G. M., Jin, Y., Swiecki, Z., Zhao, L., D. Gašević, Martinez-Mal￾donado, R. (2024). Human–AI collaboration in thematic analysis using ChatGPT: a user study and 
+design recommendations. In: Extended Abstracts of the CHI Conference on Human Factors in Com￾puting Systems (pp. 1–7)
+Younas, A., Fàbregues, S., Durante, A., Escalante, E.L., Inayat, S., Ali, P.: Proposing the “MIRACLE” 
+narrative framework for providing thick description in qualitative research. Int J Qual Methods 22, 
+16094069221147162 (2023)
+Zhang, H., Wu, C., Xie, J., Lyu, Y., Cai, J., Carroll, J.M.: Redefining Qualitative Analysis in the AI Era: Uti￾lizing ChatGPT for Efficient Thematic Analysis. arXiv preprint arXiv:2309.10771 (2023)
+Zhang, H., Wu, C., Xie, J., Rubino, F., Graver, S., Kim, C., Carroll, J. M., Cai, J.: When Qualitative 
+Research Meets Large Language Model: Exploring the Potential of QualiGPT as a Tool for Qualitative 
+Coding. arXiv preprint arXiv:2407.14925 (2024)
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.

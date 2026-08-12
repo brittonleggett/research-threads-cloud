@@ -1,0 +1,2345 @@
+Large Language Models for Market Research: 
+A Data-Augmentation Approach
+Mengxin Wang,a Dennis J. Zhang,b Heng Zhangc,* 
+aNaveen Jindal School of Management, The University of Texas at Dallas, Richardson, Texas 75080; bOlin School of Business, Washington 
+University in St. Louis, St. Louis, Missouri 63130; cW. P. Carey School of Business, Arizona State University, Phoenix, Arizona 85069 
+*Corresponding author 
+Contact: mengxin.wang@utdallas.edu, https://orcid.org/0000-0002-3378-9402 (MW); denniszhang@wustl.edu, 
+https://orcid.org/0000-0002-4544-775X (DJZ); hengzhang24@asu.edu, https://orcid.org/0000-0002-6105-6994 (HZ) 
+Received: January 6, 2025 
+Revised: October 19, 2025; January 6, 2026 
+Accepted: January 8, 2026 
+Published Online in Articles in Advance: 
+March 17, 2026 
+https://doi.org/10.1287/mksc.2025.0009 
+Copyright: © 2026 INFORMS
+Abstract. Large language models (LLMs) have transformed artificial intelligence by excel￾ling in complex natural language processing tasks. Their ability to generate human-like 
+text has opened new possibilities for market research, particularly in conjoint analysis, 
+where understanding consumer preferences is essential but often resource intensive. 
+Traditional survey-based methods face limitations in scalability and cost, making LLM￾generated data a promising alternative. However, although LLMs have the potential to 
+simulate real consumer behavior, recent studies highlight a significant gap between LLM￾generated and human data, with biases introduced when substituting between the two. In 
+this paper, we address this gap by proposing a novel statistical data augmentation approach 
+that efficiently integrates LLM-generated data with real data in conjoint analysis. This 
+results in statistically robust estimators with consistent and asymptotically normal proper￾ties, in contrast to naïve approaches that simply substitute human data with LLM-generated 
+data, which can exacerbate bias. We further present a finite-sample performance bound on 
+the estimation error. We validate our framework through an empirical study on COVID-19 
+vaccine preferences, demonstrating its superior ability to reduce estimation error and save 
+data and costs by 24.9%–79.8%. In contrast, naïve approaches fail to save data due to the 
+inherent biases in LLM-generated data compared with human data. Another empirical 
+study on sports car choices validates the robustness of our results. Our findings suggest 
+that, although LLM-generated data are not a direct substitute for human responses, they can 
+serve as a valuable complement when used within a robust statistical framework.
+History: Hema Yoganarasimhan served as the senior editor. 
+Funding: This work was supported by OpenAI Research funding. 
+Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/ 
+mksc.2025.0009. 
+Keywords: conjoint analysis • data augmentation • large language models
+1. Introduction
+Large language models (LLMs) have revolutionized 
+artificial intelligence (AI) by delivering unprecedented 
+capabilities in natural language processing (NLP). 
+These models are built on advanced deep learning 
+architectures known as transformer networks, which 
+excel at handling sequential data and understanding 
+context (Vaswani et al. 2017, Radford et al. 2018). 
+Trained on extensive and diverse data sets—including 
+vast amounts of text from books, articles, and 
+websites—LLMs are capable of generating human-like 
+responses and performing complex language tasks. For 
+example, Llama 3 was trained on 15 trillion tokens of 
+data (HuggingFace 2024). This training enables LLMs 
+to comprehend and produce coherent, contextually rel￾evant text, making them invaluable tools in a wide 
+range of applications (Brown et al. 2020).
+The rapid development of LLMs also signifies a 
+transformative moment in the social sciences. In mar￾ket research—a critical area in marketing science 
+and operations management—understanding market 
+demand for products or services is paramount. Tradi￾tional market research methods, such as surveys, 
+focus groups, and conjoint analysis, often require sig￾nificant resources and time. Gathering data from real 
+subjects involves designing intricate questionnaires, 
+recruiting participants, and analyzing responses, all of 
+which can be both costly and logistically challenging 
+(Hair et al. 2019). LLMs present a novel solution by 
+enabling the generation of synthetic data that simu￾lates real consumer behavior without the need for 
+extensive fieldwork. This potential has sparked grow￾ing interest among researchers. Thus, a key advantage 
+of using LLMs in market research is their ability to 
+1 
+MARKETING SCIENCE 
+Articles in Advance, pp. 1–24 
+https://pubsonline.informs.org/journal/mksc ISSN 0732-2399 (print), ISSN 1526-548X (online) 
+
+scale data generation: Whereas traditional methods 
+often limit the volume of data that can be feasibly col￾lected due to constraints on time and resources, LLMs 
+can rapidly generate large volumes of data, facilitating 
+more comprehensive and granular analysis.
+LLMs are trained on vast amounts of data from 
+diverse sources across the internet, including reviews, 
+purchase decisions, and even real survey data on pro￾ducts and services from various categories. The under￾lying assumption, expressed with some exaggeration, 
+is that LLMs have been exposed to everything there is 
+to see. Researchers hypothesize that the responses 
+LLMs generate for market research surveys could, to 
+some extent, reflect the types of responses that real 
+consumers—represented in the training data—would 
+have given to the same questions. These factors sug￾gest that LLMs may become invaluable tools for gain￾ing insights into consumer preferences, thanks to their 
+ability to mimic or replicate human responses (Brand 
+et al. 2023). Recent studies provided encouraging evi￾dence supporting this potential (Argyle et al. 2023, 
+Chen et al. 2023, Horton 2023). For instance, research 
+showed that by fine-tuning a model (Gururangan et al. 
+2020) or employing prompting techniques such as 
+chain-of-thought (CoT) reasoning (Wei et al. 2022), it is 
+possible to generate simulated responses in market 
+surveys that resemble those of real human subjects 
+(Brand et al. 2023, Goli and Singh 2024). These explora￾tions suggest the enormous potential of LLMs for 
+advancing market research.
+Nonetheless, recent literature also highlights several 
+caveats. Despite some encouraging findings by Goli 
+and Singh (2024, p. 1), the authors acknowledged that 
+even the most up-to-date prompt engineering methods 
+and advanced LLMs, such as OpenAI’s Generative Pre￾trained Transformer (GPT), cannot completely elimi￾nate discrepancies between human and LLM responses 
+in market surveys. For example, they observe that GPT-4 
+exhibits a pronounced level of impatience compared 
+with human participants. This led the authors to con￾clude that “directly eliciting preferences using LLMs 
+can yield misleading results,” suggesting that LLMs 
+should be used more as tools to facilitate hypothesis 
+exploration rather than as direct substitutes for human 
+responses. Similarly, Gui and Toubia (2023) pointed 
+out that LLMs tend to make unintended assumptions 
+about unspecified details of the choice environment, 
+further complicating their use in market research.
+We acknowledge the significant potential of LLM￾generated labels for market research, but we also believe 
+that the aforementioned gap is likely to persist, even with 
+the most advanced future developments in AI. Consider 
+conjoint analysis, which is arguably the most fundamen￾tal methodology for understanding consumer prefer￾ences and decision-making processes in market research 
+(Green and Srinivasan 1990). Typically, the researcher 
+seeks to understand how consumers value different fea￾tures or attributes of a product or service (for details on 
+the setup, please refer to Section 3). At its core, customers 
+aim to maximize their benefits by selecting the optimal 
+products based on their past experiences. However, we 
+emphasize that LLMs do not possess real-life experi￾ences. Additionally, consumer preferences evolve over 
+time due to trends, technological advancements, and eco￾nomic and cultural shifts (Solomon 2020), changes that 
+LLMs may not accurately capture.
+The gap between an LLM’s predictions and actual 
+customer preferences can lead to misleading results if a 
+researcher simply replaces real data with AI-generated 
+data or naïvely combines the two—a point under￾scored in Goli and Singh (2024) through careful empiri￾cal studies. This observation aligns with our findings. 
+We conducted an empirical study on the conjoint anal￾ysis of COVID-19 vaccine preferences, pooling real 
+data with LLM-generated responses based on the same 
+set of product features and performing the conjoint 
+analysis in a manner similar to Brand et al. (2023) 
+(see Section 5 for details of the study). The results are 
+presented in Figure 1. Regardless of the version of 
+the LLM used or whether state-of-the-art prompting 
+techniques are applied, there is a significant gap 
+between the ground-truth model coefficients and 
+those estimated using pooled data. This gap does not 
+diminish with the inclusion of more LLM-generated 
+data; in most models, it actually worsens as more 
+LLM-generated data are added. In contrast, as one 
+would expect, the gap decreases when more real 
+data are incorporated, eventually vanishing to zero, 
+highlighting a stark contrast with the LLM-generated 
+data.
+Recognizing that AI-generated data, although infor￾mative, is inherently imperfect and likely to be mis￾leading if used naïvely, our goal is to develop a 
+scheme for its efficient utilization. Although engineer￾ing techniques such as fine-tuning, CoT prompting, 
+and in-context learning can potentially improve the 
+quality of data from LLMs, our objective is to intro￾duce a statistical approach that can be broadly applied 
+independently of these methods and have theoretical 
+guarantees. Our research question is then as follows: 
+Can we improve conjoint analysis by effectively integrating 
+LLM-generated data with real data to produce more accu￾rate estimators of customer preferences, compared with 
+using human data, LLM-generated data, or a naïve combi￾nation of both? Our method is inspired by the widely 
+recognized transfer learning and knowledge distillation 
+approach in the deep learning literature (Hinton et al. 
+2015). By formalizing and adapting their core principles 
+to our context, we present a data-augmentation statisti￾cal approach for extracting value from LLM- and 
+AI-generated conjoint data. Specifically, we make two 
+key contributions.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+2 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+1.1. Novel Theoretical Framework for Data 
+Augmentation
+We develop a general framework for statistical data 
+augmentation using generative models, such as LLMs, 
+to capture human preferences in conjoint analysis, and 
+propose the AI-augmented estimator (AAE). The frame￾work is broadly applicable to hybrid data sets where 
+true human labels (ground truth) are available for only 
+a subset of data points, whereas AI-generated labels can 
+be created for all observations. These AI-generated 
+labels may be produced by a traditional machine learn￾ing (ML) model or a generative model such as an LLM. 
+Although our framework is compatible with any source 
+of surrogate labels, results presented in Section 5 and 
+Online Appendix A show that the estimator performs 
+best when the AI-generated data are more informative. 
+This finding suggests that, at the time of writing, the 
+most effective application of our framework is to aug￾ment data generated by LLMs.
+Conceptually, our approach leverages the joint dis￾tribution among features, surrogate labels, and true 
+labels within the subset of data where both types of 
+labels are observed. This joint structure allows us to 
+learn the distributional discrepancy between surrogate 
+and true labels and subsequently regularize the surro￾gate labels so that they more closely approximate the 
+true ones. By doing so, we effectively expand the 
+labeled data set, enabling more accurate estimation of 
+human preferences. These principles give rise to theo￾retically grounded estimators: our estimator is consis￾tent and asymptotically normal (Theorem 4.3) and 
+satisfies a finite-sample, high-probability performance 
+bound (Theorem 4.6). Furthermore, we demonstrate that 
+our method outperforms approaches that rely solely on 
+human data, solely on LLM-generated data, or on naïve 
+combinations of the two. We also show that our method 
+is a general approach for data augmentation that is 
+broadly applicable: In Section 4.4 and Online Appendix 
+B, we demonstrate that our approach can be extended to 
+the regression setting with a continuous target.
+1.2. Large-Scale Empirical Validation
+We conduct extensive empirical analyses across multiple 
+conjoint settings to validate the effectiveness and robust￾ness of our proposed AAE. In the first empirical study, 
+based on a real-world COVID-19 vaccination data set, 
+AAE consistently reduces estimation error relative to 
+naïve augmentation and AI-only baselines, even when 
+GPT-generated labels are imperfect. Its regularization 
+capability remains robust across different LLM versions 
+and prompting strategies—basic, CoT, few-shot, and 
+fine-tuned—with GPT-4o and CoT prompting achieving 
+the greatest gains. The results confirm that combining 
+LLM-generated and human data through a statistically 
+grounded augmentation framework yields reliable, 
+unbiased preference estimates while reducing survey 
+data requirements by 24.9%–79.8%. In Section 6, we 
+extend these findings to a separate sports car choice data 
+set and additional robustness checks. AAE again outper￾forms alternative estimators across all models and 
+prompts, outperforming even fine-tuned GPT-4o base￾lines. Further comparisons show that AAE matches 
+prediction-powered inference (PPI), an alternative data 
+augmentation strategy (see the literature review and 
+Figure 1. (Color online) LLM-Generated Data ≠ Human Data 
+Notes. The plot illustrates the percentage error of estimation, calculated as ||(β
+b β∗
+)=β∗ || 1, where the ratio is computed component-wise. This 
+error is based on pooling 50 real customer response data points with LLM-generated data of varying sizes. Each curve represents estimators 
+obtained using different combinations of AI-generated or real labels. For further details, please refer to Section 5. The horizontal axis indicates 
+the quantity of data pooled into the model.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 3 
+
+Angelopoulos et al. (2023a, b)) in low-dimensional cases 
+but surpasses it in high-dimensional conjoint features 
+due to its more granular correction of AI-human discrep￾ancies. Finally, under model misspecification and non￾parametric estimation settings, AAE continues to exhibit 
+strong stability and accuracy. Collectively, these empiri￾cal results demonstrate that AAE offers a scalable, bias￾controlled, and cost-efficient solution for integrating 
+LLM-generated data into real-world market research.
+We briefly discuss the organization of our paper. In 
+Section 2, we present a literature review. In Section 3, 
+we set up our model and formally state our data￾augmentation approach. We discuss the theoretical 
+properties of our proposed approach in Section 4 and 
+two empirical studies in Sections 5 and 6. In Section 7, 
+we conclude.
+2. Literature
+In this section, we review several key streams of litera￾ture relevant to our research.
+2.1. Technical Development of NLP and LLM
+The development of LLMs represents a culmination of 
+decades of advances in NLP and deep learning techni￾ques. The foundational work of Chomsky (1956) intro￾duced formal models for language description, paving 
+the way for computational approaches to linguistic 
+analysis. Modern LLMs owe much to significant tech￾nical breakthroughs in recent years, such as the intro￾duction of sequence-to-sequence models (Sutskever 
+et al. 2014) and the transformer architecture (Vaswani 
+et al. 2017), which enables efficient handling of sequen￾tial data and contextual understanding.
+Key milestones in this area include the develop￾ment of Bidirectional encoder representations from 
+transformers (Devlin et al. 2018), which introduced 
+bidirectional context modeling, and GPT (Radford 
+et al. 2018), which leveraged generative pretraining to 
+advance NLP capabilities. These innovations culmi￾nated in LLMs like GPT-4 (Achiam et al. 2023), charac￾terized by their ability to perform complex language 
+tasks after training on massive data sets. Importantly, 
+further improvements, such as domain-specific adap￾tations as effective strategies for fine-tuning (Beltagy 
+et al. 2019, Gururangan et al. 2020, Parthasarathy et al. 
+2024) and few-shot learning (Brown et al. 2020) enable 
+these models to achieve remarkable performance in 
+specific tasks. We refer the readers to Naveed et al. 
+(2023) for a review of the broader trajectory of LLM 
+research. These technical advancements underpin the 
+transformative potential of LLMs in applications such 
+as social science and consumer behavior modeling.
+2.2. Using LLMs for Social Sciences and 
+Market Research
+AI, especially LLMs, is making a pronounced impact 
+on social sciences. Researchers have explored how 
+these models can simulate human behavior and provide 
+insights into societal phenomena. For instance, Ziems 
+et al. (2024) discussed the potential of LLMs to transform 
+computational social science by generating synthetic 
+data and modeling complex social dynamics. However, 
+questions remain about the reliability of these models 
+in replicating real-world behavior, as highlighted by 
+Huang et al. (2024) and Yang et al. (2024), who cau￾tioned against over-reliance on LLMs for social pre￾dictions due to their lack of lived experiences and 
+contextual nuances. Similarly, Gui and Toubia (2023) 
+pointed out challenges in using LLMs to simulate 
+human behavior, especially from a causal inference per￾spective, where the models may fail to account for 
+underlying causality in decision-making processes.
+In the domain of market research, LLMs have 
+emerged as powerful tools for generating synthetic data 
+that mimics human responses. Studies such as Brand et al. 
+(2023) and Argyle et al. (2023) demonstrated the feasibility 
+of using LLMs for simulating consumer preferences, 
+whereas Chen et al. (2023) and Horton (2023) highlighted 
+the potential of these models as simulated economic 
+agents. Still, the extent to which LLMs can faithfully repli￾cate human preferences remains a point of debate, as 
+explored by Goli and Singh (2024), who emphasized the 
+challenges in achieving alignment between AI-generated 
+and human data. Our work provides an alternative per￾spective on this question: while LLMs may not fully repli￾cate human behavior or replace humans in social sciences 
+or market research, they can nonetheless offer valuable 
+insights to improve existing methods. With the implemen￾tation of robust statistical procedures for correcting bias, 
+LLMs can serve as effective tools for enhancing the accu￾racy and efficiency of current methodologies.
+2.3. Conjoint Analysis
+Conjoint analysis has long been a cornerstone of market 
+research, providing insights into consumer preferences 
+by evaluating tradeoffs between product attributes 
+(Green and Srinivasan 1978, 1990). Over time, this meth￾odology has seen significant methodological advance￾ments. On the decision-making side, early work by 
+Kohli and Sukumar (1990) and Wang et al. (2009) 
+explored heuristics and optimization approaches for 
+conjoint-based product line design, whereas Kessels 
+et al. (2008) focused on optimizing experimental design 
+for conjoint studies. Recent contributions, such as Dzya￾bura and Jagabathula (2018), extend the conjoint analy￾sis to multichannel settings, incorporating both online 
+and offline consumer behaviors.
+Our research builds on the rich tradition of inte￾grating methods from statistics or ML into conjoint 
+analysis. Although prior studies have leveraged 
+advanced statistical models (Allenby and Rossi 2006) 
+and Bayesian frameworks (Eggers et al. 2022), we 
+introduce a novel data augmentation approach that 
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+4 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+bridges the gap between AI-generated and real-world 
+data. Furthermore, as mentioned, Goli and Singh (2024) 
+emphasized the limitations of using LLM-generated 
+data alone for preference estimation, underscoring the 
+need for innovative solutions like our proposed meth￾odology. This methodological contribution represents a 
+significant step forward in enhancing the robustness 
+and scalability of conjoint analysis.
+2.4. PPI
+Notably, our work also connects to PPI literature. PPI 
+provides a framework for combining a small labeled 
+data set with a large pool of ML predictions to con￾struct unbiased, valid confidence intervals that shrink 
+as prediction quality improves (Angelopoulos et al. 
+2023b). PPI++ (Angelopoulos et al. 2023a) builds on 
+this by replacing computationally intensive test-based 
+constructions with simple Wald-type intervals, intro￾ducing a power-tuning mechanism that automatically 
+adapts to prediction quality and ensuring efficiency 
+gains without risk of degradation when predictions 
+are weak. Most recently, Ji et al. (2025) reinterpret PPI 
+through the surrogate-outcome literature, proposing 
+RePPI, which recalibrates the imputed loss with flexi￾ble models to achieve efficiency-optimal inference 
+under convex settings, dominating PPI and PPI++
+when recalibration is consistent and still never worse 
+than using labels alone. Together, the three works 
+establish a coherent progression: PPI for validity, 
+PPI++ for computational and adaptive efficiency, and 
+RePPI for optimal use of predictions.
+At a high level, AAE and PPI share the same guid￾ing principle: use a small data set containing both 
+real and AI labels to learn the discrepancy between 
+them and then apply this correction to a larger data 
+set containing only AI labels. However, we note two 
+key differences. The key difference lies in how the 
+two methods correct the discrepancy. PPI operates 
+through a rectified score function, subtracting the 
+empirical score function difference from the primary 
+set from the empirical score function of the auxiliary 
+set. However, score function constructed based on 
+log-likelihood functions tend to flatten in high￾dimensional feature spaces, which can lead to infor￾mation loss when adjusting the aggregated loss. 
+AAE, on the other hand, directly models the discrep￾ancy between AI and real data as a function of the 
+feature vector x and AI label z. It corrects AI labels 
+directly by replacing them with predictions of the 
+real labels given the AI label and product features, 
+enabling a more granular adjustment. As shown in 
+our empirical findings in Section 6.3, AAE performs 
+similarly to PPI when x is low dimensional but out￾performs PPI in higher-dimensional settings. Please 
+also see Section 4.5 for a detailed comparison between 
+PPI and our method.
+2.5. Technology, Innovation, and 
+Entrepreneurship
+Our work also speaks to the literature of technology, 
+innovation, and entrepreneurship, the intersection of 
+which has been a focal point of operations manage￾ment research. Foundational works such as Shane and 
+Ulrich (2004) provide a comprehensive overview of 
+how technological advancements drive product devel￾opment and entrepreneurial activities. Recent studies 
+emphasize the role of AI and ML in reshaping opera￾tional tasks. For instance, Terwiesch (2019) and Bastani 
+et al. (2022) highlight the potential of AI tools to opti￾mize decision-making processes, whereas Yoo et al. 
+(2024) identify new frontiers in digital innovation.
+Our work contributes to this stream by demonstrat￾ing how LLMs represent a disruptive innovation in 
+market research. By democratizing access to market 
+insights, LLMs enable startups and smaller firms to 
+conduct sophisticated analyses previously reserved 
+for resource-intensive operations (Olsen and Tomlin 
+2020, Choi et al. 2022). Furthermore, our findings align 
+with Girotra et al. (2023), which discusses the transfor￾mative role of LLMs in idea generation and business 
+innovation. Along a similar line, Connell and Choi 
+(2024) discusses how to correct the misclassification 
+error in using LLM in place of human for classifying 
+textual data; Zhang et al. (2023) study debiasing mea￾surement error in ML/AI-generated regressors in par￾tially linear regression models. Ludwig et al. (2024) 
+develops an econometric framework to assess the 
+validity of using LLMs in economics research, empha￾sizing the need to avoid training data leakage for 
+prediction tasks and to ensure gold standard measure￾ment equivalence for estimation tasks while providing 
+guidance on mitigating potential biases and limita￾tions. Collectively, these insights underscore the poten￾tial of new technologies to revolutionize traditional 
+operational practices, particularly for data collection 
+and consumer analysis.
+3. Model and the Data-Augmentation 
+Approach
+In this section, we establish the theoretical framework. 
+We focus on conjoint analysis as the primary use case 
+to present the theory and conduct the empirical analy￾sis detailed in Section 5.
+3.1. Setup
+We first provide a detailed explanation of the setup, 
+starting with an in-depth discussion of the theoretical 
+framework underlying the data generation process. 
+We will outline the assumptions, structure, and speci￾fic parameters that guide this process, building a 
+foundation for understanding how the data are con￾ceptualized and modeled within this framework.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 5 
+
+3.1.1. Data-Generation Process and the Best-in-Class 
+Estimation. Consider a setting where we observe two 
+data sets. The first, referred to as the primary data, con￾sists of m data points, {(xP
+i , yP
+i , zP
+i )}m
+i1. For a fixed posi￾tive integer k, we denote the set {1, :::, k} by K and 
+define K+ K ∪{0}. These data points are indepen￾dently and identically distributed (i.i.d.) according to 
+the same distribution as the random vector (x, y, z), 
+where y, z ∈ K+ and x ∈ dk. To clarify, in the context of 
+conjoint analysis with AI-generated labels, x represents 
+the features or context of a choice setting, and y denotes 
+the respondent’s choice. Here, K+ corresponds to the 
+k + 1 options available to the respondent, where zero 
+represents the outside option. Additionally, x (x
+(1)
+, 
+x
+(2)
+,:::, x
+(k)
+)
+, where x
+(j) ∈ d corresponds to the fea￾tures of option j for each j ∈ K. Throughout this paper, 
+we refer to the random variable y as the real label. 
+The variable z represents a predicted label generated 
+by an AI model based on x, and we refer to it as the AI￾generated label. The second data set, called the auxiliary 
+data, consists of {(xi, zi)}n
+i1, which are independent of 
+the primary data but follow the same distribution. 
+However, in the auxiliary data, the true label yi is miss￾ing for each data point. In Figure 2, we illustrate this 
+theoretical setup using an example simplified from the 
+empirical setting in Section 5. In contrast, in typical 
+conjoint analysis settings, the AI-generated labels z is 
+not available, and our goal is to fit the vector ∈ d 
+to capture the choice probabilities as accurate as pos￾sible using multinomial logit (MNL) models, that is, 
+ such that
+σj(x;) e
+x
+( j)
+
+1 + P
+∈K e
+x
+()
+ , ∀j ∈ K, (3.1) 
+best approximates (y|x).
+How is this data-generation process implemented 
+in practice? A manager facing a conjoint study prob￾lem can begin by collecting a small sample of human 
+response data. Using the same questions presented to 
+human respondents, the manager can query an LLM 
+to generate the primary data set containing both labels 
+y and z. Subsequently, the manager can generate addi￾tional responses by querying the LLM with a different 
+set of choices, which forms the auxiliary data set 
+where the true label y is missing. Because the cost of 
+querying an LLM is negligible compared with recruit￾ing human subjects in many cases, the auxiliary data 
+are typically much larger than the primary data in 
+size.
+We assume that the distribution (y|x, z) can be 
+parameterized as (y j|x, z) gj(x, z;∗
+) for each 
+j ∈ K+, where ∗ ∈ q is not known to us. This assump￾tion is motivated by the fact that modern artificial AI 
+models, such as an LLM, are trained with vast 
+amounts of text data, including information from 
+numerous sources on the internet, that may contain 
+product reviews, messaging boards, and other online 
+forums with contributions from a wide range of consu￾mers discussing the products they shop for and pur￾chase (Brand et al. 2023). Therefore, AI can “mimic” 
+Figure 2. (Color online) Illustration of the Data Set 
+Notes. In this figure, we illustrate the two data sets, using an example simplified from the empirical setting in Section 5. For each data point in 
+the primary data of size m, two vaccine options are presented to both the human respondent and the AI. Corresponding to the first data point, 
+the first vaccine has the following features: 50% efficacy, a one-year protection duration, a major side effect rate of 1 in 1,000,000, a minor side 
+effect rate of 1 in 10, and endorsement by President Donald Trump. These features can be converted into a numerical feature vector, xP
+1,(1)
+, suit￾able for conjoint analysis, for example, using one-hot encoding. Note that the options chosen by the human subject and AI may agree with each 
+other (e.g., in the last data point) or differ from each other (e.g., in the first data point). The auxiliary data, which is of size n, is different from the 
+primary data in that we only have the label solicited from the AI.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+6 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+how respondents make choices, leading to highly 
+informative AI-generated labels. Therefore, the model 
+(gj(x, z;∗
+) : j ∈ K+), which can be chosen as the MNL 
+model or a neural network, is specified to capture the 
+conditional probabilities (y|x, z) in practical scenar￾ios. We also assume throughout that |gj(·) | ≤ 1 for all 
+j ∈ K+, which is reasonable for a wide range of models.
+In this work, we frame the main goal of our conjoint 
+analysis as identifying the best-in-class estimator of 
+(3.2)—the one that most closely approximates the true 
+choice probabilities within the set of all MNL models.1
+The quality of this approximation is measured by the 
+Kullback–Leibler (KL) divergence. Formally, the best￾in-class estimator is defined as follows:
+∗ ∈ arg min
+∈d
+(
+x[KL((y|x)|σy(x, ))]
+ x
+" X
+j∈K+
+(y j|x) log (y j|x)
+σj(x;)
+#): (3.2) 
+That is, measuring the loss of approximation using the 
+KL-divergence, (σj(x;∗
+) : j ∈ K+) gives us the approxi￾mation to the true choice probabilities that is best in 
+the class of MNL models. Under reasonable assump￾tions, this minimizer exists and is uniquely defined 
+(see Theorem 4.3).
+We further clarify the distinction between our prob￾lem and the measurement error issues discussed in 
+the econometrics literature (Bound et al. 2001) and in 
+recent work by Connell and Choi (2024). Specifically, 
+in our context, conditional on x, z should not be inter￾preted as a noisy realization of y, as is commonly 
+assumed in the measurement error framework. In our 
+setting, y⊥z|x because the AI cannot access the inter￾nal thought and decision-making processes of a human 
+subject, and any relationship between y and z is medi￾ated entirely through x. Nonetheless, we emphasize 
+that our estimation procedure and theoretical results 
+impose no assumptions on the joint distribution of y 
+and z given x. Therefore, even if z indeed represents y 
+measured with error, our approach remains valid.
+3.2. Primary, Auxiliary and Naïve Estimators
+With no access to auxiliary data such as AI-generated 
+labels, the default approach is to fit the parameter 
+ using only the primary data with its real labels 
+{(xP
+i , yP
+i )}m
+i1 using the standard maximum likelihood 
+estimation (MLE). We use ˆ P to denote the estimator 
+obtained using only the primary data. When the pri￾mary data size is sufficiently large, ˆ P can be close to 
+∗
+. However, the size of the primary data are often 
+restricted due to the costs of recruiting real subjects. 
+A small primary set yields an inaccurate estimator that 
+is far away from ∗
+. On the flipping side, we may 
+directly perform MLE on the auxiliary data {(xi, zi)}n
+i1, 
+using zi as labels. Let us define this estimator as ˆ A. 
+Given the distribution of LLM-generated data and 
+human data are different (i.e., the distributions of y 
+and z, conditioned on x, are different), it is easy to rec￾ognize that ˆ A could be severely biased regardless of 
+the size of auxiliary data set compared with ∗
+.
+Because of this limitation, people intend to utilize 
+auxiliary data and AI-generated labels to facilitate the 
+estimation of ∗
+. A natural idea for utilizing the AI 
+labels is to simply pool the primary and auxiliary sets. 
+In particular, we define
+(x˜i, y˜i
+) (xP
+i , yP
+i ) if 1 ≤ i ≤ m
+(xim, zim) if m + 1 ≤ i ≤ m + n,
+(
+and perform the standard MLE on (x˜i, y˜i
+)
+m+n
+i1 . We call 
+this approach the naïve augmentation and write the 
+estimator as ˆ Naive. The auxiliary data largely enlarges 
+the data size. However, because z and y in general 
+come from different distributions, ˆ Naive again can be 
+biased, even with large data size. Note that both ˆ P 
+and ˆ A are both special cases of ˆ Naive by setting n 0 
+or m 0. In the following, we present a simple exam￾ple to demonstrate the limitations of these estimators 
+discussed above and summarize the observation in 
+Proposition 3.2.
+Example 3.1 (AI-Generated Data Cannot Replace Human 
+Data). Consider a simple setting with only one product 
+and no features. Conditional on z j, where j ∈ K+ 
+{0, 1}, y j with probability p. Suppose that (z 1)
+ α. For clarity, we display the joint distribution in 
+Table 1.
+Therefore, the probability that y 1 is given by 
+c1(α, p) : αp +(1 α)(1 p) and clearly the best-in￾class estimator in (3.1) is given by β∗ log c1(α, p)
+1c1(α, p)
+
+, 
+which is computed through eβ∗
+1+eβ∗ (y 1) c1(α, p). 
+Suppose that n,m →∞ and n=m → ρ ≠ 0. Asymptoti￾cally, the naïve estimator satisfies
+c2(α, p) : αρ
+1 + ρ
++
+αp +(1 α)(1 p)
+1 + ρ ≈ e
+bβNaive
+1 + e
+bβNaive
+, 
+or equivalently β
+bNaive → log c2(α, p)
+1c2(α, p)
+
+: One can verify 
+that unless α 1=2 or p 1, this limit is not equal to 
+β∗
+. This is always the case even when n,m →∞, as 
+long as ρ ≠ 0. Also note that even when p is close to, 
+Table 1. Joint Distribution of y and z in Example 3.1
+Value of zy 1 y 0
+z 1 αp α(1 p)
+z 0 (1 α)p (1 α)(1 p)
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 7 
+
+but different from, one, z is very informative of y, 
+but the naïve methods still cannot lead to desired 
+estimates.
+Proposition 3.2 (Bias of ˆ A and ˆ Naive). When m,n 
+→∞, in general, ˆ A and ˆ Naive are not consistent estima￾tors of ∗
+.
+3.3. Estimation with AI-Augmented Data
+These challenges lead to our research question: How 
+do we extract value from the AI-augmented data to facilitate 
+the estimation of ∗
+? To answer this question, we pro￾pose the following data augmentation approach that 
+allows us to use the AI-generated data to fit the 
+model.2
+3.3.1. Estimation with AI-Augmented Data. Step 1. 
+Obtain an estimator 
+ˆ to ∗
+, where (y j|x, z)
+gj(x, z;∗
+), using the primary data.
+Step 2. With the auxiliary data, we construct the 
+estimator ˆ AAE as
+ˆ AAE ∈ arg max
+∈d
+Qb (ˆ;) 1
+n
+Xn
+i1
+X
+j∈K+
+gj(xi, zi;ˆ)logσj(x;)
+8
+<
+:
+9
+=
+;:
+(3.3) 
+We refer to ˆ AAE as the AAE. In the next section, we 
+demonstrate that our estimator ˆ AAE successfully 
+recovers ∗ and exhibits the desired asymptotic prop￾erties. The key idea in our approach is to use the pri￾mary data—which contains both LLM-generated and 
+human-produced data—to learn an efficient mapping 
+between human and LLM-generated data. We then 
+leverage this mapping to construct the estimator. This 
+strategy closely resembles a transfer learning approach, 
+where knowledge from one domain (in our case, the 
+LLM-generated data) is transferred to another domain 
+(the human-produced data). The fundamental assump￾tion underpinning such transfer learning techniques 
+is that learning the mapping function between two 
+domains, denoted by g(·) in our context, is inherently 
+simpler and requires fewer data points than carrying 
+out the individual learning tasks within either domain 
+on its own. In other words, in our context, the AI model 
+undertakes the “heavy lifting” of capturing human 
+choice behavior in a fuzzing way, and the first stage in 
+our estimation is trying to capture how fuzzy this AI 
+model is compared with the human model. Moreover, 
+the mapping will become easier to learn with lower 
+LLM costs and higher LLM quality. This is because, as 
+the accuracy and the size of AI-generated labels 
+improves, we anticipate a high-quality estimation of 
+due to a decrease in the asymptotic variance of esti￾mation; see Section 4.2 and Online Appendix A for fur￾ther discussions.
+We highlight the intuition of our method from two 
+alternative angles. First, our approach is motivated by 
+principles from transfer learning and knowledge distilla￾tion, although adapted to the context of conjoint analysis. 
+In transfer learning, knowledge from one domain is lev￾eraged to reduce data needs in another (Pan and Yang 
+2009, Zhuang et al. 2020); similarly, our method transfers 
+information contained in the joint distribution of product 
+features and LLM-generated labels (g(x, z;∗
+)) to 
+improve inference on human preferences. Likewise, 
+although classical knowledge distillation involves a stu￾dent model mimicking a teacher (Hinton et al. 2015), our 
+framework echoes this idea by learning the conditional 
+probability of real labels given LLM labels and product 
+features. Although our method does not involve parame￾ter reuse across tasks or a teacher–student architecture in 
+the narrow sense, the underlying principle is the same: 
+using a large, complex source of information (the LLM) 
+to guide a simpler, statistically grounded estimator. Such 
+a principle can be used to integrate AI-generated labels 
+in other settings, for example, a continuous target in a 
+regression problem (see discussions in Section 4.4 and 
+Online Appendix B).
+Second, although LLMs encode vast information, 
+their outputs are systematically different from human 
+responses. Importantly, this discrepancy is often eas￾ier to learn from small samples than estimating prefer￾ences directly. Our method builds on this intuition: 
+We use a small human data set to capture the gap 
+between human and LLM labels and then apply this 
+correction to the much larger LLM-generated data set. 
+In the AAE algorithm, the first step models the dis￾crepancy between AI and human labels conditional 
+on product features x. The second step then adjusts 
+estimation using the predicted human label based on 
+the AI label and features. When the first-stage model 
+is sufficiently accurate, the second-stage estimator 
+reduces variance by leveraging the enlarged AI-labeled 
+data set (Proposition 4.4). Thus, the more precise the 
+first-stage predictions, the greater the bias reduction in 
+the second stage, as formalized in Theorem 4.6.
+4. Theoretical Properties of the AAE and 
+Additional Discussions
+This section establishes the large-sample and finite￾sample properties of our estimator, ˆ AAE. We first 
+show that it is consistent and asymptotically normal 
+under mild conditions (Theorem 4.3), extending clas￾sical extremum-estimator arguments to the two-stage 
+setting with AI-generated data. We then compare 
+its efficiency with existing estimators. Unlike naïve 
+approaches that are generally biased, AAE is asymp￾totically unbiased and achieves variance reduction. In 
+particular, Proposition 4.4 shows that the variance of 
+AAE weakly—and often strictly—dominates that of 
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+8 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+the plug-in estimator ˆ P, especially with informative 
+auxiliary data. We provide a finite-sample high￾probability bound (Theorem 4.6), which highlights the 
+dependence on first-stage estimation error. In the 
+logistic regression case, we derive a new KL-based 
+risk bound (Proposition 4.8). Overall, AAE enjoys 
+both classical asymptotic guarantees and strong finite￾sample performance. Finally, in Sections 4.4 and 4.5, 
+we show that our AAE can be extended to regressions 
+settings and provide a detailed comparison between 
+AAE and PPI, respectively.
+4.1. Asymptotic Analysis
+To deliver the analysis, a set of common regularity 
+assumptions are needed. The first set of assumptions 
+is used in the analysis of the consistency of ˆ AAE.
+Assumption 4.1 (Regularity Conditions for Consistency). 
+The following assumptions hold. 
+(i) Identification: We assume that x ∈ X with probability 
+of one, where X is bounded. Also, x[xx] 0 and (y|x)≥
+c for all x ∈ X, y ∈ K and some constant c > 0.
+(ii) First-stage consistency: ˆ →
+P ∗
+.
+(iii) Smoothness by continuity: (gj(x, z;) : j ∈ K+) is 
+continuous in for all x ∈ X and z ∈ K+.
+Comparing to those assumptions required in classi￾cal consistency results, such as theorem 5.1 in Van 
+der Vaart (2000) or theorem 2.1 in Newey and McFad￾den (1994), Assumption 4.1 presents similar or even 
+weaker regularity conditions that guarantee consis￾tency in a setting that significantly extends that of 
+classical analysis of MLE under the MNL model, by 
+exploiting the concavity in the problem structure. Part 
+i in Assumption 4.1 essentially serves as an identifica￾tion condition, which should be satisfied in practical 
+scenarios. Part ii states that the first-step estimator 
+needs to be consistent, which usually is satisfied as 
+long as the models g(·) :(gj(x, z;∗
+) : j ∈ K+) are appro￾priately specified and reasonable estimation strategy 
+such as the MLE is adopted. Part iii is a regularity con￾dition on the functional smoothness. This assumption 
+holds for many widely used models, for example, the 
+MNL model or the neural networks.
+Next, the second set of assumptions helps establish 
+asymptotic normality.
+Assumption 4.2 (Regularity Conditions for Asymptotical 
+Normality). We assume that the following conditions hold. 
+(i) First-stage normality: ffiffiffiffi
+m
+√ (ˆ ∗
+)N(0,).
+(ii) Stable sampling ratio: n
+m → ρ, where 0 < ρ < ∞.
+(iii) Smoothness by differentiability: For each j ∈ K, 
+gj(x, z;) is differentiable for all θ, x ∈ X and z ∈ K, and 
+there exists an open neighborhood N of ∗ such that 
+x, z[sup⊂N ∇gj(x, z;) 2] < ∞.
+Assumption 4.2 is again mild. The first item states 
+that 
+ˆ is asymptotically normal, which is expected. 
+The second item maintains that the ratio between the 
+sample sizes of two data sets needs to be reasonable. 
+The last item is a smoothness condition. Furthermore, 
+to simplify the presentation, some definitions are nec￾essary. We first define A(x;)∈ k×k with
+A(x;) :
+X
+j∈K
+σj(x;)
+ 
+x(j)x
+(j) X
+j
+∈K
+σj
+ (x;)x(j)x
+(j
+)
+!
+, (4.1) 
+and  ∈ k×k and  ∈ k×q with
+ : x[A(x;∗
+)] and
+ : x, z
+" X
+j∈K+
+ 
+1{j≠0}x(j) X
+j
+∈K
+σj
+ (x,∗
+)x(j
+)
+!
+∇gj(x, z,∗
+)
+#
+:
+(4.2) 
+Further, we let
+J : x, z
+" X
+j∈K
+(gj(x, z; ∗
+) σj(x; ∗
+))x(j)
+!
+ X
+j∈K
+(gj(x, z; ∗
+) σj(x; ∗
+))x(j)
+!#
+∈ k ×k
+:
+Equipped with these assumptions and definitions, we 
+show the following key result.
+Theorem 4.3 (Consistency and Asymptotic Normality of 
+AAE). 
+(i) Under Assumption 4.1, the optimizer ∗ defined in 
+(3.2) is unique, and the AAE satisfies ˆ AAE →
+P ∗
+, when 
+m,n →∞.
+(ii) Under Assumptions 4.1 and 4.2, it holds that
+ffiffiffi
+n
+√ (ˆ AAE ∗
+) 1
+ 
+1
+n
+Xn
+i1
+X
+j∈K
+(gj(x, z; ∗
+) σj(x; ∗
+))x(j)
++
+ffiffiffiffi
+n
+m
+r
+ × ffiffiffiffi
+m
+√ (ˆ ∗
+)
+!
++ oP(1)
+ N(0, 1
+(J + ρ × )1
+):
+Although some aspects of our proof of Theorem 4.3
+draw on classical analysis of extremum estimators, 
+the consistency argument we present for a mis￾specified model with two-stage estimators appears to 
+be novel. First, the identification of the model parame￾ter and its justification (Lemma D.1) is, to the best of 
+our knowledge, new. Second, with the presence of 
+auxiliary data z, we reformulate the loss function as 
+shown in (3.2). This leads to a novel approach that 
+converts the consistency of 
+ˆ into the uniform conver￾gence of Qb (ˆ;) (Lemma D.2). Third, our concavity￾based consistency analysis also seems fresh.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 9 
+
+4.2. Value of AAE
+We compare our proposed estimator, ˆ AAE, with the 
+three benchmark approaches ˆ Naive, ˆ A, and ˆ P that 
+were discussed in Section 3.2. With Theorem 4.3 and 
+Proposition 3.2, the merit of ˆ AAE over ˆ Naive and ˆ A 
+is clear: Although ˆ AAE delivers asymptotically unbi￾ased estimation, both ˆ Naive and ˆ A are in general 
+biased. Thus, the use of ˆ AAE enables valid estimation, 
+inference, or subsequent downstream optimization, 
+for example, for product design, whereas the other 
+two estimators lead to inferior decisions. Thus, let us 
+focus on the comparison of ˆ AAE and ˆ P to demon￾strate that the convergence speed of ˆ AAE being faster 
+than that of ˆ P.
+In this case, standard analysis shows that, under 
+appropriate regularity conditions, the resulting estima￾tor ˆ P satisfies ffiffiffiffi
+m
+√ (ˆ P ∗
+)N(0, 1 ˇ
+J1
+), where 
+ is defined in (4.2), and
+ˇ
+J : x, y, z
+" X
+j∈K
+(1{yj} σj(x;∗
+))x(j)
+!
+ X
+j∈K
+(1{yj} σj(x;∗
+))x(j)
+!#
+∈ k×k
+:
+By Theorem 4.3, the variance of the AAE, ˆ AAE, can 
+be expressed as 1
+J1
+=n + 1
+1
+=m: Thus, 
+our AAE performs better if and only if
+VarP : 1
+m
+1 ˇ
+J1 VVarAAE : 1
+n
+1
+J1 +
+1
+m
+1
+,
+(4.3) 
+or equivalently ˇ
+J=mVJ=n + 1
+=m. The next 
+result follows.
+Proposition 4.4 (Dominance of VarAAE). Assume Assump￾tions 4.1 and 4.2 hold and
+ x, y, z[∇θ loggy(x, z,∗
+)∇θ loggy(x, z,∗
+)
+]
+1
+:
+(i) It holds that ˇ
+J V. Therefore, for any δ > 0 and 
+any m, VarAAE VarP + δI for all n sufficiently large.
+(ii) If ˇ
+J , for any m, VarAAE VarP for all n suf￾ficiently large.
+The assumption we introduce regarding the form of 
+ is quite mild—It holds as long as 
+ˆ is estimated via 
+MLE and the standard regularity conditions are met 
+(Van der Vaart 2000). The first part of the proposition 
+asserts that the variance of AAE weakly dominates the 
+variance of ˆ P: As long as the auxiliary data set is suffi￾ciently large, the variance of ˆ AAE does not exceed that 
+of ˆ P, up to an arbitrarily small constant. This conclu￾sion follows directly from ˇ
+J V because we can let 
+n tend toward infinity in (4.3). The argument hinges on 
+representing ˇ
+J  as the variance of the residual 
+from projecting P
+j∈K (1{yj} σj(x;∗
+))x(j) onto the 
+linear space spanned by ∇θ loggy(x, z,∗
+). For the sec￾ond part, if ˇ
+J , the strong dominance VarAAE
+ 
+VarP for all sufficiently large n follows by a similar 
+reasoning.
+Is ˇ
+J  generally true? By interpreting ˇ
+J 
+as the variance of the residual from projecting P
+j∈K 
+(1{yj} σj(x;∗
+))x(j) onto the space spanned by ∇θ log 
+gy(x, z,∗
+), we observe that this inequality should hold 
+in many cases, although providing a general, primitive 
+sufficient condition seems challenging without a specific 
+form of g(·). To illustrate this further and gain more 
+insights, we refer the readers to Online Appendix A, 
+where we show that under specific parametric forms of 
+g(·), item (ii) in the proposition indeed holds in general, 
+and more informative AI-generated labels leads to 
+more variance reduction and therefore higher estimation 
+accuracy.
+Finally, we remark that, although our original asymp￾totic theory assumed m →∞, which is unrealistic, it is 
+well known (e.g., via Berry-Esseen’s central limit theo￾rem; Feller 1971) that asymptotic variance formulas 
+often provide accurate approximations even at moder￾ate sample sizes. Thus, we believe our asymptotic results 
+still offer meaningful insights into how the AAE estima￾tor reduces variance and bias relative to standard base￾lines. Moreover, the asymptotic analysis shows that, 
+although the machine data are biased, the correction 
+yields unbiased estimates, an essential property for any 
+debiasing method. In contrast, naïve approaches, such 
+as simply concatenating two data sets, produce biased 
+estimates even with large sample sizes. Motivated by 
+this, we next present a finite sample analysis that is 
+more realistic.
+4.3. Finite Sample Analysis
+Given that we typically aim to augment a limited 
+amount of human-labeled data with AI-generated data, 
+we extend our theoretical analysis in this section to 
+derive a finite-sample, high-probability performance 
+bound when human data are finite. Throughout, we 
+assume that x (x
+(1)
+, x
+(2)
+,:::, x
+(k)
+)
+ is a random vector 
+such that each subvector x(j) has sub-Gaussian norm 
+σx( j) and is on a bounded support. Without loss of gen￾erality, we assume with probability one that x(j) ∞ ≤ 1 
+for all j ∈ K. Let  
+P
+j∈Kx(j)x
+(j)
+
+denote the popula￾tion covariance, which we assume is positive definite. 
+We further define κ [maxj∈K x(j)  2
+2]≤ trace():
+Additionally, we assume prior knowledge of an 
+1-norm bound on the true parameter vector, that is, 
+∗
+ 1 ≤ R for some known constant R, and we solve 
+(3.3) under the constraint  1 ≤ R. These assumptions 
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+10 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+are standard in finite-sample analyses of logistic-type 
+models (Wainwright 2019, Chen et al. 2022, Chardon 
+et al. 2024). Because the pecification of g(·) can vary 
+depending on the application, the performance of the 
+first-stage estimation may differ accordingly. To address 
+this, we introduce the following critical assumption. 
+Let ˜
+d denote the dimensionality of the parameter space 
+in g(·).
+Assumption 4.5 (First-Stage Performance). With proba￾bility at least 1 δ, it holds that
+x, z[KL(g(x, z,∗
+)|g(x, z,ˆ))]1(m, ˜
+d, δ):
+Under this assumption, we state our key result as 
+follows.
+Theorem 4.6 (AAE Finite Sample Bound). It holds that 
+with probability at least 1 3δ,
+ˆ AAE ∗
+ 2 ≤
+(2 ffiffiffiffiffi
+2κ √ + 8)eR(1 + keR)
+2
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+1(m, ˜
+d, δ)
+q
+λmin(), 
+provided that (c1 and c2 are absolute constants)
+n ≥ max
+d
+ 1
+c2
+log k
+δ
+∨1
+
+λmin()
+2K ∧1 ,
+2d
+P
+j∈K σx( j)
+2
+c11(m, ˜
+d, δ) log 4
+δ
+ 8
+<
+:
+9
+=
+;:
+Two comments are in order. First of all, a key 
+insight of the theorem is that the error is critically 
+dependent on the error of estimating the conditional 
+probability, (y|x, z), in the first stage. Although the 
+specific error bounds vary depending on the model 
+specification, an order of 
+ffiffiffiffiffiffiffiffiffi
+˜
+d=m
+q
+appears typical. We 
+illustrate this insight with the following example, 
+which applies to a range of potential applications. Sec￾ond, we note that there is an exponential dependency 
+on the norm bound R. Seemingly, this may indicate 
+that the performance of our AAE deteriorates when 
+the dimensionality d grows large. As formally estab￾lished in Chardon et al. (2024), in the classical analysis 
+of logistic-type estimators under general sub-Gaussian 
+assumptions on the covariates, that is, x in our setting, 
+an exponential dependence on the norm bound of the 
+parameter vector is in fact unavoidable. This phenom￾enon reflects the intrinsic curvature properties of 
+the logistic loss and is not specific to our estimator. 
+Although stronger distributional assumptions on the 
+feature vector—such as exact Gaussianity—can miti￾gate or remove this exponential dependence as shown 
+in Chardon et al. (2024), our model operates under the 
+more general sub-Gaussian setting, in which such behav￾ior is expected. However, this exponential dependency 
+might be overly conservative: The necessity of exponen￾tial dependence on R is often established via carefully 
+constructed, often worst-case, Bernoulli-type designs. In 
+contrast, in many practical settings—particularly when 
+features are approximately Gaussian—the empirical per￾formance of logistic-type estimators, including AAE, 
+does not degrade as sharply with dimension. Indeed, in 
+such settings, numerical analyses in Section 6.2.2 indicate 
+that, even when d grows reasonably large, the perfor￾mance of AAE remains stable.
+Example 4.7 (Logistic Regression for First Stage). Let us 
+assume that
+gj(x, z; ) e
+θφj
+(x, z)
+1 + P
+j
+∈K e
+θφj
+ (x, z) ∀j ∈ K:
+Here, for every j, φj
+(x, z) : d+1 → ˜
+d is a feature map￾ping. For a simplistic instance, we may have φ(j)
+(x, z)
+(1{z j}, x)
+, whereas there are many other possi￾bilities. For notation simplicity, let us write x˜ (x˜ 
+(1), 
+x˜ 
+(2),:::, x˜ 
+(k))
+, where x˜(j) φj
+(x, z) for all j ∈ K. we 
+assume it has a distribution such that each subvector 
+x˜ 
+(j) has a sub-Gaussian norm σx˜( j) and x
+(j)
+’s infinity 
+norm is bounded by one. Also, we assume that it is 
+known that ∗  1 ≤ R ˜ for some constant R ˜ so estimate 
+∗ by solving the maximum likelihood problem with 
+the constraint that ∗  1 ≤ R˜ . Under these assumptions, 
+we derive the following result on the information￾theoretic excess-risk inequality, which generalizes that 
+of classical regression or logistic regression analysis 
+based on a localization argument. To our knowledge, it 
+is new. The hidden constants in the result depends on 
+R, R˜ , k, σx˜( j)
+, σx( j)
+,  and κ. Because in typical applica￾tions of our approach, the number of products offered 
+to the customer, k, is small, we treat it as a constant and 
+focus on the dependency of our finite sample bound on 
+m, the sample size of primary data, d and ˜
+d, and the 
+number of parameters.
+Proposition 4.8 (Finite Sample KL-Excess-Risk Bound). 
+Under the setup in Example 4.7, with probability at least 
+1 δ,
+x, z[KL(g(x, z,∗
+)|g(x, z,ˆ))]  ˜
+d log(m=δ)
+m :
+Thus, if n is sufficiently large, with probability 1 3δ,
+ˆ AAE ∗
+ 2 
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+˜
+d log(m=δ)
+m
+s
+:
+When ˜
+d d, our estimator enjoys the finite-sample 
+error bound ˆ AAE ∗  2 
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+d log(m=δ)
+m
+q
+. One can com￾pare existing finite sample analysis of MNL models 
+(Chen et al. 2022) in the classical setting with ours. 
+We observe that our result does not require any 
+assumptions on the magnitude of m, which is typically 
+required to ensure that approximate identification con￾ditions of the loss function is met to approximately 
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 11 
+
+recover . Instead, equipped with this strong KL 
+bound from Step 1, Step 2 can simply draw a larger 
+auxiliary sample (take n large) to offset any condition￾ing issues. Therefore, viewed this way, our two-step 
+procedure offers a practical route to high-quality pre￾diction without the stringent sample size and condi￾tioning requirements usually imposed for parameter 
+estimation. In essence, the AAE simply propagates the 
+first-stage risk, measured by the KL divergence, into 
+the second stage.
+4.4. AAE for Regression
+We remark that our framework of using AI-augmented 
+data to facilitate the estimation and boost the accuracy 
+extends beyond the setting for conjoint analysis. In this 
+section, we extend our approach to the regression 
+setting. The setting is similar to our discussion in Sec￾tion 3.1. Specifically, we still have two data sets, that is, 
+the primary data, {(xP
+i , yP
+i , zP
+i )}m
+i1, and auxiliary data 
+{(xi, zi)}n
+i1, with the label yi missing in the auxiliary 
+data. Here we assume that these data points are i.i.d. 
+generated according to the same distribution as the 
+random vector (x, y, z), where y, z ∈  and x ∈ d
+. Simi￾lar to the discussion in Section 3.1, here the variable z 
+represents a predicted label generated by an AI model 
+based on x. With a continuous target variable y, we 
+assume that [y|x, z] g(x, z;∗
+), where ∗ ∈ q
+. We 
+again seek a best-in-class estimator as
+∗ ∈ arg min
+∈d
+[(y x)
+2
+](a)
+[( g(x, z;θ∗
+) x)
+2
+], (4.4) 
+where one can verify (a) by expanding the square 
+(y x)
+2 and using the fact hat y g(x, z;∗
+)⊥x, z. 
+Note that we do not assume that the regression model 
+x∗ is correctly specified in the sense that it repre￾sents the conditional mean of y given x, which is a 
+strong assumption. Instead, (4.4) views it as the best 
+linear predictor of y, or the projection of y on the space 
+of all linear functions of x, and this is always possible. 
+Our proposed estimator, the AI-augmented regression 
+estimator (AARE) works as follows.
+4.4.1. AARE. Step 1. Obtain an estimator 
+ˆ to ∗
+, 
+using the primary data.
+Step 2. With the auxiliary data, we construct the 
+estimator ˆ AARE as
+ˆ AARE ∈ arg min
+∈d
+Qb (ˆ;) 1
+n
+Xn
+i1
+( g(xi, zi;ˆ) x
+i )
+2
+():
+In the discussion in Online Appendix B, we provide 
+a theoretical analysis of AARE. In short, we demon￾strate that it possesses the desired asymptotic proper￾ties mirroring the key properties of AAE that have 
+been discussed in this section.
+4.5. Comparing with PPI
+Following our overview in the literature review com￾paring PPI (Angelopoulos et al. 2023a, b), which is a 
+natural benchmark in our setting, with our approach, 
+we now provide a more detailed discussion. We first 
+briefly describe PPI, specialized to our setting. Recall 
+that in our MNL setting, the target parameter ? is 
+characterized by the first-order condition [s(x, y;)] 
+
+P
+j∈K(1{yj} σj(x;))x(j)
+
+ 0, where we have defined 
+the score function s(x, y;) : P
+j∈K(1{yj} σj(x;))x(j). 
+The key idea of PPI is to form an estimating equation 
+by correcting the bias in the score function induced by 
+z. Specifically, PPI replaces the population score with a 
+rectified version that subtracts the empirical discrep￾ancy between the score evaluated at z and at y on the 
+primary sample. This leads to the following estimating 
+equation:
+1
+n
+Xn
+i1
+s(xi, z;)
+|fflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflffl}
+auxiliary data set using label z
+scores formed by the
+ 1
+m
+Xm
+i1
+(1{zP
+i j} 1{yP
+i j})xP
+i,(j)
+|fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl} 1
+m
+Pm
+i1(s(xP
+i , zP
+i ;) s(xP
+i ,yP
+i ;)): the rectified term
+as the difference between the score evaluated
+at z and at y on the primary sample
+ 0:
+PPI performs inference based on this estimating equa￾tion. Equivalently, PPI can be viewed as minimizing a 
+rectified log-likelihood that adds the auxiliary likeli￾hood evaluated at z and subtracts its counterpart 
+on the primary sample. Although this loss-level correc￾tion guarantees validity under minimal assumptions, it 
+operates through aggregated score adjustments. As we 
+discuss next, this contrasts with our approach, which 
+directly corrects AI labels conditional on (x, z) and 
+enables more granular, feature-dependent adjustments.
+Our method directly learns the transformation of 
+outcomes conditional on features (including the 
+AI-generated outcome), whereas PPI focuses on sub￾tracting the score function constructed from the loss 
+function of one outcome from another. The key dis￾tinction lies in the amount of information retained: by 
+relying only on the score function rather than the full 
+mapping between features and outcomes, PPI risks 
+discarding important information. When no such 
+information is lost, the two approaches may perform 
+similarly—typically in cases with few features and 
+when the loss transformation approximates the out￾come transformation closely. However, this equiva￾lence rarely holds in practice. In many realistic settings 
+with high-dimensional features, the PPI loss no longer 
+captures the full mapping, and we find that our 
+method outperforms PPI both in our settings (Sections 
+5.4 and 6.2), and in theirs, with the performance gap 
+widening as feature dimension increases (Section 6.3).
+Moreover, we acknowledge that our ability to cap￾ture the full mapping relies on a strong first-stage 
+assumption, which parametrizes the distribution of 
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+12 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+outcomes conditional on features and AI labels. 
+Although this assumption underpins our theoretical 
+analysis, our empirical studies show that it does 
+not restrict the practicality of our approach and, in 
+fact, enables AAE to outperform PPI. Moreover, this 
+assumption provides additional flexibility and guar￾antees a provable performance boost. Importantly, in 
+our framework, zi need not be the literal “label”—as 
+long as it carries useful information and the paramet￾ric assumption holds (In the extreme, zi could even 
+equal yi), our method remains applicable. By con￾trast, the utility of PPI, as emphasized in Angelopou￾los et al. (2023b), depends critically on the accuracy of 
+the AI-generated label. Furthermore, Proposition 4.4
+establishes the dominance of our estimator over P, a 
+discussion absent from the PPI framework.
+Finally, the formats of asymptotic and finite sample 
+guarantees of the two approaches are comparable (see 
+Theorems 4.3 and 4.6 in our paper versus theorem 1 in 
+Angelopoulos et al. (2023a) and corollary B.3 in Angelo￾poulos et al. (2023b)). For example, in finite samples, 
+both methods yield high-probability error bounds 
+that ultimately depend on the informativeness of the 
+AI-generated label. In our setting, this appears as 
+the error term 1(m, ˜
+d, δ), whereas in PPI, it appears as 
+the width of the rectifier confidence interval (Rl
+α(θ), 
+Ru
+α(θ)). Although the exact comparison depends on the 
+problem, our empirical results consistently suggest that 
+our approach tends to outperform PPI.
+5. Empirical Analysis I: COVID-19 
+Vaccination
+In this section, we present empirical studies to validate 
+our approach. First, we show that a range of LLM mod￾els, despite their differences in capabilities, all exhibit 
+substantial misalignment between AI-generated and 
+human-generated data in conjoint analysis. Second, we 
+demonstrate that our proposed method can effectively 
+mitigate this misalignment, leading to improved 
+performance compared with using only human data or 
+a naïve combination of human and AI-generated data. 
+It is important to emphasize that our method functions 
+as an enhancement to existing models. Even as LLMs 
+continue to improve in their ability to simulate human 
+responses, as long as some degree of misalignment 
+remains between AI-generated and human labels, our 
+approach can further enhance estimation accuracy.
+5.1. Empirical Setup
+We examine the performance of the AAE based on a 
+high-impact real choice-based conjoint data set for 
+COVID-19 vaccines (Kreps et al. 2020). The study was 
+conducted on July 9, 2020, where 2,000 U.S. adults were 
+recruited to take a 15-minute survey through the Lucid 
+platform. A quota-based sampling was employed to 
+approximate nationally representative samples in terms 
+of demographic characteristics. A total of 1,971 U.S. 
+adults responded to the survey. This survey is impor￾tant because it provides evidence of factors associated 
+with individual preferences toward COVID-19 vaccina￾tion. The results may help inform public health cam￾paigns to address vaccine hesitancy.
+The data set consists of responses from 1,971 partici￾pants, each expressing preferences for a series of 
+hypothetical vaccines. Every respondent was shown 
+five comparisons between two hypothetical vaccines, 
+described by seven attributes with multiple levels, as 
+outlined in Table 2. Participants were asked to choose 
+one of the two vaccines or opt for neither. We 
+excluded respondents who did not select any vaccines 
+in this setting, as many public LLMs, such as ChatGPT 
+and Gemini, do not permit opting out of vaccines due 
+to safety requirements. Since this data were excluded 
+from both ground truth calculations and LLM data 
+augmentation, this sample selection should not bias 
+our comparisons between estimators.
+Data leakage is a critical concern when selecting 
+data sets for LLM-related empirical studies. It occurs 
+Table 2. Attributes in the Conjoint Analysis
+Feature Levels and description
+Efficacy 50%, 70%, and 90% (protection against severe symptoms)
+Protection duration One year and five years
+Major side effects 1 in 1,000,000 and 1 in 10,000’ (hospitalization or death)
+Minor side effects 1 in 10 and 1 in 30 (flu-like symptoms)
+FDA approval process The vaccine has been approved and licensed by the U.S. Food and Drug 
+Administration. The vaccine has received an emergency use authorization 
+from the U.S. Food and Drug Administration. This allows the expedited 
+use of promising drugs that the FDA has found it reasonable to believe 
+may be effective in combatting the virus
+National origin of vaccine China, United Kingdom, and United States
+Endorsement President Donald Trump, U.S. Centers for Disease Control and Prevention, 
+Vice President Joe Biden, and World Health Organization
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 13 
+
+when an LLM’s training data overlaps with the testing 
+data used to evaluate its performance, thereby 
+compromising the validity of the evaluation. In our 
+empirical studies, we use OpenAI’s GPT models. 
+Because OpenAI does not disclose its training data, 
+we cannot confirm whether the conjoint data set is 
+part of the GPT models’ training data. However, we 
+do not consider this to be a significant issue. If data 
+leakage was present—that is, if the GPT models had 
+already seen the conjoint data set—the naïve augmen￾tation method would perform substantially better. 
+Nevertheless, as we demonstrate later, the naïve aug￾mentation method still produces significant biases, 
+which our method effectively corrects. This high￾lights the critical importance of our approach.
+Using standard MLE, we estimated the best-in-class 
+parameters ∗
+, as shown in (3.2). For each experiment, 
+we randomly selected 240 respondents from the train￾ing set, yielding a data set of 1,200 samples. The vac￾cine attributes in these samples were converted to 
+text, and various versions of GPT were used to gener￾ate labels zi. Details of the label generation process are 
+provided in Section 5.2. This produced a data set D 
+with 1,200 data points.
+Based on D, we considered different primary and 
+auxiliary data set sizes with m ∈{50, 100,150,200} and 
+n 1, 000. For each combination of (m,n), we ran￾domly sampled m=5 respondents from D, using their 
+data as the primary set, DP {(xP
+i , yP
+i , zP
+i )}m
+i1. From the 
+remaining data set, we sampled n=5 respondents and 
+used their vaccine features and GPT-generated labels 
+as the auxiliary set, DA {(xi, zi)}n
+i1. For each GPT 
+model, this resulted in a primary set of size m and an 
+auxiliary set of size n. In the next, we will discuss how 
+to collect the auxiliary data in the conjoint analysis 
+using different GPT models.
+5.2. Conjoint Data Generation Using LLMs
+In this section, we present our procedure for generat￾ing conjoint data using LLMs. We propose a general 
+framework for LLM-based conjoint data generation in 
+Table 3, where the input structure follows three key 
+components to produce conjoint choice data:
+This framework allows customization across differ￾ent prompt designs, conjoint settings, and simulated 
+subject groups, making it adaptable to various LLMs. 
+The structured input ensures consistency in responses. 
+In the subsequent sections, we use this framework to 
+generate choice data with OpenAI’s GPT, specifically 
+GPT-3.5-Turbo-0613, GPT-3.5-Turbo-0125, 
+GPT-4, and the GPT-4o.
+3 For each model, we gener￾ate conjoint data using two prompt engineering 
+approaches: basic prompting and CoT prompting. For 
+GPT-4o, we also implemented the few-shot prompt￾ing and fine-tuning.
+Before presenting the details of the prompting and 
+fine-tuning techniques in the next, here we remark that 
+our approach is not intended as an alternative to fine￾tuning or prompt-based methods for improving LLM 
+outputs. Rather, they are complementary, because our 
+method, AAE, can be applied on top of outputs from 
+models that have already been fine-tuned or employ 
+sophisticated prompt engineering.
+5.2.1. Basic Prompting. The basic prompting follows 
+the three-part framework: It starts with an instruction 
+specifying the choice task for GPT. In particular, 
+we ask GPT to act like a random person to simulate 
+the choice from a general population. More detailed 
+demographic information can be added in this part to 
+simulate choices from a more specific population. In 
+the second part of the prompt, we parse the choice 
+task options to text description. We use the minimalist 
+representation of vaccine features, which was shown 
+to be an effective prompting technique (Teixeira 2023). 
+In the last part, we ask which option GPT would 
+choose and require it to return the answer as a single 
+letter. An example of the basic prompt for GPT is 
+shown below in Table 4.
+5.2.2. CoT Prompting. Recent advancements in prompt￾ing techniques, such as CoT prompting, Tree-of￾Thought (ToT), and others, have significantly enhanced 
+reasoning in LLMs. CoT, which structures intermediate 
+reasoning steps, has become the most widely utilized 
+due to its simplicity, interpretability, and robust perfor￾mance across diverse tasks (Wei et al. 2022). Although 
+methods like ToT, which explores branching reasoning 
+paths (Yao et al. 2023), and other approaches can offer 
+advantages for specific tasks, they often require addi￾tional computational resources or fail to consistently 
+outperform CoT across a wide range of domains. Thus, 
+we experiment mainly with CoT for its balance of effec￾tiveness and broad applicability.
+We apply this CoT prompting technique with the 
+aim of improving the quality of the choice data gener￾ated. Specifically, we introduce conversations that 
+guide GPT to compare the two vaccines feature by 
+Table 3. LLM-Based Conjoint Data Generation Framework
+(I) Choice Task Instruction: Defining the context of the conjoint analysis, specifying the item to choose from, the task 
+for the LLM (selecting from multiple options), and the persona the LLM should emulate. 
+(II) Choice Task Options Description: Details the attributes of each option in the conjoint choice set. 
+(III) Choice Extraction: Extracting the choice made by the LLM.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+14 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+feature before arriving at a final choice in part (III) of 
+the data-generation framework. An example of the 
+CoT-based conversation is shown below in Table 5.
+As the example above illustrates, CoT helps GPT 
+make a more informed choice, and it allows us to 
+know its reasoning process more explicitly. Note that 
+even with CoT, GPT might still make certain mistakes, 
+such as when comparing the magnitude of minor 
+effects in the example above. This type of mistake 
+often happens in arithmetic tasks, and it is hypothe￾sized in the past due to tokenization of these models. 
+One approach to alleviate this type of situation is to 
+provide further guidance in the reasoning steps, such 
+as indicating “1 in 10” is worse than “1 in 30” regard￾ing minor effects, as shown in the above example. In 
+general, CoT helps GPT to have a more comprehen￾sive evaluation of all choice features, thus becoming 
+more robust against minor reasoning errors.
+5.2.3. Few-Shot Prompting. Few-shot prompting is a 
+technique in NLP where a model is guided to perform 
+a specific task by providing a small number of 
+Table 4. Example of the Basic Prompt for GPT
+Input (I): You should act like a random person deciding whether to receive a COVID-19 vaccination. 
+Input (II): There are three options for you: 
+A: Efficacy: 90%. Protective duration: 5 years. Major side effect: 1 in 10,000. Minor side effect: 1 in 30. Authorization: Approved and 
+licensed by the US Food and Drug Administration. Origin: China. Endorsement: US Centers for Disease Control and Prevention. 
+B: Efficacy: 50%. Protective duration: 1 year. Major side effect: 1 in 10,000. Minor side effect: 1 in 10. Authorization: Received an 
+emergency use authorization from the US Food and Drug Administration. This allows the expedited use of promising drugs that the
+FDA has found it reasonable to believe may be effective in combatting the virus. Origin: United Kingdom. Endorsement: World 
+Health Organization. C: You choose neither A nor B. 
+Input (III): Which option would you choose as a random person? Your response should be a single letter A, B, or C. 
+Output: A
+Table 5. Example of CoT-Based Conversation
+Input: Compare the efficacy of A and B, which one is better? 
+Output: Option A has a better efficacy rate at 90% compared with option B’s 50% efficacy. This means that you would be more likely to 
+be protected against COVID-19 with option A. 
+Input: Compare the protective duration of A and B, which one is better? 
+Output: Option A has a protective duration of 5 years, which is longer than Option B’s protective duration of 1 year. Therefore, Option 
+A offers better and longer protection. 
+Input: Compare the major side effects of A and B, which one is better? 
+Output: Both Option A and Option B exhibit the same odds of experiencing a major side effect, which is 1 in 10,000. Therefore, neither 
+option is better than the other in this particular aspect. They are equal in terms of the risk of major side effects. 
+Input: Compare the minor effects of A and B, which one is better? (1 in 30 is lower than 1 in 10) 
+Output: Actually, Option B is better in terms of minor side effects. The risk of minor side effects for Option B is 1 in 10, which means 1 
+out of every 10 individuals could experience them. For Option A, it’s higher with 1 in 30 individuals likely to experience minor side 
+effects. In this scenario, a lower ratio (such as 1 in 10) means a higher chance of side effects. 
+Input: Compare the authorization of A and B, which one is better? 
+Output: Option A is approved and licensed by the US Food and Drug Administration, which is a more definitive sign of its safety and 
+effectiveness than an emergency use authorization. Option B has received an emergency use authorization, which is a quicker approval 
+process used during public health emergencies, and still shows that the FDA believes it may be effective against the virus but doesn’t 
+represent full approval. Therefore, in terms of authorization, Option A is better as it has full FDA approval. 
+Input: Compare the endorsement of A and B, which one is better? 
+Output: Both Option A and Option B have endorsements from highly respected organizations. Option A is endorsed by the US Centers 
+for Disease Control and Prevention, while Option B is endorsed by the World Health Organization. It’s difficult to categorically say 
+which endorsement is better as they’re both credible. However, if you’re based in the US, you might have more trust in the 
+endorsement from the US CDC. Conversely, if you’re based elsewhere in the world or place more trust in a globally recognized body, 
+the WHO’s endorsement might carry more weight for you. 
+Input: Based on all the previous reasoning, which option would you choose? 
+Output: Based on efficacy, protective duration, and authorization, Option A seems to be the better choice. Although it has a slightly 
+higher chance of minor side effects, its benefits in terms of providing more robust and longer-lasting protection against COVID-19 and 
+having full FDA approval outweigh the slightly elevated risk. However, each individual’s decision should take into account a multiple 
+set of factors, including their personal health situation and discussions with healthcare professionals. 
+Input: Return the choice in the previous answer as a single letter A, B, or C. 
+Output: A
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 15 
+
+examples directly in the input prompt (Brown et al. 
+2020). This approach is particularly useful in zero-shot 
+and low-resource scenarios, demonstrating strong 
+performance across a variety of tasks such as text clas￾sification, translation, and question answering. We 
+implement the few-shot prompting with GPT-4o by 
+demonstrating 10 survey questions with their true 
+human labels at the beginning of part (I) of the data 
+generation framework. In Table 6, we see an example 
+of the few-shot prompting:
+5.2.4. Fine-Tuning. Fine-tuning is another major 
+approach in transfer learning that enhances a model’s 
+performance on a specific task with a few examples. 
+In this process, a pretrained model is adapted to a speci￾fic task by further training it on new task-specific data. 
+Fine-tuned models have the potential to achieve higher 
+accuracy and better performance for the specific task. In 
+our experiments, we fine-tuned GPT-4o by training it 
+further upon 50 samples of real data.4 Basic prompting 
+was employed to generate outputs from the fine-tuned 
+GPT-4o model. Details of the fine-tuning implementa￾tion can be found at Peng et al. (2024).
+5.3. Estimators and the Evaluation Metric
+In this section, we describe the empirical construction 
+and evaluation of our estimators. For each version of 
+the GPT model, we compute the primary-data-only 
+estimator, auxiliary-data-only estimator (i.e., using only 
+AI-generated data), naïve augmentation estimator, and 
+AAE estimator based on (DP,DA), denoted, respec￾tively, as ˆ P, ˆ A, ˆ Naive, and ˆ AAE. We also implement 
+the PPI estimator (Angelopoulos et al. 2023b) and the 
+PPI++ estimator (Angelopoulos et al. 2023a), yielding 
+ˆ PPI and ˆ PPI++, respectively. All implementation 
+details and code are provided in https://github.com/ 
+mxw-selene/ai-augmented-estimation.
+Because the other estimators are straightforward 
+to construct, we focus here on the hyperparameter 
+choices for our AAE estimator. In Step 1 of AAE, we 
+use a small feed-forward neural network to model 
+(gj(x, z;∗
+) : j ∈ K+), consisting of two hidden layers 
+with ten and five neurons, respectively, and employ￾ing the sigmoid activation function for all neurons. 
+We train this network using the Adam optimizer 
+(Kingma and Ba 2014) with a learning rate of 104 to 
+minimize the cross-entropy loss.5 In Step 2 of AAE, 
+we pool both primary and axillary data sets to con￾struct the empirical loss function in (3.3) to gain effi￾ciency. Our theoretical results remain valid under this 
+modification, although additional care is required to 
+account for the correlation between the primary data 
+and ˆ.
+To assess the estimators, we calculated the MAPE 
+aggregated across all features:
+MAPEl 1
+d
+X
+d
+j1
+|ˆ l
+j ∗
+j |
+|∗
+j |
+0
+@
+1
+A × 100%,
+∀l ∈ P, A, Naive,AAE,PPI,PPI++ 
+:
+For each combination of data set sizes (m,n), we con￾ducted 50 independent experimental runs and aver￾aged the MAPE to serve as the final performance 
+indicator. We adjust the MAPE values by adding a 
+small constant to the denominator to eliminate the 
+effect of parameters with very small magnitudes. 
+Because MAPE may place greater weight on features 
+with small ground truth coefficients, we also demon￾strate that the results remain robust when evaluated 
+using MSE. Details are provided in Online Appendix 
+C.5. In the subsequent discussion, we use MAPEP, the 
+MAPE based on the primary data set, as the reference 
+point and report the difference in MAPE between each 
+focal estimator and MAPEP. This difference quantifies 
+the performance gain achieved by employing a given 
+estimator relative to using only the primary data set. 
+For instance, if MAPEAAE MAPEP 10%, it indi￾cates that the AAE estimator reduces the MAPE by 
+10% compared with using the primary data set.
+Table 6. Example of Few-Shot Learning
+Input (I): Demonstrations: 
+You should act like a random person deciding whether to receive a COVID-19 vaccination. 
+There are three options for you: 
+A: Efficacy: 70%. Protective duration: 5 years. Major side effect: 1 in 10,000. Minor side effect: 1 in 30. Authorization: Received an 
+emergency use authorization from the US Food and Drug Administration. This allows the expedited use of promising drugs that the
+FDA has found it reasonable to believe may be effective in combatting the virus. Origin: United States. Endorsement: World Health 
+Organization. 
+B: Efficacy: 50%. Protective duration: 5 years. Major side effect: 1 in 1,000,000. Minor side effect: 1 in 30. Authorization: Approved and 
+licensed by the US Food and Drug Administration. Origin: China. Endorsement: US Centers for Disease Control and Prevention. 
+C: You choose neither A nor B. 
+Which option would you choose as a random person? Your response should be a single letter A, B, or C. 
+… (the other nine demonstrations). 
+You should act like a random person deciding whether to receive a COVID-19 vaccination.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+16 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+5.4. Our Approach vs. Other Approaches of Using 
+LLM-Generated Data
+In this section, we present a detailed discussion of the 
+empirical results comparing our estimators to other 
+methods of utilizing LLM-generated data. Table 7
+summarizes MAPE difference between various esti￾mators and the MAPE of using only the primary data 
+sets, ˆ P, that is, MAPEl
+ MAPEP for l ∈{P,A,Naive, 
+AAE,PPI,PPI++}. Please note that ˆ p is the same 
+across all GPT models, with or without CoT, because 
+it employs primary data only. Therefore, the differ￾ence in MAPE represents how much gain in MAPE 
+one can get by employing a focal estimator in compar￾ison with simply using the primary data set. Please 
+also refer to Section 5.1 for details of the error metric. 
+The first column of the table indicates the versions of 
+the GPT model. The second column indicates the 
+prompting technique. The rest of the columns show 
+the difference in the MAPE after augmented n 1, 000 
+GPT-generated samples to a real set with m samples 
+with ˆ A, ˆ Naive, ˆ AAE, ˆ PPI, and ˆ PPI++, respectively. 
+Therefore, a negative number indicates error reduction, 
+whereas a positive number means the error becomes 
+larger after adding GPT data. Below, we highlight 
+several key observations from the results.
+5.4.1. AI-Only Estimation or Naïve Augmentation Incurs 
+More Error. Our results indicate that relying solely on 
+AI-generated data (yielding estimator ˆ A) or naïvely 
+combining AI-generated and human data (yielding 
+estimator ˆ Naive) can introduce substantial estimation 
+errors relative to simply using primary data set ˆ P. As 
+shown in Table 7, although ˆ A and ˆ Naive based on 
+advanced models with advanced prompting techni￾ques may actually increase estimation errors, these 
+simple estimators can reduce error when using more 
+basic models and prompts, such as GPT-Turbo-3.5- 
+0613 and GPT-Turbo-3.5-0125. This finding high￾lights an inconsistency between an LLM’s intrinsic 
+capability and its effectiveness in generating data that 
+resemble human preferences, an observation consistent 
+with prior research (Goli and Singh 2024).
+Interestingly, this inconsistency is counterintuitive: 
+The performance of the AI-only estimator and the 
+naïve augmentation approach does not improve with 
+more advanced GPT models or more sophisticated 
+Table 7. Bias Reduction from ˆ P (%)
+Model Prompt
+m 50 m 100
+ˆ A ˆ Naive ˆ PPI ˆ PPI++ ˆ AAE pmax ˆ A ˆ Naive ˆ PPI ˆ PPI++ ˆ AAE pmax
+GPT-3.5 -Turbo-0613 Basic 5.45 10.80 — — 13.72 8E-11 1.30 4.53 — — 6.90 4E-08
+CoT 20.18 16.81 — — 14.79 1E-15 26.93 20.62 — — 8.09 3E-12
+GPT-3.5 -Turbo-0125 Basic 8.91 9.92 — — 13.29 2E-14 2.16 3.21 — — 6.50 2E-09
+CoT 15.67 10.95 — — 14.84 2E-15 22.43 14.71 25.28 5.14 7.72 4E-11
+GPT-4 Basic 14.81 12.39 — — 15.70 6E-17 21.56 16.20 — — 8.04 3E-12
+CoT 21.77 18.12 — — 15.80 2E-16 28.53 22.49 23.29 4.13 8.30 2E-09
+GPT-4o Basic 15.70 13.05 — — 15.55 1E-16 22.46 17.34 23.05 4.93 8.06 2E-12
+CoT 20.61 16.50 — — 15.74 2E-16 27.37 20.49 19.30 4.42 8.06 3E-12
+FS 12.46 9.71 — — 16.16 9E-18 19.22 14.56 17.83 4.46 8.26 2E-12
+GPT-4o Fine-tuned Basic 4.83 3.18 — — 16.66 2E-18 11.59 7.96 22.90 4.90 9.58 2E-14
+Model Prompt
+m 150 m 200
+ˆ A ˆ Naive ˆ PPI ˆ PPI++ ˆ AAE pmax ˆ A ˆ Naive ˆ PPI ˆ PPI++ ˆ AAE pmax
+GPT-3.5 -Turbo-0613 Basic 6.90 2.06 — — 2.09 0.47 7.56 1.79 — — 0.96 0.979
+CoT 32.53 23.06 19.34 2.93 3.12 2E-05 33.19 21.10 16.08 2.19 1.82 4E-04
+GPT-3.5 -Turbo-0125 Basic 3.43 0.86 24.15 3.48 1.78 0.006 4.10 1.60 16.70 1.92 0.76 0.091
+CoT 28.02 17.72 16.44 3.39 2.74 2E-04 28.69 16.16 10.94 1.95 1.81 7E-04
+GPT-4 Basic 27.16 20.03 11.61 2.91 3.12 3E-05 27.82 19.20 10.90 1.94 2.04 2E-04
+CoT 34.12 26.33 13.86 2.95 3.37 9E-06 34.79 24.10 10.21 1.96 2.27 3E-05
+GPT-4o Basic 28.05 20.90 13.93 3.23 3.07 4E-05 28.72 19.65 11.13 1.92 1.84 2E-04
+CoT 32.96 23.65 13.28 3.29 3.31 8E-06 33.63 21.28 10.20 1.99 2.25 5E-05
+FS 24.81 18.41 11.68 2.78 3.44 6E-06 25.48 17.50 11.31 2.18 2.10 9E-05
+GPT-4o Fine-tuned Basic 17.18 12.46 13.25 2.87 4.81 8E-10 17.85 11.31 11.21 1.93 3.36 5E-09
+Notes. For each estimator under each experimental condition, we perform 50 independent runs and report the average MAPE difference 
+between the focal estimator and ˆ P. The estimators have access to a real data set with m samples and an auxiliary data set containing n 1, 000 
+GPT-generated samples. The reported average MAPE difference thus represents the increase or decrease in MAPE resulting from incorporating 
+these n 1, 000 AI-generated samples, relative to using only the m human-labeled samples. For each experimental condition, we also report the 
+maximum p-value from all pairwise t-tests comparing the MAPE of ˆ AAE with those of the other estimators under the column pmax. The test 
+shows that ˆ AAE outperforms other estimators at the 99% significance level for all instances, except the ones marked with a star. —, cases where
+the numerical value exceeds 1,000, which primarily arises from singularity issues encountered by PPI-based methods when the primary data set 
+is small, leading to estimates dominated by random initialization.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 17 
+
+prompting strategies; in many cases, it actually deterio￾rates. For example, after implementing CoT prompting, 
+we observe that MAPE further increases across models. 
+We conjecture that, in such cases, the LLM becomes 
+“overly rational,” generating choices that may encode 
+richer information but deviate more strongly from 
+human behavior. Although fine-tuning a base model 
+(in this case, GPT-4o) on the primary data set helps mit￾igate some of the bias introduced by incorporating aux￾iliary data, it does not fully resolve the issue: including 
+auxiliary data sets still increases MAPE relative to 
+using the primary data set alone.
+From Table 7, one can see that the naïve augmenta￾tion consistently outperforms pure AI estimation. 
+Indeed, blending in some real data can help align the 
+estimation results. In particular, pure AI estimation 
+can be regarded as a special case of naïve augmenta￾tion. In the following, we examine the performance of 
+AAE by comparing it with the naïve augmentation.
+5.4.2. AAE Regulates Error Consistently. First, as 
+shown in Table 7, ˆ AAE is consistently negative across 
+all models and prompting techniques, indicating that 
+our AAE approach significantly reduces estimation 
+errors relative to using human data alone—regardless of 
+the underlying model or inference quality. We then per￾form pairwise t-tests comparing ˆ AAE with all other esti￾mators in each setting reported in Table 7 and 
+summarize the maximum p-values across these compar￾isons. The results show that ˆ AAE outperforms all bench￾mark estimators at the 99% significance level in every 
+instance, except for the few cases marked with a star.
+More interestingly, unlike the simpler estimators, 
+AAE’s performance improves consistently with more 
+advanced versions of GPT models and more sophisti￾cated prompting strategies. It achieves the largest error 
+reduction when applied to the fine-tuned GPT-4o 
+model using all available data. We find that CoT 
+prompting, few-shot prompting, and fine-tuning each 
+contribute to significant error reductions, with fine￾tuning being the most effective. As more advanced 
+GPT versions and carefully designed prompts produce 
+more informative AI-generated labels, the effective￾ness of AAE correspondingly increases. This observa￾tion is consistent with our theoretical discussion in 
+Online Appendix A, which provides formal support 
+for this intuition. This underscores the potential of 
+AAE to deliver superior results with future iterations 
+of LLMs or other AI-based data generators—provided 
+that the augmentation follows a statistically sound 
+estimation strategy such as ours. Indeed, AAE not 
+only regulates the estimation error in AI-generated 
+data but also offers a principled framework for guid￾ing future improvements in AI-assisted estimation.
+Furthermore, we observe that AAE generally out￾performs the PPI-based methods across different 
+models and prompting strategies. The PPI estimator’s 
+MAPE differences are missing for some experimental 
+cases because its performance is unstable due to sin￾gularity issues, particularly when the primary data set 
+size m is small. In Section 6.2, we provide a more 
+detailed comparison between AAE and PPI-based 
+methods using both a real data set and a synthetic 
+data set to further investigate the sources of their per￾formance differences.
+Finally, beyond the aggregate comparison in Table 7, 
+Figure 3 illustrates the feature-level discrepancies 
+between ˆ Naive and ˆ AAE. The figure compares the esti￾mated parameter values for eleven features across 
+ˆ Naive, ˆ AAE, and the ground truth, using m 100 pri￾mary data points and n 1, 000 auxiliary data points. 
+As shown, the naïve augmentation approach produces 
+substantially larger estimation errors—particularly for 
+the most influential vaccine features—whereas AAE 
+yields estimates that are much more closely aligned 
+with the ground truth.
+5.5. Our Approach vs. Human-Only 
+Data—Economic Value of Our Approach
+Thus far, we have focused on evaluating our method 
+based on estimation error against other ways of utiliz￾ing AI data. In practice, the primary goal of using AI 
+as a data augmenter in market research is to reduce 
+the costs of hiring real survey participants. Thus, we 
+evaluated the percentage of data saved using AAE 
+with various GPT models, as summarized in Table 8. 
+Specifically, for a given error reduction achieved 
+by applying AAE to a real data set of size n1, we 
+Figure 3. (Color online) Illustration of ˆ AAE and ˆ Naive by 
+Feature 
+Notes. The figures presents the ground-truth parameters ∗ (in the 
+dashed curve), ˆ AAE (light-colored box) and ˆ Naive (dark-colored 
+box). The percentiles in the box plots are based on the 50 experimental 
+runs with m 100.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+18 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+calculated the amount of real data samples, n2, 
+required to achieve the same error reduction without 
+AI augmentation. The percentage of data saved is 
+then estimated as ((n2 n1)=n2)× 100%.
+Our results show that with fine-tuned GPT-4o, 
+data savings range from 24.9% to 79.8%. When the 
+primary set is small (m 50), AAE saves between 
+71.64% and 79.8% of data samples, regardless of the 
+GPT model or prompt design. With a moderate pri￾mary set size (m 100, 150), savings range from 27.7% 
+to 58.0%, again consistent across GPT models and 
+prompts. Compared with the costs of recruiting real 
+survey participants, the costs of generating AI-based 
+data are negligible and will continue to decrease as 
+generative AI technology advances. In practice, con￾joint surveys must be regularly readministered across 
+different product categories and customer segments 
+to account for evolving consumer preferences. This 
+can result in a substantial number of surveys being 
+required over time. Thus, we conclude that AAE 
+offers significant cost savings in the long run.
+6. Additional Empirical Analysis
+In this section, we present additional empirical stud￾ies. In Section 6.1, we assess the robustness of our 
+method on an alternative data set. In Section 6.2, 
+we provide a more detailed comparison between 
+AAE and PPI-based methods. Finally, in Section 6.3, 
+we explore the performance of AAE under model 
+misspecification.
+6.1. Empirical Analysis on Other Data
+This section presents an alternative empirical study 
+on a real choice-based conjoint data set for sports cars 
+(Spencer 2019) as a robustness check for the results in 
+Section 5. This data set consists of responses from 200 
+participants, each expressing preferences for a series 
+of hypothetical sports cars. Each respondent was 
+shown 10 sets of three sports cars, described by five 
+attributes with multiple levels, as outlined in Table 9. 
+Participants were asked to choose one of the three 
+cars. We randomly selected 120 respondents from the 
+training set for each experiment, resulting in a data set 
+of 1,200 samples. The car attributes in these samples 
+were converted to text and used to generate GPT data 
+sets, following a similar procedure to Section 5.2, 
+details of which are discussed in Online Appendix 
+C.2. The remainder of the experimental setup is also 
+consistent with the approach described in Section 5.1.
+Table 10 summarizes the change in MAPE of ˆ A, 
+ˆ Naive, and ˆ AAE in comparison with ˆ P. Similarly to 
+the findings in Section 5, AAE significantly reduces 
+MAPE in all scenarios, achieving in general the best 
+performance using GPT-4 with CoT and GPT-4o 
+with few-shot prompting, whereas the naïve or 
+AI-only methods tend to elicit errors. Interestingly, 
+AAE’s performance shows less correlation with more 
+advanced GPT or prompting techniques compared 
+with the vaccine setting, which is expected given that 
+sports car preferences are highly subjective. Despite 
+being an older version, GPT-3.5-Turbo-0613 per￾forms well with AAE in this context. One can notice 
+that GPT-3.5-Turbo-0613 incurs a small estima￾tion error with naïve augmentation, suggesting it may 
+happen to have a close alignment with real human 
+data, which in turn enhances AAE’s effectiveness. 
+Moreover, fine-tuning GPT-4o does not improve 
+the performance of naïve augmentation. This again 
+underscores that fine-tuning is not a universal solu￾tion to all problems.
+Table 8. Percentage of Saving in Data Size (%)
+Model Prompt m 50 m 100 m 150 m 200
+GPT-3.5-Turbo-0613 Basic 73.59 (0.69) 46.48 (1.64) 30.97 (1.68) 0.86 (2.80)*
+CoT 76.05 (1.63) 52.84 (2.61) 37.34 (2.93) 8.37 (4.49)
+GPT-3.5-Turbo-0125 Basic 71.64 (0.77) 42.67 (1.63) 27.65 (1.36) 3.72 (2.75)*
+CoT 77.24 (1.23) 52.44 (1.98) 36.22 (2.19) 10.73 (3.77)
+GPT-4 Basic 79.30 (1.20) 53.23 (2.28) 39.83 (2.00) 14.01 (3.17)
+CoT 78.40 (1.68) 53.70 (2.89) 40.76 (2.22) 14.96 (3.78)
+GPT-4o Basic 77.86 (1.56) 51.91 (2.74) 38.10 (2.41) 9.39 (4.35)
+CoT 78.81 (1.45) 52.64 (2.66) 41.02 (2.13) 15.14 (3.82)
+FS 79.39 (1.41) 53.79 (2.56) 42.47 (1.97) 13.00 (3.99)
+GPT-4o Fine-tuned Basic 79.81 (1.63) 58.04 (3.22) 50.20 (2.27) 24.86 (4.16)
+Notes. This table presents the percentage of data saved using AAE with various GPT models, averaged over 50 
+experimental runs. The standard errors are shown in parentheses. One sample t-tests show that the savings are all 
+significant at the 95% level except for the ones marked with an asterisk.
+Table 9. Attributes in the Sports Car Conjoint Analysis
+Feature Levels and description
+Segment (type of car model) Basic, fun, and racer
+Number of seats Two, four, and five
+Type of transmission Manual and automatic
+Convertible roofs Yes and no
+Price Price in thousands $, with three 
+possible choices (30, 35, 40)
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 19 
+
+Table 11 shows the percentage of data that can be 
+saved using AAE. Our results show data savings 
+ranging from 5.1% to 60.3% across different models, 
+prompts, and primary data sizes. When the primary 
+set is small (m 50), AAE saves between 46.9% and 
+60.3% of data samples, regardless of the GPT model 
+or prompt design. With a moderate primary set size 
+(m 100,150), savings range from 18.3% to 40.2%, 
+again consistent across GPT models and prompts. 
+These results further support the practical value of 
+AAE in broad conjoint settings.
+6.2. More Detailed Comparison with PPI-Based 
+Methods
+In this section, we present a more detailed comparison 
+between AAE and the PPI-based methods. In addition 
+Table 10. Bias Reduction from ˆ P in Empirical Setting II (%)
+Model Prompt
+m 50 m 100
+ˆ A ˆ Naive ˆ AAE pmax ˆ A ˆ Naive ˆ AAE pmax
+GPT-3.5-Turbo-0613 Basic 17.27 34.20 37.81 0.105* 15.09 1.15 11.02 4e-04
+CoT 148.81 119.98 34.33 3e-07 181.18 130.32 9.50 0.002
+GPT-3.5-Turbo-0125 Basic 29.70 5.58 30.22 2e-07 62.06 32.47 9.80 0.001
+CoT 129.80 112.47 35.35 9e-08 162.17 124.39 11.07 6e-04
+GPT-4 Basic 12.43 16.70 30.63 2e-04 19.94 10.17 8.62 2e-04
+CoT 173.34 132.71 38.32 2e-07 205.71 137.60 11.36 3e-04
+GPT-4o Basic 421.27 292.59 25.68 6e-06 453.64 263.41 8.92 0.006
+CoT 304.98 229.80 28.65 4e-06 337.34 219.76 7.86 0.007
+FS 153.33 89.90 31.61 2e-07 185.69 98.61 8.45 0.007
+GPT-4o Fine-tuned Basic 201.95 133.85 36.74 3e-07 234.32 132.10 12.85 6e-05
+Model Prompt
+m 150 m 200
+ˆ A ˆ Naive ˆ AAE pmax ˆ A ˆ Naive ˆ AAE pmax
+GPT-3.5-Turbo-0613 Basic 28.53 8.57 6.83 4e-04 30.71 8.26 7.09 5e-05
+CoT 194.62 126.11 4.80 0.019 196.80 119.07 5.39 5e-04
+GPT-3.5-Turbo-0125 Basic 75.50 37.96 5.30 0.005 77.68 34.69 6.59 2e-04
+CoT 175.60 123.92 5.17 0.006 177.78 113.93 6.64 3e-04
+GPT-4 Basic 33.37 21.31 4.60 0.005 35.55 19.68 4.72 2e-04
+CoT 219.15 136.34 7.69 2e-04 221.32 121.56 6.62 7e-04
+GPT-4o Basic 467.07 234.85 4.56 0.030 469.25 207.47 7.03 2e-04
+CoT 350.78 199.59 5.92 0.010 352.96 178.51 6.26 1e-04
+FS 199.13 96.48 2.84 0.155* 201.31 84.70 4.38 0.019
+GPT-4o Fine-tuned Basic 247.76 123.92 9.02 2e-04 249.93 110.3 6.99 4e-04
+Notes. For each estimator under each experimental condition, we perform 50 independent runs and report the average MAPE difference 
+between the focal estimator and ˆ P. In each condition, the estimators have access to a real data set with m samples and an auxiliary data set 
+containing n 500 GPT-generated samples. The reported average MAPE difference thus represents the increase or decrease in MAPE resulting 
+from incorporating these n 500 AI-generated samples, relative to using only the m human-labeled samples. For each experimental condition, 
+we also report the maximum p-value from all pairwise t-tests comparing the MAPE of ˆ AAE with those of the other estimators under the column 
+pmax. The test shows that ˆ AAE outperforms other estimators at the 95% significance level for all instances, except for the ones marked with an 
+asterisk.
+Table 11. Percentage of Saving in Data Size in Empirical Setting II (%)
+Model Prompt m 50 m 100 m 150 m 200
+GPT-3.5-Turbo-0613 Basic 59.39 (3.65) 33.26 (5.47) 30.81 (6.53) 17.05 (10.32)*
+CoT 55.04 (4.04) 29.30 (5.50) 26.05 (6.04) 10.47 (10.76)*
+GPT-3.5-Turbo-0125 Basic 52.96 (4.31) 29.22 (7.26) 26.29 (6.35) 16.06 (10.71)*
+CoT 56.44 (3.48) 34.18 (4.88) 25.91 (6.99) 14.97 (9.83)*
+GPT-4 Basic 48.99 (5.25) 25.74 (7.29) 24.37 (7.20) 5.12 (12.09)*
+CoT 60.29 (3.54) 34.24 (5.26) 34.83 (5.69) 15.81 (8.67)
+GPT-4o Basic 46.90 (4.30) 27.10 (7.07) 23.71 (6.55) 17.20 (9.25)
+CoT 51.39 (3.93) 24.86 (5.88) 29.72 (5.46) 14.20 (9.81)*
+FS 58.18 (3.42) 38.11 (5.10) 40.23 (5.06) 20.42 (8.60)
+GPT-4o Fine-tuned Basic 50.26 (4.93) 27.01 (5.92) 18.34 (6.31) 5.56 (11.90)*
+Notes. This table presents the percentage of data saved using AAE with various GPT models, averaged over 50 
+experimental runs in the second empirical setting. The standard errors are shown in parentheses. One-sample t-tests 
+show that the savings are all significant at the 95% level except for the ones marked with an asterisk.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+20 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+to the analysis in Section 5 using the COVID-19 vac￾cine survey data set, we evaluate both approaches on 
+the U.S. private health insurance census data set from 
+the original PPI study (Angelopoulos et al. 2023b). 
+We further investigate their differences using a syn￾thetic data set designed to isolate specific performance 
+characteristics.
+6.2.1. Real Data Experiments on Private Healthcare 
+Census Data Set. Table 12 summarizes the perfor￾mance of AAE and PPI-based methods on the private 
+health insurance census data set used in Angelopou￾los et al. (2023b). Because the PPI-based methods suf￾fered from singularity issues under small primary 
+data set in the experiment settings in Section 5, we 
+tested larger primary data size m ranging from 100 
+to 1, 000 in this experiment for a more comprehen￾sive comparison.
+Similar to the COVID-19 vaccine setting in Section 
+5, AAE outperforms PPI-based methods. The perfor￾mance gap is more pronounced in the vaccine setting. 
+A key difference between the two data sets lies in fea￾ture dimensionality: the vaccine data set includes 11 
+features, whereas the census data set contains only 
+two. As discussed earlier, the distinction between 
+AAE and PPI-based methods is where the correction 
+is applied—at the loss-function level (PPI) versus the 
+mapping-function level (AAE). This implies that 
+performance differences become more significant 
+when the loss function captures less information 
+embedded in the data-generating process, a scenario 
+more likely with higher feature dimensionality. The 
+results from the two data sets are consistent with 
+this reasoning. To further investigate this effect, 
+we conduct a synthetic data study examining how 
+feature dimensionality impacts the relative perfor￾mance of AAE and PPI-based methods.
+6.2.2. Simulated Data Experiment. We conduct a sim￾ulated study to compare AAE and PPI-based methods 
+as the number of features varies. We generated syn￾thetic data sets with varying number of feature d. 
+Details of the synthetic data generation procedure and 
+the experimental setups can be found in Online Appen￾dix C.3. Table 13 summarizes the model performances 
+using these data sets. The results in Table 13 support 
+our previous intuition: when the number of features d 
+is small (i.e., x is low dimensional), the loss function of 
+the outcomes retains much of the information about the 
+mapping function, and the two methods perform simi￾larly. However, as the dimensionality of x increases, 
+AAE significantly outperforms PPI-based methods. 
+These findings are consistent with our results from the 
+previous section.
+6.3. Impact of Model Misspecification and 
+Nonparametric Estimates
+Because our AAE estimator critically relies on the first￾stage estimation of g(·), whose form is usually unclear 
+in practice, we further investigate the impact of model 
+misspecification and nonparametric first stage esti￾mates. To this end, we construct a ground truth model 
+based on a nonparametric tree structure that cannot be 
+well approximated by standard parametric first-stage 
+estimators, thereby inducing model misspecification 
+(see Online Appendix C.4 for details). Using this 
+ground truth model, we evaluate the performance of 
+AAE with different first-stage estimators across vari￾ous primary set sizes m—We use the logistic regres￾sion model and neural networks of different numbers 
+Table 12. Bias Reduction from ˆ P in the Private Healthcare 
+Census Setting (%)
+m ˆ AAE ˆ PPI ˆ PPI++ pmax
+100 65.86 22.29 15.22 0.04
+250 35.98 12.7 4.7 0.03
+500 29.93 7.58 2.41 0.01
+750 10.74 2.13 1.06 0.11*
+1,000 11.87 4.56 1.14 0.13*
+Notes. For each estimator under each experimental condition, we 
+perform 50 independent runs and report the average MAPE difference 
+between the focal estimator and ˆ P. In each condition, the estimators 
+have access to a real data set with m samples and an auxiliary data set 
+containing n 2, 000 auxiliary samples. The reported average MAPE 
+difference thus represents the increase or decrease in MAPE resulting 
+from incorporating these n 2, 000 auxiliary samples, relative to using 
+only the m real samples. Data features are normalized before applying 
+the methods. For each experimental condition, we also report the 
+maximum p-value from all pairwise t-tests comparing the MAPE of 
+ˆ AAE with those of the other estimators under the column pmax. The 
+test shows that ˆ AAE outperforms other estimators at the 90% 
+significance level for all instances, except for the ones marked with an 
+asterisk.
+Table 13. Bias Reduction from ˆ P Under Various 
+Dimensionality d (%)
+ˆ AAE ˆ PPI ˆ PPI++ pmax
+d 2 17.12 14.01 17.40 0.53*
+d 4 19.78 12.35 16.27 0.06
+d 6 61.41 29.39 34.64 3E-08
+d 8 145.71 5.95 66.36 2E-08
+d 10 171.98 80.86 115.00 5E-06
+Notes. For each estimator under each experimental condition, we 
+perform 50 independent runs and report the average MAPE 
+difference between the focal estimator and ˆ P. In each condition, the 
+estimators have access to a real data set with m 100 samples and an 
+auxiliary data set containing n 1, 000 auxiliary samples. The 
+reported average MAPE difference thus represents the increase or 
+decrease in MAPE resulting from incorporating these n 1, 200 
+auxiliary samples, relative to using only the m real samples. For each 
+experimental condition, we also report the maximum p-value from 
+all pairwise t-tests comparing the MAPE of ˆ AAE with those of the 
+other estimators under the column pmax. The test shows that ˆ AAE 
+outperforms other estimators at the 95% significance level for all 
+instances, except for the ones marked with an asterisk.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 21 
+
+of hidden layers in our first-stage estimation, captur￾ing varying levels of representational capacity.
+As shown in Table 14, estimation error increases 
+with a simpler first-stage model, indicating that model 
+misspecification does affect the empirical performance 
+of AAE. Nevertheless, the overall impact remains 
+moderate compared with using human data only 
+and can be mitigated by employing more flexible 
+first-stage estimators, such as neural networks with 
+increasing complexities, which effectively bring us to 
+a setting with nonparametric first-stage estimates.
+Based on our empirical and numerical findings, we 
+offer two practical recommendations. (1) When data 
+are limited, a shallow neural network seem to guard 
+against model misspecification and may serve as an 
+effective choice. (2) When sufficient data are available, 
+one can split the sample and use cross-validation in the 
+first stage to select the optimal model. We also wish to 
+clarify the boundaries of our current study. Our discus￾sion and methodological design remain limited when 
+confronted with challenges such as model misspecifica￾tion and high dimensionality. In such scenarios, using 
+nonparametric first-stage estimates—such as large and 
+dense neural networks—can be a promising approach. 
+However, in the nonparametric setting, the slower con￾vergence rate—stemming from challenges such as 
+overfitting and the need for regularization—introduces 
+additional practical difficulties. We leave the explora￾tion of these issues to the future research.
+7. General Discussion
+Looking ahead, our method opens new opportunities 
+for more effective use of LLMs in market research and 
+related domains. As LLM technology continues to 
+advance, this framework provides a foundation for 
+future innovations in data augmentation, helping 
+researchers and practitioners navigate the tradeoffs 
+between AI-generated and human-generated data. We 
+identify several promising directions for future 
+research. First of all, the approach may be more broadly 
+extended to settings where real data are scarce, enabling 
+new applications of AI for understanding human pre￾ferences and behavior. Second, further work could 
+explore additional ways to enhance the practical inte￾gration of LLMs with our framework. For example, 
+incorporating different personas into LLM prompts 
+may allow the generated data to more closely reflect the 
+preferences of specific user populations. Third, the pro￾posed framework is not limited to the particular model 
+or data-generation process studied here. Extensions to 
+more general loss functions—beyond the KL diver￾gence or squared loss considered in AARE—represent 
+a natural and important avenue for future research. 
+Fourth, although we note that cross-validation can be 
+used to select the first-stage estimator, alternative or 
+complementary model-selection approaches, such as 
+complexity-based criteria including AIC and BIC, may 
+further improve performance. In principle, if we uses 
+out-of-sample predication accuracy as the metric for 
+model selection in the first stage, then this can be 
+exactly in the way as typical ML settings (see Raschka 
+(2018) for a comprehensive discussion). However, the 
+impact of doing so on the second stage is not fully 
+understood, and we call for a systematic investigation 
+of how different model-selection strategies affect empir￾ical outcomes to future work. Finally, as discussed in 
+the concluding section, addressing the slow conver￾gence rates of the first-stage estimator in nonparametric 
+settings could substantially enhance the scalability and 
+applicability of our method, and remains an important 
+direction for future study.
+Endnotes
+1 Note that we do not assume that the data are generated by a MNL 
+model. We recognize that choice probabilities parameterized by the 
+MNL model may be mis-specified. In practice, customer choice prob￾abilities can exhibit considerable complexity, yet researchers and 
+practitioners often rely on the simpler MNL model as an approxima￾tion in conjoint analyses.
+2 For simplicity, here we assume that an optimizer ˆ AAE is obtained. 
+Otherwise, we may optimize approximately and alternatively choose 
+ˆ AAE such that Qb (ˆ;ˆ AAE) sup∈d Qb (ˆ;) oP(1). In this case, our 
+key theoretical result, Theorem 4.3, is still valid with a slight adapta￾tion of the analysis. Interested readers may refer to the proof of Theo￾rem 4.3 in the Online Appendix.
+3 At the time this paper was first written, GPT-5 was not yet avail￾able to regular OpenAI API users and was therefore excluded from 
+our empirical analysis. Nevertheless, as discussed earlier, because 
+our method serves as an enhancement to existing models, we do 
+not expect the qualitative conclusions of our results to change as 
+model quality improves—as long as some degree of misalignment 
+between model-generated and human labels remains.
+4 OpenAI API recommends using 50–100 well-crafted demonstra￾tions, which typically leads to clear improvements.
+5 We also approximated the g(·) function using alternative methods, 
+including logistic regression and random forests. The qualitative 
+results—namely, that our estimators outperform the alternatives— 
+remained consistent. For brevity, we report only the neural network 
+results.
+Table 14. Bias Reduction of AAE from ˆ P Using Different 
+First-Stage Estimators (%)
+m
+Logistic 
+regression
+NN with single 
+hidden layer
+NN with two 
+hidden layers
+50 26,612.90 26,792.41 26,825.15
+100 386.35 551.31 574.82
+150 251.16 389.32 406.86
+200 113.72 236.97 255.02
+Notes. This table reports the bias reduction of AAE with various first￾stage estimators, obtained by augmenting m real data points with 
+n 1, 000 auxiliary data points. Results are averaged over 50 
+experimental runs. The large bias reduction at m 50 arises from the 
+nonconvergence of the human-data-only estimator when trained on 
+small data sets.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+22 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+References
+Achiam J, Adler S, Agarwal S, Ahmad L, Akkaya I, Aleman FL, 
+Almeida D, et al. (2023) GPT-4 technical report. Preprint, sub￾mitted March 15, https://arxiv.org/abs/2303.08774.
+Allenby GM, Rossi PE (2006) Hierarchical Bayes models. The Hand￾book of Marketing Research: Uses, Misuses, and Future Advances 
+(SAGE Publications, Thousand Oaks, CA), 418–440.
+Angelopoulos AN, Duchi JC, Zrnic T (2023a) PPI++: Efficient 
+prediction-powered inference. Preprint, submitted November 2, 
+https://arxiv.org/abs/2311.01453.
+Angelopoulos AN, Bates S, Fannjiang C, Jordan MI, Zrnic T (2023b) 
+Prediction-powered inference. Science 382(6671):669–674.
+Argyle LP, Busby EC, Fulda N, Gubler JR, Rytting C, Wingate D 
+(2023) Out of one, many: Using language models to simulate 
+human samples. Political Anal. 31(3):337–351.
+Bastani H, Zhang DJ, Zhang H (2022) Applied machine learning in 
+operations management. Innovative Technology at the Interface of 
+Finance and Operations: Volume I (Springer Nature), 189–222.
+Beltagy I, Lo K, Cohan A (2019) Scibert: A pretrained language 
+model for scientific text. Preprint, submitted March 26, https:// 
+arxiv.org/abs/1903.10676.
+Bound J, Brown C, Mathiowetz N (2001) Measurement error in sur￾vey data. Handbook of Econometrics, vol. 5 (Elsevier, Amster￾dam), 3705–3843.
+Brand J, Israeli A, Ngwe D (2023) Using LLMs for market research. 
+Preprint, submitted March 30, https://doi.org/10.2139/ssrn. 
+4395751.
+Brown TB, Mann B, Ryder N, Subbiah M, Kaplan J, Dhariwal P, Nee￾lakantan A, et al. (2020) Language models are few-shot learners. 
+Preprint, submitted May 28, https://arxiv.org/abs/2005.14165.
+Chardon H, Lerasle M, Mourtada J (2024) Finite-sample perfor￾mance of the maximum likelihood estimator in logistic regres￾sion. Preprint, submitted November 4, https://arxiv.org/abs/ 
+2411.02137.
+Chen Y, Liu TX, Shan Y, Zhong S (2023) The emergence of economic 
+rationality of GPT. Proc. Natl. Acad. Sci. USA 120(51):e2316205120.
+Chen X, Owen Z, Pixton C, Simchi-Levi D (2022) A statistical learn￾ing approach to personalization in revenue management. Man￾agement Sci. 68(3):1923–1937.
+Choi T-M, Kumar S, Yue X, Chan H-L (2022) Disruptive technolo￾gies and operations management in the industry 4.0 era and 
+beyond. Production Oper. Management 31(1):9–31.
+Chomsky N (1956) Three models for the description of language. 
+IEEE Trans. Inform. Theory 2(3):113–124.
+Connell P, Choi JH (2024) Estimating and correcting for misclassifi￾cation error in empirical textual research. Preprint, submitted 
+September 5, https://doi.org/10.2139/ssrn.4913179.
+Devlin J, Chang M-W, Lee K, Toutanova K (2018) BERT: Pre-training of 
+deep bidirectional transformers for language understanding. Pre￾print, submitted October 11, https://arxiv.org/abs/1810.04805.
+Dzyabura D, Jagabathula S (2018) Offline assortment optimization 
+in the presence of an online channel. Management Sci. 64(6): 
+2767–2786.
+Eggers F, Sattler H, Teichert T, Volckner F (2022) Choice-based con- ¨
+joint analysis. Handbook of Market Research (Springer, Cham, 
+Switzerland), 781–819.
+Feller W (1971) An Introduction to Probability Theory and Its Applica￾tions, Volume II, 2nd ed. (John Wiley & Sons, New York).
+Girotra K, Meincke L, Terwiesch C, Ulrich KT (2023) Ideas are dimes 
+a dozen: Large language models for idea generation in innova￾tion. Preprint, submitted August 2, https://doi.org/10.2139/ 
+ssrn.4526071.
+Goli A, Singh A (2024) Frontiers: Can large language models cap￾ture human preferences? Marketing Sci. 43(4):709–722.
+Green PE, Srinivasan V (1978) Conjoint analysis in consumer research: 
+Issues and outlook. J. Consumer Res. 5(2):103–123.
+Green PE, Srinivasan V (1990) Conjoint analysis in marketing: New 
+developments with implications for research and practice. J. 
+Marketing 54(4):3–19.
+Gui G, Toubia O (2023) The challenge of using LLMs to simulate 
+human behavior: A causal inference perspective. Preprint, sub￾mitted December 24, https://arxiv.org/abs/2312.15524.
+Gururangan S, Marasovic A, Swayamdipta S, Lo K, Beltagy I, Dow- ´
+ney D, Smith NA (2020) Don’t stop pretraining: Adapt lan￾guage models to domains and tasks. Preprint, submitted April 
+23, https://arxiv.org/abs/2004.10964.
+Hair J Jr, Page M, Brunsveld N (2019) Essentials of Business Research 
+Methods, 4th ed. (Routledge, New York).
+Hinton G, Vinyals O, Dean J (2015) Distilling the knowledge in a 
+neural network. Preprint, submitted March 9, https://arxiv. 
+org/abs/1503.02531.
+Horton JJ (2023) Large language models as simulated economic agents: 
+What can we learn from homo silicus? NBER Working Paper 
+No. 31122, National Bureau of Economic Research, Cambridge, MA.
+Huang Y, Yuan Z, Zhou Y, Guo K, Wang X, Zhuang H, Sun W, et 
+al. (2024) Social science meets LLMs: How reliable are large lan￾guage models in social simulations? Preprint, submitted Octo￾ber 30, https://arxiv.org/abs/2410.23426.
+HuggingFace (2024) Meta-LLaMA. Accessed August 31, 2024, https:// 
+huggingface.co/meta-llama/Meta-Llama-3-8B#:~:text=Training 
+%20Data,over%2010M%20human%2Dannotated%20examples.
+Ji W, Lei L, Zrnic T (2025) Predictions as surrogates: Revisiting surro￾gate outcomes in the age of AI. Preprint, submitted January 16, 
+https://arxiv.org/abs/2501.09731.
+Kessels R, Goos P, Vandebroek M (2008) Optimal designs for con￾joint experiments. Comput. Statist. Data Anal. 52(5):2369–2387.
+Kingma DP, Ba J (2014) Adam: A method for stochastic optimiza￾tion. Preprint, submitted December 22, https://arxiv.org/abs/ 
+1412.6980.
+Kohli R, Sukumar R (1990) Heuristics for product-line design using 
+conjoint analysis. Management Sci. 36(12):1464–1478.
+Kreps S, Prasad S, Brownstein JS, Hswen Y, Garibaldi BT, Zhang B, 
+Kriner DL (2020) Factors associated with US adults’ likelihood 
+of accepting COVID-19 vaccination. JAMA Network Open 3(10): 
+e2025594.
+Ludwig J, Mullainathan S, Rambachan A (2024) Large language 
+models: An applied econometric framework. Preprint, submit￾ted December 9, https://arxiv.org/abs/2412.07031.
+Naveed H, Ullah Khan A, Qiu S, Saqib M, Anwar S, Usman M, 
+Akhtar N, et al. (2023) A comprehensive overview of large lan￾guage models. Preprint, submitted July 12, https://arxiv.org/ 
+abs/2307.06435.
+Newey WK, McFadden D (1994) Large sample estimation and 
+hypothesis testing. Handbook of Econometrics, vol. 4 (North Hol￾land, Amsterdam), 2111–2245.
+Olsen TL, Tomlin B (2020) Industry 4.0: Opportunities and chal￾lenges for operations management. Manufacturing Service Oper. 
+Management 22(1):113–122.
+Pan SJ, Yang Q (2009) A survey on transfer learning. IEEE Trans. 
+Knowledge Data Engrg. 22(10):1345–1359.
+Parthasarathy VB, Zafar A, Khan A, Shahid A (2024) The ultimate 
+guide to fine-tuning LLMs from basics to breakthroughs: An 
+exhaustive review of technologies, research, best practices, 
+applied research challenges and opportunities. Preprint, sub￾mitted August 23, https://arxiv.org/abs/2408.13296.
+Peng A, Allard J, Heidel S (2024) Fine-tuning now available for 
+GPT-4o. Accessed December 15, 2024, https://openai.com/index/ 
+gpt-4o-fine-tuning/.
+Radford A, Narasimhan K, Salimans T, Sutskever I (2018) Improving 
+language understanding by generative pre-training. OpenAI. 
+Accessed June 3, 2025, https://openai.com/index/language￾unsupervised/.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 23 
+
+Raschka S (2018) Model evaluation, model selection, and algorithm 
+selection in machine learning. Preprint, submitted November 
+13, https://arxiv.org/abs/1811.12808.
+Shane SA, Ulrich KT (2004) 50th anniversary article: Technological 
+innovation, product development, and entrepreneurship in 
+management science. Management Sci. 50(2):133–144.
+Solomon MR (2020) Consumer Behavior: Buying, Having, and Being 
+(Pearson, Harlow, England).
+Spencer V (2019) Choice modeling sports cars. Accessed October 9, 
+2024, https://github.com/spensorflow/Marketing-Analytics— 
+Choice-Modeling-Sports-Car-Sales.
+Sutskever I, Vinyals O, Le QV (2014) Sequence to sequence learning 
+with neural networks. Preprint, submitted September 10, 
+https://arxiv.org/abs/1409.3215.
+Teixeira L (2023) Prompt engineering: Compressing text to ideas 
+and decompressing back with sparse priming representations. 
+Accessed December 29, 2024, https://medium.com/@lawren 
+ceteixeira/prompt-engineering-compressing-text-to-ideas-and￾decompressing-back.
+Terwiesch C (2019) Om forum—Empirical research in operations 
+management: From field studies to analyzing digital exhaust. 
+Manufacturing Service Oper. Management 21(4):713–722.
+Van der Vaart AW (2000) Asymptotic Statistics, vol. 3 (Cambridge 
+University Press).
+Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, 
+Kaiser L, Polosukhin I (2017) Attention is all you need. Guyon I, 
+von Luxburg U, Bengio S, Wallach H, Fergus R, Vishwanathan 
+SVN, Garnett R, eds. Adv. Neural Inform. Processing Systems, vol. 30 
+(Curran Associates, Inc., Red Hook, NY), 5998–6008.
+Wainwright MJ (2019) High-Dimensional Statistics: A Non-Asymptotic 
+Viewpoint, vol. 48 (Cambridge University Press, Cambridge, UK).
+Wang X, Camm JD, Curry DJ (2009) A branch-and-price approach 
+to the share-of-choice product line design problem. Management 
+Sci. 55(10):1718–1728.
+Wei J, Wang X, Schuurmans D, Bosma M, Xia F, Chi E, Le QV, 
+Zhou D (2022) Chain-of-thought prompting elicits reasoning in 
+large language models. Adv. Neural Inform. Processing Systems, 
+vol. 35 (Curran Associates Inc., Red Hook, NY), 24824–24837.
+Yang K, Li H, Wen H, Peng T-Q, Tang J, Liu H (2024) Are large lan￾guage models (LLMs) good social predictors? Preprint, submit￾ted February 20, https://arxiv.org/abs/2402.12620.
+Yao S, Yu D, Zhao J, Shafran I, Griffiths T, Cao Y, Narasimhan K 
+(2023) Tree of thoughts: Deliberate problem solving with 
+large language models. Oh A, Naumann T, Globerson A, 
+Saenko K, Hardt M, Levine S, eds. Adv. Neural Inform. Proces￾sing Systems, vol. 36 (Curran Associates, Inc., Red Hook, NY), 
+11809–11822.
+Yoo Y, Henfridsson O, Kallinikos J, Gregory R, Burtch G, Chatterjee 
+S, Sarker S (2024) The next frontiers of digital innovation 
+research. Inform. Systems Res. 35(4):1507–1523.
+Zhang J, Xue W, Yu Y, Tan Y (2023) Debiasing ML-or AI-generated 
+regressors in partial linear models. Preprint, submitted Novem￾ber 30, https://doi.org/10.2139/ssrn.4636026.
+Zhuang F, Qi Z, Duan K, Xi D, Zhu Y, Zhu H, Xiong H, et al. (2020) 
+A comprehensive survey on transfer learning. Proc. IEEE 109(1): 
+43–76.
+Ziems C, Held W, Shaikh O, Chen J, Zhang Z, Yang D (2024) Can 
+large language models transform computational social science? 
+Comput. Linguist. 50(1):237–291. 
+Mengxin Wang is an assistant professor of operations manage￾ment at the Naveen Jindal School of Management of The University 
+of Texas at Dallas. Prior to joining UT Dallas, she earned her PhD in 
+industrial engineering and operations research at the University of 
+California, Berkeley, in 2023, and her BEng in industrial engineering 
+at Tsinghua University in 2017.
+Dennis J. Zhang is a full professor of operations management as 
+well as marketing at the Olin Business School of Washington Uni￾versity in St. Louis. He obtained his PhD in managerial economics 
+and operations management from Northwestern University’s Kel￾logg School of Management in 2016. Before that, he earned his BS in 
+electrical engineering and computer science and mathematics from 
+University of California, Los Angeles, in 2012.
+Heng Zhang is an assistant professor in the Supply Chain Man￾agement Department at the W.P. Carey School of Business, Arizona 
+State University. He earned his PhD in data sciences and operations 
+from Marshall School of Business, University of Southern California. 
+His research focuses on two primary areas: revenue management 
+and business analytics with artificial intelligence. He received the 
+2024 W.P. Carey Dean’s Early Career Research Award, in recogni￾tion of his contributions to the field.
+Wang, Zhang, and Zhang: Large Language Models for Market Research 
+24 Marketing Science, Articles in Advance, pp. 1–24, © 2026 INFORMS 
+
+Copyright of Marketing Science (INFORMS) is the property of INFORMS: Institute for
+Operations Research & the Management Sciences and its content may not be copied or
+emailed to multiple sites without the copyright holder's express written permission.
+Additionally, content may not be used with any artificial intelligence tools or machine
+learning technologies. However, users may print, download, or email articles for individual
+use.

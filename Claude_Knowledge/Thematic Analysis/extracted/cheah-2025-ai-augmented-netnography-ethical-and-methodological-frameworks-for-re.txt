@@ -1,0 +1,847 @@
+Special Issue: The Evolving Landscape of Qualitative Research: Exploring the Potential and Navigating the Challenges of Artificial
+Intelligence
+International Journal of Qualitative Methods
+Volume 24: 1–11
+© The Author(s) 2025
+DOI: 10.1177/16094069251338910
+journals.sagepub.com/home/ijq
+AI-Augmented Netnography: Ethical and
+Methodological Frameworks for
+Responsible Digital Research
+Chee Wei Cheah1
+Abstract
+The increasing integration of Artificial Intelligence (AI) in social sciences research is reshaping qualitative methodologies,
+particularly in those studies that employ the netnography method. Although AI provides improved data processing abilities, it
+also introduces ethical and methodological concerns about privacy, transparency, authenticity, and possible bias. This paper
+proposes ethical and methodological frameworks for AI-augmented netnography that prioritize responsible AI use without
+compromising the interpretive depth and cultural sensitivity foundational to traditional netnography. The frameworks address
+the complexities of informed consent, data minimization, bias mitigation, and accountability, providing a structured approach to
+balancing AI’s efficiency with human-led analysis. Using a case study of online activism, this research illustrates the frameworks’
+practical application across diverse digital platforms, such as Twitter and Instagram. By combining AI-driven sentiment and
+pattern recognition with human interpretive oversight, the study captures cultural nuances essential to understanding online
+social movements. This dual approach highlights AI-augmented netnography’s potential to deliver rigorous, ethically grounded
+insights into digital communities, promoting more nuanced and inclusive research outcomes. The study contributes to the
+evolving landscape of digital research by offering actionable, ethically robust frameworks applicable to a broad spectrum of
+qualitative studies, emphasizing socially responsible research practices in the digital age.
+Keywords
+netnography, AI-augmented netnography, research ethics, ethical AI integration, algorithmic bias, human-AI collaboration
+Introduction
+The integration of Artificial Intelligence (AI) into social
+science research presents both transformative opportunities
+and methodological challenges, particularly within qualitative
+methodologies. Among these, netnography, developed by
+Kozinets in the late 1990s, offers an immersive, interpretive
+approach to studying online communities by analyzing cul￾tural significance and social interactions (Atsız et al., 2022).
+As digital engagement has evolved, netnography has ex￾panded beyond text-based interactions to encompass visual
+and multimodal content across diverse platforms (Kozinets &
+Gretzel, 2024).
+AI’s ability to process large-scale datasets has enhanced
+netnographic research by facilitating advanced data process￾ing and pattern recognition (Chubb, 2023; Hitch, 2023).
+However, its integration also raises ethical and methodolog￾ical concerns, particularly regarding transparency, authentic￾ity, and interpretive integrity (Kozinets, 2002). While AI
+enables the analysis of more complex and extensive data than
+previously possible (Maedche et al., 2019), its use necessitates
+careful consideration of bias, accountability, and reflexivity
+to uphold the interpretive depth central to netnographic in￾quiry. As Kozinets et al. (2010) emphasize, transparency in
+1
+Faculty of Economic, Shenzhen MSU-BIT University, Shenzhen, China
+Corresponding Author:
+Chee Wei Cheah, Faculty of Economic, Shenzhen MSU-BIT University,
+1 International University Park Road, Dayun New Town, Shenzhen 518172,
+China.
+Emails: henrycheah@smbu.edu.cn; cheahcw@hotmail.com
+Creative Commons Non Commercial CC BY-NC: This article is distributed under the terms of the Creative Commons
+Attribution-NonCommercial 4.0 License (https://creativecommons.org/licenses/by-nc/4.0/) which permits non-commercial use,
+reproduction and distribution of the work without further permission provided the original work is attributed as specified on the SAGE
+and Open Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).
+
+AI-driven research is fundamental to maintaining partici￾pant trust, a cornerstone of ethical digital ethnography.
+Ensuring that AI methodologies remain methodologically
+sound, ethically responsible, and contextually aware is
+critical in preserving the rigor and integrity of netnographic
+studies.
+This paper aims to develop a comprehensive framework for
+AI-augmented netnography that balances technological ad￾vancements with ethical and methodological integrity. Spe￾cifically, this paper seeks to address the following research
+questions:
+1. How can AI be integrated into netnography while
+preserving the principles of transparency and
+reflexivity?
+2. What ethical challenges arise when AI is used to an￾alyze large-scale qualitative data in netnographic
+research?
+3. How can netnographers ensure participant trust and
+informed consent when utilizing AI in their research?
+By answering these questions, this paper proposes a
+practical framework that enables netnographers to incorporate
+AI tools ethically while maintaining the integrity of traditional
+qualitative methods.
+In addressing these challenges, the paper merges ethical
+guidelines with methodological practices for AI-augmented
+netnography, building on Kozinets’ foundational work and
+recent advancements in AI. This approach seeks to integrate
+AI-driven analysis with human interpretive insights, en￾suring that the traditional reflexive approach of netnography
+is not compromised. Although netnography has predomi￾nantly been applied in fields such as tourism and consumer
+behavior (Xiang & Cheah, 2023, 2024), this framework
+expands its potential application across broader social sci￾ence research. By prioritizing participant privacy, trans￾parency, and informed consent, this paper proposes a
+collaborative AI-human approach to enhance netnography
+while responsibly leveraging AI for large-scale qualitative
+inquiries.
+Literature Review
+Evolution of Netnography
+Originally developed to study consumer behavior in virtual
+communities, netnography captures cultural meanings and
+social interactions in digital environments through immersive,
+qualitative techniques such as ‘thick description.’ This ‘dig￾ital’ ethnographic approach enables researchers to understand
+the nuanced cultural and contextual dimensions of online
+interactions in depth (Costello et al., 2017; Wallace et al.,
+2018). Over time, netnography has evolved significantly,
+broadening its scope to include multi-platform studies, visual
+and multimodal content, and increasingly complex digital
+interactions (Kozinets & Gretzel, 2024; Tavakoli & Mura,
+2018).
+Today, scholars across diverse fields—including tourism,
+sociology, marketing, and political science—have adapted
+netnography to capture social dynamics unique to their do￾mains (Cheah et al., 2024, 2025). Kozinets et al. (2010)
+highlights this evolution, noting netnography’s adaptability
+to studies of online identity and consumer behavior as digital
+research contexts have expanded.
+AI in Qualitative Research
+The application of AI in qualitative research has grown sig￾nificantly, encompassing tasks such as automated coding,
+thematic pattern recognition, and sentiment analysis. AI￾driven natural language processing (NLP) and machine
+learning algorithms enable researchers to identify patterns
+across extensive datasets, often with greater efficiency than
+manual methods allow (Anis & French, 2023; Daneshfar et al.,
+2023).
+Building on this, several recent studies demonstrate AI’s
+role in addressing qualitative research challenges. Below, this
+paper highlights three key applications where AI has effec￾tively enhanced qualitative methodologies.
+· Sentiment Analysis in Social Research: AI-powered
+sentiment analysis has been utilized to examine pub￾lic discourse on social justice movements. Daneshfar
+et al. (2023) conducted a netnographic study of Twitter
+data during the COVID-19 pandemic, employing NLP
+models to detect emotional trends in online discussions
+about remote work and health policies. Their findings
+illustrated how AI-assisted sentiment tracking can re￾veal shifts in collective sentiment over time.
+· Thematic Analysis in Consumer Behavior Research:
+Del Vecchio et al. (2020) combined AI-based business
+analytics with netnography to analyze consumer￾generated content on social media. Their study used
+topic modeling algorithms to identify emergent themes
+in customer feedback, highlighting how AI improves
+pattern recognition and thematic structuring in
+qualitative data.
+· Automated Coding in Health Research: In the field of
+healthcare ethnography, Hitch (2023) explored how AI￾assisted qualitative analysis can enhance research ef￾ficiency by automatically coding patient narratives from
+online forums. AI-driven tools categorized patient
+concerns, allowing human researchers to focus on in￾terpretive depth rather than data processing.
+While these advancements illustrate AI’s potential to scale
+and streamline qualitative research, they also raise concerns
+about algorithmic bias, misinterpretation of contextual
+meaning, and ethical data handling. As AI continues to evolve,
+researchers must balance efficiency with reflexivity, ensuring
+2 International Journal of Qualitative Methods
+
+that AI-augmented insights retain the interpretive depth es￾sential to qualitative methodologies.
+Since AI models are trained on existing datasets, they
+frequently inherit the social biases embedded within these
+sources, which can lead to distorted or incomplete interpre￾tations (Akter et al., 2021). For example, sentiment analysis
+algorithms may misinterpret colloquialisms, dialects, or cul￾turally specific expressions, particularly in global, multicul￾tural online spaces. As a result, relying solely on AI for
+analysis can compromise the interpretive depth and cultural
+sensitivity that are crucial to the netnographic approach.
+Ethical Concerns in AI-Enhanced Research
+Ethical concerns surrounding privacy, transparency, and in￾formed consent are becoming increasingly critical as AI is
+integrated into qualitative research. Traditional netnography
+relies on transparent engagement with online communities,
+ensuring that participants are aware of the researcher’s
+presence and objectives (Cheah et al., 2023; Cheah & Koay,
+2022). However, AI-driven data collection often blurs these
+boundaries, sometimes extracting data without explicit con￾sent, which not only risks infringing on participant privacy but
+also undermines the trust foundational to ethical social
+research (Demant & Moretti, 2024).
+Addressing these challenges requires ethical frameworks
+for AI-augmented netnography that establish clear guidelines
+to safeguard participant privacy, ensure transparency in data
+usage, and preserve the integrity of data interpretation. Ad￾ditionally, researchers must recognize and mitigate biases
+introduced by AI, as algorithmic processes may uninten￾tionally prioritize certain content or perspectives, leading to
+outcomes that do not fully reflect the diversity of online
+communities. Therefore, it is essential to implement a
+framework that upholds transparency and accountability in
+both data collection and analysis within AI-driven netno￾graphic research.
+Failures in ethical AI integration further underscore the
+urgency of these concerns. For example, sentiment analysis
+tools trained on biased datasets have misclassified emotional
+tones in online discussions, particularly when applied across
+culturally diverse groups (Akter et al., 2021). Similarly, au￾tomated data scraping techniques have been criticized for
+bypassing informed consent, leading to breaches in participant
+privacy (Demant & Moretti, 2024). These instances under￾score the urgent need for rigorous ethical frameworks that
+specifically address algorithmic bias, ensure transparency, and
+protect participant autonomy in AI-augmented netnography.
+Research Gap
+While netnography has evolved to address the complexities of
+digital environments, a significant gap remains in the ethical
+and methodological frameworks guiding AI integration. Ex￾isting studies tend to focus on either traditional netnographic
+techniques or AI-driven data analysis, but they lack a unified
+framework that effectively combines the strengths of both
+approaches. Specifically, structured guidelines are missing for
+managing ethical concerns unique to AI applications in net￾nography, such as algorithmic bias, data authenticity, and
+participant privacy (Burles & Bally, 2018; Newman et al.,
+2021).
+This gap highlights the need for a comprehensive frame￾work that standardizes ethical AI practices within netnography
+while also refining methodological processes to ensure the
+responsible use of AI. By addressing these challenges, re￾searchers can enhance the rigor and ethical accountability of
+AI-augmented netnographic studies, thereby strengthening
+their application across various domains in the social sciences.
+Proposed Ethical Framework for
+AI-Augmented Netnography
+The ethical framework for AI-augmented netnography can be
+summarized through five guiding principles, as outlined in
+Table 1. These principles establish a foundation for ethical
+rigor and accountability, addressing concerns around privacy,
+bias, and interpretive fidelity. By following these guidelines,
+researchers can ensure that AI-augmented netnography re￾mains both culturally sensitive and methodologically sound.
+Principles of Informed Consent and Privacy
+In AI-augmented netnography, the concept of informed
+consent becomes increasingly complex. Automated collection
+and analysis of large volumes of digital data can, at times,
+bypass traditional consent mechanisms (Akter et al., 2021).
+Unlike face-to-face interactions, where informed consent is
+explicit and continuous, AI-driven data gathering often occurs
+in an impersonal digital realm, introducing novel ethical
+challenges. To address these concerns, this paper proposes the
+following principles:
+(1) Digital Consent Notices: Establishing clear digital
+consent protocols is essential, especially when data is
+sourced from social media platforms. Where feasible,
+researchers can implement consent notices or opt-in
+mechanisms on websites and platforms, informing
+participants that their public data may be collected and
+analyzed. Although challenging to implement con￾sistently across some social media sites, these mea￾sures enhance alg and help participants understand
+their role within the research.
+(2) Data Minimization and Purpose Limitation: Data
+minimization—collecting only data essential to the
+research objectives—is a fundamental strategy for
+preserving participant privacy. By limiting data col￾lection to strictly necessary information, researchers
+can reduce exposure risks and uphold privacy
+Cheah 3
+
+standards. Purpose limitation further ensures that data
+will be used exclusively for clearly defined research
+aims, thereby fostering trust in the research process.
+(3) Transparency in AI Processes: AI can obscure the
+traditional researcher-participant dynamic, where di￾rect engagement with participants promotes aware￾ness of the research scope. Transparency regarding
+AI’s role in data processing—including the docu￾mentation of algorithms used, their specific functions,
+and data storage practices—is crucial to maintaining
+ethical integrity in AI-augmented netnography. Re￾searchers should include clear disclosures about AI’s
+involvement within participant information sheets or
+consent materials whenever possible.
+In AI-driven contexts, informed consent becomes a nu￾anced, ongoing process. Researchers must remain attuned to
+the evolving nature of digital interactions and continuously
+update consent protocols to align with the changing dynamics
+of digital platforms.
+Bias and Objectivity in AI Tools
+AI tools often introduce inherent biases that can skew qual￾itative research findings, particularly when they reflect the
+demographics or ideological leanings of the training data on
+which they were developed (Drukker et al., 2023). These
+biases present significant ethical challenges for netnographers
+seeking accurate and inclusive interpretations of social
+phenomena.
+Indeed, Algorithmic bias remains a major challenge in AI￾augmented netnography, often reflecting societal inequities
+embedded in training data. For example, sentiment analysis
+tools used in social justice research have misclassified activist
+discourse as ‘negative’ due to training on predominantly
+Western linguistic norms, failing to account for cultural
+variations in language use (Akter et al., 2021). Similarly, AI￾powered visual analysis has reinforced racial and gender
+stereotypes, misrepresenting the diversity of online commu￾nities. To mitigate such biases, researchers must adopt cor￾rective measures, including bias audits, use of diverse training
+datasets, and human oversight to contextualize AI-generated
+insights.
+This paper suggests a few ways to reduce bias using AI
+tools:
+(1) Bias Detection and Correction Protocols: Regularly
+assessing AI outputs for signs of demographic, cul￾tural, or linguistic bias is essential in ensuring ob￾jectivity. One approach is to conduct parallel analyses
+on smaller subsets of data, allowing researchers to
+identify patterns of AI bias and adjust the analysis
+accordingly. Where bias is detected, researchers
+should apply corrective measures, such as refining
+algorithms or manually re-evaluating biased outputs.
+(2) Diverse Data Training Sets: Using representative
+training data sets minimizes the risk of algorithmic
+bias by ensuring diverse perspectives are included.
+Researchers should be cautious about the data on
+which they train AI tools, as demographic imbalances
+or culturally skewed data sources can lead AI to
+amplify dominant or majority narratives at the ex￾pense of minority voices. Creating or sourcing bal￾anced training data sets is a proactive measure to
+enhance objectivity.
+(3) Collaborative Interpretation of AI Outputs: To miti￾gate biases and enhance accuracy, researchers should
+combine AI-generated insights with manual analysis.
+This approach allows human researchers to validate
+AI findings, using cultural and contextual knowledge
+to identify biases that might distort interpretations.
+Collaborative interpretation not only improves
+Table 1. Proposed Ethical Framework.
+Ethical principle Description Actions/Considerations
+Informed consent Ensuring participants are aware of data collection
+purposes
+Use digital consent notices and opt-in mechanisms where
+feasible.
+Data minimization Collecting only necessary data to protect privacy and
+reduce ethical risks
+Limit data scope to research objectives; avoid unnecessary
+data
+Transparency Making AI processes visible and understandable Provide detailed AI documentation, including
+methodologies and limitations.
+Bias mitigation Identifying and reducing algorithmic bias for fair
+representation
+Conduct bias audits, diversify training datasets, and
+implement human oversight
+Collaborative
+interpretation
+Combining AI outputs with human insights for
+accuracy
+Use triangulation, expert reviews, and manual validation of
+AI-generated insights.
+Narrative equity Prevent AI from skewing community narratives Narrative audits, reflexive assessment of output
+representation
+Epistemological integrity Preserve qualitative interpretive depth Ground AI insights in human-led analysis, document
+epistemological tensions
+Methodological
+sustainability
+Ensure long-term viability of human-centric
+netnography
+Periodic reassessment of AI’s role, balance automation with
+immersion
+4 International Journal of Qualitative Methods
+
+objectivity but also maintains the cultural richness that
+is central to netnography.
+Transparency and Accountability
+Transparency and accountability are cornerstones of ethical
+AI-augmented netnography. When researchers are open about
+the role AI plays in their study, it strengthens the study’s
+integrity and builds trust with participants, readers, and the
+broader academic community.
+(1) Detailed Documentation of AI Processes: Researchers
+should keep thorough records detailing AI algorithms
+and processes used in data collection and analysis.
+This documentation should include descriptions of the
+algorithms, the rationale behind their selection, and
+any limitations they may have. Such transparency
+allows for clearer, more reliable research replication
+and peer review.
+(2) AI Audit Trails: Establishing audit trails to log AI
+interactions with data ensures researchers can monitor
+AI’s role at every stage of the data process. These logs
+enable researchers to review AI decisions and outputs,
+assessing their reliability and alignment with research
+objectives. Audit trails also provide a means for
+identifying and addressing errors or biases in AI data
+handling.
+(3) Clear Disclosure in Publications: Researchers should
+explicitly disclose AI’s involvement in their meth￾odology sections, outlining the AI tools, purposes, and
+limitations. Such disclosure enables readers to criti￾cally assess the reliability of AI-driven insights within
+the broader interpretive framework, ensuring trans￾parency and accountability across the research
+process.
+Through these ethical practices, AI-augmented netnog￾raphy can adhere to the highest standards of privacy, trans￾parency, and ethical accountability, ensuring both
+methodological rigor and ethical responsibility.
+Broader Ethical Dimensions of AI in Netnography
+AI-augmented netnography raises ethical risks beyond bias,
+transparency, and consent. AI’s pattern recognition may pri￾oritize dominant narratives, sidelining marginalized voices
+and skewing community representation, while its emphasis on
+generalizable trends challenges qualitative epistemology,
+potentially eroding netnography’s contextual richness. Over
+time, increasing reliance on AI risks shifting digital ethnog￾raphy toward automation, diminishing human immersion. To
+counter these, researchers should conduct narrative audits to
+ensure diverse representation, preventing the overemphasis of
+dominant voices, and ground AI insights in human analysis to
+preserve qualitative principles. Documenting epistemological
+tensions in reflexive journals fosters critical reflection, while
+periodically reassessing AI’s role maintains a balance between
+automation and methodological integrity.
+Methodological Framework for
+AI-Augmented Netnography
+Integrating AI with Human Researcher Insights
+AI’s strength in processing large datasets offers netnography
+an efficient means to identify patterns, but human interpretive
+insight remains essential for cultural and contextual depth. To
+integrate AI effectively, researchers can adopt a structured
+collaborative approach:
+(1) Sequential Analysis Stages: AI tools should handle
+preliminary tasks, such as keyword-based coding or
+topic modeling, to surface initial themes. Human
+researchers then refine these outputs, adding inter￾pretive layers to capture nuanced meanings.
+(2) Human Validation of AI Outputs: Validating AI￾generated insights requires concrete strategies to en￾sure accuracy and reliability:
+◦ Triangulation: Cross-validate AI outputs using
+multiple methods, such as comparing AI-coded
+themes with manual coding of a data subset and
+supplementing with qualitative interviews or par￾ticipant observation to confirm contextual rele￾vance. For example, ascended to heaven using AI￾generated insights can be triangulated with
+researcher-coded data and community feedback to
+ensure consistency.
+◦ Intercoder Reliability: Engage multiple re￾searchers to independently review and code a
+sample of AI outputs, calculating agreement rates
+to assess reliability and adjust discrepancies.
+◦ Expert Consultation: Involve domain experts
+(e.g., ethnographers or subject specialists) to
+evaluate AI findings, ensuring cultural and con￾textual fidelity.
+(3) Reflexive Journaling: Researchers should document
+AI’s influence on analysis in reflexive journals, noting
+validation outcomes and adjustments to enhance
+transparency and rigor.
+This approach leverages AI’s efficiency while grounding
+results in human expertise, ensuring robust, culturally sen￾sitive insights.
+Data Collection and Analysis Protocols
+Structured protocols ensure methodological soundness in AI￾augmented netnography, guiding tool selection and data
+analysis:
+Cheah 5
+
+(1) Data Selection Criteria: Define clear criteria aligned
+with research goals (e.g., sentiment analysis for public
+opinion, topic modeling for narrative trends) to focus
+data collection.
+(2) Training and Calibration of AI Tools: Select AI
+tools based on best practices:
+◦ Tool Selection: Choose tools suited to the study’s
+scope—e.g., NLP tools like spaCy or BERT for
+text analysis, or LIWC for sentiment scoring—
+evaluating them for accuracy, scalability, and in￾terpretability against pilot data. Open-source tools
+with community support (e.g., Hugging Face
+models) can enhance adaptability.
+◦ Calibration: Fine-tune tools using a sample
+dataset reflective of the target population (e.g.,
+platform-specific slang or cultural terms), testing
+outputs against manual benchmarks and adjusting
+parameters iteratively to minimize
+misinterpretation.
+(3) Layered Analysis Techniques: Use AI to detect
+broad patterns (e.g., recurring themes), followed by
+human-led interpretive analysis to refine meanings,
+ensuring depth and precision.
+These protocols provide a practical roadmap for integrating
+AI, balancing technological precision with qualitative rigor.
+Reflexivity in AI-Driven Netnography
+Reflexivity is essential for recognizing AI’s influence on
+research findings, fostering a critical awareness of how AI
+shapes qualitative insights. Reflexive practices ensure that
+researchers maintain ethical and interpretive rigor (Oliphant &
+Bennett, 2019) throughout AI-augmented netnographic
+studies.
+(1) Ethical Journaling: Ethical journaling involves doc￾umenting reflections on AI’s role within the research
+process. For instance, researchers can note moments
+when AI limitations impacted data interpretation,
+fostering transparency and continuous ethical
+engagement.
+(2) Continuous Reflexive Feedback Loops: Incorporating
+feedback loops between AI-generated outputs and
+human interpretive insights encourages researchers to
+re-evaluate AI’s impact at various stages. This itera￾tive reflection allows researchers to refine AI appli￾cations in response to emergent findings or
+methodological challenges, maintaining alignment
+with ethical and interpretive goals.
+(3) Acknowledging AI’s Role in Publications: Finally,
+researchers should openly acknowledge AI’s limita￾tions and influence within their publications. Trans￾parent disclosure about AI’s role in data interpretation
+enables readers to critically assess AI-driven insights,
+fostering accountability and ethical integrity in AI￾augmented netnography.
+By establishing a structured methodological framework
+that integrates AI while respecting netnography’s interpretive
+depth, researchers can leverage AI’s advantages responsibly,
+maintaining both ethical and methodological rigor.
+Case Study: Applying AI-Augmented
+Netnography to Online Activism Research
+To illustrate the proposed ethical and methodological frame￾works, this case study explores a hypothetical application of AI￾augmented netnography in analyzing online activism within
+digital communities. The focus is on social justice movements in
+the digital sphere, specifically examining discourse around issues
+like climate change, racial equity, and economic justice. Plat￾forms such as X (formally known as Twitter), Facebook, and
+Instagram are chosen due to their varied digital formats and
+widespread use in activism. This example demonstrates how AI
+can efficiently manage and analyze large datasets, while human
+oversight preserves cultural and contextual nuances crucial to
+netnographic research.
+Research Context and Objectives
+Online activism has become a key avenue for social move￾ments to raise awareness, build communities, and mobilize
+support for social issues. In recent years, platforms like X,
+Facebook, and Instagram have become hubs for organizing
+campaigns, sharing resources, and expressing solidarity. This
+study’s objectives are twofold: (1) to understand the digital
+narratives and strategies used by activists to promote social
+justice and (2) to identify recurring themes, sentiments, and
+patterns in online discussions about climate action, racial
+equality, and economic justice.
+This approach seeks to answer questions such as:
+- How do activists use social media platforms differently
+to promote their causes?
+- What themes, sentiments, and calls to action emerge in
+online activism discourse?
+- How do AI-driven patterns align with human inter￾pretations of the cultural and contextual nuances of
+activism?
+Data Collection
+Using AI-augmented netnography, the case study implements
+a structured approach to data collection, with specific focus on
+ethical practices, transparency, and representational balance.
+(1) Platform Selection: Each platform chosen provides
+unique insights into online activism. X is valuable for
+6 International Journal of Qualitative Methods
+
+real-time, text-based interactions; Facebook facilitates
+community discussions and long-form posts; and
+Instagram combines visual and textual content, of￾fering a multi-modal perspective on activism. By
+examining multiple platforms, the study captures a
+holistic view of digital activism.
+(2) Automated Data Retrieval: AI-driven data scraping
+techniques are employed to collect posts tagged with
+relevant hashtags and keywords, such as #ClimateJustice,
+#LBGTQ, and #EconomicEquity. These tags serve as
+entry points into online activism communities. AI scrapes
+and aggregates posts containing these terms, capturing a
+broad spectrum of public discourse across platforms.
+(3) Data Filtering and Categorization: AI algorithms
+categorize data based on sentiment, engagement
+metrics (likes, shares, comments), and topical rele￾vance. Through natural language processing (NLP),
+posts are grouped by themes, allowing researchers to
+quickly identify dominant narratives. Filters for lan￾guage and demographic markers ensure the sample
+represents a diverse set of voices and perspectives
+within the activist community.
+In line with ethical guidelines, a consent disclaimer is posted
+where possible, informing participants that publicly available
+data may be used for research purposes. Additionally, data
+minimization practices are enforced to collect only relevant data,
+minimizing participant exposure while retaining analytical value.
+Data Analysis
+The data analysis phase demonstrates the balance between AI￾driven pattern recognition and human interpretive insight, en￾suring both depth and rigor in understanding online activism.
+(1) Sentiment Analysis: AI-driven sentiment analysis cate￾gorized posts by emotional tone—positive, negative, or
+neutral—highlighting shifts in sentiment over time in
+response to key events such as climate protests and anti￾racism rallies. In analyzing #MeToo movement posts, AI
+identified distinct emotional tones within activist dis￾course: 45% positive, expressing solidarity and hope;
+30% negative, reflecting frustration with institutional
+responses; and 25% neutral, consisting of factual or
+informational content (see Figure 1). The pie chart vi￾sualizes this distribution across 1,000 posts, illustrating
+that while most posts convey support for the cause, a
+significant portion expresses anger or disappointment.
+Complementing this analysis, thematic coding (see
+Figure 2) identified recurring themes such as empow￾erment, justice, and victim-blaming, providing deeper
+insight into the movement’s evolving narrative and
+emotional landscape.
+(2) Pattern Identification and Thematic Coding: AI iden￾tifies recurrent patterns and themes, such as calls for
+policy change, community solidarity, or resource￾sharing posts. Topic modeling algorithms group
+these themes, and frequency analysis highlights the
+most discussed issues, providing a quantitative over￾view of digital activism discourse.
+(3) Interpretative Refinement: Human researchers engage
+in a structured validation process to refine AI-driven
+outputs, ensuring interpretive accuracy and mitigating
+bias. This process includes:
+· Parallel Manual Coding: AI-generated themes and
+sentiment classifications are manually cross-checked by
+multiple researchers to ensure alignment with qualita￾tive insights.
+· Cross-Platform Thematic Consistency: AI-identified pat￾terns are compared across different social media platforms
+(Twitter, Instagram, Facebook) to confirm narrative co￾herence and detect AI biases in specific contexts.
+· Expert Panel Review: AI-extracted themes are pre￾sented to digital ethnography and social science experts
+for external assessment, ensuring cultural and contex￾tual fidelity in activist discourse analysis.
+· Audit Trails & Reflexive Journaling: Researchers
+document key adjustments made during AI-human
+reconciliation, creating an audit log of interpretative
+refinements that enhance methodological transparency.
+Ethical Considerations
+Throughout this study, ethical guidelines are rigorously up￾held, with a strong emphasis on privacy and informed consent
+protocols, particularly given the sensitive nature of social
+justice topics. Where possible, transparency notices are im￾plemented to inform users of data usage, and data minimi￾zation practices are employed to reduce the exposure of
+personal information.
+This case study illustrates the practical application of the
+proposed frameworks, showcasing how AI’s capacity to
+handle large volumes of digital data can be effectively
+combined with the cultural depth and ethical accountability
+that human oversight provides. By adopting a balanced ap￾proach, this study demonstrates that AI-augmented netnog￾raphy can yield meaningful insights while adhering to high
+ethical research standards.
+Discussion
+Addressing Methodological Challenges
+and Innovations
+The integration of AI into netnography introduces both
+challenges and methodological innovations. One primary
+challenge is balancing AI’s efficiency in handling large da￾tasets with netnography’s foundational principle of cultural
+immersion. While AI enables researchers to process vast
+quantities of data quickly, it risks diluting interpretive depth if
+Cheah 7
+
+not properly contextualized by human insights. The proposed
+framework mitigates this risk by embedding AI within a
+human-led analysis structure, where AI identifies initial pat￾terns and human researchers conduct interpretive refinement.
+Additionally, the structured protocols for data collection
+and validation presented here represent methodological in￾novations that enhance netnography’s adaptability to large￾scale social phenomena. By defining criteria for platform
+selection, data minimization, and layered analysis techniques,
+researchers can systematically address both ethical and
+methodological concerns. This dual framework not only re￾spects the cultural richness of qualitative research but also
+demonstrates AI’s potential to enhance research rigor when
+applied responsibly.
+Ethical Implications for Social Science Research
+The ethical implications of AI-augmented netnography extend
+beyond bias, transparency, and consent to encompass AI’s ca￾pacity to shape narratives, influence epistemological frameworks,
+and alter the trajectory of digital ethnography. AI’s tendency to
+highlight dominant patterns may inadvertently construct narra￾tives that overshadow marginalized voices, necessitating proac￾tive measures to ensure inclusivity. Furthermore, the shift toward
+AI-driven analysis challenges the epistemological roots of
+qualitative research, potentially prioritizing efficiency over in￾terpretive depth. Over the long term, these dynamics could re￾define digital ethnography, raising concerns about the erosion of
+human immersion in favor of automated processes. By addressing
+these risks through reflexive oversight and ethical guidelines,
+researchers can harness AI’s potential while safeguarding the
+cultural and methodological integrity of netnography.
+Expanding AI-Augmented Netnography in Social
+Sciences
+The potential applications of AI-augmented netnography
+extend well beyond activism studies, offering valuable in￾sights across various fields within the social sciences. This
+Figure 1. Sentiment Analysis of Online Activism Posts. (Author
+created image).
+Figure 2. Thematic Coding Distribution: Narrative and Emotional Evolution. (Author created image).
+8 International Journal of Qualitative Methods
+
+framework can be adapted to analyze consumer behavior in
+marketing, assess public sentiment in health research, and
+investigate political discourse within political science. For
+instance, in healthcare research, AI-augmented netnography
+could be used to examine patient communities, providing
+insights into public health perceptions, or to analyze mental
+health support forums for emerging trends and narratives.
+Furthermore, the interdisciplinary nature of AI-augmented
+netnography encourages collaborations across computational
+sciences, sociology, and ethics, expanding its utility for
+complex, multifaceted research inquiries. This adaptability not
+only enhances methodological rigor but also enables re￾searchers to explore complex social phenomena with cul￾turally nuanced insights. Future research should prioritize
+further refinement of these frameworks, particularly through
+comparative studies that examine AI’s adaptability across
+diverse cultural contexts and digital platforms.
+Limitations and Future Directions
+While AI-augmented netnography offers significant methodo￾logical advantages, it introduces several limitations that warrant
+careful consideration, with implications for its long-term role in
+digital ethnography. First, AI’s capacity to interpret the cultural
+depth inherent to netnographic studies remains constrained,
+as pattern-based algorithms may overlook subtle or culturally
+specific meanings, potentially distancing netnography from
+its qualitative roots. Similarly, AI’s narrative-shaping power
+can skew findings toward dominant discourses, amplifying
+prevalent voices while marginalizing less prominent per￾spectives, which challenges the inclusivity central to eth￾nographic inquiry. Furthermore, biases embedded within AI
+models—reflecting their training data—may distort results,
+particularly in research exploring sensitive social issues,
+underscoring the need for ongoing vigilance.
+Beyond these interpretive and ethical challenges, the sus￾tainability of AI-augmented netnography raises additional con￾cerns. The environmental impact of AI development, training,
+and deployment is substantial, as large-scale models—especially
+those involving natural language processing (NLP) and deep
+learning—require extensive computational resources, leading to
+high energy consumption and carbon emissions (Ahmad et al.,
+2021). This ecological footprint prompts ethical questions about
+resource allocation, energy efficiency, and responsible AI use in
+academia. Moreover, the increasing reliance on AI could threaten
+the sustainability of human-led methodologies, potentially
+shifting digital ethnography toward automation at the expense of
+researcher immersion and cultural sensitivity.
+Future research should address these multifaceted limitations
+through a dual focus on methodological refinement and ethical
+responsibility. Longitudinal studies tracking AI’s impact on
+narrative representation, epistemological coherence, and cultural
+interpretation could illuminate its long-term effects on net￾nography’s qualitative foundations. Simultaneously, exploring
+sustainable AI practices—such as low-resource models,
+optimized data retrieval, and energy-efficient computing
+(Alsadie, 2024)—can mitigate environmental concerns, ensur￾ing alignment with broader sustainability goals. Collaborations
+between social scientists and AI ethicists could further drive the
+development of adaptive ethical frameworks and greener AI
+solutions, balancing efficiency with ecological and methodo￾logical integrity. By pursuing these directions, researchers can
+ensure that AI-augmented netnography remains a robust, cul￾turally sensitive, and environmentally conscious methodology
+in the evolving digital landscape.
+Conclusion
+In response to the growing use of AI in social science research,
+this paper proposes ethical and methodological frameworks for
+AI-augmented netnography, offering guidelines that address
+privacy, bias, and interpretive depth. This approach demonstrates
+that, while AI introduces challenges around transparency and
+cultural sensitivity, these can be mitigated through structured
+protocols and human oversight. By combining AI’s capacity for
+large-scale data processing with netnography’s emphasis on
+cultural immersion, researchers can achieve a balanced approach
+that upholds both ethical and methodological standards. The case
+study on online activism illustrates practical applications,
+showing how AI-augmented netnography can yield valuable
+insights into complex digital spaces while remaining socially
+responsible and methodologically rigorous.
+Looking ahead, future research should test and refine these
+frameworks across specific empirical and methodological do￾mains. Empirically, studies could explore AI-augmented net￾nography’s effectiveness in diverse cultural contexts, such as
+analyzing online communities in non-Western digital spaces
+(e.g., WeChat in China or ShareChat in India) to assess its
+adaptability to varying linguistic and social norms. Methodo￾logically, experiments with emerging AI tools—such as gener￾ative models (e.g., GPT variants) for narrative synthesis or
+multimodal AI for integrated text-image analysis—could push
+the boundaries of netnographic inquiry, evaluating their impact
+on interpretive depth. Comparative studies across disciplines,
+such as applying the framework to health narratives versus
+political discourse, would further reveal its versatility and lim￾itations. These investigations should also examine AI’s long-term
+influence on researcher-participant dynamics and ecological
+sustainability, ensuring that netnography evolves as a robust,
+ethical methodology in the rapidly changing digital landscape.
+Glossary
+1. Algorithmic Bias
+Definition: Systematic errors in AI outputs caused by
+prejudiced assumptions or imbalances in training
+data, leading to unfair or inaccurate results.
+2. Automated Coding
+Cheah 9
+
+Definition: The use of AI tools to categorize and label
+qualitative data, such as text or images, based on
+predefined or learned patterns.
+3. Data Minimization
+Definition: A principle of collecting only the data
+necessary for a specific research purpose to reduce
+privacy risks and unnecessary data exposure.
+4. Digital Consent Notices
+Definition: Notifications or opt-in mechanisms in￾forming online users that their publicly available data
+may be collected and analyzed for research purposes.
+5. Human-AI Collaboration
+Definition: A research approach combining AI’s data
+processing capabilities with human interpretive skills
+to enhance analysis while preserving contextual depth.
+6. Intercoder Reliability
+Definition: A measure of agreement among multiple
+researchers coding the same data, used to ensure
+consistency and reliability in qualitative analysis.
+7. Natural Language Processing (NLP)
+Definition: A branch of AI that enables computers to
+analyze, understand, and generate human language,
+often used for text analysis in research.
+8. Pattern Recognition
+Definition: The AI-driven process of identifying
+trends, themes, or structures within datasets, such
+as recurring topics in social media posts.
+9. Purpose Limitation
+Definition: A principle ensuring that collected data is
+used only for the specific research objectives
+outlined, preventing misuse or overreach.
+10. Reflexive Journaling
+Definition: A practice where researchers document
+their reflections on the research process, including
+AI’s influence, to enhance transparency and critical
+awareness.
+11. Sentiment Analysis
+Definition: An AI technique that categorizes text
+based on emotional tone (e.g., positive, negative,
+neutral) to understand attitudes or opinions.
+12. Thematic Analysis
+Definition: A qualitative method for identifying, an￾alyzing, and reporting recurring themes or patterns
+within data, often aided by AI tools.
+13. Topic Modeling
+Definition: An AI method that automatically identifies
+and groups recurring topics or themes within large
+collections of text data.
+ORCID iD
+Chee Wei Cheah  https://orcid.org/0000-0002-0007-3790
+Funding
+The author disclosed receipt of the following financial support for the
+research, authorship, and/or publication of this article: This research
+is part of the Guangdong Province Innovation Research Grant
+(Project Code 2023WTSCX108).
+Declaration of Conflicting Interests
+The author declared no potential conflicts of interest with
+respect to the research, authorship, and/or publication of this
+article.
+References
+Ahmad, T., Zhang, D., Huang, C., Zhang, H., Dai, N., Song, Y., & Chen, H.
+(2021). Artificial intelligence in sustainable energy industry: Status
+Quo, challenges and opportunities. Journal of Cleaner Production,
+289, Article 125834. https://doi.org/10.1016/j.jclepro.2021.125834
+Akter, S., McCarthy, G., Sajib, S., Michael, K., Dwivedi, Y. K.,
+D’Ambra, J., & Shen, K. N. (2021). Algorithmic bias in data￾driven innovation in the age of AI. International Journal of
+Information Management, 60, Article 102387. https://doi.org/
+10.1016/j.jclepro.2021.125834
+Alsadie, D. (2024). A comprehensive review of AI techniques for
+resource management in fog computing: Trends, challenges and
+future directions. IEEE Access.
+Anis, S., & French, J. A. (2023). Efficient, explicatory, and equitable:
+Why qualitative researchers should embrace AI, but cautiously.
+Business & Society, 62(6), 1139–1144. https://doi.org/10.1177/
+00076503231163286
+Atsız, O., Ibrahim, C., & Rasoolimanesh, S. M. (2022). Exploring the
+components of meal-sharing experiences with local foods: A
+netnography approach. Current Issues in Tourism, 25(6),
+919–936. https://doi.org/10.1080/13683500.2021.1905619
+Burles, M. C., & Bally, J. M. G. (2018). Ethical, practical, and meth￾odological considerations for unobtrusive qualitative research about
+personal narratives shared on the internet. International Journal of
+Qualitative Methods, 17(1), Article 1609406918788203. https://
+doi.org/10.1177/1609406918788203
+Cheah, C. W., Ewe, S. Y., & Ho, H. H. P. (2025). Exploring the impact
+of network brokerage behavior in mutual fund retail markets.
+International Journal of Retail & Distribution Management,
+53(5), 381–397. https://doi.org/10.1108/IJRDM-07-2024-0353
+Cheah, C. W., & Koay, K. Y. (2022). Knowing the unknown: Ap￾plication of qualitative-vignette method in the social-political
+sensitive business environment. International Journal of
+Qualitative Methods, 21, Article 16094069221074495. https://
+doi.org/10.1177/16094069221074495
+Cheah, C. W., Koay, K. Y., & Xiang, K. (2023). Uncovering the
+voices of marginalized minorities in public policy research - a
+critical review of the image and text-based vignette method.
+International Journal of Qualitative Methods, 22, Article
+16094069231163429. https://doi.org/10.1177/
+16094069231163429
+Cheah, C. W., Vladim´ır, K., & Koay, K. Y. (2024). Institutional
+Entrepreneurs’ roles in the international market expansions:
+Evidence from the ride-hailing platforms. International Entre￾preneurship and Management Journal, 20(2), 1377–1400.
+https://doi.org/10.1007/s11365-024-00962-w
+10 International Journal of Qualitative Methods
+
+Chubb, L. A. (2023). Me and the machines: Possibilities and pitfalls of
+using artificial intelligence for qualitative data analysis. International
+Journal of Qualitative Methods, 22, Article 16094069231193593.
+https://doi.org/10.1177/16094069231193593
+Costello, L., McDermott, M.-L., & Wallace, R. (2017). Netnography:
+Range of practices, misperceptions, and missed opportunities.
+International Journal of Qualitative Methods, 16(1), Article
+1609406917700647. https://doi.org/10.1177/
+1609406917700647
+Daneshfar, Z., Asokan-Ajitha, A., Sharma, P., & Malik, A. (2023).
+Work-from-home (WFH) during COVID-19 pandemic – a
+netnographic investigation using Twitter data. Information
+Technology & People, 36(5), 2161–2186. https://doi.org/10.
+1108/ITP-01-2021-0020
+Del Vecchio, P., Mele, G., Passiante, G., Vrontis, D., & Fanuli, C. (2020).
+Detecting customers knowledge from social media big data: To￾ward an integrated methodological framework based on netnog￾raphy and business analytics. Journal of Knowledge Management,
+24(4), 799–821. https://doi.org/10.1108/JKM-11-2019-0637
+Demant, J., & Moretti, A. (2024). Intrusiveness and the public-private
+divide in netnography: A situated, structured approach for
+ethical research in the context of closed, group-based, or hidden
+social media behaviour. International Journal of Qualitative
+Methods, 23, Article 16094069241257937. https://doi.org/10.
+1177/16094069241257937
+Drukker, K., Chen, W., Gichoya, J., Gruszauskas, N., Kalpathy-Cramer,
+J., Koyejo, S., Myers, K., Sa, R. C., Sahiner, B., Whitney, H., ´
+Zhang, Z., & Giger, M. (2023). Toward fairness in artificial in￾telligence for medical image analysis: Identification and mitigation
+of potential biases in the roadmap from data collection to model
+deployment. Journal of Medical Imaging, 10(6), Article 061104.
+https://doi.org/10.1117/1.JMI.10.6.061104
+Hitch, D. (2023). Artificial intelligence augmented qualitative
+analysis: The way of the future? Qualitative Health Research,
+34(7), 595–606. https://doi.org/10.1177/10497323231217392
+Kozinets, R. V. (2002). The field behind the screen: Using net￾nography for marketing research in online communities.
+Journal of Marketing Research, 39(1), 61–72. https://doi.org/
+10.1509/jmkr.39.1.61.18935
+Kozinets, R. V., De Valck, K., Wojnicki, A. C., & Wilner, S. J. (2010).
+Networked narratives: Understanding word-of-mouth market￾ing in online communities. Journal of Marketing, 74(2), 71–89.
+https://doi.org/10.1509/jm.74.2.71
+Kozinets, R. V., & Gretzel, U. (2024). Netnography evolved: New
+contexts, scope, procedures and sensibilities. Annals of Tourism
+Research, 104, Article 103693. https://doi.org/10.1016/j.annals.
+2023.103693
+Maedche, A., Legner, C., Benlian, A., Berger, B., Gimpel, H., Hess,
+T., Hinz, O., Morana, S., & Sollner, M. (2019). AI-based digital ¨
+assistants. Business & Information Systems Engineering, 61(4),
+535–544. https://doi.org/10.1007/s12599-019-00600-8
+Newman, P. A., Guta, A., & Black, T. (2021). Ethical considerations
+for qualitative research methods during the COVID-19 pan￾demic and other emergency situations: Navigating the virtual
+field. International Journal of Qualitative Methods, 20, Article
+16094069211047823. https://doi.org/10.1177/
+16094069211047823
+Oliphant, S. M., & Bennett, C. S. (2019). Using reflexivity journaling
+to lessen the emic–etic divide in a qualitative study of Ethiopian
+immigrant women. Qualitative Social Work, 19(4), 599–611.
+https://doi.org/10.1177/1473325019836723
+Tavakoli, R., & Mura, P. (2018). Netnography in tourism–Beyond
+web 2.0. Annals of Tourism Research, 73(C), 190–192. https://
+doi.org/10.1016/j.annals.2018.06.002
+Wallace, R., Costello, L., & Devine, A. (2018). Netnographic slog:
+creative elicitation strategies to encourage participation in an
+online community of practice for early education and care.
+International Journal of Qualitative Methods, 17(1), Article
+1609406918797796. https://doi.org/10.1177/
+1609406918797796
+Xiang, K., & Cheah, C. W. (2023). The embodied experience and
+self-identity construction of Chinese gay tourists in Thailand.
+Tourism Management Perspectives, 48, Article 101169. https://
+doi.org/10.1016/j.jclepro.2021.125834
+Xiang, K., & Cheah, H. C. W. (2024). “I am who I am:” individual
+imprints and identity performance outcomes. Journal of Hos￾pitality and Tourism Management, 58, 244–255. https://doi.org/
+10.1016/j.jclepro.2021.125834
+Cheah 11

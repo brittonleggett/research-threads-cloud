@@ -1,0 +1,53 @@
+Retried fetch_failed rows: 28 recovered a classification.
+sp500_tariff_TRADE_corpus.csv: 1705 rows
+sp500_tariff_EXCLUDED_utility.csv: 77 rows
+sp500_tariff_AMBIGUOUS_needs_review.csv: 227 rows
+sp500_tariff_NO_MATCH_or_failed.csv: 9 rows
+{
+  "total_filings_all_classifications": 2018,
+  "classification_breakdown": {
+    "trade": 1705,
+    "ambiguous": 227,
+    "utility_only": 77,
+    "no_match": 9
+  },
+  "trade_corpus_filings": 1705,
+  "trade_corpus_unique_companies": 324,
+  "trade_corpus_form_breakdown": {
+    "8-K": 553,
+    "10-Q": 755,
+    "10-K": 394,
+    "10-Q/A": 2,
+    "8-K/A": 1
+  },
+  "trade_corpus_year_breakdown": {
+    "2025": 1031,
+    "2026": 674
+  },
+  "trade_corpus_sector_filing_counts": {
+    "Industrials": 352,
+    "Information Technology": 209,
+    "Utilities": 153,
+    "Health Care": 217,
+    "Materials": 102,
+    "Real Estate": 33,
+    "Financials": 191,
+    "Communication Services": 11,
+    "Consumer Staples": 178,
+    "Consumer Discretionary": 201,
+    "Energy": 58
+  },
+  "trade_corpus_sector_company_counts": {
+    "Industrials": 60,
+    "Information Technology": 47,
+    "Utilities": 29,
+    "Health Care": 44,
+    "Materials": 22,
+    "Real Estate": 11,
+    "Financials": 38,
+    "Communication Services": 4,
+    "Consumer Staples": 27,
+    "Consumer Discretionary": 28,
+    "Energy": 14
+  }
+}

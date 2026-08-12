@@ -1,0 +1,13 @@
+CCS Track A — overnight method research (2026-07-08 night)
+
+Dropped VADER sentiment entirely (wrong construct for legal/regulatory text, not just a bad tool).
+Built a new theory-grounded coding pass mapped onto Track B's own governance-frame / procedural
+justice / recognition justice model (Tyler 2003, Terwel et al. 2009) and RAN it successfully
+against the real 18-document corpus. Real finding worth reading: Tribal/Indigenous consultation
+language is thin (5/18 docs) and named LA tribes appear by name only ONCE in the entire corpus
+("Tunica-Biloxi") — Coushatta, Chitimacha, Jena Band of Choctaw, and United Houma Nation are not
+named anywhere. This is a strong, directly citable empirical anchor for Track B's Indigenous-rights
+argument. Full writeup + all category term lists (easy to edit) in Overnight_Method_Research_2026-07-08.md
+and theory_grounded_coding.py. One technical dead end flagged: scikit-learn/scipy is blocked by an
+Application Control policy on this machine (same family of issue as pdfplumber) — don't retry
+compiled ML packages here without checking that first.

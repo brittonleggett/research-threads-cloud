@@ -1,0 +1,19 @@
+doc_id,filename,n_words,compound,pos,neu,neg,n_sentences,pct_sentences_positive,pct_sentences_negative,pct_sentences_neutral
+1,26RS - HJ 0309 1.PDF#page=11.pdf,777,0.9918,0.088,0.907,0.006,43,16.3,2.3,81.4
+2,Comment_1.pdf,196,-0.4019,0.097,0.808,0.095,7,28.6,57.1,14.3
+3,Department-Directive-Order-No-B-2025-01-combined.pdf,5435,1.0,0.14,0.837,0.023,177,49.7,3.4,46.9
+4,Federal Register __ State of Louisiana Underground Injection Control Program; Class VI Primacy.pdf,900,0.9391,0.023,0.974,0.003,11,63.6,9.1,27.3
+5,Federal_Register.pdf,10868,0.9999,0.076,0.894,0.03,484,39.5,12.6,47.9
+6,Gossen_Why_2019.pdf,17965,1.0,0.082,0.894,0.025,608,41.8,8.9,49.3
+7,HB5.pdf,1782,0.9979,0.081,0.902,0.017,66,54.5,12.1,33.3
+8,HB5_Committee_Voting.docx,282,0.5622,0.031,0.954,0.015,1,100.0,0.0,0.0
+9,HB5_Digest.pdf,496,0.9786,0.093,0.889,0.018,25,56.0,8.0,36.0
+10,HB5_Fiscal.pdf,831,0.9933,0.08,0.909,0.011,30,60.0,6.7,33.3
+11,HB_500_Mineral_Rights.pdf,531,0.987,0.088,0.895,0.017,26,50.0,15.4,34.6
+12,HB_61_Study_Constitutionality.pdf,851,0.9925,0.078,0.898,0.024,45,35.6,2.2,62.2
+13,HB_79_Damages_Threshold.pdf,914,-0.9851,0.051,0.862,0.087,35,22.9,40.0,37.1
+14,HB_878_Rivers.pdf,268,0.874,0.058,0.927,0.015,18,33.3,11.1,55.6
+15,SB_244.pdf,87941,1.0,0.091,0.867,0.042,2603,37.9,17.6,44.5
+16,SB_244_Digest.pdf,3299,0.9982,0.056,0.935,0.008,123,46.3,5.7,48.0
+17,StatewideOrderNo29_N_6_revised.pdf,24964,1.0,0.1,0.862,0.038,1130,35.2,11.8,53.0
+18,Tunica_Tribe.pdf,489,0.9946,0.122,0.874,0.004,14,85.7,0.0,14.3

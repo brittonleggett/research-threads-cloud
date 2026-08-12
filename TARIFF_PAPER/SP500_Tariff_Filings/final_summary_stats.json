@@ -1,0 +1,53 @@
+{
+  "trade_corpus_filings": 1890,
+  "trade_corpus_unique_companies": 334,
+  "trade_corpus_form_breakdown": {
+    "8-K": 682,
+    "10-Q": 808,
+    "10-K": 397,
+    "10-Q/A": 2,
+    "8-K/A": 1
+  },
+  "trade_corpus_year_breakdown": {
+    "2025": 1147,
+    "2026": 743
+  },
+  "trade_corpus_sector_filing_counts": {
+    "Industrials": 369,
+    "Information Technology": 223,
+    "Utilities": 164,
+    "Health Care": 243,
+    "Materials": 113,
+    "Real Estate": 41,
+    "Financials": 243,
+    "Communication Services": 20,
+    "Consumer Staples": 206,
+    "Consumer Discretionary": 209,
+    "Energy": 59
+  },
+  "trade_corpus_sector_company_counts": {
+    "Industrials": 61,
+    "Information Technology": 47,
+    "Utilities": 30,
+    "Health Care": 45,
+    "Materials": 23,
+    "Real Estate": 13,
+    "Financials": 40,
+    "Communication Services": 4,
+    "Consumer Staples": 27,
+    "Consumer Discretionary": 29,
+    "Energy": 15
+  },
+  "realized_vs_hypothetical_breakdown": {
+    "unclear": 262,
+    "hypothetical_risk_factor": 1538,
+    "realized": 80,
+    "fetch_failed": 10
+  },
+  "realized_unique_companies": 45,
+  "causation_breakdown_within_realized": {
+    "vague_listed": 62,
+    "explicit": 15,
+    "silent_or_unclear": 3
+  }
+}

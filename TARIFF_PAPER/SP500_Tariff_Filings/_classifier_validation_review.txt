@@ -1,0 +1,109 @@
+=== TRADE-LABELED SAMPLE (20) ===
+
+[T0] C.H. Robinson (CHRW) sector=Industrials form=8-K date=2025-07-30
+  label=trade  SNIPPET: ged solutions q2 agp up 0.9% y/y &#9632; other surface transportation agp declined to zero due to divestiture of europe surface transportation business in february 2025 global forwarding (gf) &#9632; tariff policies reduced demand &amp; increased duty outlays for customers &#9632; customs agp up 31.7% y/y &#9632; ocean volume declined 4.0% y/y &amp; air tonnage declined 12.5% y/y &#9632; continuing to d
+
+[T1] Keysight Technologies (KEYS) sector=Information Technology form=8-K date=2026-05-19
+  label=trade  SNIPPET: of $486 million in the second quarter, up 24 percent from the prior year, reflecting double-digit growth across all end markets of automotive and energy, general electronics, and semiconductor. ieepa tariff refund claim in february 2026, the united states supreme court determined that certain tariffs imposed pursuant to the international emergency economic powers act (&#8220;ieepa&#8221;) were not autho
+
+[T2] Keysight Technologies (KEYS) sector=Information Technology form=10-Q date=2026-06-04
+  label=trade  SNIPPET: :commonstockmember 2024-11-01 2025-04-30 0001601046 us-gaap:additionalpaidincapitalmember 2024-11-01 2025-04-30 0001601046 us-gaap:treasurystockcommonmember 2024-11-01 2025-04-30 0001601046 keys:ieepatariffrefundclaimsmember 2026-04-30 0001601046 keys:ieepatariffrefundclaimsmember 2026-02-01 2026-04-30 0001601046 keys:ieepatariffrefundclaimsmember 2025-11-01 2026-04-30 0001601046 keys:spirentmember 2025
+
+[T3] GoDaddy (GDDY) sector=Information Technology form=10-Q date=2025-10-31
+  label=trade  SNIPPET: fair or corrupt business practices in certain geographies, and compliance with anti-corruption laws, such as the u.s. foreign corrupt practices act; &#8226; compliance with market access regulations, tariffs and import, export and general trade regulations, including economic sanctions and embargoes; &#8226; the potential for political, social or economic unrest, terrorism, hostilities or war; &#8226; d
+
+[T4] Occidental Petroleum (OXY) sector=Energy form=8-K date=2026-03-09
+  label=trade  SNIPPET: d gas properties or equity investments, or write-downs of productive assets, causing charges to earnings; unexpected changes in costs; government actions (including the effects of announced or future tariff increases and other geopolitical, trade, tariff, fiscal and regulatory uncertainties), war (including the russia-ukraine war and conflicts in the middle east) and political conditions and events (suc
+
+[T5] Equinix (EQIX) sector=Real Estate form=10-Q date=2026-04-29
+  label=trade  SNIPPET: utational harm, or adverse effects on our business and results of operations. periodic risks of a u.s. government shutdown could further disrupt economic conditions. moreover, actual or proposed u.s. tariffs and potential counter tariffs may increase costs and disrupt our supply chain, with their scope and duration dependent on evolving negotiations and exemptions, making their impact difficult to predi
+
+[T6] Cincinnati Financial (CINF) sector=Financials form=8-K date=2026-05-06
+  label=trade  SNIPPET: r nonpayment or delay in payment by reinsurers &#8226; domestic and global events, such as the wars in ukraine and in the middle east, future pandemics, inflationary trends, changes in u.s. trade and tariff policy, and&#160;disruptions in the banking and financial services industry, resulting in insurance losses, capital market or credit market uncertainty, followed by prolonged periods of economic inst
+
+[T7] GE Aerospace (GE) sector=Industrials form=8-K date=2026-04-21
+  label=trade  SNIPPET: bligations, improving turnaround times in our services businesses and reducing costs over time&#59; &#8226; global economic trends, competition and geopolitical risks, including evolving impacts from tariffs, sanctions or other trade tensions between the u.s. and other countries, or demand or supply shocks from events such as a major terrorist attack, war (including conflict in the middle east), natural
+
+[T8] Monster Beverage (MNST) sector=Consumer Staples form=10-K date=2026-02-27
+  label=trade  SNIPPET: and related trade disputes may affect our ability to operate or sell our products in certain jurisdictions. for example, in recent months, the united states has proposed or implemented a range of new tariffs and trade measures affecting u.s. imports from across the world, including global reciprocal tariffs, as well as specific tariffs on imports from china, canada, mexico, and elsewhere. the nature and
+
+[T9] Vertiv (VRT) sector=Industrials form=8-K date=2025-07-30
+  label=trade  SNIPPET: d cost investments. in addition, two factors impacted our second quarter adjusted operating margin results&#58; (1) higher than anticipated supply chain and manufacturing transition costs to mitigate tariffs and (2) operational inefficiencies and execution challenges stemming from stronger than anticipated growth acceleration. we have clear action plans in place and expect these temporary factors to be
+
+[T10] Amcor (AMCR) sector=Materials form=8-K date=2025-11-05
+  label=trade  SNIPPET: including climate-related rules&#59; changing environmental, health, and safety laws&#59; changes in tax laws or changes in our geographic mix of earnings&#59; and changes in trade policy, including tariff and custom regulations or failure to comply with such regulations. these risks and uncertainties are supplemented by those identified from time to time in our filings with the securities and exchange
+
+[T11] Solventum (SOLV) sector=Health Care form=10-Q date=2025-11-06
+  label=trade  SNIPPET: cent of sales of product, increased in the third quarter of 2025 when compared to the third quarter of 2024. the increase was driven by increased costs due to the impact of higher sourcing costs from tariffs and inventory sourced under the master supply and transition manufacturing agreements with 3m, partially offset by benefits from cost savings programs. cost of product, measured as a percent of sale
+
+[T12] Public Service Enterprise Group (PEG) sector=Utilities form=10-K date=2025-02-25
+  label=trade  SNIPPET: liers for certain aspects of this supply chain and the ability to maintain an adequate fuel supply could be affected by several factors not within our control, including changes in prices and demand, tariffs, curtailments by suppliers, severe weather, environmental regulations, war and hostilities, and other factors. for additional information and a discussion of risks, see item 1a. risk factors, item 7
+
+[T13] Newmont (NEM) sector=Materials form=10-K date=2026-02-19
+  label=trade  SNIPPET: to obtain environmental or other government permits or approvals or changes in the laws and regulations related to our operations or project development; &#8226; changes in tax laws, customs law and tariffs, the laws and/or regulations around royalties and other taxes due to the regional and national governments and royalty agreements; &#8226; government instability, including in jurisdictions that do
+
+[T14] Home Depot (The) (HD) sector=Consumer Discretionary form=10-Q date=2025-05-28
+  label=trade  SNIPPET: positions; the state of the economy; the state of the housing and home improvement markets; the state of the credit markets, including mortgages, home equity loans, and consumer credit; the impact of tariffs, trade policy changes or restrictions, or international trade disputes and efforts and ability to continue to diversify our supply chain; issues related to the payment methods we accept; demand for
+
+[T15] Pentair (PNR) sector=Industrials form=10-Q date=2025-07-22
+  label=trade  SNIPPET: ons; our ability to comply with laws and regulations; the impact of changes in laws, regulations and administrative policy, including those that limit u.s. tax benefits or impact trade agreements and tariffs; the outcome of litigation and governmental proceedings; and the ability to achieve our long-term strategic operating and sustainability goals and targets. additional information concerning these an
+
+[T16] Exelon (EXC) sector=Utilities form=10-Q date=2026-05-06
+  label=trade  SNIPPET: s, epidemics, pandemics, or other significant events; &#8226; disruptions or cost increases in the supply chain, including shortages in labor, materials or parts, or significant increases in relevant tariffs; &#8226; lack of sufficient power generation resources to meet actual or forecasted demand or disruptions at generation facilities owned by third parties; &#8226; emerging technologies that could af
+
+[T17] Paychex (PAYX) sector=Industrials form=10-K date=2025-07-11
+  label=trade  SNIPPET: and global economy and such impact could be materially adverse. &#160; we and our clients are subject to the impacts related to inflationary pressure, economic instability, changes in interest rates, tariffs, potential instability of the banking environment, climate change-based obligations, and other macroeconomic and/or political events. banking volatility may subject us and our clients to losses on u
+
+[T18] BNY Mellon (BNY) sector=Financials form=8-K date=2025-10-16
+  label=trade  SNIPPET: may differ, possibly materially, from the anticipated results expressed or implied in these forward-looking statements as a result of a number of important factors. these factors include: escalating tariff and other trade policies and the resulting impacts on market volatility and global trade; growing fiscal deficits; changing levels of inflation and the corresponding impacts on macroeconomic conditio
+
+[T19] Best Buy (BBY) sector=Consumer Discretionary form=10-K date=2026-03-18
+  label=trade  SNIPPET: nditions may negatively impact our financial results. we are subject to specific pressures that may increase our product prices, including high consumer demand, inflation, governmental actions (e.g., tariffs) and supply chain disruptions. additionally, price increases in the products we purchase for resale may require us to adjust our sales prices. our ability to increase prices to offset these pressure
+
+=== UTILITY_ONLY-LABELED SAMPLE (15) ===
+
+[U0] NiSource (NI) sector=Utilities form=10-Q date=2025-08-06
+  label=utility_only  SNIPPET: 8226; the outcome of legal and regulatory proceedings, investigations, incidents, claims and litigation; &#8226; compliance with changes in, or new interpretations of applicable laws, regulations and tariffs, including impacts of state and federal orders on our ability to carry out our business plan and growth strategy; &#8226; the cost of compliance with environmental laws and regulations and the costs
+
+[U1] Constellation Energy (CEG) sector=Utilities form=10-Q date=2026-05-11
+  label=utility_only  SNIPPET: table of contents other key business drivers pjm market reform in january 2026, the national energy dominance council, with support from governors within the pjm territory, urged pjm to file proposed tariff revisions at ferc to improve reliability and cost-effectiveness within its capacity auctions. during the first quarter of 2026, pjm began stakeholder discussions and preparatory work in response to t
+
+[U2] Xcel Energy (XEL) sector=Utilities form=8-K date=2025-04-01
+  label=utility_only  SNIPPET: 30&#160; 10&#160; sales 18&#160; (1) other (1) (2) nsp-wisconsin&#8217;s filed rate request $ 151&#160; $ 24&#160; (a) the interchange agreement is a federal energy regulatory commission cost sharing tariff under which nsp-wisconsin and its affiliate, nsp-minnesota allocate the costs of the integrated electric generation and transmission system. certain information discussed in this current report on fo
+
+[U3] Public Service Enterprise Group (PEG) sector=Utilities form=10-Q date=2025-04-30
+  label=utility_only  SNIPPET: venues. pse&amp;g revenues from contracts with customers electric and gas distribution and transmission revenues &#8212;pse&amp;g sells gas and electricity to customers under default commodity supply tariffs. pse&amp;g&#8217;s regulated electric and gas default commodity supply and distribution services are separate tariffs which are satisfied as the product(s) and/or service(s) are delivered to the cus
+
+[U4] Dominion Energy (D) sector=Utilities form=10-K date=2025-02-27
+  label=utility_only  SNIPPET: re. regulation virginia power&#8217;s electric distribution and generation operations, including the rates it may charge to jurisdictional customers, as well as wholesale electric transmission rates, tariffs and terms of service, are subject to regulation by the virginia and north carolina commissions as well as ferc, nrc, epa, doe, u.s. army corps of engineers, boem and other federal, state and local a
+
+[U5] PPL Corporation (PPL) sector=Utilities form=8-K date=2026-02-17
+  label=utility_only  SNIPPET: uity of 9.775% for base rate purposes and 9.675% for capital rate adjustment mechanisms. the kpsc orders approve the companies' requests for establishment of certain new rate adjustment mechanisms or tariffs, with modifications; &#8226; a temporary pilot generation recovery adjustment clause ("adjustment clause pgr") to provide recovery and return on investment of applicable costs of certain new generat
+
+[U6] NRG Energy (NRG) sector=Utilities form=8-K date=2026-03-04
+  label=utility_only  SNIPPET: pplicable in the industry (i)&nbsp;authorizing such subsidiary to engage in wholesale sales of energy, capacity and certain ancillary services and, to the extent permitted under its market-based rate tariff, other transactions, at market-based rates and (ii)&nbsp;granting such waivers and blanket authorizations as are customarily granted to entities with market-based rate authority, including blanket au
+
+[U7] American Water Works (AWK) sector=Utilities form=10-Q date=2025-07-30
+  label=utility_only  SNIPPET: &#160; california, step increase january 1, 2025 17 &#160; total general rate case authorizations $ 232 &#160; (a) new rates are expected to be effective in early august 2025, upon filing the revised tariff sheets and rate schedules. (b) interim rates of $ 5 million were effective may 11, 2024. the iowa utilities commission issued its final order on may 21, 2025. (c) interim rates were effective may 1,
+
+[U8] PPL Corporation (PPL) sector=Utilities form=8-K date=2026-03-13
+  label=utility_only  SNIPPET: ng small businesses by mitigating cost impacts of net-metered distributed generation and providing flexible payment options. &#8226; creating a new large load customer rate class and electric service tariff with a 10-year load and financial commitment. this new rate class will provide $11 million in support for the residential low-income program, helping reduce costs for residential customers, and inclu
+
+[U9] DTE Energy (DTE) sector=Utilities form=8-K date=2025-01-07
+  label=utility_only  SNIPPET: rs ~2,500 mw subscribed &#8226; allows customers to attribute up to 100% of electricity use to renewable sources &#8226; recognized by national renewable energy laboratory as having the largest green tariff program in the country, fulfilling more load under contracted subscriptions than any other program &#8226; two largest renewable energy purchases from a utility announced with ford motor company and
+
+[U10] Alliant Energy (LNT) sector=Utilities form=8-K date=2026-03-04
+  label=utility_only  SNIPPET: aring the financial statements referred to in section 5.4, subject to section 1.4. &#8220; governmental approval &#8221; means any authorization, consent, approval, license, franchise, lease, ruling, tariff, rate, permit, certificate, exemption of, or filing or registration with, any governmental authority or other legal or regulatory body. &#8220; governmental authority &#8221; means the government of
+
+[U11] Public Service Enterprise Group (PEG) sector=Utilities form=10-Q date=2025-08-05
+  label=utility_only  SNIPPET: venues. pse&amp;g revenues from contracts with customers electric and gas distribution and transmission revenues &#8212;pse&amp;g sells gas and electricity to customers under default commodity supply tariffs. pse&amp;g&#8217;s regulated electric and gas default commodity supply and distribution services are separate tariffs which are satisfied as the product(s) and/or service(s) are delivered to the cus
+
+[U12] NRG Energy (NRG) sector=Utilities form=10-Q date=2025-08-06
+  label=utility_only  SNIPPET: pdates to the non-performance charge based on the rto net cone for the 2026/2027 and 2027/2028 delivery years. on february 14, 2025, ferc approved pjm&#8217;s filings. on december 13, 2024, pjm filed tariff changes to add provisions enabling a one-time reliability-based expansion of the eligibility criteria for pjm&#8217;s interconnection process intended to allow a limited number of additional resource
+
+[U13] Alliant Energy (LNT) sector=Utilities form=8-K date=2025-03-03
+  label=utility_only  SNIPPET: aring the financial statements referred to in section 5.4, subject to section 1.4. &#8220; governmental approval &#8221; means any authorization, consent, approval, license, franchise, lease, ruling, tariff, rate, permit, certificate, exemption of, or filing or registration with, any governmental authority or other legal or regulatory body. &#8220; governmental authority &#8221; means the government of
+
+[U14] NRG Energy (NRG) sector=Utilities form=8-K date=2025-05-16
+  label=utility_only  SNIPPET: erc section&nbsp;203 approval and (b)&nbsp;waiver by ferc or the expiration of the ninety (90) day period from the filing of all reactive power informational filings required by schedule 2 to the pjm tariff. &nbsp; &ldquo; ferc section&nbsp;203 approval &rdquo; means the approval of ferc under section&nbsp;203 of the fpa of the transactions contemplated in this agreement. &nbsp; &ldquo; financing &rdquo
+

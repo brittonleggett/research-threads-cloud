@@ -1,0 +1,42 @@
+{
+  "total_filings": 2018,
+  "total_constituents": 503,
+  "companies_with_at_least_one_hit": 336,
+  "form_breakdown": {
+    "8-K": 750,
+    "10-Q": 842,
+    "10-K": 423,
+    "10-Q/A": 2,
+    "8-K/A": 1
+  },
+  "year_breakdown": {
+    "2025": 1224,
+    "2026": 794
+  },
+  "sector_filing_counts": {
+    "Industrials": 372,
+    "Information Technology": 223,
+    "Utilities": 266,
+    "Health Care": 243,
+    "Consumer Discretionary": 209,
+    "Materials": 114,
+    "Real Estate": 41,
+    "Financials": 244,
+    "Communication Services": 20,
+    "Consumer Staples": 213,
+    "Energy": 73
+  },
+  "sector_company_counts": {
+    "Industrials": 61,
+    "Information Technology": 47,
+    "Utilities": 31,
+    "Health Care": 45,
+    "Consumer Discretionary": 29,
+    "Materials": 23,
+    "Real Estate": 13,
+    "Financials": 40,
+    "Communication Services": 4,
+    "Consumer Staples": 27,
+    "Energy": 16
+  }
+}

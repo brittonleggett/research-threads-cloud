@@ -1,0 +1,1572 @@
+Research Article
+International Journal of Qualitative Methods
+Volume 24: 1–18
+© The Author(s) 2025
+DOI: 10.1177/16094069251333886
+journals.sagepub.com/home/ijq
+Thematic Analysis and Artificial
+Intelligence: A Step-by-Step Process for
+Using ChatGPT in Thematic Analysis
+Muhammad Naeem1
+, Tracy Smith1
+, and Lorna Thomas1
+Abstract
+This study sets out how to use generative artificial intelligence (AI) in the six steps of systematic thematic analysis. It leverages AI
+to address the limitations of traditional thematic analysis. This paper developed prompts (inputs) for ChatGPT (a generative AI
+chatbot based on a large language model) that are based on many researchers’ discussions and criticisms of qualitative data
+analysis. The contributions of this paper are twofold. First, it addresses a critical research gap by showcasing ChatGPT prompts
+for each step of the six steps of systematic thematic analysis, which also addresses researcher training in thematic analysis.
+Second, it contributes to the development of input to train AI in thematic analysis, including a description of how to familiarize
+an AI system with the context of a research study and the researcher’s methodological and theoretical considerations; this
+approach helps to reduce human bias and improves accountability and transparency in thematic analysis.
+Keyword
+thematic analysis, themes codes, artificial intelligence, ChatGPT prompts, qualitative research
+Introduction
+Researchers have begun to explore the use of Artificial Intelli￾gence (AI) in research by, for example, conducting literature
+reviews (Svab et al., 2023 ˇ ), literature synthesis (Semrl et al.,
+2023), data management and analysis (Currie et al., 2023b), data
+interpretation (Laios et al., 2023), and considerations of academic
+integrity and workflow efficiency (Currie et al., 2023a). The use
+of AI applications in scientific writing has also been explored
+(Huang & Tan, 2023; Salimi & Saheb, 2023). AI can be used to
+improve the articulation, coherence and clarity of academic
+writing for writers whose first language is not English (Meyer
+et al., 2023; Salimi & Saheb, 2023). The use of AI in qualitative
+research expedites the data analytical process (Prescott et al.,
+2024), but it also raises issues of conceptuality, ethics and
+transparency (Meyer et al., 2023; Salimi & Saheb, 2023).
+Moreover, Naeem et al. (2025) used ChatGPT to conduct sys￾tematic thematic analysis in their study, explaining the use of AI
+as follows: “AI-assisted technology was employed specifically to
+select keywords and quotations from the data” (Naeem et al.,
+2025, p., 12).
+Recent studies have explored the use of Generative AI
+(GenAI) in qualitative research. For example, De Paoli, 2024,
+2024b compared the results of manual thematic analysis with
+the results of GenAI-based thematic analysis. De Paoli, 2024,
+2024b used open access data sets and semi-structured inter￾views that had been analysed by other researchers. De Paoli,
+2024, 2024b used GenAI to carry out initial coding of data sets
+and to generate themes, and compared the themes produced by
+GenAI-based thematic analysis with those derived from
+manual thematic analysis. De Paoli (2024a) found that GenAI
+inferred most of the main themes identified by manual coding.
+However, these studies did not include the familiarization
+phase of thematic analysis, which would have allowed the
+1
+Christ Church Business School, Canterbury Christ Church University,
+Canterbury, UK
+Corresponding Author:
+Muhammad Naeem, Christ Church Business School, Canterbury Christ
+Church University, North Holmes Road, Canterbury CT1 1QU, UK.
+Email: dr.muhammadnaeem222@gmail.com
+Creative Commons CC BY: This article is distributed under the terms of the Creative Commons Attribution 4.0 License (https://
+creativecommons.org/licenses/by/4.0/) which permits any use, reproduction and distribution of the work without further
+permission provided the original work is attributed as specified on the SAGE and Open Access pages (https://us.sagepub.com/en-us/nam/
+open-access-at-sage).
+
+generative AI to engage with the data and overall research
+context. To overcome this issue, Lee et al. (2024) used AI to
+transcribe interviews to familiarize an AI system with raw
+data. However, they only used AI to perform three of the steps
+accounted for in Braun and Clarke’s (2006) six steps to
+thematic analysis. Prescott et al. (2024) qualitatively tested the
+efficacy and efficiency of thematic analysis codes generated
+by humans and GenAI. Prescott’s et al. (2024) findings in￾dicated that human-generated codes are more reliable than AI￾generated codes. These studies have three limitations. The first
+is that they did not follow all six steps of Braun and Clarke’s
+(2006) approach to thematic analysis. The second limitation is
+that the studies did not provide the AI system with contextual
+information about the research, such as the aim and the research
+questions. The third limitation was that the AI system was not
+informed about the researchers’ methodological considerations
+for each step of thematic analysis.
+This paper addresses researcher training in thematic
+analysis, and the development of input to train AI in thematic
+analysis. The paper explores each step involved in thematic
+analysis, and considers the methodology underpinning each
+step. In this sense, it addresses Christou’s plea (2023a, p. 567)
+when he noted “I strongly encourage, particularly novice
+researchers, to first equip themselves with the fundamentals of
+thematic analysis and how to use AI tools in their thematic
+analysis”. In addition, the paper describes how researchers can
+familiarize an AI system with the context of research, in￾cluding aspects such as the research aim, and the researcher’s
+methodological considerations. Christou (2023b) argues that,
+to fully utilize AI to generate knowledge, researchers must
+carefully consider input methods. This paper describes various
+input (prompts) given to ChatGPT to complete the six steps of
+thematic analysis . and it provides the rationale for these
+prompts. ChatGPT is a GenAI chatbot based on a large
+language model. Textual inputs to ChatGPT are called
+“prompts”. These prompts can be thought of as a conversation
+in which a person asks a question, gives instructions or ex￾plains the context of a situation to their assistant, so that the
+assistant can help them perform a task.
+Braun and Clarke (2006) introduced a six-step approach to
+thematic analysis comprising of familiarization with the data,
+generating initial codes, searching for themes, reviewing
+themes, defining and naming themes and producing a report.
+Additionally, Braun and Clarke (2022) suggested considering
+reflexivity, theoretical frameworks, data contextualization, and
+theme development in the process of thematic analysis. They
+also indicated that thematic analysis encompasses a family of
+methods rather than a singular approach, with no standardized
+version. This paper follows a modified version of the six steps
+introduced by Naeem et al. (2023), which is known as sys￾tematic thematic analysis. Naeem et al.’s (2023) systematic
+thematic analysis also comprises six steps: (1) transcription,
+familiarization with data, and the selection of quotations, (2) the
+selection of keywords, (3) coding, (4) theme development, (5)
+conceptualization through the interpretation of keywords, codes
+and themes, and (6) the development of a conceptual model (see
+Figure 1). The significant difference with a systematic review is
+that through this process, researchers explore and identify
+themes based on required data, considering research gaps,
+objectives, and questions, instead of finding common themes
+from the data. Therefore, this systematic thematic analysis al￾lows researchers to create themes based on identified quotations
+and keywords, grouping them into different categories known
+as codes (Naeem et al., 2023). These codes are based on relevant
+quotations and keywords. Subsequently, these codes are
+grouped according to research questions and objectives,
+forming what is called a theme. Thus, through systematic
+thematic analysis, themes are derived from the data based on
+research gaps, theoretical underpinnings, philosophical under￾pinnings, and research questions, whereas in traditional the￾matic analysis, themes are based on commonalities in the data
+(Naeem, 2025; Naeem et al., 2025; Naeem & Ozuem, 2025).
+Building on the groundwork of the above-mentioned
+studies and addressing their limitations, the current paper
+incorporates their insights into ChatGPT prompts to enable the
+chatbot to conduct systematic thematic analysis. (Naeem et al.,
+2023). The results of a systematic thematic analysis conducted
+by ChatGPT are compared with the corresponding manual
+outcomes of Naeem et al. (2024a). This paper was selected as a
+case study since it uses the same systematic thematic analysis
+process in their study. The primary data set used by Naeem
+et al. (2024a) was used as the primary data set for this paper,
+and this has facilitated a comparison between the outcomes of
+a manual thematic analysis of Naeem et al., 2024b to compare
+with a ChatGPT-generated thematic analysis. The research
+context, methodology, and philosophical and theoretical un￾derpinnings of Naeem et al., 2024b study was also part to
+develop ChatGPT prompt in this methodology paper.
+How can ChatGPT be Used in the Process of
+Thematic Analysis?
+The development of an AI-based toolkit for systematic the￾matic analysis was first introduced by (Naeem et al., 2023).
+This toolkit not only facilitates the application of AI in sys￾tematic thematic analysis, but also offers researchers a well￾structured and rigorous approach to use the developed
+prompts for each stage. These prompts have been developed
+following consideration of the different points of view that
+need to be considered at each stage. The paper sets out how to
+use ChatGPT for thematic analysis by providing step-by-step
+guidance, and a conceptual model (see Figure 2).
+Figure 2 outlines a comprehensive approach to using
+ChatGPT for systematic thematic analysis. A more detailed
+explanation of each step is provided below.
+· Step 1: Familiarization, and Selection of Quotations: The
+first stage of systematic thematic analysis involves fa￾miliarizing ChatGPT with the data, research context and
+the theoretical, methodological and philosophical
+2 International Journal of Qualitative Methods
+
+underpinnings of the research including the research
+context. It is also necessary at this stage to familiarize
+ChatGPTwith the six steps of systematic thematic analysis
+introduced by Naeem et al., (2023). Researchers then need
+to ask ChatGPT, using the instructions provided in Table 1,
+to confirm that it understands the context, and is ready to
+perform a systematic thematic analysis.
+· Step 2 Selection of Keywords: Keywords are rich
+words or phrases that are selected on the basis of the
+6 Rs (realness, richness, repetition, rationale, rep￾artee and regal). Keywords ensure the robustness
+and relevance of extracted data (Naeem et al.,
+2023). This stage involves asking AI to select
+keywords form the data on the basis of the prompts
+given in Table 2.
+· Step 3 Coding: Keywords and quotations are
+considered to label phrases or words to produce
+codes. The codes should reflect the meaning of the
+grouped quotations and keywords in order to ad￾dress research questions. Codes should be selected
+on the basis of the 6 Rs (reciprocal, recognizable,
+responsive, resourceful). During this stage it is
+necessary to instruct AI to suggest code names
+based on the instructions in Table 3.
+· Step 4 Theme Development: This stage involves
+organising the codes into categories on the basis of
+their inter-relationships. This is achieved by con￾sidering selected theory/theories to label the cate￾gories as themes. The codes should reflect the
+meaning of the grouped quotations and keywords in
+order to address research questions. Themes should
+be selected on the basis of the 6 Rs (). The researcher
+must guide the AI by providing the keywords, codes,
+research context, research aims and theoretical
+Figure 1. Systematic Thematic Analysis Process (Naeem et al., 2023, p. 4).
+Naeem et al. 3
+
+underpinnings to ensure that themes can be developed
+(see Table 4).
+· Step 5 Conceptualization: Conceptualization in￾volves interpreting codes and themes in a coherent
+manner to help readers understand, categorize, and
+communicate a meaningful representation of the
+subject at hand (Naeem et al., 2023). The purpose of
+conceptualization is to define and clarify new con￾cepts derived either from themes and codes or from
+theory. This involves refining codes, defining con￾nections, identifying similarities and differences
+between the themes and codes, and creating a concept
+supported by existing theories. The researcher
+therefore needs to instruct the AI to conceptualise the
+various codes and themes using selected keywords
+and the theoretical underpinning of the (see Table 6).
+· Step 6 Development of Conceptual Model: The final
+step involves synthesizing and presenting all of the
+concepts into a coherent model or framework by
+identifying the relationships between the concepts as
+arrows and boxes. This involves establishing the sig￾nificance of the relationship between these concepts to
+create solutions to the research question, and to provide
+a theoretical contribution. During this stage, the re￾searcher can ask the AI to present these concepts in a
+structured way using the prompts developed in Table 6.
+This paper presents a case study of Naeem et al.’s (2024a)
+research to compare each step of systematic thematic analysis
+and AI based thematic analysis outcomes. Naeem et al.
+(2024a) explored the constraints and enablers of using scan
+and go apps to shop in supermarkets in England. Their study,
+which adopted a constructivist ethnographic approach, was
+underpinned by flow- and affordance theory. They introduced
+the Affordances Flow Funnel concept to conceptualize cus￾tomers’ experiences of shopping using scan and go apps.
+Systematic thematic analysis was conducted on online reviews
+of 10 scan and go apps.
+A Comparison Between Outcomes of
+GenAI-Based and Manual Systematic
+Thematic Analysis
+Step 1: Familiarization With Background Information
+and Transcript for Quotation Selection
+The first step of systematic thematic analysis involves the
+researcher familiarizing themself with the data/transcript
+while considering the associated theoretical, contextual and
+philosophical underpinnings (Davidson, 2018; Naeem et al.,
+2023, 2024b; Nowell et al., 2017; Slembrouck, 2007; Thorne,
+2000). This approach is necessary because reading a transcript
+is an interpretative task (Eldh et al., 2020), so the researcher
+must consider the research aim, objectives and research
+questions (Du Bois, 1991; Ochs, 1979, 1999). Additionally,
+researchers need to consider theoretical and philosophical
+positions to interpret transcripts effectively (Naeem et al.,
+2023), which can help reduce research biases introduced by
+the transcriber’s perspective (Duranti, 2006; Jaffe, 2000,
+2007; Mondada, 2007) when selecting relevant quotations
+(Naeem et al., 2023).
+Since the selected quotations can either reinforce or
+challenge existing knowledge, having some theoretical
+Figure 2. Using ChatGPT for Systematic Thematic Analysis: A Step-by-Step Process Using Artificial Intelligence in Qualitative Research.
+4 International Journal of Qualitative Methods
+
+Table 1. ChatGPT Prompts in First Step of Systematic Thematic Analysis
+Prompts to familiarise ChatGPT with the
+research
+Prompts to enable ChatGPT to select
+quotations from the transcript Rationale for prompts
+This research analyses primary data to achieve
+the research aim by answering the following
+research questions. The primary aim of this
+study is [research purpose]. Based on
+[theoretical underpinning of research], this
+study follows [a brief mention of the
+methodology employed in the study (e.g.,
+constructivist ethnographic approach,
+exploratory research, inductive approach,
+qualitative research method)].
+Research aim & objectives: [Paste the research
+aim, objective]
+Research question: [Paste the main research
+question (and optionally information on the
+research problem].
+Context of the research:
+• Data type: [Paste the qualitative data from app
+reviews, semi-structured interviews, focus
+group discussions, including transcripts]
+• Participating and selected Organizations:
+[Number of participants, background of
+participants, name of industry, background of
+selected organisations]
+Philosophical underpinnings:
+• [Include an explanation of the epistemology by
+copying and pasting the methodology section
+of your research]
+Theoretical framework:
+• Theoretical Framework: [Explain theoretical
+frameworks used to guide the research]
+Data file: [attach the data file to be thematically
+analysed]
+Prior to reading the manuscript, please review
+the above background material to familiarize
+yourself with the research problem, research
+question and research methodology and
+context. I will ask you to undertake
+systematic thematic analysis involving: the
+selection of quotations, selection of
+keywords, development of codes,
+development of themes, and the
+conceptualization and development of a
+conceptual framework using the following six
+steps to systematic thematic analysis
+introduced by Naeem et al., (2023). [ask
+ChatGPT to write a summary of Naeem et al.
+s(2023) systematic thematic analysis,
+including the 6 Rs to select keywords, the
+6 Rs of coding and the 4 Rs of themes].
+(ChatGPT prompt supported/developed)
+Taking into account the following collective
+research aim, objectives, methodology, the
+theoretical framework and philosophical
+underpinnings, please identify relevant
+questions to extract excerpts from that
+data file that answer the research question.
+The selection process must be guided by
+the specific context of the study, including
+its philosophical foundations, research aim,
+research objectives, research questions, as
+well as its methodological and theoretical
+approaches.
+• Research aim & objectives: [Insert the
+specific aim and objectives of the research]
+• Methodology: [Insert the methodology
+used in the study]
+• Theoretical Framework: [Insert the
+theoretical framework]
+• Research Philosophy: [Insert the
+philosophical approach guiding the study]
+• Research Question: [Insert the specific
+research question(s) the study aims to
+answer]
+Data file: [Paste the data set, or attach a data
+file, from which quotations will be selected]
+Naeem et al. (2023, 2024a, 2024b) argued
+that researchers need to familiarize
+themselves with the theoretical,
+contextual and philosophical backgrounds
+of their research in order to justify their
+choice of relevant quotations. The need
+for familiarization in quotation selection
+was also suggested by other researchers
+(Davidson, 2018; Duranti, 2006; Jaffe,
+2000; Mondada, 2007; Nowell et al., 2017;
+Slembrouck, 2007; Thorne, 2000).
+Source: ChatGPT supported/developed table.
+Naeem et al. 5
+
+Table 2. Second step – ChatGPT Prompt, and Keywords Selected by Humans and ChatGPT
+ChatGPT prompt to perform second step Justification of prompt
+Keywords selected
+by ChatGPT
+Keywords manually selected by Naeem et al.
+(2024a)
+Based on the systematic thematic analysis
+process introduced by Naeem et al. (2023)
+and the crucial role of keyword selection in
+systematic thematic analysis, please consider
+the following information to aid your
+selection of appropriate keywords.
+Please make sure that the keywords reflect the
+participants’ points of view and insights to
+directly answer the research question and
+understand the research phenomenon under
+study. Please utilize the 6 Rs framework –
+Realness, Richness, Repetition, Rationale,
+Repartee and Regal – to guide your selection.
+Please consider the following information
+about the research in your selection of
+keywords.
+Research question: [Insert research question]
+Phenomenon under study: [Describe the
+research aim and research context]
+Data file: [Paste the data set or attach the data
+file]
+In selecting keywords, please ensure they:
+• are meaningful and help to answer the
+research question, and
+• act as analytical anchors, that is, they are
+helpful in building a narrative based on the
+participants’ own words to answer the
+research question. (ChatGPT supported/
+developed prompt).
+Various authors have identified the following
+considerations when selecting keywords in
+thematic analysis.
+Core idea and experience: Select keywords
+that represent participants’ major ideas and
+capture the major chunks of participants’
+experiences (Naeem et al., 2023, 2024b).
+Data saturation and integration: Use helpful
+keywords to integrate various data points
+and various participant perspectives (Morse,
+2015; Naeem et al., 2023).
+Organic selection: Ensure the selected words
+and phrases are meaningful to build narrative
+on the bases of different keywords captured
+from participant data (Naeem et al., 2023).
+Linking theory and data: Keywords should be
+related to the research problem, research
+questions, theories, methodology and
+research problem (Charma, 2014; Glaser &
+Strauss, 2009; Naeem et al., 2023; Richards,
+2015; Maxwell, 2013).
+“Shopping
+experience”
+“Technical issues”
+“Savings”
+“Digital coupons”
+“ExpressPay”
+“Location
+detection”
+“Pickup”
+“Navigation
+problems”
+“Screen brightness”
+“Search
+functionality”
+“Order processing”
+“Pop-up windows”
+“Advertising”
+“App review
+request”
+“In-store pickup”
+“Product
+availability”
+“Sam’s Club”
+“Warehouse deals”
+“Shopping list”
+“Fingerprint login”
+“Grocery delivery”
+“Shopping cart”
+“Authentication”
+“Location service”
+“Members sign up”
+“Easy process”
+“Repeat shopping”
+“Reliability issues”
+“Card scan feature”
+“Nutritional facts”
+“Photo zoom”
+“Window resizing”
+“Google Pixel Fold”
+“Sign-in issues”
+“Loading speed”
+“Promo page”
+“Holiday deals”
+“Glitchy app”
+“Cart
+disappearance”
+“In-stock items”
+“Search
+functionality”
+“Back navigation”
+“Shop tab”
+“Blank screen”
+“Item search”
+“App loop”
+“Screen refresh”
+“App reliability”
+“Purchase history”
+“Account details”
+“Slow app”
+“Page crashes”
+“Cart view”
+“Credit card
+change”
+“App usability”
+“Webview”
+“Navigating
+experience”
+“Brightness
+adjustment”
+•“Not my job, job-eating app, extra burden,
+lack of motivation, not learning, do not use,
+not tech savvy, challenge”.
+•“Quick process, lost earnings, happy to try,
+time wasting, various benefits, installation
+issues, no queue, job loss, shopping by own
+app, fear to lose mobile”.
+•“Enjoyable in smartphones, fell down, free
+internet, hard to connect everywhere,
+customer support, non-existent, free trial
+services, sometimes deduct charges,
+shopping life easy, scanning burden, use of
+own device, battery drain”.
+•“Quickly scan items, barcode scanning issue,
+relevant deals, no added value, love the
+shopping, many bugs, convenient queue for
+QR scan, time saving, stuck in the middle,
+mutual list, privacy”.
+•“Too long to load, complicated app design,
+not for old and uneducated people, use
+mobile banking in my brother’s home, text is
+not readable for me”.
+•“Garbage app, not working, looking to
+increase buying, data could be lost, charge
+without buying, quit it, not offering value, lack
+of information/could not find, doesn’t sync in
+real time”.
+Source: ChatGPT supported/developed table.
+6 International Journal of Qualitative Methods
+
+understanding, and appreciation of the research approach is
+important when selecting quotations (Eldh et al., 2020).
+Oliver et al., 2005; Duranti, 2006). This is why ChatGPT
+was prompted/trained on the selected theories of the
+research, the research gap, research questions and aim of
+the research. Additionally, ChatGPT was provided with
+background information on the research, including the
+number of selected organizations, the type of industry, and
+the nature of the data. Table 1 outlines the ChatGPT
+prompts used to acclimate it to the research, along with
+ChatGPT’s responses, including the quotes selected.
+Once the AI is familiar with the research context and data,
+the next step is to upload all of the transcripts and identify the
+research aim, objectives and research questions. It is also
+necessary to briefly provide the theoretical and philosophical
+underpinning of the research. Importantly, the researcher
+must ensure that the AI is fully trained on the research context
+and systematic thematic analytical process which must be
+performed. The researcher should ask the AI to summarize the
+systematic thematic analytical process introduced by Naeem
+et al. (2023) before providing the prompts presented in
+Table 1. Once the researcher provides this information to the
+Table 3. Third Step – ChatGPT Prompt, and Codes Selected by Humans and ChatGPT
+ChatGPT prompt to perform third step Justification of prompt
+ChatGPT-suggested codes with related
+keywords
+Codes manually
+selected by Naeem et
+al. (2024a)
+We now move to the third step: Coding. The aim
+of coding is to use one or more words to jointly
+represent a group of keywords and quotations
+to answer the research question. Please take an
+abductive approach to developing potential
+meaningful codes, while considering the
+following information and data set. These codes
+should reflect the essence of participants’ points
+of view in a conceptual form. Codes should
+consist of a maximum of three words.
+Please ensure that the suggested codes:
+• Contribute to answering the research
+question and are developed through
+consideration of keywords and all selected
+quotations.
+• Reflect the 6 Rs coding framework – robust
+(comprehensive to enable interpretation of the
+data), reflective (reflect the selected keywords
+and related quotations), resplendent (rich and
+conceptually powerful), relevant (related to the
+research), radical (new contribution), and
+righteous (ethical and contextually correct).
+• Accommodate abductive reasoning by
+integrating data-driven insights and theoretical
+frameworks.
+Data set segments: [Paste data set segments or
+specific excerpts]
+Identified keywords: [List identified keywords
+from Step 2]
+Selected quotations: [List identified quotations
+from Step 1]
+Research question and aim: [Insert research
+question and research aim]- (ChatGPT
+supported/developed prompt)
+Saldaña (2013) and Naeem et al. (2023)
+proposed definitions of coding. Codes should
+be developed to present the combined
+meanings of related quotations and selected
+keywords (Naeem et al., 2023).
+Codes offer new insights to answer the research
+questions (Saldaña, 2013).
+Codes can be done on base of inductive,
+deductive or abductive reasoning (Attride￾Stirling, 2001; Braun & Clarke, 2006; Creswell
+& Poth, 2018; Elo & Kyngas, 2008 ¨ ; Tavory &
+Timmermans, 2014; Thomas, 2006).
+Coding should create robust, reflective,
+resplendent, relevant, radical and righteous
+codes, known as the 6 Rs of coding (Naeem et
+al., 2023).
+User Interface Satisfaction: “user￾friendly”, “intuitive”, “organized”
+Technical Frustrations: “glitchy”, “app
+crashes”, “technical issues”
+Budget-Conscious Shopping: “budget￾friendly”, “savings”, “digital coupons”
+Accessibility and Inclusion: “seniors”,
+“accessibility issues”, “friendly
+associate”
+Customer Service Appreciation:
+“customer service”, “service
+appreciation”, “customer feedback”
+App Functional Reliability: “app
+stability”, “app crashes”, “technical
+support”
+Convenience of Shopping:
+“convenience”, “scan and go”, “easy
+process”
+Feedback and Suggestion: “feedback”,
+“user suggestion”, “app feedback”
+Membership and Loyalty: “membership
+benefits”, “loyalty program”,
+“membership verification”
+Inventory Management Concerns:
+“stock levels”, “item availability”,
+“inventory accuracy”
+Shopping Experience Quality: “shopping
+experience”, “customer experience
+enhancement”, “in-store efficiency”
+Navigation and Usability Issues:
+“navigation problems”, “usability
+issues”, “app navigation”
+Checkout and Payment Process:
+“checkout process”, “digital
+coupons”, “payment method”
+Digital Integration and Updates: “app
+updates”, “digital integration”, “app
+improvement”
+Environmental and Contextual
+Adaptability: “environmental
+adaptability”, “contextual
+adaptability”, “store environment”
+Engagement and Usage Barriers:
+“engagement barriers”, “usage
+barriers”, “barriers to use”
+1. Apathy
+2. Excitement and risks
+3. Gratification and
+capricious
+4. Utility and
+hinderance
+5. Absorption
+6. Abandonment
+Source: ChatGPT supported/developed table.
+Naeem et al. 7
+
+Table 4. Fourth Step – ChatGPT Prompt, and Themes Selected by Human and ChatGPT
+ChatGPT prompt to perform fourth step Rationale of prompt
+ChatGPT-generated themes based
+on selection of codes
+Themes manually
+selected by Naeem
+et al. (2024a)
+Theming is a process of clustering codes
+based on their relationship to one
+another, in that they either fully or
+partially answer the research question.
+Given a set of codes and keywords, please
+suggest appropriate themes to answer
+the following research question and
+achieve research aim. Your theme
+development should be guided by the
+4 Rs framework of themingReciprocal
+(connect the codes together in a
+meaningful unique), Recognizable
+(reflect the actual data), Responsive
+(responsive to the research question
+and aim), Resourceful (rich to tell the
+story of the research).
+Make sure the themes are based on the
+following keywords and codes, and they
+helpfully answer the research question
+and aim.
+The proposed themes should be different
+from each other yet interconnected to
+answer the research aim.
+All suggested themes together need to
+reflect the data appropriately, in terms
+of theoretical and conceptual adequacy,
+and comprehensiveness in achieving the
+research aim.
+Use this information to create themes in
+your mind.
+• Coded data segments: [Insert the coded
+data segments or any other collected
+data]
+• Identified keywords and codes: [paste
+the list of identified keywords and codes
+from the previous steps here].
+• Research objective and question: [paste
+the research objective and questions
+here]>
+• Theoretical underpinning: [paste the
+theoretical underpinning here]
+(ChatGPT aided /developed prompt)
+(ChatGPT supported/developed prompt)
+Theming is the act of clustering
+codes based on their relatedness
+to each other, to answer research
+question(s ), holistically or
+partially (Naeem et al., 2023;
+2024b).
+Themes need to be based within the
+theoretical and philosophical
+foundation of the research and
+must closely link to the context of
+the research to develop answers
+to the research questions
+(Bulmer, 1979; Coffey &
+Atkinson, 1996; DeSantis &
+Ugarriza, 2000).
+Consideration of the 4 Rs of
+theming: Reciprocal,
+Recognizable, Responsive and
+Resourceful (Naeem et al., 2023).
+1. Digital Shopping Experience
+Enhancement
+Relevant codes: user interface
+satisfaction, difficult app for
+shopping, shopping experience
+quality, checkout and payment
+process, digital integration and
+updates.
+2. Operational and Technical
+Efficiency
+Relevant codes: technical
+frustrations, app functional
+reliability, inventory management
+concerns, navigation and usability
+issues.
+3. Customer Engagement and
+Loyalty
+Relevant codes: customer service
+appreciation, feedback and
+suggestion, membership and
+loyalty.
+4. Accessibility and Inclusive
+Shopping
+Relevant codes: accessibility and
+inclusion, environmental and
+contextual adaptability,
+engagement and usage barriers.
+1. Expectation and
+perception.
+2. Experience and
+existence.
+3. Affordance
+dichotomy.
+Source: ChatGPT supported/developed table.
+8 International Journal of Qualitative Methods
+
+Figure 3. Confirmation of AI Familiarization With Systematic Thematic Analysis Framework (Source: ChatGPT (AI) Response).
+Naeem et al. 9
+
+AI, it is necessary to ensure that the AI understands the
+research context, and the systematic thematic analysis pro￾cess. In case of any discrepancies or inappropriate responses,
+researchers can upload the following Figure 3 as an example
+of the familiarization stage for the AI.
+Step 2: Selection of Keywords
+The second step of systematic thematic analysis is the selection
+of keywords, that is, the selection of meaningful words or
+phrases from the transcript that capture participants’ rich ex￾periences and insights to answer the research question (Naeem
+et al., 2023, 2024b). Keywords encapsulate the central and
+meaningful ideas expressed by participants (Naeem et al., 2023,
+2024b). The 6 Rs framework—Realness (reflecting the genuine
+experience of participants), Richness (meaningful, strong,
+powerful, and relevant to the research question), Repetition
+(same word repeated or different words with the same meaning
+used by participants), Rationale (strong reason or logic),
+Repartee (linked to the context of the study), and Regal (crucial
+or important to understanding)—guides researchers in selecting
+impactful keywords. (Naeem et al., 2023).
+The selection of keywords plays a vital role in the de￾velopment of codes and uses the full potential of the transcript
+rather than only the selected quotations (Naeem et al., 2024b).
+In addition, keywords are used to interpret the data (Naeem
+et al., 2024b), which has several advantages, including ex￾panding current theory (Flick, 2014; Saldaña, 2013) and using
+participants’ own words to keep the analysis grounded in real
+data (Corbin & Strauss, 2008, 2015; Creswell & Poth, 2018;
+Morse, 2015; Richards, 2015; Ryan & Bernard, 2000). Table 2
+shows the ChatGPT prompt used to ask the AI to select
+keywords for systematic thematic analysis, along with the
+justification for the prompt, the keywords generated by
+ChatGPT, and the keywords manually selected by Naeem
+et al. (2024a).
+Table 2 shows that the large number of keywords identified
+by the AI reflects its capacity to process large datasets
+comprehensively, enabling it to identify a broader and more
+diverse range of relevant keywords. Consequently, different
+words relating to the same issue, or the same words on dif￾ferent issues can capture a broader range of expressions and
+nuances than manually selected keywords typically allow.
+This AI capability, compared to human capabilities, empha￾sizes how the breadth of AI can complement the depth of
+manually selected keywords. Table 2 presents a comparative
+analysis of keywords selected by ChatGPT, and those man￾ually selected in Naeem et al.’s(2024a) study. It is evident that
+the AI’s keyword selection encompasses a greater number of
+keywords, and a more comprehensive reflection of participant
+views, capturing both functional, customer experience and
+experiential aspects of using shopping apps. For instance,
+Table 5. Fifth Step – ChatGPT Prompt, and Concepts Selected by Humans and ChatGPT
+ChatGPT prompt to perform fifth step Rationale of prompt
+ChatGPT￾developed concepts
+Concepts manually selected by
+Naeem et al. (2024a)
+In the conceptualization step we aim to
+develop concepts based on our
+interpretation of themes, keywords
+and codes. The concepts should link
+with theory in the context of this
+research. Concepts should help
+answer the research questions. Please
+define each concept. The definitions
+should adhere to the principles of
+clarity, and cohere with the
+theoretical and philosophical context
+of this research.
+To guide this process, please consider
+the following.
+• Research question: [Insert the
+specific research question]
+• Theoretical underpinnings: [Detail
+the major factors of the theory]
+• Themes: [Insert themes from
+previous step]
+Identified keywords and codes: [List the
+identified keywords and codes from
+previous steps] (ChatGPT supported/
+developed prompt)
+Development of concepts in relation
+to the data and theoretical
+underpinning (Babbie, 2016;
+Byrne, 2015; Kerlinger & Lee,
+2000; Naeem et al., 2023, 2024b).
+• Digital Shopping
+Experience
+Enhancement
+• Operational and
+Technical
+Efficiency
+• Customer
+Engagement and
+Loyalty
+• Accessibility and
+Inclusive Shopping
+• Seamless
+Interaction
+• Ecosystem
+• Engaged
+• Shopping
+Community
+• Inclusive Shopping
+• Adaptive
+Affordance
+• User experience
+The conceptual framework by Naeem
+et al. (2024a) outlined the
+Affordances Flow Funnel, which
+has the following stages: Perceived
+Affordances, Actualization
+Affordances, Affordance
+Dichotomy
+Source: ChatGPT supported/developed table.
+10 International Journal of Qualitative Methods
+
+ChatGPT includes terms like “Technical issues,”“Digital
+coupons,” Technical issues”“ExpressPay”“Location detec￾tion”“Pickup”“Navigation problems”“Screen brightness”
+and “Search functionality” which highlight specific features to
+understand the research issues in more detail. Therefore, the
+richness of the keywords, in terms of addressing different
+issues and using varied words for the same technological
+problem, can enhance the rigor of the research compared to
+manually selected keywords. For example, in contrast to the
+manually selected keywords related to technological issues,
+such as “Garbage app,”“not working,”“looking to increase
+buying,”“data could be lost,”“information/could not find,”
+and “doesn’t sync in real time,” which are less rigorous, the
+keywords selected by ChatGPT offer a broader and more
+comprehensive range.
+While there is some diversity in the manually selected
+keywords to understand other perspectives, such as “not my
+job,”“job-eating app,” and “extra burden,” these primarily
+focus on the subjective drawbacks perceived and experi￾enced by users, reflecting their reluctance to use the apps. In
+contrast, the broader selection of keywords by the AI,
+which includes terms like “Reliability issues” and “App
+review request,” allows for a more meaningful and rich
+thematic analysis that can uncover the various usability
+aspects of the apps, potentially leading to richer insights.
+For example, the AI-based keywords, such as “Digital
+coupons” and “Savings,” touch on the societal implications
+of using scan-and-go apps, providing insights into the
+economic behaviors linked to the technological issues of
+the apps. Therefore, researchers can compare both the
+manually selected keywords and the AI-generated key￾words to repeat the different rounds in order to explore the
+problem from a range of angles. For example, in the case of
+the selected case study, technological, social, and shopping
+experience angles can be further explored through findings
+that include richer words or phrases aligned with these
+angles, based on the 6 Rs (Naeem et al., 2023). This ensures
+the robustness and relevance of the keywords related to the
+research problem. Consequently, this capability highlights
+AI’s potential to strengthen the traditional keyword se￾lection process. Such extensive keyword identification
+introduces new dimensions at the coding stage, enhancing
+the richness of codes and allowing for the exploration of the
+problem through different angles. This will be covered in
+the next section, which addresses how a larger number of
+keywords provides more opportunities to strengthen
+Table 6. Sixth Step – ChatGPT Prompt and Justification of Prompt
+ChatGPT prompt to perform sixth step Justification of prompt
+To the last step in the structured thematic analysis process described
+by Naeem et al. (2023), your goal is to synthesize the research
+findings into a conceptual model. Link these concepts with a figure
+or diagram that proposes a feasible solution to the following
+research problem we want to address. The conceptual model must
+also contribute to managerial practices and following theory. The
+proposed conceptual model should answer the following questions
+additionally you need to keep in mind what are the key concepts of
+exiting theory and what are the new concept developed through
+this research? How are the newly developed concepts and the
+already existing theory? What makes these concepts closely related
+in the context of this research?
+As you formulate the conceptual framework, consider the following.
+• Research question and objectives: [Insert the specific research
+question and objectives of the research]
+• Theoretical underpinnings: [Detail the theoretical frameworks or
+underpinnings that guide the study]
+• Identified keywords, codes and themes: [List the keywords, codes,
+and themes identified in previous steps]
+• Philosophical underpinnings: [Include an explanation of the
+epistemology –you can copy and paste the methodology section of
+your research]
+• Theoretical framework:Theoretical Framework: [Explain
+theoretical frameworks used to guide the research]
+The conceptual model must build a story that explains why the findings
+are meaningful and how they work together to answer the research
+question. *This content is tailored from OpenAI (ChatGPT
+supported/developed prompt)
+The conceptual model should be theoretically and philosophically
+grounded and evidenced based on actual data (Naeem et al., 2023).
+These insights derived from a conceptual model should lead to both
+theoretical and practical understanding of the research problem,
+which, in turn, help guide decisions (Corley & Gioia, 2011; Smith
+et al., 2009; Whetten, 1989; Whetten 1989, 1989).
+A good conceptual model should explain the how, why and what
+questions (Wertz et al., 2011)
+Source: ChatGPT supported/developed table.
+Naeem et al. 11
+
+existing codes and generate new ones, ultimately improving
+the richness of the study.
+Step 3: Coding
+Coding is the systematic process (Saldaña, 2013) of labelling
+related data different segments with short phrases or words that
+lend conceptual meaning to the data (Naeem et al., 2023).
+Boyatzis (1998, p., 63) state that a code is the “most basic
+segment, or element, of the raw data or information that can be
+assessed in a meaningful way regarding the phenomenon”.
+Codes should be developed to present the combined meanings
+of related quotations and selected keywords; they act as the
+conceptual backbone of the analysis (Naeem et al., 2023).
+Codes unearth patterns and relationships between keywords
+(Naeem et al., 2023). They enable flexibility and evolution in
+research in response to new conceptual insights to answer
+research questions (Saldaña, 2013). Inductive, deductive or
+abductive reasoning can be used to develop codes. Deductive
+reasoning makes an inference based on facts or theories. In￾ductive reasoning makes an inference based on the observation
+of patterns emerging from the data. Abductive reasoning
+generates a hypothesis to explain observations about emerging
+patterns that align with theory (Attride-Stirling, 2001; Braun &
+Clarke, 2006; Creswell & Poth, 2018; Elo & Kyngas, 2008 ¨ ;
+Tavory & Timmermans, 2014; Thomas, 2006).
+The coding process places emphasis on creating robust,
+reflective, resplendent, relevant, radical and righteous codes,
+which is known as the 6 Rs of coding (Naeem et al., 2023).
+Moreover, Naeem et al. (2023) stated that researchers need to
+consider the grouping of keywords to make them more
+meaningful in the analysis. Table 3 shows the coding
+guidelines given to ChatGPT along with a justification of the
+guidelines. It also identifies the codes generated by ChatGPT
+and the codes manually selected by Naeem et al. (2024a).
+ChatGPT suggests 16 codes, whereas Naeem et al. (2024a)
+only developed six codes. This outcome shows that ChatGPT
+can enhance the use of all potential data. Their can therefore be
+argued that manual codes are more theoretical than ChatGPT
+codes. Indeed, ChatGPT was instructed to take an abductive
+approach, which led to the codes being based on common
+patterns in the data. ChatGPT can be instructed to take either
+an inductive or deductive approach to the development of
+codes. The ChatGPT prompts to identify codes from the data
+are shown in Table 3 below.
+Table 3 provides a comparison between manual coding and
+AI-generated coding. As evident, Naeem et al. (2024a)
+identified 6 codes, while AI-generated coding produced 16
+codes from the data. Therefore, two advantages emerge for
+researchers, as the AI-developed codes are much richer than
+the manually generated ones.The second benefit of more and
+richer keywords selected by the AI means that more codes (16
+in this case) can be developed providing a rich understanding
+of the research problem. AI codes like “Technical Frustra￾tions” and “App Functional Reliability” with support the
+keywords provide valuable insights into the specific technical
+challenges users encounter during their shopping experiences.
+These challenges are associated with the frustration users may
+feel using app, and the subsequent abandonment of the app.
+The AI also generated more customer shopping experience–
+related codes, such as Shopping Convenience, In-store Pickup,
+Warehouse Deals, and Inventory Management Concerns,
+which highlight operational efficiencies within the organiza￾tion, including stock levels and product availability. . These
+advanced codes make it possible to study the challenges
+customers experience which are more related to organization
+support and infrastructure. The above analysis of the depth of
+keywords used to develop 16 codes provides sufficient evi￾dence to suggest that AI can add value in terms of the ro￾bustness and richness of coding. AI can enhance the richness
+of codes either by supporting them with additional keywords
+or by generating further codes that address other aspects of the
+research problem.
+Step 4: Theme Development
+Theme development is about clustering codes into different
+categories according to their relevance in the context of the
+research question. Consequently, theming is about structuring
+the data to form a meaningful conceptual narrative to achieve
+the research aim (Naeem et al., 2023, 2024b). Yet these themes
+need to be grounded, with real data, participant language
+(Naeem et al., 2023), and the theoretical and philosophical
+underpinnings of the research (Coffey & Atkinson, 1996;
+DeSantis & Ugarriza, 2000). Thus, themes are a way of de￾riving meaning from tied codes (Charmaz, 2006; DeSantis &
+Ugarriza, 2000) to develop a conceptual framework. Naeem
+et al., (2023) continued to propose that themes need to follow
+the 4 Rs of theming. They must be: Reciprocal (joining the
+codes in meaningful form); Recognizable (from the real data
+so they can be identifiable); Responsive (to the research
+question, as well as its aim); and Resourceful (rich enough to
+be coherent as a research story). This ensures a multidi￾mensional connection between real data, the research aim and
+objectives, the methodological underpinning and the theo￾retical underpinnings of research (Naeem et al., 2023). Based
+on these guidelines, a ChatGPT prompt (see Table 4) was used
+to ask ChatGPT to generate potential themes.
+The following prompt was developed and generated by
+ChatGPT, based on the perspectives of various authors. This
+prompt was used to ask ChatGPT to suggest theme names
+based on the keywords and codes identified in the earlier
+stages of analysis. The themes generated by ChatGPT are
+presented in Table 4 and compared with both the AI-generated
+themes and those manually selected by Naeem et al. (2024a).
+As above table illustrates, the implementation of AI￾developed themes has largely broadened and deepened the
+themes themselves as compared to those that were developed
+manually. This also illustrates how the theme of Customer
+Engagement and Loyalty, as discussed throughout the AI
+12 International Journal of Qualitative Methods
+
+analysis, aligns with the Affordance Dichotomy theme iden￾tified by Naeem et al. (2024a), contributing to the existing
+body of knowledge on gaining value from customers through
+appreciation and obtaining feedback that organisations can
+leverage further. The AI-generated themes such as “Acces￾sibility and Inclusive Shopping.” do not explicitly appear in
+Naeem et al., (2024a). Thus, the themes derived manually did
+not account for environmental adaptability and contextual
+impediments, and as a result, these aspects were not identified.
+. Furthermore, manual themes excluded certain technological
+features. AI suggested precise and granular themes, such as
+Digital Shopping Experience and Operational Technical Ef￾ficiency, which reflect action-oriented and system-focused
+features, highlighting specific technology-related user per￾spectives. Therefore, the diverse range of AI-generated codes
+should be considered to enhance the breadth of manual codes
+and may contribute to the development of more significant
+themes that enrich the study.
+Step 5: Conceptualization
+The fifth step, conceptualization, involves creating a link
+between theory and the developed themes through inter￾preting keywords and codes for conceptual clarification
+(Naeem et al., 2023). Concepts are generalized ideas that
+represent specific phenomena or objects (Kerlinger & Lee,
+2000). Conceptualization plays a crucial role in theoretical
+development by categorizing data into meaningful forms
+through linking themes with the context of the research
+(Naeem et al., 2023). The interpretation of themes can be
+authenticated by using participants’ language, which en￾ables systematic investigation (Babbie, 2016; Byrne, 2015;
+Naeem et al., 2023, 2024a). In the case of deductive rea￾soning, the research needs to focus on concepts that are
+underpinned by theory, while inductive reasoning can re￾inforce the concepts through the use of the participants’
+language (Babbie, 2016; Byrne, 2015).
+Naeem et al. (2023) provided guidelines in the form of
+questions to evaluate conceptual definitions: Are the defini￾tions clear and explicit in a theoretical context? Do the new
+concepts enhance understanding of the research findings? Are
+they theoretically and philosophically accurate, and are they
+traceable from the primary data? Do they reflect the actual
+data? Are the concepts grounded philosophically, analytically
+and theoretically? Are they appropriate to justify the research
+outcomes in relation to theory and practice? Are the concepts
+theoretically interconnected with the development of a con￾ceptual model?
+These guidelines were used to develop a ChatGPT prompt
+to ask for AI assistance with the conceptualization of themes.
+Table 5 shows that the concepts developed by ChatGPT are
+based on the participants’ experiences, whereas the manually
+derived concepts are more related to the theoretical under￾pinnings. Researchers could amend the prompt and ask
+ChatGPT to develop theory-related concepts that link themes
+together and answer the research question. A ChatGPT prompt
+(see Table 5) based on these guidelines was developed to ask
+ChatGPT to suggest concepts.
+Table 5 shows the differences or similarities between AI￾generated, and manually developed concepts. AI based no￾tions like “Digital Shopping Experience,”“Operational and
+Technical Efficiency” and “Customer Engagement and Loy￾alty” formulated much wider and comprehensive explanation
+than the manual conceptualization that was developed man￾ually by Naeem et al. (2024a). Additionally, AI-generated
+ideas, like “Ecosystem” and “Engaged Shopping Commu￾nity,” might add more theoretical concepts to the notion of
+affordance, extending some communal and environmental
+aspects of the shopping experience. Each of these concepts
+generated by the AI is seemingly a rich amalgamation of the
+codes and themes already discovered, showing that the codes
+and themes are embedded within the data, as well as the
+methodological, philosophical and theoretical foundations of
+the research. It is evident that the ideas generated by AI are
+rich in detail and offer deeper analysis of the affordances of
+apps, particularly in relation to seamless user experience and
+operational efficiency. These could expand the boundaries of
+the conceptual framework. This is an indication that though AI
+and manual analyses are not the same, a combination of both
+represents a better result. However, if the researcher instructs
+AI to align the main themes and codes with existing theories
+and models, this can be achieved by guiding ChatGPT to
+develop concepts in line with those frameworks. Thus, the use
+of AI can significantly enhance the conceptual foundation,
+both by correlating with established models and by intro￾ducing new aspects and finer levels of nuance.
+Step 6: Development of the Conceptual Framework
+The last stage of systematic thematic analysis is to produce a
+conceptual model/framework that brings together the identi￾fied concepts with each other. These links should connect with
+the data as well as with the existing literature and theoretical
+basis for the research (Naeem et al., 2023) to offer a solution to
+the selected problem. Therefore, a conceptual model should be
+constructed by combining the thematic synthesis of codes and
+keywords alongside theoretical and philosophical discussions
+of the research (Naeem et al., 2023). The conceptual model/
+framework justifies findings through the development and
+linkage of new concepts (Lewis, 1998). This includes sto￾rytelling and process (Naeem et al., 2023), providing a fig￾urative, conceptual, and narrative description of the properties
+and dimensions of the identified codes and themes, as they
+relate to a selected theoretical or practical solution for the
+research problem. Therefore, the conceptual framework must
+offer clear and intuitive guidance for practitioners, assisting
+them in complex, applied decision-making (Corley & Gioia,
+2011; Hamilton et al., 2023; Smith et al., 2009; Whetten,
+1989). Thus, the framework should incorporate a process that
+professionals can follow to transfer research into practice. The
+Naeem et al. 13
+
+concepts in the conceptual model need to connect with ex￾isting theoretical concepts and the study’s theoretical rationale
+should be noted (Reay & Whetten, 2011; Wertz et al., 2011) to
+connect newly developed concepts with existing theoretical
+concepts (Naeem et al., 2023; Rynes, 2002). While in general,
+the merit of theory is measured by its contribution to
+knowledge (Chun Tie et al., 2019; Thurlow, 2020), “The route
+to good theory leads not through gaps in the literature but
+through an engagement with problems in the world” (Kilduff,
+2006, p. 252). Moreover, the principle of good theory involves
+identifying what relates to what (What), understanding the
+interconnectivity between these concepts (How), explaining
+why (linking rationales) (Why), and finding the balance be￾tween comprehensiveness and parsimony when solving a
+specific problem (Dubin, 1978). Therefore, Naeem et al.
+(2023) suggest that the conceptual framework should de￾fine and address the selected research problem. A prompt
+for ChatGPT was developed based on the viewpoints of the
+above authors, requesting ChatGPT to provide explanations
+of the concepts to be connected in a diagram format, along
+with advice on a conceptual model that would explain these
+concepts. The proposed conceptual model, based on in￾structions given to ChatGPT, and ChatGPT’s suggested
+conceptual model, can be adjusted or adapted by re￾searchers. Table 6 shows the ChatGPT prompt used to
+request the AI to establish a conceptual model that syn￾thesizes the findings from the research, along with the
+justification for the prompt.
+Integrating AI in Thematic Analysis: Dealing
+with Bias and Navigating Challenges
+This paper describes a toolkit (ChatGPT prompts) for sys￾tematic thematic analysis (Naeem et al., 2023) that uses AI.
+The toolkit helps researchers thematically analyse data on the
+basis of various methodological approaches. In general,
+thematic analysis is limited by aspects such as subjectivity and
+potential biases due to the limited ability of researchers to
+process large amounts of data (Morgan, 2023). However, this
+paper introduces a toolkit that can consider large datasets,
+varied research contexts, and complex theoretical, methodo￾logical and philosophical underpinnings at each stage of
+systematic thematic analysis (Christou, 2023a). In addition,
+AI-powered systematic processes could improve the consis￾tency of thematic analysis. Turobov et al., (2024) indicated
+that, traditionally, thematic analysis has been criticised for its
+inconsistency and lack of generalizability.
+Traditional thematic analysis faces other issues that could
+also be overcome by the use of AI-powered systematic
+thematic analysis. For example, researchers have highlighted
+that traditional thematic analysis variously: lacks a theo￾retical underpinning (Hamilton et al., 2023), is subject to
+research biases (Ngulube, 2015; Pope et al., 2000), is dif￾ficult to use when analysing large amounts of data, and is
+time consuming (Nowell et al., 2017). It has also been
+criticised for simplifying complex issues (Vaismoradi et al.,
+2016) and lacking methodological consistency throughout
+the analytical process (Nowell et al., 2017; Vaismoradi et al.,
+2016). AI-powered thematic analysis of large amounts of
+data could be less time consuming, and AI is able to analyse
+complex patterns in data (Christou, 2023b; Lee & Choi,
+2023). Many researchers have indicated that AI use in
+research is more time-efficient and reduces human bias. It
+also improves the efficiency and accuracy of the
+analysis (Christou, 2023; Lee & Choi, 2023).
+The challenges in generating AI instructions, the necessity
+for verification of results, and acknowledgement of the bias
+inherent in AI-generated data underscore the need for rigorous
+oversight of AI usage (Zhang et al., 2023). As stated above,
+some of the challenges traditional thematic analysis faces can
+be overcome by using AI, but AI-powered thematic analysis is
+not without its challenges or weaknesses. For example, AI can
+reduce human bias in analysis, but AI algorithmic bias can
+undermine equity and validity (Noble, 2020), which could
+have an impact on research findings. The lack of visibility of
+AI inputs and processes, which is termed the “black box”
+problem, creates challenges of transparency and account￾ability (Greene et al., 2021) that require human intervention.
+In response, this paper proposes a prompt for each step of
+systematic thematic analysis that could reduce human bias
+while, at the same time, improving transparency and ac￾countability. Indeed, accountability is provided by the ratio￾nale for each of the prompts during the analysis process.
+Another issue with using AI in research is researcher influ￾ence; that is, the instructions given to an AI system by a
+researcher (Christou, 2024), and lack of reliability and ac￾curacy (Christou, 2023b). Some traditional methods can be
+applied to deal with the consistency and accuracy of codes and
+themes, such as member-checking (Creswell, 2014; Ngulube,
+2015) and repeating multiple coding rounds (Sweeney et al.,
+2013). In addition, this paper provides guidelines on providing
+the rationale behind the instructions given to AI, and sufficient
+information should be provided to the AI system at the first
+step of systematic thematic analysis (familiarization) to inform
+it about the research context and data.
+The toolkit described in this paper not only benefits systematic
+thematic analysis but also enriches other qualitative research
+methods. For instance, the initial coding in narrative and content
+analysis in ethnographic research, which focuses on the identi￾fication of patterns in behaviour, can be achieved through the
+application of the coding guidelines outlined in this paper.
+Phenomenology focuses on the meanings individuals attach to
+their experience (Moustakas, 1994), anthropology requires un￾derstanding of the cultural setting (Geertz, 1973) and grounded
+theory builds theory (Charmaz, 2014; Glaser & Strauss, 1999).
+The toolkit espoused here can be used to identify patterns in data
+that could be helpful to categorize data into themes or codes, and
+participants’ language could be used to develop codes and
+keywords that will facilitate interpretation of the results in many
+types of qualitative research.
+14 International Journal of Qualitative Methods
+
+Conclusion, Contribution and
+Recommendations for Future Research
+The current paper introduces an AI toolkit which draws on
+previous research. It provides a rigorously developed AI toolkit
+to enhance transparency around the use of AI in research.
+Qualitative researchers can develop their own toolkits by
+considering the process set out in this paper. In addition, the
+paper provides guidelines on how to develop a toolkit for AI to
+reduce bias and improve the reliability of qualitative research.
+When examining the future of qualitative data analysis, two
+critical truths are becoming more apparent: The first is that AI
+must play an integral role in the process of improving the
+discoveries of qualitive research. The second is that although AI
+is a powerful tool that can boost and redress many aspects of
+qualitative data analysis, it makes us more aware of the different
+ways in which problems can originate in our desire to produce
+enhanced, ethical and insightful results.
+This paper represents a pioneering attempt to integrate an
+AI, specifically ChatGPT, into the systematic thematic
+analysis process introduced by Naeem et al. (2023). This
+toolkit entwines AI with each of the six steps of thematic
+analysis, adding to the richness, robustness and efficiency of
+thematic analysis. Importantly, the typologies of ChatGPT
+prompts developed though consideration of different authors
+can enhance the performance of AI-powered analysis with
+implications for the quality of research. AI can analyse
+extensive sets of data, helping recognise patterns, keywords,
+and themes that would otherwise be missed or take an in￾ordinate amount of time to uncover. As such, AI adds a new
+depth of analysis to large data sets through consideration of
+the methodological and theoretical underpinning of the study.
+This supports the idea that AI can supplement and enhance
+traditional thematic analysis processes and could be helpful to
+introduce a theory or conceptual model that is richer, and far more
+nuanced than traditional/ human based thematic analysis.
+However, this does not mean that AI alone can perform the
+thematic analysis. The researcher needs to be fully involved in the
+process, repeating any stages of the analysis and providing ad￾ditional details to AI to achieve the research aim. AI should be
+trained about the research and the thematic analysis process, as
+demonstrated in Figures 1 and 2 above. Once the researcher
+receives consistent responses and AI becomes familiar with the
+research and systematic thematic analysis, the researcher can
+begin to perform the analysis.
+For the sake of transparency, the authors would like to
+acknowledge the use of ChatGPT was employed to enhance
+clarity of language, improving understanding and sentence
+structure. Nonetheless, the authors have gone through the
+entire manuscript and take absolute responsibility for the
+information presented. The paper also provides recom￾mendations on how researchers can mitigate these limita￾tions using different traditional strategies. The scope of this
+paper is limited to the use of AI for systematic thematic
+analysis. Future researchers could extend the scope to other
+qualitative research methods by exploring research ques￾tions such as:
+1. How can AI be used to ensure data saturation in
+systematic thematic analysis to extract more insights
+from source data?
+2. How can AI be used to improve the authenticity, rigour,
+reliability, trustworthiness, transparency and account￾ability of qualitative research in thematic analysis?
+3. How can the process of reflexivity be applied to reflect
+on AI-based systematic thematic analysis? What are
+the major factors and steps that should be considered
+when using AI in systematic thematic analysis to
+improve the transparency of research?
+4. How can AI be used to develop case study as foundation
+of systematic thematic analysis in the qualitative research?
+5. How can AI-based systematic thematic analysis sup￾port ethnography, phenomenology, anthropology,
+grounded theory, and action and narrative research?
+6. How can researchers enhance cognitive input into
+generative AI to improve the quality of analysis in
+qualitative research?
+Acknowledgements
+The authors would like to acknowledge the use of ChatGPT in the
+development of this manuscript. ChatGPT was utilized to generate
+prompts for each stage of systematic thematic analysis, developed
+based on the authors’ differing viewpoints and to prompt the six
+steps of systematic thematic analysis introduced by Naeem et al.
+(2023). This analysis was then compared with the case study se￾lected from Naeem et al. (2024a). Additionally, ChatGPT aided in
+enhancing the clarity of language and in the structuring and re￾structuring of sentences throughout the manuscript. The authors
+have rigorously reviewed and revised the entire manuscript, as￾suming full responsibility for the accuracy of the content presented.
+Furthermore, the manuscript underwent professional proofreading,
+and a certificate of proofreading was provided to the editor during
+the review process.
+Statements and Declarations
+Funding
+The authors received no financial support for the research, authorship,
+and/or publication of this article.
+Conflicting Interests
+The authors declared no potential conflicts of interest with respect to
+the research, authorship, and/or publication of this article.
+References
+Attride-Stirling, J. (2001). Thematic networks: An analytic tool for
+qualitative research. Qualitative Research, 1(3), 385–405.
+https://doi.org/10.1177/146879410100100307
+Babbie, E. R. (2016). The practice of social research (14th ed.).
+Cengage Learning.
+Naeem et al. 15
+
+Boyatzis, R. E. (1998). Transforming qualitative information:
+Thematic analysis and code development. Sage.
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psy￾chology. Qualitative Research in Psychology, 3(2), 77–101.
+https://doi.org/10.1191/1478088706qp063oa
+Braun, V., & Clarke, V. (2022). Toward good practice in thematic
+analysis: Avoiding common problems and be(com)ing a knowing
+researcher. International Journal of Transgender Health, 24(1),
+1–6. https://doi.org/10.1080/26895269.2022.2129597
+Bulmer, M. (1979). Concepts in the analysis of qualitative data. The
+Sociological Review, 27(4), 651–677. https://doi.org/10.1111/j.
+1467-954X.1979.tb00354.x
+Byrne, D. (2015). Response to fugard and potts: Supporting
+thinking on sample sizes for thematic analyses: A quanti￾tative tool. International Journal of Social Research Meth￾odology, 18(6), 689–691. https://doi.org/10.1080/13645579.
+2015.1005455
+Charmaz, K. (2006). Constructing grounded theory: A practical
+guide through qualitative analysis. Sage.
+Charmaz, K. (2014). Constructing grounded theory. Sage.
+Christou, P. (2023a). A critical perspective over whether and how to
+acknowledge the use of artificial intelligence (AI) in qualitative
+studies. Qualitative Report, 28(7), 1981–1991.
+Christou, P. (2023b). Ηow to use artificial intelligence (AI) as a
+resource, methodological and analysis tool in qualitative
+research? Qualitative Report, 28(7), 1968–1980. https://doi.org/
+10.46743/2160-3715/2023.6407
+Christou, P. A. (2024). Thematic analysis through artificial intelli￾gence (AI). The Qualitative Report, 29(2), 560–576. https://doi.
+org/10.46743/2160-3715/2024.7046
+Chun Tie, Y., Birks, M., & Francis, K. (2019). Grounded theory
+research: A design framework for novice researchers. Sage
+Open Medicine, 7(3), 2050312118822927. https://doi.org/10.
+1177/2050312118822927
+Coffey, A., & Atkinson, P. (1996). Making sense of qualitative data:
+Complementary research strategies. Sage.
+Corbin, J. M., & Strauss, A. L. (2008). Basics of qualitative research:
+Techniques and procedures for developing grounded theory (3rd
+ed.). Sage.
+Corbin, J. M., & Strauss, A. L. (2015). Basics of qualitative research:
+Techniques and procedures for developing grounded theory (4th
+ed.). Sage.
+Corley, K. G., & Gioia, D. A. (2011). Building theory about theory
+building: What constitutes a theoretical contribution? Academy
+of Management Review, 36(1), 12–32. https://doi.org/10.5465/
+amr.2009.0486
+Creswell, J. W. (2014). Research design: Qualitative, quantitative,
+and mixed methods approach. Sage.
+Creswell, J. W., & Poth, C. N. (2018). Qualitative inquiry and
+research design: Choosing among five approaches (4th ed.).
+Sage Publications.
+Currie, G., Singh, C., Nelson, T., Nabasenja, C., Al-Hayek, Y., &
+Spuur, K. (2023a). ChatGPT in medical imaging higher edu￾cation. Radiography, 29(4), 792–799. https://doi.org/10.1016/j.
+radi.2023.05.011
+Currie, G., Singh, C., Nelson, T., Nabasenja, C., Al-Hayek, Y., & Spuur, K.
+(2023b). ChatGPT in medical imaging higher education. Radiog￾raphy, 29(4), 792–799. https://doi.org/10.1016/j.radi.2023.05.011
+Davidson, C. (2018). Reflection/commentary on a past article:
+“Transcription: Imperatives for qualitative research”. Interna￾tional Journal of Qualitative Methods, 17(1), 160940691878822.
+https://doi.org/10.1177/160940690900800206
+De Paoli, S. (2024a). Performing an inductive thematic analysis of
+semi-structured interviews with a large language model: An
+exploration and provocation on the limits of the approach.
+Social Science Computer Review, 42(4), 997–1019. https://doi.
+org/10.1177/08944393231220483
+De Paoli, S. (2024b). Further explorations on the use of large lan￾guage models for thematic analysis. Open-ended prompts, better
+terminologies and thematic maps. Forum Qualitative So￾zialforschung/Forum: Qualitative Social Research, 25(3).
+https://doi.org/10.17169/fqs-25.3.4196
+DeSantis, L., & Ugarriza, D. (2000). The concept of theme as used in
+qualitative nursing research. Western Journal of Nursing Research,
+22(3), 351–372. https://doi.org/10.1177/019394590002200308
+Dubin, R. (1978). Theory building. Free Press.
+Du Bois, J. W. (1991). Transcription design principles for spoken
+discourse research. Pragmatics. Quarterly Publication of the
+International Pragmatics Association (IPrA), 1(1), 71–106.
+https://doi.org/10.1075/prag.1.1.04boi
+Duranti, A. (2006). Transcripts, like shadows on a wall. Mind,
+Culture and Activity, 13(4), 301–310. https://doi.org/10.1207/
+s15327884mca1304_3
+Eldh, A. C., Arestedt, L., & Berter ˚ o, C. (2020). Quotations in ¨
+qualitative studies: Reflections on constituents, custom, and
+purpose. International Journal of Qualitative Methods, 19, 1.
+https://doi.org/10.1177/1609406920969268
+Elo, S., & Kyngas, H. (2008). The qualitative content analysis ¨
+process. Journal of Advanced Nursing, 62(1), 107–115. https://
+doi.org/10.1111/j.1365-2648.2007.04569.x
+Flick, U. (2014). An introduction to qualitative research. Sage.
+Geertz, C. (1973). Thick Description: Toward an Interpretive Theory
+of Culture. In The Interpretation of Cultures: Selected Essays
+(pp. 3–30). New York: Basic Book.
+Glaser, B., & Strauss, A. (1999). Discovery of grounded theory:
+Strategies for qualitative research (1st ed.). Routledge.
+Glaser, B. G., & Strauss, A. L. (2009). The discovery of grounded
+theory: Strategies for qualitative research (4th ed.). Aldine.
+Greene, D., Hoffmann, A. L., & Stark, L. (2021). Better, nicer,
+clearer, fairer: A critical assessment of the movement for ethical
+artificial intelligence and machine learning. Proceedings of the
+2021 ACM Conference on Fairness, Accountability, and
+Transparency. https://scholarspace.manoa.hawaii.edu/server/
+api/core/bitstreams/849782a6-06bf-4ce8-9144-a93de4455d1c/
+content (Accessed at 02-09-2024).
+Hamilton, L., Elliott, D., Quick, A., Smith, S., & Choplin, V. (2023).
+Exploring the use of AI in qualitative analysis: A comparative
+study of guaranteed income data. International Journal of
+Qualitative Methods, 22. https://doi.org/10.1177/
+16094069231201504
+16 International Journal of Qualitative Methods
+
+Huang, J., & Tan, M. (2023). The role of ChatGPT in scientific
+communication: Writing better scientific review articles.
+American Journal of Cancer Research, 13(4), 1148–1154.
+Jaffe, A. (2000). Introduction: Non-standard orthography and non￾standard speech. Journal of Sociolinguistics, 4(4), 497–513.
+https://doi.org/10.1111/1467-9481.00127
+Jaffe, A. (2007). Variability in transcription and the complexities of
+representation, authority, and voice. Discourse Studies, 9(6),
+831–836. https://doi.org/10.1177/1461445607082584
+Kerlinger, F. N., & Lee, H. B. (2000). Foundations of behavioral
+research. Harcourt College Publishers.
+Kilduff, M. (2006). Editor’s comments: Publishing theory. Academy
+of Management Review, 31(2), 252–255. https://doi.org/10.
+5465/amr.2006.20208678
+Laios, A., Theophilou, G., De Jong, D., & Kalampokis, E. (2023).
+The future of AI in ovarian cancer research: The large language
+models perspective. Cancer Control: Journal of the Moffitt
+Cancer Center, 30, 10732748231197915. https://doi.org/10.
+1177/10732748231197915
+Lee, S. W., & Choi, W. J. (2023). Utilizing ChatGPT in clinical
+research related to anesthesiology: A comprehensive review of
+opportunities and limitations. Anesthesia and Pain Medicine,
+18(3), 244–251. https://doi.org/10.17085/apm.23056
+Lee, V. V., van der Lubbe, S. C., Goh, L. H., & Valderas, J. M. (2024).
+Harnessing ChatGPT for thematic analysis: Are we ready?
+Journal of Medical Internet Research, 26, Article e54974.
+https://doi.org/10.2196/54974
+Lewis, M. W. (1998). Iterative triangulation: A theory development
+process using existing case studies. Journal of Operations
+Management, 16(4), 455–469. https://doi.org/10.1016/s0272-
+6963(98)00024-2
+Maxwell, J. A. (2013). Qualitative research design: An interactive
+approach. Sage.
+Meyer, J. G., Urbanowicz, R. J., Martin, P. C. N., O’Connor, K., Li,
+R., Peng, P.-C., Bright, T. J., Tatonetti, N., Won, K. J., Gonzalez￾Hernandez, G., & Moore, J. H. (2023). ChatGPT and large
+language models in academia: Opportunities and challenges.
+BioData Mining, 16(1), 20. https://doi.org/10.1186/s13040-
+023-00339-9
+Mondada, L. O. R. E. N. Z. A. (2007). Commentary: Transcript
+variations and the indexicality of transcribing practices. Dis￾course Studies, 9(6), 809–821. https://doi.org/10.1177/
+1461445607082581
+Morgan, D. L. (2023). Exploring the use of artificial intelligence for
+qualitative data analysis: The case of ChatGPT. International
+Journal of Qualitative Methods, 22(6). https://doi.org/10.1177/
+16094069231211248
+Morse, J. M. (2015). Critical analysis of strategies for determining
+rigor in qualitative inquiry. Qualitative Health Research, 25(9),
+1212–1222. https://doi.org/10.1177/1049732315588501
+Moustakas, C. (1994). Phenomenological research methods. Sage.
+Naeem, M. (2025). Emerging trends in global E-retailing: Exploring
+the dark side of scan and go in-store technologies in consumer
+shopping journeys. International Marketing Review. https://doi.
+org/10.1108/imr-06-2023-0110
+Naeem, M., & Ozuem, W. (2025). Understanding social motivation
+in scan and go technology. Journal of Computer Information
+Systems, 65,1–18. https://doi.org/10.1080/08874417.2024.
+2445007
+Naeem, M., Ozuem, W., Howell, K., & Ranfagni, S. (2023). A step￾by-step process of thematic analysis to develop a conceptual
+model in qualitative research. International Journal of Quali￾tative Methods, 22(11), 1–18. https://doi.org/10.1177/
+16094069231205789
+Naeem, M., Ozuem, W., Howell, K., & Ranfagni, S. (2024a). The
+conceptualization of enablers and constraints of in-store buying
+as part of the affordances flow funnel process through scan and
+go apps. Psychology & Marketing, 41(5), 1060–1081. https://
+doi.org/10.1002/mar.21968
+Naeem, M., Ozuem, W., Howell, K., & Ranfagni, S. (2024b). De￾mystification and actualisation of data saturation in qualitative
+research through thematic analysis. International Journal of
+Qualitative Methods, 23(1), 1–17. https://doi.org/10.1177/
+16094069241229777
+Naeem, N., Ozuem, W., Ranfagni, S., & Howell, K. (2025). User
+generated content and brand engagement: Exploring the role of
+electronic semiotics and symbolic interactionism on Instagram.
+Computers in Human Behavior, 168, 108642. https://doi.org/10.
+1016/j.chb.2025.108642
+Ngulube, P. (2015). Qualitative data analysis and interpretation:
+Systematic search for meaning. In E. R. Mathipa & M. T.
+Gumbo (Eds.), Addressing research challenges: Making
+headway for developing researchers (pp. 131–156). Mosala￾MASEDI Publishers & Booksellers.
+Noble, S. U. (2020). Algorithms of oppression: How search engines
+reinforce racism. NYU Press.
+Nowell, L. S., Norris, J. M., White, D. E., & Moules, N. J. (2017).
+Thematic analysis: Striving to meet the trustworthiness criteria.
+International Journal of Qualitative Methods, 16(1), 1–13.
+Ochs, E. (1979). Transcription as theory. In E. Ochs & B. B Schiefflin
+(Eds.), Developmental pragmatics (pp. 43–72). Academic.
+Ochs, E. (1999). In A. Jaworski & N. Coupland (Eds.), The discourse
+reader (pp. 158–166). Routledge.
+Oliver, D. G., Serovich, J. M., & Mason, T. L. (2005). Constraints and
+opportunities with interview transcription: Towards reflection in
+qualitative research. Social Forces; a Scientific Medium of
+Social Study and Interpretation, 84(2), 1273–1289. https://doi.
+org/10.1353/sof.2006.0023
+Pope, C., Ziebland, S., & Mays, N. (2000). Qualitative research in
+health care: Analyzing qualitative data. BMJ, 320(7227),
+114–116. https://doi.org/10.1136/bmj.320.7227.114
+Prescott, M. R., Yeager, S., Ham, L., Rivera Saldana, C. D., Serrano,
+V., Narez, J., Paltin, D., Delgado, J., Moore, D. J., & Montoya, J.
+(2024). Comparing the efficacy and efficiency of human and
+generative AI: Qualitative thematic analyses. JMIR AI, 3, Ar￾ticle e54482. https://doi.org/10.2196/54482
+Reay, T., & Whetten, D. A. (2011). What constitutes a theoretical
+contribution in family business? Family Business Review, 24(2),
+105–110. https://doi.org/10.1177/0894486511406427
+Richards, L. (2015). Handling qualitative data: A practical guide. Sage.
+Naeem et al. 17
+
+Ryan, G., & Bernard, H. (2000). Data management and analysis
+methods. In N. Denzin & Y. Lincoln (Eds.), Handbook of
+qualitative research (2nd ed., pp. 769–802). Sage.
+Rynes, S. (2002). From the editors: Some reflections on contribution.
+Academy of Management Journal, 45(2), 311–313. https://doi.
+org/10.5465/amj.2002.17571225
+Saldaña, J. (2013). The coding manual for qualitative researchers. Sage.
+Salimi, A., & Saheb, H. (2023). Large language models in oph￾thalmology scientific writing: Ethical considerations blurred
+lines or not at all? American Journal of Ophthalmology, 254,
+177–181. https://doi.org/10.1016/j.ajo.2023.06.004
+Semrl, N., Feigl, S., Taumberger, N., Bracic, T., Fluhr, H., Blockeel,
+C., & Kollmann, M. (2023). AI language models in human
+reproduction research: Exploring ChatGPT’s potential to assist
+academic writing. Human Reproduction (Oxford, England),
+38(12), 2281–2294. https://doi.org/10.1093/humrep/dead105
+Slembrouck, S. T. E. F. (2007). Transcription – the extended di￾rections of data histories: A response to M. Bucholtz’s ‘variation
+in transcription’. Discourse Studies, 9(6), 822–827. https://doi.
+org/10.1177/1461445607082582
+Smith, J. A., Flowers, P., & Larkin, M. (2009). Interpretative phe￾nomenological analysis: Theory, method and research. Sage
+Publications.
+Svab, I., Klemenc-Keti ˇ s, Z., & Zupani ˇ c, S. (2023). New challenges in ˇ
+scientific publications: Referencing, artificial intelligence, and
+ChatGPT. Zdravstveno Varstvo, 62(3), 109–112. https://doi.org/
+10.2478/sjph-2023-0015
+Sweeney, A., Greenwood, K. E., Williams, S., Wykes, T., & Rose,
+D. S. (2013). Hearing the voices of service user researchers in
+collaborative qualitative data analysis: The case for multiple
+coding. Health Expectations: An International Journal of Public
+Participation in Health Care and Health Policy, 16(4), e89–e99.
+https://doi.org/10.1111/j.1369-7625.2012.00810.x
+Tavory, I., & Timmermans, S. (2014). Abductive analysis: Theorizing
+qualitative research. University of Chicago Press.
+Thomas, D. R. (2006). A general inductive approach for ana￾lyzing qualitative evaluation data. American Journal of
+Evaluation, 27(2), 237–246. https://doi.org/10.1177/
+1098214005283748
+Thorne, S. (2000). Data analysis in qualitative research. Evidence
+Based Nursing, 3(3), 68–70. https://doi.org/10.1136/ebn.3.3.68
+Thurlow, L. (2020). Grounded theory and the PhD – notes for
+novice researchers. Journal of Humanities and Applied So￾cial Sciences, 2(4), 257–270. https://doi.org/10.1108/jhass￾05-2020-0079
+Turobov, A., Coyle, D., & Harding, V. (2024). Using ChatGPT for
+thematic analysis. Bennett Institute for Public Policy, University
+of Cambridge. Working Paper [Preprint]. https://www.
+researchgate.net/publication/380607847_Using_ChatGPT_
+for_Thematic_Analysis (Accessed at 01-10-2024).
+Vaismoradi, M., Jones, J., Turunen, H., & Snelgrove, S. (2016).
+Theme development in qualitative content analysis and thematic
+analysis. Journal of Nursing Education and Practice, 6(5),
+100–110. https://doi.org/10.5430/jnep.v6n5p100
+Wertz, F. J., Charmaz, K., McMullen, L. M., Josselson, R., Anderson,
+R., & McSpadden, E. (2011). Five ways of doing qualitative
+analysis: Phenomenological psychology, grounded theory,
+discourse analysis, narrative research, and intuitive inquiry.
+Guilford Press.
+Whetten, D. A. (1989). What constitutes a theoretical contribution?
+The Academy of Management Review, 14(4), 490–495. https://
+doi.org/10.2307/258554
+Zhang, H., Wu, C., Xie, J., Lyu, Y., Cai, J., & Carroll, J. M. (2023)
+Redefining qualitative analysis in the AI era: Utilizing ChatGPT
+for efficient thematic analysis. arXiv preprint arXiv:
+2309.10771.
+18 International Journal of Qualitative Methods

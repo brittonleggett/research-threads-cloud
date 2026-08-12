@@ -1,0 +1,1002 @@
+Journal of Marketing Management
+ISSN: 0267-257X (Print) 1472-1376 (Online) Journal homepage: www.tandfonline.com/journals/rjmm20
+Everyday activism: an AI-assisted netnography of
+a digital consumer movement
+Robert V. Kozinets & Mina Seraj-Aksit
+To cite this article: Robert V. Kozinets & Mina Seraj-Aksit (2024) Everyday activism: an AI￾assisted netnography of a digital consumer movement, Journal of Marketing Management,
+40:3-4, 347-370, DOI: 10.1080/0267257X.2024.2307387
+To link to this article: https://doi.org/10.1080/0267257X.2024.2307387
+Published online: 24 Jan 2024.
+Submit your article to this journal 
+Article views: 2758
+View related articles
+View Crossmark data
+Citing articles: 30 View citing articles
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=rjmm20
+
+Everyday activism: an AI-assisted netnography of a digital 
+consumer movement
+Robert V. Kozinetsa and Mina Seraj-Aksitb
+a
+Jayne and Hans Hufschmid Professor of Strategic Public Relations and Business Communication, Marshall 
+School of Business, University of Southern California, Los Angeles, CA, USA; b
+Faculty of Business, Ozyegin 
+University, Istanbul, Turkey
+ABSTRACT
+Prior studies have tended to focus on the figure of consumer move￾ments rather than the ground from which they arise. This AI￾assisted netnography interprets data from the WallStreetBets 
+(WSB) subreddit during the GameStop short squeeze and for 
+a period of 2.5 years afterwards. Analysis reveals an intimate rela￾tionship between the subreddit and portrayals of participants’ 
+everyday lives, connecting financial strategies to jokes, memes, 
+banter, and personal anecdotes. Collective identities are forged 
+through discussions of life situations, populist counternarratives, 
+shared cultural referents, and self-deprecation. Findings reveal digi￾tal activism ranging from the everyday and transitional to the 
+extraordinary, bridging literatures on fluid consumer movements 
+with everyday politics. Results affirm the value of collective identi￾fication to digital activism and suggest conceptual linkages to 
+participatory culture and infinite gameplay.
+ARTICLE HISTORY 
+Received 21 April 2021 
+Accepted 26 September 2023 
+KEYWORDS 
+Consumer activism; 
+consumer movements; 
+digital activism; 
+netnography; social media 
+activism
+Introduction
+Over the past 20 years, consumer and marketing researchers have become increasingly 
+interested in consumer movements, which they define as ‘resolute and persistent efforts’ 
+by activists (Kozinets & Handelman, 2004, p. 691) and ‘organized consumer collectives’ to 
+‘reimagine and transform various elements of the social order surrounding consumption 
+and marketing’ (Weijo et al., 2018, p. 251). The activists who support and populate these 
+movements oppose and work to ‘transform consumer culture’ or particular elements of it 
+(Kozinets & Handelman, 2004, p. 693).
+The impression that consumer movements are long-standing, dedicated efforts by 
+groups of specialised individuals persists to the present day. For example, Weijo et al. 
+(2018) highlight the creativity, promotional characteristics, and performances of ‘orga￾nized groups of consumers’ that are ‘resolute and persistent’. Gollnhofer et al. (2019) 
+similarly emphasise the organisation and perpetuation of consumer movements by 
+looking at dumpster divers’ mobilisation, recruitment, and tactical repertoires. 
+Chatzidakis et al. (2021) focus on consumer movement solidarity, emphasising ‘the 
+CONTACT Robert V. Kozinets rkozinets@usc.edu Jayne and Hans Hufschmid Professor of Strategic Public 
+Relations and Business Communication, Marshall School of Business, University of Southern California, Los Angeles, CA, 
+USA
+JOURNAL OF MARKETING MANAGEMENT 
+2024, VOL. 40, NOS. 3–4, 347–370 
+https://doi.org/10.1080/0267257X.2024.2307387
+© 2024 Westburn Publishers Ltd. 
+
+persistence of movements and continued commitment of participants despite overwhel￾mingly adversarial threats’ (p. 290). Two of these ethnographies added online community 
+contexts to the physically embodied sites of protest and activism they studied: the Finnish 
+Restaurant Day events in Helsinki (Weijo et al., 2018) and the German-speaking European 
+sites of dumpster diving and foodsharing. The study of ‘Exarcheia’, a Greek protest site in 
+central Athens, did not involve any online data (Chatzidakis et al., 2021).
+However, the fact that two studies of consumer movements utilised online community 
+data speaks to a fundamental shift in the conduct of consumer movements and activism. 
+With new technologies, online resistance has supplemented and, in some cases, sup￾planted more traditional forms of consumer activism that still take place through in￾person protest marches, performances, and other in-person practices such as dumpster 
+diving and food sharing. Whether called digital consumer activism (Discetti & Anderson, 
+2022), online consumer activism (Minocher, 2019), consumer activism 2.0 (Albinsson & 
+Perera, 2013), consumer video activism (Treré & Yu, 2021), social media activism (Gretzel, 
+2017), or consumer cyberactivism (de Almeida Andrade et al., 2019), the popular and 
+potent combination of consumer movements and digital technologies has grabbed the 
+attention of researchers across the social sciences.
+One of the most noted digital consumer movements in recent years was related to the 
+GameStop short squeeze, which originated on the WallStreetBets online community 
+(abbreviated to WSB), a large, 14.1-million-member stock market investing group (also 
+called a ‘subreddit’) on the popular social media platform Reddit. The group, which is 
+dominated by male voices and perspectives and thus highly gendered (Haiven et al., 
+2021), gained worldwide attention for its coordinated purchase of GameStop stock in 
+January 2021. This action caused a short squeeze that increased the value of the stock 
+almost 40 times (from 17.25 to over 500 USD). It was responsible for several rises and falls 
+in the stock (and numerous other ‘meme stocks’) after that and for huge losses at Melvin 
+Capital, an investment fund, which eventually closed (Kockhodin, 2021).
+The coordinated action by WSB members was described in the academic literature as 
+‘an emancipatory anti-capitalist movement’ (Jones & Hietanen, 2023, p. 240), ‘a YOLO [you 
+only live once] investment movement’ (Samman & Sgambati, 2023, p. 115), a ‘tech-savvy 
+version of the Occupy Wall Street movement’ (Samman & Sgambati, 2023), a ‘movement’, 
+and a ‘Revolution’ (Yang & Adamczyk, 2023, p. 1). Focusing on the apparent speed with 
+which the movement arose, Schou et al. (2022) term the Gamestop event ‘a “flash move￾ment”, which is a movement that forms, organizes, and creates action within a rapid time 
+span without prior planning or deliberation’ (p. 14028). These studies often conceptualise 
+the event as a revolutionary power shift, where WSB represented a group of consumers 
+using platform-based technologies who attempted to overturn an oppressive system of 
+large investors. The studies therefore focus mainly on the GameStop-related events of 
+January 2021 and their significance, rather than on the ongoing actions of the WSB 
+community itself.
+Given that WallStreetBets has been previously studied as a buzzing hive of consumer 
+movement activity and because much of the prior research focused mainly on its role in 
+the GameStop short squeeze events, we decided to undertake a longitudinal study to 
+inform our understanding of contemporary digital consumer movements and activism. 
+We investigated WallStreetBets with a 2.5-year netnographic engagement that began in 
+January 2021, just as the investment discussion group was gaining worldwide attention 
+348 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+for its GameStop stock short squeeze. However, unlike prior studies, our investigation 
+continued until August 2023, providing us with a longer time horizon and the ability to 
+investigate its regular flow of posts and comments. The study advances understanding of 
+digital consumer movements by focusing on the ground from which one outstanding 
+instance sprang rather than the exceptional figure of the movement itself. Contextualising 
+figure and ground, the findings from the netnography enhance our understanding of the 
+expanded variety of activities and forms of digital consumer movement and activism.
+Theory
+Digital consumer movements
+Contemporary digital consumer movements are increasingly fluid, poised between the 
+fixity of older, embodied protests and the flexibility of new collective modalities. Political 
+scientists have conceived of digital media as apparatuses that lower the costs of partici￾pation and facilitate new forms of activist interaction that were previously impossible (Earl 
+& Kimport, 2011). Social media’s connective properties have been held to overcome some 
+of the collective logics of earlier consumer movements, with their needs for hierarchical 
+leadership structures and shared senses of collective identity (Castells, 2012). In particular, 
+Bennett and Segerberg (2012) argue that there is a new logic of connective action that is 
+based on personalised action frames (rather than collective identities) and micro￾organisational resources shared across social media networks (rather than a high level 
+of organisational resources).
+Some scholars take the loss of collective identity to extremes, finding that these new 
+digital movements are libidinal, affective, and irrational, driven by ‘desiring flows’, lacking 
+‘in-group/out-group binaries’, and refusing to ‘view themselves as a collective, group, 
+team, or organization’ (Jones & Hietanen, 2023, pp. 234, 241). Others assert that collective 
+identity formation and leadership are just as important to digital social movements as 
+they are to their in-person predecessors (Bakardjieva, 2015; Gerbaudo & Treré, 2015). The 
+qualitative digital ethnography by Alcalde González et al. (2022), for instance, demon￾strates how a group of middle-aged, working-class women, many of whom are also 
+immigrants, forged a politicised collective identity using social media and subsequently 
+mobilised a social movement against the precarization of their labour.
+Digital consumer movements are held to be gaining new and more flexible capacities 
+for broadcasting messages and mobilising members than their predecessors. Gerbaudo 
+(2017) describes the evolution of the ideological orientation of digital social movements 
+as a transition from a first wave of ‘cyber-autonomism’ around the turn of the millennium 
+to a second wave of ‘cyber-populism’ that began in the late 2000s and 2010s. Shaped not 
+only by a shift from Web 1.0 to Web 2.0 but also by changes in the ideology of digital 
+social movements, the two waves represent different ‘techno-political orientations that 
+carry different assumptions about the role of digital technology as both a means and site 
+of struggle’ (Gerbaudo, 2017, p. 487). Cyber-autonomism builds on the tradition of 
+alternative media in the 1960s and 1980s, such as fanzine culture, pirate radio, and 
+underground presses, and expresses a desire to ‘use the Internet to break the monopoly 
+of corporate news media responsible for channeling neoliberal propaganda and shutting 
+down all alternative points of view’ (Gerbaudo, 2017, pp. 485–6). In contrast, ‘cyber￾JOURNAL OF MARKETING MANAGEMENT 349
+
+populism’ regards social media platforms as spaces whose ‘mass outreach capabilities’ 
+and ‘digital-popular culture’ need to be ‘appropriated by activists’, harnessed, and used 
+for activist aims.
+Broadly characterising the digital transformation of consumer movements, Handelman 
+(2022) highlights two related elements. First, reminiscent of Bennett and Segerberg’s 
+(2012) notion of ‘connective action’, Handelman finds that contemporary consumer 
+movements are not premised any longer on the activities of expert activists who create 
+moral frames, mobilise consumers, and enact campaigns on this basis. Instead, social 
+media and other communication platforms involve a larger range of consumers as 
+potential activists. Castells (2012) links this expansion of activism with the new media 
+logic of platforms like Facebook and Twitter, which he termed ‘mass self-communication’ 
+(Castells, 2009) and theorised as linking the logic of one-to-one media, like the telephone, 
+with the logic of mass media, such as television. The second characteristic Handelman 
+(2022, p. 477) emphasises is that digital consumer movements have become less of a ‘top￾down, hierarchical arrangement’ orchestrated by experienced activists on behalf of 
+vulnerable consumers. Instead of emphasising the rise of technoculture and ideology, 
+Handelman describes how consumer movement power dynamics have shifted from 
+expert activist mobilisers to individual discourses circulating through media, particularly 
+social media: ‘The democratization of communications afforded by digitalization has 
+empowered individual consumers, through their discourse, to shape the ideologies and 
+logics that legitimate or delegitimate social arrangements’ (2022, p. 480).
+The technocultural and ideological focus of Handelman’s conceptualising is especially 
+important to our understanding of the phenomenon because, as Wolfson (2014, p. 17) 
+notes, digital consumer activists approach the Internet not merely as a tool but also as 
+a cultural and subcultural space that provides solidarity and can express and unite 
+different struggles. The Internet is not bringing about fluidity simply because it is a tool 
+that opens up channels for discourse. Instead, digital technologies are embedded in 
+rapidly moving social ecologies and the liquid social relationships established within 
+them. Treré (2018), for example, considers the new hybrid social movement protests to 
+be highly contextualised and diverse. He finds that, in each social movement protest, 
+activists used a complex and often unpredictable hybrid of old and new, physical and 
+digital, human and non-human, corporate and alternative technologies to determine, 
+develop, and circulate proposals to allies, multiple publics, dominant media, and state 
+actors while also cultivating, articulating, and reproducing collective visions and 
+identities.
+In sum, focusing on the novel affordances of digital technologies, researchers point to 
+digital technologies’ ability to lower the costs of consumer movement participation and 
+create new consumer activist collectives, or ‘connective’ logics (Bennett & Segerberg, 
+2012; Castells, 2012; Earl & Kimport, 2011), although these assertions have been critiqued 
+for their tendency towards technological determinism (Gerbaudo, 2017). Social media￾based consumer and social movements are said to facilitate new forms and opportunities 
+for consciousness raising, mobilisation, collective identity formation, and leadership 
+(Alcade-Gonzales et al., 2022; Bakardjieva, 2015; Gerbaudo & Treré, 2015). On the other 
+hand, some suggest that these are merely irrational and libidinal individuals who lack any 
+sort of group identity (Jones & Hietanen, 2023). That position, although extreme, accords 
+with an increased emphasis on the power of technocultural and ideological factors in 
+350 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+digital consumer movements (Handelman, 2022), a sense that consumer activism in 
+online spaces becomes a far more complex site of culture and subculture than the 
+types of resistance that went before (Wolfson, 2014), breeding consumer movements 
+that are contextualised, diverse, and hybridised in their use of media, as well as constantly 
+adapting and transforming to new social, economic, political, and technological forms 
+(Treré, 2018).
+The everyday and everyday politics
+The complexity, diversity, and variability of digital consumer movements and activism 
+have a pervasiveness, continuity, and ubiquity associated with everyday life and its role in 
+the exercise of power, resistance, and contestation. A primary inspiration for this recogni￾tion is the work of the Birmingham School; for example, the work of Hall and Jefferson 
+(1975) linked everyday interests and consumption such as music and style with themes of 
+identity, resistance, and transgression. Scholars such as Dick Hebdige, Stuart Hall, and 
+Angela McRobbie especially linked consumption within cultures and subcultures to 
+identity, lifestyle, and the wider operations of power. The politicisation of everyday 
+consumption has also been implicated in the consumer movements of boycotts and 
+‘buycotting’, for example in the research of Micheletti (2003) and Wahlen and Laamanen 
+(2015).
+With her concept of ‘individualized collective action’, Micheletti (2003, p. 2, 25–6) 
+focuses on the way consumers use the ‘concrete, everyday arenas’ in their lives to ‘deal 
+with problems that they believe are affecting what they identify as the good life’, creating 
+consumer choice actions that traverse the economic and political spheres. Attempting to 
+practice a vegan or zero-waste lifestyle, for instance, is not only the result of similar 
+consumer practices but also has institutional support and relates to other processes of 
+social and political expression (Lorenzen, 2012). The concept of ‘the everyday’ thus united 
+consumption and politics, positioning ‘everyday life as a useful point of inflection 
+between different types of phenomena, and its study and associated concepts as a way 
+of negotiating dualisms between (for example) micro and macro, the ordinary and 
+extraordinary, and between personal and public’ (Yates, 2022, p. 152).
+Given this positioning, these notions of the everyday seem poised to help explain the 
+cultural and ideological linkages as well as the inherent instability and contextualisation 
+of digital consumer movements. If, as Pink (2012, p. 5) suggests, we are to consider 
+‘everyday life and activism together, we can begin to see that activism has implications 
+for everyday life, while at the same time, doing activism is itself an everyday life activity’. 
+Although Pink suggests physical locations such as ‘homes, gardens, or local neighbor￾hoods’ as sites of activism, there is no reason not to believe that the activism taking place 
+in these locations is happening, at least in part, on home computers, tablets, and mobile 
+phones connected to digital networks.
+Although certainly not all consumer movements are of the everyday variety, it seems 
+likely that, especially in the digital age, some are, and that these types of movements 
+deserve research attention. Yates (2022, pp. 159–160) cautions against researchers too 
+narrowly circumscribing the idea of everyday life as focusing on the local, home, eating, 
+drinking, shopping, and leisure activities. To do so, he claims, is to risk obscuring the 
+everyday elements of many phenomena and to miss analysing the connections between 
+JOURNAL OF MARKETING MANAGEMENT 351
+
+them. Similarly, Welch and Yates (2018) note that, although resistance practices are often 
+disparate and conducted alone, they may also become sites of interaction, mutual 
+recognition, and identification that lead to organised and collective behaviours that, at 
+times, may include large numbers of people. Melucci’s (1996) concepts of latency and 
+visibility suggest that there is a significant ordinary component to everyday politics, 
+sometimes interspersed with moments of intense and extraordinary commitment and 
+action. Investigating everyday consumer movements thus serves as a means of situating 
+and enhancing our comprehension of power relations that occur at the juncture of what is 
+both ordinary and extraordinary in consumers’ daily lives. By doing so, it allows us to view 
+the everyday not solely as the setting for conflict and relations of power but also as a lens 
+through which we can gain deeper insights into these relations and conflicts (Pink, 2012).
+Research focus
+Melucci’s (1996) work on collective action in the information age was prescient in suggesting 
+that computers are becoming commonplace as an ‘everyday technology’. Given that social 
+media is defined as platforms and other technologies that allow users ‘without technical 
+expertise to easily produce and publish content on the Internet’ (Gretzel, 2017, p. 1), it seems 
+that computers, social media, and their users can all be considered everyday. It thus makes sense 
+to investigate the consumer movements occurring through these digital media every day.
+Previous research into the GameStop short squeeze conceptualises it as a consumer 
+movement (Samman & Sgambati, 2023), seeing it variously as the product of a resolute 
+and persistent effort by WallStreetBets activists (Yang & Adamczyk, 2023), a flash move￾ment (Schou et al., 2022), or as irrational acts by desirous individuals who refuse to see 
+themselves as a collective (Jones & Hietanen, 2023). However, the fact that participation in 
+the subreddit has more than doubled since the time of the GameStop events suggests 
+that there may be more to the WSB phenomenon than this one well-studied incident. 
+WSB thus provides a useful site to study whether and how digital consumer movements 
+and activists use social media not simply as a tool but also as a cultural and subcultural 
+space that provides solidarity in the context of everyday social experiences and struggles. 
+Ethnographically engaging, over a 2.5-year time period, with the many types of discourses 
+and posts on WSB and placing the role of the GameStop short squeeze and its surround￾ing activity within them, provides us with an opportunity to analyse how a consumer 
+movement is conducted not only in rapidly moving media and social ecologies but also in 
+relation to the everyday realm of consumers’ ongoing meaningful social experiences.
+Method and context: AI-assisted netnography of the WSB subreddit
+Our study used the netnography data collection movements of investigation and immersion 
+described by Kozinets (2020). Over a 2.5-year period beginning in January 2021, we regularly 
+visited, read through, reflected upon, and saved data from the WallStreetBets (WSB) financial 
+investing subreddit group. We chose to capture data that was relevant to our research 
+questions and possessed richly detailed, descriptive, and emotional content. These included 
+different forms of online traces, including many memes, texts, comments, and replies. Our 
+analysis followed the hermeneutic and qualitative research practices described by Belk et al. 
+(2012) that treat the researcher as an instrument in ethnographic research.
+352 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+For analysis and interpretation, we also utilised the Artificial Intelligence (AI) chatbot 
+ChatGPT 4.0. We entered carefully chosen and manually downloaded threads of online 
+WSB discourse and then elicited interpretations with prompts such as ‘Please analyze the 
+following comments to a meme post on the WallStreetBets subreddit’. Our use of AI to 
+analyse small quantities unstructured qualitative data (not exceeding 2,000 words per 
+query) extended prior uses of AI in netnography, such as the correlated topic modelling 
+detailed by Marchuk et al. (2021). We utilised ChatGPT’s ability to summarise and con￾dense message streams. However, in every case, we also carefully read through the 
+original messages and constructed our own interpretations.
+Furthermore, we asked ChatGPT to analyse particular discussion threads in light of 
+theoretical concepts of interest, such as everyday activism and collective identification. 
+Again, we carefully read the AI output and considered it in light of our own emerging 
+interpretations and theory-building. Working together with the AI chatbot, we were able 
+to cover more raw data more thoroughly and, in less time, than we would have been able 
+to without it. The chatbot also helped by suggesting interesting categorisations and novel 
+connections. Throughout, we employed constant comparative and negative case analysis 
+techniques in our analysis and discussion of results, comparing emergent findings to 
+ensure the comprehensiveness of the results and seeking to understand the phenomenon 
+in light of our research questions. The paper’s final interpretations were crafted by the 
+human authors, representing a synthesis of what we judged to be the best insights from 
+both human and AI analysis.
+Our research conformed to the current ethical procedures and regulatory (including EU 
+GDPR) rules. The site is a public forum with voluntary discussion guidelines and wide￾spread awareness of its public nature. Member comments are searchable and accessible 
+through publicly accessible search engines. Informed consent and researcher disclosure 
+were not required because there was no direct researcher interaction or involvement, 
+such as posting comments to the Reddit site, interviewing, or otherwise communicating 
+with subreddit members who were posting public messages. We provide a degree of 
+confidentiality by replacing subreddit profile names with assigned pseudonyms that 
+attempt to capture something of the spirit of the original profile names. In addition, we 
+edited the original content of the messages to make backward search tracing more 
+difficult and used minor spelling corrections for purposes of enhanced readability.
+Findings
+The everyday quality of participation and discourse
+During the 2.5 years of observation and engagement with the WSB group, we have 
+watched and repeatedly recorded in our immersion journal notes the large variety of 
+conversations and the ways that they link to various ordinary, and sometimes extraordin￾ary, concerns. WSB’s lively discourse suggests an intimate relationship between the 
+subreddit and the daily conduct of participants’ lives. The posts tend to feature current 
+stocks to invest in, or not, financial strategies, market sector speculation, financial educa￾tion, and current economic news. However, the language, comments, and replies reso￾nate with banter that refers to the everyday through personal anecdotes, calculations, and 
+shared cultural references.
+JOURNAL OF MARKETING MANAGEMENT 353
+
+A WSB post in mid-August 2023 shared a news story about how US inflation translated 
+into a typical family spending $709 more per month than they did just two years ago. 
+Within one day, that post had gathered over 1,100 comments. As is typical with many WSB 
+discussions, the conversation quickly veered from the post and its news story into 
+a myriad of related and sometimes tangential topics. After one poster quickly calculates 
+the income of the person who posted the original message from his shared data about 
+cost increases, numerous posters share their salary information, their employment situa￾tions, the financial state of their employers, and the prices they are paying for products. 
+Many share personal accounts of their increased living costs, varyingly emphasising 
+higher rents, increased childcare costs, drastic rises in grocery bills, and listing specific 
+items that have significantly increased in price over the past couple of years. There is 
+a significant discussion about the discrepancy between official inflation rates and real￾world price hikes. In summary, the entire one thousand plus post-WSB conversation deals 
+with the harsh reality of inflation in the posters’ everyday lives, frequently discusses the 
+rise in housing costs and groceries, and emphasises that some are doing very well in this 
+inflationary situation (while many others are struggling). While one poster offers cost￾saving advice, suggesting ‘no more brand name Oreos for you!’ or switching jobs or 
+comparing colleague salaries to ensure fair compensation, another jokes about luxury 
+spending habits with comments on ‘loving my vintage arcade games that are worth 40 to 
+50k’. Numerous posts highlight the difference between official inflation rates released by 
+the government and media from the real-world experience of the message posters. This 
+scepticism is based on considerations about how inflation rates are calculated. Deviating 
+from official accounts in a way that accords with Gerbaudo’s (2017) ‘cyber-autonomism’, 
+the posts on the topic are largely in agreement that official inflation numbers understate 
+the true impact of inflation on people’s daily lives.
+The conversation, which revolves around people’s own jobs, housing and childcare 
+expenses, and grocery budgets, exemplifies the community’s blend of the everyday and 
+the financial, contrasting national statistics with intensely local and personal circum￾stances. The diverse reactions underscore how WSB is not just about stocks or financial 
+news but encompasses a much broader and more politically engaged dialogue about 
+lifestyles and careers, media and government, and the intersection of macroeconomic 
+forces with daily life. Notably, the regional cost of living emerges as a key theme, with 
+users pointing out variations in food prices based on their own geographies. The con￾versational dynamics, offering career advice and scepticism about official reports in tones 
+ranging from humorous to informative, reflect a community that actively engages with 
+financial realities while using the platform as a space for fellowship, social commentary, 
+advice, and insight.
+Most WSB posts follow a familiar pattern. A post will raise a topic related to 
+finance. Then, a rush of comments will make humorous remarks. Serious commen￾tary will follow, interspersed with personal advice, commentary, critique, jokes, self￾revealing comments, puns, insults, memes, and a wild mix of playful and thought￾ful content. For example, a post asking whether the traditional 60/40 investment 
+portfolio strategy, which advises 60% investment in stock and 40% in bonds, is 
+worthwhile. The top comment chides the poster, asking him how old he is to be so 
+risk averse and informing him that WSB is a place for medium-to-high-risk inves￾tors: ‘This is a gambling sub’. Other comments break down investments into the 
+354 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+everyday terms of ‘cash, bills, gas, spending money, personal savings’, talk about 
+investment as a continuous learning process, express scepticism on traditional 
+advice like the 60/40 investment ratio, and talk about the importance of levity 
+and companionship when embarking on the investment journey. The posts suggest 
+the same essence that one might find at a local coffee shop or sports bar, where 
+daily routines, personal aspirations, and casual conversations intermingle. The 
+mentions of everyday tasks, like paying bills or buying gas, juxtaposed with stock 
+and bond allocations, underlines the intersection of financial ambitions with the 
+regular conduct of daily existence, making WSB a platform where the mundanity of 
+everyday life meets the excitement of the stock market.
+There is also a certain ordinariness to the use of social media platforms such as 
+Reddit and WSB. In our Reddit-based netnography, we can easily track the posts of 
+the various participants in WSB. For example, we randomly chose 
+‘Childish_Gambini_Guy’, who was a frequent poster on WSB, r/investing, r/financial￾planning, and r/personalfinance and had over 100,000 Karma points on Reddit (given 
+by fellow Reddit users). We examined his (like the vast majority of WSB posters, he 
+identifies as male) other comments and posts. In the last 24 hours, he had posted 
+several comments on r/fire, a few in r/jobs, and one each in r/scams, r/design, r/ 
+interiordesign, r/realestateinvesting, r/careeradvice, r/HomeImprovement, and r/DIY. 
+The topics ‘Childish_Gambini_Guy’ posted about included being a member of Gen X, 
+loving wallpaper and wainscoting, the link between happiness and holding religious 
+beliefs, acting desperate in job interviews, US immigration laws, applying for a job as 
+a police officer, and much else. The amount and range of his posts within the span 
+of a single day suggest someone who is not simply a member of one narrowly 
+focused group but a person who uses multiple means to inform and express varied 
+interests.
+Just as Wi-Fi, mobile phones, search engines, and Internet access have become 
+commonplace and even preconditions for the conduct of a certain kind of modern life, 
+so too has access to popular platforms such as TikTok, Instagram, and Reddit. The various 
+channels, accounts, news services, and influencers that consumers visit, as well as the 
+feeds and subgroups to which they subscribe are all simply part of their regular media 
+consumption routine. Numerous times, posts begin with remarks that their authors have 
+mostly read comments on the site but have not posted or commented on: ‘long time 
+lurker, first time betting. . .’; ‘usually a lurker, but I thought you guys might enjoy this’, ‘me, 
+a long time lurker who suddenly YOLO’d on $GME’. A large number of devoted long-time 
+readers of the site indicates that the site has likely become a part of their daily existence, 
+perhaps as a source of insight and amusement rather than its focal point. Through almost 
+constant postings of news articles, references to other social media platforms, and citing 
+of other Reddit communities like r/bogleheads or r/fire, we gain awareness that there is 
+a broader Reddit and indeed media and social media ecosystem where WSB is just one of 
+many regular stops. Much like how individuals in the pre-digital age frequented specific 
+shops, parks, or community centres, contemporary netizens have carved out their own 
+virtual spaces where they can seek and find advice and a short-lived, temporary but 
+nonetheless meaningful sense of belonging, what Kozinets (2002, pp. 35–36) called 
+a ‘hypercommunity’. For millions of people, WallStreetBets is not just a forum but a part 
+of their routine, a pit stop in their regular media consumption journey.
+JOURNAL OF MARKETING MANAGEMENT 355
+
+Collective identification
+The r/wallstreetbets subreddit illustrates how online communities frequently move 
+beyond their ostensible and foundational purposes; in this instance, they move beyond 
+mere stock trading discussions to a digital social space where ideological cohesion is 
+sought, where interactions are not merely transactional but almost always social, and 
+where norms of ideational and ideological assembly intermix. As mentioned previously, 
+when they describe themselves, message posters generally depict themselves as rela￾tively young, male, and American, and their posts tend to reflect this perspective. Their 
+other characteristics can vary. Some say they are new investors; others are seasoned stock 
+traders. Some claim to be employed professionals, such as real estate agents, while others 
+say they are unemployed and making minimum wage. Over the period of the netnogra￾phy, we noted how WSB attracts those with an interest in medium- to high-risk invest￾ments, scepticism towards large institutions, and an ability to not take themselves too 
+seriously. For those fitting within that range, the group has built a shared culture based on 
+a shared vocabulary that also conveys particular attitudes and additional ideological 
+frames. Although ostensibly designated for discussions of stock investments, WSB also 
+acts as a crucible for forging shared identities and ideologies, shading easily from an 
+emphasis on topical information to one based on cultural information, cultural cohesion, 
+and collective identities, as theorised by Kozinets (1999).
+Identity alignment through discussion
+On the surface, the subreddit’s primary intent is to discuss stock market strategies; 
+however, the deep-seated conversations and narratives suggest a general purpose of 
+collective understanding and alignment of perspectives. Take, for example, the post of 
+a meme called ‘the path’. The image depicts an illustration from a 1915 American 
+pamphlet about eugenics and sex, depicting the right and wrong ways to conduct 
+one’s life. On the ‘wrong path’ side, coinciding with the image of the person at the age 
+of 21, the message poster has scrawled ‘r/wsb’ in thick red handwriting, indicating that 
+participation in the WSB subreddit in one’s early twenties is the path to ‘vice and 
+degeneracy’.
+Although comical, the post’s probable intent is to open a discussion about WSB 
+participants’ identities and perspectives, which it achieves. ‘Dudeguy_1995’ launches 
+the discussion by expressing his clear preference for hedonism in the form of 
+‘hookers and coke’ while being indifferent to more traditional goals such as owning 
+a house or starting a family. Numerous comments dispute the meme’s suggestion 
+that a college degree is valuable, placing it in the context of the significant debt that 
+often accompanies it. The scepticism towards societal norms and mainstream repre￾sentations of reality that marks WSB participation is evident in the ensuing discussion 
+about changing perceptions of higher education and its escalating costs and finan￾cial burdens. This discussion on education and debt brings forth a conversation 
+about differences between generations, with commenters pointing out the disparities 
+between the experiences of the baby boomer and millennial generations. In this 
+context, different message posters share their individual perspectives and others 
+compare and contrast them. ‘Secret_Agent_86’ responds to the meme’s portrayal 
+of life agency, commenting that life is unpredictable and that even those who follow 
+356 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+a traditional path of career success might face untimely health issues. Thus, the 
+comment concludes, some risk-taking might be a good idea. As would be expected 
+for a post that is humorous and irreverent, it attracts numerous sarcastic, ironic, and 
+light-hearted comments while presenting an engaged discussion about the relative 
+value of education, the contemporary challenges of different generations, and the 
+unpredictability of one’s life even when good choices are made. Such personal and 
+identity-relevant discussions, repeated over time and across many different topics, 
+may align further individual perspectives, shape attitudes, and build a sense of 
+collective identity as WSB participants.
+Economic populism
+Economic realities are often described in populist terms, as hedge funds, wealthy inves￾tors, and other elites were depicted as opponents of the average small investor, who 
+ostensibly populated the WSB community. Frequent references to large corporations and 
+government appointees convey populist counternarratives about contemporary socio￾economics, one that appeals to WSB’s audience of mostly young, mostly American males 
+(Haiven et al., 2021). For example, in May 2023, the board was filled with memes mocking 
+executives from Apple, Facebook, and Amazon, making fun of JP Morgan’s acquisition of 
+local banks by depicting them as Star Trek’s Borg, ridiculing CNBC’s stock picking guru Jim 
+Cramer, and mocking Jerome Powell and other members of the US Federal Reserve. The 
+meme was posted in March 2023, while the United States government was undergoing 
+one of its increasingly frequent credit crunches.
+Larger companies, the government, big banks, and Wall Street firms are consistently 
+depicted as a group of cold-blooded and manipulative elites, as depicted in the first 
+author’s original artistic image presented in Figure 1, which was inspired by a Reddit post 
+called ‘Let’s Play Monopoly’ which was posted on WSB in 2023. These messages persisted 
+through the netnography’s 2021–2023 period, were highly consistent, and were rarely, if 
+ever, challenged. They articulate a shared populist ethos that transcends isolated stock 
+tips and investment strategies and contains overtones of a shared participation, even if 
+only a discursive one, in resistance against a dominant hegemony of elites.
+Sharing cultural references and self-referential language
+Shared language and cultural referents foster a sense of collective identity in WSB. 
+Central to this identity is the frequent use of humour, irony, and parody, creating an 
+accessible platform for posters’ imaginative engagement with WSB’s culture. The 
+2013 Martin Scorsese film, The Wolf of Wall Street, deeply resonates with WSB 
+users. They co-opt terms from the film, such as ‘degenerates’, and playfully refer to 
+themselves as ‘autists’ and ‘Retards’. This language not only nods to popular culture 
+and generational bonding, but it also signifies their identity as outsiders to the elitist 
+realm of stock trading and informs their self-perceptions as good-natured, irreverent, 
+humorous risk-takers.
+Popular culture references abound in the subreddit. For instance, during the short 
+squeeze period, which lasted several months after January 2021 (some might argue 
+over a year or more), many WSB memes depicted battle scenes from franchises like 
+The Lord of the Rings and Game of Thrones. These references underscore the narrative 
+of underdogs rising against greater powers. Perhaps the most emblematic term for 
+JOURNAL OF MARKETING MANAGEMENT 357
+
+WSB members is ‘Apes’, stemming from the 2017 film War for the Planet of the Apes. 
+Luser and Schreier (2022) found that terms like ‘degenerate’ and ‘ape’ functioned 
+broadly as socialisation tools within the community. The slogan ‘Apes Together 
+Strong!’ epitomised the collective strength required for individual investors to act in 
+concert, and it was deployed increasingly during the short squeeze period when 
+collective action was commonly discussed. By mid-2022 and into 2023, the collective 
+action messaging had diminished.
+Memes and posts, often satirical in nature, are elements of an ongoing online 
+conversation, instruments of collective sense-making, and tools that assist the 
+group not only in distilling complex financial paradigms into accessible narratives 
+for the broader community but also by conveying shared values and a sense of 
+common identity, as Figure 2’s meme and its responses attest.
+The meme reveals WallStreetBets’ unique blend of financial trading discourse, 
+identity politics, and internet meme culture. It marries financial investment with 
+humour that is often self-deprecating, sarcastic, and heavy with in-jokes. The 
+response to the meme included taunts and challenging bravado (‘so you think 
+you are a genius?’), admissions of shared risky behaviour, playful self-deprecation 
+(‘Somehow I just skipped over Step 1 and started from Step 2’), and references to 
+specific stocks and personal trade stock performances, most of them poor. Playing 
+with the ‘degenerates’ term, ‘Kraven’ calls the pitiful cycle depicted in the meme 
+Figure 1. “Inspired by Let’s Play Monopoly meme”, original creation, created by the first author, © 
+2024 Robert V. Kozinets.
+358 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+a ‘circle of degeneracy’. Other messages posters acknowledge the cyclical nature of 
+traders’ behaviours, especially the risky behaviours exhibited by many in the WSB 
+community.
+The WSB meme and its comments showcase a community whose discourses 
+revolve around risk, humour, self-deprecation, and the camaraderie that comes 
+with sharing and laughing about failures, such as losing money, and personal 
+failings, such as exhibiting over-confidence. Although its members are generally 
+well-versed in financial trading, they choose to approach it with a distinctive and 
+often irreverent style that sets WSB apart from more traditional trading forums. The 
+blend of self-deprecation and collective mockery disrupts societal norms, with 
+terms like degenerates and apes drawing heavily on both sexual and animalistic 
+themes. The inversion of norms forges strong group bonds, delineates acceptable 
+WSB behaviours, and creates the rich imaginative spaces in which collective iden￾tities are forged. Such humorous discourse creates a playful environment akin to 
+‘ludic activism’ as identified by Benski et al. (2013). Relying on humour and parody, 
+Figure 2. “I’m still trying to achieve step 1” meme, original variation, created by the first author, © 
+2024 Robert V. Kozinets.
+JOURNAL OF MARKETING MANAGEMENT 359
+
+this form of activism is vital in the digital age, fostering camaraderie among 
+a younger, media-savvy generation of activists (Treré, 2018).
+Intensified military language and roleplay during the short squeeze
+Reminiscent of Melucci’s (1996) concepts of latency and visibility, during the GameStop 
+short squeeze time period, WSB evidenced heightened levels of identity building focused 
+especially on military language and discursive displays of military obedience. These 
+signified intense and extraordinary commitment and action. The militarised language 
+and role-playing linguistics did not appear to be merely ornamental or ritualistic; instead, 
+they cultivated and repeatedly presented a not unpleasant atmosphere of warlike camar￾aderie. For instance, a post by ‘Zoxxiac’ during the squeeze reads: ‘True soldiers with 
+massive diamond hands. . .Hang in there, brothers (rocket emojis)’. These expressions – 
+diamond hands for those holding firm in tumultuous markets, paper hands for those 
+selling prematurely, and rockets for huge stock gains – became rallying cries. Augmented 
+with specific emojis like rockets, diamonds, and hands, this in-group vernacular solidified 
+their shared mission as well as the elements of their shared identities.
+In the midst of this warlike language campaign, while WSB operates largely without 
+a central leader, certain influential personas emerged. Keith Gill, alias Deepfuckingvalue 
+(DFV), stood out as one such leaderlike figure during the GameStop event. Since 2019, 
+Gill/DFV has vocally backed GameStop and supported his contentions about the stock 
+with detailed financial analyses. Notably, he posited GameStop’s potential in esports and 
+emerging technologies like blockchain and NFTs. Though some initially opposed his 
+views, Gill’s persistence, openness, thorough analysis, and likable manner eventually 
+swayed many WSB members, who then took on the GameStop mission as their own. At 
+that point, WSB discussions shifted from valuing the stock and mere financial speculation 
+to more warlike discourse, militaristic identification, and talk of arming a populist collec￾tive challenge against Wall Street’s elites. The collective strategy emerged, was widely 
+discussed on the board, and was then disseminated: two million members of WSB would 
+each acquire $5,000 of GameStop and then hold them. At this time, the military identifica￾tion with soldiers riding into battle seems to have peaked, with messages including:
+Stonk Justice Warriors.
+Three shares reporting for duty!
+We Ride out at dawn, brothers! Hold fast! (diamond hands emojis)
+The outcome? Hedge funds, having bet against these stocks, lost billions. Forced to 
+purchase stock to mitigate their positions, prices soared further, amplifying WSB’s victory – 
+exactly as the online community had predicted and planned.
+Discussion
+Consumer movements have traditionally been studied as campaigns, which can be short￾lived or long-lived, that champion a broad set of ideals for challenging the social order 
+around market or consumer culture (Handelman, 2022; Kozinets & Handelman, 2004). This 
+study of the WallStreetBets (WSB) community over the longer term illuminates a different 
+kind of movement and alternative types of activism. By consistently engaging in sceptical 
+360 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+views of their financial and economic circumstances, the members of WSB enact a ‘cyber￾autonomist’ (Gerbaudo, 2017) media usage that provides views of financial markets and 
+consumer culture that question and contradict mainstream media and government 
+portrayals and also draw upon and are informed by participants’ daily lives. At times, 
+members contribute to and utilise the ‘mass outreach’ capabilities of the platform, 
+building collective identities, encouraging actions, and even organising campaigns to 
+buy particular stocks in acts that Gerbaudo would classify as ‘cyber-populist’ (2017, 
+p. 486).
+This longer-term netnography of WSB thus affords us a broader look at the types of 
+social media participation that may be involved in contemporary consumer movements 
+and activism. Building on Milbrath’s (1965) hierarchy of political participation, George and 
+Leidner (2018) list a hierarchy of forms of digital activism, ranging from viewing, liking, 
+and sharing political views to composing politically oriented posts, financially supporting 
+causes, and even hacking into organisations. Combining this prior research with the 
+findings of our netnography leads to our classification of various types of digital activism 
+that range from the ordinary and everyday to the extraordinarily involved and highly 
+committed. As Figure 3 shows, much of WSB is engaging in everyday activism rooted in 
+the shared perceptions and daily experiences of its subscribers and message posters.
+Although much of the activity classified as everyday digital activism in Figure 3 might 
+be viewed as disparate and conducted in physical isolation from others, the hierarchy also 
+illustrates how smooth the transition is between platform interaction (including reading 
+or liking), mutual interaction (such as commenting or posting), and, potentially, engage￾ment in mass organised and collective behaviours. As Melucci (1996) noted on the 
+Internet before social media, everyday activism serves as the ‘latent’ foundation for 
+consumer movements that may sometimes, under the right conditions, become ‘visible’ 
+to the wider world through intense and extraordinary collective commitment. Our 
+Increasing
+commitment
+Organizing a
+campaign
+EXTRAORDINARY
+DIGITAL ACTIVISM
+EVERYDAY
+DIGITAL
+ACTIVISM
+TRANSITIONAL
+DIGITAL ACTIVISM
+Number of participants
+Regularly reading skeptical “alternative” online discourse
+Sharing or commenting on online content related to
+online community collective identity
+Creating and posting content skeptical of
+mainstream views or supporting resistant
+group perpesctive (e.g., memes)
+Supporting or affirming market
+activities relating to resistant
+online discourses
+Engaging in market
+activities, such as
+investing, relating to
+online discource
+Figure 3. A digital activism hierarchy, ranging from the everyday to the extraordinary.
+JOURNAL OF MARKETING MANAGEMENT 361
+
+netnography reveals and develops the operation of similar processes in a large, influential 
+contemporary social media group noted for its creation of a populist consumer 
+movement.
+For members of the Millennial and Gen-Z generations, discussing the challenges of 
+inflation, homeownership, stock market volatility, and an uncertain job market is not 
+a matter for abstract economic policy debate. Instead, they are day-to-day realities that 
+require sharing, discussion, and advice (Adler & Ansell, 2020; Haiven et al., 2021; Milkman, 
+2017). These generations, digitally savvy and intertwined with online communities 
+(Tufekci & Brashears, 2014), find solace and companionship in spaces like WSB. Online, 
+they unite over shared struggles, creating a collective identity while playfully sharing 
+jokes, insights, and memes.Prior research focuses on the GameStop short squeeze and 
+conceptualises WSB as the emancipatory source of a digital movement (Jones & Hietanen, 
+2023; Samman & Sgambati, 2023; Schou et al., 2022; Yang & Adamczyk, 2023). This paper 
+takes a longitudinal view and, although it includes the entire time of the short squeeze, it 
+focuses on the site as it persisted in the 2.5 years period after the incident. Throughout 
+that time, we find WSB acting as a type of digital agora, a place where ordinary individuals, 
+feeling marginalised by an elusive financial system, converge, converse, and connect. 
+Their conversations do not revolve merely around stocks but are infused with the lived 
+experiences and narratives of a generation seeking to reclaim agency in trying times. With 
+platforms like Reddit and tools like Robinhood, they are experimenting with ways to 
+navigate everyday financial challenges, all the while fostering a sense of communal 
+solidarity.
+This netnography merges prior literature that conceptualises digital consumer move￾ments as increasingly fluid and flexible (Bennett & Segerberg, 2012; Castells, 2012; 
+Gerbaudo, 2017; Handelman, 2022) and those that study individualised and everyday 
+collective actions and activism (Pink, 2012; Welch & Yates, 2018; Yates, 2022). Focusing on 
+the everyday aspects of social media participation helps researchers recognise that many 
+of these behaviours have long ago become commonplace and ordinary and that extra￾ordinary events in these spaces should be considered, as Figure 3 illustrates, extensions of 
+far more ordinary events, such as regular participation. By investigating the ebbs and 
+flows of digital consumer culture, studies such as this one demonstrate how everyday life 
+can be understood as a theoretical orientation that helps link social structures and 
+consumers’ lived experiences, inscribing broader economic and political trends into the 
+social webwork of ‘relationships, interactions, and daily practices’ (Yates, 2022, p. 165). 
+Engaging in regular, meaningful social media participation is a chance for social actors to 
+perceive, express, and experience the operation of power in their lives, including ‘the 
+importance of economic “alternatives” and forms of resistance’. The following sections 
+expand the analysis of WSB to develop how everyday consumer activism relates to 
+collective identification, participatory culture, and infinite gameplay and further extend 
+our current understanding of consumer movements and activism.
+Collective identification in digital consumer activism
+Over the past decade, digital activism has seamlessly transitioned from a peripheral 
+countercultural niche to occupying a central counterhegemonic position in the political 
+arena (Gerbaudo, 2017). In what they describe as an ‘essay’ that uses business press and 
+362 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+prior publications as its reference material, Jones and Hietanen (2023, p. 227) analyse the 
+dynamism and resilience of WSB’s consumer resistance vis-à-vis the colossus of global 
+financial markets. Their appraisal paints a somewhat sceptical view of WSB and similar 
+digital consumer movements’ potential to instigate systemic changes, particularly criti￾quing their unity, culture, and identity (p. 10). Such assessments, primarily grounded in 
+the ephemeral GameStop short squeeze saga, tend to overlook the platform’s enduring 
+community of over 14 million members, which remains a vibrant locus of conversation 
+and support.
+Moreover, Jones and Hietanen (2023, p. 233) describe WSB as ‘a new mode of unifica￾tion without unity’. Aligned with Bennett and Segerberg (2012) and Handelman (2022), 
+who see the new digital movements as lacking leaders and collective identification, Jones 
+and Hietanen (2023, p. 233) stake out an extreme position in which WSB participants are 
+irrational and lack the unification of ‘in-group/out-group binaries’, ‘consciousness of kind’, 
+or other forms of group membership self-identification. As support for this contention, the 
+authors quote an article in Bloomberg, interpreting it as stating that the entire group ‘had 
+little agreement on the direction of the effort and did not view themselves as a collective, 
+group, team, or organization as members of a group aimed at toppling hedge funds’ 
+(Jones & Hietanen, 2023, p. 234).
+The June 2021 Bloomberg article cited by the authors, Kockhodin (2021), offers addi￾tional information on the question of WSB members’ self-perception. The article focuses 
+on how members’ different perspectives made it difficult for them to reach agreement on 
+future short squeeze actions. The key section of the article that Jones and Hietanen 
+appear to have drawn from is the presentation of a 2021 post from a WSB member 
+stating that the group is ‘not a group . . . we are not on a team . . .. We are retards, we are 
+apes, and we are yolo diamond handed boys who make our own decisions as individuals’. 
+To interpret this post about collective identity as a general lack of collective identity 
+would, of course, be a mistake. For the post, and the many supportive comments 
+affirming it, assert that participating in the loose coalition of individualistic degenerates 
+and apes who enjoy commenting upon and strategizing about many things, including the 
+stock market casino that fascinates them, is the common ground of group membership. 
+Our ethnography finds WSB participants to be irreverent, not irrational. Like Alcalde 
+González et al. (2022), Bakardjieva (2015), and Gerbaudo and Treré (2015), our netnogra￾phy also leads us to reassert the relevance and importance of collective identity in digital 
+consumer movements and activism and to suggest that our traditional conceptions of 
+identity and identification may need to stretch to encompass the new boundaries of 
+digital identity play.
+Although Jones and Hietanen’s (2023) framing leans towards presenting digital 
+consumer activism as a binary tug-of-war against dominant power structures, our 
+perspective diverges. Instead, we posit that by sharing sceptical ideas and resistant 
+strategies and providing a base of humour and support, platforms like WSB may subtly 
+reshape the social and economic systems they engage with. Kozinets (2002) suggests 
+that singular instances of resistance, when evaluated in isolation, might offer 
+a restricted view. Similarly, we believe that research must recognise the sustained 
+contributions social platforms make towards forging identities, cultural ethos, net￾works, and innovative ideas that have the potential to leave indelible imprints on 
+people and society.
+JOURNAL OF MARKETING MANAGEMENT 363
+
+While we must acknowledge the varied, complex, and everyday engagements of WSB 
+members, it is not necessary for our analyses to frame such multifaceted social media sites 
+in terms of dichotomies. Although there is often a strong populist overtone to their 
+discourse, simplifying WSB’s narrative as a battle between Millennial and Gen Z small 
+investors and a monolithic global financial system is reductive. The WSB platform, with its 
+foundations rooted in discussion of financial investments and risky stock market specula￾tions, should by no means be interrogated primarily as ‘a group aimed at toppling hedge 
+funds’ (Jones & Hietanen, 2023, p. 234) or intending in any way to champion an anti￾capitalist agenda. Instead, an informed interpretive perspective should rest on the every￾day activism, collective intelligence (Levy, 1994), and sense of conviviality and community 
+spirit fostered on platforms such as WSB. Rather than holding these groups out as heralds 
+of ‘an emancipatory anti-capitalist movement’ (Jones & Hietanen, 2023, p. 240), research 
+should aim to appreciate the rich variety of ways their many online interactions contribute 
+to the zeitgeist of contemporary consumer culture.
+Everyday digital activism and participatory culture
+Jenkins’ (2006) notion of participatory culture – highlighting ease of engagement, nurtur￾ing environments, mentorship, and valued contributions – provides a valuable framework 
+for understanding the type of ongoing social experience in online groups such as WSB. 
+WSB’s collective vigour stems from its unique participatory culture, a macho perspective 
+focused on risk and gambling in the stock market casino, rich with bawdy humour, self￾deprecation, and insults, filled with scepticism towards the financial system, using coded 
+language and shared symbols expressed through memes, charts, animations, and more. 
+These intricate layers of communication serve not only as gateways to group initiation but 
+also as cultural anchors. They foster shared values, a meaningful sense of self-identity, and 
+deeper group integration. Although the GameStop short squeeze grabbed headlines as 
+a ‘meme stock revolution’ (Bernard et al., 2022), our analysis suggests that it may be more 
+important to emphasise that this action was a byproduct of the community’s longstand￾ing ‘cultural affordances’ and ‘shared intentionality’ (Ramstead et al., 2016), for the 
+squeeze was not a mere transactional moment but a reflection of the community’s 
+cohesion and power, a phenomenon that continues to build subscribers and influence 
+to the present day. Despite its characterisation as a transient ‘flash movement’ by Schou 
+et al. (2022), we argue that WSB’s impact lies not in the flash of its historical short squeezes 
+but in the everyday engagement it sustains with its millions of subscribers.
+Sharing inverted identities as casino-playing ‘degenerates’, ‘apes’, and loss-celebrating 
+‘retards’, the WSB community’s meaning narratives extend well beyond the pursuit of 
+financial gains into a type of financial loss porn that Samman and Sgambati (2023) 
+tantalisingly, and perhaps spectacularly, relate to apocalyptic thinking. More than simply 
+mutual recognition and the thrill of collective action, Samman and Sgambati (2023, 
+p. 117) find in WSB’s cheery, macho, risk-taking culture ‘a transference onto indebtedness 
+of all the psychological charge previously reserved for the end of history’. We agree that 
+the social medium of the group’s ongoing dialogue amplifies this participatory culture, 
+fostering a space where young individuals resonate with shared grievances and aspira￾tions. However, we see room for optimism and hope as well, noting that, like many 
+participatory cultures, they use this space to explore their ‘civic imagination’, their 
+364 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+‘capacity to imagine alternatives to current social, political, or economic institutions or 
+problems’ (Jenkins, 2016, p. 29).
+Although its specific blend of elements might be idiosyncratic, WSB draws attention to 
+elements important for analysing numerous other forms of digital activism. For example, 
+cryptocurrency and non-fungible token (NFT) markets, too, witness similar grassroots 
+movements and imaginative plays with alternative social systems, with members bound 
+by shared beliefs and technopopulist leanings (Belk et al., 2022; Gikay & Stănescu, 2019; 
+Yogarajah, 2022). As digital populism takes shape across various regions, from China to 
+Greece (Gerbaudo, 2014; Tai, 2015), these technopopulist currents stem from the 
+ordinary, day-to-day experiences of their members. Understanding this interplay between 
+the everyday and the rise of digital consumer movements offers a rich landscape for 
+future exploration and underscores the need to shift research focus from momentary 
+activist surges to the enduring participatory cultures sustaining these movements. 
+Through an enhanced understanding of the roles and functions of participatory culture 
+in digital activism, researchers can unveil the symbiotic relationship between activism and 
+participants’ wider digital journeys.
+The infinite games of everyday digital activism: blending play and power
+Carse’s (1986) delineation between finite and infinite games offers a compelling lens 
+through which to view the WSB community’s approach to digital activism. In finite games, 
+such as Monopoly, fixed rules and objectives drive play towards a definitive end, where 
+winners and losers are clearly delineated. Conversely, infinite games, epitomised by role￾playing games like Call of Cthulhu, revolve around enduring play with evolving narratives 
+and prioritise the continued engagement of players over competitive outcomes that will 
+end the game.
+To many observers in the press and academia, WSB’s GameStop saga seemed like 
+a finite game, a determined rebellion of ‘Davids’ against the financial ‘Goliaths’ (Aharon 
+et al., 2023). This underdog narrative echoes established neoliberal notions, championed 
+by historical conservative figures like Ronald Reagan and Margaret Thatcher, that frame 
+stock market success as the reward of diligent adherence to rules (Harvey, 2007). Under 
+this perception, WSB’s ‘degenerates’ united, aiming to master the game and ultimately 
+attaining the victory of bringing down a hedge fund and enjoying large financial gains 
+(Haiven et al., 2021).
+Yet, a deeper examination reveals that the acts of WSB subscribers were and are more 
+akin to an infinite game. Millennials and Gen Z, steeped in gaming culture and nurtured 
+by digital technologies, were primed for this intriguing merger of play and activism. These 
+generations embraced platforms like Robinhood, which seamlessly integrated gaming’s 
+ease of use and competitive spirit with financial experimentation. WSB thus became 
+a semi-public space, built by millions of followers and carefully moderated, where finance, 
+play, identity, resistance, and collaboration continually entwine. The memes, the banter, 
+and the humorous self-education are emblematic of the persistent, ordinary engage￾ments that constitute the heart of this infinite game. Each post, each emoji, and each 
+comment is a move in this game, not to win but to perpetuate the game itself.
+During the GameStop event, its members were recast as valiant ‘soldiers’ waging 
+war against financial titans. This reshaping fostered a bond and common purpose, 
+JOURNAL OF MARKETING MANAGEMENT 365
+
+fusing gameplay and activism, reminiscent of the dynamics observed by Gordon and 
+Baldwin-Philippi (2014) and evoking Melucci’s (1996) cycles of latency and visibility. 
+The sense of camaraderie within WSB reinforced a spirit of mutual trust, promoting 
+a type of digital ‘civic’ responsibility and communal engagement that Jenkins (2006) 
+finds in many forms of fandom and other participatory cultures. Thrust upon the world 
+stage by global mass media coverage, the community shared, embraced, and mirrored 
+media depictions of itself as financial cultural warriors at the forefront of an important 
+digital revolution. In parallel with Tufekci’s (2017) observations, the media acted as 
+a feedback loop, validating and invigorating WSB’s activism, attracting millions of 
+enthusiastic new subscribers, and spurring further participation. Yet, the GameStop 
+episode, while extraordinary, was not a culmination but merely one important story in 
+WSB’s broader, ongoing narrative. Members return to the site day after day and year 
+after year, not for an opportunity to engage in the next landmark consumer move￾ment, but for the insight, witty conversation, and sense of understanding and being 
+understood that accompany being part of an online community of fellow ‘apes’ and 
+‘degenerates’.
+Conclusion: everyday digital activism
+Investigations of consumer movements conceptualise them as resolute and persistent 
+efforts by organised collectives to reimagine and transform consumer and market 
+culture (Gollnhofer et al., 2019; Kozinets & Handelman, 2004; Weijo et al., 2018). Our 
+netnography of WSB’s online consumer movement suggests that, as movements 
+become part of social media experiences and infused with digital resources, they 
+become increasingly variable, shifting between different modalities or phases of 
+activism. As Handelman (2022) asserted, these large groups are more self-directed 
+than their offline variants. Yet, contrary to Jones and Hietanen’s (2023) assertions 
+about a lack of identification, this aspect of traditional consumer movements and 
+activism is still relevant in the digital context. As Alcalde González et al. (2022) 
+found, culture and collective identification combined with play and shared genera￾tional and gendered perspectives to create a sense of coherence and commitment. In 
+the digital context, the meaning of solidarity shifts from what it does in physical 
+protests such as Exarcheia (Chatzidakis et al., 2021). Nonetheless, our study finds that 
+a digital consumer movement’s group can survive the test of time.
+It is from within the ordinary that the extraordinary emerges. The everyday culture of 
+WSB, characterised by shared socioeconomic and gendered experiences, self-deprecating 
+memes, in-jokes, popular culture references, similar viewpoints, shared trust, and much 
+else, forms the bedrock through which periods of extraordinary activism may emerge. The 
+GameStop incident did not happen in a vacuum. It was born out of the daily engage￾ments, the sense of belonging, and the collective identity fostered over time. However, 
+GameStop should not distract us from the truly remarkable elements of everyday digital 
+activism that have blossomed in WSB and thousands, if not millions, of social media sites 
+like it. WSB’s culture of everyday participation and its fusion of play with activism show￾case how the realm of infinite gameplay intersects with consumers’ contemporary uses of 
+social media. It reminds researchers and observers alike to shift focus from the monu￾mental events to the often-overlooked, ongoing, and ordinary engagements that 
+366 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+underlay them. For it is in these daily rhythms, ostensibly trivial conversations, shared 
+insights and comments on the news, and a vast and evolving panoply of ongoing 
+interactions that the deeper essence of communities like WSB – and the broader land￾scape of digital consumer movements and activism – resides.
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+Notes on contributors
+Robert V. Kozinets is a multiple award-winning professional researcher and teacher. He invented 
+and developed the multidisciplinary qualitative digital research method of netnography and has 
+authored, co-authored, and edited 8 books as well as over 150 articles and chapters. His company, 
+Netnografica, has consulted for leading organizations such as Ford, L’Oréal, Coca-Cola, Heinz, and 
+American Express. He works at the University of Southern California in Los Angeles, California, is 
+Area Editor of the Journal of Marketing, an Academic Fellow of the Marketing Science Institute, and is 
+President of the Association for Netnographic Research and of Netnocon.
+Mina Seraj Aksit is a part-time faculty member at Vrije University Amsterdam. She holds a BA degree 
+in Economics from the University of Pennsylvania (2001), an MBA degree from Bogazici University 
+(2005), and she completed her PhD in Marketing at Bogazici University in 2014. Dr. Seraj’s research 
+interests include brand management, consumer culture, online communities, digital marketing, and 
+social media. Her research has been published in the Journal of Interactive Marketing, the Journal of 
+Organizational Computing and Electronic Commerce, and in other outlets
+References
+Adler, D., & Ansell, B. (2020). Housing and populism. West European Politics, 43(2), 344–365. https:// 
+doi.org/10.1080/01402382.2019.1615322 
+Aharon, D. Y., Kizys, R., Umar, Z., & Zaremba, A. (2023). Did David win a battle or the war against 
+Goliath? Dynamic return and volatility connectedness between the GameStop stock and the high 
+short interest indices. Research in International Business and Finance, 64, 101803. https://doi.org/ 
+10.1016/j.ribaf.2022.101803 
+Albinsson, P. A., & Perera, B. Y. (2013). Consumer activism 2.0: Tools for social change. In R. Llamas & 
+R. Belk (Eds.), The Routledge companion to digital consumption (pp. 356–366). Routledge.
+Alcalde González, V., Gálvez-Mozo, A., & Valenzuela-Bustos, A. (2022). ‘Las Kellys son las que limpian’: 
+Collective identity and social media in the mobilisation of room attendants in Spain. New Media & 
+Society, 14614448221097891. https://doi.org/10.1177/14614448221097891 
+Bakardjieva, M. (2015). Do clouds have politics? Collective actors in social media land. Information, 
+Communication & Society, 18(8), 983–990. https://doi.org/10.1080/1369118X.2015.1043320 
+Belk, R., Fischer, E., & Kozinets, R. V. (2012). Qualitative consumer and marketing research. Sage.
+Belk, R., Humayun, M., & Brouard, M. (2022). Money, possessions, and ownership in the metaverse: 
+NFTs, cryptocurrencies, web3 and wild markets. Journal of Business Research, 153, 198–205. 
+https://doi.org/10.1016/j.jbusres.2022.08.031 
+Bennett, W. L., & Segerberg, A. (2012). The logic of connective action: Digital media and the 
+personalization of contentious politics. Information, Communication & Society, 15(5), 739–768. 
+https://doi.org/10.1080/1369118X.2012.670661 
+Benski, T., Langman, L., Perugorría, I., & Tejerina, B. (2013). From the streets and squares to social 
+movement studies: What have we learned? Current Sociology, 61(4), 541–561. https://doi.org/10. 
+1177/0011392113479753 
+JOURNAL OF MARKETING MANAGEMENT 367
+
+Bernard, T. S., Flitter, E., & Das, A. (2022). Buy gamestop, fight injustice. just don’t sell. New York Times, 
+January 29.
+Carse, J. P. (1986). Finite and infinite games: A vision of life as play and possibility. Ballantine Books.
+Castells, M. (2009). Communication power. Oxford University Press.
+Castells, M. (2012). Networks of outrage and hope: Social movements in the Internet age. Polity Press.
+Chatzidakis, A., Maclaran, P., Varman, R., Fischer, E., Price, L. L., & Fischer, E. (2021). The regeneration 
+of consumer movement solidarity. Journal of Consumer Research, 48(2), 289–308. https://doi.org/ 
+10.1093/jcr/ucab007 
+de Almeida Andrade, M., Rainotto, G. C., Lima, F. L., da Silva Neto, R., & Paschoal, D. G. (2019). 
+Consumer cyberactivism on the Facebook Reclame Aqui on Black Friday. International Journal of 
+Development Research, 9(8), 29530–29537.
+Discetti, R., & Anderson, M. (2022). Hybrid consumer activism in fairtrade towns: Exploring digital 
+consumer activism through spatiality. Consumption Markets & Culture, 26(4), 1–18. https://doi.org/ 
+10.1080/10253866.2022.2144265 
+Earl, J., & Kimport, K. (2011). Digitally enabled social change: Activism in the Internet age. MIT Press.
+George, J., & Leidner, D. (2018). Digital activism: A hierarchy of political commitment. Proceedings of 
+the 51st Hawaii International Conference on System Sciences (HICSS), 2299–2308.
+Gerbaudo, P. (2014). Populism 2.0: Social media activism, the generic Internet user and interactive 
+direct democracy. Social media, politics and the state, 67–87.
+Gerbaudo, P. (2017). From cyber-autonomism to cyber-populism: An ideological history of digital 
+activism. TripleC: Communication, Capitalism & Critique, 15(2), 477–489. https://doi.org/10.31269/ 
+triplec.v15i2.773 
+Gerbaudo, P., & Treré, E. (2015). In search of the ‘we’ of social media activism: Introduction to the 
+special issue on social media and protest identities. Information, Communication & Society, 18(8), 
+865–871. https://doi.org/10.1080/1369118X.2015.1043319 
+Gikay, A. A., & Stănescu, C. G. (2019). Technological populism and its archetypes: Blockchain and 
+cryptocurrencies. Nordic Journal of Commercial Law, 2. https://doi.org/10.2139/ssrn.3379756 
+Gollnhofer, J. F., Weijo, H. A., Schouten, J. W., Fischer, E., Price, L. L., & Ger, G. (2019). Consumer 
+movements and value regimes: Fighting food waste in Germany by building alternative object 
+pathways. Journal of Consumer Research, 46(3), 460–482. https://doi.org/10.1093/jcr/ucz004 
+Gordon, E., & Baldwin-Philippi, J. (2014). Playful civic learning: Enabling lateral trust and reflection in 
+game-based public participation. International Journal of Communication, 8, 28.
+Gretzel, U. (2017). Social media activism in tourism. Journal of Hospitality and Tourism, 15(2), 1–14.
+Haiven, M., Kingsmith, A. T., & Komporozos-Athanasiou, A. (2021). Dangerous play in an age of 
+technofinance: From the gamestop hunger games to the Capitol Hill Jamboree. TOPIA: Canadian 
+Journal of Cultural Studies, 45, 102–132. https://doi.org/10.3138/topia-2021-0004 
+Hall, S., & Jefferson, T. (Eds). (1975). Resistance through rituals: Youth subcultures in post-war Britain. 
+Hutchinson.
+Handelman, J. M. (2022). The digital transformation of consumer movements. In R. Belk & R. Lamas 
+(Eds.), The Routledge handbook of digital consumption (pp. 475–488). Routledge.
+Harvey, D. (2007). A brief history of neoliberalism. Oxford University Press.
+Jenkins, H. (2006). Confronting the challenges of participatory culture: Media education for the 21st 
+century. John D. and Catherine T. MacArthur Foundation.
+Jenkins, H. (2016). Youth voice, media, and political engagement: Introducing the core concepts. In 
+H. Jenkins, S. Shresthova, L. Gamber-Thompson, N. Kligler-Vilenchik, & A. Zimmerman (Eds.), By 
+any media necessary: The new youth activism (pp. 1–60). New York University Press.
+Jones, H., & Hietanen, J. (2023). The r/wallstreetbets ‘war machine’: Explicating dynamics of con￾sumer resistance and capture. Marketing Theory, 23(2), 225–247. https://doi.org/10.1177/ 
+14705931221114172 
+Kockhodin, B. (2021). WallStreetBets traders just can’t agree on where to go next. BNNBloomberg.ca, 
+June 12.
+Kozinets, R. V. (1999). E-tribalized marketing?: The strategic implications of virtual communities of 
+consumption. European Management Journal, 17(3), 252–264. https://doi.org/10.1016/S0263- 
+2373(99)00004-3 
+368 R. V. KOZINETS AND M. SERAJ-AKSIT
+
+Kozinets, R. V. (2002). Can consumers escape the market? Emancipatory illuminations from burning 
+man. Journal of Consumer Research, 29(1), 20–38. https://doi.org/10.1086/339919 
+Kozinets, R. V. (2020). Netnography: The essential guide to qualitative social media research (3rd ed.). 
+Sage Publication.
+Kozinets, R. V., & Handelman, J. M. (2004). Adversaries of consumption: Consumer movements, 
+activism, and ideology. Journal of Consumer Research, 31(3), 691–704. https://doi.org/10.1086/ 
+425104 
+Levy, P. (1994). Collective intelligence: Mankind’s emerging world in cyberspace. Perseus Books.
+Lorenzen, J. A. (2012). Going green: The process of lifestyle change 1. Sociological Forum, 27(1), 
+94–116. https://doi.org/10.1111/j.1573-7861.2011.01303.x 
+Luser, J. J., & Schreier, M. (2022). Apes together strong! An exploratory case study into newcomer 
+socialization within the gamestop movement [Unpublished Master’s Thesis]. Jönköping 
+International Business School.
+Marchuk, A., Biel, S., Bigram, V., & Jensen, S. W. L. (2021). The best of both worlds: Methodological 
+insights on combining human and AI labor in netnography. In R. V. Kozinets & R. Gambetti (Eds.), 
+(2020). Netnography unlimited: Understanding technoculture using qualitative social media research 
+(pp. 181–201). Routledge.
+Melucci, A. (1996). Challenging codes: Collective action in the information age. Cambridge University 
+Press.
+Micheletti, M. (2003). Political virtue and shopping. Palgrave Macmillan.
+Milbrath, L. (1965). Political participation: How and why do people get involved in politics? Rand 
+McNally.
+Milkman, R. (2017). A new political generation: Millennials and the post-2008 wave of protest. 
+American Sociological Review, 82(1), 1–31. https://doi.org/10.1177/0003122416681031 
+Minocher, X. (2019). Online consumer activism: Challenging companies with change. org. New 
+Media & Society, 21(3), 620–638. https://doi.org/10.1177/1461444818803373 
+Pink, S. (2012). Situating everyday life. Sage.
+Ramstead, M. J., Veissière, S. P., & Kirmayer, L. J. (2016). Cultural affordances: Scaffolding local worlds 
+through shared intentionality and regimes of attention. Frontiers in Psychology, 7, 1090. https:// 
+doi.org/10.3389/fpsyg.2016.01090 
+Samman, A., & Sgambati, S. (2023). Financial eschatology and the libidinal economy of leverage. 
+Theory, Culture & Society, 40(3), 103–121. https://doi.org/10.1177/02632764211070805 
+Schou, P. K., Bucher, E., Waldkirch, M., & Grünwald, E. (2022). We did start the fire: r/wallstreetbets,‘￾flash movements’ and the gamestop short-squeeze. In Academy of Management Proceedings (No. 
+1, p. 14028). Academy of Management.
+Tai, Z. (2015). Networked resistance: Digital populism, online activism, and mass dissent in China. 
+Popular Communication, 13(2), 120–131. https://doi.org/10.1080/15405702.2015.1021469 
+Treré, E. (2018). Hybrid media activism: Ecologies, imaginaries, algorithms. Routledge.
+Treré, E., & Yu, Z. (2021). The evolution and power of online consumer activism: Illustrating the 
+hybrid dynamics of “consumer video activism” in China through two case studies. Journal of 
+Broadcasting & Electronic Media, 65(5), 761–785. https://doi.org/10.1080/08838151.2021.1965143 
+Tufekci, Z. (2017). Twitter and tear gas: The power and fragility of networked protest. Yale University 
+Press.
+Tufekci, Z., & Brashears, M. E. (2014). Are we all equally at home socializing online? Cyberasociality 
+and evidence for an unequal distribution of disdain for digitally-mediated sociality. Information, 
+Communication & Society, 17(4), 486–502. https://doi.org/10.1080/1369118X.2014.891634 
+Wahlen, S., & Laamanen, M. (2015). Consumption, lifestyle and social movements. International 
+Journal of Consumer Studies, 39(5), 397–403. https://doi.org/10.1111/ijcs.12237 
+Weijo, H. A., Martin, D. M., Arnould, E. J., Fischer, E., & Ger, G. (2018). Consumer movements and 
+collective creativity: The case of restaurant day. Journal of Consumer Research, 45(2), 251–274. 
+https://doi.org/10.1093/jcr/ucy003 
+Welch, D., & Yates, L. (2018). The practices of collective action: Practice theory, sustainability 
+transitions and social change. Journal for the Theory of Social Behaviour, 48(3), 288–305. https:// 
+doi.org/10.1111/jtsb.12168 
+JOURNAL OF MARKETING MANAGEMENT 369
+
+Wolfson, T. (2014). Digital rebellion: The birth of the cyber left. University of Illinois Press.
+Yang, M., & Adamczyk, C. L. (2023). Gamestop Investors as an eng (R) aged digital public. Javnost-The 
+Public, 30(3), 1–18. https://doi.org/10.1080/13183222.2023.2198935 
+Yates, L. (2022). How everyday life matters: Everyday politics, everyday consumption and social 
+change. Consumption and Society, 1(1), 144–169. https://doi.org/10.1332/MBPU6295 
+Yogarajah, Y. (2022). ‘Hodling’on: Memetic storytelling and digital folklore within a cryptocurrency 
+world. Economy and Society, 51(3), 467–488. https://doi.org/10.1080/03085147.2022.2091316
+370 R. V. KOZINETS AND M. SERAJ-AKSIT

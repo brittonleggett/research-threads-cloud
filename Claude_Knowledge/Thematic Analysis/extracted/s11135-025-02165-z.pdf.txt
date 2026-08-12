@@ -1,0 +1,1278 @@
+Vol.:(0123456789)
+Quality & Quantity (2025) 59:4945–4978
+https://doi.org/10.1007/s11135-025-02165-z
+ChatGPT in thematic analysis: Can AI become a research 
+assistant in qualitative research?
+Kien Nguyen‑Trung1
+Accepted: 7 April 2025 / Published online: 2 June 2025
+© The Author(s) 2025
+Abstract
+Despite an emerging body of scholarship on applying generative AI (GenAI) to qualita￾tive data analysis, this area remains underdeveloped. This article evaluates how GenAI can 
+support thematic analysis using a publicly available interview dataset from Lumivero. It 
+introduces Guided AI Thematic Analysis (GAITA), an adaptation of King et al.’s (2018) 
+Template Analysis. This framework positions researchers as a reflexive instrument and 
+intellectual leader while thoroughly guiding GPT-4 in four stages: data familiarization; 
+preliminary coding; template formation and finalization; and theme development. Addi￾tionally, the article proposes the ACTOR framework, a simple approach to combining dif￾ferent effective prompting techniques when working with GenAI for qualitative research 
+purposes. Findings reveal GenAI’s capacity for analyzing the data, generating codes, sub￾codes, clusters, and themes, along with its adaptive learning and interactive assistance in 
+organizing unstructured data and developing trustworthiness. However, this model has 
+some key limitations in terms of its restricted context window for processing large datasets, 
+its inconsistent outputs requiring multiple prompt attempts, the need to move across work￾spaces, and the lack of relevant training data for qualitative research purposes.
+Keywords ChatGPT · Coding · Categorizing · Generative AI · Qualitative data analysis · 
+Thematic analysis · Template analysis · Reflexivity
+1 Introduction
+In 1984, sociologist Gerson (1984) proposed that artificial intelligence (AI) could act 
+beyond a clerical capacity as a research assistant in qualitative research with proper ’socio￾logical knowledge’ of the research topics. His hypothesis might now be achievable through 
+recent technological advancements, following OpenAI’s release of ChatGPT to the pub￾lic in November 2022. Since then, there has been extensive debate about the potential of 
+generative AI (GenAI) to transform the way we conduct research (Sallam 2023). It has 
+been suggested that GenAI can be applied in various professional areas, including climate 
+* Kien Nguyen‑Trung 
+Kien.nguyen@monash.edu
+1 Water Sensitive Cities Australia, Monash Sustainable Development Institute, Monash University, 
+Clayton Campus, Clayton, VIC 3800, Australia
+
+4946 K. Nguyen‑Trung 
+change-related initiatives (Vagheti et al. 2024; Biswas 2023), health care (Li et al. 2024), 
+education (Firat 2023), and evidence review (Nguyen-Trung et  al.  2024). Qualitative 
+research is not excluded from this movement. As of this writing, the field has witnessed 
+the incorporation of GenAI into the top three computer-assisted qualitative data analysis 
+software programs (CAQDAS), namely MaxQDA, Atlas.ti, and NVivo. Moreover, several 
+recently developed software programs have emerged and labeled themselves as qualitative 
+AI (or qualAI for short), such as QualAI (by QUALAI) and CoLoop (by CoLoop). Yet, 
+concerns exist about GenAI producing inconsistent results, with tendencies to hallucinate 
+or confabulate responses (Haman and Školník; 2023 van Dis et al. 2023). So, can GenAI 
+effectively serve as a research assistant in qualitative data analysis?
+In this article, I aim to answer this question through using ChatGPT to carry out a the￾matic analysis of qualitative data. The article is organized as follows: Section 2 provides a 
+brief overview of the role of technologies, machine learning (ML) and AI in social science 
+research and qualitative data analysis (QDA). Section 3 proposes a Guided AI Thematic 
+Analysis (GAITA) approach and describes the steps and prompting techniques  (i.e., the 
+ACTOR framework) in an adapted version of Template Analysis proposed by King et al. 
+(2018). Section 4 presents the results of this process in four steps. The study used a sample 
+qualitative research project, “Environmental Change in Down East” (Campbell and Meletis 
+2011; Lumivero 2023), with Lumivero’s permission.
+2  AI and technologies in qualitative research
+2.1  Early use of AI in qualitative data analysis
+The idea of AI has existed since the 1950s, perhaps gaining attention with the publication 
+of Turing’s (1950) paper ’Computing machinery and intelligence’ which posed the classic 
+question, "Can machines think?". With the prospect of machines being capable of compet￾ing with humans in intellectual fields (Turing 1950), this technology presented the possi￾bility of automating research tasks.
+In qualitative research, the agenda for using technologies to empower qualitative 
+research practice began in the 1980s when qualitative inquiry took a technological turn 
+in QDA (Seidel and Clark 1984). The 1980s and subsequent decades witnessed a rise of 
+many Computer-Assisted Qualitative Data Analysis Software (CAQDAS): NUS*IST 
+(NVivo’s predecessor) (1981), followed by the Ethnograph (1982), MaxQDA (1989), 
+HyperRESEARCH and Atlas.ti (1991), Transana (2001), QDA Miner (2004), Ethnonotes 
+(later became Dedoose in 2009) (2003), Discovertext (2009), Quirkos (2014), and Taguette 
+(2019) (Fassnacht and Woods 2005; Spiers 2004; Hesse-Biber et al. 1991; Jessica 2019; 
+Kuckartz and Kuckartz 2002; LaPan 2013; Lewis and Maas 2007; Lieber et al. 2003, 2021; 
+Rampin and Rampin 2021; Richards and Richards 1991; Richards 2002; Seidel and Clark 
+1984; Turner 2014).  Since 2008, CAQDAS programs, such as NVivo and Atlas.ti, have 
+had the capacity to support not just text‑based analysis but also multimodal data analysis—
+including audio, photo, video, multimedia, social‑media, geodata, and survey datasets—
+and are primarily used for data management and analysis (Woods, Paulus, et al.  2016, 
+p. 15).
+In parallel, experiments with using AI in QDA took advantage of the development of 
+expert systems since 1969—systems designed specifically to mimic human decision-mak￾ing processes (Russell and Norvig 2010). These ’expert systems’, also called ’knowledge 
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4947
+systems’, were believed to have the potential to ’understand’ natural language and serve as 
+“supplements or sometimes replacements for complex decision support in professional set￾tings, such as medical diagnostics" (Elish and Boyd 2018, p. 61).
+In this context, Gerson (1984) proposed a hypothetical system called "Automatic Note￾book for Social Research" (ANSR), which was believed to be able to act beyond a cleri￾cal capacity as a research assistant who could "take over portions of the most routine and 
+highly defined tasks" (Gerson 1984, p. 71). To fulfill this role, the proposed system would 
+be built on AI technology and be capable of understanding "sociological knowledge" (e.g., 
+family systems). However, that hypothesis was not achievable due to the high cost of tech￾nologies, the limited capacity of personal computers, and the limited capacity of expert 
+systems, especially in learning from a large dataset. Following Gerson’s hypothetical sys￾tem, Brent and Slusarz (2003) introduced Qualrus, released in 2002, as the first CAQDAS 
+package using "intelligent computational strategies," including case-based reasoning, natu￾ral-language understanding, and intelligent agents. Also based on expert systems, the Qual￾rus system was limited to "production rules" (i.e., "If X then Y") (Brent and Slusarz 2003, 
+p. 287).
+2.2  Machine learning in qualitative data analysis
+In the last two decades, the field of QDA has witnessed the integration of machine learning 
+(ML) into CAQDAS such as DiscoverText, QDA Miner, and Leximancer (Paulus 2023). 
+DiscoverText, a web-based text analytics software launched by Texifter, LLC in 2009, 
+enhances the accuracy and efficiency of classifying text data (especially Twitter data) 
+by combining human and machine capabilities in a continuous iterative process between 
+human input and ML (Shulman 2011; Silver 2019). While Leximancer automatically 
+generates concept seeds from text based on the co-occurrence and correlation of words, 
+which then inform the creation of more complex concepts through a thesaurus-like feature 
+that refines these concepts further based on the data, QDA Miner offers tools like Cluster 
+Extraction and Query by example, which assist in coding by suggesting similar text seg￾ments and support user-driven refinement, allowing the software to adapt its suggestions 
+based on user interactions (Lewins and Silver 2020; Silver and Lewins 2020).
+However, these applications of ML were primarily for certain text analysis functionali￾ties, including automatic coding, concept generation, and clustering, with limited capacity 
+to generalize beyond predefined algorithms and tasks, and more importantly, to engage in 
+meaningful conversation with human researchers. In the broader context, current ML mod￾els designed for QDA purposes such as Cody and Aeonium (Rietz and Maedche 2021; 
+Drouhard et  al. 2017; Hong et  al. 2022), focus largely on qualitative coding, with key 
+features such as suggesting codes and highlighting keywords based on human inputs and 
+rules. However, these features, such as word counts, keywords, and semantic analysis, tend 
+to decontextualize the words or instances and do not represent the concepts that human 
+researchers understand and use in their research (Chen et al. 2018). In QDA, the mean￾ing and significance of words or instances are not often determined by their frequencies 
+or correlations with others but by the shared patterns among codes, categories, and cases 
+and their connection with the contexts in which participants live and work (Saldaña 2016; 
+Miles and Huberman 1994). Therefore, in addressing the hypothetical vision set by Gerson 
+(1984) about the prospect of AI performing beyond a  clerical capacity, I argue that the 
+current applications of ML in qualitative research are still somewhat limited in offering 
+opportunities for flexible and deeper engagement in response to emerging issues and new 
+
+4948 K. Nguyen‑Trung 
+tasks during the analysis process. Furthermore, there remains a hesitance among qualita￾tive researchers to use ML and AI in QDA due to their complexity (Chen et al. 2018). AI￾assisted systems should be simple and accessible for non-technical users.
+2.3  The emergence of generative AI in QDA
+Different from previous AI technologies, Generative AI (GenAI) has taken advantage of 
+the latest developments including big data, natural language processing, neural networks, 
+computer vision, and deep learning. With these developments, AI can now process an 
+extensive dataset of various types, including not just structured but unstructured data, in an 
+accelerated timeframe (Elish and Boyd 2018). A GenAI model like GPT (Generative Pre￾trained Transformer) can be trained and learn with a "large amount of publicly available 
+digital content data" (natural language processing) and then respond in human-like conver￾sation in multiple languages (Baidoo-Anu and Owusu Ansah 2023, p. 53; Lund and Wang 
+2023). This implies that non-technical users can easily engage with AI chatbots in QDA.
+GenAI can be applied in QDA in three scenarios: the integration of AI into existing 
+CAQDAS packages; the development of new AI qualitative research applications; and the 
+use of chatbot tools (Silver 2023) (see Appendix 6). The integration of GenAI in current 
+CAQDAS packages such as MaxQDA (MaxQDA 2023), Atlas.ti (ATLAS.ti 2023) and 
+NVivo (Lumivero 2023) comes with the promise of “AI can automatically unveil what 
+is there” (Paulus and Marone 2024, p. 4), including the capacities to suggest codes and 
+themes, summarize, produce memos, and ‘chat with data’. These packages can offer a sin￾gle analytic workspace, leverage existing systems’ features, and address data security con￾cerns through the assurances provided by the companies that develop and commercialize 
+them. The second scenario comes with considerable diversity dependent on each company. 
+Though built differently, current new qualitative AI software such as Canvs, CoLoop, and 
+QInsight offer key capacities including dealing with multimodal data, producing sum￾maries, chatting with data, and developing analytical matrices (Canvs 2024; Friese 2023; 
+CoLoop 2024; Q-insight 2024). One disadvantage of this second scenario is the require￾ment of learning a new system and its pricing.1
+The third scenario involves the use of AI chatbots such as OpenAI’s ChatGPT, Google’s 
+Gemini, Microsoft’s Copilot, Perplexity AI’s Perplexity, and Anthropic’s Claude in sup￾porting data analysis. While most of these chatbots are free, the advanced use of their mod￾els with enhanced data security options requires a paid subscription. With this paid option, 
+the use of AI Chatbots might be more cost-effective than the aforementioned scenarios, as 
+users can flexibly choose the monthly subscription (about $22) and can cancel anytime.
+2.4  Current applications of GenAI in QDA
+The above events signify a significant turning point that gives rise to an emerging 
+scholarship on applying GenAI in QDA (Hitch 2023; De Paoli 2024). GenAI has been 
+applied in various analysis approaches such as context analysis (Chew et al. 2023), dis￾course analysis (Fan et al. 2023; Curry et al. 2024), and grounded theory (Sinha et al. 
+2024; Wachinger et  al. 2024). Thematic analysis with its relative flexibility in adopt￾ing a suitable philosophical position, is the most widely used approach in experiments 
+1 I received a monthly quote for an independent plan from CoLoop in May 2024 at $200 (plus VAT) that 
+offers 12 projects/year with 600 h transcription or translation and 600 Analysis Grid Questions.
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4949
+with GenAI (Morgan 2023; Hitch 2023; Hamilton et al. 2023). These experiments show 
+that various GenAI tools [e.g., ChatGPT, Google’s Gemini (previously, Bard)] are capa￾ble of supporting qualitative researchers in various tasks, especially summarizing large 
+amounts of text, suggesting codes based on text segments, and generating themes (Drá￾pal et al. 2023; De Paoli 2024; Prescott et al. 2024).
+However, a review of the current literature suggests some areas that need fur￾ther research. First, most existing experiments (De Paoli 2023, 2023; Lee et al. 2024; 
+Prescott et al. 2024) used the thematic analysis approach proposed by Braun and Clarke 
+(2006), which has since evolved through new advancements in their recent work (Braun 
+and Clarke 2019, 2022). There is a need to experiment with GenAI using alternative 
+thematic analysis approaches. Template Analysis (King et  al. 2018) offers a balanced 
+approach that can flexibly integrate the strengths of the Big Q thematic analysis (i.e., 
+reflexive thematic analysis by Braun and Clarke (2019) and small q thematic analysis 
+(i.e., Guest et al.’s (2012) coding reliability thematic analysis) (see the next section for 
+further discussion).
+Second, there is a need for a comprehensive end-to-end thematic analysis. Most stud￾ies focus only on spefic phases in Braun and Clarke’s (2006) approach, such as Phase 2 
+(initial coding generation) and Phase 3 (initial development of themes) (De Paoli 2024; 
+Drápal et al. 2023). Other researchers have focused on immediate generation of themes. 
+For instance, Hamilton et  al. (2023) compared human-generated themes and ChatGPT￾generated themes based on 1125 human-chosen statements from interviews. They fed all 
+the statements to ChatGPT with direct requests for theme generation. While their study’s 
+strengths lie in comparing human-led analysis and ChatGPT outputs, asking ChatGPT to 
+jump immediately into generating themes while omitting the stages of coding, categoriz￾ing, recoding/recategorizing, case comparison, and reflexive supervision  and journal￾ing could risk oversimplifying data.
+In another notable study, Morgan (2023) used ChatGPT to analyze two datasets he had 
+already analyzed. His prompts were based on his previous understanding of the data, which 
+helped him better judge the themes generated by ChatGPT. His use of ChatGPT tended to 
+be "query-based," focusing on asking this AI chatbot to generate an understanding of cer￾tain topics (e.g., "Give me a long description about the topic of keeping balance between 
+school and social life") without applying the full six phases of reflexive thematic analysis 
+by Braun and Clarke (2006). Notably, most of ChatGPT-generated themes tended to be 
+topic summaries (i.e., topic-based nouns) rather than themes as patterns of shared mean￾ings across the dataset (Braun and Clarke 2022). The query-based approach could serve 
+as  an alternative to the dominant coding approach in QDA. However, with the present 
+understanding of ChatGPT and GenAI technologies, this approach needs further develop￾ment and the establishment of a systematic procedure for reflexive monitoring, evaluation, 
+self-reflection, and learning.
+Third, there is a lack of integration of AI into human researchers’ analysis. Current 
+research tends to compare between human-generated and GenAI-generated codes/themes. 
+This testing approach helps validate if GenAI’s models can produce or predict themes that 
+are as good as those from human researchers. For instance, using ChatGPT in grounded 
+theory and framework analysis approaches, Wachinger et  al (2024, p. 6) observe that 
+“ChatGPT was able to produce thematic insights that to a considerable degree aligned with 
+or resembled those produced by an experienced human researcher.” Similarly, De Paoli 
+(2024) used LLMs Mistral-7b-Instruct-V0.22 and Llama-8b-Instruct3 to conduct an evalu￾ation of semantic similarities between human themes and GPT3.5-generated themes. He 
+
+4950 K. Nguyen‑Trung 
+found that “the LLM produces themes which, at least in part, are semantically alike to 
+themes produced by human analysts.” (De Paoli 2024, p. 28).
+However, AI’s capacity to produce similar themes is less meaningful in practice if 
+researchers do not consider using AI-generated outputs to advance their analysis. Even if 
+GenAI can generate themes comparable to human researchers, they cannot (and should 
+not) perform the full data analysis process alone without the researchers’ guidance  and 
+interpretations. Importantly, for qualitative research, researchers need to maintain their role 
+as the primary decision-makers - not just over the dataset, but over the entire analytical 
+process. Consequently, existing experiments comparing human- and AI-generated outputs 
+often conclude by recommending that in further research, qualitative researchers need to 
+apply “full agency” throughout the analysis process (Drápal et al. 2023, p. 9). This “full 
+agency’ implies the leading role of qualitative researchers in providing inputs, suggestions, 
+judgements, and making decisions, with GenAI serving as their research assistant, not an 
+autonomous agent. This approach ensures the alignment with qualitative research’s prin￾ciples that see researchers as the primary instrument (Braun and Clarke 2022). Therefore, 
+there is a need to integrate GenAI as a research assistant into the full workflow of thematic 
+analysis to see how researchers and GenAI interact and colaborate to produce results.
+Finally, there is a need for simple AI use guides that are accessible to non-technical 
+users. In their review of machine learning in assisting literature review, Khalil et al. (2022) 
+found out that current applications such as LitSuggest, Rayyan, AbstracKr pose a chal￾lenge to non-technical users who lack expertise in computer science and algorithms. In 
+this regard, GenAI-powered chatbots such as ChatGPT hold an advantage due to their ease 
+of use (Nguyen-Trung et  al. 2024). Yet, current experiments of AI in QDA have not 
+yet offered user-friendly guidelines. For instance, instead of using web-based chatbots, the 
+procedures proposed by Drápal et al (2023) and De Paoli (2024) involve the use of Appli￾cation Program Interface (API) and require expertise in coding programs such as Python 
+to support GenAI interaction. Additionally, there is a need to translate the most effective 
+prompting techniques into simple frameworks that help non-technical users facilitate their 
+approach (see for instance, Turobov et al. 2024).
+To address the above gaps, this study employed GPT-4 model (subscription version) as 
+a research assistant for thematic analysis. Rather than designing a traditional experiment 
+approach comparing control and treatment groups, the study adopts a qualitative approach. 
+Unlike the existing studies (De Paoli 2023; Drápal et  al. 2023), I developed an user￾friendly, adapted Template Analysis with AI guideline to facilitate a Guided AI Thematic 
+Analysis (GAITA) approach for directing and supervising GPT-4. I offer detailed documen￾tation of a four-step process with a simple prompting framework ACTOR. Throughout this 
+process, my supervision, reflexive notes, judgement, and adjustment are key to ensuring 
+the meaningful results of GPT-4’s outputs (see Table 1). This article thus presents critical 
+reflections on GPT-4’s capacity to execute my guidance in Template Analysis.
+3  Guided AI thematic analysis (GAITA)
+The ethical concerns of using ChatGPT in scholarly research have been subject to debate. 
+Some concerns are related to data ownership and rights (e.g., sharing data with commer￾cial entities), data privacy and transparency (e.g., sharing individual data) (Davison et al. 
+2024). OpenAI provides an option in Settings that allows users to turn off "Improve the 
+model for everyone”, which means that OpenAI promises it will not use the chat data for 
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4951 Table 1 Steps, prompts, AI’s tasks and researcher’s role in template analysis Steps Substeps Prompts, GPT-4’s Tasks Researcher’s role Step 1: Data familiarization Produce summaries of each transcript in different lengths Prompt 1.1: produce a general summary of the first transcript Read these different summaries to have a quick understanding of the dataset. Read the original transcripts to check this understanding. Read back and forth between GPT-4-generated contents and original transcripts. Write initial impressions and reflexive notes. Prompt 1.2: produce a highlight in three bullet points Produce a summary of the whole dataset Prompt 1.3: produce a summary of all interviews Step 2: Preliminary coding Code the first transcript Prompt 2.1: code the first transcript to produce a list of initial codes Develop a Google Sheet file to record codes by ChatGPT. Check the list of initial codes produced by ChatGPT. Edit the list by removing incorrect codes, renaming codes, or adding new codes, and subsequently produce a revised list of initial codes. Write code reflections. Code the remainder of transcripts Prompt 2.2: study the revised list of initial codes, preparing for coding the remainder of the transcripts Check carefully the codes produced by ChatGPT after each round of coding. Write reflexive notes documenting decisions and changes made during coding. Prompt 2.3: apply the revised list of initial codes to code one transcript at a time in the remain- der of transcripts Produce a refined list of codes after coding the whole transcripts N/A Use the Google Sheets file to refine the list of codes produced by removing wrong codes, renaming codes, or adding codes. Produce the refined list, in which all the codes are named, defined, and linked to quotations. Write reflexive notes on the revised code list.
+
+4952 K. Nguyen
+‑Trung 
+Table 1 (continued)
+Steps Substeps Prompts, GPT-4’s Tasks Researcher’s role
+Step 3: Template formation 
+and refinement
+Group codes into clusters to produce an initial 
+template
+Prompt 3.1: group codes into clusters while 
+maintaining the links with quotations
+Use the Google Sheets file to record coding 
+development. Check the logical links among 
+clusters, codes and quotations. Check for any 
+omitted codes or missing data. Revise the list of 
+clusters and codes to form the initial template. 
+Write reflexive notes on individual clusters and 
+the relationships among their codes.
+Generate subcodes for each code in a single 
+cluster
+Prompt 3.2: develop subcodes for each code Ensure the logical link between the cluster, codes, 
+subcodes, and quotations. Ensure GPT-4 cap￾tures nuances from transcripts’ quotations. Write 
+reflexive notes on the relationships among codes, 
+subcodes and the original transcripts.
+Revise coding for each code under each cluster Prompt 3.3: check for overlapping codes Compare the list of subcodes and quotations 
+under each code and identifying the overlapping 
+subcodes/quotations. Decide how to arrange the 
+coding structure.
+Produce the final template Repeat Prompts 3.2 and 3.3 for the remainder of 
+the clusters
+Check the logical links among clusters, codes, and 
+quotations and revising if needed. Produce the 
+final template. Write reflexive notes on the final 
+template and coding structure.
+Step 4: Theme development Generate themes based on the final template Prompt 4.1: generate list of themes Review and revise the themes generated by linking 
+the themes’ names and descriptions to the con￾text of the dataset. Write thematic notes, focus￾ing on meaning and relevance of each theme.
+Generate an overarching theme to develop a 
+narrative
+Prompt 4.2: generate an overarching theme Review and revise the central theme and the unify￾ing narrative it presents, making sure they are 
+meaningful. Write reflexive notes on thematic 
+relationships and the overarching theme.
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4953
+training its models. If researchers want to use ChatGPT or GenAI in QDA, it is critical to 
+include the plan of how they will be using AI in their ethics application. For instance, in 
+his successful ethics application for the use of ChatGPT in his interview study, Kaufman 
+(2024)  included the careful consideration of how GenAI would affect participants, data 
+security and privacy. In his Explanatory Statement, he described in details the stages at 
+which he would use GenAI, the risks of using GenAI and ChatGPT in research, and the 
+plan for addressing these risks (e.g., anonymizing data before submitting it to ChatGPT). 
+In his Consent Form, he included a request asking participants to allow the research team 
+to use GenAI (ChatGPT in this case) in QDA.
+As this study started early in 2023, when the use of ChatGPT and GenAI was rare and 
+my university did not issue a complete guide on using AI in research, I chose the sam￾ple public project "Environmental Change in Down East" provided by Lumivero (2023) 
+to avoid any ethical concerns. This sample project includes 11 short interviews conducted 
+in 2008–2009 by scholars from Duke University’s Nicholas School of the Environment at 
+their Marine Lab in Beaufort, N.C, which aimed to examine how communities in the Down 
+East region of Carteret County, North Carolina, USA, perceived environmental change 
+(Campbell and Meletis 2011). Each interview transcript is about 6 pages long or about 
+2000 words. Since this dataset contains multiple topics such as connections to Down East, 
+vision for the future of Down East, barriers to and opportunities for achieving your vision, 
+I chose one research question to narrow down my study, that is, "How do these people con￾nect to Down East?". As a result of this choice, the first two interview questions and the 
+respondents’ answers were chosen. The total word count for responses to these two ques￾tions across 11 interviews is 6306 words. I acknowledge that this selection could limit the 
+scope of my application of ChatGPT in thematic analysis.
+To facilitate QDA, I employed a thematic analysis approach. Thematic analysis can 
+be classified into three broad types, ranging from small q qualitative research to Big Q 
+qualitative research [see Kiddler and Fine (1987) for the origin of this classification]: 
+coding reliability, codebook, and reflexive thematic analysis (Braun and Clarke 2022). 
+Of these, coding reliability thematic analysis (small q qualitative) tends to apply posi￾tivist and/or realist assumptions (e.g., the use of intercoder agreement check to meas￾ure validity), while reflexive thematic analysis (Big Q qualitative) rests on non- (or 
+anti-) positivist principles that consider knowledge production as “partial, situated, and 
+contextual” with the researcher’s subjectivity as a crucial resource, and the codebook 
+approach lies somewhere in between (Braun and Clarke 2024). Because the reflexive 
+thematic analysis by Braun and Clarke (2019) demands considerable researcher reflex￾ivity and  extended engagement with the data, I consider it less suitable for my cur￾rent study. Meanwhile, as a qualitative researcher, I do not subscribe to the coding reli￾ability approach, which advocates for the accuracy and objectivity of data analysis by 
+employing multiple coders, requiring intercoder agreement check, and developing an 
+early codebook or coding scheme. Hence, for this study, I adopted the Template Analy￾sis approach proposed by King et al. (2018). Their approach occupies a middle ground 
+between the above-mentioned approaches, incorporating principles from both Big Q and 
+small q traditions in qualitative data analysis. For instance, while Template Analysis 
+proposes the use of some a priori themes in the very early stage of data analysis (i.e., 
+preliminary coding) based on prior projects, existing theories, or researchers’ experi￾ence (King et al. 2018, p. 202), it remains open to the emergence of new themes during 
+later stages of data analysis. King et al. (2018, p. 200) make this clear: "In any case, a 
+priori themes in thematic analysis should always be considered as tentative. If they do 
+not prove to ‘fit’ with the data they can be revised or deleted just like any other theme". 
+
+4954 K. Nguyen‑Trung 
+This approach relatively fits my pragmatic orientation, which relies on abductive rea￾soning- moving back and forth between induction and deduction (Morgan 2007, p. 71) 
+- rather than committing exclusively to either only deductive or inductive reasoning.
+Based on King et  al.’s model (2018), I developed a Guided AI Thematic Analysis 
+(GAITA) including four steps (see Fig. 1). Specifically designed to enhance the effec￾tiveness when working with ChatGPT, the Guided AI Thematic Analysis (GAITA) sim￾plifies King et al.’s (2018) original eight-step Template Analysis. As seen in Fig. 1, the 
+first two steps are similar to the original version: data familiarization and preliminary 
+coding. The differences are in Steps 3 and 4. Step 3 focuses on template development 
+by combining the tasks of "Clustering", "Developing the initial template", "Modifying 
+the template" and "Defining the ’final’ template". In this step, I refrained from hav￾ing GPT-4 early produce and define themes. Instead, Step 4 is specifically designed for 
+theme generation. Different from the original Template Analysis approach, theme gen￾eration is separated from template formation and refinement for two reasons. First, this 
+separation allowed me to train GPT-4 on the differences between clusters and themes. 
+As shown in the results section below, GPT-4 demonstrated that it could not distinguish 
+key concepts in QDA such as code, cluster/ category, template, and theme. This issue 
+could be due to its lack of training on QDA-specific data. Thus, it is important to guide 
+GPT-4 in the cluster and theme development process. Second, the separation helped 
+prevent GPT-4 from jumping too early into theme development before a careful analysis 
+of the dataset. Note that GPT-4 can generate themes immediately after we give it the 
+transcripts. Yet, we could not check whether these early-generated themes are mature 
+or meaningful. Moreover, the production of an overarching theme was also not present 
+in King et al.’s (2018) approach but I believe this is important for generating a narrative 
+that unifies themes, clusters, and codes. In this study, I omitted the steps of using the 
+final template to interpret data and writing up, due to time constraints and resources. In 
+Fig. 1   A Guided AI Thematic Analysis procedure
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4955
+practice, Step 4 - Theme development - can also include interpretation and writing up 
+the findings.
+Table 1 describes the main prompts (i.e., key commands) in correspondence with each 
+step of the GAITA approach. The detailed prompts are provided in the results section. I 
+numbered those prompts to help readers easily follow the steps I took. The researcher’s 
+role was to lead and monitor GTP-4 throughout the analysis process. My responsibilities 
+included, but were not limited to, defining and refining my inputs (e.g., research needs, 
+prompts), evaluating GPT-4’s outputs, requesting GPT-4 to revise its outputs, and docu￾menting my decisions along the analysis journey.
+Please note that in Table 1, only the key tasks are presented for each prompt. The full 
+prompts are provided in the result section. Based on current prompting guidelines (Lin 
+2024; Eager 2023) and inspired by Presseau et al.’s (2019) Action, actor, context, target, 
+and time (AACTT) framework, I developed a framework for writing prompts in QDA 
+called “ACTOR” (Table  2). This abbreviation stands for Actor, Context, Task, Outputs,
+and Reference, representing the five components in each prompt. Actor refers to the role￾play prompting technique that assigns AI a specific role or persona (Kong et  al. 2023). 
+Outlining tasks in specific steps helps elicit chain-of-thought reasoning (Wei et al. 2022). 
+Specifying output formats employs a template pattern technique (White et al. 2023), while 
+providing examples of outputs or contextual information (e.g., examples of qualitative 
+analysis concepts) can be categorized as a few-shot technique (Ma et al. 2023). Reference
+can serve either as the data source (inputs) for ChatGPT to analyze or as output exam￾ples (e.g., create the table following the format in the uploaded file). However, a prompt 
+does not always need to include all five components. For instance, if researchers already 
+included the designed role of ChatGPT in the first conversation (Actor), they could omit 
+this component in follow-up prompts—up to the point where context window is exceeded 
+(see Sect. 6: Discussion).
+4  Results
+In this section, I present the Template Analysis process through four steps of my GAITA 
+approach.
+4.1  Step 1: Data familiarization
+In this step, researchers typically engage in repeated reading to become familiar with their 
+dataset and form a preliminary mental map of data locations and relationships. The ques￾tion addressed here is how ChatGPT can assist with this process.
+To evaluate, I first conducted data familiarization with one transcript (Interview Num￾ber 1 with Barbara). Initially, I performed the analysis step manually. This step included 
+reading the whole transcript and producing my summary of the transcript to help grasp the 
+whole meaning of each transcript. I recorded this process to see how long it took me to fin￾ish these tasks. Subsequently, I used GPT-4 to help grasp the content of the transcript, and 
+finally, I compared its summary with mine. I used the following prompts to ask ChatGPT 
+to generate different summaries of the transcript.
+Prompt 1.1 Can you please provide a summary of this interview [Interview number 
+1 with Barbara]?
+
+4956 K. Nguyen
+‑Trung 
+Table 2 The ACTOR framework for prompting in qualitative data analysis
+Source: Adapted from Lin (2024), Eager (2023), Presseau et al. (2019)
+Components Description Example
+Actor Specifies the role of ChatGPT, associating it with specific functions, clearly defining its operational domain “You’re a qualitative research assistant”
+Context Includes essential background information about the task (e.g., research questions), explaining concepts 
+(e.g., code, cluster, theme) and domain knowledge necessary for ChatGPT to understand and execute its 
+tasks effectively
+“Code is defined as…”
+Task Clearly defines the specific actions ChatGPT is expected to perform, such as summarizing transcripts, as 
+well as actions it should avoid, such as producing overlapping codes
+“Can you please summarize this transcript…?”
+Outputs Describes the expected end product in detail, providing clear examples of what the outputs should look like, 
+including the format and structure
+“…in three key bullet points”
+Reference Provides specific data or resources that the AI should reference or analyze during its task execution, such as 
+transcripts, documents, or datasets, to ensure accurate and relevant outputs
+“###Here is the transcript…”
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4957
+Prompt 1.2 Highlight the key ideas of the interview in three key bullet points.
+It took me, on average, 11 min to read over one transcript without taking any notes, as I 
+usually did, and about 5–6 min to produce a 207-word summary without paying attention 
+to grammatical and spelling errors. GPT-4 produced a summary of 419 words in about 
+30 s. Its summary includes 7 paragraphs, which consist of subheadings such as Personal 
+History and Connection to Down East, Connection to Down East’s Natural Environment, 
+Professional Perspective on Down East, Community and Environmental Changes, and 
+Vision for the Future of Down East. In doing so, GPT-4 did not repeat information already 
+stated. When generating the three bullet-point highlights, GPT-4 finished in 9 s. GPT-4 dis￾played a high level of understanding of the transcript, highlighting the distinction between 
+the culture-community-environment nexus, key environmental challenges, and Barbara’s 
+vision for the future (see Appendix 1).
+Proceeding to a summary of the entire dataset, I took advantage of GPT-4’s ability to 
+scan and respond to queries about the files I uploaded to the chat window. I created a file 
+named ‘All 11 interviews’ containing all 11 transcripts, with 20,832 words (including the 
+headings of each interview I added). Here is the prompt for GTP-4.
+Prompt 1.3 Can you please provide me with a 400-word summary of key ideas from 
+all the interviews in the uploaded file? All interviews are numbered, and each starts 
+with a short introduction of the interviewees.
+GPT-4 generated a summary (see Appendix 2) in just 10 s. In this summary, ChatGPT 
+was not only able to provide the summary of the key points but also identify key themes 
+of the dataset (in its own definition of theme), including deep community roots, environ￾mental connection and concerns, economic shift, cultural and social change, visions for the 
+future, and local knowledge and wisdom, for all interviews. This suggests that GPT-4 has 
+the capacity to generate themes once it has the raw data. However, as I suggested above, I 
+avoided using its produced themes at this stage to allow me to have a meaningful engage￾ment with the data.
+4.2  Step 2: Preliminary coding
+This step contained two tasks: one was to start preliminary coding of the first transcript 
+to produce a list of initial codes, and the other was to use this list to code and recode the 
+rest of the transcripts. For the sake of testing GPT-4, in this task I focused only on two 
+questions out of six in the  Down East’s interview, including “Q1. Connection to Down 
+East” and “Q2. Connection to Down East’s natural environment.” I also needed to provide 
+GPT-4 with the research question “How do these people connect to Down East?” to set up 
+the necessary context. From this step, I created a Google Sheets file to record and manage 
+GPT-4’s outputs.
+4.2.1  Coding the first transcript
+In this task, I gave ChatGPT the following prompt to work with the first transcript, namely, 
+Barbara’s interview. In Prompt 2.1, I incorporated the definition of codes from Saldaña 
+(2016) to help train GPT-4.
+Prompt 2.1 You’re a qualitative research assistant. You will help me identify the rel￾evant codes from the following transcripts in response to this question: “How do 
+
+4958 K. Nguyen‑Trung 
+these people connect to Down East?”. Codes are labels that assign summative, sali￾ent, essence-capturing, and/or evocative attribute/ meaning to a portion of data. 
+#The final outputs are a table like this: 
+Column 1: Code; Column 2: Description of code meaning; Column 3: Quotation 
+representing the code from transcript.
+##Here is the transcript [insert the transcript]
+In its result, GPT-4 was able to produce five initial codes that match the datum (i.e., 
+statements from the interviews). Despite this, GPT-4’s labeling could be more meaningful. 
+For instance, the in vivo code “feeling local” extracted from the phrase “feel kind of like 
+a local,” could replace the code “Connection as Non-Local.” Based on my own coding of 
+Barbara’s interview (Appendix 3), I also saw that “natural beauty” was one of the key ideas 
+in Barbara’s connection to Down East. As such, I asked GPT-4 to revise the list based on 
+my suggestion. Table 3 includes a revised list of six codes. The content in […] were my 
+edits, while some strikethroughs were the deleted GPT-4-generated content based on my 
+judgement.
+4.2.2  Coding the rest of the transcripts
+The next task was to apply the revised list of initial codes to the remaining transcripts (10 
+interviews) from the 10 remaining interview transcripts. I created a file named “10 inter￾views” containing 5,682 words, including answers to two questions, Q.1. Connection to 
+the Down East and Q.2. Connection to the Down East natural environment. I then asked 
+GPT-4 to study the revised list of initial codes and prepare for my next request (Prompt 
+2.2). GPT-4 responses showed that it was able to perform the task I requested. In my first 
+attempts, I focused on testing GPT-4’s capacity to code the whole file by asking it to ana￾lyze the entire dataset (20,832 words) (see Prompt 2X, Appendix 4). GPT-4’s output was 
+too brief. Each code only contained quotes from one interview, which risked losing much 
+information from the other interviews. When I asked GPT-4 to produce a Google Sheets 
+file to ensure the detailed level of coding, it acknowledged, “Given the volume of text and 
+the depth of analysis required, compiling and summarizing this information into a Google 
+Sheet file is a substantial task that requires significant time and attention to detail. Unfor￾tunately, I cannot directly produce or share files.” This result shows that GPT-4, despite its 
+advanced technologies, was still unable to work with a large qualitative dataset at once. If 
+we tried to ask it to do so, its coding would be superficial.
+After this unsuccessful attempt, I worked with each transcript one by one. I broke the 
+prompts into smaller tasks. In Prompt 2.2, I asked GPT-4 to get familiar with the current 
+list of initial codes based on Barbara’s interview, then in Prompt 2.3, I asked this tool to 
+apply the list to code the remainder of the transcripts.
+Prompt 2.2 Please study the following list of initial codes developed based on the 
+interview with Barbara. We will use this list to code relevant information in response 
+to the question, “How do these people connect to Down East?” In the next question, 
+I will ask you to apply this list in table format to code the rest of the dataset. ### 
+Here is the list of codes [insert the revised list of initial codes based on Barbara’s 
+interview here].
+Prompt 2.3 Now, apply the revised coding framework based on the interview with 
+Barbara to the following interview in response to “How do these people connect to 
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4959 Table 3 A revised list of initial codes based on Barbara’s transcript Code Description Quotation from Transcript 1. Family Connection [history] Connection to Down East through family history and upbring- ing “My family moved here when I was two years old in 1969. My parents still live here. They live down in Gloucester. But I was raised in Beaufort…” 2. Duration of Residence The length of time Barbara and her family have lived in Down East, both full time and part time “Since’96. My husband and I bought this little cottage in’96… It was full time, but then in 2000 he got a job up North…” 3. Connection as Non-Local [Feeling local] Despite living most of her life in Down East, Barbara doesn’t feel she is considered a local, yet she feels connected  as one “Yeah. And I’m definitely not considered a local. Even though I feel kind of like a local.” 4. Attraction to Community The desire to raise a family in a strong community and the beauty of the area attracted Barbara to return to Down East “At that time I thought I’d like to have kids and I wanted to raise them in a place that had this strong community that I enjoyed growing up…” 5. Unique Cultural Experience Barbara’s perception of what makes Down East unique, including the distinct communities and colourful language and culture “I think it is just how distinct the different communities are because of the geographical isolation and that—all the differ- ent accents…” 6. Natural Beauty [added] Appreciation for the area’s natural landscapes and environment “I’ve always thought it was some of the most beautiful beaches and just water anywhere.” (Barbara)
+
+4960 K. Nguyen‑Trung 
+Down East?” # The final output must be a table with the following columns: code, 
+description, and interview quotes, including the interviewee’s name. ## When doing 
+so, you should: (1) maintain the code order in the current coding framework; (2) 
+edit the current coding framework and/or add new codes to the end of the table to 
+reflect new information. When there is a new code, please indicate by adding *; (3) 
+edit the coding description to reflect your change; (4) add quotes from the interview 
+to illustrate the code. In case there are no relevant direct quotes, please summarize 
+the information from the interview. ### Here is the interview with Charles [Charles’ 
+interview here].
+GPT-4’s response to Prompt 2.3 was significantly improved. GPT-4 was able to add 
+one more code, “7. Engagement with Local Industry,” based on the new information from 
+Charles’ interview. When there was no information matching the code, it responded, “No 
+direct quote.” I continued to use Prompt 2.3 for the rest of the interviews. After coding one 
+transcript, GPT-4 produced a table with a list of codes and corresponding quotations. In 
+this step, I needed to verify if a single quotation was accurately reflected in the correspond￾ing code. After coding the first five transcripts including Barbara’s interview, the list of 
+preliminary codes created by GPT-4 contained 10 codes —4 more than the initial list. This 
+list was consistent, requiring no further revisions from me. From then on, GPT-4 main￾tained this number of codes and did not produce any new ones. To ensure completeness, I 
+added this question, “Is there any new information that would help form new codes?” after 
+each round of coding. GPT-4 would explain that there is no new information and that the 
+current list of codes is already comprehensive. Table 4 presents the comparison between 
+the list of initial codes based on Barbara’s transcript and the refined list of codes after cod￾ing the whole dataset. This was the result of my revising and editing with the support of 
+GPT-4. The next step is to apply this refined list to form clusters.
+4.3  Step 3: Template refinement
+The goal was twofold: (1) to condense data by building clusters or categories, which are 
+more abstract than preliminary codes; and (2) to modify and finalize the initial template. 
+Prompt 3.1 asked GPT-4 to group the initial codes in Step 2 (Table  4) into meaningful 
+clusters.
+Prompt 3.1 From the above refined list of codes, please group codes into clusters 
+(i.e., more abstract codes) in response to the question: “How do these people con￾nect to Down East?”.
+#For each of the clusters, please retain the specific codes and quotations from spe￾cific transcripts. If two or more transcripts fall under the same cluster, please put 
+them together.
+##The final output will be a table: Column 1: Cluster; Column 2: Codes; 3. Descrip￾tion of Cluster Meaning; Column 4: Quotation from Transcripts. Please make sure 
+you quote the names of the interviewees for each quote.
+GPT-4 produced a table with four clusters (Appendix 5) while retaining codes and 
+representative quotes. However,  GPT-4 omitted the initial code “7. Engagement with 
+local industry” in this table. Therefore, I asked it to restore the code into the table and 
+create a fifth cluster. I also added the word “family” to the first cluster to make it more 
+meaningful. Table 5 presents the initial template in King et al.’s (2018) sense.
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4961 Table 4 Comparison between the initial and refined lists of codes List of initial codes *Indicates the new codes after coding the remaining transcripts Refined list of codes Code description 1. Family history 1. Family history Connection to Down East through family history and upbringing 2. Duration of Residence 2. Duration of Residence The length of time spent living in Down East, both full time and part time 3. Feeling local 3. Feeling local Feel as a local in Down East 4. Attraction to Community 4. Attraction to Community The desire to raise a family in a strong community and the beauty of the area attracted Bar- bara to return to Down East 5. Unique Cultural Experience 5. Unique Cultural Experience What makes Down East unique is its distinct community with colourful language and culture 6. Natural Beauty 6. Natural Beauty Appreciation for the area’s natural landscapes and environment N/A 7. *Engagement with Local Industry *Engagement in local fishing industry and integration into local economic activities N/A 8. *Local Traditions and Activities *Engagement in traditional local activities and appreciation for the lifestyle N/A 9. *Advocacy for Local Industries *Active leadership and involvement in initiatives to support and sustain local industries N/A 10. *Environmental Awareness *Strong awareness and concern for environmental issues affecting Down East
+
+4962 K. Nguyen‑Trung 
+With this initial template, the next task was to modify and ultimately finalize the tem￾plate. This task would involve recoding and recategorizing data. First, to ensure capturing 
+nuances in the data, I asked GPT-4 (Prompt 3.2)  to create additional subcodes for each 
+cluster based on the previously identified quotations from each transcript (see Prompt 2.3, 
+Step 2).
+Prompt 3.2 Now I need you to further develop the coding table above by generating 
+subcodes for each code based on the quotation I give you. I will provide you with the 
+quotations under each code. #Task: You need to (1) add those quotations to the suit￾able subcodes, (2) create new subcodes to label these quotations’ contents. The final 
+output is a table with this structure: cluster, code, subcodes, description of subcodes, 
+quotations. ###Here is the first set of quotations under "family history" [paste the 
+data… and repeat with the code “Duration of residence”]
+Then I repeated Prompt 3.2 for the code “duration of residence.” GPT-4 generated two 
+tables of clusters, codes, and subcodes for each of the above codes. Table 6 contains the 
+results generated by GPT-4 for the first cluster, “Family Connection to Place.”
+As shown in Table 6, the two codes “Family history” and “Duration of residence” have 
+many overlapping subcodes (e.g., “generational residence” versus “settled for genera￾tions”). Although I asked GPT-4 to remove the redundancies, it still repeated some overlap￾ping contents. In response, I intervened and made subjective decisions. Prompt 3.3 guided 
+GPT-4 on how to arrange the codes and subcodes in a more meaningful way.
+Prompt 3.3 The two tables are still somewhat overlapping. Please create one new 
+table combining two coding tables. In this table, please build the coding structure as 
+follows: 1. Family history: 1.1. Generational ties (settled for generations); 1.2 Early 
+Childhood or Upbringing; 2. Duration of Residence: 2.1 Acquisition of Property; 
+2.2. Long-term residence; 2.3 Recent relocation. Please also add any new subcodes 
+or codes that you find missing from my suggested list.
+Table 5  Initial template based on clustering
+1. Family Connection to Place
+ 1.1 Family history
+ 1.2. Duration of Residence
+2. Cultural Connection
+ 2.1. Feeling loca
+ 2.2. Unique Cultural Experience
+3. Community Engagement
+ 3.1. Attraction to Community
+ 3.2. Local Traditions and Activities
+4. Appreciation of Environment
+ 4.1. Natural Beauty
+ 4.2 Environmental Awareness
+5. Advocacy for local industry
+ 5.1 Engagement with Local Industry [re-added by the author]
+ 5.2. Advocacy for Local Industries Economic Participation
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4963
+Responding to this prompt, GPT-4 suggested new subcodes. This revised list of codes 
+and subcodes under Cluster “Family Connection to Place” is presented in Table 7.
+In applying the same procedure (Prompts 3.2 and 3.3) to the remaining clusters, GPT-4 
+continued to  produce overlapping codes and subcodes or  to place them in inappropriate 
+clusters. During this process, I used the Google Sheets file and edited the GPT-4 recoded 
+list. This task required my own intellectual effort in judging and making decisions on how 
+to better arrange codes, subcodes, and clusters. After ten rounds of recoding and recatego￾rizing, I arrived at the final template with relatively distinctive clusters and codes (Table 8).
+4.4  Step 4: Theme development
+In this step, I asked GPT-4 (Prompt 4.1) to develop a theme table based on the final tem￾plate. The definition of a theme was taken from King (2012, pp.431–432).
+Prompt 4.1 From the above table of clusters, please generate themes across the 
+clusters and codes in response to the question: “How do these people connect to 
+Down East?”. #Theme is defined as the recurrent and distinctive features of par￾Table 6  GPT-4’s subcode 
+generation for the cluster “Family 
+Connection to Place”
+GPT-4’s first recoding cluster “Family Connection to Place”
+1. Family Connection to Place
+ 1.1 Family history
+  1.1.1 Early childhood relocation
+  1.1.2 Generational residence
+  1.1.3 Long-term family presence
+  1.1.4 New generational roots
+ 1.2 Duration of residence
+  1.2.1 Recent acquisition
+  1.2.2 Long-term residence
+  1.2.3 Settled for generations
+  1.2.4 Recent relocation
+Table 7  Researcher and GPT￾4’s revised coding for Cluster 
+“Family Connection to Place”
+1. Cluster: Family Connection to Place
+ 1.1. Family history
+  1.1.1. Generational Ties
+  1.1.2. Early Childhood or Upbringing
+  1.1.3. New Family Integration [new code]
+ 2.1. Duration of Residence
+  2.1.1. Acquisition of Property
+  2.1.2. Long-term Residence
+  2.1.3. Recent Relocation
+  2.1.4. Seasonal Residence [new]
+  2.1.5. Return After Absence [new]
+
+4964 K. Nguyen‑Trung 
+Table 8  Final template
+Cluster Code Subcode
+1. Family connection to Place 1.1 Family history 1.1.1 Generational Ties
+1.1.2. Early Childhood or Upbring￾ing
+1.1.3. New Family Integration
+1.2 Duration of Residence 1.2.1. Acquisition of Property
+1.2.2. Long-term Residence
+1.2.3. Recent Relocation
+1.2.4. Seasonal Residence
+1.2.5. Return After Absence
+2. Cultural Connection 2.1 Feeling Local 2.1.1 Self-Perception as Local
+2.1.2 Community Recognition
+2.1.3 Self-Roots
+2.2 Unique Cultural Experience 2.2.1 Linguistic Uniqueness
+2.2.2 Local Culture and Heritage
+2.2.3 Architectural uniqueness
+2.2.4 Talent and Artistry
+3. Attachment to community 3.1. Engagement in Local Activi￾ties
+3.1.1. Swimming and Water Activi￾ties
+3.1.2 Clamming
+3.1.3 Fishing and Shelling
+3.1.4 Seafood Gathering
+3.1.5 Seasonal Visits
+3.1.6 Flounder Gigging
+3.17 Boating and Exploration
+3.2 Community Belonging 3.2.1 A big family
+3.2.1.1 Inherited Land Connection
+3.2.1.2 Familiarity and Friendship
+3.2.2 Peace in Belonging
+3.2.3 Community Support
+3.3 People 3.3.1 Real People
+3.3.2 Hard working people
+3.3.3 Commercial fishermen
+3.4 Desirable Community Values 3.4.1 “Strong community”
+3.4.2 “Raising children”
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4965
+ticipants’ accounts that characterize perceptions and/or experiences, seen by you as 
+the researcher as relevant to the research question of a particular study. Each theme 
+should link the cluster(s) and/or code(s) with the context of Down East. Themes must 
+be relatively distinct from each other, although some overlap is inevitable. ##The 
+final output will be a table: Column 1: Theme; Column 2: Clusters and Codes used 
+for the theme; 3. Description of Theme Meaning; Column 4: Quotation from Tran￾scripts. Please make sure you quote the names of the interviewees for each quote.
+GPT-4 generated a table with six themes, including Generational Anchoring; Long￾Term Residence and Attachment; Local Identity and Cultural Pride; Community Engage￾ment and Belonging; Environmental Connection and Stewardship; Economic and Industry 
+Advocacy. This result shows that GPT-4 is capable of producing themes across different 
+clusters and codes. Yet, the suggested themes do not appear significantly different from 
+clusters, although I had  provided the definition of theme in Prompt 4.1. This might be 
+because that GPT-4 did not ‘understand’ the concept of “theme” in qualitative research. 
+Themes are different from categories or clusters because their meanings are well situated 
+in the socio-economic contexts of the research sites (Saldaña 2016). To make themes more 
+meaningful, it is necessary to guide GPT-4 to extend the themes’ names that so that they 
+are connected back to the context and our research question (see Saldaña 2016). Thus, I 
+asked GPT-4 to revise the list of themes (Prompt 4.2).
+Table 8  (continued)
+Cluster Code Subcode
+4. Appreciation of Environment 4.1 Water Connection 4.1.1 Beaches and Waterways
+4.1.2 “Clean water”
+4.1.3 Personal History with Water
+4.2 Natural Beauty 4.2.1 Marshland Connection
+4.2.2 Core Sound’s Beauty
+4.2.3 “Magical Place”
+4.3 Desire for Preservation 4.3.1 Desire for Natural Preserva￾tion
+4.3.2 Beauty of Remoteness
+4.3.3 “Rural feel”
+4.4 Environmental vulnerability 4.4.1 Fragility of Environment
+4.4.2 Development Concerns
+4.4.3 Concern for water quality
+4.4.4 Protecting Environment
+5. Industry Involvement 5.1. Engagement with Local 
+Industry
+5.1.1 Direct Involvement
+5.2 Advocacy for Local Industries 5.2.1 Organizational Leadership
+Note: I have excluded quotations for each subcode from this table
+
+4966 K. Nguyen‑Trung 
+Prompt 4.2 Can you revise the themes’ names and descriptions by: (1) extending the 
+theme names so that they are meaningfully connected to the social context of Down 
+East; (2) ensuring that the themes and their descriptions answer the question “How 
+do these people connect to Down East?
+Based on my suggestion, GPT-4 was able to reproduce the following themes (note: 
+words in […] are my addition/edits (Table 9). I added the words “connection through” to 
+make the themes more meaningful and connected to my research question.
+After having the five themes, I asked GPT-4 to produce an overarching theme.
+Prompt 4.3 From the themes above, please produce an overarching theme in 
+response to the question “How do these people connect to Down East?”
+Table 10 shows that GPT-4 was able to connect five themes in response to the question 
+“How do these people connect to Down East?”. Its selection of the central theme “Rooted￾ness and Reverence in Down East” effectively captures the multiple connections and sense 
+of belonging that research participants felt towards Down East. Yet, to better align with 
+the research question, this label could be further refined by adding the phrase “Connection 
+through” to make it clearer. 
+Table 9  Revised list of themes 
+1. [Connection through] Generational and Historical Continuity: Individuals’ connections to Down East 
+are often anchored in family history, with deep generational roots or new family integration into the 
+community, emphasizing a continuity that spans decades or even centuries
+2. [Connection through] Cultural Identity and Local Pride: There is a strong sense of local identity, with 
+people feeling [proud of] the unique cultural fabric of Down East, characterized by [genuine people], 
+distinctive language, traditions, values, [and a sense of belonging and support within the community 
+structure] that are proudly maintained and celebrated
+3. [Connection through] Active Community Engagement: The theme highlights active participation in 
+and contribution to community life, through engagement in local activities and traditions, [maintaining 
+relationships with local people]
+4. [Connection through] Appreciation and Advocacy [for Natural Beauty and Environmental Sustain￾ability]: A significant aspect of the connection to Down East is the reverence for its natural beauty and 
+environment, coupled with a commitment to preserving its pristine quality and addressing environmen￾tal vulnerabilities
+5. [Connection through] Local Livelihood and Lifestyle: This theme represents Down East as a place 
+where economic activities, particularly fishing, and traditional practices form a core part of life, offering 
+both livelihood and meaning
+Table 10  GPT-4’s generation of an overarching theme
+The overarching theme in response to “How do these people connect to Down East?” is “[Connec￾tion through] Rootedness and Reverence in Down East” encapsulates the profound and multifaceted 
+connections that individuals have with the region. This theme reflects not only a deep-seated sense of 
+belonging and attachment stemming from generational ties and long-term residence, but also a profound 
+respect and appreciation for the unique cultural, environmental, and economic aspects of Down East
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4967
+5  Discussion
+Through the application of ChatGPT across nearly the full circle of Template Analysis—a 
+method that remains relatively underexplored in the current experiments with GenAI—my 
+study contributes to ongoing scholarly attempts to test the capacity of GenAI to analyze 
+qualitative data. My study provides a detailed how-to guide termed Guided AI Thematic 
+Analysis (GAITA), which adapts King’s (2018) Template Analysis into a four-step process 
+involving the use of GenAI. In response to the call for prompts designs tailored to qualitative 
+data analysis (QDA) purposes (De Paoli 2024), I propose the ACTOR framework (Actor, 
+Context, Task, Output, and Reference) that supports researchers in crafting effective prompts 
+using techniques such as chain-of-thought, template, few-shot, and role-play. Furthermore, 
+the GAITA framework emphasizes the interactive nature of qualitative analysis, highlight￾ing the importance of researcher knowledge, judgement, and interpretation in guiding GenAI 
+in the analysis process. Throughout this experiment, I advocate for a human-AI collabora￾tive approach, where researchers retain their decision-making and leadership in monitoring, 
+evaluating, critically reflecting on and learning from GenAI as an assistant in QDA.
+The use of ChatGPT in QDA presents several methodological implications that need 
+thorough consideration. Below I discuss some potential benefits and limitations based on 
+my experiment and offer some methodological and practical recommendations for working 
+with GenAI in QDA.
+5.1  Understanding GenAI’s potentials
+5.1.1  GenAI enables efficient code generation and data display
+GenAI can assist in generating initial codes and arranging coding hierarchies, which can 
+be a good starting point for more in-depth analysis. In my study, GPT-4 was able to code 
+the first transcript of Barbara’s interview and produce an initial list of codes. Subsequently, 
+GPT-4 could apply this coding framework to the remaining interview transcripts, and even 
+identify new codes when new information arose. However, GPT-4 sometimes produced 
+overlapping codes and misclassified similar codes under different clusters. This situation 
+required me to carefully evaluate GPT-4’s outputs and make decisions about (re)naming, 
+(re)arranging, and (re)allocating the codes and clusters. Researchers’ intervention is thus 
+critical in modifying the template and developing the final template. As with manual cod￾ing, we must guide GPT-4 through multiple rounds of coding and recoding to ensure it 
+captures the nuances from interviews. Since GPT-4 lacks specialized knowledge of QDA, 
+researchers need to explicitly direct it towards specific types of codes, such as an “in vivo” 
+code or a “process” code (De Paoli 2024), as it tends to default to descriptive codes—
+topic-based nouns (Saldaña 2016).
+GenAI is also helpful in facilitating data display—an “organized, compressed assembly 
+of information that permits conclusion drawing and action” (Miles and Huberman 1994, p. 
+11). Particularly, ChatGPT could turn unstructured text into more organized through dia￾grams, flowcharts, networks, or matrices that arrange data segments, codes, memos, and 
+themes according to our reasoning and interpretation.
+
+4968 K. Nguyen‑Trung 
+5.1.2  GenAI can assist in pattern recognition and theme generation
+Beyond coding, my findings show that GenAI demonstrates an ability to work across dif￾ferent codes and clusters to produce (overarching) themes, moving toward more abstract 
+levels of analysis. Based on its diverse training data, ChatGPT can grasp basic concepts 
+such as community, environmental stewardship, and culture. Through sustained interaction 
+with researchers, GenAI can be trained to work with more complex concepts deriving from 
+research questions and qualitative research methodologies such as code, cluster, and theme. 
+In this regard, ChatGPT or GenAI can be helpful in recognizing patterns of meaning across 
+the dataset and generating themes in response to our research questions.
+While I agree with Morgan’s (2023) observation that GenAI often struggles with construct￾ing interpretative themes, my findings suggest that GPT-4, when provided with proper guidance 
+throughout a full analysis process, can meaningfully connect different data layers (e.g., clusters, 
+codes, subcodes, data segments) to assist us in constructing more contextual and interpretative 
+themes. My current study is limited in fully executing Template Analysis’ final steps—namely, 
+using the final template for interpretation and report writing. Future research should close this 
+gap, thereby evaluating GenAI’s capacity to produce deeper interpretative insights.
+5.2  Recognizing GenAI’s limitations
+Despite its potential, the current ChatGPT model has some key limitations for QDA. I offer 
+some practical solutions to address them.
+5.2.1  GenAI has processing constraints with large datasets
+While GPT-4 improves upon GPT-3.5 through its file upload function, allowing users to input 
+extended text and multimodal files directly into conversation, its capacity to do complex tasks 
+involving long-text files and multiple steps remains limited. This limitation stems from GPT￾4’s context window, defined as “the maximum number of tokens that can be used in a sin￾gle request. This max tokens number includes input, output, and reasoning tokens” (OpenAI 
+2024). GPT-4’s context window of 8192 tokens means that it can process up to approximately 
+6,144 words, considering inputs, outputs, and reasoning tokens (with each token equivalent to 
+around 0.75 words in English). Given that my whole dataset (about 20,000 words) exceeded 
+its capacity, GPT-4 could not thoroughly code the entire text corpus as instructed.
+This technical constraint creates significant risks: when asked to analyze documents 
+beyond its context window, GPT-4 (and GenAI) may oversimplify complex qualitative data 
+as it can “forget” previous information, including established rules and data we gave them 
+from earlier conversations. Rather than condensing the data (i.e., abstracting data while 
+preserving its essential meanings) (Saldaña 2016), it tends to reduce data (i.e., omits por￾tions) and could even hallucinate or make up responses (Lakshmanan 2022, Morgan 2023). 
+Consequently, researchers must understand each AI tool’s context window limitations to 
+design appropriate prompts and manageable datasets.2
+ One practical solution is to divide 
+the dataset into smaller segments or chunks of text and process them sequentially, which 
+facilitates closer researcher supervision of AI-produced outputs.
+2 Currently, according to the report from Artificial Analysis (2024), Google’s Gemini 1.5 Pro has the larg￾est context window of 2 million token, followed by Jamba 1.5 Large (256,000 tokens), Anthropic’s Claude 
+3.5 Sonnet (200,000 tokens), OpenAI’s GPT-4o and o1-preview (both 128,000 tokens).
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4969
+5.2.2  GenAI tends to produce variable and inconsistent outputs
+Although it is easy to communicate with ChatGPT, as Morgan (2023) suggests, getting 
+what we want through ChatGPT is no straightforward task. The prompts and steps that I 
+presented above were not the result of one but many attempts to correct the prompts or 
+request ChatGPT to repeat its results. For instance, sometimes GPT-4 did not follow my 
+prompts to create a table with desired columns; instead, it only presented a quick summary. 
+In this case, I had to repeat or adjust the prompts several times before obtaining the results 
+in the desired format.
+5.2.3  Using GenAI chatbots requires working across multiple platforms
+One of the advantages of CAQDAS programs is that they create a single workspace where 
+researchers can link everything from data to codes, from codes to clusters and themes to 
+notes, and can retrieve them anytime. While GPT-4 did not offer the capacity to retrieve 
+contents across its conversation, current ChatGPT or Claude models offer this funtionality. 
+The larger issue, however, is that we need to navigate through different windows and pro￾grams when using a GenAI chatbot. In my case, I needed to arrange the original dataset in 
+Microsoft Word, uploaded files into ChatGPT, then exported the results back to Microsoft 
+Word or Google Sheets for further work (linking, categorizing, and memo-writing). While 
+GenAI chatbots currently allow users to import data from Google Drive or a local com￾puter and export files into specific formats (e.g., Rich Text Format, Word, Excel) and allow 
+to organize conversations into folders (e.g., the feature of “Projects” in Claude), users still 
+need to work across multiple platforms. Consolidating the analysis process and results into 
+a single Google Sheet file is helpful in this case.
+5.3  Developing a systematic approach to ensure methodological rigor
+To revisit Gerson’s (1984) hypothesis that AI should possess “sociological knowledge” 
+to serve as a research assistant, we can argue that GenAI now possesses general knowl￾edge of many topics because of its vast amount of training data, including its capacity to 
+understand common concepts such as family, traditions, environmental stewardship, and so 
+forth. Yet, GenAI in general and ChatGPT in particular, is not trained in the proper knowl￾edge and rules required for qualitative research. For instance, in my study, GPT-4 gener￾ated themes that were indistinguishable from clusters, and as a result, initial themes lacked 
+contextual meaning connected to the research participants.
+To address this limitation, we need to train GenAI in QDA principles and concepts (De 
+Paoli 2024). This might involve some technical configuration within the  GenAI system. 
+For instance, in ChatGPT, we can design “Custom Instructions” (this is also available for 
+the free version), which is a set of rules and principles that tell ChatGPT what it should and 
+should not do when handling qualitative data. For instance, we need to tell it not to make 
+up any data and strictly use the data from the transcripts we uploaded. For ChatGPT’s paid 
+version, users can now create a customized GPT for QDA purposes (Claude offers similar 
+functionality with its “Projects” feature), which allows uploading documents to its knowl￾edge base. In these documents, we can include key concepts and principles in QDA that act 
+as a guideline for GenAI’s data processing and responses.
+
+4970 K. Nguyen‑Trung 
+More importantly, qualitative researchers need a systematic approach to guide and train 
+GenAI in establishing trustworthiness in qualitative data analysis. This approach should high￾light the primary role of the researchers in engaging with the data, meaning-making, analyz￾ing data, and making final decisions about the interpretation (Paulus and Marone 2024). This 
+approach should also enable researchers to monitor, evaluate, self-reflect, and learn from their 
+interaction with GenAI. Furthermore, qualitative researchers as the “instrument of study” 
+(Watt 2007) must be responsible for the knowledge they produce in engaging with data.
+Additionally, to ensure methodological rigor, our approach needs to develop vari￾ous means such as triangulation, documentation, researchers’ reflexivity, and audit trails 
+(Nowell et al. 2017). In this paper, to enhance methodological rigor, I offer a detailed four￾step Template Analysis framework or a Guided AI Thematic Analysis (GAITA) with clearly 
+defined prompts, AI’s tasks, and researchers’ roles. In particular, the GAITA approach offers 
+a reflexive space for researchers to think deeply about their inputs (e.g., prompts, tasks, 
+expectations of AI), evaluate AI-generated outputs, and document their decision-making 
+process in each analytical step. This space enables an ongoing, iterative process for monitor￾ing, evaluation, self-reflection and learning throughout the analysis process. This systematic 
+approach allows for AI integration in thematic analysis while maintaining “trustworthiness” 
+as proposed by Nowell et al. (2017). Therefore, instead of developing a procedure that lets 
+GenAI work as autonomous agents, in this paper, I champion the process that researchers 
+take GenAI as their assistant and maintain the lead throughout the analytical process. GenAI 
+can support here and there, but in the end, researchers must be able to claim that they pro￾duce the knowledge through their intellect, positionality, and reflexivity.
+6  Conclusion and implications
+“[D]umping my text into a program and seeing what comes out” (Weitzman 2003, p. 315) 
+might not be possible with most of CAQDAS (except Atlas.ti, MaxQDA and NVivo with 
+AI functions), but it is now possible with GenAI chatbots such as ChatGPT, Claude, Copi￾lot, or Gemini. However, this comes with the risks of inappropriate uses of GenAI for 
+qualitative research’s purposes. Instead, researchers working with these AI models should 
+always be careful with AI-generated outputs since they could hallucinate their responses 
+and carry the biases from their trained data into their judgement and outputs (Yan et al. 
+2023; Parker et  al. 2023). Additionally, the hesitation of many qualitative researchers 
+in using AI and ML in analyzing qualitative data is understandable as the use of these 
+advanced technologies seems to conflict with key principles in qualitative research (Chen 
+et al. 2018; Paulus and Marone 2024). These principles include seeing QDA as an “art” 
+rather than a science, which is driven by researchers’ judgement, reflexivity, creativity, 
+experience, worldviews, cultural beliefs, intuitions, non-linear thinking, and even biases 
+(Braun and Clarke 2019, 2022; Woods, Macklin, et al. 2016). The use of researchers as a 
+primary tool in building rapport with the research participants, experiencing the world first￾hand, reflexively making sense of and interpreting the world in which the participants live, 
+makes their analyses unique. Consequently, the researcher’s role should not be replaced by 
+machines with mechanical procedures (Woods, Macklin, et al. 2016).
+I believe that this statement still holds, even with the recent advancements of AI-pow￾ered tools like ChatGPT. Although we can dump our data into ChatGPT and let it gener￾ate codes, clusters, or themes, it risks oversimplifying nuanced data, and more impor￾tantly, losing our identity as qualitative researchers. The warning from Lee and Fielding 
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4971
+(1991, p. 8) that “the untutored use of analysis programs can certainly produce banal, 
+unedifying, and off-target analysis” is still valuable in the case of GenAI. I argue that 
+despite the advancements in GenAI and potential future developments, it remains crucial 
+for qualitative researchers and practitioners to be well-versed in QDA methodological the￾ories. It is critical not to let AI tools dictate our analytical approaches; rather, we should 
+always guide AI’s behaviors with our own reflexivity, intellectual judgement, and exper￾tise (Woods and Wickham 2006). In the end, what truly matters (and therefore makes our
+qualitative research unique) is the social construction of knowledge based on the interac￾tion between the researcher and the participants.
+7  Appendix
+7.1  Appendix 1: GPT‑4’s summary of Barbara’s transcript in three bullet points
+Role Summary of key ideas Duration/words
+GPT-4 - Barbara emphasizes the importance of Down East’s unique culture, community, 
+and environment, and notes the challenges in obtaining septic permits for local 
+development due to low land levels and high water tables
+- She observes the decline in commercial fishing due to environmental degrada￾tion and market factors, identifies stormwater runoff as the primary culprit 
+for water quality issues, and highlights the negative impact of excessive land 
+clearing on local wildlife
+- Barbara’s vision for Down East’s future includes maintained water quality, 
+environmental protection, sustainable fishing practices, and increased reliance 
+on renewable resources. However, she sees resistance to zoning in the area as a 
+significant hurdle to comprehensive planning and sustainable development
+9 s
+112 words
+7.2  Appendix 2: GPT‑4’s summary of all interviews
+The interviews in your file explore the personal, environmental, and professional perspectives of various indi￾viduals connected to the Down East region in North Carolina. Key themes from these narratives include:
+Deep Community Roots: Many interviewees have long-standing family connections to the area, often 
+spanning generations. This deep connection fosters a strong sense of community and belonging
+Environmental Connection and Concerns: The natural environment of Down East, particularly its 
+waterways and marshes, is a central aspect of life. Interviewees express concerns about environmental 
+changes and challenges, including water quality and the impact of development
+Economic Shifts: There’s a recurring theme of transition from traditional industries, like fishing, to other 
+forms of livelihood. This shift is often linked to environmental, market, and regulatory changes
+Cultural and Social Changes: The interviews reveal tensions between maintaining traditional ways of life 
+and adapting to new circumstances, including the influx of new residents and shifting economic realities
+Visions for the Future: Despite varied backgrounds, many share a vision for Down East that balances 
+economic development with environmental preservation and community values
+Local Knowledge and Wisdom: The narratives underscore the importance of local knowledge in understand￾ing and addressing regional challenges, particularly in environmental and community development matters
+These interviews provide a rich, multifaceted view of life in Down East, reflecting its complexities and the 
+diverse perspectives of its residents
+
+4972 K. Nguyen‑Trung 
+7.3  Appendix 3: Code list of Barbara’s transcript by the author and GPT‑4
+Author’s coding GPT-4’s coding
+1. Family history 1. Family Connection
+2. Childhood and education 2. Duration of Residence
+3. Property ownership 3. Connection as Non-Local
+4. Living duration 4. Attraction to Community
+5. Job 5. Unique Cultural Experience
+6. Feeling local
+7. Natural beauty
+8. Good for children
+9. Strong community
+10. Distinct culture
+7.4  Appendix 4: GPT‑4’s coding of the whole dataset
+Prompt 2X Please apply the coding framework above to coding each of the 10 interviews in the uploaded 
+file in response to the “How do these people connect to Down East?”. #You should code one inter￾view at a time. #The final output is a table with columns: Code, Coding Description, Interview Quotes 
+including interviewees’ names. ##When doing so, you should: (1) edit the current codes and/or add new 
+codes to reflect new information from new interviews; (2) edit the coding description to reflect your 
+change; (3) add quotes from all relevant interviews and the interview ID
+Example of GPT-4’s responses for one code: 
+- Code: Family history
+- Code description: Connection to Down East through family lineage and upbringing
+- Quotation: “My family has been here since the 1700s…" (Interview 2)
+7.5  Appendix 5: GPT‑4’s generation of the clusters
+Cluster Codes Description of Cluster 
+Meaning
+Quotation from Tran￾scripts
+Connection to Place 1. Family history, 2. 
+Duration of Residence
+This cluster reflects 
+the deep-rooted 
+connection to Down 
+East through family 
+history and duration of 
+residence
+"We’ve been here at least 
+two to three hundred 
+years." (Susan); "I’ve 
+owned my house in 
+Straits Township, in 
+Otway, for three years." 
+(William)
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4973
+Cluster Codes Description of Cluster 
+Meaning
+Quotation from Tran￾scripts
+Community Engagement 4. Attraction to Com￾munity, 8. Local Tra￾ditions and Activities, 
+9. Advocacy for Local 
+Industries
+Captures the engage￾ment with and 
+attraction to the local 
+community, participa￾tion in traditions, and 
+efforts to advocate for 
+local industries
+"The people here are 
+friendly, and God￾fearing…" (Patricia); 
+"During the summer 
+season, I am typically 
+on my boat or my dad’s 
+boat…" (William); 
+"And sometimes it 
+requires an outside hand 
+to help; and if I can be a 
+part of that, then I will." 
+(William)
+Appreciation of Envi￾ronment
+6. Natural Beauty, 10. 
+Environmental Aware￾ness
+Highlights the appre￾ciation for the natural 
+beauty of Down East 
+and the awareness of 
+environmental issues
+"I’m very fond of it. I 
+would hate to see it 
+change significantly." 
+(Robert); "I enjoy the 
+fact that for the most 
+part, the water, the bay 
+is very clean." (William)
+Cultural Connection 3. Feeling local, 5. 
+Unique Cultural 
+Experience
+Focuses on the feeling 
+of being local and the 
+unique cultural experi￾ences of Down East
+"I can’t imagine why 
+anyone would want to 
+leave to tell you the 
+truth." (Thomas); "The 
+brogue there, like in all 
+of Down East is still 
+intact, at least in part." 
+(Susan)
+Industry Involvement 
+(omitted in the first 
+attempt)
+7. Engagement with 
+Local Industry
+Economic Participation Engagement in local 
+industries and economic 
+activities
+7.6  Appendix 6: Comparing three scenarios in the integration of AIs in QDA
+Aspects CAQDAS with GenAI function New Qual AI AI chatbots
+Advantages - Seamless integration with exist￾ing workflows
+- Leverages existing CAQDAS 
+features
+- Lower learning curve
+- Single workspace
+- Tailored for specific 
+GenAI functionalities
+- May offer more 
+advanced GenAI 
+features
+- Single workspace
+- Potential for greater 
+innovation
+- Real-time assistance
+- Versatile in handling 
+various tasks
+- Can be fine-tuned for 
+specific research needs
+Disadvantages - Limited by existing CAQDAS 
+architecture
+- May not fully utilise AI capa￾bilities
+- Potential compatibility issues
+- Expensive
+- Requires learning a 
+new system
+- May lack some CAQ￾DAS features
+- Expensive
+- Limited to text-based 
+interactions
+- May require extensive 
+fine-tuning
+- Ethical considerations 
+for data privacy
+- Less expensive com￾pared to other options
+
+4974 K. Nguyen‑Trung 
+Source: author
+Acknowledgements I would like to thank the colleagues, particularly Dr Stuart W. Shulman, who provided 
+valuable feedback on the first drafts of my article. My great thanks go to the reviewers and editors for their 
+insightful feedback.
+Funding Open Access funding enabled and organized by CAUL and its Member Institutions. The author 
+did not receive support from any organisation for the preparation of the manuscript or the research con￾ducted herein.
+Data availability The raw dataset used in this paper is publically available on Lumivero’s website; see 
+Lumivero (2023).
+Declarations
+Conflict of interest The author has no relevant financial or non-financial interests to disclose.
+Ethical approval This study only used secondary data from the project Environmental in Down East includes 
+11 short interviews conducted in 2008–2009 with the permission by Lumivero (2023).
+Declaration of generative AI and AI‑assisted technologies in the writing process During the preparation of 
+this work the author used ChatGPT in order to support the template analysis. Key prompts and results are 
+presented in the paper. The author also used ChatGPT to check for grammatical and spelling errors with the 
+prompt “Proofread this part, focusing on grammatical and spelling errors. Bold the words you changed”. 
+After using this tool, the author reviewed and edited the content as needed and takes full responsibility for 
+the content of the published article.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, 
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long 
+as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Com￾mons licence, and indicate if changes were made. The images or other third party material in this article 
+are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly 
+from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+References
+ATLAS.ti: ATLAS.ti AI Lab OpenAI-powered tools that amplify your analysis [Computer software] (2023)
+Artificial Analysis: Comparison of models: quality, performance & price analysis. Artificial Analysis 
+(2024). https://artif​icialanalysis.ai/models. Accessed 26 Nov 2024
+Baidoo-Anu, D., Owusu Ansah, L.: Education in the era of generative artificial intelligence (AI): under￾standing the potential benefits of ChatGPT in promoting teaching and learning. SSRN Electron. J. 
+(2023). https://doi.org/10.2139/ssrn.4337484
+Biswas, S.S.: Potential use of chat GPT in global warming. Ann. Biomed. Eng. (2023). https://doi.org/10.
+1007/s10439-023-03171-8
+Braun, V., Clarke, V.: Reflecting on reflexive thematic analysis. Qual. Res. Sport Exerc. Health 11(4), 589–
+597 (2019)
+Braun, V., Clarke, V.: Conceptual and design thinking for thematic analysis. Qual. Psychol. 9(1), 3–26 
+(2022). https://doi.org/10.1037/qup0000196
+Braun, V., Clarke, V.: A critical review of the reporting of reflexive thematic analysis in Health Promotion 
+International. Health Promot. Int. (2024). https://doi.org/10.1093/heapro/daae049
+Braun, V., & Clarke, V. Using thematic analysis in psychology. Qualitative Research in Psychology, 3(2), 
+77–101 (2006). https://doi.org/10.1191/1478088706qp063oa
+Brent, E., & Slusarz, P. (2003). “Feeling the beat”: Intelligent coding advice from metaknowledge in quali￾tative research. Soc Sci Comput Rev. 21(3), 281–303. https://doi.org/10.1177/0894439303253975
+Canvs AI: About us (2024). https://canvs.ai/about-us/. Accessed 26 Nov 2024
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4975
+Campbell, L.M., Meletis, Z.A.: Agreement on water and a watered-down agreement: the political ecol￾ogy of contested coastal development in Down East, North Carolina. J. Rural. Stud. 27(3), 308–321 
+(2011)
+Chen, N.-C., Drouhard, M., Kocielnik, R., Suh, J., Aragon, C.R.: Using ML to support qualitative cod￾ing in social science: shifting the focus to ambiguity. ACM Trans. Interact. Intell. Syst. (2018). 
+https://doi.org/10.1145/3185515
+Chew, R., Bollenbacher, J., Wenger, M., Speer, J., Kim, A.: LLM-Assisted Content Analysis: Using 
+Large Language Models to Support Deductive Coding (No. arXiv:2306.14924) (2023). arXiv. 
+https://doi.org/10.48550/arXiv.2306.14924
+CoLoop.ai: Introduction (2024). https://docs.coloop.ai/docs/getting-started/introduction. Accessed 26 
+Nov 2024
+Curry, N., Baker, P., Brookes, G.: Generative AI for corpus approaches to discourse studies: a criti￾cal evaluation of ChatGPT. Appl. Corpus Linguist. 4(1), 100082 (2024). https://doi.org/10.1016/j.
+acorp.2023.100082
+Davison, R.M., Chughtai, H., Nielsen, P., Marabelli, M., Iannacci, F., Van Offenbeek, M., Tarafdar, M., 
+Trenz, M., Techatassanasoontorn, A.A., Díaz Andrade, A., Panteli, N.: The ethics of using generative 
+AI for qualitative data analysis. Inf. Syst. J. 34(5), 1433–1439 (2024). https://doi.org/10.1111/isj.12504
+De Paoli, S.: Performing an inductive thematic analysis of semi-structured interviews with a large lan￾guage model: an exploration and provocation on the limits of the approach. Soc. Sci. Comput. Rev. 
+(2023). https://doi.org/10.1177/08944393231220483
+De Paoli, S.: Further explorations on the use of large language models. Open-ended prompts, better 
+terminologies and thematic maps. Forum Qualitative Sozialforschung/forum Qualitative Social 
+Research (2024). https://doi.org/10.17169/fqs-25.3.4196
+Drápal, J., Westermann, H., Savelka, J.: Using Large Language Models to Support Thematic Analysis 
+in Empirical Legal Studies (No. arXiv:2310.18729) (2023). arXiv. https://doi.org/10.48550/arXiv.
+2310.18729
+Drouhard, M., Chen, N.C., Suh, J., Kocielnik, R., Pena-Araya, V., Cen, K., Aragon, C.R.: Aeonium: 
+visual analytics to support collaborative qualitative coding. In: 2017 IEEE Pacific Visualization 
+Symposium (PacificVis), pp. 220–229. IEEE (2017)
+Eager, B.: AI for research. Applied artificial intelligence training for higher education (2023). https://
+broneager.com/wp-content/uploads/2023/08/AI-for-Researchers-Workbook-2A-Bron-Eager-V2023
+08-1.pdf. Accessed 12 Jan 2024
+Elish, M.C., Boyd, D.: Situating methods in the magic of Big Data and AI. Commun. Monogr. 85(1), 
+57–80 (2018). https://doi.org/10.1080/03637751.2017.1375130
+Fan, Y., Jiang, F., Li, P., Li, H.: Uncovering the potential of ChatGPT for discourse analysis in dialogue: 
+an empirical study (2023). arXiv preprint arXiv:2305.08391
+Fassnacht, C., Woods, D.: Transana v2. 0x [Computer Software] (2005). http://www.Transana.org. 
+Accessed 20 Dec 2023
+Firat, M.: How chat GPT can transform autodidactic experiences and open education? [Preprint]. Open 
+Sci. Framew. (2023). https://doi.org/10.31219/osf.io/9ge8m
+Friese, S.: Two case studies on the application of GenAI in qualitative data analysis: Success and dis￾enchantment (2023). LinkedIn.  https://www.linkedin.com/pulse/two-case-studies-applying-gener
+ative-ai-qualitative-data-friese/. Accessed 5 Jan 2024
+Gerson, E. M. (1984). Qualitative research and the computer. Qual Soc 7(1–2), 61–74. https://doi.org/10.
+1007/BF00987107
+Guest, G., MacQueen, K.M., Namey, E.E.: Applied Thematic Analysis. Sage, Thousand Oaks (2012)
+Haman, M., Školník, M.: Using ChatGPT to conduct a literature review. Acc. Res. (2023). https://doi.
+org/10.1080/08989621.2023.2185514
+Hamilton, L., Elliott, D., Quick, A., Smith, S., Choplin, V.: Exploring the use of AI in qualitative analy￾sis: a comparative study of guaranteed income data. Int J Qual Methods 22, 16094069231201504 
+(2023). https://doi.org/10.1177/16094069231201504
+Hesse-Biber, S., Dupuis, P., Kinder, T.S.: HyperRESEARCH: a computer program for the analysis of 
+qualitative data with an emphasis on hypothesis testing and multimedia analysis. Qual. Sociol. 
+14(4), 289–306 (1991). https://doi.org/10.1007/BF00989642
+Hitch, D.: Artificial intelligence (AI) augmented qualitative analysis: the way of the future? SSRN Elec￾tron. J. (2023). https://doi.org/10.2139/ssrn.4451740
+Hong, M.K., Chen, F., Chen, Y.-Y., Klenk, M.: Supporting qualitative coding with machine-in-the-loop. 
+In: Proceedings of the 36th Conference on Neural Information Processing Systems (NeurIPS 2022) 
+(2022). https://matthewkhong.com/assets/pdf/w_neurips2023.pdf. Accessed 10 Jan 2024
+
+4976 K. Nguyen‑Trung 
+Jessica: 30 Years MAXQDA: The history behind the release of MAXQDA 2020. MAXQDA (2019). 
+https://www.maxqda.com/blogpost/30-years-maxqda. Accessed 22 Dec 2023
+Kaufman, S.: Participatory inquiry towards a systems change model for the Monash Sustainable Devel￾opment Institute. Unpublished ethics application documents. Monash University (2024).
+Khalil, H., Ameen, D., Zarnegar, A.: Tools to support the automation of systematic reviews: a scoping 
+review. J. Clin. Epidemiol. 144, 22–42 (2022). https://doi.org/10.1016/j.jclinepi.2021.12.005
+King, N.: Doing template analysis. In: Symon, G., Cassell, C. (eds.) Qualitative Organizational 
+Research: Core Methods and Current Challenges, pp. 426–450. SAGE, London (2012). https://doi.
+org/10.4135/9781526435620
+King, N., Brooks, J., Tabari, S.: Template analysis in business and management research. In: Ciesiel￾ska, M., Jemielniak, D. (eds.) Qualitative Methodologies in Organization Studies, pp. 179–206. 
+Springer, Cham (2018). https://doi.org/10.1007/978-3-319-65442-3_8
+Kidder, L.H., Fine, M.: Qualitative and quantitative methods: when stories converge. New Dir. Program 
+Eval. 1987(35), 57–75 (1987)
+Kong, A., Zhao, S., Chen, H., Li, Q., Qin, Y., Sun, R., et al.: Better zero-shot reasoning with role-play 
+prompting (2023). arXiv preprint arXiv:2308.07702
+Kuckartz, A.M., Kuckartz, U.: Qualitative Text Analysis with MAXQDA (2022). Accessed Aug 24, 
+2023
+Lakshmanan, L.: Why large language models like ChatGPT are bullshit artists, and how to use them 
+effectively anyway (2022). LinkedIn. https://www.linkedin.com/pulse/whylarge-language-models￾like-chatgpt-bullshit-how-uselakshmanan/?trk=pulse-article_more-articles_relatedcontent-card. 
+Accessed 18 Jan 2024
+LaPan, C.: Review of QDA miner. Soc. Sci. Comput. Rev. 31(6), 774–778 (2013). https://doi.org/10.
+1177/0894439313492711
+Lee, R.M., Fielding, N.G.: Computing for qualitative research: options, problems and potential. In: 
+Fielding, N.G., Lee, R.M. (eds.) Using Computers in Qualitative Research, pp. 1–13. Sage, Thou￾sand Oaks (1991)
+Lee, V.V., Van Der Lubbe, S.C.C., Goh, L.H., Valderas, J.M.: Harnessing ChatGPT for thematic analy￾sis: are we ready? J. Med. Internet Res. 26, e54974 (2024). https://doi.org/10.2196/54974
+Leech, N.L., Onwuegbuzie, A.J.: An array of qualitative data analysis tools: a call for data analysis trian￾gulation. Sch. Psychol. Q. 22(4), 557–584 (2007). https://doi.org/10.1037/1045-3830.22.4.557
+Lewis, R.B., Maas, S.M.: QDA miner 2.0: mixed-model qualitative data analysis software. Field Meth￾ods 19(1), 87–108 (2007). https://doi.org/10.1177/1525822X06296589
+Lewins, A., Silver, C.: Software reviews: Leximancer. CAQDAS Networking Project (2020). https://
+www.surrey.ac.uk/sites/default/files/2020-12/cnp-leximancer-5-review.pdf. Accessed 11 Jan 2024
+Lieber, E., Salmona, M., Kaczynski, D.: Introduction to Dedoose for mixed analysis. In: The Routledge 
+Reviewer’s Guide to Mixed Methods Analysis, pp. 319–330. Routledge, New York (2021)
+Lieber, E., Weisner, T.S., Presley, M.: EthnoNotes: an internet-based field note management tool. Field 
+Methods 15(4), 405–425 (2003)
+Li, J., Dada, A., Puladi, B., Kleesiek, J., & Egger, J. (2024). ChatGPT in healthcare: a taxonomy and 
+systematic review. Comput. Methods Programs Biomed. 245, 108013. https://
+doi.org/10.1016/j.cmpb.2024.108013
+Lin, Z.: Techniques for supercharging academic writing with GenAI. Nat. Biomed. Eng. (2024). https://
+doi.org/10.1038/s41551-024-01185-8
+Lumivero: Multi-method: Environmental change in Down East (2023). https://help-nv.qsrinternational.com/
+20/win/Content/about-nvivo/explore-sample-project.htm?Highlight=sample%20project. Accessed 27 
+Dec 2023
+Lumivero: NVivo 15: Grow your research team with qualitative data analysis software (QDA software) 
+(2024). https://lumivero.com/resources/blog/nvivo-15-grow-your-research-team-with-qualitative￾data-analysis-software-qda-software/. Accessed 26 Nov 2024
+Lund, B.D., Wang, T.: Chatting about ChatGPT: how may AI and GPT impact academia and libraries? 
+Libr. Hi Tech News 40(3), 26–29 (2023)
+Ma, H., Zhang, C., Bian, Y., Liu, L., Zhang, Z., Zhao, P., et al.: Fairness-guided few-shot prompting for 
+large language models. Adv. Neural. Inf. Process. Syst. 36, 43136–43155 (2023)
+MaxQDA: Introducing AI to qualitative data analysis [Computer software] (2023). https://www.maxqda.
+com/products/ai-assist. Accessed 8 Jan 2024
+Miles, M.B., Huberman, A.M.: Qualitative Data Analysis: An Expanded Sourcebook. Sage, Thousand 
+Oaks (1994)
+Morgan, D.L.: Paradigms lost and pragmatism regained: methodological implications of combining 
+qualitative and quantitative methods. J. Mix. Methods Res. 1(1), 48–76 (2007)
+
+ChatGPT in thematic analysis: Can AI become a research assistant… 4977
+Morgan, D.L.: Exploring the use of artificial intelligence for qualitative data analysis: the case of ChatGPT. 
+Int J Qual Methods 22, 16094069231211248 (2023). https://doi.org/10.1177/16094069231211248
+Nguyen-Trung, Kien, Saeri, Alexander K., Kaufman, Stefan: Applying ChatGPT and AI-Powered Tools 
+to Accelerate Evidence Reviews, Hum. Behav. Emerg. Technol. 8815424, 14 (2024). https://doi.
+org/10.1155/2024/8815424
+Nowell, L.S., Norris, J.M., White, D.E., Moules, N.J.: Thematic analysis: striving to meet the trust￾worthiness criteria. Int J Qual Methods 16(1), 1609406917733847 (2017). https://doi.org/10.1177/
+1609406917733847
+OpenAI: Models (2024). https://platform.openai.com/docs/models. Accessed 26 Nov 2024
+Parker, J., Richard, V., Becker, K.: Guidelines for the integration of large language models in developing 
+and refining interview protocols. Qual. Rep. 28, 3460–3474 (2023). https://doi.org/10.46743/2160-
+3715/2023.6801
+Paulus, T.M.: Using qualitative data analysis software to support digital research workflows. Hum. 
+Resour. Dev. Rev. 22(1), 139–148 (2023). https://doi.org/10.1177/15344843221138381
+Paulus, T.M., Marone, V.: “In minutes instead of weeks”: discursive constructions of generative ai and 
+qualitative data analysis. Qual. Inq. (2024). https://doi.org/10.1177/10778004241250065
+Prescott, M.R., Yeager, S., Ham, L., Rivera Saldana, C.D., Serrano, V., Narez, J., Paltin, D., Delgado, J., 
+Moore, D.J., Montoya, J.: Comparing the efficacy and efficiency of human and generative AI: quali￾tative thematic analyses. JMIR AI 3, e54482 (2024). https://doi.org/10.2196/54482
+Presseau, J., McCleary, N., Lorencatto, F., Patey, A.M., Grimshaw, J.M., Francis, J.J.: Action, actor, con￾text, target, time (AACTT): a framework for specifying behaviour. Implement. Sci. 14, 1–13 (2019)
+Q-insights: Why Q-insights is different (2024). https://q-insights.com/why-were-different/. Accessed 26 
+Nov 2024
+Rampin, R., Rampin, V.: Taguette: open-source qualitative data analysis. J. Open Source Softw. 6(68), 
+3522 (2021). https://doi.org/10.21105/joss.03522
+Richards, T.: An intellectual history of NUD*IST and NVivo. Int. J. Soc. Res. Methodol. 5(3), 199–214 
+(2002). https://doi.org/10.1080/13645570210146267
+Richards, T., Richards, L.: The NUDIST qualitative data analysis system. Qual. Sociol. 14(4), 307–324 
+(1991). https://doi.org/10.1007/BF00989643
+Rietz, T., Maedche, A.: Cody: an AI-based system to semi-automate coding for qualitative research. In: 
+Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, pp. 1–14 (2021)
+Russell, S.J., Norvig, P.: Artificial Intelligence: A Modern Approach. Prentice-Hall, New Jersey(2010)
+Saldaña, J.: The Coding Manual for Qualitative Researchers, 3rd edn. SAGE, Thousand Oaks (2016)
+Sallam, M.: The utility of ChatGPT as an example of large language models in healthcare education, 
+research and practice: systematic review on the future perspectives and potential limitations. 
+MedRxiv (2023). https://doi.org/10.1101/2023.02.19.23286155
+Seidel, J.V., Clark, J.A.: THE ETHNOGRAPH: a computer program for the analysis of qualitative data. 
+Qual. Sociol. 7(1–2), 110–125 (1984). https://doi.org/10.1007/BF00987111
+Shulman, S.: DiscoverText: software training to unlock the power of text. In: Proceedings of the 12th 
+Annual International Digital Government Research Conference: Digital Government Innovation in 
+Challenging Times, pp. 373–373 (2011). https://doi.org/10.1145/2037556.2037632
+Silver, C.: Software reviews: DiscoverText. CAQDAS Networking Project (2019). https://www.surrey.ac.
+uk/sites/default/files/2019-12/discovertext-distinguishing-features.pdf. Accessed 11 Jan 2024
+Silver, C.: Data analysis: what’s afoot in the qualitative AI space? Methodspace (2023). https://www.
+methodspace.com/blog/whats-a-foot-in-the-qualitative-ai-space. Accessed 11 Jan 2024
+Silver, C., Lewins, A.: Software Reviews: QDA Miner. CAQDAS Networking Project (2020). https://www.
+surrey.ac.uk/sites/default/files/2020-11/qda-miner-distinguishing-features.pdf. Accessed 11 Jan 2024
+Sinha, R., Solola, I., Nguyen, H., Swanson, H., Lawrence, L.: The role of generative AI in qualitative 
+research: GPT-4’s contributions to a grounded theory analysis. In: Proceedings of the Symposium 
+on Learning, Design and Technology, pp. 17–25 (2024). https://doi.org/10.1145/3663433.3663456
+Spiers, J.A.: Tech tips: using video management/analysis technology in qualitative research. Int J Qual 
+Methods 3(1), 57–61 (2004). https://doi.org/10.1177/160940690400300106
+Turner, D.: Quirkos is launched! Quirkos Qualitative Research Blog (2014). https://www.quirkos.com/
+blog/post/quirkos-is-launched/. Accessed 30 Dec 2023
+Turing, A. M. (1950). Computing machinery and intelligence. Mind, 59(236), 433–460. https://doi.org/10.
+1093/mind/LIX.236.433
+Turobov, A., Coyle, D., Harding, V.: Using ChatGPT for Thematic Analysis (arXiv:2405.08828) (2024). 
+arXiv. http://arxiv.org/abs/2405.08828
+van Dis, E.A.M., Bollen, J., Zuidema, W., van Rooij, R., Bockting, C.L.: ChatGPT: five priorities for 
+research. Nature 614(7947), 224–226 (2023). https://doi.org/10.1038/d41586-023-00288-7
+
+4978 K. Nguyen‑Trung 
+Vaghefi, S.A., Stammbach, D., Muccione, V., Bingler, J., Ni, J., Kraus, M., Leippold, M. (2023). Chat￾Climate: Grounding conversational AI in climate science. Commun. Earth Environ. 4(1), 480. 
+https://doi.org/10.1038/s43247-023-01084-x
+Wachinger, J., Bärnighausen, K., Schäfer, L.N., Scott, K., McMahon, S.A.: Prompts, pearls, imperfections: 
+comparing ChatGPT and a human researcher in qualitative data analysis. Qual. Health Res. (2024). 
+https://doi.org/10.1177/10497323241244669
+Watt, D.: On becoming a qualitative researcher: the value of reflexivity. Qual. Rep. 12(1), 82–101 (2007). 
+https://doi.org/10.46743/2160-3715/2007.1645
+Weitzman, E.A.: Software and qualitative research. In: Denzin, N.K., Lincoln, Y.S. (eds.) Collecting and 
+Interpreting Qualitative Materials, pp. 310–339. Sage, Thousand Oaks (2003)
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., et al.: Chain-of-thought prompting elicits 
+reasoning in large language models. Adv. Neural. Inf. Process. Syst. 35, 24824–24837 (2022)
+White, J., Fu, Q., Hays, S., Sandborn, M., Olea, C., Gilbert, H., Elnashar, A., Spencer-Smith, J., Schmidt, 
+D.C.: A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT (No. arXiv:2302.
+11382) (2023). arXiv. https://doi.org/10.48550/arXiv.2302.11382
+Woods, Macklin, et  al. Researcher reflexivity: exploring the impacts of CAQDAS use. Int. J. Soc. Res. 
+Methodol. 19(4), 385–403 (2016). https://doi.org/10.1080/13645579.2015.1023964
+Woods, Paulus, et  al. Advancing qualitative research using qualitative data analysis software (QDAS)? 
+Reviewing potential versus practice in published studies using ATLAS.ti and NVivo, 1994–2013. Soc. 
+Sci. Comput. Rev. 34(5), 597–617 (2016). https://doi.org/10.1177/0894439315596311
+Woods, M., Wickham, M.: Methodological implications of software use: an empirical investigation of the 
+impact of software programs on literature analysis using n6 and n vivo 7. In: Ruth, A. (ed.) Quality and 
+Impact of Qualitative Research, pp. 163–172. 3rd annual QualIT Conference, Brisbane: Institute for 
+Integrated and Intelligent Systems, Griffith University (2006)
+Yan, L., Echeverria, V., Nieto, G. F., Jin, Y., Swiecki, Z., Zhao, L., Gašević, D., Martinez-Maldonado, R.: 
+Human-AI Collaboration in Thematic Analysis using ChatGPT: A User Study and Design Recommen￾dations (arXiv:2311.03999) (2023). arXiv. http://arxiv.org/abs/2311.03999
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.

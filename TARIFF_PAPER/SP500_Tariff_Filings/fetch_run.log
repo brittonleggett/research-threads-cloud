@@ -1,0 +1,32 @@
+[150/503] DLR done. Running totals: 29 filings, 8 companies with hits.
+[175/503] EFX done. Running totals: 122 filings, 25 companies with hits.
+[200/503] FE done. Running totals: 230 filings, 41 companies with hits.
+[225/503] GS done. Running totals: 364 filings, 59 companies with hits.
+[250/503] INCY done. Running totals: 478 filings, 80 companies with hits.
+[275/503] KMB done. Running totals: 560 filings, 94 companies with hits.
+[300/503] MAR done. Running totals: 658 filings, 111 companies with hits.
+[325/503] MS done. Running totals: 744 filings, 126 companies with hits.
+[350/503] ODFL done. Running totals: 859 filings, 143 companies with hits.
+[375/503] PG done. Running totals: 956 filings, 161 companies with hits.
+[400/503] ROP done. Running totals: 1017 filings, 173 companies with hits.
+[425/503] SYK done. Running totals: 1129 filings, 192 companies with hits.
+[450/503] TRV done. Running totals: 1239 filings, 210 companies with hits.
+[475/503] VICI done. Running totals: 1309 filings, 222 companies with hits.
+[500/503] YUM done. Running totals: 1456 filings, 238 companies with hits.
+
+DONE. Total filings: 1470. Companies with >=1 hit: 241 / 503.
+Errors (2):
+  DAL (CIK 27904): HTTP Error 500: Internal Server Error
+  VLO (CIK 1035002): HTTP Error 500: Internal Server Error
+ings, 302 companies with hits.
+[475/503] VICI done. Running totals: 1830 filings, 314 companies with hits.
+[500/503] YUM done. Running totals: 1977 filings, 330 companies with hits.
+
+DONE. Total filings: 1991. Companies with >=1 hit: 333 / 503.
+Errors (6):
+  BF.B (CIK 14693): HTTP Error 500: Internal Server Error
+  CHRW (CIK 1043277): HTTP Error 500: Internal Server Error
+  CPRT (CIK 900075): HTTP Error 500: Internal Server Error
+  TXN (CIK 97476): HTTP Error 500: Internal Server Error
+  VLO (CIK 1035002): HTTP Error 500: Internal Server Error
+  VRSN (CIK 1014473): HTTP Error 500: Internal Server Error
