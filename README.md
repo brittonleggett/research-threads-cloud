@@ -46,6 +46,49 @@ personal/sensitive material — deliberately scoped to just these research threa
   describing what was done, what was found, and what's still open — written for
   Britton to read first thing, in plain, direct prose (state uncertain/negative
   findings plainly, don't spin them).
+- **Never submit, email, post, or otherwise externally share anything** — no
+  contacting journals, editors, coauthors, IRB offices, or anyone else. Draft-only,
+  always. Committing to this private repo is not "external" — that's the point of
+  the repo — but nothing leaves it.
+- **Always end by committing and pushing to `origin/main`**, even if the work is
+  partial or you ran out of time partway through something. Uncommitted overnight
+  work is invisible to Britton and to the next run. Small, clearly-labeled commits
+  per logical chunk beat one giant commit.
+- **No participant/human-subjects data belongs in this repo.** It's scoped to
+  public-record corpora (corporate statements, news, filings, public comments) on
+  purpose. If a task ever seems to call for adding survey data, IRB materials with
+  real identifiers, or anything like that, stop and flag it in the summary instead —
+  don't add it.
+
+## Nightly rotation
+
+A scheduled cloud routine runs this repo autonomously overnight with very little
+per-run guidance from Britton — he wants steady, real progress on all of it without
+having to hand-hold each session. Each run should:
+
+1. **Orient first.** Read this README, then the most recent `OVERNIGHT_SUMMARY_*.md`
+   files and each project's `notes/` folder (newest file = current status) to see
+   what already happened and what's still open. Don't redo finished work.
+2. **Work the priority queue**, spending real time on at least one item rather than
+   shallow-touching all of them: (1) `TARIFF_PAPER` — top priority, "I need this
+   one"; (2) `DATA_CENTER_PAPER`; (3) `CCS_PAPER`. Rotate toward whichever has the
+   most open, actionable next-steps in its notes rather than mechanically going in
+   order every night — recheck each project's actual state, since prior nights
+   change what's "next."
+3. **Spend some time scouting new research streams**, not just advancing the three
+   existing papers. Use web search to look for near-term paper opportunities
+   adjacent to Britton's existing lines (consumer/marketing behavior, tariffs,
+   AI-augmented qualitative methods, Louisiana energy/infrastructure controversies).
+   Write findings to `Claude_Knowledge/Research_Stream_Ideas.md` (append, dated
+   entries, one running file rather than one-per-night) — each idea needs: the
+   gap/question, why it's tractable soon, a rough method sketch, and a plausible
+   target venue. This is scouting, not commitment — don't spin up a full corpus for
+   a new idea unless it's clearly strong; flag it for Britton to greenlight instead.
+4. **If blocked on a real judgment call** (something only Britton can decide, a
+   citation needing his library access, ambiguous prior instructions), don't guess
+   and don't stall the whole run on it — write it plainly as an open question in the
+   summary and move to the next queued item.
+5. **Commit and push** per the rule above before finishing.
 
 ## Who Britton is (for context, not to be repeated back to him)
 
