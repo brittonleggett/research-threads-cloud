@@ -276,9 +276,11 @@ Crossref-verified 2026-07-08, ABDC A*/A ranked journals only).
   paywalled/403 on direct fetch — see companion protocol doc)
 - Lazarus, M. D., Zhao, L., Gibson, A., Martinez-Maldonado, R., & Stephens, G. C. (2026). Risky
   or Rigorous? Developing Trustworthiness Criteria for AI-Supported Qualitative Data Analysis.
-  *Anatomical Sciences Education*, 19, 330–337. DOI: 10.1002/ase.70125 (abstract/summary-level
-  detail confirmed via search; full text paywalled/402 on direct fetch — see companion protocol
-  doc for what could and couldn't be recovered)
+  *Anatomical Sciences Education*, 19, 330–337. DOI: 10.1002/ase.70125 (full text obtained
+  2026-08-13 via institutional access — five-criteria table with AI-specific operationalization
+  now confirmed; see companion protocol doc's "Trustworthiness framing" section, including a
+  caution that their dependability discussion is more skeptical of commercial LLMs than of
+  purpose-built research tools)
 - Nyaaba, M., SungEun, M., Apam, M. A., Acheampong, K. O., Dwamena, E., & Zhai, X. (under
   review, *Journal of Digital Educational Measurement*). Human–AI Collaborative Inductive
   Thematic Analysis: How AI Guides Analysis and Researchers Reclaim Interpretive Authority.

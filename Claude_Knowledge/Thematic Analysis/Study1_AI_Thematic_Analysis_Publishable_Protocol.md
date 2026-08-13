@@ -186,41 +186,54 @@ code claims) and error rates, not just an aggregate agreement number.
 
 ## Trustworthiness framing for the rigor paragraph
 
-Lazarus, Zhao, Gibson, Martinez-Maldonado & Stephens (2026, *Anatomical
-Sciences Education*, 19, 330–337) adapt the standard qualitative
-trustworthiness criteria — credibility, dependability, confirmability,
-transferability — specifically for AI-supported analysis. **Still paywalled
-as of 2026-08-13** (Wiley returned 402 Payment Required on direct fetch; a
-ResearchGate mirror and a QUT ePrints listing exist but both also blocked the
-fetch) — the per-criterion operational detail Britton would need for an
-actual rigor paragraph is *not* independently confirmed here. What the
-search-level abstract/summary genuinely supports, and is safe to cite at this
-level of specificity:
+**Update 2026-08-13: full text obtained** (Britton pulled it via institutional
+access — `ASE-19-330.pdf`, now in `Claude Knowledge/Thematic Analysis/`). The
+per-criterion detail below is confirmed from the actual paper, not search
+snippets. It's a *Viewpoint* (commentary), not an empirical validation study —
+their worked example is a single case study using a bespoke, non-commercial
+"reflexive expressions language parser" purpose-built by one of the authors,
+**not a general commercial LLM like Claude or ChatGPT**. That distinction
+matters for how to use this citation — see the caution below before the
+per-criterion table.
 
-- **Core argument:** AI vendors market "efficiency" and "bias-free" analysis
-  as though these were self-evidently good for qualitative rigor; Lazarus et
-  al. argue this framing risks violating core tenets of qualitative rigor
-  *unless* trustworthiness is deliberately built back in — i.e., don't let a
-  tool's marketing copy substitute for a rigor argument.
-- **The four criteria, generic definitions (not yet AI-specific
-  operationalization):** credibility maps to internal validity, established
-  through triangulation, multiple perspectives, or participant/member
-  validation; dependability is established through rigorous, documented data
-  collection and analysis procedures. (Confirmability and transferability
-  appear in the same four-part frame but no further operational detail
-  surfaced in what's accessible.)
-- **Framing stance:** they position AI-supported analysis as needing to be a
-  *collaborative* effort that combines AI's strengths with human judgment —
-  consistent with this doc's overall approach, not in tension with it.
+**Their five components of rigor** (they add reflexivity as a fifth, alongside
+the four named in the reading list) — reproduced with the AI-specific
+consideration each one maps to, straight from their Table 1:
 
-**Bottom line: the framework (the four named criteria) is citable now as the
-structure to organize the rigor paragraph around, but don't attribute
-specific per-criterion AI operationalizations to Lazarus et al. that weren't
-actually confirmed here.** If Britton needs the real per-criterion detail
-before drafting that paragraph, the next step is an institutional-access
-pull of the actual PDF (library proxy, interlibrary loan, or emailing the
-corresponding author), not another web-search pass — search snippets appear
-to have already been exhausted for this one.
+| Component | Key question | What it means for AI-supported TA |
+|---|---|---|
+| **Credibility** | Was the research conducted with integrity, resulting in plausible findings? | Alignment across study epistemology/methodology/methods/RQ ("internal coherence"); consider member-checking researcher-evaluated AI outputs with participants where feasible |
+| **Dependability** | What details are needed for another researcher to replicate the study? | Document the AI tool's training and intended purpose; explicitly acknowledge its limitations in this study's context |
+| **Reflexivity** | How have researchers critically examined their positionality throughout the process? | State how AI use shaped researcher positionality; document human–AI interaction points explicitly |
+| **Transferability** | Does the study context let results generalize beyond it? | Contextualize how the AI's training relates to populations within/beyond the study; connect theory/conceptual models to how the AI was used |
+| **Confirmability** | What links primary data to findings? | Include AI outputs that show how raw data was transformed (e.g., the coded dataset itself) as supplementary material |
+
+**Practical items worth lifting directly into a methods section:**
+- **Audit trail:** document which parts of the analysis were researcher-led vs. AI-led, and the actual prompts used — this is their operationalization of dependability's "sufficient detail to replicate."
+- **A reflexivity flowchart:** a diagram showing researcher decision points and where AI was integrated, explicitly framed as "human-in-the-loop" (their term, though they note "human-*leading*-the-loop" is the more accurate framing when done right — the human's positionality must not be usurped by the tool).
+- **Crystallization, not autonomous AI:** they're explicit that using AI as one contributing source of analysis *alongside* the human researcher team supports credibility; **AI running autonomously would not** — this is a direct, citable line against letting AI generate unreviewed findings.
+- **Share the coded dataset** (or a representative sample) as supplementary material for confirmability — their own case study did exactly this.
+
+**The caution to flag, not bury:** their own dependability discussion draws a
+real contrast between their bespoke parser (which they can fully explain —
+they built and trained it, they know its exact training data) and commercial
+LLMs, which they say **"are often not programmed to identify all the elements
+required for dependability, creating substantial issues with this aspect of
+rigor."** That's a direct statement, not an inference — and it applies more to
+Britton's own use of Claude than to the paper's own worked example. It doesn't
+mean the criteria don't apply to LLM-based work; it means the dependability
+paragraph for an LLM-based Study 1 has to work harder to compensate — document
+what's publicly known about the model's training/limitations, and don't lean
+on "the AI is well-understood" as a credibility claim the way their case study
+tool could.
+
+**Worldview scope, worth naming explicitly:** the paper frames itself around
+interpretivist/"Big Q" qualitative research specifically. This project's own
+branding decision (above) defaults to small-q/coding-reliability TA for both
+papers. That's not a contradiction — the five rigor components themselves are
+generic enough to port over — but don't cite Lazarus et al. as though they
+were writing for a small-q coding-reliability design; they weren't, and a
+reviewer who's read the paper could catch a mismatched framing.
 
 ## Which rhetorical stance to write into (Paulus, Lester & Davis 2026)
 
@@ -401,9 +414,12 @@ experiment (his native PLS-SEM chain+moderator shape — see
   following Epp & Humphreys' guidelines); Qian, Gong & Xu 2026 (JRCS).
 - **Step-by-step method/protocol to cite as "following the protocol of":**
   Naeem, Smith & Thomas 2025; Goyanes, Lopezosa & Jordá 2025.
-- **Trustworthiness/rigor framework:** Lazarus et al. 2026 (framework citable
-  now; per-criterion AI-specific operationalization still not confirmed —
-  see "Trustworthiness framing" section above).
+- **Trustworthiness/rigor framework:** Lazarus et al. 2026 — full text now
+  confirmed, five criteria with AI-specific operationalization (see
+  "Trustworthiness framing" section above); note their dependability
+  discussion is more cautious about commercial LLMs than about purpose-built
+  tools — address that directly rather than citing them as unqualified
+  LLM endorsement.
 - **Which rhetorical stance to write the methods section into:** Paulus,
   Lester & Davis 2026 (AI & Society) — write into their stance 4 ("AI-human
   hybrid methods are the future"), not stances 1, 2, or 5.
