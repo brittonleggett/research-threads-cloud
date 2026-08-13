@@ -19,6 +19,20 @@ Study 1s, branded honestly as that** (or cite Naeem et al.'s "systematic themati
 framing) — not "Braun & Clarke reflexive TA." Reporting a Kappa while calling it reflexive TA
 is the single most common reviewer-bait mistake in this literature.
 
+**How bad the mistake can get, confirmed 2026-08-13:** Karhu, Smolander & Kasurinen (2026,
+arXiv:2605.00922, "To Vibe Research or Not to Vibe Research?") report that 419 qualitative
+researchers — including Braun and Clarke themselves, thematic analysis's own creators —
+signed a statement rejecting generative AI for reflexive/Big-Q qualitative research (citing
+Jowsey, Braun, Clarke, Lupton & Fine, 2025, "We Reject the Use of Generative Artificial
+Intelligence for Reflexive Qualitative Research," *Qualitative Inquiry* — this citation is
+reported secondhand via Karhu et al., not independently verified against the original). Karhu
+et al. name using inter-rater reliability (a small-q concept) to validate AI performance inside
+a Big-Q/reflexive framework as "a clear example of methodological incongruence" — precisely the
+mistake this doc has been warning against. That makes the branding decision above not a stylistic
+nicety but the difference between a citable design and one the method's own founders have
+publicly disowned. See the Publishable Protocol doc's new "know the opposition" section for
+more detail on their specific objections.
+
 ## The shared workflow (six phases, both papers use the identical engine)
 
 **Phase 0 — Optional quantitative triage (JMP Text Explorer, Topic Analysis).**
@@ -71,9 +85,13 @@ themes:
 | GAATA (GPT-class, consumer app reviews, semantic-heavy) | Cohen's Kappa | 0.94 |
 | Misra et al. (open-source Gemma2/Llama3.1, health interviews) | % "meaningful context" | ~45%, 22–39% duplicative |
 | JMIR (GPT-4, clinical interviews) | % agreement (Kappa not applicable to their design) | >80% descriptive/semantic, ~30% latent |
+| Qian, Gong & Xu 2026 (*JRCS*; OpenAI o4-mini classifying BERTopic clusters into framing categories, YouTube/Instagram comments) | LLM consensus rate (10 repeated runs) / frame-consistency rate (LLM vs. human) | 0.94 consensus / 0.98 consistency at the *generic-frame* level — issue-specific frames needed manual review |
 
 Expect — and plan the write-up to say so — lower agreement on latent/interpretive codes than
-semantic ones.
+semantic ones. Qian et al.'s pattern fits the same shape one level up: coarse (generic-frame)
+classification agrees almost perfectly across repeated runs and against humans; finer-grained
+(issue-specific) classification did not, and required a human merge/review pass before the
+authors trusted it — consistent with AlGhamdi's code-vs-theme-level finding above.
 
 ## Netnography / data-collection ethics checklist
 
@@ -113,12 +131,45 @@ ABDC A*/A marketing journals — a stronger legitimacy anchor for framing Study 
 mining, scraping, coding" to a marketing audience/reviewer. All 17 citations below were
 Crossref-verified 2026-07-08 — clean, no errors, safe to cite directly.
 
-**Opening/framing citation — use this one first in any methods section:**
+**Opening/framing citation decision (revisited 2026-08-13):** Epp & Humphreys (2025, *JCR*) now
+opens ahead of Berger et al. (2020, *JM*) whenever the paper is specifically doing AI-assisted
+*qualitative/thematic* analysis (i.e., every Study 1 built from this protocol). Read in full —
+see below — it's not just a good anchor, it's the closer match: it's published in the field's
+own home journal for qualitative/consumer-culture work, it's built from interviews with
+researchers actually doing GenAI-assisted qualitative analysis (not automated text-mining
+generally), and it hands you a ready-made four-principle reporting checklist (transparency,
+provenance, privacy, verisimilitude) that a methods section can lean on directly. Berger et al.
+is the better citation for the broader "automated text methods belong in marketing" claim
+(topic models, dictionaries, embeddings, classification) — keep it as the second citation, and
+lead with it instead when Study 2 is the quantitative-text-mining kind of paper rather than a
+qualitative-coding one. For thematic analysis specifically: Epp & Humphreys first, Berger et al.
+second.
+
+Epp, A. M., & Humphreys, A. (2025). Collaborating with Generative AI in Consumer Culture
+Research. *Journal of Consumer Research*, 52(1), 32–48. DOI: 10.1093/jcr/ucaf014. Interview
+study (participant researchers who use GenAI on qualitative/textual consumer data) proposing
+four tradeoffs (theoretical, embodied, empirical, historical) and four reporting principles
+(transparency, provenance, privacy, verisimilitude). Explicitly recommends documenting example
+prompts/outputs in a web appendix and reporting quote-level evidence alongside AI-generated
+summaries — both directly actionable for a Study 1 methods section. Already being cited and
+followed by other applied papers (Pueschel, Hao & Schmitt 2026, *JBR*, explicitly says they
+"follow" its guidelines).
+
+**Opening/framing citation for the automated-text-methods claim generally:**
 Berger, J., Humphreys, A., Ludwig, S., Moe, W. W., Netzer, O., & Schweidel, D. A. (2020).
 Uniting the Tribes: Using Text for Marketing Insight. *Journal of Marketing*, 84(1), 1–25.
 DOI: 10.1177/0022242919873106. Integrative review of automated text methods for marketing
 (topic models, dictionaries, embeddings, classification) — the field's own legitimizing
 statement for this category of work, published in the flagship marketing journal.
+
+Herhausen, D., Ludwig, S., Abedin, E., Ul Haque, N., & de Jong, D. (2025). From Words to
+Insights: Text Analysis in Business Research. *Journal of Business Research*, 198, 115491.
+DOI: 10.1016/j.jbusres.2025.115491. JBR framework paper comparing topic models, dictionaries,
+supervised ML, and LLMs, with a message-design-logic conceptual lens and an explicit
+author/reviewer checklist (their Table 4) for judging construct definition, method choice,
+and transparency. Cite this for the "why an LLM is a legitimate, reviewer-recognized method
+choice in business research generally" claim — not thematic-analysis-specific, but a strong
+general-purpose companion to Epp & Humphreys.
 
 **Foundational UGC/text-mining-at-scale precedents (establishes this isn't a fad):**
 - Tirunillai, S., & Tellis, G. J. (2012). Does Chatter Really Matter? Dynamics of
@@ -148,16 +199,23 @@ text — but useful for the broader "LLMs are legitimate in marketing research" 
   Samples in Consumer and Marketing Research. *Psychology & Marketing*, 41(6), 1254–1270.
   DOI: 10.1002/mar.21982
 
-**Gap resolved 2026-08-11:** two papers now directly validate Claude specifically. Hill et al.
-(2026, *PLOS Digital Health*) ran a blinded comparison of Claude 4 Sonnet, ChatGPT-5, and
-QualiGPT against human analysts on deductive coding of a focus-group transcript — Claude 4
-Sonnet reached 93.5% mean agreement / Gwet's AC1 = 0.93 vs. humans' 92.7% / AC1 = 0.92
-(non-inferior, arguably superior). AlGhamdi (2026, *IJQM*) goes further and validates **Claude
-Code specifically** (not just chat-based Claude) against a human/NVivo baseline from a
-published PhD dataset — see full writeup and citations in the new companion doc,
-`Study1_AI_Thematic_Analysis_Publishable_Protocol.md`, in this same folder. This top-journal
-set still doesn't use Claude, but the qualitative-methods-journal cluster now does, and
-directly. No more need to hedge on tool choice when asked "why Claude Code."
+**Gap resolved 2026-08-11, deepened 2026-08-13:** two papers now directly validate Claude
+specifically. Hill et al. (2026, *PLOS Digital Health*) ran a blinded comparison of Claude 4
+Sonnet, ChatGPT-5, and QualiGPT against human analysts on deductive coding of a focus-group
+transcript — Claude 4 Sonnet reached 93.5% mean agreement / Gwet's AC1 = 0.93 vs. humans' 92.7%
+/ AC1 = 0.92 (non-inferior, arguably superior). AlGhamdi (2026, *IJQM*) goes further and
+validates **Claude Code specifically** (not just chat-based Claude) against a human/NVivo
+baseline from a published PhD dataset — see full writeup and citations in the companion doc,
+`Study1_AI_Thematic_Analysis_Publishable_Protocol.md`, in this same folder. As of 2026-08-13
+the paper's abstract (not the full text — Sage returned a 403 on direct fetch) confirms the
+existing summary: the human baseline is a 2012 doctoral e-commerce dataset originally coded in
+NVivo; AlGhamdi ran four independent Claude Code sessions against it, testing general prompts
+vs. structured multi-phase prompts; alignment measured via F1 at both code and theme level,
+consistency via bidirectional mapping across session pairs. Full per-statistic numbers (the
+actual F1 values) are still not confirmed — flag that specifically if a reviewer wants the
+number, don't invent one. This top-journal set still doesn't use Claude, but the
+qualitative-methods-journal cluster now does, and directly. No more need to hedge on tool choice
+when asked "why Claude Code."
 
 Full source list: `Desktop\Downloads\marketing_textmining_papers.md` (17 rows, all
 Crossref-verified 2026-07-08, ABDC A*/A ranked journals only).
@@ -196,3 +254,39 @@ Crossref-verified 2026-07-08, ABDC A*/A ranked journals only).
   Data-Augmentation Approach. *Marketing Science*. DOI: 10.1287/mksc.2025.0009 (background)
 - Sarstedt, M., et al. (2024). Using Large Language Models to Generate Silicon Samples in
   Consumer and Marketing Research. *Psychology & Marketing* (background)
+
+**Added 2026-08-13 (read/verified in full unless noted otherwise):**
+- Epp, A. M., & Humphreys, A. (2025). Collaborating with Generative AI in Consumer Culture
+  Research. *Journal of Consumer Research*, 52(1), 32–48. DOI: 10.1093/jcr/ucaf014
+- Herhausen, D., Ludwig, S., Abedin, E., Ul Haque, N., & de Jong, D. (2025). From Words to
+  Insights: Text Analysis in Business Research. *Journal of Business Research*, 198, 115491.
+  DOI: 10.1016/j.jbusres.2025.115491
+- Qian, T. Y., Gong, H., & Xu, C. (2026). Sports, Politics, and Social Media: A Human-AI
+  Collaborative Analysis of Consumer Reactions to Trump's Break 50 Appearance. *Journal of
+  Retailing and Consumer Services*, 88, 104520. DOI: 10.1016/j.jretconser.2025.104520
+- Pueschel, J., Hao, S., & Schmitt, B. (2026). Understanding Luxury Shaming: A Multi-Study
+  Exploration Using Qualitative Inquiry and Generative AI. *Journal of Business Research*, 206,
+  115996. DOI: 10.1016/j.jbusres.2026.115996
+- Paulus, T., Lester, J. N., & Davis, C. (2026). The Construction of the Role of AI in
+  Qualitative Data Analysis in the Social Sciences. *AI & Society*, 41, 1737–1748.
+  DOI: 10.1007/s00146-025-02488-3
+- AlGhamdi, R. (2026). From Code Variability to Theme Convergence: AI–Human Alignment in
+  Thematic Analysis With Claude Code. *International Journal of Qualitative Methods*.
+  DOI: 10.1177/16094069261462093 (abstract-level detail confirmed via search; full text
+  paywalled/403 on direct fetch — see companion protocol doc)
+- Lazarus, M. D., Zhao, L., Gibson, A., Martinez-Maldonado, R., & Stephens, G. C. (2026). Risky
+  or Rigorous? Developing Trustworthiness Criteria for AI-Supported Qualitative Data Analysis.
+  *Anatomical Sciences Education*, 19, 330–337. DOI: 10.1002/ase.70125 (abstract/summary-level
+  detail confirmed via search; full text paywalled/402 on direct fetch — see companion protocol
+  doc for what could and couldn't be recovered)
+- Nyaaba, M., SungEun, M., Apam, M. A., Acheampong, K. O., Dwamena, E., & Zhai, X. (under
+  review, *Journal of Digital Educational Measurement*). Human–AI Collaborative Inductive
+  Thematic Analysis: How AI Guides Analysis and Researchers Reclaim Interpretive Authority.
+  arXiv:2601.11850. Note: under-review preprint, not yet peer-reviewed/published; the reading
+  list's placeholder title/authors are superseded by this — see companion protocol doc.
+- Karhu, K., Smolander, K., & Kasurinen, J. (2026). To Vibe Research or Not to Vibe Research?
+  Generative AI in Qualitative Research. arXiv:2605.00922
+- Jowsey, T., Braun, V., Clarke, V., Lupton, D., & Fine, M. (2025). We Reject the Use of
+  Generative Artificial Intelligence for Reflexive Qualitative Research. *Qualitative Inquiry*.
+  (Cited secondhand via Karhu et al. above — not independently fetched/verified; treat as
+  reported, not confirmed, until read directly.)
