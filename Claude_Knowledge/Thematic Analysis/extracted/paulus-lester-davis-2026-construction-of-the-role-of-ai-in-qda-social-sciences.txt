@@ -1,0 +1,740 @@
+AI & SOCIETY (2026) 41:1737-1748
+https://doi.org/10.1007/s00146-025-02488-3
+
+ RESEARCH
+
+The construction of the role of AI in qualitative data analysis
+in the social sciences
+
+Trena Paulus1 · Jessica Nina Lester2 · Charlie Davis1
+
+Received: 7 April 2025 / Accepted: 3 July 2025 / Published online: 14 July 2025
+© The Author(s), under exclusive licence to Springer-Verlag London Ltd., part of Springer Nature 2025
+
+Abstract
+Generative AI (AI) is being promoted for and adopted by social science researchers at a rapid pace. This shift has enormous
+implications for research outcomes. A better understanding of the language that authors are using to construct a version of
+social science research processes that incorporate AI can inform reporting guidelines and best practices. Qualitative data
+analysis is a particularly important area of focus as it has historically positioned humans as the research instrument. Human
+researchers are coming from positions in the world that always impact their understanding of the data. In this paper, we used
+discourse analysis methods to interrogate how researchers publishing in peer-reviewed social science journals are propos-
+ing and/or explaining their use of generative AI to conduct qualitative data analysis. We gathered a corpus of 29 articles
+through extensive database and direct tables of content searches and documented the journal discipline, paper purpose, and
+AI platforms. We noted five discursive stances: (1) qualitative data analysis is inherently problematic; (2) qualitative data
+analysis is easily, and will inevitably be, automated; (3) AI will disrupt methods without (immediately) replacing humans;
+(4) AI-human hybrid methods are the future; and (5) de-centering ethical concerns and model limitations. We conclude by
+suggesting how these "AI as qualitative data analyst" discourses will complicate the relationship between qualitative methods
+and humans as researchers.
+
+Keywords Generative artificial intelligence · ChatGPT · Qualitative data analysis · Qualitative research · Discourse analysis
+
+1Introduction                                                  generate against any validated base of knowledge. Rather,
+                                                               they are designed to ensure that their outputs match the
+The role of generative artificial intelligence (AI) in scien-  structure of their training data input. As Thornton (2023)
+tific research has increasingly become a normative practice,   described, "for a machine learning model, an output does not
+widely promoted by scholars at the highest levels (Wang        have to be correct, it must appear correct" (p. 27), leading
+2023). While non-generative, or discriminative, machine        to a plausibility bias. In 2024, the U.S. National Academies
+learning AI systems have been around for years, genera-        of Sciences, Engineering, and Medicine hosted a workshop
+tive AI in the form of OpenAI's ChatGPT first came into        with a stated goal to: "explore the future of AI in terms of its
+mainstream public awareness in late 2022. From a research      role as an autonomous researcher performing scientific dis-
+perspective, it is particularly important to note that these   covery" (National Academies of Science, Engineering, Med-
+AI systems are not evaluating the `new information' they       icine 2024). Similarly, the Nobel Turing Challenge seeks to
+                                                               develop a "highly autonomous AI and robotics system that
+* Trena Paulus                                                 can make major scientific discoveries" (Nobel Turing Chal-
+     paulust@etsu.edu                                          lenge 2024). Beyond academia, technology companies have
+                                                               situated AI as science's savior (Schmidt 2023).
+     Jessica Nina Lester
+     jnlester@iu.edu                                              While the promise of AI excites many, researchers are
+                                                               grappling with the visible and hidden consequences of its
+     Charlie Davis                                             use. Scholars across a range of disciplines have taken up a
+     davisck@etsu.edu                                          variety of viewpoints--from Ethan Mollick's (2024) posi-
+                                                               tioning of AI as a `co-intelligence' to Bender and Hanna's
+1 East Tennessee State University, Johnson City, USA           (2025) consistent pushback on `AI as scientist', distributed
+2 Indiana University Bloomington, Bloomington, USA
+
+                                                               Vol.:(0123456789)
+1738                                                             AI & SOCIETY (2026) 41:1737-1748
+
+through their podcast, Mystery AI Hype Theater 3000.             on categorical thinking: engaging in summarizing, catego-
+Papers have reported on scholar (Fecher et al. 2023) and         rizing, and identifying general patterns in a given dataset
+student (Alshwiah 2024) perspectives on research process         (Freeman 2016), all of which are strengths of AI (van Manen
+impact, as well as encouraging its embrace in academic life      2023). AI tools have been part of qualitative data analy-
+(Lin 2023).                                                      sis (QDA) software platforms for many years, as keyword
+                                                                 extraction, sentiment analysis, and topic modeling. Less than
+   Such conversations have been taking place across social       a year after the release of ChatGPT in November of 2022,
+science fields, including business and management (Mariani       ATLAS.ti and MAXQDA integrated OpenAI large language
+and Dwivedi 2024), marketing (Hao and Liu 2024), econom-         models into their platforms, with the CAQDAS Networking
+ics (Korinek 2023), psychology (Chenneville et al. 2024;         Project at the University of Surrey hosting webinars and
+Schueller and Morris 2023), archaeology (Cobb 2023),             workshops for the community to discuss potential impacts
+political studies (Finn et al. 2024), library science (Hosseini  and consequences (e.g. Silver 2023).
+and Holmes 2023), and statistics (Goodale 2024). For the
+purpose of this paper, we are contrasting the social sciences       There are, however, many different ways by which quali-
+(the study of humans, communities and social systems) with       tative data is analyzed and interpreted, and this variation
+the natural sciences (study of the physical world). Scholars     can get lost in discussions around the impact of generative
+have begun to focus on how AI will impact specific parts         AI on qualitative methods. As senior scholars and practi-
+of the social science research process, such as the literature   tioners of a range of qualitative research methodologies, we
+review (Atkinson 2023); data collection methods, including       believe that the consequences for using or not using AI are
+developing surveys (Olivos and Liu 2024), interview proto-       significant for research workflows and knowledge outcomes.
+cols (Parker et al. 2023), and focus groups (Anis and Olisa      Our stance on generative AI has been in constant evolu-
+2024); transcription (Taylor 2024); academic writing (Pigg       tion since ChatGPT was introduced in the fall of 2023. We
+2024); and manuscript preparation (Chemaya and Martin            have been committed to staying informed about the training
+2024).                                                           practices and foundations of large language models (Mollick
+                                                                 2024; Bender and Hanna 2025), raising awareness of the
+   As phases of the research process are conducted along-        power structures behind its development and adoption (Hao
+side, or handed over to, AI, the threat of `deepfakes' (a prod-  2025), and, simultaneously, engaging with early adopters in
+uct that seems real but was generated by AI) is becoming         the qualitative research community who are attempting to
+apparent (Silver 2024). That is, not only can AI-generated       demonstrate its value for our work. Our collaborative work
+photographs, videos, artwork, and text be taken to represent     as authors has consistently explored the intersection of tech-
+true events and human points of view, but entire research        nological innovation and qualitative inquiry with a critical,
+papers can now be generated without human intervention.          reflexive stance.
+Sison et al. (2024) argued that "the main danger ChatGPT
+presents is the propensity to be used as a `weapon of mass          Given the emergent and flexible nature of qualitative
+deception'" (p. 4843). The authors specifically described        research, as well as the vast landscape of methods and meth-
+this in terms of the possibility of unsafe, unreliable and       odologies, we highlight the necessity of scholars engaging
+untrustworthy ChatGPT output being used for deception            in regular reflexivity when working at the intersections
+in academic work, disinformation campaigns, and criminal         of research and any new technologies (Paulus and Lester
+activities. Arora et al. (2024) discussed what they called       2023). However, to date, scholarly work that examines the
+the `AI-human hybrid' in market research, while Lily et al.      intersection of technology and qualitative research typically
+(2023) considered whether and how society is perceiving          flattens this relationship. For example, Woods et al. (2016)
+ChatGPT to have human-like traits. Perhaps most signifi-         noted that researchers who discussed their use of NVivo
+cantly for qualitative social scientists are papers discuss-     or ATLAS.ti qualitative data analysis (QDA) software in
+ing whether AI can serve as a proxy for human research           their research reports typically did so by simply naming their
+participants (Argyle et al. 2023; Burleigh and Wilson 2024;      methodology as `generic' qualitative research and justified
+Fostier et al. 2024).                                            their use of technology with claims that it would improve the
+                                                                 rigor of the study. There is no such thing as `generic' qualita-
+   Qualitative social science research methodologists and        tive research, and simply using software does not, of course,
+researchers, too, have been considering how AI will impact       improve the quality of a study (Paulus and Lester 2022). As
+their work (Christou 2023). Qualitative approaches focus         a result of these findings, guidelines for reporting the use
+on understanding human sense-making in context, giving           of QDA software in more robust and meaningful ways have
+particular attention to how people navigate social worlds        been offered (Paulus et al. 2017).
+(Paulus and Lester 2023). These methodological approaches
+have historically assumed that humans are the primary               As a contribution to the special issue entitled, AI Tech-
+research instrument, fully engaged in data collection, analy-    nology as Human Interaction, in this paper we explore the
+sis, and interpretation. Some approaches to analysis focus       discursive framing of AI systems. We explore how a very
+AI & SOCIETY (2026) 41:1737-1748                                                                                                                   1739
+
+human-centered endeavor, making meaning of human social             depicted as posing a challenge to the role and purpose of
+life via qualitative inquiry, is intersecting with AI systems       both teachers and students.
+that promise a new approach to data analysis. We focus spe-
+cifically on how researchers are working up new discourses             Similarly, Hammond et al. (2023) identified three pri-
+of what it means to do QDA in the age of generative AI--            mary discourses used on automated-paraphrasing websites
+potentially flattening what it has to offer. The interpreta-        targeting students. First, they identified the sheep discourse,
+tive nature of many qualitative research designs (such as           characterized as "disguised messaging appealing to inno-
+ethnography, narrative, discourse analysis, phenomenology)          cent students" (p. 9). This discourse functioned to position
+has typically included positioning the human researcher as          the paraphrasing site as a helpful resource that is low cost
+the primary instrument (e.g., Watt 2007); that is, researchers      and easy to use. The second discourse ("dark wolf") was
+have been understood to be, rather than neutral or objec-           described as constructing "...an easy world of speed and
+tive actors, entering into a given study from a particular          efficiency while the student escapes the frustration of learn-
+position in the world. This subjective positionality neces-         ing and avoid[s] the risk of negative emotion associated
+sarily impacts their understanding (and analysis) of data,          with being caught by plagiarism detection tools" (p. 10).
+primarily in critical, positive ways. As such, it has been of       Finally, acceptability and normalization discourses of `eve-
+particular interest to note how AI is being positioned as a         ryone does it' were also prevalent. The authors noted that the
+co-researcher (Mollick 2024). We report findings from our           gray wolf discourse blurred the sheep and wolf discourses
+discourse analysis of peer-reviewed journal articles, asking:       by problematizing both writing and learning itself. It func-
+How do authors describe the relationship between QDA and            tioned to frame normal learning as requiring effort and as a
+generative AI?                                                      negative experience to be avoided.
+
+2Discourse analysis and AI use                                         Finally, Munk et al. (2024) examined what evoking algo-
+                                                                    rithms is `doing' in scientific literature, focusing on how
+Discourse analysis is a well-established method for the study       algorithms are often positioned as having agency. They
+of language as social practice (Woods and Kroger 2000) and          noted that the `expert' scientific discourse charges algo-
+has been previously used to analyze research publications           rithms only with the capacity to solve problems. Algorithms
+(e.g., Paulus et al. 2017; Woods et al. 2016). While still a        are rarely blamed for causing problems; and, if problems
+relatively small body of literature, previous AI discourse          arise from algorithms, it is up to another algorithm to solve
+analysis studies informed our own work. Avnoon and Oliver           them.
+(2023) noted what they termed the `rhetorical dance' that
+radiologists performed around how AI would disrupt and/                Paulus and Marone (2025) analyzed how QDA software
+or be adopted into their work. These discourses included            company websites described the impact of AI, identifying
+integration through cooperation and co-producing with AI;           four discursive dilemmas: (a) data analysis constructed as
+absorbing AI as another useful technology but subordinat-           automated insight-generation versus systematic meaning-
+ing it to the human radiologists; fighting off the AI threat by     making; (b) data analysis transformed into chatting with
+undermining its legitimacy and strengthening boundaries;            documents versus analyzing data; (c) data analysis charac-
+and, finally, full assimilation of radiology into the larger field  terized as happening at high speed versus with high engage-
+of AI. Within the context of higher education, McGrath et al.       ment; and (d) the novelty of AI-driven analysis and out-
+(2024) drew upon Bearman et al. (2022) to explore the dis-          comes versus retention of human agency. These dilemmas
+courses present in empirical studies of generative AI. They         posed challenges to the essence of what it means to analyze
+noted how Bearman et al.'s (2022) discourses of imperative          data from various epistemological stances. Building on
+response; altering authority; and the `dystopia is now, utopia      Paulus and Marone (2025), we analyzed, in this study, the
+is just around the corner' duality were present throughout the      emerging discourses around AI and QDA in peer-reviewed
+research literature. The discourse of imperative response was       journal articles.
+characterized as: "AI is a force of unprecedented and inevi-
+table change that requires higher education to either resist or     3Method
+adapt" (McGrath et al. 2024, p. 4). The discourse of altering
+authority highlighted how AI is challenging the locus of            We gathered a corpus of peer-reviewed journal articles
+authority and agency throughout the university and "depicts         proposing or reporting the use of generative AI for QDA.
+shifting power dynamics between humans and machines and             As qualitative researchers immersed in these discourses,
+actors such as teachers, students, corporations and univer-         this seemed a logical starting point given the previously
+sity" (McGrath et al. 2024, p. 4). In their analysis, AI was        discussed literature. To identify relevant articles, we con-
+                                                                    ducted both database keyword searches and direct tables of
+                                                                    contents searches, adapting procedures outlined by Paulus
+                                                                    et al. (2024) and Woods et al. (2016). Our search for relevant
+1740                                                                                                       AI & SOCIETY (2026) 41:1737-1748
+
+articles occurred in several phases. First, we conducted       3. How is the role of AI characterized, described and con-
+searches in EBSCO, ProQuest and Web of Science using               structed?
+the keywords "generative AI", "ChatGPT", "large language
+models" and "artificial intelligence" in combination with      4. How is the relationship between humans and AI charac-
+"qualitative data analysis." Second, we created keyword            terized, described and constructed?
+search alerts in Google Scholar and Semantic Scholar.
+Finally, keyword searches were conducted in the tables of         By closely analyzing language use, we noted how dis-
+content of 67 journals that publish qualitative research. We   courses and metaphors around technology function in par-
+started with the journals reviewed by Paulus et al. (2024)     ticular ways, such as attributing agency to the generative
+and added other social science and applied discipline-spe-     AI, rather than the researcher. We engaged in repeated read-
+cific journals known to publish qualitative work. We limited   ings, making analytic and theoretical memos around what
+the search to peer-reviewed journals published in English in   language choices were doing, constructing, and describing.
+2023 and 2024, accounting for the release date of ChatGPT.     We met together to compare, contrast, and systematize our
+Peer review remains the gold standard of publication quality,  interpretations. Following Wood and Kroger (2000), strate-
+and English is the dominant language of our research team.     gies and procedures included the analysis of text structure
+While we manually reviewed hundreds of initial hits, only 29   and organization (i.e., what is there and what is not, and how
+articles were relevant to the purpose of our review.           it is structured) and examination of multiple functions of dis-
+                                                               course segments (i.e., what the language choices are doing
+   We began the analysis by documenting the journal disci-     and how). We organized our findings around broad patterns,
+pline, purpose of the paper, and AI platform. Next, we used    illustrating what these patterns accomplish and paying par-
+discourse analysis (Wood and Kroger 2000) to make sense        ticular attention to the potential consequences that these
+of how the authors constructed versions of QDA and the         discursive patterns might have for consumers of research.
+relationship between the human researcher and generative
+AI platforms. Discourse analysis rests on the assumption that  4Findings
+language choices perform actions (functioning to construct
+a particular relationship between the research process and     Table 1 provides an overview of the journal disciplines,
+AI) rather than represent a static reality (representing an    paper purpose, and AI platforms. Several articles fell into
+objective truth about this relationship). This methodologi-    more than one category. Most of the articles were published
+cal approach is grounded in the perspective that the human     in methodology journals, which is unsurprising given that
+experience of the world is discursively and socially con-      researchers are still in the early adoption or pre-adoption
+structed. Thus, the research team analyzed the language        phase. Some scholars published conceptual pieces speculat-
+used in the articles, both individually and collaboratively,   ing on AI use alongside ethical and other methodological
+by engaging with the following questions:                      considerations. Articles comparing human analysis with AI
+                                                               analysis were the most common paper purpose, followed by
+1. How is the QDA process characterized, described and         workflow papers describing in detail how AI was, or could
+    constructed?                                               be, used for data analysis. Only three studies were found to
+                                                               report that AI had been used to conduct the study (Hajra
+2. How is the role of the human characterized, described
+    and constructed?
+
+Table1Article categorization     Journal disciplines                       Purpose of the paper           AI platforms
+by journal discipline, purpose,                                            *some papers represented more  *most papers
+and AI platform                  Qualitative methodology/evaluation (10)   than one purpose               discussed multiple
+                                 Health (5)                                                               types of AI
+                                 Social media analysis (4)                 Comparison (11)
+                                                                           Workflow (9)                   ChatGPT (18)
+                                 Education/social work/human services (4)  Conceptual (8)
+                                 Information systems (2)                                                  Generative AI (10)
+                                 Tourism (2)                               Research reports (3)
+                                 Business (1)                                                             Qualitative data
+                                 Ethics (1)                                                                 analysis software
+                                                                                                            integration (5)
+
+                                                                                                          ChatPDF (1)
+
+                                                                                                          Bard (1)
+AI & SOCIETY (2026) 41:1737-1748                                                                                                                 1741
+
+2023; Malik et al. 2024; Zhang and Tandoc 2024). As adop-         of large language models into ATLAS.ti with an increase
+tion continues, we anticipate more studies will fall into this    in analytic efficiency, reducing the "time and effort" of the
+category. Finally, ChatGPT was the most common AI plat-           researcher engaged in analysis (p. 566). Dahal (2024) further
+form, followed by generically described generative AI, with       noted that AI can "overcome data scarcity and delve deeper
+five papers discussing the integration of AI into existing        into research questions...allowing for more nuanced analy-
+QDA platforms such as ATLAS.ti and MAXQDA.                        ses and broader understanding... it can save time and effort
+                                                                  when human resources are scarce..." (p. 725-726). Here, the
+   Broadly, we identified five discursive patterns used to        small datasets often intentionally used in qualitative studies
+construct the relationship between humans, AI and qualita-        are positioned as a "data scarcity" problem that AI can solve.
+tive data analysis. These were: (1) qualitative data analysis is
+inherently problematic; (2) qualitative data analysis is easily,     Broadly, many of the articles, particularly those within
+and will inevitably be, automated; (3) AI will disrupt meth-      the health sciences, forwarded what is perhaps best charac-
+ods without (immediately) replacing humans; (4) AI-human          terized as a moral imperative to do important work faster.
+hybrid methods are the future, and (5) de-centering ethical       As a possible acknowledgement that qualitative research is
+concerns and model limitations. The italicized text is used       typically designed to be slow, scholars from the health sci-
+to highlight discursive moves that illustrate our arguments       ences fields made the argument that, in order to solve real-
+most clearly.                                                     world problems in a timely manner, it is the researchers'
+                                                                  obligation to use AI. Parker et al (2023) noted that there
+1. "Accelerating a process that is exhausting and tiring":        are large amounts of unstructured data in health systems
+    Qualitative data analysis is inherently problematic           that remain unanalyzed due to time and cost. If these piles
+                                                                  of data are left unanalyzed it creates missed opportunities
+   The article introductions often positioned generative AI       to do the right thing, they argued, therefore AI is a solution.
+as able to overcome characteristics of qualitative methods        Relatedly, Prescott et al. (2024) acknowledged that qualita-
+that were framed as inherent weaknesses. In our experience        tive methods are beneficial, but lamented that they take time
+as scholars, qualitative research designs are often selected      and ultimately delay generating knowledge that is needed to
+because they allow for a richer, more detailed picture of the     solve health problems.
+environment being studied. Deeper understandings result
+from extended time in the field and close engagement with            A few scholars, such as Hitch (2024), acknowledged and
+participants and locations. Framing qualitative research as       rejected the assumption that such essential characteristics
+slow, labor intensive, exhausting, and expensive functioned       of qualitative research are inherently problematic. While
+to position its strengths as de facto problems, which opened      noting some potential benefits of AI, such as systematic-
+the door to the adoption of AI as a solution. Claiming that       ity, providing an alternate perspective, and identifying pat-
+qualitative research is subjective and biased also provided       terns not initially noticed by humans, Hitch also argued
+such an opening, when, in actuality, the underlying episte-       that: "This potential benefit... should not be mistaken as a
+mological foundations of qualitative research designs typi-       means to increase `objectivity'" (p. 601). Hitch acknowl-
+cally do not make any claims to objectivity. Tai et al. (2024),   edged that AI has been "proposed as a way of validating
+for example, described qualitative work as comprised of           qualitative analysis which reflects the detached perspec-
+"meticulous, time-consuming, and labor-intensive manual           tives of the neo-positivist paradigm... [which may] adopt
+coding" (p. 1) which was positioned as relying on subjective      this more readily due to this perceived alignment to their
+processes. They also described `positionality' as a feature       underlying values" (p. 601). Hitch recognized that efficiency
+that "introduces bias into the analysis and interpretation" (p.   is a contentious concept--choosing efficiency over being
+1). By constructing qualitative inquiry as "time-consuming",      consistent with the underlying epistemological assumptions
+"labor intensive", and "subjective", Tai et al. (2024) implic-    of a study, even if it requires more time, are two different
+itly positioned these qualities as problematic versus central     `solutions'. Still, Hitch framed time as a luxury and privilege
+core strengths of choosing a qualitative design.                  and argued that AI could help researchers work efficiently
+                                                                  through large datasets, writing: "chat GPT could complete a
+   Like Tai et al. (2024), Carius and Teixeira (2024) wrote       first pass of data in matter of minutes" (p. 602), which would
+that, "the use of Artificial Intelligence in the coding pro-      ensure that humans could use their time creatively deepening
+cess is a way of accelerating a process that is, to a certain     insights and doing nuanced interpretation. Anis and French
+extent, exhausting and tiring, leaving the researcher with        (2023) also positioned AI as opening up ways for qualita-
+little time to dedicate to the subliminal aspects of the mate-    tive researchers to spend time doing activities that mattered,
+rial and, therefore, make important inferences regarding          such as thinking, deliberating, and developing interpreta-
+the proposed material" (p. 11). AI was described by Chubb         tions. That is, AI was constructed as an entity that could
+(2023) as being able to expedite and reduce human labor and       free humans from more time-consuming, and perhaps less
+load. Similarly, Victor et al. (2023) connected the integration   rewarding, parts of analysis.
+1742                                                                                                                  AI & SOCIETY (2026) 41:1737-1748
+
+   As a logical extension of this argument, we noted that                 perhaps better. Eleven of the 29 papers we analyzed included
+humans were described at times in these articles as not even              AI-human comparisons. For example, Spangler et al. (2024)
+really wanting to do key parts of the tiresome and time-con-              mused that while non-qualitative data analysis includes:
+suming work required by QDA. This orientation thus opened
+up space for AI to be positioned as releasing humans to do                   mathematical computations [which] have a logical
+more important things with their limited time. Extensive                     beginning and reach a regimented end . . . on the other
+time spent coding, analyzing, and discussing analysis with                   hand, qualitative studies are very reliant on a human
+others were treated as tasks that humans would, really, just                 factor, the researcher, to determine when all possible
+prefer not to do. Walsh and Pallas-Brink (2023) described                    data has been exhausted and identified and then to
+and resisted this discourse well: "In applying AI to qualita-                determine how to give meaning to what is obtained...
+tive data, the implied problem is that qual is not quant. As                 AI analyzing data should come to a relatively same
+ethnographers, we know qual is not quant for a very good
+reason--qualitative data offers insights centered on 'how'                   conclusion analyzing the same data as a pair of expe-
+and `why,' versus the `what' and `how many' of quantita-
+tive" (p. 548). Moreover, some articles positioned human                     rienced researchers (p. 323).
+researchers as problematic--unable to achieve consistent
+and cohesive coding, for example. Humans were described                      In these comparative approaches, some authors began
+as envying the superior abilities of AI (Carius and Teixeira              with an AI analysis and then determined whether the
+2024). These superior AI abilities, as Christou (2024) pro-               human analysis achieved the same outcome, whereas others
+posed, included improved speed and scalability to manage                  approached the comparison in reverse.
+large datasets, automate, group similar items, summarize,
+find relationships, recognize patterns, offer alternative per-               The goal of these studies was typically to assess whether
+spectives, and much more.                                                 and to what extent human and AI analysis aligned. We noted
+                                                                          that authors acknowledged yet also minimized any inconsist-
+2. "Themes inferred by the model": Qualitative data analy-                ences. For example, De Paoli (2024) attempted to partially
+    sis is easily, and will inevitably be, automated.1                    reproduce six phases of thematic analysis with ChatGPT.
+                                                                          De Paoli (2024) concluded that "the model can infer most
+   The articles we analyzed were situated along a spec-                   of the main themes from previous research...this shows that
+trum of epistemological orientations, though most took up                 using LLMs [large language models] to perform an induc-
+post-positivist perspectives, foregrounding methods such                  tive [thematic analysis] is viable and offers a good degree of
+as thematic analysis, grounded theory, and content analysis               validity" (page 1). De Paoli went on to say: "...There is no
+(see Chubb 2023, for an exception). These methods were                    denying that the model can infer codes and themes and even
+generally positioned as involving coding and categorizing.                identify patterns which researchers did not consider relevant
+Analysis was framed as amenable to automation, bolstering                 and contribute to better qualitative analysis" (p. 18). Here,
+the argument that AI integration could increase efficiency.               rather than treating the inconsistency as a model limitation,
+None of the articles we reviewed analyzed images or videos,               it is assumed that the AI-identified codes and themes that
+nor did they use discursive, posthuman, or creative analysis              the humans did not consider relevant should be given equal
+methods. This may, in part, reflect limitations in our search             credibility and authority as study findings.
+terms, which did not explicitly include visual or image-gen-
+erating AI tools such as DALL-E.                                             The assumption that there will and should be a role for AI
+                                                                          in the qualitative data analysis process was prevalent across
+   Since QDA was positioned as a relatively straightforward               the papers. ChatGPT was positioned as having advantages
+process of summarizing and identifying patterns, scholars                 for working with large datasets, with scholars recognizing
+had the grounding to construct studies comparing human                    "the importance of combining AI tools with human expertise
+analysis with AI analysis through a `media comparison' (see               to refine and interpret the results accurately" (Hajra 2023,
+Buchner and Kerres 2023, for a discussion of the limitations              p. 182). There was a tone of inevitability in the discourses
+of media comparison study designs). There was a general                   evoked. De Paoli (2023), as one example, concluded with:
+assumption that AI should be able to do what humans do,                   "in the end it does seem inevitable that qualitative research-
+                                                                          ers, especially in the social sciences, will have to engage
+1While our analysis only focused on how scholars wrote about              with these models in ways that can help do their work better"
+the use of generative AI for qualitative data analysis, some of the       (p. 20). Similarly, Hamilton et al. (2023) described ChatGPT
+included articles, such as Dahal (2024), Head et al. (2023), Marshall     as "a powerful tool to supplement complex human-centered
+and Naff (2024), and Victor et al. (2023), did in fact discuss potential  tasks... such tools will become an additional tool to facilitate
+uses of AI for other phases of the research process.                      research tasks" (p. 1).
+
+                                                                             Even when AI was acknowledged to have limitations, the
+                                                                          majority of the authors positioned AI as inevitably useful.
+                                                                          For example:
+AI & SOCIETY (2026) 41:1737-1748                                                                                                                 1743
+
+   Despite ChatGPT's commendable performance, limita-             (2023) asked whether using ChatGPT "might disrupt coding
+   tions include issues around contextual understanding,          of data segments as the dominant paradigm"...noting that,
+   bias, and researcher agency constraints . . . this study       "if one believes the publicity about AI-based programs, they
+   acknowledges these limitations, emphasizing their              offer the possibility of simply `chatting' with your data to
+   recognition as vital for comprehensive interpretation.         understand its complexities, rather than going through the
+   ChatGPT, combined with manual analysis, enhances               detailed coding processes that currently dominate qualitative
+   overall robustness, despite potential challenges with          data analysis" (p. 1). Morgan further mused that "only time
+   interpretive aspects . . . (Hajra 2023, p. 182).               will tell what direction AI-based analysis will take, but given
+                                                                  the disruptive power of ChatGPT, that time may be quite
+   As another example, Dahal (2024), after noting some            short" (p. 9). The disruptive capacities of AI were framed
+limitations claimed that "nevertheless... AI technologies can     as potentially replacing a mainstay practice, coding. A con-
+enhance researchers' capabilities, enabling them to become        trast was made between coding as something that analysts
+more resourceful and self-reliant in their roles" (p. 727).       must endure ("go through") versus the, presumably more
+Scholars took up a type of fatalistic discourse - AI will be      enjoyable, `simply chatting' with data as mediated through
+adopted, so researchers should all get on board. Hitch (2024)     AI systems.
+acknowledged that it "is not whether it should be adopted,
+but how to best adopt it. The revolution is here, and it has         Parker et al. (2023) argued that researchers should use
+the potential to significantly enhance and transform the          AI to ensure that they will "be on the cutting edge of emerg-
+work of qualitative researchers from multiple traditions and      ing technology which is revolutionizing many fields" (p.
+approaches" (p. 604).                                             5). Törnberg (2024) noted that generative AI has "capaci-
+                                                                  ties that have been traditionally understood to be distinctly
+   Van Manen (2023), one of the few scholars to push back         human" (p. 1) and that large language models "appear to
+on AI adoption, cautioned that ChatGPT "cannot really             have granted machines access to the realm of ideas, values
+thematize, let alone theorize, in a meaningfulness sense.         and beliefs about the world within which texts are situated,
+Instead, [it] offers an illusion of meaningful reading" (p.       historically thought to be an exclusively human domain..."
+1136). He noted that in methodological traditions like phe-       (p. 13). He argued that AI can "draw on interpretive skills
+nomenology the focus is on understanding human experi-            and can make inferences based on contextual understand-
+ence, something ChatGPT cannot offer. Similarly, Davison          ing..." requiring "new ways of thinking of computational
+et al (2024) suggested that it is the "researcher's creative and  text annotation, one that is more akin to human text cod-
+conceptual ability to discern meaning, salience and inter-        ing..." (p. 3). Törnberg went on to claim that these models
+connectedness of logic in emerging themes" and that AI            are "challenging conventional distinctions within the social
+cannot "capture the nuances of the research environment,          sciences: between qualitative and quantitative studies, and
+body language, facial expressions, tone of voice, interactions    between close and distant reading... [opening] new forms of
+between the researcher and the research subjects, and the         large-scale inductive interpretive research, representing new
+researcher's own accumulated understanding of the domain."        methodological terrain" (p. 12). Indeed, he argued, radical
+(p. 4). These less frequently articulated viewpoints will be      scientific advances will come from these new tools, "trig-
+revisited in the following section on the discourses taken up     gering a paradigm shift" (p. 12).
+around the role of humans in data analysis.
+                                                                     Alongside the "AI as disruptor/disruption" discourse were
+3. "Challenging conventional distinctions": AI will disrupt       reassuring claims that there would still be a role for humans.
+    methods without (immediately) replacing humans                There was an effort to display that humans and AI platforms
+                                                                  were compatible and should work together, rather than con-
+   Alongside the framing of data analysis as a problem that       sidering AI to be a replacement for humans. For example,
+is easily solvable with AI, scholars also took up a discourse     Spangler et al. (2024) concluded that an AI bot was a good
+of disruption-but-not-replacement. AI was constructed as          starting point for thematic analysis, but humans were still
+being both disruptive (i.e., altering how qualitative data        needed for nuanced analysis and emotional understanding.
+analysis is done) and disrupting (i.e., resulting in innovations  Chubb (2023) characterized AI as a useful research assis-
+that will likely create new problems). Victor et al. (2023)       tant but not as good as a human, noting that the human
+positioned generative AI as having "the potential to reshape      must still review AI products. That this move essentially
+many core activities in qualitative research... the integration   creates more work that humans never asked for was not
+of ChatGPT within ATLAS.ti will certainly increase qualita-       addressed by any of the authors. Instead, AI was frequently
+tive coding speed, but the integration of this generative AI      referenced as "simply a tool"; one that could be used by the
+technology might diminish the quality and trustworthiness         human, but that would not take over the analysis (Zhang
+of analyses" (p. 566-568). Similar to Victor et al., Morgan       and Tandoc 2024). In this way, the indispensable human
+                                                                  position was maintained, albeit decentered as the only, or
+1744                                                                                                        AI & SOCIETY (2026) 41:1737-1748
+
+even primary, authority. AI was centered as the primary,        that hybrid approaches are necessary" (p. 1). They went on
+initial actor that needed humans to "check" it for accuracy     to note that humans are better at identifying nuanced and
+(e.g. Hayden 2023). In this human as validation agent posi-     interpretive themes, and thus collaboration will improve effi-
+tioning, some of the authors were explicit in pointing to the   ciency as well as mitigate potential ethical risks posed by the
+current impossibility of replacing humans due to some of        AI. Prescott et al. provided two paths--using AI for analysis
+AI's weaknesses, such as hallucinations and the generation      first, after which humans would review the outcomes, or, in
+of false information (Marshall and Naff 2024; Van Manen         contrast, humans would begin the analysis, followed by AI,
+2023). This positioning of AI as inevitable and essential       after which researchers would reflect on any discrepancies.
+but also ultimately unreliable poses a dilemma for scholars.
+                                                                   This new hybrid research endeavor included a variety
+   A minority of articles acknowledged that the unique          of roles for AI. Hamilton et al. (2023) predicted AI would
+aspects of qualitative inquiry (i.e., engaging in reflexivity;  become an additional tool in the researcher toolbelt, along-
+taking up innovative and creative analytic methods) were        side Google Scholar, citation management platforms and
+beyond the abilities of current AI systems; thereby requiring   grammar-checking software. Dahal (2024) described AI
+human involvement. Van Manen (2023) noted:                      as a co-author, a conversational platform and a research
+                                                                assistant that could both enhance and hinder research. Hitch
+   ChatGPT does not `put something into words' in a             (2024) exclaimed, "much to my surprise, I found myself
+   meaning-oriented manner. Instead, it `merely' gener-         referring to ChatGPT as `they/them' in conversations with
+   ates bare texts based on a complex predictive model          humans... I think of it as a virtual colleague, a novice that
+   of what words are likely to follow from the preced-          can make a useful contribution" (p. 604). Mazeikiene and
+   ing words, phrases, sentences, and so forth while also       Kasperiuniene (2024) suggested that AI could be a co-ana-
+   shaped by the prompts entered by the user (p. 1136).         lyst, consultant and trainer, and centered the role of humans
+                                                                in decision making and interpretation.
+   Further, Wachinger et al. (2024) discussed how AI cannot
+engage in reflexivity, and as such humans still must do this       Some proposed entirely new AI-integrated research meth-
+as it is fundamental to the epistemologies underlying many      odologies, rather than just re-envisioning the human and AI
+qualitative inquiry methodologies.                              role relationship. Sun et al. (2025) positioned ChatGPT as
+                                                                its own unique research method alongside grounded theory
+   Authors noted that while, for now, humans remain indis-      methodology: "While ChatGPT and Grounded Theory oper-
+pensable, this would not always be the case. For example,       ate differently due to their fundamental nature, there are sev-
+Hitch (2024) noted that "AI can augment but not replace         eral parallels in the processes from initial coding, develop-
+the work of human researchers" (p. 596), but that the "the      ing, refining, and interconnecting categories, to theoretical
+boundary between human and non-human interpretations of         integration, validation, and refinement" (p. 4). Head et al.
+data is likely to become blurrier over time" (p. 602).          (2023) proposed an AI-generated workflow for evaluation
+                                                                research: "Evaluation processes can be supported by LLMs
+4. "A virtual colleague": Hybrid methods as the future          across the following evaluation workflow: (1) summariz-
+                                                                ing existing text, (2) comparing multiple texts, (3) analyz-
+   Given that, despite its limitations, AI is being positioned  ing individual texts, (4) analyzing tables and images, and
+as both inevitable and disruptive to QDA, and that, at the      (5) creating (generating) text" (p. 37-38). Christou (2024)
+same time, humans will not (yet) be replaced, the question      outlined thematic analysis through AI as a new method.
+becomes: what will the future bring? Across many of the         Tai et al. (2024) proposed "a systematic methodology for
+articles, new, hybrid methods of analysis were proposed and     using LLMs as a qualitative research tool that can aid in the
+positioned as imminent. Parker et al. (2023) argued:            deductive coding of interview data" (p. 1). Mazeikiene and
+                                                                Kasperiuniene (2024) described a "research design for AI-
+   combining a qualitative researcher with [generative          enhanced qualitative analysis" (p. 2507), framing this as a
+   AI] could be deployed in many settings, reducing             methodological approach.
+   time and costs and improving context...until LLMs
+   are more prevalent, a human interaction can help trans-         Mazeikiene and Kasperiuniene (2024) suggested that
+   late patient experience by contextualizing data rich in      "our efforts to extract an explanation of the analysis of the
+   social determinant indicators which may otherwise go         data through various prompts has not been successful....
+   unanalyzed (p. 1).                                           ChatGPT doesn't reveal actual algorithms in conversation
+                                                                thus the application of algorithms and generation of outputs
+   Prescott et al. (2024) concluded that "consistency in the    remains obscure for its users...." (p. 2515). Lack of suc-
+themes generated by human coders and GenAI suggests that        cess and methodological obscurity should sound alarming to
+these technologies hold promise in reducing the resource        researchers, but such limitations did not undermine this pro-
+intensiveness of qualitative thematic analysis; however, the    posed new hybrid methodology. In fact, the authors argued
+relatively lower reliability in coding between them suggests
+AI & SOCIETY (2026) 41:1737-1748                                                                                                                1745
+
+that "GAI is successful in analyzing initial raw data, open      authors mention the poorly treated data workers or the unau-
+coding and elevating codes to a higher degree of abstraction     thorized use of intellectual property as training data founda-
+and revealing main patterns in the data... delineat[ing] the     tional to generative AI. Marshall and Naff (2024) did note
+efficiency and effectiveness of GenAI in data analyzing" (p.     that LLM training data disproportionately represents White
+2521).                                                           and middle to high SES people--so AI should be understood
+                                                                 as "culturally misaligned with participants from minoritized,
+   Broadly, then, the majority of the articles positioned        marginalized, and underrepresented backgrounds, which is
+humans as necessary and central to this new future hybrid        particularly dangerous if AI qualitative analyses begin to be
+approach to data analysis. Yet, while humans were con-           interpreted as `truth'" (p. 94).
+structed as central, they were no longer positioned as the
+primary research instrument, as has typically been the case         Prescott et al. (2024) perhaps best illustrated this dis-
+in qualitative traditions. Rather, the human role was rele-      cursive pattern, wherein they described limitations at the
+gated to reviewing the automated, fast and efficient AI out-     very end of the article, mentioning data privacy, algorithmic
+put. While some scholars, such as Davison et al (2024) and       bias, inequality, fact fabrication, plagiarism, breaches of data
+van Manen (2023), kept humans at the core of the research        privacy, and informed consent challenges around adopting
+process--resisting claims that ease and speed were more          AI for research. Despite these grave limitations and ethi-
+important than ethical and high-quality analysis--these were     cal concerns, the authors suggested that "future researchers
+minority voices.                                                 should continue to prudently investigate and monitor both
+                                                                 the potential benefits and risks associated with groundbreak-
+5. "Humans are also black-boxed and subjective": De-             ing technologies such as GenAI when incorporating them
+    centering ethical concerns and model limitations             into the scientific process with data from vulnerable popula-
+                                                                 tions" (p. 9). The authors did not advise against the use of
+   Most authors delayed, until the end of the articles, dis-     this `groundbreaking' technology for social science research.
+cussions of ethical concerns, model limitations or other cri-    Rather, it is left up to individual researchers to investigate
+tiques of AI use in qualitative analysis (see Van Manen 2023,    and monitor technological developments, while also deter-
+as an exception). Concerns that were discussed included the      mining and following best practices for their use, even when
+frequency of errors (`hallucinations'), data privacy risks,      such practices have not yet fully been articulated.
+ambiguous data ownership, interpretative insufficiency, and
+biased outcomes. Concerns were not typically positioned          5Conclusions and limitations
+as a cause for serious alarm or reasons to delay adoption;
+rather, they were simply stated as temporary issues that were    Similar to other discourse studies of AI, our analysis found
+likely to be resolved in the near future and were articulated    that the majority of authors are engaging in what Avnoon
+in a backgrounded, minimized way.                                and Oliver (2023) termed the rhetorical dance. This dance
+                                                                 is one in which researchers recognize that AI will most cer-
+   Törnberg (2024), for instance, mentioned ethics, legality     tainly disrupt, if not wholeheartedly transform, the social sci-
+and reproducibility as challenges to AI-generated outcomes,      ence landscape regardless of potential threats. McGrath et al.
+but countered any arguments against its use by reminding         (2024) noted that within higher education more broadly, AI
+us that "many of the same criticisms can also be leveraged       is being positioned in the discourse as an inevitable change.
+against human coders--who, after all, are similarly black-       We found across the papers that AI was constructed as
+boxed [in their thinking] and subjective" (p. 12). Similarly,    something that there is simply no way around. Like Ham-
+Victor et al. (2023) noted that "researchers should confirm      mond et al.'s (2023) study of how automated paraphrasing
+compliance with ethical standards, including data privacy        sites positioned their utility for students, we, too, found dis-
+and security, to ensure the research meets all ethical require-  courses highlighting the "ease and efficiency" it will bring
+ments" (p. 573), making any AI-related problems the respon-      to the qualitative data analysis process. This construction
+sibility of the individual researcher, rather than the technol-  points to the realities of living and working within a context
+ogy companies, to solve. Morgan (2023) acknowledged the          driven by neoliberal and capitalistic goals (e.g., Olssen and
+potential for algorithmic bias, AI-generated hallucinations,     Peters 2005). That is, the mandate to produce more, faster,
+and ethical problems, particularly around using research data    is part of the framework within which the majority of social
+to train LLMs. However, Morgan reassured the reader that         science researchers find themselves working.
+his own study encountered no problems with hallucinations,
+with this formulation serving to minimize any significant           In Nature, Messeri and Crockett (2024) warned of a world
+concerns. While the negative environmental impacts caused        in which "proposed AI solutions" to conducting research
+by the natural resources needed to sustain server farms that     will make us "vulnerable to illusions of understanding in
+support generative AI technologies were noted by Head            which we believe we understand more about the world than
+et al. (2023), we found no authors emphasizing this. Nor did
+1746                                                                                                          AI & SOCIETY (2026) 41:1737-1748
+
+we actually do" (p. 49). They argued that the four visions        the Committee on Publication Ethics) have already devel-
+of AI for scientific research that have been proposed to span     oped journal policies outlining when and how to disclose
+the research cycle (AI as oracle that can wade through the        the use of generative AI. We recognize that the `inevita-
+vast quantities of scholarly literature; as surrogate silicon     bility' discourses of AI use will likely continue, making
+research subjects and data generators; as quants that can         it critical to develop ways to reflexively acknowledge the
+automate data preparation and analysis; and as arbiters to        consequences.
+serve as proxy editors and peer reviewers) are not inevi-
+table, and certainly pose epistemic risks, such as produc-           Given the shifting landscape around appropriate uses
+tion of a scientific monoculture. Offering a similar warning,     of generative AI and social science research, scholars may
+Heersmink et al. (2024) suggested that anthropomorphizing         be using AI for various research tasks without reporting
+large language models can lead to unwarranted trust toward        it. Our analysis highlighted a striking trend: social science
+their output, given that the "data and algorithmic opacity        researchers are increasingly willing - perhaps even eager
+and phenomenological and informational transparency can           - to delegate some aspects of their interpretive authority
+make it difficult for users to calibrate their trust appropri-    to AI technologies. This widespread and growing practice
+ately" (p. 40).                                                   is perhaps being fueled by neoliberal narratives that prior-
+                                                                  itize efficiency, speed, and the illusion that such tools lead
+   We, therefore, are troubled by the AI-human relationship       researchers to more objective outcomes. Yet, as qualitative
+that is being constructed around qualitative data analysis.       methodologists and researchers, we are compelled to ask: at
+Rather than "problematically time intensive", we argue that       what cost do we embrace AI in our interpretive work?
+the time-intensive nature of qualitative work is not, in fact,
+troubling. Rather, the time-intensive nature of qualitative       Author contributions TP, JNL and CD conducted the data collection
+data analysis is often part of what is needed to generate a       and analysis and wrote up the manuscript. All authors reviewed the
+deep and detailed understanding of a human phenomenon.            manuscript.
+Long-term engagement with data is one way by which we--
+as inquirers--can ensure trustworthiness and authenticity         Data availability No datasets were generated or analysed during the
+of claims (Tracy 2010). Moreover, qualitative data analysis       current study.
+has long been inherently shaped by the human research-
+ers driving the process. By design, the researcher is indeed      Declarations
+central to the interpretive process. This reality is neither a
+weakness nor a problem; rather, it is a core feature of quali-    Conflict of interest The authors declare no competing interests.
+tative research that moves analysts to commit to reflexiv-
+ity. While indeed many qualitative researchers are already        References
+claiming that AI applications are useful and result in more
+efficient research practices, we call for caution and hesita-     Alshwiah A (2024) Students' perceptions of an artificially intelligent
+tion in their adoption. What is offered to us currently are             chatbot as a support tool to develop their research skills. Qual Res
+applications that have not offered theoretically and methodo-           J. https://doi.org/10.1108/QRJ-06-2024-0117
+logically sound pathways toward conducting qualitative data
+analysis. Moreover, these applications by and large focus         Anis S, French JA (2023) Efficient, explicatory, and equitable: why
+on categorizing and thematizing data--which aligns with                 qualitative researchers should embrace ai, but cautiously. Bus Soc
+only a small number of qualitative analytic approaches (e.g.,           62(6):1139-1144. https://doi.org/10.1177/00076503231163286
+content analysis, thematic analysis, etc.). In fact, the dangers
+of engaging with these applications to conduct analysis are       Anis AM, Olisa N (2024) The end of traditional focus groups? Scaling
+not yet fully known.                                                    up qualitative research quick, yet maintaining depth. New Trends
+                                                                        Qual Res 20(1):1-18. https://doi.org/10.36367/ntqr.20.1.2024.
+   Davison et al. (2024) suggested that guidelines for AI use           e799
+need to be flexible, evolving along with the technologies.
+Indeed, the use of AI in academic research and publishing         Argyle LP, Busby EC, Fulda N, Gubler JR, Rytting C, Wingate D
+has resulted in increasing calls for guidelines to ensure ethi-         (2023) Out of one, many: using language models to simulate
+cal research practice and academic integrity. In fact, a call           human samples. Polit Anal 31:337-351. https://doi.org/10.1017/
+for clear guidelines around both the use of AI in research and          pan.2023.2
+the reporting of its use is echoed by multiple authors who
+argue that the lack of comprehensive guidelines can lead to       Arora N, Chakraborty I, Nishimura Y (2024) EXPRESS: AI-human
+confusion among researchers, reviewers, and editors (e.g.,              hybrids for marketing research: leveraging LLMs as collaborators.
+Ganjavi 2024; Zhong 2023). Several major research organi-               J Mark. https://doi.org/10.1177/00222429241276529
+zations (e.g. the American Psychological Association and
+                                                                  Atkinson CF (2023) Cheap, quick, and rigorous: artificial intelligence
+                                                                        and the systematic literature review. Soc Sci Comput Rev. https://
+                                                                        doi.org/10.1177/08944393231196281
+
+                                                                  Avnoon N, Oliver AL (2023) Nothing new under the sun: Medical pro-
+                                                                        fessional maintenance in the face of artificial intelligence's disrup-
+                                                                        tion. Big Data Soc. https://doi.org/10.1177/20539517231210269
+
+                                                                  Bearman M, Ryan J, Ajjawi R (2022) Discourses of artificial intelli-
+                                                                        gence in higher education: a critical literature review. Higher Educ
+                                                                        1:17. https://doi.org/10.1007/s10734-022-00937-2
+AI & SOCIETY (2026) 41:1737-1748                                               1747
+
+Bender EM, Hanna A (2025) The AI con: how to fight big tech's hype             Hamilton L, Elliott D, Quick A, Smith S, Choplin V (2023) Explor-
+      and create the future we want. Harper, New York                                ing the use of AI in qualitative analysis: a comparative study of
+                                                                                     guaranteed income data. Int J Qual Methods 22:1-13
+Buchner J, Kerres M (2023) Media comparison studies dominate com-
+      parative research on augmented reality in education. Comput Educ         Hammond KM, Lucas P, Hassouna A, Brown S (2023) A wolf in
+      195:104711. https://doi.org/10.1016/j.compedu.2022.104711                      sheep's clothing? Critical discourse analysis of five online auto-
+                                                                                     mated paraphrasing sites. J Univ Teach Learn Pract 20(7):8.
+Burleigh C, Wilson AM (2024) Generative AI: Is authentic qualitative                 https://doi.org/10.53761/1.20.7.08
+      research data collection possible? J Educ Technol Syst. https://
+      doi.org/10.1177/00472395241270278                                        Hao K (2025) Empire of AI. Penguin Random House, Westminster
+                                                                               Hao A, Liu H (2024) Guest editorial: artificial intelligence appli-
+Carius AC, Teixeira AJ (2024) Artificial Intelligence and content
+      analysis: the large language models (LLMs) and the automatized                 cation and future research directions in interactive market-
+      categorization. AI Soc. https://doi.org/10.1007/s001                           ing. J Res Interact Mark 18(1):1-5. https://doi.org/10.1108/
+                                                                                     JRIM-07-2023-0231
+Chemaya N, Martin D (2024) Perceptions and detection of AI use in              Hayden D (2023) Generative AI: mining housing data with a higher-
+      manuscript preparation for academic journals. PLoS ONE. https://               powered shovel. Cityscape A J Policy Dev Res 25(3):199-206.
+      doi.org/10.1371/journal.pone.0304807                                           https://doi.org/10.2307/48749677
+                                                                               Head CB, Jasper P, McConnachie M, Raftree L, Higdon G (2023)
+Chenneville T, Duncan B, Silva G (2024) More questions than answers:                 Large language model applications for evaluation: Opportunities
+      ethical considerations at the intersection of psychology and gen-              and ethical implications. New Direct Eval 178-179:33-46. https://
+      erative artificial intelligence. Transl Issues Psychol Sci 10(2):162-          doi.org/10.1002/ev.20556
+      178. https://doi.org/10.1037/tps0000400                                  Heersmink R, de Roolj B, Vazquez JC, M., & Colombo, M. (2024)
+                                                                                     A phenomenology and epistemology of large language models:
+Christou P (2023) ow to use artificial intelligence (AI) as a resource,              Transparency, trust, and trustworthiness. Ethics Inf Technol
+      methodological and analysis tool in qualitative research? Qual                 26:41. https://doi.org/10.1007/s10676-024-09777-3
+      Report 28(7):1968-1980. https://doi.org/10.46743/2160-3715/              Hitch D (2024) Artificial intelligence augmented qualitative analysis:
+      2023.6406                                                                      The way of the future? Qual Health Res 34(7):595-606. https://
+                                                                                     doi.org/10.1177/10497323231217392
+Christou P (2024) Thematic analysis through artificial intelligence            Hosseini M, Holmes K (2023) The evolution of library workplaces
+      (AI). Qual Report 29(2):560-576. https://doi.org/10.46743/2160-                and workflows via generative AI. Coll Res Libr 84(6):836-842.
+      3715/2024.7046                                                                 https://doi.org/10.5860/crl.84.6.836
+                                                                               Korinek A (2023) Generative AI for economic research: use cases
+Chubb LA (2023) Me and the machines: possibilities and pitfalls of                   and implications for economists. J Econ Liter 61(4):1281-1317.
+      using artificial intelligence for qualitative data analysis. Int J Qual        https://doi.org/10.1257/jel.20231736
+      Methods 22:1-16. https://doi.org/10.1177/16094069231193593               Lily AEA, Ismail AF, Abunsar FM, Al-Lami F, Abdullatif AKA (2023)
+                                                                                     ChatGPT and the rise of semi-humans. Human Soc Sci Commun
+Cobb PJ (2023) Large language models and generative AI, oh my!                       10(626):1-12. https://doi.org/10.1057/s41599-023-02154-3
+      Adv Archaeol Pract 11(3):363-369. https://doi.org/10.1017/aap.           Lin Z (2023) Why and how to embrace AI such as ChatGPT in your
+      2023.20                                                                        academic life. R Soc Open Sci 10(230658):1-11. https://doi.org/
+                                                                                     10.1098/rsos.230658
+Dahal N (2024) How can generative AI enhance or hinder qualitative             Malik M, Youk S, Weber R (2024) Beyond the screen: exploring
+      studies? A critical appraisal from South Asia, Nepal. Qual Report              moral understanding via user comments on YouTube short films.
+      29(3):722-733. https://doi.org/10.46743/2160-3715/2024.6637                    J Media Psychol 36(4):231-243. https://doi.org/10.1027/1864-
+                                                                                     1105/a000430
+Davison RM, Chughtai H, Nielsen P, Marabelli M, Iannacci F, Van                Mariani M, Dwivedi YK (2024) Generative artificial intelligence in
+      Offenbeek M, Tarafdar M, Trenz M, Techatassanasoontorn AA,                     innovation management: a preview of future research develop-
+      Díaz Andrade A, Panteli N (2024) The ethics of using genera-                   ments. J Bus Res 175:114542. https://doi.org/10.1016/j.jbusres.
+      tive AI for qualitative data analysis. Inf Syst J 34(5):1433-1439.             2024.114542
+      https://doi.org/10.1111/isj.12504                                        Marshall DT, Naff DB (2024) The ethics of using artificial intelligence
+                                                                                     in qualitative research. J Empir Res Hum Res Ethics 19(3):92-
+De Paoli S (2024) Performing an inductive thematic analysis of semi-                 102. https://doi.org/10.1177/15562646241262659
+      structured interviews with a large language model: an exploration        Mazeikiene N, Kasperiuniene J (2024) AI-enhanced qualitative
+      and provocation on the limits of the approach. Soc Sci Comput                  research: insights from Adele Clarke's situational analysis of TED
+      Rev 42(4):997-1019. https://doi.org/10.1177/089443932312204                    Talks. Qual Report 29(9):2502-2526. https://doi.org/10.46743/
+      83                                                                             2160-3715/2024.7652
+                                                                               McGrath C, Farazouli A, Cerratto-Pargman T (2024) Generative AI
+Fecher B, Hebing M, Laufer M, Pohle J, Sofsky F (2023) Friend or foe?                chatbots in higher education: a review of an emerging research
+      Exploring the implications of large language models on the sci-                area. High Educ. https://doi.org/10.1007/s10734-024-01288-w
+      ence system. AI Soc. https://d oi.o rg/1 0.1 007/s 00146-0 23-0 1791-1   Messeri L, Crockett MJ (2024) Artificial intelligence and illusions of
+                                                                                     understanding in scientific research. Nature 627(7):49-58. https://
+Finn P, Bell LC, Tatum A, Leicht CV (2024) Assessing ChatGPT as a                    doi.org/10.1038/s41586-024-07146-0
+      tool for research on US state and territory politics. Polit Stud Rev.    Mollick E (2024) Co-intelligence. Penguin Random House,
+      https://doi.org/10.1177/14789299241268652                                      Westminster
+                                                                               Morgan DL (2023) Exploring the use of artificial intelligence for quali-
+Fostier J, Leemans E, Meeussen L, Wulleman A, Doren SV, Coninck                      tative data analysis: the case of ChatGPT. Int J Qual Methods
+      DD, Toelen J (2024) Dialogues with AI: comparing ChatGPT,                      22:1-10. https://doi.org/10.1177/16094069231211248
+      Bard, and human participants' responses in in-depth interviews on        Munk AK, Jacomy M, Ficozzi M, Jensen TE (2014) Beyond artifi-
+      adolescent health care. Future 2:30-45. https://doi.org/10.3390/               cial intelligence controversies: What are algorithms doing in the
+      future2010003
+
+Freeman M (2016) Modes of thinking for qualitative data analysis.
+      Routledge
+
+Ganjavi C (2024) Publishers' and journals' instructions to authors on
+      use of generative artificial intelligence in academic and scientific
+      publishing: bibliometric analysis. BMJ. https://doi.org/10.1136/
+      bmj-2023-077192
+
+Goodale T (2024) Using generative AI to help with statistical test selec-
+      tion and analysis. MSOR Connect 22(3):10-16
+
+Hajra V (2023) Unveiling the aesthetics of sacred elephant interactions:
+      a ChatGPT-driven analysis of Tripadvisor reviews. J Qual Res
+      Tourism 4(2):175-183
+1748                                                                                                                      AI & SOCIETY (2026) 41:1737-1748
+
+      scientific literature? Big Data Soc. https://doi.org/10.1177/20539            analysis on hotel guests' delightful experiences. Int J Hosp Manag
+      517241255107                                                                  124:103974. https://doi.org/10.1016/j.ijhm.2024.103974
+Nobel Turning Challenge (Retrieved on December 4, 2024). News.                Tai RH, Bentley LR, Xia X, Sitt JM, Fankhauser SC, Chicas-Mosier
+      Available at: https://www.nobelturingchallenge.org/                           AM, Monteith BG (2024) An examination of the use of large lan-
+National Academies of Sciences, Engineering, Medicine (Retrieved                    guage models to aid analysis of textual data. Int J Qual Methods
+      December 4, 2024). AI for Scientific Discovery - A Workshop.                  23:1014. https://doi.org/10.1177/16094069241231168
+      Available at: https://www.nationalacademies.org/event/40455_            Taylor Z (2024) Using chat GPT to clean qualitative interview tran-
+      10-2023_ai-for-scientific-discovery-a-workshop                                scriptions: a usability and feasibility analysis. Am J Qual Res
+Olivos F, Liu M (2024) ChatGPTest: Opportunities and cautionary                     8(2):153-160. https://doi.org/10.29333/ajqr/14487
+      tales of utilizing ai for questionnaire pretesting. Field Methods       Thornton I (2023) A special delivery by a fork: Where does artificial
+      1:14. https://doi.org/10.1177/1525822X241280574                               intelligence come from? New Direct Eval 2023:23-32
+Olssen M, Peters MA (2005) Neoliberalism, higher education and the            Törnberg P (2024) Large language models outperform expert coders
+      knowledge economy: from the free market to knowledge capital-                 and supervised classifiers at annotating political social media mes-
+      ism. J Educ Policy 20(3):313-345                                              sages. Soc Sci Comput Rev. https://doi.org/10.1177/0894439324
+Parker RD, Mancini K, Abram MD (2023) Natural language processing                   1286471
+      enhanced qualitative methods: an opportunity to improve health          Tracy SJ (2010) Qualitative quality: eight `big-tent' criteria for excel-
+      outcomes. Int J Qual Methods 22:1-6. https://doi.org/10.1177/                 lent qualitative research. Qual Inq 16(10):837-851
+      16094069231214144                                                       Van Manen M (2023) What does ChatGPT mean for Qualitative Health
+Paulus T, Lester J (2022) Doing qualitative research in a digital world.            Research? Qual Health Res 33(13):1135-1139. https://d oi.o rg/1 0.
+      Sage, Thousand Oaks, CA                                                       1177/10497323231210816
+Paulus T, Lester J (2023) Digital qualitative research workflows: A           Victor BG, Sokol RL, Goldkind L, Perron BE (2023) Recommenda-
+      reflexivity framework for technological consequences. Int J Soc               tions for social work researchers and journal editors on the use
+      Res Methodol. https://doi.org/10.1080/13645579.2023.2237359                   of generative AI and large language models. J Soc Soc Work Res
+Paulus TM, Marone V (2025) "In minutes instead of weeks": dis-                      14(3):563-577. https://doi.org/10.1086/726021
+      course dilemmas on AI for qualitative data analysis. Qual Inq           Wachinger J, Bärnighausen K, Schäfer LN, Scott K, McMahon SA
+      31(5):395-402                                                                 (2024) Prompts, pearls, imperfections: comparing ChatGPT and
+Paulus T, Woods M, Atkins D, Macklin R (2017) The discourse of                      a human researcher in qualitative data analysis. Qual Health Res.
+      qualitative data analysis software (QDAS): reporting practices of             https://doi.org/10.1177/10497323241244669
+      ATLAS.ti and NVivo users with implications for best practices.          Walsh S, Pallas-Brink J (2023) The ethnographer in the machine.
+      Int J Soc Res Methodol 20(1):35-47                                            In: Ethnographic praxis in industry conference proceedings, pp
+Paulus T, Pope L, Bower K (2024) Ways that qualitative research-                    538-554. https://www.epicpeople.org/ethnographer-in-the-machi
+      ers engage in `technological reflexivity': a meta-synthesis. Qual             ne-everyday-experiences-with-AI-enabled-data-analysis
+      Inquiry 31:305-318                                                      Wang H (2023) Scientific discovery in the age of artificial intel-
+Pigg S (2024) Research writing with ChatGPT: a descriptive embodied                 ligence. Nature 620(3):47-60. https://doi.org/10.1038/
+      practice framework. Comput Compos 71:102830. https://doi.org/                 s41586-023-06221-2
+      10.1016/j.compcom.2024.102830                                           Watt D (2007) On becoming a qualitative researcher: the value of
+Prescott MR, Yeager S, Ham L, Rivera Saldana CD, Serrano V, Narez                   reflexivity. Qual Report 12(1):82-101. https://d oi.org/10.46743/
+      J, Paltin D, Delgado J, Moore DJ, Montoya J (2024) Comparing                  2160-3715/2007.1645
+      the efficacy and efficiency of human and generative AI: quali-          Wood LA, Kroger RO (2000) Doing discourse analysis: Methods
+      tative thematic analyses. JMIR AI 3:e54482. https://doi.org/10.               for studying action in talk and text. Sage Publications, London.
+      2196/54482                                                                    https://doi.org/10.4135/9781452233291
+Schmidt E (2023) This is how AI will transform the way science gets           Woods M, Paulus T, Atkins D, Macklin R (2016) Advancing qualita-
+      done. Available at: https://www.technologyreview.com/2023/07/                 tive research using qualitative data analysis software? Reviewing
+      05/1075865/eric-schmidt-ai-will-transform-science/                            potential vs practice in published studies using ATLAS.ti and
+Schueller SM, Morris RR (2023) Clinical science and practice in the                 NVivo, 1994-2013. Soc Sci Comput Rev 34(5):597-617
+      age of large language models and generative artificial intelligence.    Zhang L, Tandoc EC (2024) Hashtagging for inclusion: Complex
+      J Consult Clin Psychol 91(10):559-561. https://doi.org/10.1037/               identities in Singaporean gay men's social representation on Ins-
+      ccp0000848                                                                    tagram. Soc Med Soc 10(3):1-12. https://doi.org/10.1177/20563
+Silver C (2023) Qualitative-AI: Hoo-ha or Step Change (Christina Sil-               051241269299
+      ver). CAQDAS Webinar 041. Available at: https://www.youtube.            Zhong J (2023) The endorsement of general and artificial intelligence
+      com/watch?v=SplxzzhxbjU                                                       reporting guidelines in radiological journals: a meta-research
+Silver C (2024) The risk of qualitative deepfake is a reality. Available            study. BMC Med Res Methodol 23:1. https://doi.org/10.1186/
+      at: https://www.qdas.co.uk/post/ai-deepfake-qualitative-analysis              s12874-023-02117-x
+Sison AJG, Daza MT, Gozalo-Brizuela R, Garrido-Merchan E (2024)
+      ChatGPT: more than a "weapon of mass deception" ethical                 Publisher's NoteSpringer Nature remains neutral with regard to
+      challenges and responses from the human-centered artificial             jurisdictional claims in published maps and institutional affiliations.
+      intelligence (HCAI) perspective. Int J Hum Comput Interact
+      40(17):4853-4872. https://d oi.o rg/1 0.1 080/1 04473 18.2 023.2 2259   Springer Nature or its licensor (e.g. a society or other partner) holds
+      31                                                                      exclusive rights to this article under a publishing agreement with the
+Spangler S, Beasley S, Lingelbach K (2024) Analyzing artificial intel-        author(s) or other rightsholder(s); author self-archiving of the accepted
+      ligence frameworks: phenomenologists against machines. Issues           manuscript version of this article is solely governed by the terms of
+      Inf Syst 25(4):332-332. https://d oi.o rg/1 0.4 8009/4_i is_2 024_1 26  such publishing agreement and applicable law.
+Sun H, Kim M, Kim S, Choi L (2025) A methodological exploration
+      of generative artificial intelligence (AI) for efficient qualitative
+

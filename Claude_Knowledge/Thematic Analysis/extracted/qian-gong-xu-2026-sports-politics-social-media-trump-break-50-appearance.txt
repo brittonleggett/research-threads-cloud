@@ -1,0 +1,968 @@
+                                           Journal of Retailing and Consumer Services 88 (2026) 104520
+                                                      Contents lists available at ScienceDirect
+
+                             Journal of Retailing and Consumer Services
+
+                                         journal homepage: www.elsevier.com/locate/jretconser
+
+Sports, politics, and social media: A Human-AI collaborative analysis of
+consumer reactions to Trump's break 50 appearance
+
+Tyreal Yizhou Qian a,** , Hua Gong b                       , Chenglong Xu c,*
+
+a Louisiana State University, Baton Rouge, LA, 70803, USA
+b Rice University, Houston, TX, 77005, USA
+c Shanghai University of Sport, Shanghai, 200438, China
+
+ARTICLE INFO                 ABSTRACT
+
+Keywords:                    This study investigates consumer engagement on social media platforms in response to Donald Trump's
+User-generated content       participation in Bryson DeChambeau's Break 50 golf series, focusing on audience interpretation of politically
+Marketing                    infused sports entertainment. Drawing on framing theory and stereotype content model (SCM), we systematically
+Framing                      examined YouTube and Instagram comments through an innovative human-AI collaboration pipeline integrating
+Stereotype                   BERTopic, reasoning-enhanced large language models (LLMs), LLM fine-tuning, and embedding-based semantic
+Machine learning             evaluations. Our analysis identified three distinct generic frames, entertainment, politics/controversy, and ath­
+Artificial intelligence      letics, each eliciting unique warmth and competence evaluations. Entertainment frames consistently occupied
+Natural language processing  SCM's admiration quadrant, whereas political discourse more often aligned with contempt. However, several
+                             issue-specific frames deviated from traditional SCM profiles, revealing nuanced audience perceptions such as
+                             warm-but-incompetent and cold-but-competent stereotypes. Cross-platform comparisons uncovered evaluative
+                             reversals, indicating that perceptions of Trump shifted with platform norms and audience composition. Theo­
+                             retically, the findings extend framing theory by illustrating how audiences actively co-construct meaning in
+                             politically salient entertainment contexts, while reaffirming SCM's utility in analyzing spontaneous digital
+                             discourse. Methodologically, we demonstrate a scalable, replicable human-AI workflow for large-scale, theory-
+                             driven social media analysis. Practically, the results offer insights for content creators, sports marketers, and
+                             political strategists seeking to navigate the reputational opportunities and risks of aligning with polarizing fig­
+                             ures in cross-platform media environments.
+
+1. Introduction                                                               political identity in this episode creates a unique opportunity to explore
+                                                                              precisely how social media users frame their perceptions and judgments
+    Social media has fundamentally reshaped how athletes and public           of politically charged sports content, offering insights that extend
+figures engage with their audiences, enabling direct interaction and          beyond viewership metrics.
+dialogue through user-generated content (UGC), a marked shift away
+from traditional, one-way media communication such as televised                   Even so, existing scholarship has rarely examined how users them­
+broadcasts (Filo et al., 2015; Peng, 2021). This shift is especially evident  selves construct meaning when sports content is intertwined with po­
+in sports like golf, historically reliant on conventional media but now       litical figures (Larkin, 2025). Prior work in political communication,
+embracing social media platforms for audience interaction (PGA, 2025).        digital marketing, and public relations has documented how audiences
+Bryson DeChambeau's popular YouTube series Break 50, exemplifies              respond to political actors (Bennett et al., 2019; Peng, 2021; Qian et al.,
+this digital transformation by documenting his attempts to complete golf      2024) and how they engage with sports narratives (A. P. Kirilenko and
+rounds in fewer than 50 strokes, notably including an episode featuring       Stepchenkova, 2017; T. Y. Qian et al., 2024; Xu et al., 2024), yet these
+the then former U.S. President Donald Trump during his 2024 presi­            studies have developed largely in parallel. As a result, little is known
+dential campaign. The explicit integration of sports performance with         about the interpretive processes that occur when these domains
+                                                                              converge, particularly in highly visible, politically charged sports
+
+  * Corresponding author.
+  ** Corresponding author.
+
+     E-mail addresses: yqian@lsu.edu (T.Y. Qian), xuchenglong@sus.edu.cn (C. Xu).
+
+https://doi.org/10.1016/j.jretconser.2025.104520
+Received 19 July 2025; Received in revised form 1 September 2025; Accepted 7 September 2025
+Available online 15 September 2025
+0969-6989/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+T.Y. Qian et al.                                                                                                  Journal of Retailing and Consumer Services 88 (2026) 104520
+
+moments. This absence is striking given that such intersections could      (LLMs). Specifically, we utilize OpenAI's o4-mini as an analytical as­
+polarize public discourse, influence brand and athlete reputations, and    sistant and fine-tuning GPT-4o mini to conduct a hierarchical analysis of
+shape the mediated personas of both political and sports figures (Larkin,  both generic and issue-specific frames (De Freitas et al., 2025; De Vreese,
+2025; Peng, 2021). Addressing this gap is therefore essential for un­      2005; OpenAI, 2023, 2025c, 2025b). Additionally, we operationalize
+derstanding how social media users selectively emphasize aspects of        the SCM's dimensions of warmth and competence using the
+hybrid sports-political content in ways that reflect personal beliefs,     single-category word embedding association test (S-WEAT), quantifying
+ideological alignments, and community norms. Accordingly, our              how strongly these dimensions emerge within user-generated frames
+research seeks to address the following research questions (RQs):          through semantic embeddings and cosine similarity measures
+                                                                           (Charlesworth et al., 2023; Fiske et al., 2002; Kurdi et al., 2019).
+    RQ1: What specific themes emerge in social media users' reactions to
+    politically infused sports content, specifically Trump's appearance        The present study advances both scholarly understanding and prac­
+    on Break 50?                                                           tical applications. Theoretically, we expand the application of framing
+    RQ2: How do social media users' perceptions of character attributes    theory by exploring how user-generated frames in social media reflect
+    interact with the identified themes?                                   audience cognition and interpretation in politically infused sports sce­
+    RQ3: How do these themes and associated evaluative judgements          narios. Moreover, by integrating SCM, we offer fine-grained insights into
+    differ between platforms (YouTube vs. Instagram)?                      the semantic dimensions shaping these frames. Methodologically, our
+                                                                           combination of BERTopic and LLMs demonstrates an innovative
+    To answer these RQs, we draw upon framing theory, emphasizing          approach for analyzing large-scale, unstructured social media datasets,
+frames as reflections of individuals' cognitive perceptions expressed      illustrating the practicality and effectiveness of advanced NLP tech­
+through social interactions. Framing refers to how people conceptualize    niques driven by a human-AI collaborative workflow. Empirically, this
+an issue or event by selectively highlighting specific aspects based on    research produces valuable insights for practitioners across multiple
+their personal beliefs, assumptions, and expectations (De Vreese, 2005;    domains. Marketers, content creators, and political strategists might
+Entman, 1993). Thus, examining frames in social media conversations        gain clarity on how audiences frame interactions between sports,
+reveals the underlying cognitive frameworks guiding audience re­           entertainment, and politics. Specifically, analyzing reactions to the
+sponses. By analyzing UGC in the form of audience comments, we             Trump-DeChambeau collaboration sheds light on how online users
+identify and interpret these audience-driven frames, uncovering how        respond to explicit intersections between sports performance and po­
+perceptions around politically infused sports content are collectively     litical personas, offering practical insights into effective audience
+constructed and communicated. Complementing framing theory, we             engagement strategies in politically sensitive sports marketing.
+integrate stereotype content model (SCM), which posits that individuals
+typically evaluate others along two primary dimensions: warmth                 The manuscript proceeds as follows: First, we review existing liter­
+(trustworthiness, friendliness) and competence (ability, effectiveness)    ature on social media framing and explain the theoretical and analytical
+(Fiske et al., 2007). This conceptual model allows us to capture subtle    frameworks. Next, we outline our methodological approach, detailing
+dimensions of audience evaluations, providing a nuanced understanding      data collection, NLP methods, and analytical strategies. We then present
+of how social media users frame their perceptions of public figures like   and interpret the results, followed by a discussion of theoretical impli­
+Trump and DeChambeau, especially in contexts that blend athletic           cations, methodological implications, practical contributions, study
+performance with political identity.                                       limitations, and avenues for future research.
+
+    Faced with the sheer volume and diversity of UGC, we employ nat­       2. Literature review
+ural language processing (NLP) techniques to analyze audience com­
+ments from YouTube and Instagram concerning the Trump episode of           2.1. Meaning-making and framing across social media platforms
+Break 50 (Fig. 1). First, we apply BERTopic, an emerging topic modeling
+technique, to systematically cluster semantically similar audience             Framing theory, initially posited by Entman (1993), fundamentally
+comments, thereby identifying dominant interpretive themes                 addresses how information is selectively emphasized in communication
+(Grootendorst, 2022). These identified themes subsequently guide our       to shape audience interpretation. Essentially, framing involves selecting
+human-AI collaboration pipeline leveraging large language models           particular aspects of perceived reality and highlighting them to define
+                                                                           issues, attribute causes, make moral evaluations, and recommend
+
+Fig. 1. Research roadmap.
+                   2
+T.Y. Qian et al.                                                               Journal of Retailing and Consumer Services 88 (2026) 104520
+
+remedies. Building on this foundation, De Vreese (2005) conceptualizes         theoretically grounded yet flexible approach that captures both theo­
+framing as a dynamic process involving frame-building, frame-setting,          retical associations and context-dependent complexities.
+and subsequent effects. Traditionally, framing studies have predomi­
+nantly examined how mass media sources, such as news organizations,            2.2. Evaluative judgments and perceived traits in UGC
+shape public discourse through editorial choices (Billings and Eastman,
+2003; Guo et al., 2021; Jiang et al., 2024; Tan and Cheng, 2024).                  Alongside distinct frames, audience reactions frequently entail
+However, the proliferation of social media platforms has fundamentally         evaluative judgments about public figures. The stereotype content
+transformed this dynamic, empowering users themselves as active par­           model (SCM) offers a robust framework for systematically understand­
+ticipants in the framing process (Dwivedi et al., 2021). The integration       ing these evaluations, suggesting that social perceptions of individuals
+of framing theory into the analysis of UGC represents a shift from             and groups primarily organize around two dimensions: warmth and
+viewing audiences as passive receivers to recognizing their role as            competence (Fiske et al., 2002). Warmth encompasses attributes like
+active, interpretive co-creators.                                              friendliness, trustworthiness, and moral intention, while competence
+                                                                               relates to perceived ability, effectiveness, and skill. These two di­
+    Indeed, social media platforms have uniquely enabled audiences to          mensions create four distinct quadrants of social perception (Fiske et al.,
+construct and publicly share their own interpretive frames in response to      2007). High warmth and high competence (Quadrant I) characterize
+events, transcending traditional media's unilateral influence (Chaudhuri       admired groups, evoking pride and admiration. High warmth and low
+et al., 2025; Dwivedi et al., 2021; Xu et al., 2024). Unlike traditional       competence (Quadrant II) describe pitied groups, eliciting sympathy and
+media frames, UGC frames are expressions of individual audience                paternalistic attitudes. Low warmth and low competence (Quadrant III)
+members' cognitive schemas and interpretations, externalized through           encompass contemptuous groups, provoking disgust and active harm.
+their social media interactions (Ocal and Crowston, 2024). Arguably,           Finally, low warmth and high competence (Quadrant IV) define envied
+UGC may reveal both individual cognitive frameworks and collective             groups, generating respect mixed with resentment.
+meaning-making processes shaped by shared beliefs, assumptions, and
+expectations, making social media platforms fertile ground for investi­            SCM initially appeared in social psychology research examining
+gating how individual and group interpretations intersect, diverge, or         intergroup relations but has since expanded across social sciences
+evolve (Entman, 1993; Ocal and Crowston, 2024; Xu et al., 2024). This is       (Bennett et al., 2019; Durante et al., 2010; Funk, 1997; Kervyn et al.,
+particularly pertinent in politically charged contexts. When politics in­      2012, 2022, 2022; Liu et al., 2024). Crucially, SCM has proven effective
+tersects with popular sports media, audience framing may become                for textual analysis, enabling researchers to systematically categorize
+increasingly nuanced, as individuals negotiate multiple identities and         audience-generated content based on warmth-competence assessments
+conflicting schemas (Bennett et al., 2019; Larkin, 2025; Wang et al.,          (Liu et al., 2024). For instance, Kurdi et al. (2019) and Lomas et al.
+2024).                                                                         (2025) have demonstrated the utility of SCM-related lexicons in coding
+                                                                               open-ended textual responses, allowing quantification and comparison
+    Given these theoretical underpinnings, our study explicitly applies        of evaluative judgments within large text corpora. Charlesworth et al.
+framing theory within the context of UGC, analyzing YouTube and                (2023) recently demonstrated the enduring relevance of SCM in
+Instagram comments related to Trump's appearance on DeChambeau's               analyzing historical language, showing that descriptors used to char­
+Break 50. Following De Vreese's (2005) typology, we distinguish be­            acterize social groups often change superficially but consistently reflect
+tween generic and issue-specific frames to provide a systematic basis for      underlying warmth and competence judgments. This indicates that SCM
+analysis. Generic frames transcend specific thematic boundaries,               dimensions are foundational cognitive tools for interpreting social
+enabling the identification of broader interpretive patterns. Referencing      stimuli, persisting across cultures and historical contexts. Such robust­
+prior research in news media framing (A. Arora et al., 2025; De Vreese,        ness highlights the theory's suitability for analyzing UGC, where users
+2005), we adapt generic frames including entertainment, politics/con­          make judgments about public figures' character traits, capturing
+troversy, and athletics to capture general interpretive orientations.          nuanced audience perceptions often obscured by broader sentiment
+Issue-specific frames, in contrast, highlight how particular sub-themes        analysis.
+are emphasized within discourse. While generic frames offer
+literature-based expectations (e.g., entertainment often cues perceptions          Therefore, to complement framing theory, which identifies the
+of friendliness, charisma, and likability, leading to favorable perceptual     interpretive schemas embedded in user-generated discourse, our study
+evaluations) (Kervyn et al., 2022), issue-specific manifestations can vary     employs SCM as a complementary theoretical framework to analyze
+considerably depending on context and audience (A. Arora et al., 2025).        audience evaluations of Trump within the sports media context.
+This variability makes the integration of issue-specific frames especially     Specially, SCM offers an evaluative lens that captures how UGC frames
+important in such a cross-domain collaboration, where the existence of         activate warmth and competence judgments. By coding user comments
+multiple interpretations of the same content may elicit admiration from        for warmth- and competence-related terms (Kurdi et al., 2019), we
+one audience segment and skepticism or contempt from another. As               systematically quantify the evaluative landscape surrounding this
+such, examining both frame levels balances conceptual grounding with           politically charged sports content collaboration. This theoretical inte­
+sensitivity to the complexity of real-world online discourse: generic          gration allows for an augmented assessment that moves beyond mere
+frames capture the stable interpretive logics established in prior             descriptive or valence-only approaches (e.g., simplistic approval or
+research, while issue-specific frames highlight how those logics are           disapproval), clarifying audience positions in terms of socially mean­
+inflected, challenged, or even contradicted by contextual dynamics.            ingful trait attributions and the frames through which those traits are
+                                                                               activated. By embedding SCM within a framing analysis, our study offers
+    This distinction becomes even more critical in cross-platform set­         a theory-guided and transparent design that not only enriches concep­
+tings. Audience interpretations are shaped not only by the content of          tual interpretation but also aligns with reproducible practices, thereby
+frames but also by the affordances and engagement cultures of different        contributing both to theoretical development and to the methodological
+platforms. Prior multi-platform research has shown that demographic            advancement of computational social science (Baier et al., 2025; Basu
+profiles, motivational differences, and interactional norms can signifi­       et al., 2024; Berente et al., 2019; T. Y. Qian et al., 2025).
+cantly influence how frames are constructed and received (A. Kirilenko
+et al., 2024; S. Qian et al., 2024). For instance, Instagram's visual and      2.3. Computational methods for UGC analysis
+relational orientation tends to foreground aesthetic, interpersonal, and
+identity cues, whereas YouTube's long-form, persistent comment spaces              Given the massive scale and complexity of social media content,
+are more conducive to extended, narrative-driven exchanges (Peng,              traditional qualitative analyses are insufficient for comprehensive and
+2021). By distinguishing between generic and issue-specific frames             efficient insight generation. NLP techniques have emerged as
+within these different platform contexts, our study develops a
+
+                                                                            3
+T.Y. Qian et al.                                                                   Journal of Retailing and Consumer Services 88 (2026) 104520
+
+indispensable tools for systematic analysis of large-scale UGC datasets,           infused sports content, we developed an automated, scalable, and
+enabling precise identification of themes, frames, and sentiment nu­               replicable human-AI collaborative pipeline that integrates topic
+ances (Basu et al., 2024; Berente et al., 2019; Pandey and Singh, 2025;            modeling, LLM classification, and embedding-based semantic associa­
+Perazzoli et al., 2022; Silayach et al., 2025; Ullah et al., 2025; Zha et al.,     tion techniques. In addressing RQ1, we first employed BERTopic to
+2023).                                                                             extract latent topics, followed by refinement with OpenAI's o4-mini
+                                                                                   (OpenAI, 2025c) to assign topics to generic frames, operationalized
+    Topic modeling is a central NLP technique for uncovering prevalent             from framing theory and pertinent empirical research (A. Arora et al.,
+themes in unstructured textual data. BERTopic represents a cutting-                2025; De Vreese, 2005; Entman, 1993). To address the interpretive
+edge, embedding-based approach, surpassing traditional methods like                limitations of unsupervised models, particularly the misclassification of
+Latent Dirichlet Allocation (LDA) by leveraging transformer models such            outliers and the lack of theoretically grounded hierarchical relationships
+as BERT for semantic context awareness (Grootendorst, 2022). This                  (Egger, 2024; Jiang et al., 2024; A. P. Kirilenko and Stepchenkova, 2025;
+capability allows BERTopic to effectively cluster short, contextually rich         T. Y. Qian et al., 2024; Son and Park, 2025), we introduced a fine-tuned
+texts, such as social media comments, into coherent thematic groups,               GPT-4o-mini classifier (OpenAI, 2025b) trained on curated and vali­
+facilitating the identification of dominant audience frames without                dated datasets, assigning topics to issue-specific frames. Fine-tuning
+predefined categories (Egger and Yu, 2022; Jiang et al., 2024; A. P.               increased classification stability across runs and improved agreement
+Kirilenko and Stepchenkova, 2025; Son and Park, 2025).                             with human-coded benchmarks, ensuring that frame categorization was
+                                                                                   both theoretically consistent and methodologically transparent.
+    Complementing BERTopic, word embedding techniques markedly
+improve the granularity of content analysis by capturing nuanced se­                   To examine the evaluative dimensions of these frames (RQ2), we
+mantic relationships between terms. Work embeddings transform tex­                 operationalized SCM constructs of warmth and competence using S-
+tual data into vector representations capturing semantic relationships,            WEAT (Kurdi et al., 2019), anchored in the BAAI/bge-m3 embedding
+thus enabling researchers to quantitatively assess nuanced linguistic              model (Chen et al., 2024). This approach quantifies implicit associations
+patterns, including implicit evaluative judgments (Charlesworth et al.,            between frame-related content and theoretically derived warmth and
+2023; Egger, 2024). For instance, embedding-based methods allow                    competence term sets in high-dimensional vector space. Unlike topic
+systematic detection of SCM dimensions within text by measuring se­                prevalence or simple co-occurrence methods (e.g., Basu et al., 2024),
+mantic proximity between comments and predefined warmth- or                        S-WEAT captures perceptual nuance by directly measuring association
+competence-related lexicons (Kurdi et al., 2019; Liu et al., 2024). This           strength. Lastly, we implemented the pipeline to both YouTube and
+sophisticated approach provides novel insight into subtle audience                 Instagram datasets (RQ3), performing a systematic cross-platform
+evaluations that simple sentiment analysis might miss, critically                  comparison. This design not only reveals how framing and evaluative
+enriching our analysis of politically infused sports content.                      dimensions vary across platforms, but also addresses common limita­
+                                                                                   tions in prior UGC research, which often relies on single-platform,
+    Additionally, LLMs such as OpenAI's GPT models have revolution­                one-off, or non-replicable analyses. By uniting complementary theories
+ized qualitative analysis of textual data (N. Arora et al., 2024; T. Y. Qian       within a robust computational workflow, our study advances both the
+et al., 2025; Yoganarasimhan and Iakovetskaia, 2024). These models                 methodological rigor and theoretical depth of politically salient sports
+offer profound contextual understanding, capable of interpreting idio­             discourse analysis.
+matic language, sarcasm, and subtle rhetorical framing cues (Baier et al.,
+2025; Collins et al., 2021; Li et al., 2025; Pandey and Singh, 2025; Rossi         3.2. Data collection and preprocessing
+et al., 2024). As collaborators, LLMs can assist researchers by refining
+cluster interpretation and performing nuanced frame classification                     As shown in Fig. 1, we collected comments from the Break 50 video
+without extensive manual coding (A. P. Kirilenko and Stepchenkova,                 featuring Donald Trump, published on the verified @bry­
+2025; Zhao et al., 2025; Zhou et al., 2024). Such collaboration improves           sondechambeau YouTube channel, and the corresponding posts on the
+analytical efficiency and interpretative accuracy, essential for                   verified @brysondechambeau Instagram account. These platforms were
+large-scale analyses like our study. Relatedly, fine-tuning enhances the           selected due to their reach, UGC focus, and prominence in sports-related
+precision and cost-effectiveness of LLMs by training pre-trained models            discourse (Filo et al., 2015; PGA, 2025). Comments from YouTube were
+on carefully curated datasets, often requiring only modest amounts of              retrieved using Google's YouTube Data API, while Instagram comments
+data, thereby optimizing their performance for specific analytical tasks           were obtained via Meta's Graph API, both in accordance with
+(OpenAI, 2023). Recent research indicated that fine-tuned LLMs achieve             platform-specific data access protocols.
+substantially higher accuracy than general-purpose models, particularly
+in domain-specific or nuanced textual analysis tasks (Baier et al., 2025;              The data collection period spanned from July 23, 2024, to September
+De Freitas et al., 2025; T. Y. Qian et al., 2025).                                 2, 2024, covering the peak timeframe during which the video and
+                                                                                   related Instagram posts received extensive audience interaction. A total
+    Taken together, our study proposes a novel human-AI collaboration              of 54,376 comments were extracted. To ensure the accuracy, relevance,
+workflow to examine how audiences interpret and evaluate politically               and coherence of our data, we performed a rigorous cleaning and pre­
+infused sports content in the digital sphere. Building on prior research           processing procedure. This included removing duplicate comments, as
+that has employed NLP techniques in isolation, we integrate these                  repetition could bias our topic modeling and framing analyses. We also
+analytical tools into a unified pipeline capable of both identifying latent        stripped out URLs, numbers, user mentions, punctuation, special char­
+interpretive frames and capturing implicit cognitive associations. This            acters, and emojis, following standard preprocessing protocols estab­
+approach enables a dual-layered analysis of UGC, examining not only                lished in previous UGC and social media research (Berger et al., 2020).
+what themes emerge in audience discourse but also how such themes are
+evaluated along key social perception dimensions. By grounding these                   Additionally, we excluded comments shorter than three words.
+computational methods in framing theory and SCM, we offer a scalable               These short comments typically contained ambiguous statements or
+yet theoretically robust framework for understanding contemporary                  brief reactions (e.g., "Nice!", "Wow!", or "Great job!") that offered
+meaning-making in politicized sport contexts and beyond.                           minimal interpretive value. Following these cleaning steps, our final
+                                                                                   preprocessed dataset contained 47,309 comments. Among these, 40,731
+3. Methods                                                                         (86.10 %) were sourced from YouTube, while the remaining 6578
+                                                                                   (13.90 %) originated from Instagram. Comments in our dataset varied
+3.1. Operationalizing framing and stereotype content through human-AI              considerably in length, ranging up to 1583 words. Most comments were
+collaboration                                                                      concise, with a median length of 11 words and 75 % containing 20 words
+                                                                                   or fewer, though a minority engaged in extensive discussion. English
+    To investigate how consumers construct meaning around politically
+
+                                                                                4
+T.Y. Qian et al.                                                                           Journal of Retailing and Consumer Services 88 (2026) 104520
+
+dominated the dataset, accounting for 93.76 % of comments, while the                       increments of five. This careful tuning, combined with the algorithm's
+remaining 6.24 % comprised a diverse range of languages, primarily                         ability to handle noisy social media data, distinguishes our clustering
+European and Asian.                                                                        approach from alternatives like K-means, which might introduce inter­
+                                                                                           pretive challenges by forcing every document into a predefined cluster.
+3.3. Data analysis                                                                         This forced categorization could obscure authentic patterns and hinder
+                                                                                           the goal of generating theoretically grounded insights from computa­
+3.3.1. Word embedding analysis with S-WEAT                                                 tional aggregations (Berente et al., 2019). The final stage used
+    To evaluate UGC in line with SCM, we adapted S-WEAT (Kurdi et al.,                     class-based term frequency-inverse document frequency (c-TF-IDF),
+                                                                                           enhanced by KeyBERT and Maximal Marginal Relevance (MMR), to
+2019). This algorithm quantifies semantic associations by comparing                        identify representative keywords and documents. Initial topic labels
+each comment embedding against pairs of antonymous descriptor sets                         were further refined using GPT-4.1 to enhance clarity and thematic
+(Table 1). We computed average cosine similarities between comment                         coherence (OpenAI, 2025a).
+embeddings and each descriptor set. Differences between opposing at­
+tributes were standardized within a range from - 2.00 to +2.00 by                              Upon review of these refined labels, we identified considerable se­
+dividing by the combined standard deviation of similarity scores. Posi­                    mantic overlap among several topics, suggesting potential for consoli­
+tive standardized values indicated stronger associations with attributes                   dation. To avoid obscuring meaningful distinctions during this process,
+like warmth and competence, whereas negative values implied closer                         we implemented hierarchical topic modeling as a complementary
+associations with contrasting attributes.                                                  analysis (Grootendorst, 2022; Hu et al., 2025). It enabled systematic
+                                                                                           assessment of inter-topic relationships, providing proximity metrics on
+s(X, A, B) = meanaAs(a, X) - meanbBs(b, X)                                                 which topics should be merged to improve overall coherence while
+                       std devwABs(w, X)                                                   preserving distinct thematic elements. Notably, BERTopic identifies
+                                                                                           outliers (labeled as "-1") that are semantically distant from main topic
+Where:                                                                                     clusters. Although typically discarded in prior research or handled with
+                                                                                           simplistic algorithms such as c-TF-IDF representations for reassignment
+s(a, X) = cos(a , x )                                                                      (Egger, 2024; A. P. Kirilenko and Stepchenkova, 2025; T. Y. Qian et al.,
+                                                                                           2024; Son and Park, 2025), we recognized not only the informational
+    Let s(X, A, B) be defined over sets A and B representing dichotomous                   richness within these outliers but also their inherent complexity,
+attribute word vectors, with X containing tweet word vectors; s(a, X)                      necessitating improved processing methods. Thus, we proposed a
+quantifies cosine similarity between vectors, while std devwABs(w, X)                      structured pipeline integrating LLMs to systematically reassign these
+normalizes the S-WEAT statistic.                                                           outliers, leveraging LLMs' contextual interpretive prowess to refine
+                                                                                           outlier classification and enhance topic interpretability (Berente et al.,
+    For generating word embeddings, we employed OpenAI's text-                             2019).
+embedding-3-small model (OpenAI, 2025d). This model converts text
+into 1536-dimensional numerical representations (V  R1536), produc­                        3.3.3. Collaborative topic refinement with LLMs
+ing compact yet contextually accurate embeddings optimized for
+capturing nuanced semantic distinctions, ideal for large-scale, multi­                     Building upon the initial BERTopic analysis, we developed a
+lingual data. Recognizing potential variability, bootstrap resampling
+procedures were performed, repeatedly sampling 90.00 % of the dataset                      collaboration pipeline integrating LLMs, specifically OpenAI's o4-mini,
+across 50 iterations to compute reliable average similarity metrics.
+                                                                                           chosen for its optimized reasoning abilities (OpenAI, 2025c). The
+3.3.2. Integrative topic modeling with BERTopic
+    For BERTopic analysis, we first transformed comments into semantic                     o4-mini model was provided with detailed BERTopic outputs, including
+
+embeddings using the BAAI/bge-m3 embedding model (Chen et al.,                             hierarchical clustering results, topic labels refined by GPT-4.1, repre­
+2024) via Hugging Face's Sentence Transformers library. This
+XLM-Roberta-based model converts text into 1536-dimensional nu­                            sentative documents, and key terms. The goal was to leverage the
+merical vectors (V  R1024) and can process multilingual sequences up to
+8194 tokens, making it particularly well-suited for our linguistically                     model's structured semantic reasoning capability to classify and refine
+diverse dataset. Moreover, bge-m3 outperforms commonly used
+sentence-transformer baselines, especially on semantic textual similarity                  the identified topics into coherent interpretive frames.
+tasks, thereby ensuring greater topic coherence.
+                                                                                           As shown in Figs. 2 and 3, we designed a customized system prompt
+    Subsequent embedding dimensionality reduction was performed via
+uniform manifold approximation and projection (UMAP) with a fixed                          to guide our LLM collaboration process. This prompt instructed the
+random seed (42) for replicability. To identify emergent thematic
+structures, we clustered the document embeddings using Hierarchical                        model to apply established framing typologies, specifically generic
+Density-Based Spatial Clustering of Applications with Noise
+(HDBSCAN). To optimize the granularity of the resulting clusters, key                      frames and issue-specific frames to analyze our identified topics. The
+parameters were iteratively tuned from a minimum of 25-100 in
+                                                                                           model was directed to categorize topics according to generic frames
+
+                                                                                           while providing justified recommendations for merging topics within
+
+                                                                                           issue-specific frames. To mitigate the inherent stochasticity of LLM
+
+                                                                                           outputs (Yoganarasimhan and Iakovetskaia, 2024), we executed this
+
+                                                                                           structured analytical pipeline ten times with consistent initial inputs,
+
+                                                                                           assessing output variability through LLM consensus rate across runs. The
+
+                                                                                           LLM consensus rate is calculated using the formula:
+
+                                                                                           n (                         )
+
+                                                                                           I fi = f{majority}
+                                                                                           LLM consensus rate = i=1 n
+
+Table 1                                                                                    Where:
+Vocabulary for S-WEAT.                                                                         n is the total number of runs; fi is the generic frame assigned in run i;
+
+Attribute    Vocabulary                                                                    f{majority}
+                                                                                               is the most frequently assigned generic frame across all runs; I() is an
+Warm         friendly, well-intentioned, good-natured, agreeable, trustworthy,
+Cold         warm, sincere, nice, kind, dependable, supportive                             indicator function that equals 1 when the condition is true and 0 other­
+Competent    unfriendly, hateful, untrustworthy, cold, mean, dishonest, vicious,           wise. This metric ranges from 0 (no consensus) to 1 (perfect consensus).
+Incompetent  deceitful, disloyal, selfish, hostile
+             competent, confident, capable, efficient, intelligent, skillful, skilled,         Furthermore, manual validation by three independent researchers
+             qualified, proficient, able, smart                                            quantified performance through frame consistency rate, ensuring
+             Incompetent, uncertain, ignorant, inefficient, unintelligent,                 robust, human-validated reliability (Zhou et al., 2024). This metric
+             unskilled, helpless, unqualified, dumb, foolish, inept
+
+                                                                                        5
+T.Y. Qian et al.                                                                Journal of Retailing and Consumer Services 88 (2026) 104520
+
+                  Fig. 2. o4-mini system prompt.
+
+evaluates the degree of concordance between LLM classifications and             and validation (240 entries, 20.00 %) datasets, with content verification
+human judgments.                                                                conducted by three researchers to ensure accuracy, consistency, and
+                                                                                theoretical alignment (Baier et al., 2025).
+Frame consistency rate = fLLMandHuman
+                                fLLMorHuman                                         We fine-tuned GPT-4o-mini with standardized hyperparameters,
+                                                                                three epochs, a batch size of one, and a learning rate multiplier of 1.80,
+Where:                                                                          while rigorously tracking training loss, validation loss, and full valida­
+    fLLMandHuman is the number of generic frames that both the LLM and          tion loss metrics to ensure optimal learning progression. This meticulous
+                                                                                fine-tuning significantly improved the automation pipeline's classifica­
+human evaluators assign in agreement; fLLMorHuman represents the total          tion accuracy and efficiency, facilitating robust, theoretically grounded
+number of generic frames assigned by either LLM or human evaluators.            analyses of our extensive dataset.
+This metric ranges from 0 (no consistency) to 1 (perfect consistency).
+                                                                                4. Results
+3.3.4. LLM fine-tuning for enhanced automation and accuracy
+    To augment the accuracy, efficiency, and scalability of our analytical      4.1. Identification and interpretation of frames
+
+approach, we further employed fine-tuning techniques using GPT-4o-              4.1.1. Topic clusters and keyword representations
+mini (OpenAI, 2025b), chosen explicitly for its optimal balance of                  Topic modeling analysis was conducted with BERTopic, employing a
+high analytical performance, lower operational latency, and cost effi­
+ciency compared to more resource-intensive models such as GPT-4.1.              cluster parameter set at 50. This value was selected to effectively bal­
+The fine-tuning process began with BERTopic outputs, from which 50              ance interpretability and granularity in topic generation, ensuring
+comments per identified topic were randomly selected. As illustrated in         meaningful thematic coherence without overly fragmenting or over­
+Figs. 4 and 5, these documents were subsequently analyzed by GPT-4.1,           simplifying nuanced viewer discussions present within the dataset.
+utilizing an explicitly crafted system prompt structured for
+chain-of-thought (COT) reasoning and topic assignment (Wei et al.,                  The initial modeling yielded 45 distinct clusters, including a sub­
+2022). The structured JSONL outputs, consisting of COT rationales and           stantial proportion of outliers (n = 25,699; approximately 54.32 % of
+topic classifications, were then split into training (960 entries, 80.00 %)     the total dataset). The outliers, labeled as "-1", encompassed diverse
+
+                                                                             6
+T.Y. Qian et al.                                              Journal of Retailing and Consumer Services 88 (2026) 104520
+
+                  Fig. 3. o4-mini input and output excerpts.
+
+                  Fig. 4. gpt-4.1/4o-mini system prompt.
+                                               7
+T.Y. Qian et al.                                                                                         Journal of Retailing and Consumer Services 88 (2026) 104520
+
+                               Fig. 5. gpt-4.1/4o-mini output.                      Table 2
+                                                                                    BERTopic results following hierarchical merging.
+commentaries that did not fit neatly within identified clusters. Pre­
+liminary topic extraction revealed several salient themes, such as                  Topic Name                                        Generic frame  Count
+collaboration between Bryson DeChambeau and Donald Trump (n =
+4189), discussions of golfing skills (n = 2493), broader political debates          0   Trump's golf skills and reputation            Athletics      5917
+(n = 1639), positive viewer reactions and enthusiasm (n = 1502), and
+comparisons between Donald Trump and Joe Biden's golfing capabil­                   1   Positive reactions to DeChambeau and          Entertainment  4189
+ities (n = 1446). Other major themes captured included negativities
+toward mainstream media, humorous observations, and speculation                         Trump collaboration
+about specific events related to the featured individuals. BERTopic re­
+sults and visualizations are provided in the online appendix.1                      2   Video-hype superlatives                       Entertainment  1832
+
+4.1.2. Enhanced frame classification through human-AI collaboration                 3   Broader political debate: media, policy &     Politics/      1639
+    Despite the informative insights from these initial results, the high
+                                                                                        national issues                               Controversy
+proportion of outliers and apparent semantic overlaps among certain
+clusters highlighted potential limitations in interpretability. To struc­           4   Trump-vs-Biden golf showdown fantasies        Athletics      1446
+turally assess thematic relationships and address the complexity
+inherent within the large dataset, hierarchical clustering analysis was             5   Media-distrust & TDS discussions              Politics/      1185
+subsequently conducted. Hierarchical clustering systematically orga­
+nized topics based on semantic proximity, identifying clusters suitable                                                               Controversy
+for merging to enhance coherence and reduce redundancy
+(Grootendorst, 2022).                                                               6   Trump's behavior driving golf carts           Entertainment  856
+
+    Leveraging OpenAI's o4-mini model, we input detailed hierarchical               7   DeChambeau YouTube subscriber                 Entertainment  717
+clustering results along with initial topic modeling data. The analysis
+was executed ten times with a consistent, customized system prompt                      milestones and viral video growth
+specifically designed for hierarchical framing classification (Fig. 3).
+Despite the probabilistic nature of LLM outputs, our LLM assisted                   8   Assassination-attempt timing & ear-injury Politics/          513
+approach identified consistent generic frames across runs, yielding a
+high LLM consensus rate of 0.94 and a high frame consistency rate of                    speculation                                   Controversy
+0.98. This strong agreement, both across multiple independent model
+runs and between LLM and human evaluators, demonstrates robustness                  9   Trump's birdies/eagle highlights & quirky Athletics          465
+in generic frame classification decisions. However, issue-specific frames
+required further review due to nuanced thematic distinctions. Conse­                    putting stroke
+quently, manual assessments informed by the model's recommendations
+guided final merging decisions.                                                     10  How to address former presidents              Politics/      419
+
+    Following this collaborative human-AI analysis, we merged closely                                                                 Controversy
+related topics to consolidate overlapping themes, aiming to enhance
+interpretability. For instance, initial separate topics related to Trump's          11  Pro-Trump enthusiasm, GOAT claims &           Politics/      375
+golfing skills, viewer enthusiasm, media skepticism, and discussions of
+viral subscriber milestones were effectively merged into coherent clus­                 voting pledges                                Controversy
+ters. The final merged topic set included clearly delineated themes such
+as Trump's Golf Skills and Reputation (combined topics 1, 2, 9, 30, 40),            12  Sexual innuendo & jokes                       Entertainment  340
+video-hype superlatives (topics 4, 23, 27, 36, 38), media distrust and
+Trump derangement syndrome (TDS) discussions (topics 6, 28), and                    13  Celebrity guest wish-list                     Entertainment  329
+subscriber milestones and viral growth (topics 8, 25, 42). Additional
+merges consolidated related topics such as humorous and risqu´e com­                14  Kamala-Harris ads & follow-up commentary Politics/           252
+mentary, pro-Trump enthusiasm, and anti-Trump debates. As illustrated
+in Table 2, the finalized 24 coherent, semantically distinctive topics                                                                Controversy
+
+                                                                                    15  Neville the caddy shout-outs & jokes          Entertainment  247
+
+                                                                                    16  Repetition of the word partner                Entertainment  182
+
+                                                                                    17  Debate over playing from red or women's Athletics            150
+
+                                                                                        tees
+
+                                                                                    18  Comments on Trump's age & fitness             Athletics      146
+
+                                                                                    19  Trump cheating & integrity debates            Politics/      126
+
+                                                                                                                                      Controversy
+
+                                                                                    20  Patrick Reed admiration & Trump               Entertainment  79
+
+                                                                                        connection
+
+                                                                                    21  Wounded Warrior Project fundraising           Politics/      75
+
+                                                                                        debate                                        Controversy
+
+                                                                                    22  Criticisms of golfing with Trump              Politics/      75
+
+                                                                                                                                      Controversy
+
+                                                                                    23  Awkward social greetings                      Entertainment  56
+
+                                                                                    Note: The online repository contains the complete BERTopic results (topic
+                                                                                    keywords, KeyBERT, MMR, and GPT representations) and all visualizations
+                                                                                    (keyword scores, intertopic distance map, hierarchical clustering, topic
+                                                                                    heatmap).
+
+                                                                                    significantly reduced the number of fragmented or redundant clusters,
+                                                                                    aside from remaining outliers, thus providing an analytically robust
+                                                                                    framework for subsequent detailed framing and thematic interpretation.
+
+                                                                                    4.2. Performance of fine-tuned GPT-4o-mini in automated classification
+
+                                                                                        The fine-tuned GPT-4o-mini model2 demonstrated effective learning,
+                                                                                    with training loss decreasing from 2.20 to 0.15 and accuracy improving
+                                                                                    from 0.65 to 0.90, while exhibiting minimal overfitting and strong
+                                                                                    generalization capabilities. Detailed fine-tuning procedures and metrics
+                                                                                    are available in the online appendix. The model then classified 47,309
+                                                                                    viewer-generated comments into 24 coherent issue-specific topics pre­
+                                                                                    viously identified (Table 2).
+
+                                                                                        This classification process effectively addressed RQ1. The most
+                                                                                    prevalent topics included Trump's golf skills and reputation (n = 6657;
+                                                                                    14.07 %), positive reactions to DeChambeau and Trump collaboration
+                                                                                    (n = 5783; 12.22 %), and broader political debate: media, policy, and
+                                                                                    nationalism (n = 5621; 11.88 %). Additional prominent topics were
+                                                                                    video-hype superlatives (n = 4254; 8.99 %) and pro-Trump enthusiasm,
+                                                                                    GOAT claims, and voting pledges (n = 3225; 6.82 %). A smaller pro­
+                                                                                    portion of comments were categorized under narrower themes, such as
+                                                                                    media-distrust and TDS discussions (n = 2349; 4.97 %), Trump-vs-Biden
+
+  1 The online appendix and supplemental files are available at https://github.       2 The model ID for our fine-tuned GPT-4o-mini is ft:gpt-4o-mini-2024-07-18:
+com/TyrealQ/Break50.                                                                qian:b50:BUOe6orE.
+
+                                                                                 8
+T.Y. Qian et al.                                                                                                          Journal of Retailing and Consumer Services 88 (2026) 104520
+
+golf showdown fantasies (n = 2299; 4.86 %), and DeChambeau YouTube                 n = 117) was a low-frequency but high-variance case: YouTube com­
+subscriber milestones and viral video growth (n = 1611; 3.41 %).                   ments scored high on competence (1.21) and warmth (0.74), whereas
+Comments that did not align clearly with these established topics, often           Instagram comments were near neutral (warmth = 0.01, competence =
+due to ambiguity or lack of coherent meaning (e.g., "Just another soy              0.26), illustrating how platform context can attenuate admiration
+boy"), were grouped under the category labeled Manual (n = 2222; 4.70              despite similar thematic framing. Another outlier, awkward social
+%), reflecting their inability to fit neatly into the refined topic structure.     greetings (Topic 23; n = 736), showed moderate warmth (YouTube =
+The overall topic distribution confirms the efficacy of the GPT-4o-mini            0.27; Instagram = 0.43) but negative competence (YouTube = - 0.28;
+fine-tuning approach in achieving nuanced and precise automated                    Instagram = - 0.10), producing a "warm-but-incompetent" profile.
+topic classification.                                                              Comments like "49:02 he tried to fist bump but Trump said nah lmao" and
+                                                                                   "This is like when you have to hang out with your grandpa and kinda talk to
+4.3. S-WEAT analysis of generic and issue-specific frames across                   him like he's a kid" illustrate the affectionate but ability-doubting tone
+platforms                                                                          reflected in the scores.
+
+    In response to RQ2, semantic evaluations of warmth and competence                  Politics/controversy (n = 15,450; 34.27 %) displayed near-neutral
+were conducted in alignment with SCM and operationalized through S-                mean warmth (0.09) and slightly negative competence (- 0.05),
+WEAT. The detailed results are presented in Tables 3 and 4, with visual            though the variance across topics was substantial. The dominant issue-
+distributions in Fig. 6 for issue-specific frames. Validation against a            specific frame, broader political debate: media, policy, and nation­
+stratified subsample of human-coded comments demonstrated strong                   alism (Topic 3; n = 5621), consistently occupied SCM's contempt
+convergence (r = 0.85), indicating that the embedding-based measures               quadrant (warmth = - 0.17, competence = - 0.32) across platforms, as
+captured audience perceptions in line with SCM's conceptual di­                    did media-distrust and TDS discussions (Topic 5) and criticisms of
+mensions. To further test robustness, we compared results from the text-           golfing with Trump (Topic 22), with warmth ranging from - 0.18 to
+embedding-3-small model with an alternative embedding model (BAAI/                 - 0.43 and competence from - 0.34 to - 0.57. Illustrative comments
+bge-m3). Despite substantial differences in architecture and training              include "All Trump does is name call, insult, and act like a child" and "How
+data, the S-WEAT scores showed a high degree of alignment (warmth-                 dare you use this platform to promote a convicted sexual predator", which
+cold: r = 0.79; competence-incompetence: r = 0.78), providing evidence             combine affective rejection with perceived moral and capability failings.
+of convergent validity and reinforcing that our operationalization of
+warmth and competence is stable across models rather than tied to a                    However, notable counter-patterns emerged. Pro-Trump enthusiasm,
+single embedding framework.                                                        GOAT claims, and voting pledges (Topic 11; n = 3225) scored high on
+                                                                                   both warmth (0.82) and competence (0.74), showing that even within a
+    Across the three generic frames, entertainment consistently pro­               contentious frame category, politically aligned discourse can generate
+duced strongly positive warmth and competence evaluations across                   admiration-type evaluations. Two issue-specific frames showed clear
+platforms, while politics/controversy exhibited the widest variability,            sign reversals between platforms: Kamala-Harris ads and follow-up
+including multiple warmth-competence sign reversals. These fluctua­                commentary (Topic 14) shifted from positive warmth on YouTube
+tions were most apparent in morally and politically contentious topics,            (0.34) to slightly negative warmth on Instagram (- 0.02), despite
+reflecting the competitive frame environment predicted by framing                  negative competence across both. For Trump cheating and integrity
+theory (De Vreese, 2005). Athletics discourse tended to produce mod­               debates (Topic 19), competence shifted from mildly positive on You­
+erate to high competence and moderate warmth, but several subtopics                Tube (0.14) to negative on Instagram (- 0.14) while warmth remained
+showed platform-driven divergences, especially in competence assess­               negative across platforms. YouTube discussion often coupled grudging
+ments tied to age and political imagination scenarios.                             skill recognition with skepticism, for example, "Trump is clearly an
+                                                                                   accomplished golfer. Honest question though, was he given any second
+    As to RQ3, we focus on platform-specific divergences and theoretical           chances on ANY shot and it was edited together?," whereas Instagram
+outliers to illustrate how context shapes evaluations. Entertainment was           comments framed the same behavior as categorical evidence of inability
+the most frequent generic frame (n = 17,242; 38.24 %), with high mean              or dishonesty, for example, "Trump has the greatest foot-wedge of all time!!
+warmth (0.74) and competence (0.74) across platforms (YouTube:                     #liarandacheat" and "Trump cheats lol oh everyone knows that." Such
+warmth = 0.72, competence = 0.78; Instagram: warmth = 0.75,                        reversals suggest that the same thematic content may activate different
+competence = 0.74). Within this frame, positive reactions to                       interpretive schemas depending on platform characteristics and com­
+DeChambeau-Trump collaboration (Topic 1; n = 5783) reached the                     munity composition.
+highest warmth (0.97) and competence (0.93) of any topic in the data­
+set, reflecting a high-warmth/high-competence "admiration" quadrant                    Athletics (n = 12,394; 27.49 %) averaged moderately positive
+profile in SCM. This aligns with framing theory's expectation that                 warmth (0.31) and notably positive competence (0.49). The most
+entertainment-focused portrayals can foreground non-threatening, skill-            prevalent issue-specific frame, Trump's golf skills and reputation (Topic
+oriented attributes, fostering both affective and competence-based                 0; n = 6657), reinforced this profile (warmth = 0.44, competence =
+positivity.                                                                        0.73), with greater salience on YouTube (15.08 %) than Instagram (7.84
+                                                                                   %). This finding underscores the role of sports performance framing in
+    Video-hype superlatives (Topic 2; n = 4254) demonstrated similarly             fostering skill-based respect even amid politically charged contexts.
+high evaluations (warmth = 0.78; competence = 0.85), with Instagram                Trump-vs-Biden golf showdown fantasies (Topic 4) displayed low
+showing greater proportional engagement (17.70 %) than YouTube                     warmth overall (- 0.05) but positive competence (0.12), representing an
+(7.59 %). While most entertainment issue-specific frames aligned with              "envy" quadrant profile where ability is acknowledged without inter­
+this positive pattern, some revealed theoretically interesting deviations.         personal warmth. This is evident in comments such as "Trump is a legit
+For instance, Patrick Reed admiration and Trump connection (Topic 20;              golfer. I can't believe Biden even pretended he could break 100". Comments
+
+Table 3
+Generic frame and S-WEAT analysis results.
+
+Generic frame  Topic                                  Count  Share  YT share       INS share      WC    CI      YTWC  YTCI    INSWC  INSCI
+
+Entertainment  1, 2, 6, 7, 12, 13, 15, 16, 20, 23 17242 38.24 36.09                51.84          0.74    0.74  0.72    0.78  0.75     0.74
+                                                                                                        - 0.05  0.08  - 0.02  0.09   - 0.05
+Politics/controversy 3, 5, 8, 10, 11, 14, 19, 21, 22  15450 34.27 34.87            30.45          0.09          0.31          0.31
+                                                                                                          0.49          0.48           0.49
+Athletics      0, 4, 9, 17, 18                        12394 27.49 29.04            17.71          0.31
+
+Note: YT = YouTube, INS = Instagram, WC = warmth-cold score, CI = competence-incompetence score.
+
+                                                                                9
+T.Y. Qian et al.                                                                                   Journal of Retailing and Consumer Services 88 (2026) 104520
+
+Table 4
+Issue-specific frame and S-WEAT analysis results.
+
+Topic   Issue-specific frame                                               Count YTShare INSShare  WC      CI      YTWC    YTCI    INSWC   INSCI
+
+0       Trump's golf skills and reputation                         growth  6657  15.08   7.84        0.44    0.73    0.36    0.66    0.45    0.73
+1       Positive reactions to DeChambeau and Trump collaboration           5783  11.86  14.47        0.97    0.93    0.87    0.87    1.00    0.94
+3       Broader political debate: media, policy & national issues          5621  11.91  11.69      - 0.17  - 0.32  - 0.15  - 0.31  - 0.17  - 0.32
+2       Video-hype superlatives                                            4254         17.70        0.78    0.85    0.67    0.87    0.82    0.84
+11      Pro-Trump enthusiasm, GOAT claims & voting pledges                 3225   7.59               0.82    0.74    0.85    0.95    0.81    0.72
+5       Media-distrust & TDS discussions                                   2349   7.12   4.94      - 0.18  - 0.34  - 0.10  - 0.31  - 0.19  - 0.34
+4       Trump-vs-Biden golf showdown fantasies                             2299   5.26   3.16      - 0.05    0.12    0.25    0.37  - 0.09    0.08
+Manual  Manual                                                             2222   4.96   4.23        0.37    0.06    0.37    0.03    0.37    0.07
+7       DeChambeau YouTube subscriber milestones and viral video           1611   4.42   6.43        0.59    0.86    0.25    0.55    0.62    0.88
+18      Comments on Trump's age & fitness                                  1568   3.70   1.57        0.41    0.06    0.27  - 0.14    0.42    0.08
+6       Trump's behavior driving golf carts                                1561   3.55   1.85        0.35    0.41    0.23    0.19    0.36    0.42
+9       Trump's birdies/eagle highlights & quirky putting stroke           1329   3.66   1.05        0.19    0.46    0.23    0.50    0.18    0.45
+13      Celebrity guest wish-list                                          1214   2.93   2.05        0.75    0.79    0.84    0.91    0.67    0.68
+12      Sexual innuendo & jokes                                            1034   1.58   8.68        0.45    0.29    0.51    0.28    0.44    0.29
+22      Criticisms of golfing with Trump                                          2.20   2.10      - 0.43  - 0.57  - 0.35  - 0.57  - 0.45  - 0.57
+8       Assassination-attempt timing & ear-injury speculation               945   1.85   2.93        0.42    0.16    0.47    0.25    0.41    0.14
+10      How to address former presidents                                    936   1.84   2.81        0.22  - 0.16    0.26  - 0.07    0.22  - 0.17
+23      Awkward social greetings                                            828   1.92   0.70        0.40  - 0.13    0.27  - 0.28    0.43  - 0.10
+19      Trump cheating & integrity debates                                  736   1.48   2.05      - 0.45  - 0.10  - 0.34    0.14  - 0.47  - 0.14
+17      Debate over playing from red or women's tees                        694   1.47   1.47        0.24    0.36    0.55    0.57    0.22    0.34
+15      Neville the caddy shout-outs & jokes                                541   1.23   0.59        0.63    0.55    0.81    0.88    0.62    0.54
+14      Kamala-Harris ads & follow-up commentary                            534   1.25   0.35        0.00  - 0.13    0.34    0.25  - 0.02  - 0.15
+16      Repetition of the word partner                                      515   1.21   0.36        0.95    0.87    0.96    0.87    0.95    0.87
+21      Wounded Warrior Project fundraising debate                          398   0.90   0.50        0.61    0.31    0.44    0.16    0.62    0.32
+20      Patrick Reed admiration & Trump connection                          337   0.76   0.41        0.02    0.29    0.74    1.21    0.01    0.26
+                                                                            117   0.28   0.05
+
+Note: YT = YouTube, INS = Instagram, WC = warmth-cold score, CI = competence-incompetence score.
+
+on Trump's age and fitness (Topic 18) were uniformly warm (0.41) but             individuals to draw on cognitive schemas from multiple domains, our
+diverged on competence, from slightly negative on YouTube (- 0.14) to            findings illuminate the complex interplay between frame setting, polit­
+slightly positive on Instagram (0.08). Remarks from YouTube like "I feel         ical identity, and character judgment.
+very sorry for him. He deserves to spend his last years with his family"
+exemplify this pity-quadrant mix of sympathy and diminished perceived            5.1. Theoretical implications
+ability, indicating the potential for benevolent stereotyping when age or
+health is foregrounded.                                                              The current study contributes to the application of framing theory
+                                                                                 and SCM within UGC contexts. Framing theory traditionally emphasizes
+    Figs. 7 and 8 present the analysis of generic and issue-specific frames      how media entities strategically shape audience interpretations through
+from July 23 to August 11, 2023, respectively. On the video's YouTube            selective emphasis of information (Guo et al., 2021; Jiang et al., 2024;
+release date (July 23), entertainment frame generated the highest cross-         Tan and Cheng, 2024). Our findings extend this perspective by illus­
+platform discussion, with athletics and politics/controversy following           trating how audiences, through interactive dialogue, actively construct,
+closely behind. By July 25, comment frequencies decreased markedly               adapt, and contest frames in ways that both align with and complicate
+across all three generic frames. Nevertheless, the politics/controversy          prior expectations (Ocal and Crowston, 2024; Xu et al., 2024). This
+frame experienced a proportionally smaller decline than entertainment            dynamic is evident in the distinction between generic and issue-specific
+and athletics, sustaining a more consistent presence throughout the              frames. While generic frames yielded interpretive tendencies consistent
+observation period. A similar pattern emerged for issue-specific frames,         with prior research, their issue-specific counterparts often revealed de­
+where broader political debate: media, policy, and nationalism became            viations that complicate these established associations. For instance,
+the most discussed frame on YouTube on July 26. Instagram, however,              politics/controversy frames not only reinforced ideological divides, as
+exhibited a distinctive pattern, wherein two separate posting events, one        anticipated, but also generated unexpected moments of humor, admi­
+on 23 July and another on 25 July, triggered distinct peaks of frames of         ration, or even reluctant respect (e.g., assassination-attempt timing &
+video-hype superlatives and DeChambeau YouTube subscriber mile­                  ear-injury speculation), suggesting that conflict-oriented frames may
+stones and viral video growth. Collectively, this nuanced interplay be­          carry ambivalent valences in participatory settings. These patterns un­
+tween content and platform contexts underscores how audience                     derscore that in digital environments, framing is not simply the repro­
+evaluations are dynamically shaped by both discourse framing and the             duction of stable, generic categories but an iterative process where
+distinct user communities on YouTube and Instagram.                              issue-specific expressions can subvert or reconfigure expected mean­
+                                                                                 ings. Thus, our study advances framing theory by demonstrating that
+5. Discussion                                                                    audience-driven framing in UGC is inherently flexible, contextually
+                                                                                 contingent, and capable of reshaping the interpretive logics embedded
+    In this study, we analyzed social media reactions to Donald Trump's          in generic frames.
+appearance on Break 50, uncovering a diverse interpretive landscape
+shaped by generic and issue-specific frames. In doing so, our study                  Further, our study extends the theoretical scope of SCM by demon­
+bridges and extends framing theory and SCM by demonstrating how                  strating its explanatory power in the unstructured and dynamic realm of
+these frameworks can be operationalized to analyze large-scale UGC.              UGC (Liu et al., 2024). Unlike the highly controlled laboratory or
+While entertainment framing elicited high warmth and competence                  survey-based settings in which SCM has been predominantly examined
+perceptions, politics/controversy invoked predominantly negative                 (Bennett et al., 2019; Funk, 1997; Kervyn et al., 2012, 2022), our study
+evaluations, and athletics framing centered around Trump's perceived             draws on spontaneous, large-scale social media interactions, situating
+competence. Issue-specific frames further nuanced these perceptions,             SCM within the naturally occurring meaning-making practices of online
+illustrating cross-platform divergences between YouTube and Insta­               communities. These organically produced comments offer a dynamic,
+gram. By illustrating how sports-politics intersections prompt                   context-rich lens into how individuals interpret and evaluate public
+
+                                                                             10
+T.Y. Qian et al.                                                               Journal of Retailing and Consumer Services 88 (2026) 104520
+
+Fig. 6. Issue-specific frame distributions in warmth-competence space across platforms.
+Note: Quadrants I-IV represent distinct stereotype patterns: admired groups (high warmth, high competence), pitied groups (high warmth, low competence),
+contemptuous groups (low warmth, low competence), and envied groups (low warmth, high competence).
+
+figures such as Trump and DeChambeau in cross-domain collaborations.           competence judgments based on visible evidence of Trump's physical
+    Importantly, our findings highlight not only the persistence of            performance, which sometimes diminished his competence ratings. By
+                                                                               contrast, Instagram's image curation and textual brevity encouraged
+warmth and competence as distinct evaluative dimensions, but also their        more favorable competence attributions in the absence of explicit
+potential to combine in unexpected ways that refine SCM's theoretical          negative visual cues. These platform-specific differences underscore
+assumptions. The emergence of warm-but-incompetent and cold-but-               how frames and modalities channel the expression of warmth and
+competent evaluations illustrates that audience perceptions of public          competence, suggesting that digital environments can amplify or sup­
+figures do not always map neatly onto the canonical quadrants. For             press particular stereotype dimensions (A. Kirilenko et al., 2024; Peng,
+example, Trump was at times portrayed as warm-but-incom­                       2021). Taken together, these insights advance SCM by showing that
+petent--emphasized through humorous depictions of his social inter­            warmth and competence operate as dynamic, context-sensitive con­
+actions--while in other cases he was framed as cold-but-competent,             structs shaped by the interaction of framing processes and platform
+admired for his golfing skills yet criticized for his political behavior.      affordances.
+These patterns suggest that in participatory media environments,
+warmth and competence may operate as fluid dimensions, allowing                5.2. Methodological implications
+users to simultaneously assign contradictory traits depending on the
+framing context. These observations indicate that stereotypes are not              Our study demonstrates methodological innovations through an
+merely applied to public figures but actively reinterpreted, stretched,        innovative human-AI collaboration pipeline integrating traditional NLP,
+and contested through user discourse.                                          reasoning-enhanced LLMs, LLM fine-tuning, and embedding-based se­
+                                                                               mantic analysis. Initially, topic modeling via BERTopic efficiently
+    Lastly, the integration of SCM with framing theory clarifies how           identified overarching themes, showcasing substantial performance
+platform affordances condition these evaluative patterns. YouTube's
+long-form, video-centered environment allowed users to make direct
+
+                                                                           11
+T.Y. Qian et al.  Journal of Retailing and Consumer Services 88 (2026) 104520
+
+Fig. 7. Generic frame temporal dynamics.
+Note: Temporal distribution of generic frames (YouTube vs. Instagram, July 23-August 11, 2024), showing immediate entertainment and athletics spikes after Break
+50's release, with politics/controversy sustaining longer-term visibility.
+
+Fig. 8. Issue-specific frame (top 10 by frequency) temporal dynamics.
+Note: Temporal distribution of issue-specific frames (YouTube vs. Instagram, July 23-August 11, 2024), illustrating platform-specific frame peaks from secondary
+Instagram posts and the prolonged presence of political debate on YouTube.
+
+                                                                                                                          12
+T.Y. Qian et al.                                                                Journal of Retailing and Consumer Services 88 (2026) 104520
+
+improvements by leveraging semantic embeddings for coherent clus­               entertainment frames carried minor reputational cost, but when similar
+tering (Jiang et al., 2024; A. P. Kirilenko and Stepchenkova, 2025; T. Y.       assessments appeared within politics/controversy frames, such as
+Qian et al., 2024). However, the inherent semantic overlaps and inter­          cheating debates (Topic 19), they signaled credibility concerns that
+pretive ambiguity necessitated advanced analytical refinement.                  could erode trust. These contrasts show that reputational thresholds are
+Addressing this challenge, we incorporated a reasoning-oriented LLM             not fixed numerical cutoffs, but situational judgments shaped by
+(o4-mini) specifically prompted to interpret hierarchical clustering            framing. In practice, a polarizing figure can be an asset in one setting and
+outputs and provide structured suggestions for merging semantically             a liability in another. Within entertainment frames, associations may
+related topics. With human in the loop, this critical AI-driven reasoning       enhance warmth and engagement in lighthearted campaigns; within
+step offered scalable interpretive guidance, enhancing thematic coher­          politics/controversy frames, the same figure may undermine brand
+ence considerably beyond manual clustering efforts (Berente et al.,             credibility if integrity and competence are core to audience expecta­
+2019).                                                                          tions. Similarly, brands may find value in leaning into controversy when
+                                                                                the goal is to activate strong in-group loyalty, for example, mobilizing
+    Subsequently, fine-tuning GPT-4o-mini on the refined outputs of the         partisan enthusiasm in narrowly targeted campaigns, but should avoid
+reasoning-enhanced clustering process allowed precise and nuanced               such associations when broad market appeal is the objective.
+classification of tens of thousands of comments into meaningful issue-
+specific frames. This automated classifier provided transparent, audit­             Platform environments further magnify these distinctions. On You­
+able output, enhancing reliability and reducing the demand for exten­           Tube, long-form and curated content allows performance skill and
+sive manual reconciliation (De Freitas et al., 2025). Lastly, the               cooperative play to be spotlighted, producing relatively positive
+implementation of S-WEAT embedding-based analysis provided a robust             competence signals even in contested areas. Instagram's meme-driven
+quantification of warmth and competence evaluations within the clas­            and highly visual culture, by contrast, often amplifies critical or mock­
+sified comments. This embedding approach captured subtle semantic               ing interpretations from the same content (Peng, 2021). Social media
+associations, extending analytical depth beyond traditional sentiment           managers should therefore adapt campaigns to platform norms: use
+analyses and validating SCM dimensions empirically at scale.                    YouTube to showcase technical expertise and narrative depth, while
+                                                                                leveraging Instagram for relational, aesthetic, and community-focused
+    Overall, our human-AI collaboration pipeline highlights the power of        engagement (S. Qian et al., 2024).
+computational methods and the importance of human augmentation,
+offering researchers an efficient, replicable, and scalable workflow                Timing also plays a critical role. Break 50's July 23, 2024 release
+applicable beyond this specific context. By effectively integrating un­         triggered immediate spikes in entertainment and athletics frames, while
+supervised topic modeling, reasoning-enhanced frame identification,             political controversy persisted well into August and became intertwined
+fine-tuned LLM classification, and embedding-based semantic metrics,            with the presidential election cycle. Strategists should anticipate that
+this methodological framework represents a meaningful advancement in            sports-entertainment appearances may be folded into larger political
+computational social science, suitable for diverse content analysis tasks       narratives. Pre-release "frame inoculation," i.e., priming audiences with
+and platforms (N. Arora et al., 2024; Rossi et al., 2024).                      collaborative or performance-based stories, can buffer against politici­
+                                                                                zation, while staggered cross-platform releases can extend positive
+5.3. Empirical implications                                                     coverage windows and manage the slower decay of controversy.
+
+    Our study offers guidance for managing partnerships and audience                Taken together, our findings underscore that there is no one-size-fits-
+engagement strategies that extend beyond this empirical case and can            all formula for navigating partnerships with polarizing figures. Instead,
+inform decisions in partnerships that involve politically salient figures.      practitioners should treat warmth and competence evaluations as
+Entertainment-related narratives proved particularly powerful for               contextual signals interpreted through framing dynamics. The inte­
+shaping perceptions. On both YouTube and Instagram, cooperative, non-           grated framework developed here offers tools for identifying when
+threatening performance stories consistently reinforced positive evalu­         moments of humor and relatability can be leveraged, when controversy
+ations of warmth and competence. Yet even within this favorable                 might be selectively embraced for targeted audiences, and when
+framing, unexpected moments, such as Trump's failed fist bumps and              avoidance or reframing is necessary to protect broad appeal.
+other socially awkward gestures (Topic 23), shifted him into a warm-
+but-incompetent quadrant. Instead of harming his image, these gaffes            5.4. Limitations and future research
+made him appear more relatable and authentic (Bennett et al., 2019;
+Kervyn et al., 2022). Strategically, humorous or self-deprecating ap­               While our study provides valuable insights into audience framing
+pearances in sports-entertainment contexts can be intentionally                 and trait evaluations in politically infused sports contexts, several lim­
+deployed to soften partisan hostility, but this tactic requires framing         itations warrant careful consideration. First, we focused exclusively on
+control. A minor gaffe on the golf course may enhance relatability,             textual comments from YouTube and Instagram, potentially overlooking
+whereas the same awkwardness reframed in political or leadership                critical interpretive nuances from audio and visual elements that may
+contexts could undercut perceptions of competence. Selective integra­           shape audience perceptions and framing processes. Future research
+tion of "relatable gaffes" is therefore most effective in settings where        should analyze user-generated images and videos to capture the
+competence is not the core evaluative criterion.                                complexity and richness that text alone cannot convey (A. Arora et al.,
+                                                                                2025; Peng, 2021). Additionally, extending the analysis to other social
+    The persistence of contempt-quadrant placements in broader politi­          media platforms (e.g., Twitter, TikTok, Reddit), each characterized by
+cal debate (Topic 3) and media-distrust (Topic 5) shows that political          unique community norms and interaction patterns, would further
+contestation is "sticky" and difficult to neutralize once activated. Here,      enhance the comprehensive understanding of cross-platform audience
+prosocial initiatives or credible third-party endorsements might be             dynamics (S. Qian et al., 2024).
+leveraged to re-anchor discourse toward more favorable evaluations.
+For example, charity-related mentions (e.g., Wounded Warrior Project                Second, although framing theory and the SCM were effectively in­
+fundraising, Topic 21) tended to produce higher competence ratings,             tegrated, our interpretations relied predominantly on aggregated se­
+even when embedded within political controversy. The key is to shift the        mantic evaluations. Individual differences, including psychological
+narrative focus from partisan identity to shared values, allowing warmth        traits, political ideologies, and identity salience, were not explicitly
+and competence to be reframed through collective action rather than             measured. Future research should incorporate individual-level analy­
+political alignment.                                                            ses--such as interviews, surveys, or experiments--to better elucidate
+                                                                                cognitive mechanisms underlying audience interpretations and the
+    Indeed, frame-specific differences shape how risks and opportunities        nuanced application of framing and SCM within digital contexts (Kurdi
+materialize. For example, competence deficits interpreted through               et al., 2019; Larkin, 2025). Additionally, incorporating aspect-based
+
+                                                                            13
+T.Y. Qian et al.                                                                                                       Journal of Retailing and Consumer Services 88 (2026) 104520
+
+sentiment models, may help uncover how topic-specific evaluations vary          Declaration of generative AI and AI-assisted technologies in the
+by audience subgroup and issue salience (Perazzoli et al., 2022; T. Y.          writing process
+Qian et al., 2025; Zha et al., 2023), offering a more granular under­
+standing of how meaning is co-created in online discourse.                          During the preparation of this work the authors used ChatGPT and
+                                                                                Claude in order to improve the language and readability of the manu­
+    Third, despite harnessing robust AI-human collaboration and fine-           script. After using these tools/services, the authors reviewed and edited
+tuning, automated methods inherently risk overlooking subtle inter­             the content as needed and take full responsibility for the content of the
+pretive nuances like cultural idioms, sarcasm, or context-specific lan­         publication.
+guage uses. Moreover, pre-trained embeddings may contain biases that
+originate from their underlying language models, which often uncon­             Declaration of competing interest
+sciously incorporate societal stereotypes and unintended semantic as­
+sociations from their training data (Bai et al., 2025). Future research             The authors declare that they have no known competing financial
+could mitigate these concerns through explicit and implicit bias as­            interests or personal relationships that could have appeared to influence
+sessments, comparative validation against extensive human-coded                 the work reported in this paper.
+datasets, or qualitative analyses to ensure interpretive accuracy and
+fairness (Yoganarasimhan and Iakovetskaia, 2024).                               Acknowledgments
+
+    Finally, our dataset focused solely on reactions to a singular event            This work was supported by Louisiana State University 2024-2025
+involving a highly polarizing political figure, limiting generalizability.      Big Ideas in Arts & Humanities - Provost's Fund for Innovation in
+Further studies should examine a wider range of events, diverse sports,         Research (PG011008). The author team is thankful for the anonymous
+and varying political personas to determine the robustness of the               reviewers for their invaluable feedback that greatly improved this
+interpretive frameworks and trait evaluations identified. Comparative           manuscript. Any remaining errors are solely our responsibility.
+analyses across multiple scenarios will significantly enhance our un­
+derstanding of audience engagement dynamics at the intersection of              Appendix A. Supplementary data
+politics, sports entertainment, and digital discourse.
+                                                                                    Supplementary data to this article can be found online at https://doi.
+6. Conclusion                                                                   org/10.1016/j.jretconser.2025.104520.
+
+    In an era where political actors engage in brand-like behavior and          Data availability
+lifestyle influencers wade into polarizing discourse, the boundaries be­
+tween commerce, ideology, and entertainment are increasingly blurred.               The online appendix and supplemental files are available at
+In the current study, we offer a theoretical and methodological blueprint       https://github.com/TyrealQ/Break50.
+for analyzing such entanglements, foregrounding audience agency while
+maintaining analytical rigor through computational tools. Our findings          References
+demonstrate that audience reactions at the intersection of sports, poli­
+tics, and entertainment are not monolithic but are instead shaped by a          Arora, A., Yadav, S., Antoniak, M., Belongie, S., Augenstein, I., 2025. Multi-modal framing
+diverse set of interpretive frames. Moving beyond a simplistic pro-                  analysis of news (No. arXiv:2503.20960). arXiv. https://doi.org/10.48550/
+versus-anti binary, our analysis reveals a complex landscape where au­               arXiv.2503.20960.
+diences actively deploy varied interpretive frames. The interplay be­
+tween perceived warmth and competence across these frames suggests a            Arora, N., Chakraborty, I., Nishimura, Y., 2024. AI-human hybrids for marketing
+reconfiguration of what authenticity and expertise signify in hybrid                 research: leveraging LLMs as collaborators. J. Market., 00222429241276529
+celebrity-political performances.                                                    https://doi.org/10.1177/00222429241276529.
+
+    The scope of these findings, however, is defined by clear boundaries        Bai, X., Wang, A., Sucholutsky, I., Griffiths, T.L., 2025. Explicitly unbiased large language
+in both our research design and case selection. Our reliance on textual              models still form biased associations. Proc. Natl. Acad. Sci. 122 (8), e2416228122.
+data provides an incomplete picture that future multimodal analysis                  https://doi.org/10.1073/pnas.2416228122.
+could substantially enrich. Furthermore, the focus on a single, polarizing
+individual tempers the generalizability of our findings. These limitations      Baier, D., Karasenko, A., Rese, A., 2025. Measuring technology acceptance over time
+highlight the need to apply this analytical framework across less                    using transfer models based on online customer reviews. J. Retailing Consum. Serv.
+polarizing subjects and diverse cultural contexts to test its broader                85, 104278.
+applicability. Even so, our research contributes to an emerging inter­
+disciplinary conversation about the affective politics of engagement in         Basu, B., Chakraborty, D., Kar, A.K., 2024. How can we improve buyer experiences for
+digitally mediated service environments. For scholars and practitioners              the operations of e-grocery platforms? Towards a unified framework for digital
+alike, the results suggest that engagement is no longer a proxy for                  service operations. Int. J. Prod. Econ. 278, 109417.
+approval or alignment but a site of symbolic contestation. Understand­
+ing this distinction is essential for interpreting consumer behavior in an      Bennett, A.M., Malone, C., Cheatham, K., Saligram, N., 2019. The impact of perceptions
+attention economy shaped as much by emotional resonance as by                        of politician brand warmth and competence on voting intentions. J. Prod. Brand
+ideological friction.                                                                Manag. 28 (2), 256-273.
+
+CRediT authorship contribution statement                                        Berente, N., Seidel, S., Safadi, H., 2019. Research commentary--data-driven
+                                                                                     computationally intensive theory development. Inf. Syst. Res. 30 (1), 50-64. https://
+    Tyreal Yizhou Qian: Writing - review & editing, Writing - original               doi.org/10.1287/isre.2018.0774.
+draft, Visualization, Methodology, Investigation, Funding acquisition,
+Formal analysis, Conceptualization. Hua Gong: Writing - review &                Berger, J., Humphreys, A., Ludwig, S., Moe, W.W., Netzer, O., Schweidel, D.A., 2020.
+editing, Visualization, Methodology, Investigation. Chenglong Xu:                    Uniting the tribes: using text for marketing insight. J. Market. 84 (1), 1-25.
+Writing - review & editing, Validation, Methodology, Data curation.
+                                                                                Billings, A.C., Eastman, S.T., 2003. Framing identities: Gender, ethnic, and national
+                                                                                     parity in network announcing of the 2002 Winter Olympics. J. Commun. 53 (4),
+                                                                                     569-586.
+
+                                                                                Charlesworth, T.E.S., Sanjeev, N., Hatzenbuehler, M.L., Banaji, M.R., 2023. Identifying
+                                                                                     and predicting stereotype change in large language corpora: 72 groups, 115 years
+                                                                                     (1900-2015), and four text sources. J. Pers. Soc. Psychol. 125, 969-990. https://doi.
+                                                                                     org/10.1037/pspa0000354.
+
+                                                                                Chaudhuri, N., Gupta, G., Popovic, A., 2025. Do you believe it? Examining user
+                                                                                     engagement with fake news on social media platforms. Technol. Forecast. Soc.
+                                                                                     Change 212, 123950.
+
+                                                                                Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., Liu, Z., 2024. BGE M3-embedding: multi-
+                                                                                     lingual, multi-functionality, multi-granularity text embeddings through self-
+                                                                                     knowledge distillation (No. arXiv:2402.03216). arXiv. https://doi.org/10.48550/
+                                                                                     arXiv.2402.03216.
+
+                                                                                Collins, C., Dennehy, D., Conboy, K., Mikalef, P., 2021. Artificial intelligence in
+                                                                                     information systems research: a systematic literature review and research agenda.
+                                                                                     Int. J. Inf. Manag. 60, 102383.
+
+                                                                            14
+T.Y. Qian et al.                                                                                                                           Journal of Retailing and Consumer Services 88 (2026) 104520
+
+De Freitas, J., Nave, G., Puntoni, S., 2025. Ideation with generative AI--in consumer               OpenAI, 2023. Improving Language Model Behavior by Training on a Curated Dataset.
+     research and beyond. J. Consum. Res. 52 (1), 18-31.                                            OpenAI, 2025a. Gpt-4.1. https://platform.openai.com/docs/models/gpt-4.1.
+                                                                                                    OpenAI, 2025b. GPT-4o mini. https://platform.openai.com/docs/models/gpt-4o-mini.
+De Vreese, C.H., 2005. News framing: theory and typology. Informat. Des. J. + Doc. Des.             OpenAI, 2025c. O4-mini. https://platform.openai.com/docs/models/o4-mini.
+     13 (1), 51-62.                                                                                 OpenAI, 2025d. Text-embedding-3-small. https://platform.openai.com/docs/models/t
+
+Durante, F., Volpato, C., Fiske, S.T., 2010. Using the stereotype content model to                       ext-embedding-3-small.
+     examine group depictions in fascism: an archival approach. Eur. J. Soc. Psychol. 40            Pandey, P., Singh, J.P., 2025. Generating product reviews from aspect-based ratings
+     (3), 465-483.
+                                                                                                         using large language models. J. Retailing Consum. Serv. 84, 104244. https://doi.
+Dwivedi, Y.K., Ismagilova, E., Hughes, D.L., Carlson, J., Filieri, R., Jacobson, J., Jain, V.,           org/10.1016/j.jretconser.2025.104244.
+     Karjaluoto, H., Kefi, H., Krishen, A.S., 2021. Setting the future of digital and social        Peng, Y., 2021. What makes politicians' Instagram posts popular? Analyzing social media
+     media marketing research: perspectives and research propositions. Int. J. Inf. Manag.               strategies of candidates and office holders with computer vision. Int. J. Press/Polit.
+     59, 102168.                                                                                         26 (1), 143-166. https://doi.org/10.1177/1940161220964769.
+                                                                                                    Perazzoli, S., de Santana Neto, J.P., de Menezes, M.J.M.B., 2022. Systematic analysis of
+Egger, R., 2024. Vectorize Me! A proposed machine learning approach for segmenting                       constellation-based techniques by using Natural Language Processing. Technol.
+     the multi-optional tourist. J. Trav. Res. 63 (5), 1043-1069. https://doi.org/                       Forecast. Soc. Change 179, 121674.
+     10.1177/00472875231183162.                                                                     PGA, 2025. YouTube, PGA TOUR team up for 2025 creator classic series. https://www.
+                                                                                                         pgatour.com/article/news/latest/2025/02/25/youtube-pga-tour-team-up-for-20
+Egger, R., Yu, J., 2022. A topic modeling comparison between lda, nmf, top2vec, and                      25-creator-classic-series-tpc-sawgrass-players-truist-east-lake.
+     bertopic to demystify twitter posts. Front. Sociol. 7, 886498.                                 Qian, S., Lu, Y., Peng, Y., Shen, C.C., Xu, H., 2024. Convergence or divergence? A cross-
+                                                                                                         platform analysis of climate change visual content categories, features, and social
+Entman, R.M., 1993. Framing: toward clarification of a fractured paradigm. J. Commun.                    media engagement on Twitter and Instagram. Public Relat. Rev. 50 (2), 102454.
+     43 (4), 51-58.                                                                                 Qian, T.Y., Li, W., Gong, H., Seifried, C., Xu, C., 2025. Experience is all you need: a large
+                                                                                                         language model application of fine-tuned GPT-3.5 and RoBERTa for aspect-based
+Filo, K., Lock, D., Karg, A., 2015. Sport and social media research: a review. Sport Manag.              sentiment analysis of college football stadium reviews. Sport Manag. Rev. 28 (1),
+     Rev. 18 (2), 166-181.                                                                               1-25. https://doi.org/10.1080/14413523.2024.2386467.
+                                                                                                    Qian, T.Y., Yu, B., Li, W., Xu, C., 2024. Esports Debut as a medal Event at 2023 asian games:
+Fiske, S.T., Cuddy, A.J.C., Glick, P., Xu, J., 2002. A model of (often mixed) stereotype                 exploring public Perceptions with BERTopic and GPT-4 topic fine-tuning (No. arXiv:
+     content: competence and warmth respectively follow from perceived status and                        2409.18798). arXiv. https://doi.org/10.48550/arXiv.2409.18798.
+     competition. J. Pers. Soc. Psychol. 82 (6), 878-902. https://doi.org/10.1037/0022-             Rossi, S., Rossi, M., Mukkamala, R.R., Thatcher, J.B., Dwivedi, Y.K., 2024. Augmenting
+     3514.82.6.878.                                                                                      research methods with foundation models and generative AI. Int. J. Inf. Manag.,
+                                                                                                         102749 https://doi.org/10.1016/j.ijinfomgt.2023.102749.
+Fiske, S.T., Cuddy, A.J., Glick, P., 2007. Universal dimensions of social cognition:                Silayach, N., Ray, R.K., Singh, N.K., Dash, D.P., Singh, A., 2025. When algorithms meet
+     warmth and competence. Trends Cognit. Sci. 11 (2), 77-83.                                           emotions: understanding consumer satisfaction in AI companion applications.
+                                                                                                         J. Retailing Consum. Serv. 85, 104298. https://doi.org/10.1016/j.
+Funk, C.L., 1997. Implications of political expertise in candidate trait evaluations. Polit.             jretconser.2025.104298.
+     Res. Q. 50 (3), 675-697. https://doi.org/10.1177/106591299705000309.                           Son, H., Park, Y.E., 2025. Agenda-setting effects for covid-19 vaccination: insights from
+                                                                                                         10 million textual data from social media and news articles using BERTopic. Int. J.
+Grootendorst, M., 2022. BERTopic: neural topic modeling with a class-based TF-IDF                        Inf. Manag. 83, 102907.
+     procedure. arXiv Preprint arXiv:2203.05794.                                                    Tan, J., Cheng, M., 2024. Tourism, war, and media: the Russia-Ukraine war narrative.
+                                                                                                         J. Trav. Res., 00472875241245047 https://doi.org/10.1177/00472875241245047.
+Guo, L., Mays, K., Zhang, Y., Wijaya, D., Betke, M., 2021. What makes gun violence a                Ullah, R., Alam, M.A., Zeb, A., 2025. How emotions in online reviews affect movie sales:
+     (less) prominent issue? A computational analysis of compelling arguments and                        evidence from Hollywood. J. Retailing Consum. Serv. 85, 104304. https://doi.org/
+     selective agenda setting. Mass Commun. Soc. 24 (5), 651-675. https://doi.org/                       10.1016/j.jretconser.2025.104304.
+     10.1080/15205436.2021.1898644.                                                                 Wang, R., Thimmanayakanapalya, S.S., Ophir, Y., 2024. The growing partisan
+                                                                                                         politicization of non-political online spaces: a mixed-method analysis of news app
+Hu, D., Lan, Y., Yan, H., Chen, C.W., 2025. What makes you attached to social companion                  reviews on Google Play between 2009 and 2022. New Media Soc.,
+     AI? A two-stage exploratory mixed-method study. Int. J. Inf. Manag. 83, 102890.                     14614448241237765 https://doi.org/10.1177/14614448241237765.
+                                                                                                    Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q.V., Zhou, D., 2022.
+Jiang, X., Liu, L., Wu-Ouyang, B., Chen, L., Lin, H., 2024. Which storytelling people                    Chain-of-thought prompting elicits reasoning in large language models. Adv. Neural
+     prefer? Mapping news topic and news engagement in social media. Comput. Hum.                        Inf. Process. Syst. 35, 24824-24837.
+     Behav. 158, 108248. https://doi.org/10.1016/j.chb.2024.108248.                                 Xu, C., Qian, T.Y., Yang, L., Liu, D., 2024. Tweets, triumphs, and tensions: a machine
+                                                                                                         learning approach to decoding multi-tier thematic framing of the 2022 Beijing
+Kervyn, N., Fiske, S.T., Malone, C., 2012. Brands as intentional agents framework: how                   Winter Olympics on social media. Commun. Sport 0 (0), 21674795241262667.
+     perceived intentions and ability can map brand perception. J. Consum. Psychol. 22                   https://doi.org/10.1177/21674795241262667.
+     (2), 166-176.                                                                                  Yoganarasimhan, H., Iakovetskaia, I., 2024. From feeds to inboxes: a comparative study
+                                                                                                         of polarization in Facebook and email news sharing. Manag. Sci. https://doi.org/
+Kervyn, N., Fiske, S.T., Malone, C., 2022. Social perception of brands: warmth and                       10.1287/mnsc.2023.04134 mnsc.2023.04134.
+     competence define images of both brands and social groups. Consumer Psychology                 Zha, W., Ye, Q., Li, J., Ozbay, K., 2023. A social media Data-Driven analysis for transport
+     Review 5 (1), 51-68. https://doi.org/10.1002/arcp.1074.                                             policy response to the COVID-19 pandemic outbreak in Wuhan, China. Transport.
+                                                                                                         Res. Pol. Pract. 172, 103669.
+Kirilenko, A.P., Stepchenkova, S., 2025. Facilitating topic modeling in tourism research:           Zhao, C., Tan, Z., Wong, C.-W., Zhao, X., Chen, T., Liu, H., 2025. SCALE: Towards
+     comprehensive comparison of new AI technologies. Tour. Manag. 106, 105007.                          collaborative content analysis in social science with large language model agents and
+                                                                                                         human intervention (No. arXiv:2502.10937). arXiv. https://doi.org/10.48550/
+Kirilenko, A.P., Stepchenkova, S.O., 2017. Sochi 2014 olympics on twitter: perspectives                  arXiv.2502.10937.
+     of hosts and guests. Tour. Manag. 63, 54-65.                                                   Zhou, Y., Yuan, Y., Huang, K., Hu, X., 2024. Can ChatGPT perform a grounded theory
+                                                                                                         approach to do risk analysis? An empirical study. J. Manag. Inf. Syst. 41 (4),
+Kirilenko, A., Stepchenkova, S., Gromoll, R., Jo, Y., 2024. Comprehensive examination of                 982-1015. https://doi.org/10.1080/07421222.2024.2415772.
+     online reviews divergence over time and platform types. Int. J. Hospit. Manag. 117,
+     103647.
+
+Kurdi, B., Mann, T.C., Charlesworth, T.E., Banaji, M.R., 2019. The relationship between
+     implicit intergroup attitudes and beliefs. Proc. Natl. Acad. Sci. 116 (13), 5862-5871.
+
+Larkin, B., 2025. Identity conflict among politically engaged sport fans: implications for
+     fan loyalty. J. Sport Manag. 1 (aop), 1-17.
+
+Li, Y., Liu, Y., Yu, M., 2025. Consumer segmentation with large language models.
+     J. Retailing Consum. Serv. 82, 104078. https://doi.org/10.1016/j.
+     jretconser.2024.104078.
+
+Liu, Z., Li, H., Chen, A., Zhang, R., Lee, Y.-C., 2024. Understanding Public Perceptions of
+     AI Conversational Agents: A Cross-Cultural Analysis, pp. 1-17.
+
+Lomas, T., Nilsson, A.H., Kjell, O., Niemiec, R., Pawelski, J.O., Padgett, R.N.,
+     VanderWeele, T.J., 2025. Differentiating balance and harmony through natural
+     language analysis: a cross-national exploration of two understudied wellbeing-
+     related concepts. J. Posit. Psychol. 1-19. https://doi.org/10.1080/
+     17439760.2025.2459400.
+
+Ocal, A., Crowston, K., 2024. Framing and feelings on social media: the futures of work
+     and intelligent machines. Inf. Technol. People 37 (7), 2462-2488.
+
+                                                                                                15
+

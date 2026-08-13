@@ -1,0 +1,1019 @@
+                                 Journal of Business Research 198 (2025) 115491
+                                   Contents lists available at ScienceDirect
+
+                          Journal of Business Research
+
+                         journal homepage: www.elsevier.com/locate/jbusres
+
+From words to insights: Text analysis in business research
+
+Dennis Herhausen a,* , Stephan Ludwig b, Ehsan Abedin c, Nasim Ul Haque d, David de Jong e
+
+a Professor of Marketing, Vrije Universiteit Amsterdam 1081 HV Amsterdam, the Netherlands
+b Professor of Marketing, Monash University, Caulfield East Vic 3145, Australia
+c Lecturer of Business Analytics, Flinders University, Sturt Rd, Bedford Park, South Australia 5042
+d Doctoral Candidate in Marketing, The University of Melbourne, 198 Berkeley St, Carlton, VIC 3053, Australia
+e PhD Candidate in Marketing, Vrije Universiteit Amsterdam 1081 HV Amsterdam, the Netherlands
+
+ARTICLE INFO             ABSTRACT
+
+Keywords:                Business success relies on effective stakeholder communication, much of which occurs via or can be transcribed
+Automated text analysis  into text. Yet, business researchers often lack coherent frameworks to conceptualize business-relevant commu­
+Business communication   nication and its underlying logics. We thus consider business research from a message design logic lens to offer a
+Message design logic     conceptual foundation for research seeking to understand the content, style, and structure of business commu­
+                         nication. Business researchers also underutilize modern tools for analyzing text data. Hence, our comparison of
+                         current methodologies for analyzing text (i.e., topic models, dictionaries, supervised machine learning, and large
+                         language models) points out their respective advantages, limitations, and applications. An overview of recent
+                         studies in the Journal of Business Research identifies how these methods are used to extract insights from business
+                         communication. We offer practical guidelines for authors and reviewers on method selection, implementation,
+                         and evaluation, and conclude by proposing future directions for business research using text data.
+
+1. Introduction                                                              to underutilize contemporary methods for extracting insights from text
+                                                                             data. These shortcomings limit the conceptual and methodological rigor
+    Effective verbal communication is fundamental to business success,       of text analysis in business research.
+as it shapes how stakeholders exchange information, resolve conflicts,
+and influence one another. In practice, this communication occurs either         To help address the first shortcoming, we draw on message and
+through written text or transcribable audio such as emails, internal re­     communication design logics (O'Keefe, 1988) to offer a conceptual
+ports, social media posts, interviews, and meeting notes. These un­          foundation for understanding how the content, style, and structure of a
+structured text data provide the opportunity for a wealth of research        verbal message reflect the communicator's background, goals, and
+insights (Balducci and Marinova 2018); the communicator's back­              context, and how these choices also influence audience perceptions and
+ground, intentions, and relationship to the recipient as well as the         responses. We define communication as a purposeful design activity in
+impact on receivers are all reflected in how messages are designed           which business stakeholders, whether individuals or organizations,
+(Ludwig et al., 2025). Given that the availability of text data and its use  structure, shape, and condition their communication to serve functional
+in research grows, there is a need to revisit how to usefully conceptualize  aims. Any communicator designs messages based on implicit logics or
+and analyze text-based communication to derive meaningful business           internal assumptions about communication (e.g., what is likely appro­
+insights.                                                                    priate? What is likely most persuasive?), and these logics fundamentally
+                                                                             shape the content, styles and structure of the messages they produce.
+    Despite the recognized importance of communication for business          This framework enables researchers to reason that the content, style,
+outcomes, existing business research often struggles in two critical areas:  and structure of texts reliably reflect the communicator's characteristics,
+(1) it lacks coherent conceptualizations or frameworks that help explain     relationships, and intentions, and can be used to predict the potential
+the underlying logics by which business communication gives insight          impact of their communication.
+into stakeholder characteristics, relations and behaviors, and (2) it tends
+                                                                                 To help address the second shortcoming, we respond to the rapid
+
+  This article is part of a special issue entitled: `Methods' published in Journal of Business Research.
+  * Corresponding author.
+
+     E-mail addresses: dennis.herhausen@vu.nl (D. Herhausen), stephan.ludwig@monash.edu (S. Ludwig), ehsan.abedin@flinders.edu.au (E. Abedin), n.haque@
+unimelb.edu.au (N.U. Haque), d.de.jong2@vu.nl (D. de Jong).
+
+https://doi.org/10.1016/j.jbusres.2025.115491
+Received 19 December 2024; Received in revised form 6 May 2025; Accepted 23 May 2025
+Available online 28 May 2025
+0148-2963/© 2025 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+D. Herhausen et al.                                                            Journal of Business Research 198 (2025) 115491
+
+growth of text data by reviewing up-to-date tools for its analysis. These      verbal communication in business contexts, grounded in the idea that
+include the use of predefined word lists such as LIWC (https://www.            the way messages are constructed reflects deeper strategic, relational,
+liwc.app/) and WordStat (https://provalisresearch.com/), weighted              and contextual meanings (see Fig. 1).
+dictionaries like Evaluative Lexicon 2.0 (https://www.lexicalsuite.
+com/) and VADER (https://github.com/cjhutto/vaderSentiment),                   2.1. Background: Who is communicating?
+topic models like Latent Dirichlet Allocation, supervised machine
+learning techniques such as Naïve Bayes and Support Vector Machines,               The communicator, whether an individual, group, or artificial in­
+and large language models like BERT (https://huggingface.co/docs/tr            telligence, inevitably designs the content, style, and structure of their
+ansformers/en/model_doc/bert), BART (https://huggingface.                      communication through their background characteristics. Communica­
+co/docs/transformers/en/model_doc/bart), ChatGPTs (https://platfo              tion choices are not random but reflect the communicator's underlying
+rm.openai.com/docs/models), and LLAMAs (https://www.llama.                     beliefs, competencies, and assumptions about how communication
+com/). Each offers distinct advantages and limitations in processing           works. According to message design logic theory, communication design
+and programming requirements, accuracy, and contextual sensitivity.            reveals a communicator's level of competence and orientation toward
+By providing an overview of up-to-date text analysis methodologies, and        message construction (O'Keefe, 1988). Emotion-laden language can
+discussing their key benefits, drawbacks, and measures of validity, we         convey sentiment and, when sufficient data is available, offer insights
+thus seek to aid business researchers in selecting and using appropriate       into speakers' characteristics (Herhausen et al., 2019). These commu­
+tools.                                                                         nicative design choices thereby act as diagnostic tools, allowing re­
+                                                                               searchers to infer aspects of the communicator's personality,
+    Compared to existing reviews on text analysis, such as Berger et al.       perceptions, and attitudes by analyzing text content, style, and
+(2020), Feuerriegel et al. (2025), and Humphreys and Wang (2017), we           structure.
+contribute to business research in a number of unique ways. First, prior
+reviews often focus broadly on marketing or social media contexts,                 In business research, text analysis offers a non-intrusive method for
+whereas our review is specifically tailored to the domain of business          accessing stakeholder backgrounds and perspectives. For example,
+research. Second, we integrate theorizing on message design logics             Colladon et al. (2023) demonstrate that innovators tend to write more
+(O'Keefe and Lambert, 1995) and communication design logic (Aakhus,            extensively and use complex language to frame novel ideas. Garner et al.
+2007) with common business research questions. This allows us to offer         (2022) show how machine learning applied to textual data can reveal
+business researchers a conceptual rationale on how the communicator's          consumer sentiment and dimensions of well-being. Kumar and Srivas­
+background, situation, and intention might be reflected in a message's         tava (2022) examine how corporate social responsibility discourses
+content, style, or structure and how these in turn influence the receiver.     evolve over time by analyzing shifts in emphasis on their constituent
+Third, we review and evaluate a wide range of up-to-date text analysis         dimensions. Mangio` et al. (2023) uncover how journalists co-construct
+methodologies, including topic models, dictionaries, supervised ma­            brand meanings for family businesses, whether intentionally or not.
+chine learning, and large language models highlighting their respective
+merits, limitations, and applications. We provide examples for each                Together, these findings underscore that communication design en­
+method, including a summary of recent articles published in the Journal        codes the communicator's characteristics, mental models, and priorities,
+of Business Research. Fourth, conceptual and methodological guidelines         making textual data a valuable resource for examining the background
+and suggestions are provided for business researchers who want to              of individuals and organizations.
+generate insights from words, including recommendations for both au­
+thors and reviewers on how to judge the conceptual and methodological          2.2. Situation: In which context does the communication take place?
+quality of text analysis research.
+
+2. What can be explored in text data?                                              Communication always occurs within a context, and the communi­
+                                                                               cator's interpretation of that context informs how messages are
+    Text analysis in business research transforms unstructured text into       designed, beliefs conveyed, and goals pursued. Foundational perspec­
+numeric measures of communication-constituting concepts that reveal            tives in semiotics (Kress et al., 1997), rhetoric (Gill and Whedbee, 1997),
+who is communicating, in what context, and with what intention, as well        and ethnography (Gumperz and Levinson, 1991) all stress the insepa­
+as how such communication affects the receiver (Ludwig et al., 2025).          rability of context and communication. Communication logics, partic­
+Through this lens, texts which include written and transcribed spoken          ularly in conversational settings, reveal social and situational realities.
+communication, become valuable data sources for understanding com­             Contextual factors can both reflect and influence communication prac­
+municators' characteristics, relational dynamics, and communicative            tices, offering insights into how participants perceive relationships,
+goals. These elements are encoded in the content, style, and structure of      adhere to context-specific norms, and navigate situational constraints
+messages, whether generated by individuals, organizations, or artificial       (Bateson, 1972).
+intelligence. Because communicators differ systematically in personal­
+ity, expertise, or status, and receivers interpret texts differently               Empirical findings illustrate these dynamics. Cleveland, Laroche, and
+depending on linguistic and structural features (e.g., Herhausen et al.,       Papadopoulos (2015) show that language learning grants access to
+2023; Ludwig et al., 2013), message design serves as both signal and           cultural values and interaction norms. Kacewitz et al. (2014) find that
+strategy.                                                                      individuals in subordinate positions tend to use more first-person sin­
+                                                                               gular and fewer first-person plural pronouns. Kronrod and Danziger
+    While prior work, including O'Keefe's (1988) message design logic,         (2013) demonstrate that figurative language use differs depending on
+has examined how message composition reflects communication                    whether consumers describe hedonic or utilitarian experiences. Snefjella
+competence, we propose that message design logics offer broader in­            and Kuperman (2015) reveal that people adjust their use of abstract or
+sights into business-relevant characteristics, processes, and outcomes.        concrete language based on perceived geographic, temporal, and social
+Drawing from cross-disciplinary research, we advance four foundational         distance.
+premises that explain how communicators' background, situation, and
+intention manifest in their message design, and how those design                   Therefore, communication also encodes a contextual logic that
+choices shape recipient response. These logics provide a conceptual            emerges from, and contributes to, the social environment or context in
+foundation for examining text as a lens into stakeholder identity and          which it unfolds. Recognizing this contextual embeddedness enables a
+behavior. Rather than cataloging all possible textual elements, we pre­        deeper understanding of communicative meaning and provides a theo­
+sent a framework that categorizes the reflective and predictive value of       retical anchor for researchers studying how stakeholders view and relate
+                                                                               to their context.
+
+                                                                            2
+D. Herhausen et al.                                                           Journal of Business Research 198 (2025) 115491
+
+                     Fig. 1. Communication design logics.
+
+2.3. Intention: What is the goal of the communication?                        perlocutionary acts as communicative moves that provoke behavioral
+                                                                              change. For example, macro-level speech acts affect how people cogni­
+    Communication is inherently goal-driven (Caughlin et al., 2008),          tively process messages, influencing attention, comprehension, and
+and communicators' intentions are embedded in their message design            memory (van Dijk, 1997; Naveh-Benjamin and Ayres, 1986). The ability
+choices, including content, style, and structure (O'Keefe and Lambert,        to tailor message design to the audience and purpose strengthens the
+1995). Theories of speech acts, for example, conceptualize elements of        potential for achieving intended outcomes, which highlights the inter­
+language as illocutionary acts that reflect and transmit the speaker's        dependence between message designs and their effects.
+intent (Searle, 1995). Word choices, semantic constructions (e.g.,
+"happy," "not happy"), coherence, and adaptive message design choices             Empirical studies support this view. Herhausen et al. (2023) show
+(e.g., accommodating in the style of communicating) all signal                that empathetic complaint responses increase customer gratitude.
+communicative goals. Intentions also influence the sincerity of asser­        Holmqvist, Van Vaerenbergh, and Gro¨nroos (2017) emphasize the
+tions; irony, sarcasm, and deception emerge when truthfulness is              importance of managing language throughout service interactions. Lee
+deliberately suspended, often to entertain or mislead (Meibauer, 2005).       and Theokary (2021) find that superstar influencers enhance engage­
+                                                                              ment by leveraging emotional contagion and stylistic cues. Ludwig et al.
+    O'Keefe (1988, p. 82) notes that communicators derive means to            (2022) demonstrate that freelancers respond more positively to buyers
+serve communicative goals, even if these goals are not explicitly defined     who provide moderately detailed and concrete task descriptions.
+or consciously recognized. This implies that variability in messages can
+reveal underlying differences in intentions. Empirical studies support            Therefore, communication, and the design of messages, is perfor­
+this view. Ludwig et al. (2016) identify deceptive intentions in B2B          mative and outcome-driven. By studying message constructions, re­
+email communication through linguistic markers. Netzer, Lemaire, and          searchers can assess and predict their likely impact on receivers'
+Herzenstein (2019) find that borrower narratives can signal repayment         perceptions, emotions, and behaviors.
+intentions. Ray, Bala, and Rana (2021) demonstrate that emotional tone,
+especially high-arousal negative or low-arousal expressions, affects          4. How can text data be explored?
+customer brand attitudes. Villaroel Ordenes et al. (2019) use speech act
+theory to classify firms' communication according to underlying                   Most text analysis can be categorized into four primary approaches:
+intentions.                                                                   topic models, dictionaries, supervised machine learning, and large lan­
+                                                                              guage models. Table 1 summarizes the strengths, limitations, and ap­
+    These findings reinforce the view that communication is goal-             plications of these different text analysis methods.
+oriented and that intentions are encoded in language use at multiple
+levels. Recognizing the intentional dimension of communication offers a       4.1. Topic models
+conceptual basis for inferring communication goals from text data.
+                                                                                  Topic models aim to uncover latent themes in collections of docu­
+3. Impact: What is the outcome of the communication?                          ments, offering insight into textual patterns beyond manual inspection.
+                                                                              Latent Dirichlet Allocation (LDA) remains a foundational probabilistic
+    A message design also directs attention to specific interpretations       model in this space (Blei et al., 2003). LDA assumes that documents are
+while omitting others. From a constructionist view, reality is socially       mixtures of topics, and topics are distributed over words. Through a
+constructed through symbolic exchange, with communicators simulta­            generative process, LDA infers the composition of topics that best
+neously producing and interpreting messages (Morgan and Smircich,             characterize a document collection. For instance, Culasso et al. (2023)
+1980). Content, stylistic, and structural choices evoke associations          apply LDA to identify thematic responsibilities in the role of chief digital
+through connotation, prompting recipients to perceive the world               officers. LDA can also be usefully applied to account for (dis)similarities
+through particular frames. Message design logic can therefore influence       between different texts in a regression analysis, for example (Ludwig
+how audiences perceive and respond messages.                                  et al., 2022).
+
+    Communicated messages act as positioned representations that foster           Despite its utility, LDA presents several limitations. Its output de­
+distinct conceptualizations by the receiver of relations, intentions, and     pends heavily on hyperparameters such as the number of topics and
+reactions (Fairclough, 1992). Put differently, message design choices         Dirichlet priors, and its results can be unstable due to the order effect in
+create metacommunicative frames that guide receivers' situational un­         document processing (Abdelrazek et al., 2023; Wu et al., 2024a). LDA
+derstanding (Bateson, 1972) and influence collective interpretations and      results are also non-theoretical and it is difficult to assign a broader
+public discourse (Charland, 1987). Similarly, Searle (1976) identifies        conceptual category to an LDA generated topic. To address these issues,
+
+                                                                           3
+D. Herhausen et al.                                                                                                    Journal of Business Research 198 (2025) 115491
+
+Table 1
+Overview of text analysis methods.
+
+Method               Approach          Description                       Application            Examples               Strengths                   Limitations
+
+Topic Models         Latent Dirichlet  Identifies topics in a text by    Topic discovery,       Culasso et al.         Simple to implement,        May struggle with complex
+                     Allocation        clustering words that             document               (2023); Huang et al.   interpretable results       datasets
+                     (LDA)             frequently occur together         classification         (2018)
+                     Extended LDA      Variants of LDA that              Enhanced topic         Liu and Toubia         More accurate topic         More complex to implement
+                                       incorporate additional            discovery, better      (2018); Zhong and      modeling, can               and interpret
+                                       information                       document               Schweidel (2020)       incorporate domain
+                                                                         categorization                                knowledge                   Requires larger amounts of
+                     Neural Topic      Uses neural networks to           Deep topic analysis,   Büschken and           Handles large datasets,     data, computationally
+                     Models            identify topics in text           advanced document      Allenby (2020); Hou    captures complex            intensive
+                                                                         clustering             et al. (2023)          patterns                    Limited to the scope of the
+Dictionaries         Basic             Uses pre-existing dictionaries    Basic sentiment        Ludwig et al. (2013);  Easy to use,                dictionary, may miss
+                     Dictionaries      to identify and classify text     analysis, keyword      Rocklage and Fazio     interpretable results,      nuanced meanings, limited
+                                       (elements)                        extraction             (2020)                 simple complexity, low      scalability and adaptability
+                                                                                                                       data requirement            Still limited by predefined
+                     Refining          Enhances basic dictionaries       Improved sentiment     Cho et al. (2024);     More accurate               terms, may require frequent
+                     Dictionaries      with additional terms and         analysis, basic        Herhausen et al.       classifications than basic  updates, limited scalability
+                                       context                           context-aware text     (2019)                 dictionaries, moderate      and adaptability
+                                                                         classification                                performance                 Time-consuming to develop,
+                     New Dictionary    Creates custom dictionaries       Domain-specific text   Homburg et al.         Highly accurate for         requires domain expertise,
+                     Development       tailored to specific              analysis, specialized  (2020); Singh et al.   specific domains, highly    limited scalability and
+                                       applications                      sentiment analysis     (2020)                 interpretable               adaptability
+                                                                                                                                                   Requires large amounts of
+Supervised           Classifiers       Models trained on labeled         Text classification,   Hartmann et al.        High accuracy with          labeled data, may not
+  Machine                              data to classify or predict text  spam detection,        (2019); Zhang et al.   sufficient labeled data,    generalize well, less state-of-
+  Learning                                                               sentiment analysis     (2023)                 good scalability and        art on very nuanced tasks
+                                                                                                                       adaptability                Require task-specific fine-
+Large                Encoder-only      Analyze text by creating          Text classification,   Devlin et al. (2019);  Strong text                 tuning for different
+  Language           models            contextualized word               named entity           Shankar and            comprehension,              applications, not inherently
+  Models                               representations. Process input    recognition            Parsana (2022)         effective at contextual     interpretable
+                     Decoder-only      bidirectionally for better                                                      word representation
+                     models            understanding.                    Text generation,       Brown et al. (2020);                               Sensitive to prompt
+                     Encoder-          Generate text by predicting       dialogue systems,      Reisenbichler et al.   Fluent and context-         phrasing, can be costly; lacks
+                     decoder models    the next token based on prior     content completion     (2022)                 aware, adaptable to         transparency
+                                       context                           Machine translation,   Arora, Chakraborty     various tasks               Computationally expensive
+                                       Process input text into a         text summarization     and Nishimura          Balance of
+                                       contextualized representation                            (2025); Lewis et al.   comprehension and
+                                       with an encoder and generate                             (2019)                 generation
+                                       output text with a decoder.
+
+several LDA extensions have been introduced.                                                    outputs, and they often struggle with sparse data. This can lead to in­
+    Guided LDA incorporates external knowledge to prioritize relevant                           formation loss, especially in domains with rare or domain-specific ter­
+                                                                                                minology (Abdelrazek et al., 2023; Wu et al., 2024b).
+topics (Toubia et al., 2019), allowing researchers or firms to direct topic
+discovery toward strategic areas of interest. Seeded LDA uses predefined                        4.2. Dictionaries
+seed words to guide the model, offering more coherent and focused re­
+sults, particularly useful in domains where expected topics are known                               Dictionaries classify text using predefined word lists linked to spe­
+(Watanabe et al., 2024). Hierarchical LDA builds layered topic struc­                           cific categories or sentiments (Taboada et al., 2011). A common
+tures, enabling analysis at multiple levels of granularity (Griffiths et al.,                   approach involves applying established dictionaries such as Linguistic
+2003). Zhong and Schweidel (2020) use these extensions to monitor                               Inquiry and Word Count (LIWC), valued for its comprehensiveness and
+shifts in social media discourse. While these variants improve flexibility                      ease of use (Tausczik and Pennebaker, 2010). For instance, Ludwig et al.
+and focus, they also introduce trade-offs. Guided LDA depends on the                            (2013) use LIWC to quantify emotionality in customer reviews, enabling
+quality and relevance of external inputs, seeded LDA on seed word se­                           researchers to assess psychological and social patterns in text. While
+lection, and hierarchical LDA on computational complexity and struc­                            especially effective across communication contexts, dictionaries often
+tural assumptions.                                                                              miss domain-specific nuance, limiting their precision in specialized
+                                                                                                applications.
+    Neural Topic Models (NTMs) extend topic modeling using neural
+network architectures. These models generate latent document repre­                                 To address this, researchers tend to refine or expand existing dic­
+sentations through deep learning, offering more flexible and context-                           tionaries by updating word lists to better reflect specific industries or
+aware topic extraction (Wu et al., 2024b). BERT and other                                       linguistic trends. This may involve adding relevant terms, removing
+transformer-based models provide deep contextual embeddings that can                            outdated ones, or adjusting word weights. Herhausen et al. (2019), for
+be adapted for topic modeling. For example, BERTopic combines BERT                              example, refine LIWC to capture consumer emotions in social media
+with clustering and dimensionality reduction to identify coherent topics.                       firestorms more accurately.
+Büschken and Allenby (2020) demonstrate that NTMs improve analysis
+by capturing relationships between sentence-level structures.                                       When no suitable dictionary exists, a new one can be developed to
+                                                                                                align with a specific construct. This approach, while almost as resource-
+    Key advantages of NTMs include the ability to jointly train with other                      intensive as a scale development paper, enables precise measurement of
+models, optimize topic coherence, and scale effectively for large data­                         novel or context-specific phenomena. Singh et al. (2020), for example,
+sets. These features make NTMs particularly useful in digital marketing,                        create dictionaries to capture influence tactics in B2B negotiations.
+social media monitoring, and content automation. However, NTMs are
+less interpretable than LDA. Their reliance on dense latent representa­                             Dictionaries offer several practical advantages. They are easy to
+tions makes it difficult to trace how input data leads to specific topic                        implement, interpretable, computationally efficient, and do not require
+
+                                                                               4
+D. Herhausen et al.                                                                                                                   Journal of Business Research 198 (2025) 115491
+
+labeled training data or programming skills. These features make them          LLAMA, DeepSeek, BERT, and RoBERTa, built on transformer archi­
+suitable for large-scale applications and environments where trans­            tectures, leverage deep learning and large-scale pretraining to process
+parency is essential. However, their limitations in terms of accuracy are      language with high fluency and contextual sensitivity. Pretrained on
+significant. Dictionaries rely on static word lists, often failing to account  massive corpora from diverse sources, these models acquire broad lin­
+for linguistic ambiguity, synonymy, or shifting vocabulary. Words like         guistic competence and can be fine-tuned for specific tasks such as
+"mad" can vary in meaning by context, and dictionaries cannot adapt            sentiment analysis or classification (Jiang et al., 2023; Liao et al.,
+without manual updates. Their effectiveness depends heavily on                 2023).1
+coverage and quality, and biased or incomplete dictionaries may lead to
+misleading conclusions.                                                            Transformers rely on self-attention mechanisms to model long-range
+                                                                               dependencies within text (Vaswani et al., 2017), enabling LLMs to
+    Despite their simplicity, dictionaries remain valuable tools when          handle complex language tasks, including aspect-based sentiment
+carefully selected, refined, or constructed for the task at hand. They         analysis and syntactic ambiguity, with high accuracy. A key advance­
+provide interpretable insights into text data and serve as a foundational      ment of LLMs is their ability to perform zero-shot and few-shot learning.
+method in both exploratory and applied business research.                      Without task-specific training, models can fairly accurately infer correct
+                                                                               classifications by drawing on their pretraining. For example, given the
+4.3. Supervised machine learning                                               prompt "Classify the sentiment of this review: `I love this brand! Their
+                                                                               products never disappoint,'" an LLM will mostly return a "Positive"
+    Supervised machine learning (SML) addresses several limitations of         classification without requiring labeled examples for training. Few-shot
+dictionary-based methods by learning from labeled datasets. In SML,            learning builds on this by providing minimal examples to improve task
+each data point consists of an input text and an output label, and the         performance through in-context learning. Of course, training LLMs on
+objective is to train a classifier that predicts labels for new, unseen data.  labeled example data will help to further improve their accuracy.
+To enable this, textual data must be transformed into numerical features,
+typically through techniques such as Bag-of-Words, which represents                LLMs follow three main architectural formats. Encoder-only models
+documents as vectors of word frequencies, or N-grams, which capture            like BERT generate contextualized representations for tokens, useful in
+local word sequences to preserve limited contextual information.               classification and tagging tasks. Sousa et al. (2019) apply BERT to
+                                                                               extract sentiment from financial news and predict Dow Jones move­
+    SML models are widely used for text classification tasks, including        ments. Decoder-only models like GPT specialize in text generation and
+sentiment analysis, spam detection, and topic categorization. Common           continuation by predicting subsequent words. Goli and Singh (2024) use
+algorithms include logistic regression, which estimates class probabili­       GPT-3.5 and GPT-4 to simulate human survey responses for preference
+ties using a logistic function; Naive Bayes, which applies probabilistic       data. Encoder-decoder models combine the strengths of both structures
+reasoning under independence assumptions; and support vector ma­               and are suited for tasks such as translation and summarization. For
+chines (SVMs), which identify optimal boundaries between classes in            example, BART integrates bidirectional encoding with autoregressive
+high-dimensional feature spaces (Hartmann et al. 2019). Beyond clas­           decoding, enabling coherent output grounded in context. Kanungo et al.
+sification, SML supports sequence labeling tasks such as named entity          (2022) employ BART to generate optimized ad headlines.
+recognition (NER) and part-of-speech (POS) tagging. In NER, entities
+like organizations, locations, or monetary values are identified and               While LLMs offer scalability, contextual precision, and generaliza­
+categorized within the text. For example, in the sentence "Google is           tion capabilities unmatched by earlier models, researchers are advised
+looking at buying a startup for $100 million in the U.K.," NER labels          to use them with care and ensure their classification is valid by
+"Google" as an organization, "U.K." as a location, and "$100 million" as       comparing outcomes with human coding (Li et al., 2024; Ye, Yoganar­
+a monetary value. POS tagging assigns grammatical roles such as nouns,         asimhan and Zheng, 2025). Moreover, researchers will need to think
+verbs, or adjectives to each word, enabling syntactic analysis and             about ensuring the reproducibility of their LLM use in future research by
+interpretation. Both tasks require annotated data for training, where          detailing prompts and versions of the LLM used. LLMs are mostly not
+models learn to predict structured outputs from labeled sequences.             private and therefore sensitive text analysis cannot be performed
+                                                                               through publicly available LLMs. The costs of running them may also
+    Despite their flexibility, traditional SML approaches have con­            sometimes preclude researchers from using them.
+straints. They rely heavily on annotated training data, making them
+unsuitable for unlabeled datasets (Alslaity and Orji, 2024). These             5. Text analysis in the Journal of Business Research
+models are often task-specific and cannot be easily adapted across
+different domains or objectives (Sarkar and Etemad, 2020). Moreover,               To explore the state of text analysis in the Journal of Business Research
+their performance depends on the availability of large, high-quality           regarding design logics and methods used, we use the search query "text
+labeled datasets, which may not always be accessible.                          analysis" OR "text mining" for all articles published from Volume 162
+                                                                               (July 2023) until Volume 179 (June 2024). This query resulted in 61
+    Nevertheless, SML remains foundational in text analysis due to its         articles, nine percent of all articles published during this time. With
+interpretability, reproducibility, and potential for more accurate clas­       manual inspection, we excluded editorials, literature review articles,
+sifications of constructs in texts.                                            and qualitative research, and all articles without a communication focus
+                                                                               (e.g., CEO backgrounds' impact on firms' green initiatives, and the effect
+4.4. Large language models                                                     of digitalization on gender equality). We kept the 20 articles where text
+                                                                               data has been analyzed with quantitative methods to study business
+    Large language models (LLMs) advance text analysis by addressing           communication. These articles are summarized in Table 2. One article
+key limitations of supervised machine learning. Models such as GPT,
+
+                                                                                     1 Embeddings and LLMs share some common features, e.g., the underlying
+                                                                                   transformer architectures and extensive pretraining on large text corpora.
+                                                                                   However, they are optimized for different tasks. LLMs focus on "understanding"
+                                                                                   and generating coherent and contextually-relevant text based on input prompts
+                                                                                   while embeddings focus on producing high-quality embeddings for downstream
+                                                                                   tasks, fundamental to how LLMs process language. Compared to bag-of-words
+                                                                                   approaches such as dictionaries, embeddings more precisely represent the se­
+                                                                                   mantic meaning of words and their interrelations with other words.
+
+                                                                               5
+D. Herhausen et al.                                                                                      Journal of Business Research 198 (2025) 115491
+
+Table 2
+Diversity of text analysis in the Journal of Business Research.
+
+Article              Context            Sender          Receiver     Main Construct   Design     Method                              Main Insight
+                                                                     Sentiment        Logic
+Dhakate &            E-healthcare       Patients        343 Doctors                   Situation  LLMs (Azure Machine Learning),      Patients' sentiment reveals
+  Joshi              services           (36,468                      Experiences      Situation  Supervised Machine Learning (Part   their expectations from online
+  (2023)                                reviews)        468 Airbnb                               of Speech), Dictionaries (NRC       healthcare providers.
+                     Peer-to-peer                       listings     Digital          Impact     sentiment, JMP Pro)
+Filieri et al.       marketplaces       Customers                    transformation   Intention  Supervised Machine Learning         Consumers have differentiated
+  (2023)                                (14,680                      Sentiment                   (Leximancer)                        cognitive, symbolic,
+                                        reviews)                                      Intention                                      emotional, and aesthetic
+                                                                     Narrativity                 Dictionaries (new dictionary, pre-  experiences when evaluating
+Guo et al.           Digital            Firms (13,571   Investors                     Impact     existing dictionaries)              standard versus premium
+  (2023)             transformation     firm-year       Customers    Information      Impact                                         peer-to-peer offerings.
+                                        observations)                                 Impact     Topic Models (Word2Vec LDA),        Digital transformation can
+Hajek et al.         Online reviews                                  Consumer needs              Supervised Machine Learning (Part   significantly increase total
+  (2023)                                Customers                    Competences      Impact     of Speech, Flesch reading ease,     factor productivity but may
+                                        (21,000                                                  Gunning FOG formula, counts of      decrease firm performance.
+                                        reviews)                     Sentiment        Situation  characters, words, and sentences,   Product category and the
+                                                                                      Impact     and word-vectors)                   verified purchase attribute are
+Hamby et al.         Media content      Media (2,892    Readers      Readability                 Dictionaries (LIWC)                 fundamental for detecting fake
+  (2024)                                news articles)                                Impact                                         reviews.
+                                                                     Technological               LLM s(BERT embeddings), Topic
+Jiang et al.         SME websites       SMEs (1,400     Creditors    innovation       Impact     Models (K-means++ clustering)       Narrative content and
+  (2023)                                loan listings)                                Impact                                         discourse features differ
+                                                                     Complexity and   Situation  Topic Models (LDA)                  between real and fake news
+Lee et al.           Book sales         Booksellers     Readers      intangibility    Impact                                         and affect content-sharing
+  (2023)             B2B livestreaming  (276 books)     Firms                                    LLMs (Baidu Cloud Chinese           behavior.
+                                                                     Emotions                    Semantic Sentiment Analysis         Content-based information
+Liao et al.                             Live streamers               Politeness                  System), Dictionaries (new          (depth and dynamic metrics)
+  (2023)                                (915 brand                   Emotions and                dictionaries)                       in borrowers' official websites
+                                        firms)                       drives                                                          conveys SME performance.
+                                                                     Electronic Word             Topic Models (non-negative matrix   Growth, relational, and
+Lu et al.            Online platforms   Customer        Firms        of Mouth                    factorization), Dictionaries        cognitive needs influence the
+  (2023)                                reviews                                                  (TextBlob)                          longevity of bestsellers.
+                                        (14,652                                                                                      Cognitive and social
+Pan et al.                              reviewers)                                               Supervised Machine Learning         competencies of live streamers
+  (2023)                                                                                         (Readability based on Word2Vec)     have a positive effect on sales
+                     Environmental      190 SMEs (901   Investors                                                                    performance, while emotional
+Pan, Wang,           performance and    observations)   Investors                                Dictionaries (new dictionary)       competence has a negative
+  et al.             firm response                                                                                                   effect.
+  (2023)                                Firms (2,838                                             Dictionaries (pre-existing          Weighted service quality
+                     Platform economy   listed                                                   dictionary)                         approach outperforms average
+Patel et al.                            companies)                                                                                   sentiment methods, with
+  (2023)                                                                                         LLMs (BERT)                         social media providing
+                     Government         Firms (91       Investors                                                                    superior value in capturing
+                     intervention       firms)                                                   Dictionaries (LIWC, new             customer perceptions.
+                                                                                                 dictionary)                         Environmental performance
+Wang et al.          Firm value         310 Executives  Investors                                Dictionaries (LIWC)                 feedback has an inverted U-
+  (2024b)                               (759,465                                                                                     shaped relationship with the
+                     Peer-to-peer       tweets)         Lenders                                  Supervised Machine Learning         readability of CSR reports.
+Wang et al.          lending            Borrowers                                                (readability, comprehensiveness)    Platform economy improves
+  (2024a)            Children's media   (127,044 loan   Young                                                                        firms' enterprise value, which
+                                        requests)       consumers                                                                    is mediated by the
+Setten and           Online health      Franchises (78  Patients of                                                                  technological innovation
+  Chen               Communities        toy and media   8,472                                                                        ability.
+  (2024)                                franchises)     physicians                                                                   Firms with higher complexity
+                                        50,636                                                                                       and intangibility realize
+Shan et al.                             Reviewers                                                                                    positive returns after the
+  (2024)                                (93,774                                                                                      introduction or passing of
+                                        reviews)                                                                                     privacy laws.
+                                                                                                                                     Emotions of executives' social
+                                                                                                                                     media posts are associated
+                                                                                                                                     with firm value.
+                                                                                                                                     Usage of polite language is
+                                                                                                                                     positively related to likelihood
+                                                                                                                                     of funding success.
+                                                                                                                                     Based on gender, emotional
+                                                                                                                                     tones and drives are different
+                                                                                                                                     in children's media.
+                                                                                                                                     Quality and quantity of
+                                                                                                                                     electronic Word-of-Mouth in
+                                                                                                                                     online health communities
+                                                                                                                                     affect patients' choices.
+
+                                                                                                                                              (continued on next page)
+
+                                                                     6
+D. Herhausen et al.                                                                                            Journal of Business Research 198 (2025) 115491
+
+Table 2 (continued )
+
+Article              Context               Sender             Receiver   Main Construct     Design  Method                            Main Insight
+                                                                                            Logic
+Sun et al.           Digital               1,195 Firms        Investors  Digital            Impact  Dictionaries (new dictionary)     Digital transformation speed
+  (2024)             transformation        (18,431            Consumers  transformation                                               has a U-shaped relationship
+                                           observations)                 speed              Impact  Dictionaries (LIWC)               with firm financial distress.
+Syrdal et al.        Influencer affiliate  Affiliates                    Linguistic styles                                            Linguistic features in affiliate
+  (2023)             Marketing             (2,040 affiliates                                        Supervised Machine Learning (TF-  posts drive central or
+                                           posts)                                                   IDF algorithm), LLM               peripheral processing, which
+                                                                                                    (PaddlePaddle)                    in turn influence consumer
+Wu et al.            Online reviews        Consumers          Hotels     Service            Impact                                    engagement positively or
+  (2024a)                                  (11,580                       attributes         Impact  Dictionaries (LIWC, pre-existing  negatively depending on style.
+                                           reviews)                                                 dictionary), Topic Models (LDA)   Online reviews can be mined
+                                                                                                                                      to extract competitive factors
+Yoganathan           Conversational        Consumers          Consumers  Agency and                                                   dynamically; the hybrid
+  & Osburg           agents                (4,995 reviews)               experience                                                   method outperforms
+  (2024)                                                                                                                              traditional approaches.
+                                                                                                                                      Perceiving voice-based
+                                                                                                                                      conversational agents as
+                                                                                                                                      having emotional experience
+                                                                                                                                      - whether as moral agents or
+                                                                                                                                      patients - increases user
+                                                                                                                                      satisfaction, especially among
+                                                                                                                                      highly innovative users.
+
+uses topic models, eight articles use dictionaries, three articles use su­           6. How can the different text analysis methods be implemented?
+pervised machine learning, one article uses LLMs, and seven articles use
+multiple methods to extract insights from text data. This review un­                     In the following, we provide recommendations on how to implement
+derscores the diversity of design logics and methods used by authors in              the different methods, as summarized in Fig. 2, and how to evaluate the
+the Journal of Business Research.                                                    methodological rigor of different methods.
+
+                                                              Fig. 2. Implementing the text analysis methods.
+                                                                                                  7
+D. Herhausen et al.                                                                                                Journal of Business Research 198 (2025) 115491
+
+6.1. Implementing topic models                                                     6.2. Implementing dictionaries
+
+    Step 1: Data preprocessing. Once a relevant dataset is identified, pre­            Step 1: Define the construct. The process begins with a clear definition
+processing ensures the text is clean and consistent (Büschken and                  of the construct(s) to be measured. For instance, in developing a dic­
+Allenby, 2020). This typically involves removing HTML tags (e.g.,                  tionary for sentiment, it is essential to specify what qualifies as positive,
+<div>, <a href> ), special characters (e.g., @, #), rare words (<1% if             negative, or neutral sentiment within the specific communication
+the text), and irrelevant numbers. Text is converted to lowercase,                 context from where the texts should be mined. Similarly, when studying
+punctuation and stop words (e.g., "and", "the") are removed, and lem­              emotions, the focus is ideally narrowed to relevant emotions in a specific
+matization reduces words to their base forms (e.g., "running", "ran",              context. A well-defined construct ensures conceptual clarity of what the
+"runs" become "run"). Missing values are either dropped or imputed.                dictionary will be used for and guides all subsequent steps.
+
+    Step 2: Model selection. Topic modeling methods range from tradi­                  Step 2: Use existing dictionary or create own dictionary. With a defined
+tional models like LDA to advanced approaches such as BERTopic.2 LDA               construct, and if no existing dictionary is available, an initial list of
+requires selecting parameters like the number of topics (K) and Dirichlet          conceptually relevant terms, words, and expressions needs to be
+priors, often through iterative experimentation and back-and-forth                 assembled. This involves consulting existing dictionaries, thesauri,
+refinement of the model (see steps 3 and 4). BERTopic, in contrast,                domain-specific lexicons, and prior research to gather synonyms, related
+uses pre-trained embeddings (e.g., Word2Vec,3 GloVe,4 BERT) and                    expressions, and context-specific terms. Terms should also include spe­
+clustering algorithms such as HDBSCAN5 or K-Means6 (McInnes et al.,                cific expressions for a context to reflect the domain accurately and
+2017). Embeddings convert text into high-dimensional semantic vec­                 enhance coverage. For example, `sick" in a health context means
+tors, which are clustered to form topics. This approach leverages the              something else than "sick" in a gaming context. Yet, to capture positive
+more advanced transformer-based language models over traditional                   sentiment in a gaming context, the word "sick" is a great identifying
+Bag-of-Words approaches, to identify closely related clusters. In both             term.
+approaches, key terms are extracted from each cluster to define inter­
+pretable topics, providing a concise linguistic label for each identified              Step 3: Refine the dictionary. The preliminary list (or existing dictio­
+higher-order topic.                                                                nary) is then refined through expert evaluation. Subject matter experts
+                                                                                   independently assess each term for relevance. Inter-rater reliability
+    Step 3: Model evaluation. Evaluation ensures the quality and rele­             metrics such as Cohen's Kappa or Krippendorff's Alpha are used to
+vance of discovered topics. Coherence metrics like CV (Ro¨der et al.,              quantify agreement. A high reliability score confirms consensus, while
+2015), UMass (Mimno et al., 2011), and NPMI (Bouma et al., 2009)                   lower scores should prompt re-evaluation or post-discussions amongst
+measure the semantic consistency of top topic words. Stability assesses            the coders. Words consistently judged as relevant are retained, while
+how consistently the model produces similar topics across runs with                irrelevant or ambivalent terms are removed, increasing the dictionary's
+different initializations (Abdelrazek et al., 2023), helping detect                precision in detecting the construct (while potentially also increasing
+randomness in output. Perplexity evaluates how well traditional models             the chances of missing relevant mentions because the terms are not al­
+like LDA predict unseen data (Wu et al., 2024a), although it may not               ways and only sometimes relevant).
+correlate with human interpretability. Human evaluation involves expert
+review of topics for contextual sense and practical relevance, often                   Step 4: Establish reliability and validity. The refined dictionary is
+revealing subtleties missed by metrics.                                            applied to a representative text sample to assess its measurement ac­
+                                                                                   curacy. Convergent validity is tested by examining whether different
+    Step 4: Model optimization. Model refinement involves adjusting the            indicators of the construct align, while discriminant validity ensures the
+number of topics, LDA hyperparameters, or iterations to balance speci­             dictionary does not overlap with unrelated concepts. Precision, recall
+ficity and generality. For more advanced models like BERTopic, this                and F1-scores should be reported to confirm that the dictionary captures
+includes modifying embedding models and clustering settings. Visuali­              the intended construct accurately.
+zation tools assist in identifying incoherent or overlapping topics. Expert
+feedback during this phase ensures interpretability and contextual                     Based on validation results, the dictionary is further refined to reflect
+alignment. The evaluation and optimization process is iterative,                   new insights or changes in language use. Terms may be added, removed,
+adjusting parameters and assessing model fit to ensure meaningful topic            or adjusted to maintain relevance. This feedback loop ensures ongoing
+structures and prevent the overfitting of models (e.g., too many topics,           refinement and sustained applicability in dynamic linguistic and
+sparse hyperparameters, or limited corpus sets).                                   contextual environments. More detailed recommendations and best
+                                                                                   practices on implementing (new) dictionaries are provided by Marinova
+    Step 5: Visualize the output. While topics are usually difficult to define     et al. (2018).
+conceptually, some visualizations may help with the topic interpretation
+if that is necessary for the research objectives. Word clouds display the          6.3. Implementing supervised machine learning
+most frequent words per topic, with size indicating prominence. Inter­
+topic distance maps (e.g., pyLDAvis, BERTopic) visualize relationships                 Step 1: Data processing. Preprocessing begins with cleaning the text by
+between topics as spatial distances, with circle size indicating preva­            removing noise, tokenization, handling missing values, normalizing
+lence. Topical networks depict connections between topics as nodes and             case, stripping punctuation and stop words, and removing non-textual
+edges, revealing structural relationships. Topic distribution heatmaps             attributes such as emojis, and applying stemming or lemmatization.
+show topic prevalence across documents, highlighting variability or                The quality of preprocessing the data directly impacts the model's per­
+concentration. Hierarchical visualizations uncover subtopics within                formance and allows for more accurate training and labeling.
+broader themes, offering detailed insights into topic structure. Carefully
+visualizing reduced dimensions allows for interpretable and represen­                  Step 2: Feature engineering. Raw text must be converted into numer­
+tative topic labels.                                                               ical representations suitable for machine learning algorithms. Common
+                                                                                   techniques include TF-IDF, which weights word frequency against its
+  2 https://maartengr.github.io/BERTopic/index.html.                               rarity across documents, highlighting important terms. For instance,
+  3 https://www.tensorflow.org/text/tutorials/word2vec.                            "excellent" might receive a high TF-IDF score if it is frequent in a specific
+  4 https://nlp.stanford.edu/projects/glove/.                                      review but rare elsewhere; Word embeddings like Word2Vec or GloVe
+  5 https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html.               map words into continuous vector spaces, preserving semantic re­
+  6 https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.      lationships. For example, "king" and "queen" appear close together in
+html.                                                                              vector space. These embeddings capture contextual meaning and
+                                                                                   improve model accuracy.
+
+                                                                                       Step 3: Model selection. Appropriate models are selected based on the
+
+                                                                                8
+D. Herhausen et al.                                                                                                  Journal of Business Research 198 (2025) 115491
+
+problem and dataset characteristics (e.g., Hartmann et al. 2019, Hart­           Table 3
+mann et al., 2023). Examples include Naive Bayes, a probabilistic clas­          Model evaluation in machine learning-based methods.
+sifier, which assumes feature independence and is efficient for text
+classification (Webb, Keogh and Miikkulainen, 2010), Support Vector              Metric     Formula                  Definition           Interpretation
+Machines (SVMs) which performs well in high-dimensional settings by
+finding the optimal separating hyperplane (Ghaddar and Naoum-                    Accuracy          TP + TN           The ratio of         Useful when the
+Sawaya, 2018), and Logistic regression which efficiently estimates prob­                    TP + TN + FP + FN        correctly predicted  classes are balanced.
+abilities for binary classification problems (Allison, 2012).                    Precision                           instances to the     It can be misleading
+                                                                                 Recall        TP                    total instances.     with imbalanced
+    Step 4: Labeling (optional), data splitting, and training. The chosen        F1-score   TP + FP                                       datasets. A model
+model is trained on labeled data, where input features are paired with                                               The ratio of         with 80 % accuracy
+target values. Labels may come from existing sources, such as Yelp's             AUC-          TP                    correctly predicted  correctly predicts 80
+filtering algorithms or helpfulness votes on reviews, which indicate               ROC      TP + FN                  positive             out of 100 instances.
+perceived value. When no labels exist, manual annotation is required.                                                observations to the  Depending on the
+Manual labeling follows five steps: a. Define clear labeling criteria (e.g.,                2*(Precision*Recall)     total predicted      field, accuracy
+certainty levels in reviews); b. Train coders to apply these criteria; c.                    Precision + Recall      positives.           between 70 %-90 %
+Coders label data accordingly; d. Measure inter-coder reliability to                                                                      are acceptable.
+ensure consistency; e. Refine labeling and retrain the model in iterative                   AUC measures the entire  The ratio of         Important when the
+cycles. For example, to classify sentiment as "positive," "negative," or                    two-dimensional area     correctly predicted  cost of false
+"neutral," human coders label a subset, which is then used to train and                     under the ROC curve.     positive             negatives is high. A
+improve the model through repeated refinement. The labeled data is                                                   observations to all  precision of 0.75
+then split into training, validation and test samples. Traditionally, 80 %                                           the actual           indicates that 75 % of
+of the data is used for training (sometimes a separate validation set is                                             positives.           the positive
+created within the training sample for model refinement), while the                                                  The harmonic         predictions made by
+remaining 20 % is reserved for testing (i.e., a holdout data that is not                                             mean of Precision    the model were
+used for training and validation and exclusively used for the final                                                  and Recall.          correct.
+assessment of the model's ability to generalize).                                                                                         Important when the
+                                                                                                                     Measures the         cost of false positives
+    At this point the selected model is trained on the training sample and                                           model's ability to   is high. A recall score
+initial hyperparameters are set (i.e. learning rate, number of epochs,                                               distinguish          of 0.85 means the
+batch size etc.). The choice of hyperparameters impacts how well the                                                 between classes.     model correctly
+model learns, prevents overfitted models and how long the training                                                                        identifies 85 % of all
+takes. These hyperparameters serve as a baseline to evaluate the model                                                                    positive instances.
+and are adjusted and fine-tuned after initial evaluation (see step 6).                                                                    Balances precision
+                                                                                                                                          and recall. Useful
+    Step 5: Model evaluation. The trained model based on the training                                                                     when there is a need
+data is evaluated using the validation data on standard metrics for                                                                       to balance false
+classification performance. These metrics, summarized in Table 3, assess                                                                  positives and false
+accuracy, precision, recall, and F1-score, offering insights into how well                                                                negatives. An F1-
+the model performs. In this step also different models can be tested                                                                      score of 0.80
+against each other (e.g., by comparing the performance of Naive Bayes,                                                                    indicates a balanced
+SVMs, and Logistic regression).                                                                                                           performance
+                                                                                                                                          between precision
+    Step 6: Model optimization. Based on evaluation results, the model is                                                                 and recall, with
+fine-tuned by adjusting (model-specific) hyperparameters, enhancing                                                                       higher scores
+feature engineering, or retraining on updated data. Key hyper­                                                                            indicating better
+parameters include the number of epochs (how many full passes through                                                                     overall performance.
+the data), the batch size (how many samples per weight update), the                                                                       Useful for a broad
+learning rate (how aggressively weights change), and the strength of L1                                                                   evaluation across
+or L2 regularization (how firmly model complexity is penalized). Each                                                                     different
+setting involves a trade-off: a very high learning rate may overshoot                                                                     classification
+optimal weights, whereas a very low rate can slow down training                                                                           thresholds. AUC = 1
+tremendously; too many epochs risk overfitting by memorizing noise,                                                                       represents a perfect
+while too few leave the model under-trained.                                                                                              model (all
+                                                                                                                                          predictions correct),
+    Monitoring the loss curve (plotting the mean squared error and                                                                        AUC = 0.5
+epochs) as a visual aid, allows one to inspect the tradeoff between                                                                       corresponds to
+optimization and overfitting. Alternative settings such as the early-                                                                     random guessing,
+stopping routines help by halting training the moment extra epochs no                                                                     and AUC < 0.5
+longer yield sufficient increases in performance. An iterative optimiza­                                                                  indicates worse
+tion process with model evaluation should improve robustness, inter­                                                                      performance than
+pretability, and predictive performance. Once the model is validated,                                                                     random guessing.
+the final model should be applied to the test sample to provide an un­
+biased evaluation of its performance. If the model also fits the test data       Note: TP = true positive, TN = true negative, FP = false positive; and FN = false
+well, minimal overfitting has taken place. A much better fitting of the          negative.
+training data as opposed to the test data points to overfitting.
+                                                                                 model are made, to make the obtained results interpretable for the
+    Step 7: Model interpretation. After optimization and application of the      researcher.
+model to the test sample, the focus shifts from how well the model
+performs to why it predicts this way. Post-hoc explainable AI algorithms         6.4. Implementing large language models
+such as LIME or SHAP (Gramegna and Giudici, 2021) can identify the
+most predictive words for the classifications and how the decisions in the           Step 1: Define the construct. Begin by clearly defining the construct to
+                                                                                 be measured and its contextual nuances. LLMs, unlike traditional
+                                                                                 models, work well with raw or minimally processed text, though it re­
+                                                                                 mains useful to remove irrelevant content, duplicates, and formatting
+                                                                                 inconsistencies. For domain-specific tasks, curating relevant data im­
+                                                                                 proves performance. Notably, a portion of the data should be reserved
+                                                                                 for benchmarking when evaluating model output against reference
+
+                                                                              9
+D. Herhausen et al.                                                                  Journal of Business Research 198 (2025) 115491
+
+labels in step 5.                                                                    communication and the underuse of modern tools for analyzing text
+    Step 2: Model selection. Model choice depends on the task. Encoder-              data. Prior reviews have broadly focused on social media or marketing
+                                                                                     (e.g., Berger et al., 2020; Humphreys and Wang, 2017; Feuerriegel et al.,
+based models like BERT are suited for classification and sentiment                   2025), but few have integrated communication theory with methodo­
+analysis due to their contextual understanding. Decoder-based models                 logical guidance tailored specifically to business contexts. We contribute
+such as GPT-4 or LLAMA excel in text generation. Encoder-decoder                     by applying message design logic (O'Keefe, 1988; O'Keefe and Lambert,
+models like BART are ideal for tasks requiring both comprehension                    1995; Aakhus, 2007) to position business communication as a pur­
+and transformation, such as summarization or translation.                            poseful design activity in which message content, style, and structure
+                                                                                     reflect the communicator's background, intentions, and context. We
+    Apart from traditional prompt-based LLMs, LLM-based text embed­                  then connect this perspective to the approaches in text analysis to
+dings can also be used in automated text analysis (Yoganarasimhan and                evaluate how different methods are suitable for different kinds of
+Zheng 2025). Embeddings are dense, high-dimensional vector repre­                    research inquiries (see Fig. 3 for an overview).
+sentations of text elements (like words, phrases, or sentences) that
+capture semantic information and enable prompt-based LLMs to un­                         Our analysis of articles in the Journal of Business Research demon­
+derstand relationships and meanings in language. For example, BERT                   strates how topic models, dictionaries, supervised machine learning, and
+can generate dynamic word embeddings such that the representation of                 large language models offer distinct but complementary strengths. Topic
+a word changes based on the surrounding words. While embeddings are                  models are especially useful for exploratory analysis when categories are
+the initial step in transforming raw text into a numerical format suitable           not predefined, allowing researchers to uncover latent themes (Lee, Yi,
+for processing by prompt-based LLMs, standalone LLM-based text em­                   Kim, 2023; Lu et al., 2023). LDA offers a foundational approach, while
+beddings can be used for tasks like semantic similarity, text-based seg­             models like BERTopic improve performance by capturing nuanced topic
+mentation, and topic modeling. Additional factors to consider when                   hierarchies (Jiang et al., 2023).
+selecting the model include model size, cost, inference speed, and fine-
+tuning requirements.                                                                     Dictionaries provide transparent, theory-driven tools for identifying
+                                                                                     predefined linguistic patterns (Guo et al., 2023; Wang et al., 2024a;
+    Step 3: Prompt engineering. Prompt design critically influences output           Syrdal et al., 2023). They are particularly valuable when interpretability
+quality. Unlike traditional models, LLMs rely on well-structured prompts             and replicability are essential. When dictionaries are not sufficient, re­
+for task execution (Arora, Chakraborty and Nishimura, 2025). Prompts                 searchers can refine or develop new ones, as demonstrated by studies
+should be clear, specific, and include necessary context. For example,               applying domain-specific sentiment or behavioral constructs (Pan et al.,
+rather than using a general instruction like "Analyze this review," a                2023; Sun et al., 2024).
+more effective prompt might be: "Analyze the sentiment of the following
+customer review for an online coffee shop. Is it positive, negative, or                  Supervised machine learning methods, such as logistic regression or
+neutral? Highlight the key reasons." Iterative refinement improves                   support vector machines, are ideal for structured prediction tasks when
+precision. For aspect-based sentiment analysis, prompting the model to               labeled data are available for training (Filieri et al., 2023; Hajek et al.,
+address individual facets (e.g., "Rate the food, service, and ambiance")             2023). They balance predictive accuracy with interpretability, particu­
+yields targeted insights. Small changes in phrasing, using different                 larly when communicative features are well understood and constructs
+markers (i.e., a, b, c vs. 1.2.3 vs. I, II, III), symbols, ordering of options,      are easy to understand and code for (e.g., sentiment).
+breaking tasks into sub-tasks, or specifying response format can signif­
+icantly enhance accuracy (Reisenbichler et al., 2022).                                   LLMs, such as BERT and GPT, significantly extend analytical capa­
+                                                                                     bilities (Dhakate and Joshi, 2023; Wang et al., 2024b). Encoder-based
+    Step 4: Select inference mode (zero, one/few-shot). The choice of                models like BERT are useful for classification and categorization;
+inference mode affects model performance. Zero-shot requires no ex­                  decoder-based models like GPT are suited for dynamic text generation;
+amples and works well for general tasks like sentiment classification. In-           encoder-decoder models like BART are effective for summarization and
+context learning models such as one-shot includes a single example to                rewriting.
+guide structure and format, while few-shot provides multiple examples,
+helping the model learn task-specific nuances. For instance, classifying                 Our review highlights that method selection should align with the
+mixed sentiment in reviews benefits from few-shot prompts that show                  research question, the structure of the data, and practical concerns such
+how to parse praise and criticism in a single text. Balancing inference              as transparency, data privacy, and resource constraints. For example,
+mode with task complexity and data availability ensures high-quality                 topic models are optimal for discovering and controlling for categories
+outputs. Next to the inference mode, additional layers of prompt                     of content across documents in a data set, dictionaries support
+framing can be used to increase reliability, consistency and compara­                hypothesis-driven testing without labeled data, and SML or LLMs offer
+bility amongst inference modes. An example of such layers, amongst                   robust classification when objective labels are available.
+others, is RTF (Role - Task - Format) where the prompt is formatted in
+describing who the model is, what the task is and how the answer should                  Importantly, these methods are not mutually exclusive. Combina­
+be formatted (Li et al., 2024).                                                      tions often yield more powerful insights. For instance, topic models can
+                                                                                     identify recurring themes that inform the creation of dictionaries or
+    Step 5: Model evaluation and optimization (optional). While LLMs                 training data for supervised models. LLMs can rapidly generate or label
+perform well out-of-the-box with well-designed prompts, systematic                   data, supporting initial exploration before deploying more interpretable
+evaluation ensures output validity and consistency. Standard metrics                 tools (Li et al., 2024; Ye, Yoganarasimhan and Zheng, 2025).
+such as accuracy or F1-score (see Table 3), along with human assess­
+ments, help verify coherence and factual alignment. For domain-specific                  We provide a checklist in Table 4 for to evaluate and advance text
+tasks, fine-tuning on specialized data can improve alignment with ter­               analysis quality in business research. This includes considerations for
+minology and context. Standard metrics together with loss and accuracy               construct validity, method fit, interpretability, and evaluation rigor
+curves can be used to determine a balance between model optimization                 across topic models, dictionaries, SML, and LLMs. We also propose a
+and prevention of overfitting. Alternatively, prompt tuning or light­                future research agenda that maps key research objectives in research
+weight adaptation techniques may enhance performance without the                     targeted at the Journal of Business Research to the four foundational
+resource demands of full fine-tuning.                                                premises of message design logic, namely the communicators' back­
+                                                                                     ground, context, intention, and impact, highlighting how each can be
+7. Enhancing text analysis in business research                                      analyzed through text data using appropriate methods.
+
+    This study addresses two persistent gaps in business research: the                   By integrating theory and methodology, this study supports re­
+lack of conceptual frameworks to interpret business-relevant                         searchers in extracting meaningful insights from text, providing both a
+                                                                                     conceptual rationale and a practical guide for aligning research ques­
+                                                                                     tions with analytic tools. The broader implications of this work extend to
+                                                                                     disciplines such as organizational behavior, information systems, and
+
+                                                                                 10
+D. Herhausen et al.                                                     Journal of Business Research 198 (2025) 115491
+
+Fig. 3. Decision guide for choosing the right text analysis method. Note: LDA = Latent Dirichlet Allocation, SML = Supervised Machine Learning, LLM = Large
+Language Model.
+
+Table 4
+Checklist for authors and reviewers.
+
+For all papers with textual data
+
+ Is the conceptual approach towards the text data clearly stated (such as obtaining insights about the background of communicators, situation in which the communication             occurs,
+  intention behind the communication, or the impact of the communication)?
+
+ Is the text data collection described transparently and sufficiently detailed?
+ Is the (pre) processing of the raw text data described transparently and sufficiently detailed?
+ Is the choice of the text-analytical method explained and justified?
+ Is the choice of the text-analytical method appropriate, given the conceptual approach?
+ Is the text-analytical method described transparently and sufficiently detailed?
+ Are the assumptions and limitations of the chosen text-analytical method discussed?
+For papers with topic models
+ Are solutions for different the numbers of topics described and benchmarked?
+ Is the choice of the solution used explained and justified, both empirically and conceptually?
+ Does the chosen solution perform well enough regarding criteria such as coherence, stability, perplexity, and human evaluation?
+ If needed: Is the chosen solution improved and fine-tuned?
+ Is the chosen solution sufficiently described and, if possible, visualized?
+For papers with dictionaries
+ Is the focal construct of interest clearly defined and embedded in the relevant literature?
+ Has the chosen dictionary been rigorously developed, either by the authors themselves or by the source of the dictionary?
+ Is the dictionary appropriate for the specific research context and construct investigated?
+ Is the measurement of the dictionary sufficiently converging with human perceptions of the text (e.g., accuracy, precision, recall, F1 score)?
+For papers with supervised machine learning
+ Is the feature engineering described transparently and sufficiently detailed?
+ Is the labeling process described transparently and sufficiently detailed (i.e., labeling criteria, training of human coders, labeling process, inter-coder reliability, iterative
+
+  refinement)?
+ Is the choice of the machine learning model explained and justified?
+ Does the chosen machine learning model perform well enough regarding criteria such as accuracy, precision, recall, F1 score, and AUC-ROC?
+ If needed: Is the chosen machine learning model solution improved and fine-tuned?
+For papers with large language models
+ Is the construct of interest clearly defined and aligned with the prompt design or fine-tuning objective?
+ Is the prompt engineering process described transparently and sufficiently detailed (e.g., zero-, one-, or few-shot setup, prompt iterations, task framing)?
+ Is the choice of the LLM architecture (e.g., encoder-only, decoder-only, encoder-decoder) explained and justified based on the research question and task?
+ Does the LLM output perform well according to relevant evaluation criteria such as accuracy, F1-score, or human evaluation for interpretability and relevance?
+ If needed: Is the model fine-tuned, adapted (e.g., via prompt tuning), or iteratively refined, and is this process described transparently?
+
+communication studies, where understanding stakeholder intentions,      8. Future business research directions with text data
+perceptions, and interactions through text is equally essential.
+                                                                        8.1. Using text analysis to understand the background of communicators
+
+                                                                            Future research should deepen our understanding of how commu­
+                                                                        nicator backgrounds are reflected in their business communication. Text
+                                                                        analysis offers the ability to uncover linguistic indicators of stakeholder
+
+                                                                    11
+D. Herhausen et al.                                                            Journal of Business Research 198 (2025) 115491
+
+characteristics, whether from consumers, employees, or organizations.          8.5. Future research on text analysis methods
+For example, customer-generated texts may reflect different stages of the
+customer journey, providing insights relevant to consumer behavior.                Future research on text analysis methods should address several
+Text can also reveal unspoken expectations or needs, which may inform          emerging priorities that build directly on the advancements of these
+service design, product development, or policy interventions, particu­         methods. One important direction is the comparison between domain-
+larly in service and innovation research. As digitization expands access       specific models and general-purpose models (e.g., GPT-4). Future
+to historical data, researchers can use corpora like the New York Times        work should examine when specialized models deliver meaningful im­
+Annotated Corpus or Amazon.com to trace how attitudes and prefer­              provements over general models. Such studies would help clarify trade-
+ences have evolved over time. Especially change-based models might             offs between performance, cost, and accessibility. Another key area in­
+become valuable to understand quasi-causal relations between text and          volves the tension between model complexity and interpretability,
+business-relevant outcomes over time.                                          particularly with topic models and LLMs. Comparing the utility of
+                                                                               transparent approaches (e.g., dictionaries) against more complex black-
+8.2. Using text analysis to understand the situation of communicators          box systems can guide more deliberate methodological choices and
+                                                                               inform practical implementation. If more advanced LLMs are used then
+    Context remains central to how communicators design their mes­             research should help establish guidelines as to how results can be reli­
+sages. Future studies should investigate how relational, business or so­       ably reproduced even though the technology advances.
+cietal relevant situational factors influence communicative choices. For
+example, analyzing consumer-generated content can reveal how public                The reliability and accuracy of different text mining approaches
+attitudes become polarized. Non-verbal and environmental factors from          across multilingual, and multimodal contexts is another interesting
+settings like customer-frontline employee relations in service chats and       research direction. As business research becomes increasingly global,
+or organizational circumstances can offer valuable settings for studying       future studies should investigate the reliability of multimodal and
+how context is reflected in message design and in turn message design          multilingual text analysis approaches. Particular attention should be
+can then serve as a proxy for such circumstances. Future work could also       given to cultural variation in how messages are reflective of communi­
+explore how different communication contexts enable or constrain the           cators with different backgrounds and how multimodal and multilingual
+expression of relational cues, including interactions with non-human           features impact receivers. Future studies should also investigate the
+agents such as avatars or voice assistants.                                    implications of bias, transparency, and data privacy in automated text
+                                                                               analysis, especially when using LLMs. Clear ethical frameworks are
+8.3. Using text analysis to understand the communicators' intentions           needed to guide responsible use, particularly in sensitive domains or
+behind communication                                                           high-stake decisions. Finally, researchers need to be mindful that not
+                                                                               every dataset can be uploaded and mined with a publicly available LLM
+    Future research should also examine how text reflects the commu­           if the data is sensitive.
+nicators' intentions. Business texts often contain cues to communicative
+goals, for example, whether to inform, persuade, or prompt action. For         CRediT authorship contribution statement
+instance, analyzing firm-generated texts may reveal how communica­
+tion goals evolve across the customer journey, providing insights rele­            Dennis Herhausen: Writing - review & editing, Writing - original
+vant to targeted advertising, marketing communications, and customer           draft, Supervision, Methodology, Conceptualization. Stephan Ludwig:
+engagement. Researchers should also study how communication be­                Writing - review & editing, Writing - original draft, Supervision,
+tween firms and stakeholders signals their strategic intentions, such as       Conceptualization. Ehsan Abedin: Writing - review & editing, Writing -
+initiating collaboration, investment, or market expansion. Investigating       original draft, Software, Methodology. Nasim Ul Haque: Writing - re­
+how text analysis can support the detection of malicious content, while        view & editing, Writing - original draft. David de Jong: Writing - re­
+safeguarding freedom of expression, presents an important ethical              view & editing, Writing - original draft.
+dimension with implications for corporate social responsibility and
+business ethics.                                                               References
+
+8.4. Using text analysis to understand the impact of communication on          Aakhus, M. (2007). Communication as Design. Communication Monographs, 74(1),
+receivers                                                                           112-117.
+
+    Finally, understanding how communication affects recipients re­            Abdelrazek, A., Eid, Y., Gawish, E., Medhat, W., & Hassan, A. (2023). Topic modeling
+mains a critical avenue for future business research. Text analysis en­             algorithms and applications: A survey. Information Systems, 112, Article 102131.
+ables the development of models to predict how content, style and
+structure of messages influence audience perception, judgment, and             Allison, P. D. (2012). Logistic regression using SAS: Theory and application. SAS institute.
+action. Researchers should continue to investigate how message framing         Alslaity, A., & Orji, R. (2024). Machine learning techniques for emotion detection and
+or content themes influence decisions. For example, at various stages of
+the consumer journey, contributing to work on consumer behavior and                 sentiment analysis: Current state, challenges, and future directions. Behaviour &
+wellbeing. Retail and multichannel management research would benefit                Information Technology, 43(1), 139-164.
+from studying how content formats vary in effectiveness across plat­           Arora, N., Chakraborty, I., & Nishimura, Y. (2025). AI-Human Hybrids for Marketing
+forms. Text analysis can also inform communicative strategies to pro­               Research: Leveraging Large Language Models (LLMs) as Collaborators. Journal of
+mote more mindful and sustainable consumption, an increasingly                      Marketing, 89(2), 43-70.
+important area in business ethics. In business-to-business contexts,           Balducci, B., & Detelina, M. (2018). Unstructured data in marketing". Journal of the
+future work should identify communicative signals that reduce risk,                 Academy of Marketing Science, 46, 557-590.
+improve efficiency, or foster trust. These insights would valuable add to      Bateson, G. (1972). The logical categories of learning and communication. Steps to an
+the current understanding of inter-organizational collaboration, ex­                Ecology of Mind, 279-308.
+change performance, and the link between communication and strategic           Berger, J., Humphreys, A., Ludwig, S., Moe, W. W., Netzer, O., & Schweidel, D. A. (2020).
+outcomes in business-to-business marketing and strategic management.                Uniting the tribes: Using Text for Marketing Insight. Journal of Marketing, 84(1),
+                                                                                    1-25.
+                                                                               Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent Dirichlet Allocation. Journal of
+                                                                                    Machine Learning Research, 3(Jan), 993-1022.
+                                                                               Bouma, G. (2009). Normalized (Pointwise) Mutual Information in Collocation
+                                                                                    Extraction. Proceedings of GSCL, 30, 31-40.
+                                                                               Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A.,
+                                                                                    Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G.,
+                                                                                    Henighan, T., Child, R., Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., & Amodei, D.
+                                                                                    (2020). Language Models are Few-Shot Learners. Advances in Neural Information
+                                                                                    Processing Systems, 33, 1877-1901.
+                                                                               Büschken, J., & Allenby, G. M. (2020). Improving Text Analysis Using Sentence
+                                                                                    Conjunctions and Punctuation. Marketing Science, 39(4), 727-742.
+
+                                                                           12
+D. Herhausen et al.                                                                                                                                      Journal of Business Research 198 (2025) 115491
+
+Caughlin, J. P., Brashers, D. E., Ramey, M. E., Kosenko, K. A., Donovan-Kicken, E., &             Jiang, C., Yin, C., Tang, Q., & Wang, Z. (2023). The value of official website information
+     Bute, J. J. (2008). The Message Design Logics of Responses to HIV Disclosures.                    in the credit risk evaluation of SMEs. Journal of Business Research, 169, Article
+     Human Communication Research, 34(4), 655-684.                                                     114290.
+
+Charland, M. (1987). Constitutive rhetoric: The case of the peuple qu´eb´ecois. Quarterly         Kacewicz, E., Pennebaker, J. W., Davis, M., Jeon, M., & Graesser, A. C. (2014). Pronoun
+     Journal of Speech, 73(2), 133-150.                                                                Use Reflects Standings in Social Hierarchies. Journal of Language and Social
+                                                                                                       Psychology, 33(2), 125-143.
+Cho, S., Pekgün, P., Janakiraman, R., & Wang, J. (2024). The Competitive Effects of
+     Online Reviews on Hotel Demand. Journal of Marketing, 88(2), 40-60.                          Kanungo, Y. S., Das, G., & Negi, S. (2022). Cobart: Controlled, Optimized, Bidirectional
+                                                                                                       and Auto-Regressive Transformer for Ad Headline Generation. In In Proceedings of the
+Cleveland, M., Laroche, M., & Papadopoulos, N. (2015). You are what you speak?                         28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (pp.
+     Globalization, multilingualism, consumer dispositions and consumption. Journal of                 3127-3136).
+     Business Research, 68(3), 542-552.
+                                                                                                  Kress, G., Leite-García, R., & Van Leeuwen, T. (1997). Discourse semiotics. Discourse as
+Colladon, A. F., Toschi, L., Ughetto, E., & Greco, F. (2023). The language and social                  Structure and Process, 257-291.
+     behavior of innovators. Journal of Business Research, 154, Article 113317.
+                                                                                                  Kronrod, A., & Danziger, S. (2013). "Wii will rock you!" The Use and Effect of Figurative
+Culasso, F., Gavurova, B., Crocco, E., & Giacosa, E. (2023). Empirical identification of the           Language in Consumer Reviews of Hedonic and Utilitarian Consumption. Journal of
+     chief digital officer role: A latent Dirichlet allocation approach. Journal of Business           Consumer Research, 40(4), 726-739.
+     Research, 154, Article 113301.
+                                                                                                  Kumar, V., & Srivastava, A. (2022). Trends in the thematic landscape of corporate social
+Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019, June). Bert: Pre-training of                 responsibility research: A structural topic modeling approach. Journal of Business
+     Deep Bidirectional Transformers for Language Understanding. In Proceedings of the                 Research, 150, 26-37.
+     2019 Conference of the North American Chapter of the Association for Computational
+     Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers),                  Lee, I., Yi, J., & Kim, S. H. (2023). Standing the test of time: What makes a book survive
+     4171-4186.                                                                                        on the bestseller list? Journal of Business Research, 164, Article 114013.
+
+Dhakate, N., & Joshi, R. (2023). Classification of reviews of e-healthcare services to            Lee, M. T., & Theokary, C. (2021). The superstar social media influencer: Exploiting
+     improve patient satisfaction: Insights from an emerging economy. Journal of Business              linguistic style and emotional contagion over content? Journal of Business Research,
+     Research, 164, Article 114015.                                                                    132, 860-871.
+
+Fairclough, N. (1992). Discourse and Text: Linguistic and Intertextual Analysis within            Lewis, M., Liu, Y., Goyal, N., Ghazvininejad, M., Mohamed, A., Levy, O., Stoyanov, V., &
+     Discourse Analysis. Discourse & Society, 3(2), 193-217.                                           Zettlemoyer, L. (2019). Bart: Denoising Sequence-to-Sequence Pre-training for
+                                                                                                       Natural Language Generation. Translation, and Comprehension. arXiv preprint arXiv:
+Feuerriegel, S., Maarouf, A., Ba¨r, D., Geissler, D., Schweisthal, J., Pro¨llochs, N.,                 1910.13461.
+     Robertson, C. E., Rathje, S., Hartmann, J., Moammad, S. M., Netzer, O., Siegel, A. A.,
+     Plank, B., & Van Bavel, J. J. (2025). Using natural language processing to analyse           Li, P., Castelo, N., Katona, Z., & Sarvary, M. (2024). Frontiers: Determining the Validity
+     text data in behavioural science. Nature Reviews Psychology, 1-16.                                of Large Language Models for Automated Perceptual Analysis. Marketing Science, 43
+                                                                                                       (2), 254-266.
+Filieri, R., Alguezaui, S., Galati, F., & Raguseo, E. (2023). Customer experience with
+     standard and premium Peer-To-Peer offerings: A mixed-method combining text                   Liao, M., Fang, J., Han, L., Wen, L., Zheng, Q., & Xia, G. (2023). Boosting eCommerce
+     analytics and qualitative analysis. Journal of Business Research, 167, Article 114128.            sales with livestreaming in B2B marketplace: A perspective on live streamers'
+                                                                                                       competencies. Journal of Business Research, 167, Article 114167.
+Garner, B., Thornton, C., Pawluk, A. L., Cortez, R. M., Johnston, W., & Ayala, C. (2022).
+     Utilizing text-mining to explore consumer happiness within tourism destinations.             Liu, J., & Toubia, O. (2018). A Semantic Approach for Estimating Consumer Content
+     Journal of Business Research, 139, 1366-1377.                                                     Preferences from Online Search Queries. Marketing Science, 37(6), 930-952.
+
+Ghaddar, B., & Naoum-Sawaya, J. (2018). High dimensional data classification and                  Lu, L., Xu, P., Wang, Y.-Y., & Wang, Y. (2023). Measuring service quality with text
+     feature selection using support vector machines. European Journal of Operational                  analytics: Considering both importance and performance of consumer opinions on
+     Research, 265(3), 993-1004.                                                                       social and non-social online platforms. Journal of Business Research, 169, Article
+                                                                                                       114298.
+Gill, A., & Whedbee, K. (1997). Rhetoric. In T. A. van Dijk (Ed.), Rhetoric (Vol. 1, pp.
+     157-184). SAGE Publications Ltd.                                                             Ludwig, S., De Ruyter, K., Friedman, M., Brüggen, E. C., Wetzels, M., & Pfann, G. (2013).
+                                                                                                       More than Words: The Influence of Affective Content and Linguistic Style Matches in
+Goli, A., & Singh, A. (2024). Frontiers: Can Large Language Models Capture Human                       Online Reviews on Conversion Rates. Journal of Marketing, 77(1), 87-103.
+     Preferences? Marketing Science, 43(4), 709-722.
+                                                                                                  Ludwig, S., Herhausen, D., De Luca, L., & Grewal, D. (2024). Communication design
+Gramegna, A., & Giudici, P. (2021). SHAP and LIME: An Evaluation of Discriminative                     logics and innovation management. Journal of Product Innovation Management, 1-24.
+     Power in Credit Risk. Frontiers in Artificial Intelligence, 4, Article 752558.
+                                                                                                  Ludwig, S., Herhausen, D., Grewal, D., Bove, L., Benoit, S., De Ruyter, K., & Urwin, P.
+Griffiths, T., Jordan, M., Tenenbaum, J., & Blei, D. (2003). Hierarchical Topic Models                 (2022). Communication in the Gig Economy: Buying and Selling in Online Freelance
+     and the Nested Chinese Restaurant Process. Advances in Neural Information Processing              Marketplaces. Journal of Marketing, 86(4), 141-161.
+     Systems, 16, 17-24.
+                                                                                                  Ludwig, S., Van Laer, T., De Ruyter, K., & Friedman, M. (2016). Untangling a Web of Lies:
+Gumperz, J. J., & Levinson, S. C. (1991). Rethinking Linguistic Relativity. Current                    Exploring Automated Detection of Deception in Computer-Mediated
+     Anthropology, 32(5), 613-623.                                                                     Communication. Journal of Management Information Systems, 33(2), 511-541.
+
+Guo, X., Li, M., Wang, Y., & Mardani, A. (2023). Does digital transformation improve the          Mangio`, F., Mismetti, M., Lissana, E., & Andreini, D. (2023). That's the Press, Baby! How
+     firm's performance? From the perspective of digitalization paradox and managerial                 journalists co-create family business brands meanings: A mixed method analysis.
+     myopia. Journal of Business Research, 163, Article 113868.                                        Journal of Business Research, 161, Article 113842.
+
+Hajek, P., Hikkerova, L., & Sahut, J. M. (2023). Fake review detection in e-Commerce              Marinova, D., Singh, S. K., & Singh, J. (2018). Frontline problem-solving effectiveness: A
+     platforms using aspect-based sentiment analysis. Journal of Business Research, 167,               dynamic analysis of verbal and nonverbal cues. Journal of Marketing Research, 55(2),
+     Article 114143.                                                                                   178-192.
+
+Hamby, A., Kim, H., & Spezzano, F. (2024). Sensational stories: The role of narrative             McInnes, L., Healy, J., & Astels, S. (2017). hdbscan: Hierarchical density based
+     characteristics in distinguishing real and fake news and predicting their spread.                 clustering. The Journal of Open Source Software, 2(11), 205.
+     Journal of Business Research, 170, Article 114289.
+                                                                                                  Meibauer, J. (2005). Lying and falsely implicating. Journal of Pragmatics, 37(9),
+Hartmann, J., Huppertz, J., Schamp, C., & Heitmann, M. (2019). Comparing automated                     1373-1399.
+     text classification methods. International Journal of Research in Marketing, 36(1),
+     20-38.                                                                                       Mimno, D., Wallach, H., Talley, E., Leenders, M., & McCallum, A. (2011). Optimizing
+                                                                                                       semantic coherence in topic models. In In Proceedings of the 2011 Conference on
+Hartmann, J., Heitmann, M., Siebert, C., & Schamp, C. (2023). More than a feeling:                     Empirical Methods in Natural Language Processing (pp. 262-272).
+     Accuracy and application of sentiment analysis. International Journal of Research in
+     Marketing, 40(1), 75-87.                                                                     Morgan, G., & Smircich, L. (1980). The Case for Qualitative Research. Academy of
+                                                                                                       Management Review, 5(4), 491-500.
+Herhausen, D., Grewal, L., Cummings, K. H., Roggeveen, A. L., Villarroel Ordenes, F., &
+     Grewal, D. (2023). Complaint De-Escalation Strategies on Social Media. Journal of            Naveh-Benjamin, M., & Ayres, T. J. (1986). Digit span, reading rate, and linguistic
+     Marketing, 87(2), 210-231.                                                                        relativity. The Quarterly Journal of Experimental Psychology, 38(4), 739-751.
+
+Herhausen, D., Ludwig, S., Grewal, D., Wulf, J., & Schoegel, M. (2019). Detecting,                Netzer, O., Lemaire, A., & Herzenstein, M. (2019). When Words Sweat: Identifying
+     Preventing, and Mitigating Online Firestorms in Brand Communities. Journal of                     Signals for Loan Default in the Text of Loan Applications. Journal of Marketing
+     Marketing, 83(3), 1-21.                                                                           Research, 56(6), 960-980.
+
+Holmqvist, J., Van Vaerenbergh, Y., & Gro¨nroos, C. (2017). Language use in services:             O'Keefe, B. J. (1988). The Logic of Message Design: Individual Differences in Reasoning
+     Recent advances and directions for future research. Journal of Business Research, 72,             about Communication. Communication Monographs, 55(1), 80-103.
+     114-118.
+                                                                                                  O'Keefe, B. J., & Lambert, B. L. (1995). Managing the Flow of Ideas: A Local Management
+Homburg, C., Theel, M., & Hohenberg, S. (2020). Marketing Excellence: Nature,                          Approach to Message Design. Annals of the International Communication Association,
+     Measurement, and Investor Valuations. Journal of Marketing, 84(4), 1-22.                          18(1), 54-82.
+
+Hou, J., Zhang, J., & Zhang, K. (2023). Pictures that are Worth a Thousand Donations:             Pan, X., Chen, X., & Sinha, P. (2023). Navigating the haze: Environmental performance
+     How Emotions in Project Images Drive the Success of Online Charity Fundraising                    feedback and CSR report readability. Journal of Business Research, 166, Article
+     Campaigns? An Image Design Perspective. Management Information Systems                            114116.
+     Quarterly, 47(2), 535-584.
+                                                                                                  Pan, X., Wang, Y., Zhang, C., Shen, Z., & Song, M. (2023). The impact of platform
+Huang, A. H., Lehavy, R., Zang, A. Y., & Zheng, R. (2018). Analyst Information Discovery               economy on enterprise value mediated by technological innovation. Journal of
+     and Interpretation Roles: A Topic Modeling Approach. Management Science, 64(6),                   Business Research, 165, Article 114051.
+     2833-2855.
+                                                                                                  Patel, P. C., Oghazi, P., & Arunachalam, S. (2023). Does consumer privacy act influence
+Humphreys, A., & Wang, R. J. H. (2018). Automated Text Analysis for Consumer                           firm performance in the retail industry? Evidence from a US state-level law change.
+     Research. Journal of Consumer Research, 44(6), 1274-1306.                                         Journal of Business Research, 162, Article 113881.
+
+                                                                                              13
+D. Herhausen et al.                                                                                                                                       Journal of Business Research 198 (2025) 115491
+
+Ray, A., Bala, P. K., & Rana, N. P. (2021). Exploring the drivers of customers' brand              Watanabe, K., & Baturo, A. (2024). Seeded Sequential LDA: A Semi-Supervised Algorithm
+     attitudes of online travel agency services: A text-mining based approach. Journal of               for Topic-Specific Analysis of Sentences. Social Science Computer Review, 42(1),
+     Business Research, 128, 391-404.                                                                   224-248.
+
+Reisenbichler, M., Reutterer, T., Schweidel, D. A., & Dan, D. (2022). Frontiers:                   Webb, G. I., Keogh, E., & Miikkulainen, R. (2010). Naïve Bayes. Encyclopedia of. Machine
+     Supporting Content Marketing with Natural Language Generation. Marketing Science,                  Learning, 15(1), 713-714.
+     41(3), 441-452.
+                                                                                                   Wu, J., Zhao, N., & Yang, T. (2024a). Wisdom of crowds: SWOT analysis based on hybrid
+Rocklage, M. D., & Fazio, R. H. (2020). The Enhancing Versus Backfiring Effects of                      text mining methods using online reviews. Journal of Business Research, 171, Article
+     Positive Emotion in Consumer Reviews. Journal of Marketing Research, 57(2),                        114378.
+     332-352.
+                                                                                                   Wu, X., Nguyen, T., & Luu, A. T. (2024b). A survey on neural topic models: Methods,
+Ro¨der, M., Both, A., & Hinneburg, A. (2015). February). Exploring the Space of Topic                   applications, and challenges. Artificial Intelligence Review, 57(2), 18.
+     Coherence Measures. In In Proceedings of the Eighth ACM International Conference on
+     Web Search and Data Mining (pp. 399-408).                                                     Ye, Z., Yoganarasimhan, H., & Zheng, Y. (2025). LOLA: LLM-Assisted Online Learning
+                                                                                                        Algorithm for Content Experiments. Marketing Science: Advance online publication.
+Sarkar, P., & Etemad, A. (2020). Self-Supervised ECG Representation Learning for
+     Emotion Recognition. IEEE Transactions on Affective Computing, 13(3), 1541-1554.              Yoganathan, V., & Osburg, V.-S. (2024). The mind in the machine: Estimating mind
+                                                                                                        perception's effect on user satisfaction with voice-based conversational agents.
+Searle, J. R. (1995). The Construction of Social Reality. Simon and Schuster.                           Journal of Business Research, 175, Article 114573.
+Setten, E., & Chen, S. (2024). Playing with emotions: Text analysis of emotional tones in
+                                                                                                   Zhang, Z., Yang, K., Zhang, J. Z., & Palmatier, R. W. (2023). Uncovering Synergy and
+     gender-casted Children's media. Journal of Business Research, 175, Article 114541.                 Dysergy in Consumer Reviews: A Machine Learning Approach. Management Science,
+Shan, W., Wang, J., Shi, X., & David Evans, R. (2024). The impact of electronic word-of-                69(4), 2339-2360.
+
+     mouth on patients' choices in online health communities: A cross-media perspective.           Zhong, N., & Schweidel, D. A. (2020). Capturing Changes in Social Media Content: A
+     Journal of Business Research, 173, Article 114404.                                                 Multiple Latent Changepoint Topic Model. Marketing Science, 39(4), 827-846.
+Shankar, V., & Parsana, S. (2022). An overview and empirical comparison of natural
+     language processing (NLP) models and an introduction to and empirical application             Dennis Herhausen is Professor of Digital Marketing and Analytics at Vrije Universiteit
+     of autoencoder models in marketing. Journal of the Academy of Marketing Science, 50           Amsterdam. Dennis' research, teaching, and executive education revolve around the
+     (6), 1324-1350.                                                                               themes of digital communication, customer journeys and experience, multichannel man­
+Singh, S. K., Marinova, D., & Singh, J. (2020). Business-to-Business E-Negotiations and            agement, digital capabilities, and social media management. His work has been funded by
+     Influence Tactics. Journal of Marketing, 84(2), 47-68.                                        national and international research grants, has received several awards, and is published
+Snefjella, B., & Kuperman, V. (2015). Concreteness and Psychological Distance in Natural           in the Journal of Marketing, Journal of Marketing Research, Journal of the Academy of
+     Language Use. Psychological Science, 26(9), 1449-1460.                                        Marketing Science, and Harvard Business Review, among others.
+Sousa, M. G., Sakiyama, K., de Souza Rodrigues, L., Moraes, P. H., Fernandes, E. R., &
+     Matsubara, E. T. (2019). BERT for stock market sentiment analysis. In In 2019 IEEE            Stephan Ludwig is Professor of Marketing at Monash University and an expert on mar­
+     31st International Conference on Tools with Artificial Intelligence (ICTAI) (pp.              keting communications, digital marketing and marketing analytics. His research focuses
+     1597-1601).                                                                                   on marketing communication design - the way we communicate - which reflects who we
+Sun, B., Zhang, Y., Zhu, K., Mao, H., & Liang, T. (2024). Is faster really better? The impact      are, our intentions, the relationships we are in, and our likely impact on respective au­
+     of digital transformation speed on firm financial distress: Based on the cost-benefit         diences. His work is regularly covered in the world-leading journals of marketing and
+     perspective. Journal of Business Research, 179, Article 114703.                               information systems as well as popular outlets like the Telegraph, der Spiegel and the
+Syrdal, H. A., Myers, S., Sen, S., Woodroof, P. J., & McDowell, W. C. (2023). Influencer           Harvard Business Manager.
+     marketing and the growth of affiliates: The effects of language features on
+     engagement behavior. Journal of Business Research, 163, Article 113875.                       Ehsan Abedin is a lecturer of Business Analytics in the College of Business, Government
+Taboada, M., Brooke, J., Tofiloski, M., Voll, K., & Stede, M. (2011). Lexicon-Based                and Law at Flinders University. Prior to his appointment at Flinders, he served as a
+     Methods for Sentiment Analysis. Computational Linguistics, 37(2), 267-307.                    postdoctoral research fellow in Data Science and Analytics at The University of Melbourne
+Tausczik, Y. R., & Pennebaker, J. W. (2010). The Psychological Meaning of Words: LIWC              and Monash University. His research interests encompass Business Analytics, with a
+     and Computerized Text Analysis Methods. Journal of Language and Social Psychology,            particular focus on Social Commerce, Social Network Analysis and Data-driven Decision-
+     29(1), 24-54.                                                                                 making. He has a publication record in several well-known journals, including Acta Psy­
+Toubia, O., Iyengar, G., Bunnell, R., & Lemaire, A. (2019). Extracting Features of                 chologica, Plos One, and the Pacific Asia Journal of the Association for Information Sys­
+     Entertainment Products: A Guided Latent Dirichlet Allocation Approach Informed by             tems as well as prominent Information Systems conferences.
+     the Psychology of Media Consumption. Journal of Marketing Research, 56(1), 18-36.
+Van Dijk, T. A. (Ed.). (1997). Discourse as structure and process (Vol. 1). Sage.                  Nasim Ul Haque is a PhD Candidate in the Department of Management and Marketing at
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., &        the University of Melbourne. Nasim specializes in using quantitative (statistics and ma­
+     Polosukhin, I. (2017). Attention is all you need. Advances in Neural Information              chine learning-based) approaches to study financial decision making of individuals, and
+     Processing Systems, 30, 5998-6008.                                                            his research spans both the social psychology and marketing communications fields.
+Villarroel Ordenes, F., Grewal, D., Ludwig, S., Ruyter, K. D., Mahr, D., & Wetzels, M.             Currently, Nasim has two main streams of interest: 1) legitimacy generation and invest­
+     (2019). Cutting through Content Clutter: How Speech and Image Acts Drive                      ment behaviour, 2) financial decision making in online platform
+     Consumer Sharing of Social Media Brand Messages. Journal of Consumer Research, 45
+     (5), 988-1012.                                                                                David de Jong is a Ph.D. candidate at the Marketing Department of the Vrije Universiteit
+Wang, Q., Lau, R. Y. K., Xie, H., Liu, H., & Guo, X. (2024b). Social Executives' emotions          Amsterdam. His research interests lie in digital communication, unstructured data and
+     and firm value: An empirical study enhanced by cognitive analytics. Journal of                retail. Specifically, he is interested in ways to leverage data at the point of sale, using
+     Business Research, 175, Article 114575.                                                       consumer reviews and digital signage.
+Wang, S., Ye, D., & Liao, J. (2024a). Politeness matters: The role of polite languages in
+     online peer-to-peer lending. Journal of Business Research, 171, Article 114394.
+
+                                                                                               14
+

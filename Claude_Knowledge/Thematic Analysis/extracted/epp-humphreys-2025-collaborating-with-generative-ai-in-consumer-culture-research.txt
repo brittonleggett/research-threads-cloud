@@ -1,0 +1,1106 @@
+Collaborating with Generative AI in
+Consumer Culture Research
+
+AMBER M. EPP                                                                                                                                                                                                                 Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+ASHLEE HUMPHREYS
+
+                  Generative Artificial Intelligence (GenAI) has introduced new possibilities for both
+                  the creation and analysis of language, which is one key input for consumer culture
+                  researchers who analyze qualitative and textual data. How can consumer culture
+                  researchers use GenAI to produce insights and work with qualitative data? What
+                  are the possibilities and challenges of using these tools? And what are some valua­
+                  ble practices and principles for integrating GenAI into the research process?
+                  Building from interviews with researchers who use these tools, the authors identify
+                  relevant theoretical, embodied, empirical, and historical contextual dimensions that
+                  produce opportunities and challenges for human-AI collaboration. The authors then
+                  propose a set of collaborative practices and offer practical guidelines for using
+                  GenAI to generate novel and meaningful insights into consumer culture and society.
+
+                  Keywords: qualitative research, cultural research, text analysis, generative artifi­
+                  cial intelligence, agency
+
+G enerative AI (GenAI) raises new possibilities as a                               Mauss famously never entered the field, preferring to
+      research tool to enhance human sensemaking and                               develop insights based on archived studies that used the
+interpretation. Yet, technology is not new to studying cul­                        technology of print (Fournier 2006).
+ture. Early ethnographers employed pen and pencil to
+document speech patterns, ceremonial practices, housing                               Computers, of course, provide enhanced abilities for
+patterns, and dress of tribe members and informants (Jones                         collecting, storing, synthesizing, and retrieving informa­
+2010). Malinowski collected these in "field notebooks"                             tion (Ong 1982, 1998). In the early 1960s, researchers
+that served as aides in recalling these observations to create                     began using IBM mainframes to analyze the content of a
+theories of ceremonial exchange (Roldan 2002). Marcel                              wide variety of sources, including conversational mate­
+                                                                                   rial, personal documents, dreams, survey responses, liter­
+    Amber M. Epp (amber.epp@wisc.edu) is associate professor of marketing,         ary sources, speeches, and folktales (Stone et al. 1966,
+Wisconsin School of Business, University of Wisconsin-Madison, Madison,            156). Kathleen Carley used early software for counting
+WI 53706, USA. Ashlee Humphreys (a-humphreys@northwestern.edu) is pro­             words to develop insights about similarities and differen­
+fessor of integrated marketing communications, Medill School of Journalism         ces across cultures and changes within culture (Carley
+and Kellogg School of Management, Northwestern University, Evanston, IL            1994). While basic tools have been used to count words
+60208, USA. Please address correspondence to Ashlee Humphreys. The                 that are determined a priori in a qualitative textual data­
+authors would like to thank Eileen Fischer, Markus Giesler, Sunaina Schultz,       set, classification and topic-modeling tools have been
+Jonathan Berman, Erik Steiner, and the participants of the AI & Technology:        used to identify "topics" based on patterns of co-
+New Perspectives on MultiActor Dynamics in Platform Market Technologies            occurrence in the textual dataset (Berger et al. 2020;
+session at Winter AMA for their feedback and suggestions on the manuscript.        Humphreys and Wang 2018; Nelson 2020). Word embed­
+Both authors contributed equally to the article. Supplementary materials are       ding (e.g., word2vec) and neural network models (e.g.,
+included in the web appendix accompanying the online version of this article.      BERT) then take a further step of understanding and
+                                                                                   more fully incorporating the context of words within the
+Editor: Bernd Schmitt                                                              text. In particular, the computer is trained as to the
+                                                                                   "meaning" of words based on structural patterns in a
+This article was invited by Editor Bernd Schmitt for our special section on        very large training dataset or corpus (Mikolov et al.
+GenAI and Consumer Research and did not go through the journal's                   2013a, 2013b).
+standard peer-review process but was subject to an expedited review and
+revision process.
+
+                                                     © The Author(s) 2025. Published by Oxford University Press on behalf of Journal of Consumer Research, Inc. All rights reserved.
+
+For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via the
+                                                       Permissions link on the article page on our site--for further information please contact journals.permissions@oup.com.  Vol. 52  2025
+                                                                                                                                                                                        https://doi.org/10.1093/jcr/ucaf014
+
+                                                                               32
+EPP AND HUMPHREYS                                                                                                                             33  Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+   Consumer culture researchers have adopted many of             that moving from orality to literacy shaped human
+these text analysis tools as they have emerged (e.g., Arsel      thinking and storytelling. We therefore ask: How can con­
+and Bean 2013; Arvidsson and Caliandro 2016; Coskuner-           sumer culture researchers use GenAI to produce insights and
+Balli 2020; Ertimur and Coskuner-Balli 2015; Humphreys           work with qualitative data? What are the possibilities and
+2010; Luri, Schau, and Ghosh 2024; Novak and Hoffman             challenges of using these tools? And what are some valuable
+2023). For example, consumer researchers have used               practices and principles for integrating GenAI into the research
+approaches such as dictionary-based analysis to understand       process?
+cultural discourses (Humphreys 2010) and metaphors (Luri
+et al. 2024), topic models to investigate cultural products               DATA AND METHODOLOGY
+(Berger and Packard 2022), and word embedding to study
+consumer practices (Novak and Hoffman 2023).                        Given that practices for incorporating GenAI into con­
+                                                                 sumer culture research are emergent, evolving, and varied,
+   Large-language models (LLMs) have a lineage stem­             instead of proposing fixed answers to these questions, we
+ming from these other forms of text analysis (figure 1;          conducted interviews with academic and industry research­
+Ibrahim and Voyer 2024; Than et al. 2024). Building from         ers who study consumer culture (appendix A). Our goal
+word-embedding, LLMs simply reverse the process, pro­            was to develop empirical insights about what experienced
+ducing text by predicting the next most probable word and        researchers in the field thought about GenAI, understand
+answering queries by retrieving information and putting it       how they integrated these tools into their research, and to
+into a linguistic structure based on what it has previously      learn what challenges and limitations they found with the
+learned from the training dataset (Brown et al. 2020;            technology. Equally, we were interested in the human side
+Puntoni et al. 2021). These abilities point to a growing         of GenAI and sought to learn about the iterative process of
+set of possibilities for using LLMs to synthesize and            researcher and AI collaboration.
+interact with qualitative and textual data in new
+ways. Conceivably, such analytical processes act as an              We recruited consumer culture researchers who work
+extension of iterative tacking between data, computer-           with qualitative data, consumer researchers and sociologists
+aided analysis, and human analysis. Just as social scientists    who use LLMs for text analysis, and industry professionals
+have proposed using text analysis to aid cultural research       trained as cultural analysts who work with qualitative data
+(Carley 1994; Weber 2005), we view GenAI as an addi­             (using pseudonyms to protect anonymity). We also included
+tional aid to human analysis and sensemaking of cultural         a negative case (i.e., a researcher who conducts only manual
+phenomena.                                                       analysis) and sought member checks. Interviews ranged
+                                                                 from 47 to 64 minutes (average 56 minutes) and were con­
+   Beyond the existing computational technology that scholars    ducted via video conference. Transcriptions yielded 542
+have previously employed, GenAI--by which we mean large          single-spaced pages of text. In addition, to familiarize our­
+language models (LLMs) that are capable of producing lan­        selves with the tools participants mentioned, we used AI
+guage--potentially offers a new technology to integrate into     tools, watched tutorials, and asked participants to demon­
+the typical routines of conducting research and gleaning         strate uses during interviews. Extended excerpts from inter­
+insights about consumer behavior and culture. Yet, GenAI         views can be found in appendix B, table A2.
+may also have limitations in producing insights and may
+present challenges as scholars learn how to interact with these     Following each interview, we created memos to capture
+new tools. Indeed, the possibilities may also shape our think­   emergent themes (Huberman and Miles 1994). Throughout
+ing about research and the role that humans play in developing   the research process, we discussed how insights from inter­
+insights about consumer culture, just as Walter Ong suggests     views informed our perspectives, aligned with or violated our
+
+                               FIGURE 1
+EVOLUTION OF AUTOMATED TEXT-BASED ANALYSIS
+34                                                                                            JOURNAL OF CONSUMER RESEARCH
+
+prior assumptions, and compared with existing literature.       TRADEOFFS IN HUMAN-AI RESEARCH                                                Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+We also used open coding procedures to generate initial                        COLLABORATION
+themes across the interviews around potential uses and chal­
+lenges and to identify practices (Strauss and Corbin 2014).       We organize our framework around understanding the
+As the analysis evolved, we examined underlying tradeoffs      tradeoffs that researchers make when collaborating with
+related to the foundations of cultural research and used them  GenAI, each based on fundamental differences between
+to inform our views of the relationship between human          humans and GenAI (table 1). While we recognize that
+researchers and GenAI tools in the research process. We        GenAI tools will continue to evolve and may be able to
+deepened our understanding of these tradeoffs by reading rel­  take on new research tasks in the future, these tradeoffs
+evant philosophy, research methods, and prior consumer         capture four enduring and relevant contextual dimensions
+research.                                                      in consumer culture research: theoretical, embodied, empir­
+                                                               ical, and historical. The theoretical dimension concerns dif­
+   In addition, we employed LLMs both as a basis for           ferences in the purpose and rationale for conducting
+comparison to our traditional analytical approach and to       research. The embodied dimension refers to differences in
+interact with and analyze the data. In particular, we used     the lived experience of researchers versus AI. The empiri­
+a walled AI sandbox (NCSC 2025) to summarize inter­            cal dimension pertains to differences in what and how
+views and to query the data about themes, summaries,           human researchers versus computers know, and the histori­
+and examples of conclusions made by the LLM (web               cal dimension refers to differences in their temporal per­
+appendix B). We also compared interview summaries              spectives. These contextual dimensions operate across the
+generated by the tool against summaries written by one co-     research process, as cultural research is iterative and recur­
+author prior to employing the LLM tool. This kind of           sive (McCracken 1988; Peirce 1903/1934; Sætre and Van
+participant observation and iterative use of GenAI provided    de Ven 2021). That is, researchers are continually interpret­
+additional insight into the usefulness of these tools and      ing and analyzing data as they are collecting them and
+triangulation with insights from informants and our own        tacking back and forth between their emergent insights,
+analysis.
+
+                                                 TABLE 1
+    COLLABORATING WITH AI TOOLS IN CONSUMER CULTURE RESEARCH
+
+Tradeoffs related to cultural research              Opportunities to use GenAI (engage)         Challenges that limit potential uses (avoid)
+Theoretical context                                                                           Theorizing
+Differences in Agency:                         Summarizing                                    Conduct deep theoretical analysis to gener­
+Researcher lens as goal-driven perspective     Summarize surface-level themes with a given
+                                                                                                ate novel insights
+  (vs. AI "view from nowhere")                   set of empirical materials
+                                               Limiting                                       Faking
+Embodied context                               Summarize prior research with a given set of   Generate individual interview data for
+Differences in Embodiment:
+Value of embodied, holistic human experi­        articles                                       analysis
+                                                                                              Misrepresenting
+  ence (vs. composite experience)              Compositing                                    Voice consumers unobservable in training
+                                               Voice "typical" consumer response
+Empirical context                              Extending                                        data
+Differences in Epistemology:                   Use AI to extend human abilities such as lan­
+Deep familiarity with data (vs. unfamiliarity                                                 Replacing
+                                                 guage barriers of researchers and/or         Replace human cultural analysts (potential to
+  with empirical context)                        informants
+                                               Querying                                         miss emergent themes)
+Historical context                             Investigate AI as a subject in its own right   Interviewing
+Differences in Historical Context:                                                            Use AI as an interviewer/moderator for cul­
+Understanding cultural moments (vs. flatten­   Dialoguing and Discovering
+                                               Help researchers dialogue with a known set       tural insights
+  ing to universal, ahistorical content)
+                                                 of data and use AI to discover new themes    Speculating
+                                                 in data that may have been missed by the     Analyze new or emergent cultural practices
+                                                 researcher
+                                               Connecting                                       and meanings
+                                               Incorporate multi-modal data and connect
+                                                 cultural discourses between datasets
+                                               Corroborating
+                                               Corroborate codings and findings established
+                                                 through other methods
+
+                                               Accessing
+                                               Help investigate historical worlds, including
+
+                                                 hard to access, disappearing, or rare per­
+                                                 spectives (e.g., languages)
+EPP AND HUMPHREYS                                                                                                                             35  Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+prior assumptions, theory and data triangulation between         "view from nowhere," and do not pursue autonomous,
+rounds of data collection. For exposition, we highlight the      goal-driven behavior, when combined with human goal-
+most pressing opportunities and challenges within each           driven interaction, they achieve a more limited kind of
+contextual dimension and enumerate the human-AI collab­          effectuated agency.
+oration practices most related to that dimension (appendix
+C).                                                                Opportunities for Summarizing Data. Consumer cul­
+                                                                 ture researchers carefully weigh this basic difference in
+Theoretical Context: Researcher Lens versus AI                   agency when assessing opportunities to collaborate with AI
+"View from Nowhere"                                              for analysis. The "view from nowhere" means that LLMs
+                                                                 have impressive abilities to summarize a large body of text
+   The first tradeoff pertains to differences in agency          and synthesize it for researchers. For example, one industry
+between humans and GenAI. Consumer culture researchers           researcher notes that using AI is efficient for aggregating
+hold clearly positioned points of view, meaning they are         interviews to provide a basic summary (table A2, T1) and
+directed by theoretical lenses, goals, background intentions,    argues that while similar aims were previously achieved
+and knowledge that motivate the research (Denzin 1997).          with "highlighting and post-it notes," GenAI provides
+In contrast, because LLMs represent a generalized form of        affordances for summarizing "high-level themes" quickly
+language, highly abstracted from one particular text, they       and effectively in ways that are tractable to managers and
+present what Lorraine Daston calls the "view from                researchers. Several of our informants similarly referred to
+nowhere"--a scientific distance that represents its object as    LLM tools like ChatGPT as glorified "word calculators,"
+a perspective-less totality (Daston 1992; Daston and             and noted their efficiency. In this way, researchers thought
+Galison 2021; see also Nagel 1986). For this reason, there       of GenAI as a very competent assistant for gathering and
+is a tradeoff in terms of agency--the directed, theoretical      summarizing common themes.
+rationale and drive for conducting the research versus an
+abstracted, generalized point of view. For human research­         Opportunities for Conceptualization Through
+ers, insights develop from "friction" between prior assump­      Limiting. Participants also described using GenAI for a
+tions and data that machines purposively lack. Cultural          practice we call "limiting"--uploading a curated set of aca­
+analysts bring their own initial research questions, prior       demic articles to an LLM tool and then using it to better
+assumptions from immersion in the phenomenon, broad              understand key concepts and theories, conceptualize
+reading of literature, and their own embodied human expe­        research questions, identify gaps in prior research, and
+riences to the analysis. Apart from its training dataset and     understand how their investigation might fit with relevant
+encoded algorithms and parameters, GenAI does not have           concepts. One academic researcher, for example, discusses
+its own questions, assumptions, or goals (Barandiaran and        using AI assistants during the conceptualization phase of
+Almendros 2024). While researchers can feed in these             research to summarize different theoretical perspectives
+motivations through advanced programing and give the             and draw contrasts amongst them (T2). Yet, he also reports
+tool roles through prompts, the output of LLMs is produced       that asking the LLM about a concept without limiting pro­
+without a specific, independent goal or theoretical perspec­     duces results that are "too course" and that results are best
+tive in mind.                                                    when a limited set of articles, around 25, are uploaded.
+                                                                 Several informants reported the usefulness of tools like
+   As such, humans possess relative autonomous agency            ChatGPT, Notebook, or Research Rabbit for aiding with
+while computers' agency is embedded in human design              preliminary literature reviews and related tasks.
+and human interaction in use, what philosophers have
+called "midtended agency." For example, one analysis of            Challenges for Deep Theorizing. While GenAI produ­
+LLM agency concludes that, "a LLM fails to meet neces­           ces coherent top-line summaries (Schmitt 2024), cultural
+sary and sufficient conditions for autonomous agency in          analysts often generate insights through the friction
+the light of embodied theories of mind: the individuality        between the data and the researcher's prior assumptions,
+condition (it is not the product of its own activity, it is not  understandings of theory, (non)resonant experiences, and/
+even directly affected by it), the normativity condition (it     or evolving research questions. While prompting can offer
+does not generate its own norms or goals), and, partially        points of friction to improve GenAI's analysis, deeper
+the interactional asymmetry condition (it is not the origin      interpretations will not spontaneously emerge. As Mattias,
+and sustained source of its interaction with the environ­        an academic researcher notes, "The tool won't ask research
+ment)" (Barandiaran and Almendros 2024, 1). However, as          questions by itself. It wouldn't select contexts, and it
+these authors note, "ChatGPT should be characterized as          wouldn't be interested in anything. It's just a tool." That is,
+an interlocutor or linguistic automaton, a library-that-talks,   researchers are goal-driven to seek out cultural insights that
+devoid of (autonomous) agency, but capable to engage per­        resonate with a theoretical perspective and have meaning
+formatively on non-purposeful yet purpose-structured and         within a system of conducting research for a particular
+purpose-bounded tasks." Thus, while LLMs present a               purpose.
+36                                                                       JOURNAL OF CONSUMER RESEARCH
+
+   For example, consider the differences between the AI-                 sensing, humans draw from a holistic, embodied experi­                      Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+generated summary of an interview we conducted along­                    ence that, as many philosophers have argued, is prior to,
+side our own summary (table 2), written prior to using AI                and emerges with, cognition (Husserl 1900/2008; Johnson
+(and without the anticipation of using it).                              2015, 2017; Kant 1781/1998). "Sensing is that living com­
+                                                                         munication with the world that makes it present to us as the
+   The AI summary contains descriptions of the basic                     familiar place of our life. The perceived object and the per­
+points from the interview, but a marked distinction exists               ceiving subject owe their thickness to sensing" (61).
+from what is recorded in the researcher summary. The lat­                Although GenAI can be trained on representations of sense
+ter comes from an informed cultural analyst with knowl­                  experience and can therefore synthetically report embodied
+edge and experience that form the basis for questions or                 experiences, it cannot directly or autonomously sense the
+assumptions that create friction in our reading and interpre­            world (Dreyfus 1992).
+tation of the data. It draws from theoretical perspectives
+(e.g., the use of the word "dialogic") that are relevant to the             In addition, each human individual has a linked biogra­
+research goal (i.e., understanding the collaborative research            phy of embodied experience (Kant 1781/1998). This bio­
+process). It also tacks between theory and data iteratively              graphical identity both shapes how researchers see the
+(e.g., "lacks embodied experience--`context, nuance,                     world and merits protection when participating in research.
+texture'"). The excerpts chosen as examples in the                       Equally, GenAI has a "biography" comprised of its training
+researcher summary move the interpretation forward. In                   data and parameters, and our informants noted the impor­
+particular, Johann described cultural analysts' intense                  tance of understanding this biography to interpret the out­
+"analytical work" and "embodied experience," which we                    put. Judging the elements that constituted the interlocular
+found to be productive ideas for looking at and linking to               is necessary to determine what it can and cannot "voice".
+other insights and theories.                                             We should also note that when humans iteratively use
+                                                                         embedded tools like computers, there is a sense in which
+Embodied Context: The Value of Embodied,                                 the distinction between human and computer is not always
+Human Experience versus Composite Experience                             clearly delineated, and indeed technologies can shape our
+                                                                         perception and abilities by offering different affordances
+   The next tradeoff comes from the ways in which humans                 that enable different ways of experiencing the world
+and AI are differently embodied. As Merleau-Ponty points                 (Benjamin 1935/1969; Haraway 1987; McLuhan 1994).
+out, sensing is different from knowing (1945/2013). In
+
+                              TABLE 2
+    SUMMARY VERSUS INTERPRETATION MEMO
+
+GenAI summary of interview                                                                      Researcher summary of interview
+
+Johann is skeptical about using AI, particularly tools like ChatGPT, in  Very low-tech process. Analysis and interpretation are dialogic--in
+  qualitative research. He differentiates between quantitative and         conversation with co-authors, but also with theory and the literature
+  qualitative research, arguing that while AI may assist in analyzing      to help with sense making and trying out his thinking. Would he do
+  quantitative data, it falls short when it comes to understanding the     this with AI? Yes, he tried this, but it was not as interesting as talk­
+  complexities of qualitative research. Johann believes that the quali­    ing with another person: "Answers are so cookie cutter. . .rather
+  tative research process involves a non-reductionist approach, which      superficial. . .mimics in a cheap, unreflective way, and it spits out
+  requires human interpretation and understanding that AI cannot           these sound bites."
+  replicate.
+                                                                         Interviewing AI versus human: ChatGPT lacks embodied experi­
+He expresses concerns about the credibility of AI-generated data,          ence--"context, nuance, texture" (25 minutes). Comparisons
+  stating that they lack the richness and context derived from true        between a human's biographical experience and how AI generates
+  human experiences. Furthermore, Johann emphasizes the impor­             content. Data that come from a "life lived" are not comparable to the
+  tance of the researcher's role in conducting qualitative research,       "lumped together kind of language" from synthetic respondents
+  highlighting that the interpretive understanding that comes from a       (38 minutes). People underestimate the theory development proc­
+  manual, thoughtful process cannot be easily replaced by AI.              ess and the "analytical work" it takes (32 minutes). Ethical concerns
+                                                                           about feeding interview data into AI, so has not tried. He doubts AI
+Overall, he views the attempts to use AI as a means of generating          could develop a theoretical framework that would match what
+  qualitative data or analysis as inadequate, noting that ethical con­     researchers do. ChatGPT gives you "coffee table book style" of
+  cerns also play a role in his reluctance to embrace these technolo­      themes rather than a complex and sophisticated analysis
+  gies fully.                                                              (35 minutes).
+
+                                                                         For other types of analysis like topic modeling, he doesn't trust AI--"I
+                                                                           don't know what it's doing. It's like a black box." Cultural research is
+                                                                           "non-reductionist, intentionally" (42 minutes). Johann noted using AI
+                                                                           to generate synthetic interviews is "ridiculous" and that generating
+                                                                           interviews is also just unethical (fake data).
+EPP AND HUMPHREYS                                                                                                                              37  Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+  Opportunities for Compositing Consumer                          to say that this is data that gives me any substantial insight"
+Perspectives. From this background, many informants               (Mattias). Participants often mentioned the spontaneity and
+spoke about their experiences using AI to produce a syn­          uniqueness present in human interviews. One academic
+thetic composite of data. AI's ability to synthesize multi­       researcher, for example, notes that in an interview, humans
+ple, individual biographies presents the possibility of           adjust their language to the speech context, including
+voicing a "typical" consumer from the data. One academic          power dynamics between the speaker and listener and the
+researcher in sociology explains that she regards GenAI as        objective environment: "Yeah, we take into account the
+a synthesis or composite of multiple perspectives, similar        social. There's our own psychology. There's the physical
+to a character in a novel or movie (E1). In this way, output      environment, context, the object environment."
+can be used to "capture schemas" which are fundamental            Considering these dynamics explains distinctions between
+to work in cultural sociology. From this perspective, LLMs        human and synthetic AI respondents. As Mattias continues,
+are a useful tool for synthesizing a large and varied set of      "The difference is that real people. . .are socialized into a
+interview or media data and presenting the most common            live world. They grow up in this setting. They have experi­
+cultural schemas in an efficient way.                             ence based on their surroundings and environments, and
+                                                                  you can meet them in a coffee shop, and you can see how
+   Similarly, professionals found synthetic audiences useful      they drink, and how they sit, and how they speak. . .and
+for message testing, again, with a careful eye to the             you will assess everything that's going on in their
+"biography" of the AI, as constituted by its training data set    lives. . .Try to really understand the person with the back­
+and parameters. Arya, an industry researcher, explains that       ground where they're coming from. You cannot do that
+synthetic audiences are "only as good as their data," (E2)        with ChatGPT." Human participants are situated within
+and that researchers require a sound understanding of the         their own cultural contexts with their own embodied expe­
+training data to assess the value of GenAI and its potential      riences. Cultural analysts use the background and contex­
+uses (see also Ibrahim and Voyer 2024). Some academics            tual details within individual interviews to help situate
+even go on to conclude that tools like ChatGPT are not            participants within their lifeworld and broader cultural
+appropriate for serious academic use at all due to the opac­      milieu (Pollio, Henley, and Thompson 1997). This helps
+ity in their training datasets (E3).                              the researcher make sense of that human's life experiences
+                                                                  and understand how they articulate the connections among
+  Opportunities for Extending Human Capabilities.                 them.
+GenAI can also be used to overcome linguistic barriers of
+the embodied human researcher or subject. For example,               Conversely, the contextual details provided by GenAI
+although LLM performance may be unequal across lan­               may be artificially based on typical arrangements of lan­
+guages (He et al. 2024; Khondaker et al. 2024; Li et al.          guage meant to simulate the way humans construct a story
+2024), LLaMa 3 supports English, Spanish, French,                 or explanation, but are often devoid of cultural meaning.
+German, Italian, Portuguese, Dutch, Russian, Chinese,             Johann, an academic researcher, echoes this sentiment, not­
+Japanese, and Korean (Touvron et al. 2023). In addition,          ing that ChatGPT lacks embodied experience. Interview
+some LLMs may be a better fit with some languages than            data from a human come from a "life lived" that is not
+others (e.g., Deepseek and Mandarin). The ability to collect      comparable to the "lumped together kind of language"
+and interpret data from participants who speak different          from synthetic respondents. Contrasting human interviews
+languages undoubtedly enables better access to a wider            with experiments in "interviewing" AI, Johann says "They
+range of consumers, making new perspectives more acces­           [human interviews] were more embodied experience. I
+sible to researchers, even if cultural and linguistic context     mean, I'm not a phenomenologist. . .And I don't want to be
+may still be missing or indeterminant (Koc 2025; Quine            misunderstood here as like, `oh, the authentic human expe­
+2013).                                                            rience! The only thing that matters.' But it really does. If
+                                                                  you haven't really done this thing, and you haven't really
+  Challenges of Faking Individual Consumer                        kind of experienced it. . .[ChatGPT can't]. . ..like, just emu­
+Perspectives. Despite proposed uses for generating syn­           late. So the context, the nuance, the texture, everything that
+thetic transcripts (Arora, Chakraborty, and Nishimura,            comes from a person's real life and sort of context with­
+2025), consumer culture researchers did not see value in          in. . .is so much more complex. . .than anything I've seen
+generating AI transcripts for analysis in lieu of individual      from ChatGPT."
+interviews. All our participants felt it did not make sense to
+use AI as a tool to approximate a biographical human's               When using synthetic audiences for industry, researchers
+experience, especially without context about that person's        also noted limitations with "interviewing" synthetic sub­
+life. As one academic researcher who generated AI tran­           jects seeking cultural insights. As Ash explains, data from
+scripts for comparison purposes said, "[Chat]GPT is as            human informants tend to be "messier" than the synthe­
+good as a boring person. . .where the respondent just isn't       sized output of an LLM and humans miss the "light bulb
+saying a lot of interesting things. . .I found it very difficult  moments" of discovery. Ash continues, "And if you're fab­
+                                                                  ricating that stuff, . . .you miss some of the really
+38                                                                                       JOURNAL OF CONSUMER RESEARCH           Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+fascinating things that are yet to come that you can only        transformer models on which generative AI is built embed
+find by observing people in their home, or watching them         cultural and social biases, she advocates using them to
+in a moment of tension or engaging with communities in           study these biases, while acknowledging the limitations of
+nightclubs or cafes. . .none of which there is precedent for     using them to "explain the underlying social system that
+on the Internet. So where? Where can AI find that stuff?         produces them" (E7). Thus, it makes sense to continually
+Which is why I think AI is a great tool, but it can't ever be    study AI as a cultural object, seeking a better understanding
+the sole solution" (E4). In this sense, the fact that indexical  of how it configures its world and mapping its interactions
+details are missing makes the research inauthentic at best       with humans and other objects. As we will later discuss, AI
+(Grayson and Martinec 2004) and false, at worst. At base,        presents meaningful possibilities for exploring historical
+the researchers we interviewed did not view generated tran­      perspectives that may be otherwise inaccessible or lost.
+scripts as a valid substitute for empirical work or empirical
+truth. The fact that synthetic respondents cannot experience     Empirical Context: Deep Familiarity versus
+the corporeal, contradictory, emotional messiness of a           Unfamiliarity with Empirical Context
+human life restricts its possibilities to generate interpret­
+able data that resonate.                                            The third tradeoff comes from epistemological differen­
+                                                                 ces between AI and humans. We simply know different
+  Challenges of Misrepresenting Unobserved Voices.               things and have different ways of knowing. Whereas
+Given that GenAI is limited by its own biography,                GenAI can account for a vast set of textual material and
+researchers expressed caution when using AI to voice             use it as context, humans have a more embodied, narrow,
+marginalized consumers or develop insights where training        and perhaps deeper set of "training data." This means that
+data may be insufficient. One industry researcher articu­        humans have a different type of familiarity with the empiri­
+lates this challenge by noting that some groups of consum­       cal context being studied and engage in the process of tack­
+ers are under-represented in datasets in general and that        ing between data and theory through processes of
+attempting to draw conclusions about them via AI is--            abduction and induction, not just deduction (Peirce 1903/
+given the limitations in the training data--doubly harmful       1934). Due to these epistemological differences, GenAI
+(E5); not only are views of marginalized consumers less          may emphasize output that is out of keeping with what a
+represented in textual data, but these under-representations     human observer would consider relevant knowledge
+are further compounded by mis-representing them with AI          (Campo-Ruiz 2025).
+tools. Importantly, then, researchers cannot draw conclu­
+sions about unobserved data--that is, conversations or              On the one hand, LLM's decontextualization from a spe­
+viewpoints that are neither available nor well-represented       cific cultural context or community under investigation can
+in the public domain, nor specifically introduced through        help researchers step outside their assumptions by present­
+training data. For this reason, researchers stressed the need    ing novel relationships, meanings, and concepts that may
+for alignment between the AI's biography and the research        not occur to them because of how they are positioned. On
+question or topic of study, even suggesting that this fit        the other hand, this empirical decontextualization can also
+should be evaluated in the review process. For example,          present a limitation for researchers interested in under­
+one academic researcher notes the limitations of AI tools in     standing the rich nature of their context, strategically
+producing discourse outside of their training set, such as       selecting informants, and asking specific, directed ques­
+what people might say privately to a therapist (E6). While       tions to human participants. Here researchers noted it was
+informal use of AI may be fine in these contexts, the aca­       important to fill in the gaps with knowledge from the
+demic researcher notes, "if I'm a reviewer or an AE look­        empirical context.
+ing at a paper that their entire case is built on that, I'm
+going to look for more, for some human corroborating               Opportunities for Dialoguing and Discovering with a
+evidence." Close examination and transparency of the             Known Set of Data. Many informants noted the impor­
+training data are required for cultural approaches, which is     tance of being familiar with their data. For example, one
+why the "black box" platforms (e.g., ChatGPT), in which          common practice was to use LLMs to dialogue with an
+the training data are relatively obscure, are limited in their   interview or set of interviews by feeding the transcript into
+utility.                                                         a protected sandbox (to ensure privacy) and then querying
+                                                                 the tool on underlying themes, opinions, and summaries of
+  Opportunities for Querying AI as a Subject. Despite            the informant's perspective on the topic under investiga­
+reservations with using AI to voice unobserved consumers,        tion. These investigations seemed to take the form of itera­
+researchers encouraged studying AI in its own right, query­      tive human-technology interactions in which the
+ing an LLM trained broadly on many types of cultural             computational analysis produced output for human sense­
+materials to better understand how we might use it as cul­       making and the human then conducted further computa­
+tural researchers, as Kathryn articulates (E7). Noting that      tional analysis after interpreting the output. Kathyrn
+EPP AND HUMPHREYS                                                                                                                           39  Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+explains that while researchers often use computational        ask it [to generate a code list], it just produces like 10,000
+methods to study large-scale patterns, they can also make      random words. . .it's so useless. . .The problem is, it doesn't
+the analytical choice to "zoom in" on negative cases,          have a lot of context.. . .So much of it is just extraneous
+explore heterogeneity, and evaluate smaller, niche patterns.   because it lacks the context that if you were to use it in a
+"We want the islands of difference. . . .And so this ability   GPT like you'd be able to provide more context, and it
+to zoom in and out is exactly what computational methods       would do a better job."
+allow us to do. Large language models are a little tricky
+because it all gets garbled into one thing right. So we have     Opportunities for Corroborating Codings. Participants
+to approach it with a lot of care" (EP1). In this way, ana­    also mentioned the use of LLMs for corroborating coding,
+lysts use GenAI to get closer to the data through queries      using the tool as an additional judge as one would in con­
+and, in some cases, provoke new insights. Just as the tool     tent analysis. Serge notes: "You give it a spreadsheet with
+can create distance from the data (by summarizing), the        a bunch of fields that each have a text that you wanted to
+human analyst, as Kathryn observes, can manipulate the         analyze. And you say, how emotional was this person? Tell
+technology to "zoom in" on particular aspects of the data.     me on a scale of one to 7. . .Explain your thinking. So you
+For example, one use that arose in our interactions with       can basically treat it like a human judge of open ended lan­
+GenAI and that participants reported was to ask the tool for   guage. And it does a great job." Depending on the cultural
+common themes and then to query it on the quotations           approach and the research design, some researchers felt
+underlying that theme (web appendix C). This allowed us,       comfortable using GenAI as an additional corroborator of
+as researchers, to understand both the conceptual takeaway     themes and codes. Given the right training data, LLMs are
+and the empirical evidence to support it. Further, because     potentially useful for coding even relatively complex con­
+the tools can draw from a large dataset, researchers can use   cepts. Than et al. (2024) show that LLMs can code a con­
+them to gain better recall of relevant data from informants    cept like inequality in news media with precisions ranging
+that may be overlooked due to the attentional limitations of   from an average of 68 to 71.5, depending on if the
+human researchers.                                             researcher supplies a definition. Most surprisingly, the
+                                                               LLM did worse when a human provided a definition than
+   GenAI's lack of empirical context also presents the         with no definition or an LLM-provided definition.
+opportunity to potentially discover themes that may other­
+wise be missed in the data, and, with researcher direction,      Challenges of Replacing Human Analysts. Novel cul­
+to amplify less prominent voices in the data. These "islands   tural insights can also emerge as the researcher gets deeper
+of difference," as Kathryn calls them, can provoke mean­       into the empirical context. These often come during the
+ingful insights that may be buried in the data. Another aca­   tedium of conducting research (e.g., transcribing, meeting
+demic researcher explains that she will take a quick look at   informants) or through frustrations and inefficiencies in the
+the machine synthesis and use it for inspiration (EP2).        process. These are hard to anticipate. What researchers
+Despite these clear advantages, researchers also stressed      sometimes miss when using GenAI is the emergent aspects
+the importance of evaluating the LLM output in light of        of research. GenAI may code textual data more efficiently
+familiarity with the underlying content and empirical          than humans, but ceding the coding process entirely to AI
+context.                                                       may push consumer culture researchers further away
+                                                               from--rather than closer to--the data. Because LLMs lack
+  Opportunities for Connecting Between Multi-Level             deep immersion in the empirical context, there is the poten­
+Datasets. Along with this use of AI to solicit data exam­      tial to miss spontaneous points of departure that drive new
+ples and discover new themes, researchers also mentioned       insights. As such, ensuring that human researchers are still
+using tools for automating part of the coding process and      making sense of the data and maintaining deep familiarity
+for relating cultural discourses in media with interview       is critical to mitigate this risk. One industry researcher, for
+data. Depending on the abilities of the LLM, archival data     instance, noted how critically their analysis depends on
+can come in different, non-textual media such as image,        direct observations and detecting what is unusual or inter­
+video, or audio. Just as prior work has used dictionary-       esting (EP3). Thus, by relying exclusively on computa­
+based analysis to link cultural discourses with interviews     tional output, researchers risk missing emergent themes. As
+and consumer practices (Arsel and Bean 2013; Humphreys         discussed, research is a goal-directed endeavor where less
+2010), GenAI can be used to connect discourses in archival     common, but important and novel observations drive
+documents or other sources with individual interviews. For     insights. If only relying on the tool for summation, one's
+example, a tool like MAXQDA or Atlas.ti can be trained         insights can become relatively "flat", unexciting, and
+with archival documents to understand cultural codes and       "boring" precisely because they come from algorithms
+schemas and then suggest codes when analyzing other            guided by probability (i.e., what is the next most likely
+forms of data such as interviews. Despite this ability, as     word given a certain training set). In this sense, machines
+Jason notes "the AI kind of is built into Atlas.ti. . .if you  are not a replacement for human analysts because human
+40                                                                                      JOURNAL OF CONSUMER RESEARCH            Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+researchers have a greater sense of the empirical context in    sensitivity to historical context. For example, one academic
+which the cultural data were collected and an eye for what      from sociology describes the potential for using GenAI for
+insights might be novel or interesting from a cultural per­     comparative historical analysis. Because language is histor­
+spective. This emergent process in analysis also exists         ically contextual, she notes, dictionaries that represent lin­
+when researchers are selecting informants, sampling for         guistic and cognitive dimensions like concreteness
+theoretical coverage, including negative cases, formulating     (Brysbaert et al. 2014) change over time. One use, she
+questions, or other considerations that come with deep          argues, could be to train GenAI tools on historical data to
+knowledge of the empirical context.                             create historically relevant dictionaries rather than diction­
+                                                                aries relevant only to contemporary language (H1). Taking
+  Challenges of Interviewing with AI as Moderator.              on this task would require careful training of the model
+Although some have noted the potential for AI to serve as       with archival materials from that historical time period to
+an interviewer or moderator (Arora et al. 2025), several of     provide the LLM with the necessary context to assess
+our informants raise its limitations for gaining cultural       meaning.
+insights. One industry researcher observes that the best
+kind of qualitative analysis involves being sensitive to the       Further considering historical context, researchers have
+context and observing consumers and families over an            used LLMs to preserve languages that may be disappearing
+extended period of time, actively adapting to the context.      (Koc 2025). For example, some researchers have trained
+In doing so, "you almost become an extended part of their       GenAI on Khoisan languages in Africa, achieving accuracy
+world for a little while, and they trust you as custodians of   rates of 85% (Ajuzieogu 2022). The research, however,
+their story" (EP4). Researcher skill for observing tensions     notes the challenges of preserving historical and cultural
+between theory and data and vigilance for opportunities to      context as well as phonetic aspects of the language (e.g.,
+probe comes from ways of knowing that are natural for           clicking) and concerns of data sparsity with languages that
+humans but may be foreign to AI moderators. In sum, our         have fewer than 1,000 speakers. As such, using GenAI to
+participants felt that differences in what humans and AI        voice historical perspectives and preserve language is an
+know--and even their ways of knowing--lead to tradeoffs         inspiring possibility, but the practice remains somewhat
+regarding empirical context. While there are possibilities to   speculative and comes with significant challenges in main­
+leverage the vast textual knowledgebase of AI, there is also    taining cultural fidelity.
+valuable contextual knowledge that human researchers
+bring to the process.                                             Challenges of Speculating About Emergent Cultural
+                                                                Phenomena. A lack of situated, historical context can
+Historical Context: Understanding Cultural                      also limit GenAI's understanding of newly emergent cul­
+Moments versus Flattening to Ahistorical                        tural phenomena, practices, language, and associations.
+Context                                                         Consumer culture researchers select contexts that reveal
+                                                                boundary conditions of existing theory, map out the dimen­
+   The final tradeoff considers differences in accounting for   sions of new cultural constructs, or trace the evolution of
+historical context. Cultural data are situated, not only in     practices (Price, Moisio, and Arnould 2024). Speaking to
+individual, embodied experience, but also in historical con­    the importance of relevance in the current cultural moment
+text (Hall 2016; Holt 2004). That historical context--as a      in analysis, Ash notes that brands are part of culture, and
+collection of ideas, meanings, and practices bound by time      their success depends on cultural relevance, which is con­
+periods and socio-political moments--helps cultural             tinually changing (H2). These new developments, they
+researchers interpret consumer thoughts and behavior, and       argue, cannot be easily produced by AI: "culture is messy,
+indeed is often the focus of investigation (Askegaard and       and culture happens at the fringes and culture happens on
+Linnet 2011).                                                   the streets and in people's homes and is so embedded in
+                                                                behavior and rituals." Using GenAI has limits for under­
+   Because LLMs synthesize data over large expanses of          standing cultural practices that are emergent and new.
+time, historical specificity can become obscured or             Because AI's historical lens is based on prior associations,
+"flattened." This flattening can also mask cultural differen­   new associations may be challenging for it to interpret and
+ces across communities, national cultures, social classes,      identify.
+races, or gender. The tradeoffs here pertain to cultural ana­
+lysts' reliance on historical context to challenge, extend, or      PRINCIPLES AND GUIDELINES FOR
+build new theory, whereas GenAI's homogenization of his­                 COLLABORATING WITH AI
+torical context puts these types of insights at risk.
+                                                                   Consumer culture researchers' collaboration practices
+  Opportunities for Accessing Historical or Disappearing        with AI are evolving, and there is considerable variation in
+Worlds. Researchers can attempt to overcome historical          researcher norms, knowledge, and capability. Despite the
+flattening by training and querying LLMs to prompt more
+EPP AND HUMPHREYS                                                                                                                            41  Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+variability and uncertainty about future practices, we out­     of hyperparameters and other model attributes in shaping
+line a practical framework that details researchers' collabo­   the output.
+ration practices during different stages of the research
+process and offer four general principles with related prac­    Guideline 3: Protect the Privacy of Embodied
+tical guidelines based on the practices uncovered in our        Research Participants
+findings (table 3): transparency, provenance, privacy, and
+verisimilitude.                                                    The researchers we interviewed expressed concerns
+                                                                about the ethics of using GenAI tools that may violate pri­
+Guideline 1: Document GenAI Collaboration in                    vacy. Practices that involve uploading materials collected
+the Research Process for Transparency                           from human subjects are particularly relevant when
+                                                                addressing privacy. Due to the nature of qualitative data
+   Methodological transparency is paramount in order to         that potentially contain explicit and implicit identifying
+understand how and when researchers collaborated with           information, consumer culture researchers bear additional
+GenAI throughout the research process. For practices like       responsibility to protect the privacy of study participants,
+summarizing, compositing, and dialoguing, for example, it       as aligned with ethics review boards and human subject
+is helpful to understand what tools were used to synthesize     protections. As such, researchers should consider how pro­
+perspectives and pull examples from the dataset. Just as        tections are guaranteed, report these in the research, and
+consumer culture researchers document the use of other          communicate to participants how their data will be used
+tools and practices in their research (e.g., coding), knowing   and protected. For this, many of our participants suggested
+when and how AI tools were employed sheds light onto the        using walled AI "sandboxes," LLMs that did not use input­
+methodology for analyzing data. To address this priority,       ted data for further training and where data could be hosted
+we suggest describing each stage of the research where          on a local computer (Gemma). Understandably, hosting an
+GenAI was used, including providing example prompts and         LLM on one's own computer may be too resource intensive
+output (web appendices B and C). For example, researchers       for many researchers. However, institutions such as univer­
+can report example prompts as one might offer examples of       sities and associations may provide walled AIs for faculty
+interview questions. While it is important to avoid overly      and student use (e.g., Microsoft Copilot for education). In
+onerous or detailed reporting of informal AI use, it is help­   terms of data ethics, some researchers also noted that they
+ful to know the substantive ways that AI was used in the        preferred using an LLM trained on publicly available data
+research. For example, if a tool was used to create codes       sources to those that likely have proprietary training sour­
+or return examples in the dataset, this is valuable methodo­    ces like ChatGPT (Brown et al. 2020).
+logical context for understanding the research and as a
+model to other researchers. The aim of such reporting is        Guideline 4: Ensure Verisimilitude in Findings
+methodological transparency and pedagogy rather than            Based on GenAI
+replication.
+                                                                   Assessments of verisimilitude are essential when consid­
+Guideline 2: Report the Provenance of the                       ering consumer culture findings that employ GenAI.
+Training Data and Include Model Documentation                   Practices such as summarizing and compositing depend on
+                                                                the fidelity of insights to the underlying data and benefit
+   Consumer culture researchers should attend to and report     from providing examples side-by-side with aggregations.
+provenance of the GenAI model's training data and other         In addition, AI tools have been observed to return false fac­
+model specifics. While provenance is important for nearly       tual information, or "hallucinate" when asked for particular
+all practices, it may be particularly valuable to interpreting  citations or historical occurrences, and so researchers
+findings when researchers practice extending, querying,         should use caution when using GenAI for conceptualiza­
+and accessing. To assess its potential uses and situate the     tion or other tasks that require indexical precision.
+data within the cultural context, researchers need to under­    Consumer culture researchers should continually evaluate
+stand the training data--its origins, transformations, time     how GenAI tools might shape their interpretations to
+periods, and contents. For example, some academic tools         ensure they resonate with participants' lived experiences
+and industry proprietary tools provide descriptions of the      and cultural contexts. Here, it is important to provide both
+training data, including the age of the data, which con­        interpretation and evidence from the underlying raw data to
+sumer segments they represent, and other basic informa­         illustrate. Further, researchers can ensure verisimilitude
+tion. Understanding training data provenance helps              through the common practice of triangulating across data
+researchers not only assess potential claims but also evalu­    sources and researcher interpretations (Arnould and Epp
+ate limitations of the data and interpretations. Noting the     2006; Belk et al. 1989).
+AI model and training data is also helpful to assess the role
+                                                                     TABLE 3                                                                                  42
+                   RESEARCH PRINCIPLES AND GUIDELINES FOR COLLABORATING WITH GENAI
+
+Research stage     Researcher-AI collaboration practices                                                     Principle                  Checklist
+Literature review                                                                                         Transparency     · Describe interactions with
+                   Researcher role:                       Limiting       AI role:                          Provenance
+Data generation/   Upload a curated set of articles and                  Summarize a theory or body        Transparency        AI at the conceptualization
+   collection                                                                                                                  stage of the research
+                     use them to conceptualize key                         of research, identify differ­      Privacy
+Data analysis and    concepts and gaps in the                              ences between concepts          Transparency    · Include documentation on
+   interpretation    literature                                                                                                the training set of the tool,
+                                                                                                           Verisimilitude      if available
+                   Researcher role:                       Compositing    AI role:
+                   Upload set of empirical data (e.g.,      Extending    Produce responses of a                            · Describe which AI tools
+                                                            Querying                                                           were used to composite
+                     transcripts, scraped data,                            "composite" consumer from                           consumers or translate
+                     researcher memos)                                     data                                                materials
+                   Researcher role:                                      AI role:
+                   Design and iterate research instru­                   Translate instruments and                         · Use a walled-AI assistant
+                     ments to make data more                               data to extend researchers'                         to prevent breaches of
+                     accessible                                            embodied abilities (e.g.,                           confidentiality and protect
+                                                                           overcome language                                   participant privacy
+                   Researcher role:                                        barriers)
+                   Ask questions of AI to learn how                      AI role:                                          · Describe which AI tools
+                                                                         Respond to researcher                                 were used to summarize,
+                     the tool operates using its default                   queries                                             discover, dialogue, con­
+                     training dataset                                                                                          nect, or corroborate (web
+                                                                                                                               appendix C)
+                   Researcher role:                       Summarizing    AI role:                                                                             JOURNAL OF CONSUMER RESEARCH
+                   Upload set of empirical data (e.g.,     Discovering   Summarize surface-level                           · Include example prompts
+                                                                                                                               and responses
+                     transcripts, scraped data,             Dialoguing     themes
+                     researcher memos)                     Connecting                                                      · Note if process was one
+                   Researcher role:                       Corroborating  AI role:                                              step or required AI train­
+                   Upload set of empirical data (e.g.,      Accessing    Generate bottom-up analysis                           ing, role taking, etc.
+                     transcripts, scraped data,
+                     researcher memos); query on                           to discover new themes and                      · For AI-generated materi­
+                     themes that may have been                             to ensure researcher inter­                         als, provide additional evi­
+                     missed                                                pretations reflect overall                          dence from raw data or
+                   Researcher role:                                        themes                                              material
+                   Upload collected data and ask ana­                    AI role:
+                     lytical questions (e.g., negative                   Respond with instances of
+                     cases, quotes)                                        data, summary themes, or
+                   Researcher role:                                        direct responses
+                   Train with different sets of (poten­                  AI role:
+                     tially multi-modal) documents to                    Connect cultural discourses
+                     understand cultural codes                             between datasets via auto­
+                   Researcher role:                                        mated coding
+                   Triangulate findings that have been                   AI role:
+                     established through other                           Generate analysis to provide
+                     methods                                               alternative and substantiat­
+                   Researcher role:                                        ing measures of textual data
+                   Upload set of training data, known                    AI role:
+                     to the researcher (e.g., archival                   Generate content dictionaries
+                     documents from endangered                             for comparative archival
+                     language)                                             analysis
+
+                   Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+EPP AND HUMPHREYS                                                                                                                            43  Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+Choosing an AI Assistant                                        practices (Giesler 2006; Kozinets, Patterson, and Ashman
+                                                                2017), and the legitimation of new technologies (Mimoun,
+   Given the opportunities and challenges of collaborating      Trujillo-Torres, and Sobande 2022) provides firm ground
+with AI at different stages of the research process,            for making contributions to understanding how AI is inte­
+researchers may also want to be mindful of which tool they      grated into consumer life and culture. We anticipate that,
+choose (see web appendix A for a list of tools). Some tools     as the tools evolve, consumer culture researchers will find
+like Claude may have a better writing style; some may           GenAI not only a fascinating object of research (Huang
+more transparently provide underlying sources like              and Rust 2025) but also explore its potential for investigat­
+Perplexity; and some, like ChatGPT, may be more adept at        ing new questions (Puntoni, De Freitas, and Nave 2025)
+handling different types of data (e.g., video, audio, etc) or   and interacting with data in imaginative and productive
+have superior reasoning skills. For example, one of our         ways.
+informants mentioned using Notebook during the research
+design phase to conduct the literature review, but then              DATA COLLECTION STATEMENT
+switching to LLaMa to analyze empirical datasets.
+Attributes like privacy protection (e.g., "walled" vs. un-         Data were collected via video-conferencing platform
+"walled" assistants), the initial training dataset, the inclu­  between November 15, 2024, and February 15, 2025,
+sion of sources alongside output, and the parameters for        by both authors. Both authors analyzed the data. Data
+content selection may be equally important considerations       are archived on the University of Wisconsin-Madison
+when selecting a tool. Different hyperparameters--the           research drive and files are stored on both authors'
+"rules" put into place to structure the content that AI gener­  computers.
+ates--may make some AI tools more apt than others for
+different research purposes (Arnold et al. 2024;                                    APPENDIX A
+Talamadupula 2024). For example, one important hyper­
+parameter is what AI researchers call "temperature," the                             TABLE A1
+randomness of the output that the tool will produce. For                   PARTICIPANT PROFILES
+idea generation, researchers may desire more randomness
+to produce more divergent ideas. For data analysis,             Pseudonym       Research role     GenAI tools mentioned
+however, researchers may want an AI with a "lower" tem­         Arya
+perature so that the tool will accurately reflect the data it   Mia        Senior Research Mgr,   Copilot, Proprietary
+was given. Other parameters like "frequency penalty"                          Tech company           tools
+and "top probability" control the diversity of the language     Nate
+produced by the tool and may therefore be useful to                        Cultural Insights      Proprietary tools
+consider when generating composite views from synthetic         Ash           Analyst, Marketing
+audiences.                                                                    Research Supplier   Proprietary tools,
+                                                                Mattias                              ChatGPT, Claude,
+                    CONCLUSION                                             Cultural Insights         Elicit
+                                                                Kathryn       Analyst, Marketing
+   Consumer culture theory has primarily developed with a       Maxime        Research Supplier   Proprietary tools,
+researcher-as-instrument paradigmatic lens where the goal       Serge                                Copilot, Gemini,
+of analysis is a deep understanding that explains the cul­      Valetta    Cultural Insights         ChatGPT
+tural phenomenon under investigation. To this end, GenAI                      Analyst, Marketing
+tools are only more efficient when they facilitate, rather      Jason         Research Supplier   MAXQDA, Research
+than obfuscate, human sensemaking in the research proc­         Johann                               Rabbit AI, Q-Insights,
+ess. The trade-offs we identify are meant to provide con­                  Academic researcher       ChatGPT
+sumer culture researchers with a starting point for                           (CCT)
+assessing what they gain and lose when collaborating with                                         Gemma, LLaMa, LLMs
+these tools.                                                               Academic researcher
+                                                                              (Sociology)         ChatGPT
+   There is also potential for consumer culture researchers
+to continue studying the norms, values, practices, and dis­                Academic researcher    LLMs
+courses that surround AI as a subject in its own right.                       (CCT)
+Undoubtedly, prior work on the role of technological dis­                                         MAXQDA, Perplexity AI
+courses in structuring consumer behavior (Giesler 2008;                    Academic researcher
+Kozinets 2008), consumer creativity with technology                           (text analysis)     ChatGPT, LLaMa
+(Mu~niz and Schau 2005), its integration with consumer
+                                                                           Academic researcher    ChatGPT to experi­
+                                                                              (CCT--LLM text         ment; None for
+                                                                              analysis)              research--manual
+                                                                                                     only
+                                                                           Academic researcher
+                                                                              (CCT)
+
+                                                                           Academic researcher
+                                                                              (CCT)
+44                      JOURNAL OF CONSUMER RESEARCH
+
+Referencea  APPENDIX B
+T1
+T2                                                                      TABLE A2                                      Participant      Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+                                                                                                         Ash, Industry Researcher
+E1                                                                 DATA EXCERPTS                         Jason, Academic Researcher
+
+E2                                                             Data                                      Kathryn, Academic Researcher
+E3
+E4          "It's a tool for efficiency. . .We can be so much more productive in the way that we         Arya, Industry Researcher
+               synthesize and analyze and aggregate our data points. I think putting interview           Kathryn, Academic Researcher
+E5             transcripts through an LLM. . .and asking AI, `what are the big points?'. . .You          Ash, Industry Researcher
+E6             end up with these really high-level, chunky themes, and it means you're not
+               going through the weeds of 35 pages of transcripts, highlighting and post-it              Arya, Industry Researcher
+               notes, you know, it really kind of speeds up that whole process."                         Serge, Academic Researcher
+
+            "At the conceptualization stage. . .what is that definition? Or how does this idea dif­
+               fer from that? Or what is this theory about? Would it work differently? In place of
+               this? It's [AI] become the partner in that conversation and trying to figure out puz­
+               zles with data and theory in real time." "You can probably do like 25 articles
+               before it starts just giving you responses that aren't all that useful.". . . "you have
+               to set it towards those micro tasks, and if you ask it to do too much at once, it
+               just doesn't. It can't put it all together. . .As humans, we could see the micro, but
+               we could also see the larger picture. . .It doesn't have that ability to work back
+               and forth right now."
+
+            "I would regard it [synthetic respondent] as a synthesis of whatever is the training
+               data. . .It's not as a person, right? It's a synthesis of the discourse that is happen­
+               ing around whatever you're capturing in your training data. It's not representa­
+               tive. It's not anything that you would hear actually come out of the mouth of a
+               real human in history. What these models are good at is they're synthesizing
+               across a large amount of data. . .They capture schemas. Which is a concept we
+               use a lot in cultural sociology. . .We do this all the time. We even do it in films,
+               right? We create a composite character that's like a lot of different stories, but
+               for dramatic purposes, we put them into one character. . .it's an ideal type. It's lit­
+               erally a synthetic thing."
+
+            "One of my commitments is to ensure that the synthetic audience is built effectively [for
+               the brand] But. . . I'm not doing that until I know what's under the hood. . .the thing
+               with synthetic audiences is that they are only as good as the data. . .I want to make
+               sure that data is comprehensive, that it's up to date. I just want to know what its per­
+               spective is based on, which is the research we fed into it, and that I do not know
+               yet. . .We're trying to understand what are the use cases and we'll experiment."
+
+            "With [Chat]GPT, we have no idea. No idea what's in them. And so now, I think we
+               can't use them seriously as academics at all."
+
+            "What we're looking for is idiosyncrasies and outliers and those interesting stories
+               that can help brands or creative agencies think differently about their audien­
+               ce. . .those Aha! Those light bulb moments that completely challenge you and
+               break down your [assumptions]. . .And if you're fabricating that stuff, you miss
+               the magic. . .People don't make sense, and culture is incredibly messy. . .[using
+               AI respondents] means that you miss some of the really fascinating things that
+               are yet to come that you can only find by observing people in their home, or
+               watching them in a moment of tension or engaging with communities in night­
+               clubs or cafes. . .speaking to young people who are doing really interesting and
+               cool stuff, none of which there is precedent for on the Internet. So where?
+               Where can AI find that stuff? Which is why I think AI is a great tool, but it can't
+               ever be the sole solution."
+
+            "All of these models are trained on data. And so it's really, really critical the quality
+               of the data that it's trained on. . .If they're unrepresented in the data, then how
+               could we possibly imagine that we would like--I don't understand. . .To me it
+               seems like just incredibly counter [intuitive]. . .underrepresented communities
+               haven't even had a chance yet to have the complexity and nuance explored and
+               revealed. . ..that's a terrible place to start."
+
+            "If I asked it. . .what would people say to a therapist? Well, it doesn't really observe
+               what people say to therapists, or how therapists speak back to individuals. It could
+               probably find examples of that, because people talk about pretty personal things
+               in social media, you know, to each other and their online communities. But that
+               might be different. . .And so my kind of overarching notion is that. . .Everything
+               depends on the corpus that it's trained on. . .because until then we don't know how
+               good it is. So for a thumb-to-the-wind test? Fine for generating human language.
+               [But] if I'm a reviewer or an AE looking at a paper that their entire case is built on
+               that, I'm going to look for more, for some human corroborating evidence."
+EPP AND HUMPHREYS                                                                                                                    45
+                                                                                                                 Participant
+Referencea                                                    TABLE A2 (CONTINUED)                  Kathryn, Academic Researcher
+E7
+                                                               Data                                 Kathryn, Academic Researcher
+                                                                                                                                         Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+            "Now, what we do know is these models--starting from topic models to word               Valetta, Academic Researcher
+               embedding models to the transformer revolution to large language models--we          Mia, Industry Researcher
+               know what they do really well and the way social scientists use them is they         Ash, Industry Researcher
+               embed all of the cultural and social biases that are there in language, right? This
+               is how they're being used. What are gender stereotypes and how [have] they           Kathryn, Academic Researcher
+               changed over the past 100 years? We use word embeddings to do that. . . .
+               Because of the distributional hypothesis, they pick up on all of these cultural and  Ash, Industry Researcher
+               social biases and relationships that are embedded in us as humans. . .This is
+               what makes them powerful. . .if we don't know the data that's in these models,
+               we can't do what we as social scientists want to do which is use them to explain
+               the underlying social system that produces them."
+
+EP1         "If you've ever done a large-scale network analysis. . .you keep only the big nodes
+
+            right? You literally just say all of the small stuff goes away. That's a choice we
+
+            make. We don't have to do that. We can look at the small stuff, and that's what
+
+            computational methods allow us to do. We can move the lens around and say
+
+            no, actually we want to look at the small little pocket over here and there's
+
+            enough data that we can do that because the data is so large. . .So the fact that
+
+            we have so much data, of course, it means that we could do it in a dumb way
+
+            and pick up the dominant patterns and just say here's the major patterns. We
+
+            don't have to. We can say no, we want the negative cases. We want the islands
+
+            of difference. We want the weird thing that happens over here. . .And then we
+
+            can zoom back out and say that's how this weird little thing fits into the bigger
+
+            picture. And so this ability to zoom in and out is exactly what computational
+
+            methods allow us to do. Large language models are a little tricky because it all
+
+            gets garbled into one thing right. So we have to approach it with a lot of care.
+
+            There's no data provenance. There's no labels. We don't know who wrote what.
+
+            So it gets a little bit tricky, and we have to be really careful now as we're
+
+            approaching large language models not to allow these systems to get swamped
+
+            by the dominant patterns. . .We absolutely can train it and start to focus on nega­
+
+            tive cases and smaller things. . .We can do whatever we want with them."
+
+EP2         "[You] have a very quick look at how the machine synthesizes
+
+            everything. . .Sometimes it inspires you."
+
+EP3         "Our analysis depends on making observations. . .What seems unusual. . .in what
+
+            someone said? How someone said what they showed you in the explanation of
+
+            something that was said?. . .That's what triggers, that becomes an analytic
+
+            observation that I haven't seen a platform be able to deliver."
+
+EP4         "We've got so many problems that we could be fixing with AI. Why are we focusing
+
+            on this one?. . .It's a real skill to be able to moderate effectively to keep the cli­
+
+            ents' objectives top of mind, kind of analyzing as you go, reading the room,
+
+            being empathetic to the participant, jumping around a discussion guide. . .Any of
+
+            the best qualitative researchers will write a discussion guide, and absolutely
+
+            never follow it. Because you [are guided] by the participant, and I'm not sure yet
+
+            how AI could do that effectively. And then, when it comes to actually being in the
+
+            room with a participant and kind of observing cultural rituals, cultural moments,
+
+            spending time with families over extended periods of time. You almost become
+
+            an extended part of their world for a little while, and they trust you as custodians
+
+            of their story."
+
+H1          "[The Brysbaert concreteness dictionary] works well for contemporary data
+
+            because it's trained on mostly contemporary data. . .built by crowd workers
+
+            today. . ..[But] we're talking about historical text, so that was a problem. . .making
+
+            this historical argument, it's not the best method that we could do because we
+
+            really should be using historical stuff but we can't. . .Words change meaning
+
+            quite quickly right? `Literally' doesn't mean now what it used to mean 10 years
+
+            ago or 20 years ago. . .The actual meaning has almost completely flipped. . .so
+
+            words change over time. . .I would love to. . .make a crowdsourced dictionary
+
+            about concreteness scores from 1860. I think that's another use of these
+
+            models."
+
+H2          ". . .understanding the importance of culture on brands, and the idea that whether
+
+            brands understand it or recognize it or not, culture exists. They are part of cul­
+
+            ture, and really that the success of a brand is tied to this idea of cultural rele­
+
+            vance and their ability to understand the way that people are working and
+
+            operating in their everyday life. . .and the fact that culture is messy, and culture
+
+            happens at the fringes and culture happens on the streets and in people's
+
+            homes and is so embedded in behavior and rituals." (Ash)
+
+aT, theoretical; E, embodied; EP, empirical; H, historical.
+46                                                                                      JOURNAL OF CONSUMER RESEARCH                Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+                    APPENDIX C                                        Research, ed. Rajiv Grover and Marco Vriens, Thousand
+                                                                      Oaks, CA: Sage Publications, 51-82.
+           GLOSSARY OF RESEARCHER-AI                            Arora, Neeraj, Ishita Chakraborty, and Yohei Nishimura (2025),
+             COLLABORATIVE PRACTICES                                  "AI-Human Hybrids for Marketing Research: Leveraging
+                                                                      Large Language Models (LLMs) as Collaborators," Journal
+Summarizing: Researchers use GenAI to summarize                       of Marketing, 89 (2), 43-70.
+surface-level themes with a given set of empirical              Arsel, Zeynep and Jonathan Bean (2013), "Taste Regimes and
+materials.                                                            Market-Mediated Practice," Journal of Consumer Research,
+                                                                      39 (5), 899-917.
+Limiting: Researchers use GenAI to summarize a theory or        Arvidsson, Adam and Alessandro Caliandro (2016), "Brand
+body of research from a given set of uploaded articles.               Public," Journal of Consumer Research, 42 (5), 727-48.
+While it may be possible to do this without uploading par­      Askegaard, Søren and Jeppe Trolle Linnet (2011), "Towards an
+ticular articles, our informants found that limiting the set          Epistemology of Consumer Culture Theory: Phenomenology
+produced more targeted, deeper summaries of the research.             and the Context of Context," Marketing Theory, 11 (4),
+                                                                      381-404.
+Compositing: Researchers use GenAI to produce the               Barandiaran, Xabier E. and Lola S. Almendros (2024),
+response of a "typical" consumer that is a composite of pre­          "Transforming agency. on the mode of existence of large lan­
+viously entered materials, which may include interviews or            guage models," arXiv, preprint: not peer reviewed. https://
+archival documents such as message board chats or social              doi.org/10.48550/arXiv.2407.10735.
+media posts.                                                    Belk, Russell W., Melanie Wallendorf, and John F. Sherry Jr.
+                                                                      (1989), "The Sacred and the Profane in Consumer Behavior:
+Extending: Researchers use GenAI to extend their embod­               Theodicy on the Odyssey," Journal of Consumer Research,
+ied abilities (e.g., language barriers).                              16 (1), 1-38.
+                                                                Benjamin, Walter (1935/1969), "The Work of Art in the Age of
+Querying: Researchers ask questions of AI to learn how the            Mechanical Reproduction," Illuminations, New York:
+tool operates using its default training dataset at large.            Schocken Books.
+                                                                Berger, Jonah and Grant Packard (2022), "Using Natural
+Dialoguing: Researchers ask questions of data they have               Language Processing to Understand People and Culture," The
+collected and uploaded using GenAI.                                   American Psychologist, 77 (4), 525-37.
+                                                                Berger, Jonah, Ashlee Humphreys, Stephan Ludwig, Wendy W.
+Connecting: Researchers use GenAI to connect cultural                 Moe, Oded Netzer, and David A. Schweidel (2020), "Uniting
+discourses between datasets. For example, one may feed in             the Tribes: Using Text for Marketing Insight," Journal of
+archival documents to train the tool and then have the tool           Marketing, 84 (1), 1-25.
+suggest codes for an interview dataset.                         Brown, Tom, Benjamin Mann, Nick Ryder, Melanie Subbiah,
+                                                                      Jared D. Kaplan, Prafulla Dhariwal, and Arvind Neelakantan
+Discovering: Researchers use GenAI to generate bottom-                (2020), "Language Models Are Few-Shot Learners,"
+up analysis of data in order to discover new themes and to            Advances in Neural Information Processing Systems, 33,
+ensure that their interpretations represent overall themes.           1877-901.
+                                                                Brysbaert, Marc, Amy Beth Warriner, and Victor Kuperman
+Corroborating: Researchers use GenAI to triangulate find­             (2014), "Concreteness Ratings for 40 Thousand Generally
+ings that have been established through other methods. For            Known English Word Lemmas," Behavior Research
+example, researchers may use AI to assign codes to data               Methods, 46 (3), 904-11.
+that has also been coded by a human researcher or research      Campo-Ruiz, Ingrid (2025), "Artificial Intelligence May Affect
+assistant.                                                            Diversity: Architecture and Cultural Context Reflected
+                                                                      through ChatGPT, Midjourney, and Google Maps,"
+Accessing: Researchers ask the GenAI tool to access a per­            Humanities and Social Sciences Communications, 12 (1),
+spective from a limited set of training data, known to the            1-13.
+researcher (e.g., historical letters from 1880 to 1920,         Carley, Kathleen (1994), "Extracting Culture through Textual
+archival documents from endangered language).                         Analysis," Poetics, 22 (4), 291-312.
+                                                                Coskuner-Balli, Gokcen (2020), "Citizen-Consumers Wanted:
+                    REFERENCES                                        Revitalizing the American Dream Myth in the Face of
+                                                                      Economic Recessions," Journal of Consumer Research, 47
+Ajuzieogu, Uchechukwu, C. (2022), "Multimodal GenAI for               (3), 327-49.
+      African Language Preservation: A Framework for Language   Daston, Lorraine (1992), "Objectivity and the Escape from
+      Documentation and Revitalization," doi:10.13140/                Perspective," Social Studies of Science, 22 (4), 597-618.
+      RG.2.2.23144.99842.                                       Daston, Lorraine and Peter L. Galison (2021), Objectivity,
+                                                                      Princeton: Princeton University Press.
+Arnold, Christian, Luka Biedebach, Andreas Kupfer, and Marcel   Denzin, Norman K. (1997), Interpretive Ethnography:
+      Neunhoeffer (2024), "The Role of Hyperparameters in             Ethnographic Practices for the 21st Century, Thousand Oaks,
+      Machine Learning Models and How to Tune Them," Political        CA: Sage.
+      Science Research and Methods, 12 (4), 841-8.              Dreyfus, Hubert L. (1992), What Computers Still Can't Do: A
+                                                                      Critique of Artificial Reason, Cambridge, MA: MIT Press.
+Arnould, Eric J. and Amber M. Epp (2006), "Deep Engagement
+      with Consumer Experience: Listening and Learning with
+      Qualitative Data," in The SAGE Handbook of Marketing
+EPP AND HUMPHREYS                                                                                                                                   47  Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+Ertimur, Burc¸ak and Gokcen Coskuner-Balli (2015), "Navigating         Khondaker, Md Tawkat Islam, Numaan Naeem, Fatimah Khan,
+      the Institutional Logics of Markets: Implications for Strategic        Abdelrahim Elmadany, and Muhammad Abdul-Mageed
+      Brand Management," Journal of Marketing, 79 (2), 40-61.                (2024), "Benchmarking llama-3 on Arabic Language
+                                                                             Generation Tasks," in Proceedings of The Second Arabic
+Fournier, Marcel (2006), Marcel Mauss: A Biography, Princeton,               Natural Language Processing Conference, 283-97.
+      NJ: Princeton University Press.
+                                                                       Koc, Vicent (2025), "GenAI and Large Language Models in
+Giesler, Markus (2006), "Consumer Gift Systems," Journal of                  Language Preservation: Opportunities and Challenges,"
+      Consumer Research, 33 (2), 283-90.                                     arXiv e-prints, preprint: not peer reviewed. January 20,
+                                                                             https://doi.org/10.48550/arXiv.2501.11496.
+Giesler, Markus (2008), "Conflict and Compromise: Drama in
+      Marketplace Evolution," Journal of Consumer Research, 34         Kozinets, Robert V. (2008), "Technology/Ideology: How
+      (6), 739-53.                                                           Ideological Fields Influence Consumers' Technology
+                                                                             Narratives," Journal of Consumer Research, 34 (6), 865-81.
+Grayson, Kent and Radan Martinec (2004), "Consumer
+      Perceptions of Iconicity and Indexicality and Their Influence    Kozinets, Robert, Anthony Patterson, and Rachel Ashman (2017),
+      on Assessments of Authentic Market Offerings," Journal of              "Networks of Desire: How Technology Increases Our Passion
+      Consumer Research, 31 (2), 296-312.                                    to Consume," Journal of Consumer Research, 43 (5), 659-82.
+
+Hall, Stuart (2016), Cultural Studies 1983: A Theoretical History,     Li, Zihao, Yucheng Shi, Zirui Liu, Fan Yang, Ninghao Liu, and
+      ed. Jennifer Daryl, Slack and Lawrence Grossberg, Duke                 Mengnan Du (2024), "Language Ranker: A Metric for
+      University Press.                                                      Quantifying LLM Performance Across High and Low-
+                                                                             Resource Languages," arXiv preprint arXiv:2404.11553, pre­
+Holt, Douglas B. (2004), How Brands Become Icons: The                        print: not peer reviewed. https://doi.org/10.48550/arXiv.
+      Principles of Cultural Branding, Cambridge, MA: Harvard                2404.11553.
+      Business Press.
+                                                                       Luri, Ignacio, Hope Jensen Schau, and Bikram Ghosh (2024),
+Haraway, Donna (1987), "A Manifesto for Cyborgs: Science,                    "Metaphor-Enabled Marketplace Sentiment Analysis,"
+      Technology, and Socialist Feminism in the 1980s,"                      Journal of Marketing Research, 61 (3), 496-516.
+      Australian Feminist Studies, 2 (4), 1-42.
+                                                                       McCracken, Grant (1988), The Long Interview, Newbury Park,
+He, Yun, Di Jin, Chaoqi Wang, Chloe Bi, Karishma Mandyam,                    CA: Sage.
+      Hejia Zhang, Chen Zhu, Ning Li, Tengyu Xu, Hongjiang Lv,
+      Shruti Bhosale, Chenguang Zhu, Karthik                           McLuhan, Marshall (1994), Understanding Media: The
+      AbinavSankararaman, Eryk Helenowski, Melanie Kambadur,                 Extensions of Man, Cambridge: MIT Press.
+      Aditya Tayade, Hao Ma, Han Fang, and Sinong Wang
+      (2024), "Multi-If: Benchmarking LLMs on Multi-Turn and           Merleau-Ponty, Maurice (1945/2013), Phenomenology of
+      Multilingual Instructions Following," arXiv, preprint: not             Perception, ed. Donald A. Landes, New York: Routledge.
+      peer reviewed. https://doi.org/10.48550/arXiv.2410.15553.
+                                                                       Mikolov, Tomas, Kai Chen, Greg Corrado, and Jeffrey Dean
+Huang, Ming-Hui and Roland T. Rust (2025), "The GenAI Future                 (2013a), "Efficient Estimation of Word Representations in
+      of Consumer Research," Journal of Consumer Research,                   Vector Space," arXiv, preprint, preprint: not peer reviewed..
+      forthcoming.                                                           https://doi.org/10.48550/arXiv.1301.3781.
+
+Huberman, A. Michael and Matthew B. Miles (1994), "Data                Mikolov, Tomas, Ilya Sutskever, Kai Chen, Gregory S. Corrado,
+      Management and Analysis Methods," in Handbook of                       and Jeffrey Dean (2013b), "Distributed Representations of
+      Qualitative Research, ed. Norman K. Denzin and Yvonna S.               Words and Phrases and Their Compositionality," in Advances
+      Lincoln, Thousand Oaks, CA: Sage, 428-44.                              in Neural Information Processing Systems 26 (NIPS 2013),
+                                                                             ed. C.J. Burges, L. Bottou, M. Welling, Z. Ghahramani, and
+Humphreys, Ashlee (2010), "Semiotic Structure and the                        K.Q. Weinberger, Red Hook: Curran Associates, Inc.,
+      Legitimation of Consumption Practices: The Case of Casino              3111-9.
+      Gambling," Journal of Consumer Research, 37 (3), 490-510.
+                                                                       Mimoun, Laetitia, Lez Trujillo-Torres, and Francesca Sobande
+Humphreys, Ashlee and Rebecca Jen-Hui Wang (2018),                           (2022), "Social Emotions and the Legitimation of the
+      "Automated Text Analysis for Consumer Research," Journal               Fertility Technology Market," Journal of Consumer
+      of Consumer Research, 44 (6), 1274-306.                                Research, 48 (6), 1073-95.
+
+Husserl, Edmund (1900/2008), Logical Investigations Vol. 1, ed.        Mu~niz, Albert M.Jr. and Hope Jensen Schau (2005), "Religiosity
+      Dermot Moran, and Park Milton, Oxford, UK: Routledge.                  in the Abandoned Apple Newton Brand Community,"
+                                                                             Journal of Consumer Research, 31 (4), 737-47.
+Ibrahim, Elida Izani and Andrea Voyer (2024), "The Augmented
+      Qualitative Researcher: Using GenAI in Qualitative Text          Nagel, Thomas (1986), The View from Nowhere. New York, NY:
+      Analysis", SocArXiv, preprint: not peer reviewed. https://doi.         Oxford University Press.
+      org/10.31235/osf.io/gkc8w.
+                                                                       National Center for State Courts (2025), "AI Sandbox Offers a
+Jones, Julie Scott (2010), "Origins and Ancestors: A Brief History           Testing Ground for Judges and Court Staff to Explore
+      of Ethnography," in Ethnography in Social Science Practice,            Technology," Last Accessed February 25, 2025. https://www.
+      ed. Julie Scott-Jones and Sal Watt, London: Routledge,                 ncsc.org/newsroom/at-the-center/2025/ai-sandbox-offers-a-
+      29-43.                                                                 testing-ground-for-judges-and-court-staff-to-explore-
+                                                                             technology.
+Johnson, Mark (2015), "Embodied Understanding," Frontiers in
+      Psychology, 6, 875.                                              Nelson, Laura K. (2020), "Computational Grounded Theory: A
+                                                                             Methodological Framework," Sociological Methods &
+Johnson, Mark (2017), Embodied Mind, Meaning, and Reason:                    Research, 49 (1), 3-42.
+      How Our Bodies Give Rise to Understanding, Chicago, IL:
+      University of Chicago Press.                                     Novak, Thomas P. and Donna L. Hoffman (2023), "Automation
+                                                                             Assemblages in the Internet of Things: Discovering
+Kant, Immanuel (1781/1998), Critique of Pure Reason, ed. Paul                Qualitative Practices at the Boundaries of Quantitative
+      Guyer and Allen W. Wood, Cambridge: Cambridge                          Change," Journal of Consumer Research, 49 (5), 811-37.
+      University Press.
+48                                                                                          JOURNAL OF CONSUMER RESEARCH                                                           Downloaded from academic.oup.com/jcr/article/52/1/32/8132295 by James Madison University user on 12 August 2026
+
+Ong, Walter J. (1982), Orality and Literacy: The Technologizing of  Sætre, Alf Steiner and Andrew Van de Ven (2021), "Generating
+      the Word, London and New York: Taylor and Francis Group.            Theory by Abduction," Academy of Management Review, 46
+                                                                          (4), 684-701.
+Ong, Walter J. (1998), "Digitization Ancient and Modern:
+      Beginnings of Writing and Today's Computers: (Part One),"     Schmitt, Bernd (2024), "Transforming Qualitative Research in
+      Communication Research Trends, 18 (2), 4-20.                        Phygital Settings: The Role of GenAI," Qualitative Market
+                                                                          Research: An International Journal, 27 (3), 523-6.
+Peirce, Charles Sanders (1903/1934), Collected Papers of Charles
+      Sanders Peirce, Vol. 5, Cambridge, MA: Harvard University     Stone, Philip, Dexter Dunphy, Marshall Smith, and Daniel Ogilvie
+      Press.                                                              (1966), The General Inquirer: A Computer Approach to
+                                                                          Content Analysis, Cambridge, MA: MIT Press.
+Pollio, Howard R., Tracy B. Henley, and Craig J. Thompson
+      (1997), The Phenomenology of Everyday Life: Empirical         Strauss, Anselm L. and Juliet M. Corbin (2014), Basics of
+      Investigations of Human Experience, Cambridge: Cambridge            Qualitative Research: Grounded Theory Procedures and
+      University Press.                                                   Techniques, 4th ed., Newbury Park, CA: Sage.
+
+Price, Linda L., Risto Moisio, and Eric J. Arnould (2024),          Talamadupula, Kartik (2024), "A Guide to LLM
+      "Making Context Matter Even More: Tools for Leveraging              Hyperparameters." Last Accessed February 25, 2025. https://
+      Contexts for Insights," in Handbook of Qualitative Research         symbl.ai/developers/blog/a-guide-to-llm-hyperparameters/.
+      Methods in Marketing, ed. Russell W. Belk and Cele Otnes,
+      Elgar, 471-85.                                                Than, Nga, Leanne Fan, Tina Law, Laura K. Nelson, and Leslie
+                                                                          McCall (2024), "Updating `The Future of Coding':
+Puntoni, Stefano, Julian De Freitas, and Gideon Nave (2025),              Comparing Generative Large Language Models to Other
+      "Using LLMs for Big and Small Ideas in Consumer                     Text Analysis Methods," preprint: not peer reviewed. https://
+      Research," Journal of Consumer Research, Forthcoming.               doi.org/10.31235/osf.io/wg82k_v1
+
+Puntoni, Stefano, Rebecca Walker Reczek, Markus Giesler, and        Touvron, Hugo, Thibaut Lavril, Gautier Izacard, Xavier Martinet,
+      Simona Botti (2021), "Consumers and Artificial Intelligence:        Marie-Anne Lachaux, Timothee Lacroix, Baptiste Roziere,
+      An Experiential Perspective," Journal of Marketing, 85 (1),         Naman Goyal, Eric Hambro, Faisal Azhar, Aurelien
+      131-51.                                                             Rodriguez, Armand Joulin, Edouard Grave, and Guillaume
+                                                                          Lample (2023), "LLaMA: Open and Efficient Foundation
+Quine, Willard Van Orman (2013), Word and Object, Cambridge,              Language Models," arXiv, preprint: not peer reviewed.
+      MA: MIT Press.                                                      https://doi.org/10.48550/arXiv.2302.13971.
+
+Roldan, Arturo Alvarez (2002), "Writing Ethnography.                Weber, Klaus (2005), "A Toolkit for Analyzing Corporate
+      Malinowski's Fieldnotes on Baloma," Social Anthropology/            Cultural Toolkits," Poetics, 33 (3-4), 227-52.
+      Anthropologie Sociale, 10 (3), 377-93.
+
+© The Author(s) 2025. Published by Oxford University Press on behalf of Journal of Consumer Research, Inc. All rights reserved.
+
+For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via
+the Permissions link on the article page on our site--for further information please contact journals.permissions@oup.com.
+Journal of Consumer Research, 2025, 52, 32-48
+https://doi.org/10.1093/jcr/ucaf014
+Gen AI and Consumer Research
+

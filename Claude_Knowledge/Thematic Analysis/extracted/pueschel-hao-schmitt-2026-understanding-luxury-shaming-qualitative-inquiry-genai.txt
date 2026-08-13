@@ -1,0 +1,931 @@
+                                 Journal of Business Research 206 (2026) 115996
+                                   Contents lists available at ScienceDirect
+
+                          Journal of Business Research
+
+                         journal homepage: www.elsevier.com/locate/jbusres
+
+Understanding luxury shaming: a multi-study exploration using qualitative
+inquiry and generative AI
+
+Julia Pueschel a , Shuyi Hao b,* , Bernd Schmitt c
+
+a NEOMA Business School, 59 Rue Pierre Taittinger, Reims 51000, France
+b ICN Business School, Paris Campus, 92800; University of Lorraine, CEREFIGE, F-54000 Nancy, France
+c Columbia University, 116th and Broadway, New York, NY 10027, USA
+
+ARTICLE INFO             ABSTRACT
+
+Keywords:                This research investigates luxury shaming--the social act of assigning negative judgment or disapproval to in­
+Luxury                   dividuals who engage in luxury consumption. We explore how consumers shame others, and how shamed
+Artificial intelligence  consumers experience, feel, and cope with such judgments. Methodologically, we integrate traditional qualita­
+Luxury shaming           tive techniques and innovative Generative Artificial Intelligence (GenAI) analysis. Results reveal that luxury
+Coping strategies        shaming is enacted through distinct shaming categories found in the marketplace--intellectual, economic, socio-
+Conspicuous consumption  cultural, physical/aesthetic, and ethical/moral--and triggers emotional responses ranging from embarrassment
+Quiet luxury             to guilt and anxiety. Furthermore, we identify three bipolar coping dimensions--stylistic, social-interactive, and
+Luxury marketing         value-related--each encompassing two distinct strategies that consumers use to maintain engagement with
+                         luxury consumption. Key contributions include expanding the luxury consumption literature by examining its
+                         negative consequences, advancing the understanding of shaming-related emotions in consumer behavior, and,
+                         methodologically, demonstrating GenAI's role in complementing qualitative analysis.
+
+1. Introduction                                                                 actions of shamers and responses of the shamed unfold within a broader
+                                                                                performative marketplace. While research has examined the symbolic,
+    Recent headlines across global media platforms have highlighted a           identity and competence-related positive aspects of luxury consumption
+growing phenomenon impacting the luxury industry, brands, and con­              (Han et al., 2010; Pandelaere & Shrum, 2020; Wang, 2022), relatively
+sumers: "luxury shaming." An article on Medium (June 2024), a social            little attention has been given to the negative discourse on luxury as well
+publishing platform, provocatively asks readers, "Luxury shaming: are           as the negative judgments and social backlash that luxury consumers
+you being judged for your taste?" Luxury Tribune (July 2024) warns of           may face, the emotional consequences of such backlash, and the stra­
+"Blame and shame in luxury consumption," while Jing Daily (September            tegies luxury consumers use to cope with it.
+2024), the leading digital publication on luxury in China, observes, "The
+concept of `luxury shaming' is gaining traction, as overt displays of               To address this gap, we investigate three interrelated research
+wealth become less socially acceptable amid economic headwinds."                questions: (1) How is luxury shaming expressed in marketplace
+Most importantly, the 2024 Bain & Company luxury market report,                 discourse? (2) How do shamers draw on the content of that discourse to
+arguably the most important annual trade publication on luxury, high­           shame others? (3) How do shamed consumers experience, cope with,
+lights the resurgence of "luxury shame," as consumers increasingly              and respond to luxury shaming? Study 1 examines marketplace
+prefer discreet luxury products over overtly branded items (D'Arpizio &         discourse on luxury shaming through a thematic content analysis of
+Levato, 2024).                                                                  negative commentary about the industry, brands, and consumption
+                                                                                practices to identify content categories that might be used as part of
+    In this paper, we address the phenomenon of "luxury shaming,"               consumer judgments. Next, we present two consumer studies: Study 2
+defining it as the social act of assigning negative judgment or disapproval to  investigates how individuals shame others for their luxury purchases
+individuals who engage in luxury consumption. Central to luxury shaming         and how luxury consumers experience such shaming; and Study 3 ex­
+are two interactive roles: those who shame others ("shamers") and the           amines the coping strategies that consumers adopt. Finally, Study 4
+ones who are shamed by others ("the shamed"). We argue that both the            employs a simulation to validate prior qualitative insights and shows
+
+  * Corresponding author.
+     E-mail addresses: julia.pueschel@neoma-bs.fr (J. Pueschel), shuyi.hao@icn-artem.com (S. Hao), bhs1@gsb.columbia.edu (B. Schmitt).
+
+https://doi.org/10.1016/j.jbusres.2026.115996
+Received 18 April 2025; Received in revised form 21 November 2025; Accepted 10 January 2026
+Available online 14 January 2026
+0148-2963/© 2026 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+J. Pueschel et al.                                                            Journal of Business Research 206 (2026) 115996
+
+that they are consequential and relevant.                                     prestige (Eckhardt et al., 2015; Goor et al., 2021; Han et al., 2010; Yao,
+    Our methodology combines traditional qualitative techniques with          2023) and enhanced self-esteem (Lee & Shrum, 2012; Truong & McColl,
+                                                                              2011). Negative experiences, however, have been examined in a frag­
+innovative Generative Artificial Intelligence (GenAI) analysis, using         mented way. For example, studies link luxury to impostor feelings when
+ChatGPT and NotebookLM. We begin with a ChatGPT analysis of the               purchases feel undeserved (Goor et al., 2020; Marder et al., 2024), or
+shaming discourse in the marketplace. Next, we collect qualitative            luxury consumers experience guilt when consumption highlights
+consumer data and iteratively analyze them, employing both standard           inequality or irresponsibility (Amatulli et al., 2020; Kapferer & Valette-
+interpretive methods and GenAI tools. Finally, in a simulated experi­         Florence, 2022).
+ment based on the qualitative data, we generate luxury "personae" using
+GenAI to validate consumer responses to shaming. Together, these                  Another negative emotion that has been tied to luxury is envy. Belk
+studies offer an exploratory, multi-method investigation of this neglec­      (2011) argues that luxury can evoke benign envy, resulting in a desire to
+ted topic within the dark side of luxury.                                     "level up" through emulation of others' possessions, in contrast to ma­
+                                                                              licious envy, which aims to deprive others of their possessions. Empirical
+    This research makes several contributions. First, it expands the lux­     studies demonstrate that benign envy is indeed a stronger predictor of
+ury consumption literature--historically focused on its positive aspects,     the desire to purchase luxury fashion items than malicious envy
+such as status signaling, identity expression, or competence display, by      (Loureiro et al., 2020). On social media, benign envy also prompts
+examining the negative social and emotional ramifications of luxury           positive interactions and self-enhancement actions, while malicious
+purchases. Second, it advances understanding of the psychology of             envy leads to negative interactions with the envied (Miao et al., 2025).
+luxury shaming, including experiences and feelings of shame and guilt.        Finally, consumer envy, together with brand admiration, has positive
+Finally, methodologically, the research demonstrates how GenAI can            effects on emotional brand attachment and brand forgiveness (Joo &
+enhance efficiency, insight, and depth in qualitative and cultural            Kim, 2021).
+research, paving the way for new methodological approaches to study­
+ing consumer phenomena.                                                           While insightful, this work tends to isolate specific emotions or in­
+                                                                              dividual responses (Goor et al., 2020; Kapferer & Valette-Florence,
+2. Conceptualization                                                          2022; Wong et al., 2024). In contrast, our research approaches the
+                                                                              dark side of luxury as part of a more comprehensive and systematic
+    Luxury is defined as "expensive and exclusive products and brands         perspective by shifting the focus to the interpersonal and social dy­
+that are differentiated from other offers based on their exquisite design     namics of luxury shaming. Specifically, we position the emotion of
+and craftsmanship, sensory appeal, and distinct socio-cultural narra­         shame itself, along with related feelings such as guilt, envy, embar­
+tives" (Wang, 2022, p.788). Positioned uniquely at the apex of price and      rassment, anxiety, and other negative emotions, as well as perceptions of
+status hierarchies, luxury products and brands generally serve as             privilege, inequality, and related criticisms, as parts of the broader social
+powerful symbols capable of signaling positive attributes about their         phenomenon of luxury shaming.
+owners.
+                                                                              2.2. The experience of luxury shaming
+    However, the luxury industry and its brands frequently face criticism
+for promoting materialism, overconsumption, and extravagance                      Shame has long been studied across philosophy, psychology, soci­
+(Amatulli et al., 2020). Luxury brands have also been blamed for rein­        ology, and management (Daniels & Robinson, 2019; Riezler, 1943;
+forcing class distinctions (Armitage & Roberts, 2014), contributing to        Scheff, 2000; Shaughnessy, 2018). It is a self-conscious emotion arising
+unsustainable production practices (Bhar et al., 2024), and perpetuating      from a negative self-evaluation and is central to human social experience
+problematic labor conditions (Kapferer & Michaut-Denizeau, 2014).             (Lewis, 1992). Shame often emerges when individuals perceive them­
+Similarly, luxury consumers are often criticized for their consumption        selves as failing to meet personal or social standards. Sociologically,
+patterns (Jung et al., 2024); the effectiveness and impact of shaming on      shame is intertwined with social bonds and reactions to perceived de­
+an individual depend significantly on how that person perceives and           viations from group norms (Scheff, 2000). Psychologically, shame is
+internalizes these judgments (Bates & LaBrecque, 2020).                       related to guilt (Tangney et al., 1996), though they are conceptually
+                                                                              distinct. Guilt emphasizes individual responsibility, whereas shame is
+2.1. Luxury signaling                                                         rooted in perceived failure to meet the expectations of others (Bedford &
+                                                                              Hwang, 2003). This distinction also has cultural implications, with guilt
+    Since Veblen's seminal work (1899), luxury consumption has been           more common in individualistic, Western societies and shame in more
+associated with exclusivity and high social status; with consumers using      social, Eastern contexts (Bedford & Hwang, 2003). Although we do not
+luxury to signal wealth and prestige (Han et al., 2010; Wang & Griske­        address cross-cultural differences, these insights are valuable; they
+vicius, 2014). However, this status-centric, wealth-related perspective       suggest that shame should be the dominant emotion at play, because
+does not fully capture contemporary luxury consumption. Today, luxury         shaming involves a social interaction between shamer and shamed.
+consumers also use high-end purchases to signal competence, knowl­            However, prior research also showed that guilt and shame co-occur
+edge of craftsmanship, refined tastes, and sensitivity to luxury symbol­      (Tangney et al., 1996), and this is what we also find in our studies.
+ism (Wang, 2022). Evaluations of luxury, therefore, extend beyond
+financial means to judgments of taste, authenticity, and responsibility.          Shaming refers to comments and behaviors intended to elicit the
+In addition, consumers also employ alternative signals of status besides      feeling of shame in others (Bates & LaBrecque, 2020). Shaming can
+wealth, including time as a resource, aesthetics, and sustainability          range from subtle social cues of disapproval to outright condemnation
+(Bellezza, 2023).                                                             and serves as a mechanism of social control by reinforcing normative
+                                                                              expectations within communities. A shamer's act of shaming typically
+    Importantly, luxury consumption takes place within a performative         leads to the experience of shame in the target, often accompanied by
+marketplace, where evaluations are visible, socially charged, and sub­        emotions such as anxiety, worry, or anger (Scheff, 2000). Shaming can
+ject to constant scrutiny. These judgments can be distinctly negative and     be purposeful, such as using explicit "naming and shaming" practices, or
+lead to sharp social criticism and disapproval of individuals who engage      unintentional, for example, casually expressing disapproval (Daniels
+in luxury consumption. Given their consumer competencies (Wang,               and Robinson, 2019).
+2022), luxury consumers are likely aware of these judg­
+ments--especially when they are echoed or copied by other consumer­               In luxury contexts, self-involvement takes on heightened significance
+s--which in turn shape how luxury consumers perceive, feel, and react.        because consumption is deeply tied to status, taste, and cultural legiti­
+                                                                              macy (Bourdieu, 1984), defining who is seen as an "authentic" luxury
+    To date, research on luxury has primarily focused on the positive         consumer and who is not (Lamont & Molna´r, 2002). Luxury shaming
+associations of luxury consumption, such as status signaling and social
+
+                                                                           2
+J. Pueschel et al.                                                                                                                   Journal of Business Research 206 (2026) 115996
+
+thus reinforces cultural hierarchies and creates stigma and identity          hybrid design that combines traditional qualitative methods with
+threats, which require active management, leading to emotion-focused          GenAI. As a large language model (LLM), GenAI provides efficient means
+coping strategies (Folkman & Moskowitz, 2004; Lazarus & Folkman,              of accessing information, analyzing qualitative data, and presenting
+1984). In coping theory, stress arises when encounters are appraised as       insights (Wahid et al., 2023). GenAI supported the project in three ways:
+threatening or exceeding one's resources (Folkman et al., 1986; Lazarus       synthesizing marketplace discourse, analyzing qualitative consumer
+& Folkman, 1984). Stressful encounters, such as shaming, trigger both         data (in parallel with human analysis), and simulating an experimental
+emotions and coping efforts: feelings like shame, guilt, or anxiety           scenario. All GenAI-generated outputs were reviewed and validated by
+emerge, and coping strategies are adopted to manage both the situation        human researchers. This hybrid approach leverages the breadth and
+and its emotional impact (Smith, 1989), with effectiveness varying            efficiency of GenAI alongside the contextual understanding, theoretical
+across individuals and contexts (Baker & Berenbaum, 2007). Thus,              framing, and interpretive depth of human expertise, enhancing the
+luxury shaming and coping form an intertwined process: social and             robustness of our findings.
+personal emotions elicited by the stressful shaming encounter directly
+shape the strategies consumers employ to protect their identity and               GenAI, such as ChatGPT (developed by OpenAI) and Gemini
+manage threats.                                                               (developed by Google DeepMind), are LLMs that generate text responses
+                                                                              through natural language processing (Lund et al., 2023; Paul et al.,
+2.3. An overview of the research                                              2023). Their potential for qualitative, language-based data is increas­
+                                                                              ingly recognized (Epp & Humphreys, 2025; Lund et al., 2023; Schmitt,
+    This research aims to systematically investigate the phenomenon of        2024, 2025). Recently, guidelines have been proposed for using GenAI
+luxury shaming. Our research focuses on three interconnected layers of        for cultural analysis (Epp and Humphreys, 2025), which we follow in
+luxury shaming: (1) negative perceptions of the luxury industry, brands,      our research.
+and consumers within the broader marketplace; (2) the judgment con­
+tent categories used by shamers as well as the cognitions and emotions of         In Study 1, we tasked ChatGPT to collate negative perceptions
+the shamed; and (3) coping mechanisms activated when luxury shaming           related to luxury consumption, brands, and the industry, alongside
+occurs. Fig. 1 summarizes this research, with the top row highlighting        pertinent industry examples. In Studies 2 and 3, NotebookLM (a Gemini-
+key insights and the bottom row showing the progression of studies and        powered tool) was used alongside human coding to analyze interview
+methods that generated them. The five shaming catego­                         transcripts, identify recurring themes, and extract insights into how
+ries--Intellectual, Economic, Socio-cultural, Physical/Aesthetic, and         consumers shame others and respond emotionally and cope when being
+Ethical/Moral--are derived from GenAI analysis of marketplace                 shamed. Finally, in Study 4, leveraging the potential of LLMs in simu­
+discourse (Study 1) and confirmed by a qualitative consumer study             lating and predicting real-life responses (Mou et al., 2024; Park et al.,
+(Study 2). Emotions are identified in the same qualitative study (Study       2024), we used NotebookLM and ChatGPT to create 1000 distinct syn­
+2). Finally, three bipolar coping dimensions- stylistic, social-interactive,  thetic personae based on the real consumer interviews in Studies 2 and 3
+and value-related--emerge from another qualitative study (Study 3) and        to simulate luxury consumers' responses when shamed.
+are validated through simulated experimentation (Study 4).
+                                                                                  To address limitations such as hallucinations or irrelevant content
+3. Methodology                                                                (Lund et al., 2023; Methnani et al., 2023; Omar et al., 2025), we
+                                                                              implemented a structured validation process across all studies. We
+    We chose a qualitative methodology because, in the early stages of        independently reviewed AI-generated output for accuracy, relevance,
+exploring a new research topic such as luxury shaming, it provides richer     and research objective alignment. Human-coded data were also checked
+insights into consumer experiences than experimental approaches               for factual accuracy, conceptual fit, and completeness, with disagree­
+(Braun & Clarke, 2014). To extend this, we adopted an innovative              ments resolved through discussion. For Study 4, the review further
+                                                                              included evaluating the simulated personae responses, ensuring that
+                                                                              they reflected realistic personae consistent with the qualitative findings
+                                                                              from earlier studies.
+
+Fig. 1. Main insights emerging from the progression of studies.
+                                               3
+J. Pueschel et al.                                                                                     Journal of Business Research 206 (2026) 115996
+
+4. Study 1: GenAI analysis of shaming discourse in the                           Overconsumption, Artificial Inflation of Value, Over-Production, Gentrifi­
+marketplace                                                                      cation, Social Division, Corporate Arrogance, and Lack of Accessibility.
+
+4.1. Method                                                                          Note that the three domains (consumption, brands, and industry)
+                                                                                 share overlapping content dimensions. Together with GenAI, we
+    To provide a structured understanding of the negative perceptions            consolidated these overlaps into 28 dimensions and grouped them into
+present in the marketplace, we used ChatGPT to identify key shaming              five categories--Intellectual, Economic, Socio-cultural, Physical/
+arguments and present them along several shaming categories. As an               Aesthetic, and Ethical/Moral (see Table 1). To support the marketplace
+LLM, ChatGPT can efficiently identify and analyze large amounts of               realism of the dimensions within each category, we instructed ChatGPT
+textual data (Wachinger et al., 2024). Operationally, we developed and           to provide articles from global newspapers such as The Wall Street
+applied separate prompt sets for each of the three levels of ana­                Journal, The Business Financial Times, and The Guardian Australia;
+lysis--luxury consumption, luxury brands, and luxury industry--to                industry-specific publications such as Luxury Tribune, Cranbourne, and
+ensure that distinct perspectives were captured. At each level, prompts          Vogue Business; and academic sources such as INSEAD Knowledge,
+were designed to retrieve three types of content: (1) brand or product           Rutgers University, as well as books (e.g., Cambridge University Press).
+examples discussed in online sources with verifiable links, (2) real-world
+brand and product cases discussed in credible sources, and (3) quota­                The identified content categories demonstrate face validity, as they
+tions from major thinkers, writers, sociologists, and philosophers related       reflect widespread critiques central to luxury consumption, brands, and
+to each association.                                                             the industry. These categories thus represent the broader negative
+                                                                                 discourse surrounding luxury in the marketplace.
+    To improve the quality and precision of results, we gradually refined
+the prompts over multiple rounds. In each round, we reviewed the                     Building on the findings of Study 1, Studies 2 and 3 employ quali­
+output, identified issues such as vagueness or irrelevant sourcing, and          tative interviews. We interviewed a total of 28 luxury consumers from
+then adjusted the prompts, for example, by specifying the type of                Europe, the Middle East, and China, regions that represent major luxury
+sources, the tone of responses, or the framing of shaming arguments.             markets. In Study 2, we examine how consumers refer to and enact the
+While the wording of prompts evolved, the underlying logic and struc­            negative perceptions from the marketplace, i.e., how they engage in
+ture remained consistent, allowing for replication of the overall                intellectual, economic, socio-cultural, physical/aesthetic, and ethical/
+approach.                                                                        moral shaming of other consumers; we also explore how shamed con­
+                                                                                 sumers feel. In Study 3, we study how luxury consumers cope with
+    To identify marketplace evidence, ChatGPT was explicitly instructed          luxury shaming in their everyday lives.
+to draw from "reputable, widely circulated sources," including inter­
+national and regional newspapers (e.g., The New York Times, The                  5. Study 2: Exploring consumer shaming and emotional
+Guardian, South China Morning Post), industry publications (e.g., The            responses
+Business of Fashion, Luxury Daily, Jing Daily), well-established books
+from academic and trade presses (e.g., Oxford University Press, Harvard          5.1. Method
+Business Review Press). Selection emphasized diversity of geographical
+coverage, relevance to luxury markets, and recency where applicable.                 We conducted 14 semi-structured interviews to explore luxury
+All AI-generated outputs were systematically reviewed for accuracy,              shaming from the consumer's perspective. The interviews opened with
+credibility, and alignment with the topic. Approximately 30 % of re­             broad questions about participants' own luxury consumption practices,
+sponses were excluded due to unverifiable claims, low-quality sourcing,          including what they enjoyed, what they disliked, and how these pur­
+and topic misfit.                                                                chases made them feel. This helped establish rapport and allowed
+
+    Next, using expert judgment, we refined the specific shaming di­             Table 1
+mensions into five categories: Intellectual, Economic, Socio-cultural,           Final shaming content dimensions across five general categories.
+Physical/Aesthetic, and Ethical/Moral. To ensure comprehensive
+coverage, we then used an iterative procedure, asking ChatGPT to                 Shaming category      Specific shaming content dimensions
+identify potential missing elements. Finally, we substantiated the iden­
+tified content with real-world marketplace evidence by prompting                 Intellectual Shaming  - Superficial Values and Distorted Priorities
+ChatGPT to locate examples from credible media sources.                                                - Cultural Insensitivity and Homogenization
+                                                                                 Economic Shaming      - Limited Innovation and Planned Obsolescence
+4.2. Results                                                                                           - Greenwashing and Inauthentic Marketing
+                                                                                 Socio-Cultural        - Loss of Authenticity
+    In response to a general prompt requesting "a comprehensive list of            Shaming             - Economic Inequality and Conspicuous Waste
+negative associations/perceptions," separately for luxury consumption,                                 - Debt, Financial Instability, and Encouragement of Debt
+luxury brands, and the luxury industry, ChatGPT generated the                    Physical/Aesthetic    - Price Gouging, Inflation, Market Manipulation, and
+following for luxury consumption: Excessive Materialism, Snobbery or               Shaming             Artificial Scarcity
+Elitism, Environmental Impact, Economic Inequality, Shallow Values, Lack of                            - Tax Avoidance and Economic Manipulation
+Authenticity, Social Alienation, Overcompensation, Frivolity, Cultural           Ethical/Moral         - Elitism, Snobbery, and Social Division
+Insensitivity, Encouragement of Debt, Hyper-Individualism, Lack of                 Shaming             - Social Comparison, Isolation, and Status Anxiety
+Emotional Fulfillment, Over-Indulgence, and Perpetuation of Stereotypes.                               - Exploitation of Aspirations and Perpetuation of
+ChatGPT also generated the following negative associations for luxury                                  Stereotypes
+brands: Exclusivity and Inaccessibility, Unethical Practices, Price Gouging,                           - Impact on Traditional Practices
+Artificial Scarcity, Superficial Branding, Overemphasis on Status, Cultural                            - Cultural Commodification, Gentrification, and Impact
+Insensitivity, Elitist Marketing, Counterfeit Problems, Over-commercializa­                            on Local Economies
+tion, Exploitation of Aspirational Consumers, Disconnection from Societal                              - Frivolity and Superficial Branding
+Needs, Limited Innovation, Perceived Pretentiousness, and Trend-Chasing.                               - Overemphasis on Status, Logo Mania, and Brand
+Finally, ChatGPT created the following negative associations for the                                   Dilution
+luxury industry: Environmental Degradation, Labor Exploitation, Perpetu­                               - Negative Brand Associations and Trend-Chasing
+ation of Inequality, Tax Avoidance, Greenwashing, Cultural Appropriation,                              - Design Exclusivity
+Lack of Transparency, Focus on Profit Over Values, Encouragement of                                    - Environmental Impact and Unethical Practices
+                                                                                                       - Corporate Arrogance, Encouragement of
+                                                                                                       Overconsumption, and Promotion of Consumerism
+                                                                                                       - Focus on Profit Over Values, Social Responsibility
+                                                                                                       Failures, and Labor Exploitation
+                                                                                                       - Moral Conflicts and Animal Cruelty
+                                                                                                       - Transparency and Accountability Issues
+
+                                                                              4
+J. Pueschel et al.                                                                                                                    Journal of Business Research 206 (2026) 115996
+
+participants to reflect on their motivations and potential tensions. The       the manual coding, axial coding (Strauss & Corbin, 1998) was then
+conversation then moved to negative experiences, focusing on partici­          applied to refine these themes in line with theoretical constructs and
+pants either criticizing others, observing disapproving reactions, or          lived experiences. Since AI lacks autonomous agency, embodied expe­
+receiving negative judgments themselves. We avoided the explicit term          rience, and historical context, which may lead to superfacial insights and
+"luxury shaming" because using it could bias responses and limit               limit theoretical innovation (Epp & Humphreys, 2025), human judg­
+disclosure. This approach encouraged participants to articulate their          ment was employed for validating AI-generated insights and ensuring
+own feelings and behaviors more openly (Potter & Hepburn, 2020).               rigor and contextual relevance (Lund et al., 2023). We systematically
+Ambiguities were clarified when needed (Bryman, 2012).                         reviewed, refined, and reinterpreted GenAI outputs to ensure rigor and
+                                                                               contextual relevance before consolidating both analyses into a unified
+    Respondents were recruited via snowball and purposive sampling             framework.
+(Etikan et al., 2016). Initial participants were approached through the
+researchers' professional and social networks, and subsequent partici­         5.2. Results
+pants were identified through referrals. All participants were verified as
+luxury consumers following the procedure of Kapferer and Laurent                   Our findings show the dual nature of luxury shaming: individuals
+(2016). The sample included 8 women and 6 men, aged 22-42, from                often find themselves both in the role of shamer and the role of the
+diverse educational, professional, and regional backgrounds (Europe,           shamed. Most importantly, results indicated that shaming seems to be
+the Middle East, and China). Full demographic details are shown in             perceptually triggered, behaviorally enacted, and verbally expressed
+Table 2 (upper section). The sample size meets established guidelines for      within the five categories discussed in Study 1, resulting in Intellectual,
+qualitative inquiry (McCracken, 1988; Guest et al., 2006), and in­             Economic, Socio-Cultural, Physical/Aesthetic, and Ethical/Moral
+terviews continued until thematic saturation and data variability were         Shaming. In the following, we provide details and examples from the
+reached (Boddy, 2016; Guest et al., 2006). The interviews were con­            thematic analysis in each category, primarily from the shamer's
+ducted in English (for participants from Europe and the Middle East) or        perspective. Pseudonyms will be used in place of participants' real
+in Chinese, either online or in person; they lasted an average of 42 min.      names to ensure confidentiality.
+
+    First, we conducted a standard manual thematic analysis of interview       5.2.1. Intellectual shaming
+data using Nvivo software (Miles et al., 2014). A research team of                 Shaming in the intellectual domain arises from the perception and
+multiple coders read through all transcripts independently, coding ref­
+erences to luxury shaming and negative perceptions. Through regular            belief that some consumers lack true knowledge in luxury consumption.
+discussions, disagreements in coding were resolved, and initial themes         As a result, consumers who shame others believe that the shamed con­
+were developed. Subsequently, we applied axial coding (Strauss &               sumers engage with luxury only superficially rather than authentically.
+Corbin, 1990): we organized themes into broader conceptual categories          Yara highlights, "They know brands like Gucci, Louis Vuitton, and Dior,
+to establish meaningful relationships among them. This manual process          but they wouldn't recognize a brand like Bottega Veneta," suggesting
+ensured interpretive and contextual understanding, which the auto­             that familiarity with only mainstream brands signals a lack of deeper
+mated analysis might overlook or misinterpret.                                 understanding. Lora reinforces this idea, "He only wants Loro Piana
+                                                                               because it's the most popular brand right now, and he wants their most
+    In parallel with human manual analysis, we employed a GenAI-               popular item: the shoes. That's all he knows." Similarly, Luzian critiques
+assisted approach using NotebookLM, chosen for its strong privacy as­          performative consumption, stating, "I see people who travel to Paris or
+surances. Its summarization capabilities supported and validated human         Milan, and they just buy to show that they're shopping there; it's a
+thematic analysis by highlighting key themes, patterns, and variations in      performance [...] They don't even know how to wear these items."
+participants' perceptions of shaming and emotional responses. As with          These perspectives illustrate how intellectual luxury shaming is mostly
+                                                                               linked to perceived superficiality, whereas true engagement is seen as
+Table 2                                                                        requiring not just financial access but also knowledge and cultural
+Respondent profiles.                                                           capital.
+
+Name                  Gender Age Profession                                    5.2.2. Economic shaming
+                                                                                   Shaming in the economic realm centers around affordability and the
+Study 2 Paul          Male    41  Manager
+                                  Academic project coordinator                 source of wealth. Consumers shame others by questioning whether they
+Catherene Female              27  Solutions director tech company              can truly afford luxury goods. Conversely, the shamed luxury consumers
+                                  Business development director                report negative feelings when others question whether they can afford a
+Maria                 Female  40  Luxury sales                                 luxury good and wonder why they may actually have it.
+                                  International business manager
+Gao                   Female  42  Academic                                         For example, Gao commented, "They could use this amount of
+                                  Pianist                                      money to do something else that they really need, for example, to pay
+Lora                  Female  35  Manager                                      rent, to pay the bills every day in their house." Yu stated, "Especially for
+                                  Student                                      some girls, they may save a large part of their money to buy a bag, or
+Luzian                Male    37  Financial analyst                            even take a loan to buy a bag [...] Actually, my assistant's salary is not
+                                  Director of communication                    high. But she has many branded bags, such as Chanel and Dior, and each
+Pauline               Female  42  Marketing                                    bag costs thousands [...] They will save money to buy this bag in the end
+                                  Digital marketing specialist                 [...] I don't understand [this]." Kai highlights the perception that some
+Serena                Female  37  Sales manager                                individuals stretch their finances to attain luxury: "I think there will still
+                                  Analyst                                      be some people who will save money to buy things in installments, just
+Yu                    Male    43  Master student                               pursuing luxury." Serena's remarks further illustrate how economic
+                                  Student                                      shaming is often gendered, specifically associating women's public
+Zack                  Male    25  Student                                      displays of luxury with financial dependence on men, stating, "These
+                                  Exporter                                     `sugar babies' need attention. They post photos of luxury on public ac­
+Hatty                 Male    27  Business development director                counts, and it's evident they are being sponsored by a sugar daddy.".
+                                  Manager
+Haya                  Male    37  PR coordinator
+                                  Real estate
+Yara                  Female  26  Analyst
+                                  Professional buyer
+Queeny                Female  22  Student
+                                  Graphic designer
+Study 3 Vanni         Female  36
+
+David                 Male    27
+
+Haotian               Male    27
+
+Jim                   Female  29
+
+Kai                   Male    27
+
+Kevin                 Male    40
+
+Max                   Male    30
+
+Nina                  Female  56
+
+Rosalia               Female  27
+
+Wendy                 Female  45
+
+Yuan                  Male    27
+
+Ziwei                 Male    34
+
+Yokim                 Male    26
+
+Diana                 Female  29
+
+                                                                            5
+J. Pueschel et al.                                                                                                                       Journal of Business Research 206 (2026) 115996
+
+5.2.3. Socio-cultural shaming                                                     5.3. Discussion
+    Socio-cultural shaming arises from perceptions of inauthentic status
+                                                                                      The results of Study 2 reveal the increasingly scrutinized nature of
+signaling. Consumers seem to assume that only some consumers are                  luxury consumption, where individuals face critiques along multiple
+legitimized to buy luxury, for example, a certain social class or "old            categories: consumers may be shamed intellectually (e.g., perceived as
+money." For example, Gao noted, "They're not at this level to be in a             lacking genuine understanding), economically (e.g., judged for irre­
+group of people, but they want to be in it... by using a Chanel bag, they         sponsible spending or showing off wealth), socio-culturally (e.g., viewed
+will appear to be on the same level." Paul criticized overt attempts to           as inauthentically attempting to elevate their social status), physically/
+flaunt wealth, stating, "They just wanna show off and show who is more            aesthetically (e.g., criticized for inappropriate or exaggerated displays of
+successful. They started to show where they spend their holidays, and             luxury items), and ethically/morally (e.g., questioned for supporting
+they showed photos....... it's a very silly discussion." Similarly, Zack          brands that are perceived as unsustainable or ethically problematic).
+noted, "I feel like they might be trying to gain attention [...] and for
+vanity.".                                                                             The emotional impact of luxury shaming is equally complex, with
+                                                                                  participants experiencing a variety of social and personal emotions,
+5.2.4. Physical/aesthetic shaming                                                 including shame itself as well as embarrassment, guilt, and anxiety.
+    Physical/aesthetic shaming revolves around judgments of personal              Importantly, our findings revealed a duality of roles: consumers not only
+                                                                                  shamed but also were shamed. In Study 3, we further explored the
+style. For example, consumers are judged to lack style and taste or to be         perspective of the shamed consumers, specifically by investigating
+only externally oriented. Hatty observed, "She does not show her true             coping strategies that enable consumers to maintain their engagement
+self, only the one she wants the world to see." Pauline's experience il­          with luxury.
+lustrates this dynamic: "I got [negative] comments on my [Burberry]
+trench as well." Catherine takes this further, equating luxury with old           6. Study 3: Understanding consumer coping strategies
+money aesthetics by saying, "Luxury is only old money aesthetics; all the
+rest is like you're trying so hard." She dismisses those who do not               6.1. Method
+embody this ideal as "try-hards" attempting to emulate a status they do
+not truly possess. This rigid boundary frames certain forms of luxury                 We conducted 14 (male = 8; female = 6) additional semi-structured
+expressions as indicators of insecurity.                                          interviews using a new sample of participants. As in Study 2, we used
+                                                                                  purposive sampling (Etikan et al., 2016); the sample included again
+5.2.5. Ethical/moral shaming                                                      respondents across various age groups (26 to 56), educational and
+    Finally, shaming can also relate to ethical and moral considerations.         professional backgrounds, and geographical regions. The interviews,
+                                                                                  which lasted between 20 and 71 min, were audio-recorded, with con­
+Serena critiques overconsumption, suggesting it contradicts sustain­              sent, and transcribed verbatim for analysis. The questions were asked in
+ability. Maria and Paul express skepticism about sustainability claims in         a similar manner as study 2, focusing on the experience of being shamed
+luxury. Maria notes, "You would find a similar item [but without a                and, specifically, how to cope with it. Sample questions included: "Have
+sustainability claim] with the same quality at a lower price," while Paul         you received any negative comments on your luxury purchase? How did
+dismisses such claims entirely: "I don't care about sustainability, it's just     you feel and how did you respond?" "When someone comments nega­
+marketing, they are lying.".                                                      tively on your luxury consumption, what do you usually do in the
+                                                                                  moment or after? Do you continue using the item in the same way, or do
+5.2.6. The dual role of luxury consumers: When the shamer becomes the             you change the way you use it?" In addition, participants were
+shamed                                                                            encouraged to share specific incidents where others' reactions had made
+                                                                                  them uncomfortable or led them to reconsider their consumption
+    While the preceding analysis highlighted how consumers shame                  choices. Table 2 (lower section) shows the respondents' profiles. We
+others for their luxury consumption, our findings also reveal that many           followed the same approach as Study 2 for data analysis: we conducted a
+recount being shamed themselves--in fact, along the very same di­                 thematic analysis using NVivo (Miles et al., 2014), alongside Note­
+mensions.. For instance, in the intellectual category, Pauline was judged         bookLM, to identify coping mechanisms. AI-generated themes were
+for her lack of understanding of real luxury. In the economic category,           iteratively reviewed and refined by researchers to ensure theoretical and
+Gao faces criticism from her mother, who condemns her spending as                 contextual alignment.
+wasteful; she also views Gao's luxury purchases through socio-cultural
+lenses by invoking the Chinese concept of "Fu Bao" (fortune and luck),            6.2. Results
+believing such extravagance will damage Gao's fortune and luck. Luzian
+recounted being teased aesthetically for wearing prominent logos, while               Our analysis reveals that luxury consumers employ various coping
+others recalled remarks that portrayed their consumption as environ­              strategies to mitigate the stress and emotional impact of shaming, pro­
+mentally irresponsible.                                                           tect their self-concept, and maintain engagement with luxury con­
+                                                                                  sumption. In line with coping theory (Folkman et al., 1986; Lazarus &
+    The experiences reported by participants in their role of the shamed          Folkman, 1984), these strategies can be understood as adaptive re­
+often carried strong emotional consequences because many critical re­             sponses to stressful encounters, aimed at managing both the external
+marks came from family members or peers in their close social circles.            stressor of social judgment and its internal emotional consequences (e.
+Some participants also mentioned colleagues or acquaintances, as well             g., shame, guilt, or anxiety). Coping thus helps individuals regulate
+as strangers in more public contexts such as social media, online forums,         negative emotions resulting from social critique while preserving status,
+or comment threads, where judgments were less personally connected.               self-esteem, and a sense of identity. These responses appear along three
+Across these contexts, participants described both social and personal            bipolar dimensions, each comprising two contrasting forms of coping:
+emotions. Social emotions included the core emotion of shame as well as           Stylistic Coping (embracing "quiet" luxury vs. "loud" luxury); Social-
+embarrassment and anxiety when their purchases attracted public crit­             Interactive Coping (conforming to the luxury reference group vs. play­
+icism; for example, Pauline worried that "maybe people might                      fully resisting it), and Value-Related Coping (aligning with socially
+comment," revealing her sensitivity to social scrutiny. Personal emo­             shared values vs. personal values).
+tions included feelings of inferiority, guilt, and self-doubt. Luzian, for
+instance, reflected that buying secondhand could be read as "having less
+money" and thus lower status, while Gao described luxury consumption
+as "an unhappy experience" under judgment. For some, shaming created
+ongoing discomfort and eroded confidence, as Haya admitted, "Some­
+times, I have doubts if I look good [...] so I trust my mom and husband.".
+
+                                                                               6
+J. Pueschel et al.                                                                                                                       Journal of Business Research 206 (2026) 115996
+
+6.2.1. Stylistic Coping: Embracing "quiet" vs. "loud" luxury                      confidence, deflecting critique while reaffirming their personal worth
+    A prevalent coping strategy is opting for quiet luxury, wherein               and style. Rather than internalizing judgment or engaging in confron­
+                                                                                  tation, they use lightness and wit to disarm criticism. Max illustrates this
+consumers deliberately opt for understated luxury items that lack                 strategy when a girl mocked his Dior suit, implying it looks cheap: "She
+prominent branding to avoid attracting negative attention. Here,                  said, `From where did you get your suit? From Carrefour?' I just laughed.
+stressful encounters are managed through minimization: by reducing                I said, `Whatever I wear, if I wear from Carrefour or Splash [fast fashion
+visibility, consumers reduce the likelihood of triggering further social          brand], I would be handsome." By invoking humor and asserting that his
+judgment, thereby lowering anticipatory stress. Wendy gives an                    appearance transcends the price of his clothing, Max resists the pressure
+example: "It must be the kind of niche product with particularly good             to justify or defend his choices. This playful deflection protects one's
+quality. For example, (...) I especially like to go to Italy and Spain to buy     self-esteem and subtly rebuts the negative judgments on luxury
+those niche products." Her emphasis on craftsmanship and exclusivity,             consumption.
+rooted in personal appreciation rather than mass recognition, reflects
+how quiet luxury functions as a stress-buffering mechanism, allowing              6.2.3. Value-related coping: aligning with socially shared vs. personal
+consumers to maintain engagement with luxury goods while side­                    values
+stepping social scrutiny.
+                                                                                      Given that luxury goods are assumed to be well-crafted, a socially
+    The stylistic choice of quietness may also include a preference for           shared value of any luxury purchase is quality and durability. Thus,
+natural styles. It enables consumers to resist accusations of inauthen­           another coping strategy is to frame luxury purchases as investments, and
+ticity by framing their choices as driven by understated elegance. Con­           related values such as functionality and practicality, rather than as mere
+sumers who prefer subtlety over overt branding view understated styles            status symbols. Here, stress is regulated through cognitive reappraisal:
+as more sophisticated. Haotian describes his purchasing decisions as              criticism is reinterpreted as misunderstanding, while the consumer re­
+primarily influenced by personal aesthetic preferences, explaining,               positions their choice as rational or morally aligned, thereby countering
+"When I buy things, it mainly depends on my own preferences. I don't              criticisms of materialism as well as economic and financial irresponsi­
+really like to buy that kind of exaggerated look, such as a big logo              bility. Diana notes, "It's not like ridiculously expensive, but it's very
+printed on the body; maybe a little low-key, and this style is more               good quality." Similarly, Yuan explains that he considers whether luxury
+beautiful." Likewise, Ziwei underlines the appeal of simplicity, stating,         items "can be maintained to some extent in the secondary market."
+"I just like simplicity, but with a little bit of uniqueness." By favoring        These views reposition luxury as practical rather than indulgent. By
+natural aesthetics and minimalist luxury, these consumers strategically           emphasizing longevity and future worth, these consumers mitigate the
+counteract the shaming associated with overt displays of wealth.                  perception of luxury as frivolous spending, reinforcing its role as a
+                                                                                  rational and economically sound choice.
+    In contrast, to cope with luxury shaming, consumers may embrace
+excess as a form of defiance. Rather than reducing exposure to stressful              Others align luxury with broader social values, such as ethics or
+encounters, they transform stress by leaning into ostentatious display as         sustainability. This allows individuals to justify their consumption by
+a means of regaining control. Yoki describes wearing "women's high-               aligning it with responsible and value-driven decision-making. Kai
+heeled boots... very exaggerated," signaling a conscious push against             provides an example: "When I browse Tiffany's official website, I look at
+conventional expectations. Similarly, Yuan recounts dressing in pants             what they do for environmental protection. [...] I bought a Tiffany
+adorned with "seven or eight bags." As Yuan reflects, "I will still use this      necklace for my ex-girlfriend. Well, they donated the money to the
+as a topic for curiosity or to communicate." Such flamboyant fashion is a         Wildlife Conservation Network for every necklace they sold." However,
+way of doubling down on conspicuous luxury to assert the right to                 some consumers respond to ethical criticisms by expressing skepticism
+luxury, thus reconfiguring disapproval into cultural capital.                     toward corporate sustainability claims, thus reframing the discourse
+                                                                                  around ethical consumption.
+6.2.2. Social-interactive coping: conforming to the reference group vs.
+playfully resisting it                                                                In contrast, some consumers engage in value-related coping by as­
+                                                                                  suring their own personal values and dismissing others' opinions. Rather
+    Another common conforming coping strategy is shopping with                    than feeling the need to justify or change, they exhibit a strong internal
+companions with similar interests and purchasing power to avoid                   locus of validation, dismissing external judgments that are not aligned
+discomfort or judgment. Here, stress is managed through proactive                 with their own personal values. As Vanni asserts, "No matter what they
+context control: by shaping the social environment, consumers reduce              say about me, it means nothing to me," clearly expressing a refusal to
+the likelihood of stressful confrontations. As Haotian explains, "I might         internalize criticism. Similarly, Jim downplays potential judgment by
+take people who have the same purchasing power as me to go shopping               stating, "I'm not very concerned about [those] aspects, unless he says it
+together [...] like my neighbor, I have a good relationship with him."            to me in front of me," reinforcing the idea that only direct confrontation
+This selective association helps consumers avoid potential criticism by           might register, and even then, with limited emotional impact. This
+controlling how and with whom their luxury is displayed, thus coun­               coping strategy reflects a psychologically resilient approach, allowing
+tering socio-cultural shaming by aligning consumption with social                 consumers to preserve their sense of identity without being swayed by
+norms.                                                                            social scrutiny, thus enabling continued engagement with luxury goods.
+
+    Similarly, as a coping strategy, consumers may manage their                   6.3. Discussion
+appearance and social context to avoid judgment and preserve their
+group connection. Wendy offers a clear example of an assimilation                     Study 3 focuses on the psychological and behavioral coping strate­
+approach in a group setting. In her case, it is about distancing from the         gies of luxury consumers in response to shaming. Our analysis reveals
+lower-ranked colleagues and assimilating with high-net-worth-                     that consumers actively engage in coping strategies to protect their self-
+individuals: "Look at my subordinates, they all carry LV bags. Me, I              concept and justify their purchases. Rather than disengaging from lux­
+only wear black or gold skirts, and the jewelry with gold that has no             ury consumption, individuals develop diverse mechanisms to navigate
+logo... let my clients think about it, are they all worth hundreds of             social scrutiny to remain engaged as luxury consumers. Extending
+millions?" She distances herself from flashier peers and creates a curated        existing psychology research on coping (Lazarus & Folkman, 1984), our
+social environment where her luxury is recognized by others without               study shows how consumers strategically manage their luxury con­
+being scrutinized, illustrating how luxury consumers may retreat into             sumption under conditions of a stressful emotional judgment.
+selective expression to protect their self-concept and professional
+positioning.
+
+    In contrast, playful resistance emerges as a coping strategy in which
+consumers respond to luxury shaming with humor, irony, or nonchalant
+
+                                                                               7
+J. Pueschel et al.                                                             Journal of Business Research 206 (2026) 115996
+
+7. Study 4: Validating consumer insights with GenAI simulation                 checked for unintended GenAI artifacts, such as repetitive syntactic
+                                                                               structures or overly neutralized emotional language, which are known
+    To validate our insights and demonstrate that they may be conse­           tendencies of LLMs.
+quential and relevant, we employed a GenAI simulation. Following prior
+pioneering approaches (Mou et al., 2024; Park et al., 2024), which used            During the simulation, each persona rated its agreement with the 27
+GenAI to construct personae (digital twins) based on data from quali­          statements on a 9-point Likert scale (1 = Strongly Disagree; 9 = Strongly
+tative interviews, we created personae based on our own qualitative            Agree). To ensure that responses remained tied to each persona's attri­
+data. We then scaled these personae for a simulation that included an          butes and experimental condition, the prompt instructed the model to
+experimental shaming manipulation relative to a control group. After           "simulate responses from the perspective of each consumer profile,"
+randomly assigning personae to one of the two groups, we simulated             using the persona's demographic, psychological, and behavioral char­
+their responses to 27 statements modeled on the coping responses               acteristics as well as its assigned condition. This structured prompting
+identified in Study 3 (see the following section for a description of the      approach was implemented to counteract the known tendency of LLMs
+statement development process). We expected the simulation experi­             to default toward average or socially normative responses.
+mental group (the "shamed") would show higher engagement in coping
+responses than the control group (not shamed) because coping is only           7.2. Results
+necessary if a consumer encounters the stressful situation of shaming.
+Such differences would indicate that the coping strategies identified in           We first assessed whether the experimental group would differ from
+the qualitative studies reflect meaningful, consequential consumer re­         the control group on the dependent variables to see if the shamed luxury
+sponses rather than hypothetical ones. In addition to the core experi­         personae showed higher engagement with coping responses than the
+mental simulation part of the study, we investigated whether we could          non-shamed luxury personae. This might indicate that participants in
+replicate the three-dimensional bipolar conceptual structure of coping         the qualitative studies provided consequential and relevant insights. We
+strategies observed earlier.                                                   conducted independent samples t-tests comparing personae in the
+                                                                               shaming condition (n = 500) and the control condition (n = 500) across
+7.1. Data collection & analysis                                                the 27 dependent variables. In 24 out of 27 comparisons personae
+                                                                               exposed to the shaming condition provided higher scores than those in
+    We used NotebookLM to create consumer personae derived from the            the control group (p < 0.001 for all significant differences), indicating
+interview data from Studies 2 and 3. To scale them beyond the small            that personae assigned to the shaming condition indeed engaged in more
+qualitative samples, building upon existing research (Mou et al., 2024;        copying behavior than those in the control condition.
+Park et al., 2024), we generated a total of 1,000 unique consumer
+personae using GenAI. We first used NotebookLM to generate detailed                To explore the structure of these responses, we conducted an
+summaries of each interview respondent, capturing demographic,                 exploratory factor analysis within the shaming group. Using varimax
+behavioral, and psychological characteristics relevant to luxury con­          rotation, we extracted three factors. Table 3 shows the 19 items that had
+sumption. Using these respondent-based summaries as the foundation,            substantial loadings on the three factors, which were all bipolar factors.
+we next employed ChatGPT to scale these profiles to 100 distinct               Examining the loadings for interpreting the factors, the factors closely
+personae. The prompt instructed the model to preserve the core char­           matched and thus could be interpreted as the three bipolar dimensions
+acteristics of each original respondent while introducing variation            of the qualitative analysis in Study 3. The GenAI simulation thus
+across demographic, behavioral, and psychological dimensions. Mean­            reproduced and validated the conceptual structure of the qualitative
+while, we conducted a manual review and removed cases that appeared            data, illustrating how GenAI-based methods can scale qualitative in­
+overly similar or insufficiently plausible. This process was repeated ten      sights while preserving theoretically grounded structures.
+times, yielding 1,000 unique personae. Grounding the scenario in
+persona-specific characteristics helped reduce the tendency of large           7.3. Discussion
+language models to default toward generic or socially normative recall
+descriptions.                                                                      Study 4 validated the insights identified in Study 3 and extended
+                                                                               them by showing that the qualitative findings of Study 3 are likely
+    Throughout the process, we used ChatGPT and manual review to               consequential, reflecting market-relevant behavior. In addition, the
+ensure the diversity and representativeness of the personae. This hybrid       three bipolar coping dimensions--stylistic, social-interactive, and value-
+human-GenAI workflow is consistent with recent approaches that sug­            related--were validated in the simulated responses, suggesting that
+gest leveraging democratization and scale while remaining anchored in          these strategies are not limited to interview accounts but can be
+rich, human-generated inputs (Huang & Rust, 2025). The final set of            generalized across a broader set of consumer profiles.
+personae was then randomly assigned to either the shaming (experi­
+mental) condition or the control condition (n = 500 per group).                    Note, however, that the results of Study 4 should not be interpreted
+                                                                               in the same way as findings from a traditional experiment. First,
+    In the shaming condition, the personae were prompted to recall a           regarding sampling, the personae used were derived from a small,
+scenario where their luxury purchase was criticized or faced social            qualitative sample and not randomly recruited; they may thus be less
+disapproval. This recallbased approach was chosen because drawing on           representative of a broader population than experiments that typically
+personally relevant contexts increases realism and ecological validity. In     recruit randomly from a broader set of people. Furthermore, no validity
+the control condition, no such manipulation was introduced; the                checks could be conducted against prior luxury shaming experiments, as
+personae were merely prompted to recall a luxury purchase.                     no such precedent currently exists. The findings should therefore be
+                                                                               viewed as a conceptual validation of the coping mechanisms and their
+    As key dependent measures, we developed 27 statements grounded             conceptual structure identified in the qualitative Study 3. As such, Study
+in the coping patterns observed in Studies 2 and 3. First, we conducted a      4 serves to enrich the qualitative investigation into luxury shaming,
+thematic analysis of the interview data to identify distinct coping stra­      offering complementary insights rather than definitive causal
+tegies used by participants in response to luxury shaming. Second, for         conclusions.
+each strategy, ChatGPT was instructed to generate three to five item
+candidates with explicit constraints provided (e.g., avoid overly abstract         Nonetheless, the GenAI-based simulation demonstrates a way to
+language, ensure behavioral specificity) to ensure rigor and minimize          bridge qualitative insight with scalable, controlled testing. This offers
+the risk of producing generic phrasing. Third, these statements were           researchers a tool to examine whether patterns found in smaller-sample
+refined through multiple rounds of internal review. During this process,       studies persist under scaled conditions. For practitioners, the findings
+the research team verified not only conceptual alignment but also              offer directions for exploring consumer coping strategies beyond studies
+                                                                               with consumer samples and incorporating this understanding into brand
+
+                                                                            8
+J. Pueschel et al.                                                                                          Journal of Business Research 206 (2026) 115996
+
+Table 3                                                                   Table 3 (continued )
+Factor loading of the items.
+                                                                                                      "Quiet" Vs.  Conforming Vs.  Socially
+                                 "Quiet" Vs.  Conforming Vs.  Socially                                "Loud"       Playfully       Shared Vs.
+                                 "Loud"       Playfully       Shared Vs.                              Luxury       Resisting       Personal
+                                 Luxury       Resisting       Personal                                                             Values
+                                                              Values
+                                                                          being purely about
+                                                              
+I will prefer the luxury style   *** (+)                                  indulgence.
+  that feels natural and         *** (+)                      
+  comfortable rather than                                                 I will rather invest in a high-                          ** (+)
+  overly styled.                 *** (+)                                                                                           * (- )
+                                 ** (+)                                   quality product that lasts                               * (- )
+When making luxury               * (+)                                                                                             * (- )
+  purchases in the future,       * (- )                                   than a trendy luxury item
+  how authentic the item         * (- )                       
+  makes me look will be                       ** (+)                      for my future luxury
+  more important to me                        ** (+)          
+  than following luxury                       ** (+)                      purchase.
+  trends.                                     * (- )
+                                              * (- )                      I will not let negative                  
+For me, true luxury should                    
+  be about understated                                                    comments about my
+  elegance rather than                                        
+  obvious displays of                                         *** (+)     luxury items influence my
+  wealth.
+                                                              *** (+)     purchasing behavior.
+I will prefer luxury items
+  with subtle branding                                        ** (+)      People's opinions about my               
+  rather than flashy logos in
+  my future purchases.                                                    spending habits will have
+
+For my future purchases, I                                                no impact on my
+  will seek out timeless,
+  sophisticated designs over                                              decisions.
+  trend-driven luxury
+  products.                                                               When people criticize my                 
+
+I enjoy proving people                                                    luxury purchases, I will
+  wrong by demonstrating
+  that I can afford and                                                   respond with humor.
+  sustain a luxury lifestyle.
+                                                                          ***: High factor loading, **: Moderate factor loading, *: Marginal factor loading.
+If someone suggests my                                                    (+): Positive factor loading (- ): Negative factor loading.
+  luxury items are                                                        In both the experimental shaming and control group, GenAI personae respond to
+  excessive, I will be more                                               the overall question what they will do and responded on the items listed.
+  likely to invest in even
+  more premium brands.                                                    communications, product positioning, and marketing engagement
+                                                                          initiatives.
+I will prefer socializing with
+  people who share my                                                     8. General discussion
+  appreciation for luxury
+  brands and experiences.                                                     This research advances the understanding of luxury shaming by of­
+                                                                          fering a multi-method investigation into its psychological, social, and
+I will prefer to shop for                                                 behavioral dynamics. Across four studies, we show that luxury con­
+  luxury items with a                                                     sumption is increasingly scrutinized and that consumers are pulled into
+  specific group of people                                                the social discourse occurring in the marketplace. Luxury shaming is
+  who share my shopping                                                   revealed not as a one-sided effect but as a relational and performative
+  habits.                                                                 process: consumers occupy the roles of both shamers and shamed. As
+                                                                          shamers, they shame others using various shaming categories; as those
+I will coordinate my luxury                                               who are shamed, they experience emotional distress and respond using
+  shopping experiences                                                    diverse coping strategies.
+  with specific individuals
+  who understand my tastes                                                    Our results highlight the complex nature of luxury shaming, where
+  and choices.                                                            social critiques emerge from perceptions of inauthenticity, financial
+                                                                          irresponsibility, elitism, aesthetic misjudgment, and ethical lapses.
+I do not feel the need to                                                 Consumers experience both social and personal emotions--such as
+  explain or defend my                                                    shame itself as well as embarrassment, guilt, and anxiety, showing how
+  luxury purchases to                                                     shaming functions as both a social and psychological stressor. In
+  others.                                                                 response, individuals adopt different coping strategies that allow them
+                                                                          to maintain engagement with luxury consumption while managing po­
+I will not let negative                                                   tential identity harm. These strategies occur along three bipolar di­
+  comments about my                                                       mensions: stylistic coping (embracing either "quiet" or "loud" luxury),
+  luxury items influence my                                               social-interactive coping (displaying group conformity or playful resis­
+  purchasing behavior.                                                    tance), and value-related coping (grounded in either socially shared or
+                                                                          personal values).
+I will consider the ethical
+  and environmental                                                           By incorporating GenAI into every part of the project, our work also
+  impact of a luxury brand                                                contributes to emerging discussions on how AI can be used in marketing
+  before making a purchase                                                and consumer research (Huang and Rust 2022; Schmitt 2025). At the
+  in the future.                                                          same time, we were cautious and conservative in the use of GenAI,
+                                                                          extending human insight rather than replacing it, and being mindful of
+In the future, I will prefer to                                           biases and risks of GenAI (Huang & Rust, 2025).
+  buy from luxury brands
+  that prioritize                                                            8.1. Theoretical and methodological contributions
+  sustainability and fair
+  labor practices.                                                                First, our study contributes to the luxury consumption literature by
+                                                                             studying an important, previously neglected phenomenon: luxury
+Luxury consumption should                                                    shaming. This work extends the understanding of positive status
+  move toward greater
+  responsibility and                                                      9
+  sustainability rather than
+J. Pueschel et al.                                                               Journal of Business Research 206 (2026) 115996
+
+signaling (Eckhardt et al., 2015; Goor et al., 2021; Han et al., 2010; Yao,      shaming often took on a gendered form, with women more frequently
+2023) by revealing the social vulnerabilities and tensions that accom­           criticized for financial dependence or overspending. Future research
+pany attempts to establish status through luxury purchases. While lux­           could explore how gender norms and stereotypes shape luxury shaming
+ury consumption can serve as a psychological buffer against self-threats         and coping, and whether these patterns vary across contexts.
+(Sivanathan & Pettit, 2010), it can also introduce new threats--most
+notably, the threat of being criticized by others. Prior research has                Finally, empirical studies should examine the cultural forces that
+explored elements of this dark side of luxury, such as feelings of inau­         shape luxury shaming. Cultural characteristics such as collectivism,
+thenticity tied to privilege (Goor et al., 2020) or guilt rooted in              power distance, and a preference for indirect communication are plau­
+inequality (Kapferer & Valette-Florence, 2022). Our research expands             sible constructs (Gudykunst et al., 1996; Hofstede, 2001); they may
+this important prior work and offers a more holistic and systematic              affect when shaming occurs, how it is expressed, and how consumers
+perspective, examining how societal discourse shapes these negative              cope with it. In addition, Bedford and Hwang (2003) distinguish be­
+perceptions, how consumers participate in shaming, and how they cope             tween guilt and shame, where guilt is more prevalent in Western soci­
+with its effects while maintaining their consumption behavior.                   eties and shame in Asian societies. Empirical research should examine
+                                                                                 whether the two negative emotions can be separated and actually differ
+    Second, from a psychological standpoint, our research contributes to         across cultures in a luxury shaming context. For instance, guilt-related
+the literature on coping by illuminating how luxury consumers regulate           emotions such as remorse or regret may be more salient in Western
+emotions under stress and social pressure (Lazarus & Folkman, 1984).             settings, whereas shame-related emotions such as embarrassment or
+We show how coping strategies protect consumers' self-esteem, in part,           humiliation may be more common and consequential in Asian contexts.
+by changing their luxury consumption. For example, we show that                  Comparing Western and Chinese luxury consumers could shed light on
+"quiet luxury" functions not only as a signaling mechanism but also as a         these distinctions.
+self-protecting coping response to luxury shaming. Prior research has
+found that high-status consumers favor subtle displays over overt logos              Methodologically, while we used a conservative approach using
+(Berger & Ward, 2010; de Figueiredo, 2022); our findings suggest this            GenAI personae purely for simulating findings from prior qualitative
+preference may reflect a strategic effort to mitigate social scrutiny and        analyses, future research might move from simulation toward predic­
+social disapproval.                                                              tion. Recent research shows that personae (or "digital twins') can pre­
+                                                                                 dict the results of consumer studies, both quantitative and qualitative
+    Finally, this research offers a methodological contribution by               studies (Peng et al., 2025; Toubia et al., 2025; Yan et al., 2024; Yue et al.,
+contributing to emerging discussions on the use of GenAI in qualitative          2025). In fact, GenAI as an LLM may be better at predicting qualitative
+research (Epp and Humphreys, 2025). While in this study human re­                than quantitative findings, especially if personae or digital twins are
+searchers still carried out many tasks such as developing interview              constructed based on qualitative interviews. When engaging in such
+guides and conducting and analyzing the actual interviews, we see op­            research, scholars should be mindful, however, that GenAI is con­
+portunities to delegate parts of these tasks to GenAI as well. Thus, our         strained by the training data and LLM architectures, which may embed
+work not only responds to calls for methodological innovation in con­            cultural, gender, and socioeconomic biases and produce "average" or
+sumer research (Lund et al., 2023; Mou et al., 2024; Park et al., 2024)          normatively acceptable responses (Huang & Rust, 2025). As a result,
+but also paves the way for further integrating GenAI into qualitative            insights generated by GenAI may not adequately represent more
+research.                                                                        extreme or marginalized responses. Future work should examine the
+                                                                                 stability of findings across different models and prompting strategies to
+8.2. Future research                                                             see whether they alter the content of luxury shaming responses (Huang
+                                                                                 & Rust, 2022, 2025).
+    This research has limitations that should be addressed in future
+studies. First, while we explored how consumers engage in shaming,               8.3. Managerial implications
+future research should investigate the underlying motivations or regu­
+latory mechanisms of shaming others. Such behavior may be linked to                  This research offers several important managerial implications. One
+factors such as low self-esteem, a wish to feel morally superior, or an          key approach is for luxury companies to provide consumers with viable
+effort to influence others. Looking into these possible drivers could give       narratives and justifications that help them cope with potential shaming.
+a clearer picture of what leads people to shame others over luxury               By highlighting durability, personal value, and sustainability over con­
+consumption. In addition, future studies should explore the interactive          spicuous display, luxury brands can help consumers rationalize their
+dynamics between shamers and the shamed. In our study, participants              purchases in ways that deflect social scrutiny. Storytelling that high­
+responded by assuming both roles; subsequent research could examine              lights heritage and craftsmanship can also build credibility and appeal to
+these roles separately or as part of a dyad of friends or acquaintances,         consumer connoisseurship (Wang, 2022).
+potentially using longitudinal designs to understand how shaming un­
+folds as an interactive process. This could also clarify how a shamer's              At a broader level, however, more fundamental responses from the
+motivations and actions shape the coping strategies of the shamed, and           luxury industry are required. Greater transparency in pricing, supply
+how these patterns evolve.                                                       chain, and environmental claims can reduce consumer skepticism and
+                                                                                 reduce defensive coping. Rather than treating sustainability as a tactic,
+    Furthermore, scholars should examine the conditions under which              brands should embed measurable and verifiable commitments such as
+consumers adopt different coping strategies and how they might affect            transparent sourcing, circular production models, and substantive
+marketplace behaviors. Some may shift to quiet luxury or value-based             cause-related partnerships. Brands can also reposition luxury con­
+products, while others rely on psychological strategies such as detach­          sumption as a thoughtful investment in artistry, heritage, and crafts­
+ment or devaluing the shamer. Importantly, brand-level factors may also          manship, helping consumers counter intellectual shaming and frame
+influence these responses, as certain luxury brands and their consumers          luxury appreciation as informed taste rather than status-seeking. Ini­
+may be more vulnerable to shaming than others. Future research could             tiatives such as certified pre-owned possessions, repair services, and an
+test how contextual factors--including brand reputation, visibility of           emphasis on durability and timelessness further reinforce luxury as a
+purchases, and social media dynamics--affect consumers' vulnerability            smart, long-term choice rather than one of excess (Sun et al., 2021).
+to critique and the coping strategies they deploy over time (e.g., pref­
+erence shifts following viral posts or brand scandals).                          CRediT authorship contribution statement
+
+    In addition, gender presents a promising avenue for future inquiry.              Julia Pueschel: Writing - review & editing, Writing - original draft,
+Our findings suggest that certain content categories of shaming may              Visualization, Validation, Software, Project administration,
+carry different weight for women and men. For instance, economic
+
+                                                                             10
+J. Pueschel et al.                                                                                                                                           Journal of Business Research 206 (2026) 115996
+
+Methodology, Investigation, Formal analysis, Data curation, Conceptu­                                 Huang, M. H., & Rust, R. T. (2022). A framework for collaborative artificial intelligence
+alization. Shuyi Hao: Writing - review & editing, Writing - original                                       in marketing. Journal of Retailing, 98(2), 209-223.
+draft, Visualization, Validation, Software, Resources, Project adminis­
+tration, Methodology, Investigation, Formal analysis, Data curation,                                  Huang, M. H., & Rust, R. T. (2025). The GenAI future of consumer research. Journal of
+Conceptualization. Bernd Schmitt: Writing - review & editing, Writing                                      Consumer Research, 52(1), 4-17.
+- original draft, Visualization, Validation, Supervision, Software, Re­
+sources, Project administration, Methodology, Investigation, Formal                                   Joo, B. R., & Kim, H.-Y. (2021). Repositioning luxury fashion brands as intentional
+analysis, Conceptualization.                                                                               agents: The roles of consumer envy and admiration. Journal of Fashion Marketing and
+                                                                                                           Management: An International Journal, 25(4), 606-624.
+Data availability
+                                                                                                      Jung, H., Magnusson, P., Westjohn, S. A., Peng, Y., & Dow, D. (2024). Distance and
+    The authors do not have permission to share data.                                                      preference for full versus shared control: The moderating role of decision-maker self-
+                                                                                                           construal. Journal of International Marketing, 1069031X241274180. https://doi.org/
+References                                                                                                 10.1177/1069031X241274180
+
+Amatulli, C., De Angelis, M., Pino, G., & Jain, S. (2020). Consumer reactions to                      Kapferer, J.-N., & Laurent, G. (2016). Where do consumers think luxury begins? a study
+     unsustainable luxury: A cross-country analysis. International Marketing Review, 38(2),                of perceived minimum price for 21 luxury goods in 7 countries. Journal of Business
+     412-452. https://doi.org/10.1108/IMR-05-2019-0126                                                     Research, 69(1), 332-340.
+
+Armitage, J., & Roberts, J. (2014). Luxury new media: Euphoria in unhappiness. Luxury,                Kapferer, J.-N., & Michaut-Denizeau, A. (2014). Is luxury compatible with sustainability?
+     1(1), 113-132.                                                                                        luxury consumers' viewpoint. Journal of Brand Management, 21(1), 1-22. https://
+                                                                                                           doi.org/10.1057/bm.2013.19
+Baker, J. P., & Berenbaum, H. (2007). Emotional approach and problem-focused coping:
+     A comparison of potentially adaptive strategies. Cognition & Emotion, 21(1), 95-118.             Kapferer, J.-N., & Valette-Florence, P. (2022). Assessing levers of guilt in luxury
+     https://doi.org/10.1080/02699930600562276                                                             consumption: An international perspective. Journal of Product & Brand Management,
+                                                                                                           31(3), 351-367. https://doi.org/10.1108/JPBM-11-2020-3239
+Bates, R., & LaBrecque, B. (2020). The sociology of shaming. The Journal of Public and
+     Professional Sociology, 12(1), 3.                                                                Lamont, M., & Moln´ar, V. (2002). The study of boundaries in the social sciences. Annual
+                                                                                                           Review of Sociology, 28(1), 167-195. https://doi.org/10.1146/annurev.
+Bedford, O., & Hwang, K. (2003). Guilt and shame in Chinese culture: A cross-cultural                      soc.28.110601.141107
+     framework from the perspective of morality and identity. Journal for the Theory of
+     Social Behaviour, 33(2), 127-144. https://doi.org/10.1111/1468-5914.00210                        Lazarus, R. S., & Folkman, S. (1984). Stress, appraisal, and coping. Springer.
+                                                                                                      Lee, J., & Shrum, L. J. (2012). Conspicuous consumption versus charitable behavior in
+Belk, R. (2011). Benign envy. AMS Review, 1(3-4), 117-134. https://doi.org/10.1007/
+     s13162-011-0018-x                                                                                     response to social exclusion: A differential needs explanation. Journal of Consumer
+                                                                                                           Research, 39(3), 530-544.
+Bellezza, S. (2023). Distance and alternative signals of status: A unifying framework.                Lewis, M. (1992). Shame: The exposed self. Free Press.
+     Journal of Consumer Research, 50(2), 322-342.                                                    Loureiro, S. M. C., De Plaza, M. A. P., & Taghian, M. (2020). The effect of benign and
+                                                                                                           malicious envies on desire to buy luxury fashion items. Journal of Retailing and
+Berger, J., & Ward, M. (2010). Subtle signals of inconspicuous consumption. Journal of                     Consumer Services, 52, Article 101688.
+     Consumer Research, 37(4), 555-569.                                                               Lund, B. D., Wang, T., Mannuru, N. R., Nie, B., Shimray, S., & Wang, Z. (2023). ChatGPT
+                                                                                                           and a new academic reality: Artificial Intelligence-written research papers and the
+Bhar, S., Lele, S., Min, J., & Rao, N. D. (2024). Water, air pollution and carbon footprints               ethics of the large language models in scholarly publishing. Journal of the Association
+     of conspicuous/luxury consumption in India. Ecological Economics, 218, Article                        for Information Science and Technology, 74(5), 570-581. https://doi.org/10.1002/
+     108104. https://doi.org/10.1016/j.ecolecon.2024.108104                                                asi.24750
+                                                                                                      Marder, B., Javornik, A., Qi, K., Oliver, S., Lavertu, L., & Cowan, K. (2024). Does
+Boddy, C. R. (2016). Sample size for qualitative research. Qualitative Market Research: An                 LinkedIn cause imposter syndrome? an empirical examination of well-being and
+     International Journal, 19(4), 426-432.                                                                consumption-related effects. Psychology & Marketing, 41(3), 492-511. https://doi.
+                                                                                                           org/10.1002/mar.21926
+Bourdieu, P. (1984). Distinction: A social critique of the judgement of taste. Cambridge, MA:         McCracken, G. D. (1988). The Long Interview. SAGE.
+     Harvard University Press.                                                                        Methnani, J., Latiri, I., Dergaa, I., Chamari, K., & Saad, H. B. (2023). ChatGPT for sample-
+                                                                                                           size calculation in sports medicine and exercise sciences: A cautionary note.
+Braun, V., & Clarke, V. (2014). What can "thematic analysis" offer health and wellbeing                    International Journal of Sports Physiology and Performance, 1(aop), 1-5.
+     researchers? In International journal of qualitative studies on health and well-being (Vol.      Miao, M., Tang, C., Guo, L., & Karande, K. (2025). Coping with social media envy in
+     9, Issue 1, p. 26152). Taylor & Francis.                                                              luxury consumption: The role of social networking site actions. Journal of Interactive
+                                                                                                           Marketing, 60(3), 311-330. https://doi.org/10.1177/10949968241265856
+Bryman, A. (2012). Social research methods (4. ed). Oxford University Press.                          Miles, M. B., Huberman, A. M., & Saldan~a, J. (2014). Qualitative data analysis: A methods
+Daniels, M. A., & Robinson, S. L. (2019). The shame of it all: A review of shame in                        sourcebook. 3rd. Thousand Oaks, CA: Sage.
+                                                                                                      Mou, X., Ding, X., He, Q., Wang, L., Liang, J., Zhang, X., Sun, L., Lin, J., Zhou, J., Huang,
+     organizational life. Journal of Management, 45(6), 2448-2473.                                         X., & Wei, Z. (2024). From individual to society: A survey on social simulation driven by
+D'Arpizio, C., & Levato, F. (2024). Long live luxury (?) Adjusting buoyancy in troubled                    large language model-based agents (No. arXiv:2412.03563). arXiv. Doi: 10.48550/
+                                                                                                           arXiv.2412.03563.
+     waters. Bain & Company, Altagamma.                                                               Omar, M., Nassar, S., Hijazi, K., Glicksberg, B. S., Nadkarni, G. N., & Klang, E. (2025).
+Eckhardt, G. M., Belk, R. W., & Wilson, J. A. J. (2015). The rise of inconspicuous                         Generating credible referenced medical research: A comparative study of openAI's
+                                                                                                           GPT-4 and Google's gemini. Computers in Biology and Medicine, 185, Article 109545.
+     consumption. Journal of Marketing Management, 31(7-8), 807-826. https://doi.org/                      https://doi.org/10.1016/j.compbiomed.2024.109545
+     10.1080/0267257X.2014.989890                                                                     Pandelaere, M., & Shrum, L. J. (2020). Fulfilling identity motives through luxury
+Epp, A. M., & Humphreys, A. (2025). Collaborating with generative AI in consumer                           consumption. In Research handbook on luxury branding (pp. 57-74). Edward Elgar
+     culture research. Journal of Consumer Research, 52(1), 32-48.                                         Publishing.
+Etikan, I., Musa, S. A., & Alkassim, R. S. (2016). Comparison of convenience sampling                 Park, J. S., Zou, C. Q., Shaw, A., Hill, B. M., Cai, C., Morris, M. R., Willer, R., Liang, P., &
+     and purposive sampling. American Journal of Theoretical and Applied Statistics, 5(1),                 Bernstein, M. S. (2024). Generative agent simulations of 1,000 people (No. arXiv:
+     1-4.                                                                                                  2411.10109). arXiv. Doi: 10.48550/arXiv.2411.10109.
+Figueiredo, G. T. P. de. (2022). Inconspicuous luxury: The meanings underlying younger                Paul, J., Ueno, A., & Dennis, C. (2023). ChatGPT and consumers: Benefits, pitfalls and
+     generations' consumption [PhD Thesis]. https://bibliotecadigital.fgv.br/dspace/                       future research agenda. International Journal of Consumer Studies, 47(4), 1213-1225.
+     handle/10438/31926.                                                                                   https://doi.org/10.1111/ijcs.12928
+Folkman, S., Lazarus, R. S., Dunkel-Schetter, C., DeLongis, A., & Gruen, R. J. (1986).                Peng, T., Gui, G., Merlau, D. J., Fan, G. J., Ben Sliman, M., Brucks, M., Johnson, E. J.,
+     Dynamics of a stressful encounter: Cognitive appraisal, coping, and encounter                         Morwitz, V., Althenayyan, A., Bellezza, S., Donati, D., Fong, H., Friedman, E.,
+     outcomes. Journal of Personality and Social Psychology, 50(5), 992.                                   Guevara, A., Hussein, M., Jerath, K., Kogut, B., Kumar, A., Lane, K., ... Toubia, O.
+Folkman, S., & Moskowitz, J. T. (2004). Coping: Pitfalls and promise. Annual Review of                     (2025). A Mega-Study of Digital Twins Reveals Strengths, Weaknesses and
+     Psychology, 55, 745-774.                                                                              Opportunities for Further Improvement. arXiv preprint arXiv:2509.19088.
+Goor, D., Ordabayeva, N., Keinan, A., & Crener, S. (2020). The impostor syndrome from                 Potter, J., & Hepburn, A. (2020). Shaming interrogatives: Admonishments, the social
+     luxury consumption. Journal of Consumer Research, 46(6), 1031-1051.                                   psychology of emotion, and discursive practices of behaviour modification in family
+Goor, D., Keinan, A., & Ordabayeva, N. (2021). Status pivoting. Journal of Consumer                        mealtimes. British Journal of Social Psychology, 59(2), 347-364. https://doi.org/
+     Research, 47(6), 978-1002.                                                                            10.1111/bjso.12346
+Gudykunst, W. B., Matsumoto, Y., Ting-Toomey, S., Nishida, T., Kim, K., & Heyman, S.                  Riezler, K. (1943). Comment on the social psychology of shame. American Journal of
+     (1996). The influence of cultural individualism-collectivism, self construals, and                    Sociology, 48(4), 457-465.
+     individual values on communication styles across cultures. Human Communication                   Scheff, T. J. (2000). Shame and the social bond: A sociological theory. Sociological
+     Research, 22(4), 510-543.                                                                             Theory, 18(1), 84-99.
+Guest, G., Bunce, A., & Johnson, L. (2006). How many interviews are enough? An                        Schmitt, B. (2024). Transforming qualitative research in phygital settings: The role of
+     experiment with data saturation and variability. Field Methods, 18(1), 59-82.                         generative AI. Qualitative Market Research: An International Journal, 27(3), 523-526.
+     https://doi.org/10.1177/1525822X05279903                                                         Schmitt, B. (2025). GenAI and consumer research: Are we the last generation of human
+Han, Y. J., Nunes, J. C., & Dr`eze, X. (2010). Signaling status with luxury goods: The role                consumer researchers? Journal of Consumer Research, 52(1), 1-3.
+     of brand prominence. Journal of Marketing, 74(4), 15-30. https://doi.org/10.1509/                Shaughnessy, M. J. (2018). Integrative literature review on shame. Nursing Science
+     jmkg.74.4.015                                                                                         Quarterly, 31(1), 86-94.
+Hofstede, G. (2001). Culture's recent consequences: Using dimension scores in theory
+     and research. International Journal of Cross Cultural Management, 1(1), 11-17.
+
+                                                                                                  11
+J. Pueschel et al.                                                                                                       Journal of Business Research 206 (2026) 115996
+
+Sivanathan, N., & Pettit, N. C. (2010). Protecting the self through consumption: Status              JuliaPueschel is an Assistant Professor of Marketing at
+     goods as affirmational commodities. Journal of Experimental Social Psychology, 46(3),           NEOMA Business School. She holds a PhD in Management
+     564-570. https://doi.org/10.1016/j.jesp.2010.01.006                                             Sciences from the University of Paris Dauphine, France..Her
+                                                                                                     research focuses on luxury marketing, the consumption of
+Smith, R. E. (1989). Effects of coping skills training on generalized self-efficacy and locus        counterfeit luxury goods, consumer behavior, and qualitative
+     of control. Journal of Personality and Social Psychology, 56(2), 228.                           research methods. Her work has been published in the Journal
+                                                                                                     of Business Research, Recherches et Applications en Marketing,
+Strauss, A., & Corbin, J. (1998). Basics of qualitative research techniques. https://citeseerx.      and Management International.
+     ist.psu.edu/document?
+     repid=rep1&type=pdf&doi=18c7cfe7a46c7771b60dc384b1b4e350f65b13e2.                               ShuyiHao is an Assistant Professor of Marketing at ICN Busi­
+                                                                                                     ness School. She received her PhD in Marketing from NEOMA
+Strauss, A., & Corbin, J. (1990). Basics of qualitative research: Grounded theory procedures         Business School, France. Her research interests include artificial
+     and techniques. Newbury Park, CA: Sage Publications.                                            intelligence, customer experience, B2B marketing, culture, and
+                                                                                                     consumer behavior in the context of emerging platforms. She
+Sun, J. J., Bellezza, S., & Paharia, N. (2021). Buy less, buy luxury: Understanding and              has published and has papers forthcoming in Journal of Service
+     overcoming product durability neglect for sustainable consumption. Journal of                   Research, Journal of the Association for Consumer Research,
+     Marketing, 85(3), 28-43. https://doi.org/10.1177/0022242921993172                               International Marketing Review, and Frontiers in Psychology.
+
+Tangney, J. P., Miller, R. S., Flicker, L., & Barlow, D. H. (1996). Are shame, guilt, and            Bernd Schmitt is the Robert D. Calkins Professor of Interna­
+     embarrassment distinct emotions? Journal of Personality and Social Psychology, 70(6),           tional Business at Columbia Business School. Schmitt was the
+     1256.                                                                                           Editor-in-Chief of the Journal of Consumer Research from 2021
+                                                                                                     to 2024. He has published more than 80 academic articles in
+Toubia, O., Gui, G. Z., Peng, T., Merlau, D. J., Li, A., & Chen, H. (2025). Database Report:         journals such as Journal of Marketing, Journal of Marketing
+     Twin-2k-500: A data set for building digital twins of over 2,000 people based on                Research, Marketing Science, Journal of Consumer Research,
+     their answers to over 500 questions. Marketing Science. https://doi.org/10.1287/                Journal of Consumer Psychology, Journal of Personality and Social
+     mksc.2025.0262                                                                                  Psychology, and Journal of Business Research. His research fo­
+                                                                                                     cuses on consumer behavior, luxury marketing, innovation,
+Truong, Y., & McColl, R. (2011). Intrinsic motivations, self-esteem, and luxury goods                artificial intelligence, and branding.
+     consumption. Journal of Retailing and Consumer Services, 18(6), 555-561.
+
+Veblen, T. (1899). The theory of the leisure class. Routledge. https://doi.org/10.4324/
+     9781315135373
+
+Wachinger, J., Ba¨rnighausen, K., Sch¨afer, L. N., Scott, K., & McMahon, S. A. (2024).
+     Prompts, pearls, imperfections: Comparing ChatGPT and a human researcher in
+     qualitative data analysis. Qualitative Health Research, 10497323241244669. https://
+     doi.org/10.1177/10497323241244669
+
+Wahid, R., Mero, J., & Ritala, P. (2023). Written by ChatGPT, illustrated by Midjourney:
+     Generative AI for content marketing. Asia Pacific Journal of Marketing and Logistics,
+     35(8), 1813-1822.
+
+Wang, Y. (2022). A conceptual framework of contemporary luxury consumption.
+     International Journal of Research in Marketing, 39(3), 788-803.
+
+Wang, Y., & Griskevicius, V. (2014). Conspicuous consumption, relationships, and rivals:
+     Women's luxury products as signals to other women. Journal of Consumer Research,
+     40(5), 834-854. https://doi.org/10.1086/673256
+
+Wong, J., Brodowsky, G., & Ho, F. N. (2024). You ain't foolin' me! Imposter judgments in
+     luxury status signaling. Marketing Letters, 35(1), 129-141. https://doi.org/10.1007/
+     s11002-023-09687-2
+
+Yan, L., Echeverria, V., Fernandez-Nieto, G. M., Jin, Y., Swiecki, Z., Zhao, L., ... &
+     Martinez-Maldonado, R. (2024, May). Human-Ai Collaboration in Thematic Analysis
+     Using Chatgpt: A User Study And Design Recommendations. In Extended Abstracts of
+     the CHI Conference on Human Factors in Computing Systems (pp. 1-7).
+
+Yao, A. (2023). Uncovering heterogeneous prestige effect in luxury consumption:
+     Insights from the Chinese luxury market. Journal of Business Research, 168, Article
+     114235.
+
+Yue, Y., Liu, D., Lv, Y., Hao, J., & Cui, P. (2025). A practical guide and assessment on
+     using ChatGPT to conduct grounded theory: Tutorial. Journal of Medical Internet
+     Research, 27, Article e70122.
+
+                                                                                                 12
+
