@@ -80,3 +80,44 @@ sourcing as leads to verify, same caveat as the TARIFF_PAPER notes from tonight)
 
 Both of these are still proposals, not commitments — flagging for Britton to greenlight, per
 standing rule. Neither has a corpus, survey, or design built yet.
+
+## 2026-08-15 — fleshing out idea #3 (LNG-terminal opposition, Cameron Parish) with real
+evidence (WebSearch this session; WebFetch was `EGRESS_BLOCKED` again tonight — third
+consecutive session, see this date's TARIFF/DATA_CENTER notes and the summary for the
+same caveat — treat sourcing as leads to verify, not primary-source-confirmed)
+
+### 3a. LNG-terminal community opposition (Cameron Parish, LA) — now has real, current material
+- **Gap/question:** how do Cameron Parish residents and advocacy groups frame opposition to
+  the parish's LNG export buildout (six projects proposed/approved/operating), and does that
+  framing pattern-match the same justice/procedural-exclusion/infrastructure-strain themes
+  already emerging in DATA_CENTER_PAPER's corpus, or produce a distinct typology specific to
+  heavy industrial/energy-export infrastructure vs. data centers.
+- **Why tractable soon:** this is live, not retrospective — a Delfin LNG pipeline rupture
+  released 56 million cubic feet of gas (ignited, ejected pipe fragments) this year; Venture
+  Global is seeking a permit to discharge Calcasieu Pass 2 wastewater into the Calcasieu Ship
+  Channel over resident objection; Venture Global separately sought a two-year closure of a
+  local road for construction, drawing opposition over traffic/emergency-response strain on a
+  two-lane highway; a judge ruled a Commonwealth LNG permit ignored potential climate impacts;
+  Commonwealth LNG's contested permit is now in a public-comment period despite ongoing legal
+  challenges. Existing long-form journalism already exists to mine (Louisiana Illuminator's
+  "What Happened When an LNG Giant Came to Town," also republished at Inside Climate News;
+  The Lens's "Cameron Parish is a constant warning, not an exception") — meaning a corpus for
+  this could be built relatively fast if greenlit, since the deep-dive sourcing legwork is
+  partly already done by others.
+- **Rough method sketch:** same Study 1 (AI-assisted netnography/discourse analysis) → Study 2
+  (PLS-SEM) template as the other three papers. Corpus candidates: the Illuminator/Inside
+  Climate News/The Lens long-form pieces, Commonwealth LNG public-comment docket entries once
+  that period is public, wastewater-discharge-permit comment record. Natural theory overlap
+  with DATA_CENTER_PAPER's candidate frames (procedural justice, distributive/environmental
+  justice, infrastructure strain) — worth explicitly deciding whether this is a fourth
+  standalone paper or a comparative extension within DATA_CENTER_PAPER (energy-export
+  infrastructure vs. AI infrastructure, same opposition grammar or not) rather than building
+  it as a fully separate thread by default.
+- **Target venue:** same candidates as DATA_CENTER_PAPER (Journal of Public Policy &
+  Marketing) given the shared infrastructure-controversy angle, or an energy-policy-adjacent
+  outlet if Britton wants it kept separate from the data-center thread specifically.
+- Leads (unverified, WebSearch only): [Louisiana Illuminator — "What Happened When an LNG Giant Came to Town"](https://lailluminator.com/2026/07/05/venture-global-3/), [Inside Climate News — same piece, syndicated](https://insideclimatenews.org/news/28062026/venture-global-lng-terminals-in-cameron-louisiana/), [The Lens — Cameron Parish as warning](https://thelensnola.org/2026/02/26/dying-tired-communities-cameron-parish-is-a-constant-warning-not-an-exception-to-the-dangers-of-lng/), [Louisiana Illuminator — wastewater discharge fight](https://lailluminator.com/2026/06/03/lng-wastewater/), [Louisiana Illuminator — Commonwealth LNG reapproval](https://lailluminator.com/2025/12/04/commonwealth-lng/), [American Press — Commonwealth LNG public comment](https://americanpress.com/2026/07/08/public-comment-begins-for-contested-commonwealth-lng-permit/)
+
+Still a proposal only, per standing rule — nothing built, nothing committed to. Idea #4
+(AI-assisted-research-workflows methods paper) remains an unfleshed one-line title from
+2026-08-13 — not reached tonight, next in the scouting queue.
