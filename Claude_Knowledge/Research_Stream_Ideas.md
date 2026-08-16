@@ -121,3 +121,70 @@ same caveat — treat sourcing as leads to verify, not primary-source-confirmed)
 Still a proposal only, per standing rule — nothing built, nothing committed to. Idea #4
 (AI-assisted-research-workflows methods paper) remains an unfleshed one-line title from
 2026-08-13 — not reached tonight, next in the scouting queue.
+
+## 2026-08-16 — fleshing out idea #4 (AI-assisted research workflows methods paper) (WebSearch
+this session; WebFetch tested against `www.dce.louisiana.gov` and returned `EGRESS_BLOCKED`
+again — fifth consecutive session across the repo's notes counting tonight's CCS_PAPER check;
+a direct Bash `curl` fallback also failed with a proxy 403, so this is session-wide network
+egress, not a WebFetch-specific limit. Below is WebSearch-summarized, leads not primary-verified.)
+
+### 4a. Not "does AI help thematic analysis" (saturated) — "autonomous scheduled agents as
+qualitative-research infrastructure, with human-gated interpretive authority" (open)
+- **Gap/question:** the existing AI-assisted-TA literature (see
+  `Claude_Knowledge/AI_Thematic_Analysis_Reading_List.csv` — GAATA/Jayawardene & Ewing 2026,
+  Epp & Humphreys 2025, Lazarus et al. 2026, a dozen others) is uniformly about a researcher
+  sitting down with an LLM chat interface for a bounded coding session. None of it documents
+  what this repo's own nightly-rotation setup actually is: a *scheduled, autonomous* agent that
+  runs unattended overnight across *multiple concurrent research projects*, with no per-run
+  human prompting, whose outputs are version-controlled (git commits as a literal, timestamped
+  audit trail of every AI-authored change) and whose interpretive authority is explicitly and
+  structurally bounded (Phase 3 theme-finalization is coded as off-limits in this repo's own
+  README, not just a norm the researcher tries to remember). That's a different object than
+  "I used ChatGPT to help code my interviews" — it's an operations/infrastructure question:
+  what does it take to run AI-assisted qualitative research *as an unattended pipeline* across
+  a real, live multi-study program, and what governance does that require that a single-session
+  tool doesn't?
+- **Why tractable soon, and genuinely self-evidenced:** this project has real data most authors
+  attempting this paper would have to construct artificially. As of tonight there are 4 nightly
+  `OVERNIGHT_SUMMARY_*.md` files, per-project dated `notes/` directories, and a git history
+  spanning multiple weeks across three simultaneous qualitative-coding projects (TARIFF, DATA
+  CENTER, CCS) — a naturally-occurring case study, not a designed experiment, which is honest
+  framing for a methods/reflexivity piece rather than a validation study. Concrete material
+  already sitting in this repo's own history that a paper could analyze directly: (1) a documented
+  failure-recovery incident (`c5ab89b "Manually recover stranded 2026-08-13 nightly-run work"`)
+  showing what breaks when unattended runs fail partway and how provenance let it be reconstructed;
+  (2) a documented tooling-outage pattern (WebFetch egress-blocked five sessions running, each one
+  logged with its exact failure mode rather than silently worked around) — a real example of a
+  system transparently reporting its own degraded-confidence state instead of masking it;
+  (3) the rotation logic itself (priority-queue-across-projects, "recheck actual state rather than
+  mechanical order") as a designed policy for resource allocation across a multi-study program,
+  something individual-session AI-TA papers don't need to solve at all.
+  A quick check tonight (WebSearch) confirms this angle isn't already claimed: the closest existing
+  work is either single-session AI-assisted-TA validation (the whole Tier 1-5 reading list) or
+  autonomous-agent-for-research papers in *quantitative*/computational science (e.g., an ML-research
+  agent pipeline documenting failure modes, a physics corpus-to-manuscript pipeline) — none framed
+  around *interpretivist, human-gatekept* qualitative social-science work specifically. That's the
+  open seam.
+- **Rough method sketch:** likely an autoethnographic/reflexive methods paper (the researcher
+  studying his own AI-research infrastructure), not a between-subjects validation study — closer
+  in genre to Paulus, Lester & Davis 2026's discourse-analysis-of-the-field piece (already in the
+  reading list) than to GAATA's accuracy-benchmarking design. Candidate structure: (1) describe the
+  pipeline and its governance rules as a case; (2) systematically code the repo's own git history
+  and nightly summaries as data — what kinds of errors occurred, what the human-gate (Phase 3,
+  judgment-call flagging) actually caught vs. missed, how tooling failures were surfaced vs.
+  silently absorbed; (3) discuss implications for qualitative-research trustworthiness criteria
+  (dependability, confirmability — same five criteria from Lazarus et al. 2026) when the "who did
+  this coding pass" question includes an unattended, scheduled process rather than only a present
+  researcher.
+- **Target venue:** *International Journal of Qualitative Methods* (where much of the existing
+  reading list already sits — Lazarus, Xu, Misra et al., Cheah, Naeem et al.) is the natural fit
+  given the field's own venue; *Organizational Research Methods* or *AI & Society* (companion to
+  Paulus, Lester & Davis 2026) are plausible alternates if the framing leans more toward
+  research-operations/governance than qualitative-methods-specifically.
+- **Honest caveat, not a decision:** this paper is *about* Britton's own workflow and this repo's
+  own history — meaning it would require him to decide how much of the actual pipeline/process
+  (not the underlying substantive research, which stays untouched) he's comfortable describing in
+  a public methods paper, and there's a bootstrapping question (is 2-3 weeks of one researcher's
+  pipeline history enough of a "case" to publish, or does it need more runtime first). Flagging
+  both for Britton rather than assuming either answer. Proposal only, nothing built.
+- Leads (unverified, WebSearch only): [Jayawardene & Ewing 2026, GAATA](https://journals.sagepub.com/doi/10.1177/14707853251405043), [autonomous ML-research-agent failure modes survey](https://arxiv.org/pdf/2607.02329) (computational-science analog, not qualitative), [PaperClaw — agentic research with human-in-the-loop refinement](https://arxiv.org/pdf/2606.22610) (same computational-science-not-qualitative caveat)
