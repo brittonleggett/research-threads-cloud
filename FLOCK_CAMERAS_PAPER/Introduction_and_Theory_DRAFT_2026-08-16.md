@@ -101,7 +101,23 @@ police department alone, per the ACLU/EFF lawsuit filed on behalf of SIREN and C
 violation is not merely that data was collected — it is that data moved outside the context the
 public understood it to be confined to. We treat undisclosed default data-sharing as a
 contextual-integrity violation that should be perceived as a specific, procedural form of
-injustice, distinct from a generic privacy-concern measure:
+injustice, distinct from a generic privacy-concern measure.
+
+This paper's proposed institutional-trust mechanism (H2 below) is not a theoretical reach into
+an unstudied domain. Li (2024), drawing on a 2021 nationally representative U.S. survey
+(*n* = 4,679), found that institutional trustworthiness — specifically the integrity dimension —
+was the strongest and most consistent predictor of public acceptability of a closely analogous
+policing technology (facial recognition), with the effect largest in the highest-privacy-concern
+scenario tested (public protests). That study, notably, was published in *Government Information
+Quarterly* — this paper's own leading target venue — which is both a direct empirical precedent
+for the trust-mediated structure proposed here and a signal that this journal's editorial
+community already treats institutional-trustworthiness-in-policing-technology as squarely
+in-scope. Bradford, Yesberg, Jackson, and Dawson (2020) reach a structurally identical
+conclusion via a different method (a UK live-facial-recognition field survey), finding trust and
+legitimacy — not perceived effectiveness — predicted public support. Both studies measure
+trustworthiness/legitimacy as an antecedent to acceptance broadly rather than testing an
+experimentally manipulated disclosure condition specifically, which is this paper's point of
+departure from both:
 
 > **H1.** A camera network operating under a secret, undisclosed default data-sharing practice
 > will produce higher perceived procedural injustice than one operating under an explicitly
@@ -171,7 +187,12 @@ NewsHour segment rather than being presented as a rebutted talking point. This m
 documented pattern in the adjacent facial-recognition-in-policing literature: perceived
 public-safety effectiveness and privacy concern are both independent, simultaneous predictors
 of technology support, and their relative weight shifts by context (Miethe, Dudinskaya,
-Forepaugh, & Sousa, 2025). We treat perceived crime-solving necessity as a value-tradeoff
+Forepaugh, & Sousa, 2025). Bradford, Yesberg, Jackson, and Dawson (2020), studying public
+reaction to live facial recognition deployment in the UK, found a structurally identical
+pattern directly relevant to this moderator: trust and, especially, perceived police
+legitimacy *alleviated* respondents' privacy concerns about the technology — legitimacy did
+not just coexist alongside privacy concern but actively softened it. That finding is close to
+a direct precedent for H6 below, not merely an adjacent one. We treat perceived crime-solving necessity as a value-tradeoff
 variable that should buffer, not eliminate, the consequences of low institutional trust — even
 a resident who distrusts the department's handling of camera data may not translate that
 distrust into active opposition if they believe the technology is genuinely necessary for
