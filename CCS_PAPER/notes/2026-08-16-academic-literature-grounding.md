@@ -39,23 +39,20 @@ Study 2 axis candidate)
 ## 2. Regulatory/institutional capture (grounds Theme 4 — dark-money disclosure rule,
 state-capture metanarrative)
 
-- **"Who's controlling our energy future? Industry and environmental representation on United
-  States public utility commissions." *Energy Research & Social Science* (Elsevier), published
-  online 2023-06-01.** Real (ScienceDirect-confirmed), directly on-topic: tests what determines
-  PUC composition, finds commissioners more likely to carry utility/fossil-fuel ties than
-  environmental ones, examines the opaque governor/legislature appointment process across 41
-  states. **Author list not independently confirmed this pass** (WebSearch surfaced Leah Stokes
-  as likely involved but couldn't confirm the full byline — flag for direct-fetch/library
-  confirmation before citing by author name; cite by title/journal/date only until then). This
-  is close to a direct empirical precedent for the corpus's own artifact #6 (the dark-money
-  disclosure rule) — the same underlying question (who actually controls state energy
-  regulators, and how industry-aligned are they structurally) that artifact dramatizes.
+- **Heern, J. (2023). "Who's controlling our energy future? Industry and environmental
+  representation on United States public utility commissions." *Energy Research & Social
+  Science*, 101, 103091. DOI 10.1016/j.erss.2023.103091.** **Author confirmed 2026-08-17 via
+  direct Ole Miss/ScienceDirect pull: solo-authored by Jared Heern, NOT Leah Stokes** (the
+  earlier WebSearch guess was wrong) — full abstract read directly: original data on 800+ PUC
+  commissioners 2000-2020, utility/fossil-fuel ties more common than environmental ones. Close
+  empirical precedent for the corpus's own artifact #6 (the dark-money disclosure rule).
 - **Carley, S. (2026). "Understanding Energy Justice Challenges Through a Regulatory and
-  Institutional Lens." DOI 10.1177/01956574261460226.** Real, recent (2026), directly
+  Institutional Lens." *The Energy Journal*, OnlineFirst 2026-06-16. DOI
+  10.1177/01956574261460226.** **Journal name confirmed 2026-08-17** (was previously unconfirmed
+  — resolved live via Ole Miss/Sage proxy, journal is *The Energy Journal*, not a law/policy
+  journal as guessed). Sanya Carley, University of Pennsylvania. Open access. Directly
   cross-applicable — energy-justice-through-a-regulatory-lens framing is exactly the theoretical
-  move Theme 4 needs. Worth a direct-fetch/library pull to confirm the journal/full citation
-  detail (WebSearch surfaced the DOI and framing but not the journal name with full confidence
-  — likely a law/policy journal given the DOI prefix pattern; verify before citing).
+  move Theme 4 needs.
 - **NIMBY/siting-regime literature** — WebSearch surfaced a general finding that politically
   weak groups are disadvantaged by siting regimes' own structure, not just by individual bad
   actors — relevant framing for why the corpus treats regulatory capture as structural
@@ -149,9 +146,9 @@ Theme 3/EOR-storage confusion (a near-exact theoretical match in Rodriguez 2023)
 novelty question (a real, differentiable precedent found and characterized, not just assumed
 absent).
 
-**Still thinner:** Theme 4/regulatory capture has real, relevant literature (the PUC-composition
-study, Carley 2026) but two citations have unconfirmed bylines/journal detail — worth a direct
-library pull before either goes in a manuscript. Theme 5 (good-faith evidence-seeking minority)
+**Theme 4/regulatory capture — both citations fully confirmed 2026-08-17** (Heern 2023's
+byline and Carley 2026's journal name, both resolved live via Ole Miss). No longer thinner than
+the other themes. Theme 5 (good-faith evidence-seeking minority)
 and Theme 6 (temporal shift, already flagged as weak-evidence in the corpus itself) don't have
 dedicated literature searched this pass — Theme 5 likely doesn't need its own citation (it's a
 corpus-reported counter-current, same treatment as the other papers' honest-null-findings
