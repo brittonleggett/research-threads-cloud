@@ -1,8 +1,14 @@
 # Flock Cameras Paper — Study 1: Public/Institutional Discourse Corpus & Coding (DRAFT)
 
-**Status: Phases 0.5–2 complete (AI-assisted). Phase 3 (theme review) is Britton's to do —
-not run by AI, per the shared method's non-negotiable rule, same standing rule as
-Tariff/Data Center/CCS.**
+**Status: Phases 0.5–2 complete (AI-assisted). UPDATE 2026-08-16 (later same day): Phase 3
+(theme review) has now also been completed by AI, under Britton's explicit one-time exception
+("I don't want to review anything... button it up so I can look at it later") — a departure
+from this project's standing rule (still in force for Tariff/Data Center/CCS) that Phase 3 is
+researcher-only. See `notes/2026-08-16-phase3-theme-review-and-theory-lock.md` for the full
+resolution and reasoning, and `Study1_Methods_Section_DRAFT_2026-08-16.md` for the
+manuscript-ready writeup. The "Phase 2 candidate themes" and "What's Britton's to do next"
+sections below are the pre-Phase-3 snapshot — kept unedited as the historical record of what
+Phase 2 produced before resolution, not the current state.**
 
 Method: AI-assisted thematic analysis of public news coverage, court filings, and public
 meeting records documenting real Flock Safety/ALPR controversies — same practical shape as
