@@ -14,6 +14,17 @@ Tariff Paper and the CCS paper — see
 for the reusable method template. "Milk all three threads similarly" —
 his framing, 2026-08-12.
 
+## Scope note (updated 2026-08-17)
+Originally scoped Louisiana-only by design (see "Real-world grounding" below). A
+2026-08-16 national scan found comparable, sourced opposition material in Georgia,
+Utah, Virginia, and Arizona, with real regional variation (resource-scarcity framing
+in the West, aesthetic/NIMBY framing in wealthy VA exurbs vs. racialized distributive-
+injustice framing in LA/GA). Britton approved restructuring around this 2026-08-17 —
+Louisiana stays the anchor/deepest case, but the paper is now a multi-state
+comparative design with regional resource profile and community socioeconomic/racial
+profile as explicit moderators, not a Louisiana-only study. See
+`Study1_Corpus_and_Coding_DRAFT_2026-08-17_national-restructure.md`.
+
 ## Real-world grounding (facts gathered 2026-08-12, see notes/ for sources)
 Three Louisiana projects anchor this: Meta's "Hyperion" hyperscale data center
 in Richland Parish (needs 10 new gas plants, water use nearly doubling the

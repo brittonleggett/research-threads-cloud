@@ -1,5 +1,12 @@
 # Data Center Paper — Study 1: Public Discourse Corpus & Coding (DRAFT)
 
+**Superseded 2026-08-17 by `Study1_Corpus_and_Coding_DRAFT_2026-08-17_national-restructure.md`**
+— Britton approved restructuring the corpus/thematic map around a multi-state
+comparative design (regional resource-scarcity and community-profile as moderators,
+per the 2026-08-16 national-scan note). This file's Louisiana-only Tier 1 corpus and
+Phase 1 codes are still the base layer the new draft builds on — not wrong, just no
+longer the whole picture. Read the 08-17 draft first.
+
 **Status: Phases 0.5–2 complete (AI-assisted). Phase 3 (theme review) is yours to do —
 not run by AI, per the shared method's non-negotiable rule.**
 
