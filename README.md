@@ -78,6 +78,13 @@ personal/sensitive material — deliberately scoped to just these research threa
   partial or you ran out of time partway through something. Uncommitted overnight
   work is invisible to Britton and to the next run. Small, clearly-labeled commits
   per logical chunk beat one giant commit.
+- **No copyrighted, non-open-access full-text belongs in this repo — it's public.** Citations,
+  abstracts, short quotes for commentary/analysis, and full text of genuinely open-access/CC-BY
+  articles are all fine. A downloaded PDF of a paywalled journal article, or an extensive
+  verbatim transcription of one, is not — that stays in the local project folders only (outside
+  git) and never gets mirrored here. Caught and fixed once already (2026-08-16): a Sage
+  journal-article PDF and a long paywalled-article excerpt file almost got committed to this
+  public repo before being pulled back out — check before adding any literature file.
 - **No participant/human-subjects data belongs in this repo.** It's scoped to
   public-record corpora (corporate statements, news, filings, public comments) on
   purpose. If a task ever seems to call for adding survey data, IRB materials with

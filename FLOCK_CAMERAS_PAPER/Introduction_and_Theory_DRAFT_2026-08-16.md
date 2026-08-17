@@ -73,7 +73,12 @@ geographically diverse corpus of real public controversies and then tests that m
 causal structure experimentally. Where Nhan and Helfers document practitioner and vendor
 perspectives on the security-privacy tradeoff, this paper centers the public's own reaction and
 tests whether disclosure, not just accuracy or capability, is what determines whether that
-tradeoff is judged legitimate.
+tradeoff is judged legitimate. It is also worth noting plainly, in the interest of an even-handed
+comparison, that Nhan and Helfers's study was conducted under a research grant from Flock Safety
+itself (with contractually stipulated researcher independence on topic, methodology, and
+findings) and relied on Flock as a gatekeeper for agency access; the present study uses no
+vendor funding or vendor-facilitated access, drawing instead on public news coverage, court
+filings, and government records.
 
 ## Theoretical Background and Hypothesis Development
 
