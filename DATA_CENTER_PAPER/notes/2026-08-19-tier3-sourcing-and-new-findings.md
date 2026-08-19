@@ -138,3 +138,27 @@ candidate (#3 in the restructure draft).
 No corpus rows added or renumbered in the restructure draft itself — that's a Phase-3-adjacent
 edit given the corpus-size question above, left for you to decide alongside it. This note is
 the sourcing upgrade; the draft's table still reflects the 2026-08-17 approved state.
+
+## Addendum — a real citation anchor for the `federal-national-security-override` candidate code
+
+Ran a quick novelty/lit check on the DOJ-intervention finding above (started as a possible new
+Research_Stream_Ideas.md scouting entry, but it turned out to be a citation opportunity for
+*this* paper instead, not a separate paper idea — see reasoning below). Found a directly
+on-point academic source: **"Planning Under Preemption: State Power and Local Authority in the
+AI Data Center Era,"** *Journal of the American Planning Association* (2026), DOI
+10.1080/01944363.2026.2618221 — its own abstract-level argument (per search summary, not
+fetched) is that national-security/competitiveness framing is actively narrowing local planning
+discretion for AI/data-center infrastructure specifically, which is exactly the dynamic the
+MS/TN DOJ intervention instantiates. Also relevant: a July 2025 executive order (per Regulatory
+Review/Mintz/Crowell & Moring coverage) that eases federal environmental review specifically for
+data centers framed as protecting national security, and EPA reportedly stepping back from
+data-center regulation to states/communities.
+- **Why this became a citation note, not a new scouting entry:** a real, already-published JAPA
+  article covering close to this exact framing means the "federal preemption via national-
+  security framing" angle isn't an open scouting opportunity for a *new* paper — it's already
+  being written about at the planning/policy-journal level. But it's a genuinely useful
+  **theoretical anchor and citation** for Data Center Paper's own `federal-national-security-
+  override` candidate code, giving that code a real literature grounding beyond just the one
+  corpus instance. Recommend citing the JAPA piece (once independently verified/read) if that
+  code survives your Phase 3 review.
+- Sources (search-summarized, not fetched): [JAPA article](https://www.tandfonline.com/doi/full/10.1080/01944363.2026.2618221), [The Regulatory Review](https://www.theregreview.org/2026/07/29/lonergan-jockeying-for-control-of-ai-data-centers/), [Crowell & Moring — EPA stepping back](https://www.crowell.com/en/insights/client-alerts/epa-hands-over-ai-data-center-regulation-to-states-and-communities-to-develop-best-practices)
