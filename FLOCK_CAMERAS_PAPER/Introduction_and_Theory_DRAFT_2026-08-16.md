@@ -232,10 +232,18 @@ into the present design.
 1. Britton's read-through — every theoretical and hypothesis-wording choice here was made
    without his prior input, per his explicit 2026-08-16 instruction; flag anything that doesn't
    match his own read of the corpus or theory.
-2. Scale item-level wording is not yet verified against original sources for any construct —
-   see `notes/2026-08-16-scale-sourcing.md`. Real, correctly cited instruments have been
-   identified, but exact item text needs a library pull (same Ole Miss/library-access method
-   used for Tariff Paper's scale verification) before Study 2 can be fielded.
+2. ~~Scale item-level wording is not yet verified against original sources~~ — **resolved
+   2026-08-16 through 2026-08-20.** Item-level wording for all four literature-sourced
+   constructs (procedural injustice and institutional trust, Reisig, Bratton, & Gertz 2007;
+   crime-solving necessity, Miethe, Dudinskaya, Forepaugh, & Sousa 2025; opposition intention,
+   van Zomeren, Spears, Fischer, & Leach 2004) was pulled directly from source PDFs via Ole Miss
+   library access (`notes/2026-08-16-scale-sourcing.md`), adapted to the ALPR/camera-network
+   context (`notes/2026-08-19-instrument-adaptation-and-manipulation-checks.md`), and given a
+   face-validity desk review that revised three items for construct-contamination and
+   double-barreling risk (`notes/2026-08-20-face-validity-review-scale-items.md`). Still
+   outstanding: an actual pilot test with respondents (not yet run — desk review isn't a
+   substitute), and the archival distributive-surveillance-exposure moderator (Britton's
+   feasibility call, unresolved).
 3. No Results section exists and shouldn't until Study 2 actually runs.
 4. The two "not built into the primary model" themes (function creep, algorithmic accuracy) are
    real findings worth Britton's own read — he may want either promoted into the design rather
