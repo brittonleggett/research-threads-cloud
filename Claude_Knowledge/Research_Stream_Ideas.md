@@ -272,3 +272,103 @@ angle (Ouachita Parish, Lafayette Parish, Baton Rouge, New Orleans all now runni
 ALPR with broader camera networks), but this reads as corpus-extension material for the already-
 active FLOCK_CAMERAS_PAPER rather than a distinct new paper idea, so it wasn't written up as a
 standalone entry here — flagging for whoever next works FLOCK_CAMERAS_PAPER instead.
+
+## 2026-08-21 — nightly scouting run (WebSearch this session; WebFetch confirmed `EGRESS_BLOCKED`
+again tonight — 10th straight session with this failure mode. Below is entirely WebSearch-
+summarized, leads not primary-verified.)
+
+### 7. Tariff-surcharge non-reversal after the Supreme Court's IEEPA ruling — perceived corporate
+opportunism as a trust-erosion mechanism (new, well-evidenced, distinct from both TARIFF_PAPER's
+Study 1 and idea 2a)
+- **Gap/question:** the Supreme Court struck down Trump's IEEPA-based tariffs 6-3 on Feb 20 2026
+  (Roberts writing, Gorsuch/Barrett joining in full, Sotomayor/Kagan/Jackson in part; Thomas/
+  Kavanaugh/Alito dissenting); all IEEPA tariffs terminated Feb 24 2026, and the Court of
+  International Trade ordered CBP on Mar 4 2026 to liquidate/re-liquidate entries without the now-
+  illegal duties, opening ~$166B in refund claims from 330,000+ companies. That created a clean,
+  real natural experiment TARIFF_PAPER's existing design doesn't use: companies had spent a year-plus
+  telling consumers tariffs were *why* prices rose (the causal-attribution framing TARIFF_PAPER's
+  Study 1 already codes); now the stated cause is legally gone, and reporting through mid-2026 (a
+  Modern Retail piece specifically headlined "online merchants aren't lowering prices despite Supreme
+  Court ruling," a Forbes/Danziger piece titled "Consumers Won't See Tariff Refunds") confirms most
+  retailers simply didn't roll prices back. That's a distinct question from both existing entries:
+  not "how do companies frame the cause of a price increase" (TARIFF_PAPER Study 1) and not "does
+  tariff-attributed framing accelerate switching" (idea 2a) — this is "what happens to trust/loyalty
+  when the stated justification is publicly invalidated and the price doesn't move," a broken-promise/
+  attribution-of-blame dynamic with its own literature hook (asymmetric "rockets and feathers"
+  pricing — well-established in economics, prices rise fast and fall slow — but with no marketing-
+  journal PLS-SEM treatment found tying it to this specific 2026 event).
+- **Why tractable soon:** the natural experiment has fixed, verifiable dates (Feb 20/24, Mar 4 2026)
+  and is still live as of this search — meaning a survey or vignette fielded now captures salient,
+  current behavior rather than recalled or hypothetical scenarios. Industry commentary is already
+  using almost exactly the attribution-theory framing a mediator model would need: one piece states
+  plainly that "without transparency, consumers will interpret price increases as retailer
+  opportunism," and that consumers "may assume companies kept the benefit if they believe tariffs
+  fell and prices did not" — that's the perceived-opportunism mediator, industry-observed but not yet
+  academically modeled. Separately, a Statista-sourced 2026 stat (60% of US consumers say they'd stop
+  buying a favorite brand over tariff-driven price hikes, 53% would switch to generic) and a
+  RetailWire piece (85% of consumers believe brands use inflation as a "scapegoat" for price hikes)
+  give a lit-review base to build from immediately. A WebSearch check for an existing PLS-SEM or
+  academic marketing study on tariff-surcharge non-reversal / post-ruling price stickiness came back
+  empty — only consultancy pulse reports (Simon-Kucher, PIIE) and news coverage, no peer-reviewed
+  treatment, which given how recent the ruling is (six months old) reads as genuinely open rather than
+  a search-quality artifact.
+- **Rough method sketch:** fits Britton's antecedent→mediator→outcome template directly. Antecedent:
+  price non-reversal / awareness that the stated tariff justification was legally invalidated
+  (measured as an individual-difference variable in a survey design, or manipulated as
+  rolled-back-vs-not in a vignette experiment). Mediator: perceived corporate opportunism/attribution
+  of blame (adaptable from attribution-theory scales already likely reviewed for TARIFF_PAPER).
+  Outcome: trust erosion, boycott intention, negative WOM. Plausible moderator: price transparency
+  (whether the retailer itemized a "tariff surcharge" line vs. folded it into list price — Amazon-
+  seller and DTC-brand behavior reportedly varies here) or political attentiveness/awareness of the
+  ruling itself. Survey-based PLS-SEM is the more natural fit than a full experiment given the need to
+  measure real awareness of a real event rather than induce it artificially.
+- **Target venue:** Journal of Consumer Marketing — same target as TARIFF_PAPER's main paper, and this
+  reads as a natural companion/follow-on piece rather than a competing use of the same corpus (different
+  DV, post-ruling timeframe, trust/attribution focus vs. TA-based messaging-framing focus). Journal of
+  Public Policy & Marketing is a plausible alternate given the live price-gouging political salience
+  (Warren/DeLauro FTC letters already treat this as a policy question, not just a marketing one).
+- Leads (unverified, WebSearch only): [WilmerHale — Supreme Court strikes down IEEPA tariffs](https://www.wilmerhale.com/en/insights/client-alerts/20260220-supreme-court-strikes-down-ieepa-tariffs-what-now), [Modern Retail — online merchants aren't lowering prices despite ruling](https://www.modernretail.co/operations/marketplace-briefing-online-merchants-arent-lowering-prices-despite-supreme-court-ruling/), [Forbes/Danziger — consumers won't see tariff refunds](https://www.forbes.com/sites/pamdanziger/2026/04/29/consumers-wont-see-tariff-refunds-smart-retailers-will-turn-them-into-price-cuts/), [NPR — companies line up for refunds](https://www.npr.org/2026/02/21/g-s1-110987/supreme-court-tariffs-refunds), [RetailWire — 85% believe brands use inflation as scapegoat](https://retailwire.com/discussion/consumers-brands-inflation-scapegoat/), [Statista — brand-purchase change due to tariffs](https://www.statista.com/statistics/1560133/brand-purchase-change-due-to-tariffs-price-hike-us/), [Warren/DeLauro FTC price-gouging letter](https://www.warren.senate.gov/imo/media/doc/trump-tariff-price-gouging-letter.pdf)
+
+### 8. AI-generated misinformation as a driver of rural Louisiana solar-farm siting opposition
+(moderate confidence — genuine gap exists but narrower than idea 7; adjacent academic literature
+already exists)
+- **Gap/question:** Louisiana has several live 2026 parish-level solar-siting fights (Entergy's
+  Cypress Harvest Solar in Iberville Parish; a ~4,700-acre project near Moss Bluff in Calcasieu
+  Parish drawing opposition from a state representative; Iberia Parish's solar moratorium/setback
+  ordinance) and a new statewide law (HB 459, mandating 300-ft residential setbacks for solar
+  projects ≥75 acres, with room for parishes to go further). Reporting from this week specifically
+  (Daily Yonder/WXPR, Aug 13 2026; Planetizen, Aug 2026; The Lens, Jun 2026) frames a chunk of the
+  opposition as fueled by AI-generated "slop" — fabricated graphics and claims (cancer risk, soil
+  poisoning, property-value collapse, even "homegrown tornadoes") circulating on social media, not
+  organic grassroots concern alone. That's a genuinely different antecedent than the rest of Britton's
+  siting-opposition line (Data Center, LNG, nuclear are all about corporate/government actors and
+  procedural/distributive justice) — here the opposition-generating mechanism is a content-generation
+  technology itself, which also ties to Britton's AI-methods interest, though as a stimulus/subject
+  rather than as his usual research tool.
+- **Saturation check (real, not hand-waved):** a WebSearch specifically for prior academic work on
+  AI-generated misinformation and renewable-energy opposition found this is *not* a blank slate — a
+  2026 Scientific Reports/PMC study already examines whether GenAI dialogue can dispel wind-farm
+  misinformation, and a ScienceDirect longitudinal study already covers conspiracy belief and wind-
+  farm opposition. Both are wind-specific (not solar) and frame GenAI as a countermeasure/dialogue
+  partner rather than as the misinformation source itself, and neither is marketing-journal-framed
+  with a PLS-SEM design, nor Louisiana-specific — so there's a real opening (solar, AI-as-source not
+  AI-as-cure, marketing/PLS-SEM framing, Louisiana's live multi-parish fights and new state law) but
+  it's a narrower, more contested opening than idea 7, not a clean unclaimed space.
+- **Rough method sketch:** Study 1 (AI-assisted content analysis, if a corpus of the actual circulating
+  graphics/claims and parish-meeting testimony can be assembled) to build a claim-type typology across
+  the Iberville/Calcasieu/Iberia fights; Study 2 (experimental vignette) manipulating attributed source
+  of an anti-solar claim (AI-generated vs. traditional/human-authored, holding claim content constant),
+  measuring perceived source credibility and risk perception as mediators, opposition intention as the
+  outcome, rural/agricultural identity or trust-in-local-vs-outside-information as a moderator.
+- **Target venue:** Energy Research & Social Science reads as the best fit given the misinformation-
+  plus-energy-siting specificity and that outlet's precedent for exactly this kind of study; Journal of
+  Public Policy & Marketing is a plausible alternate if pitched as a policy-communication problem, but
+  this is civic/political opposition rather than purchase behavior, so a pure consumer-marketing
+  journal (JCM) is a weaker fit than for the other entries in this file.
+- Leads (unverified, WebSearch only): [Daily Yonder/WXPR — fears amplified by "AI slop" hamper solar boom](https://dailyyonder.com/in-rural-communities-fears-amplified-by-ai-slop-and-social-media-hamper-solar-boom/2026/08/07/), [Planetizen — misinformation and "AI slop" hamstringing rural solar](https://www.planetizen.com/news/2026/08/138179-misinformation-and-ai-slop-are-hamstringing-rural-solar-development), [The Lens — unfounded fears hamper Louisiana's solar boom](https://thelensnola.org/2026/06/30/unfounded-fears-hamper-louisianas-solar-boom/), [WAFB — Iberville Parish residents oppose Entergy solar farm](https://www.wafb.com/2026/07/28/iberville-parish-residents-oppose-entergy-solar-farm-plan-along-hwy-75/), [KPLC — Moss Bluff 4,700-acre solar farm draws opposition](https://www.kplctv.com/2026/08/20/proposed-4700-acre-solar-farm-draws-opposition-state-rep-moss-bluff-residents/), [ScienceDirect — conspiracy belief and wind-farm opposition, longitudinal](https://www.sciencedirect.com/science/article/pii/S0272494425001033), [Nature Scientific Reports — GenAI's potential to dispel wind-farm misinformation](https://www.nature.com/articles/s41598-026-42790-8)
+
+Both proposals only, per standing rule — nothing built, nothing committed to. Idea 7 is the stronger
+of the two (clean natural experiment, live fixed dates, no academic treatment found); idea 8 is
+genuine but flagged moderate-confidence given real adjacent literature already exists on the
+wind-farm side — Britton should weigh whether the solar/Louisiana/marketing-framing gap is enough
+distance from that existing work before greenlighting.
