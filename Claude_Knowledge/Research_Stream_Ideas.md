@@ -372,3 +372,115 @@ of the two (clean natural experiment, live fixed dates, no academic treatment fo
 genuine but flagged moderate-confidence given real adjacent literature already exists on the
 wind-farm side — Britton should weigh whether the solar/Louisiana/marketing-framing gap is enough
 distance from that existing work before greenlighting.
+
+## 2026-08-22 — nightly scouting run (WebSearch only this session; did not test WebFetch/egress
+tonight, so no fresh confirmation either way on the network issue logged every prior session —
+treat sourcing below as WebSearch-summarized leads, not primary-source-verified, consistent with
+every prior entry in this file)
+
+### 9. Louisiana shrimp-tariff natural experiment — domestic/provenance branding and consumer
+willingness-to-pay (high confidence — sharp Louisiana+tariff crossover, dated real-world hooks,
+genuine gap versus older COOL literature)
+- **Gap/question:** 2026 brought a concrete, dated tariff shock to Louisiana's shrimp industry —
+  the U.S. International Trade Commission's five-year sunset review kept antidumping duties on
+  frozen warmwater shrimp from China/India/Thailand/Vietnam in place, new ITC tariffs were placed
+  on shrimp from India, Ecuador, Indonesia and Vietnam, and Sens. Cassidy (R-LA) and Hyde-Smith
+  (R-MS) reintroduced the India Shrimp Tariff Act in 2026 (a stepped 10%→20%→40% duty on Indian
+  shrimp 2026-2028, plus a flat per-kilogram tax on all imported shrimp), with Louisiana lawmakers
+  separately petitioning the ITC directly and domestic shrimpers reportedly being paid as little as
+  25 cents/lb against cheap imports. The state already has a ready-made branding mechanism to study
+  this against — the Louisiana Department of Wildlife and Fisheries' "Certified Louisiana Seafood" /
+  Wild Louisiana Seafood Certification Program, an official provenance label consumers can be shown
+  directly. The open question: does *this* tariff-and-price-shock episode, layered onto an existing
+  domestic-provenance certification consumers can recognize, shift willingness-to-pay and purchase
+  intention for certified-local shrimp in a way prior country-of-origin-labeling (COOL) research
+  didn't find — older USDA-ERS work on the 2005 seafood COOL mandate found consumers largely
+  *indifferent* to origin labels absent a live economic/trade narrative attached to them. This is a
+  live economic-distress-plus-tariff narrative COOL's original rollout didn't have, and it crosses
+  two of Britton's four adjacent buckets at once (tariffs + Louisiana) rather than just one.
+- **Why tractable soon:** the tariff/legislative timeline is dated and current (ITC sunset-review
+  ruling and new country-specific tariffs this year, Cassidy/Hyde-Smith bill reintroduced in 2026
+  with duties scheduled to step up starting January 2026), giving a live before/after economic
+  reference point rather than a hypothetical scenario, and industry advocacy coverage (SeafoodSource,
+  Southern Shrimp Alliance, WAFB) describes Q2 2026 as "one of the most active advocacy periods in
+  recent memory" for the industry — meaning the framing is actively circulating in Louisiana media
+  right now, not something that needs manufacturing. A WebSearch check for existing PLS-SEM or
+  marketing-journal treatment of this specific angle (shrimp COOL + tariff-driven WTP) came back
+  empty — the closest prior work (a Journal of Agricultural and Applied Economics WTP study on
+  "Homegrown by Heroes"/local/BAP shrimp attributes, a China-beef-market COOL/ethnocentrism study,
+  the older USDA-ERS indifference finding) uses discrete-choice or hedonic-price methods, not PLS-SEM,
+  and none are tied to this year's specific tariff episode — a genuine, not just assumed, gap.
+- **Rough method sketch:** fits Britton's antecedent→mediator→outcome template well. Antecedent:
+  awareness/salience of the shrimp-tariff narrative (economic-distress-of-domestic-shrimpers framing)
+  paired with exposure to the Certified Louisiana Seafood label (could be manipulated in a vignette —
+  labeled vs. unlabeled, tariff-narrative-present vs. absent — or measured as awareness in a survey).
+  Mediator candidates: consumer ethnocentrism / "support local" sentiment, or perceived authenticity
+  of the domestic product. Outcome: willingness-to-pay premium, purchase intention for certified-local
+  vs. imported shrimp. Plausible moderator: Louisiana/regional identity strength, or price sensitivity/
+  income. Study 1 (AI-assisted thematic analysis) could code Louisiana news/advocacy-group discourse
+  (Southern Shrimp Alliance statements, legislator press releases, WAFB/SeafoodSource coverage) for
+  how the tariff-and-distress narrative is being framed, before Study 2 (PLS-SEM survey) tests the
+  WTP/purchase-intention model — same two-study shape as the other active papers.
+- **Target venue:** Journal of Consumer Marketing (companion angle to TARIFF_PAPER, but a distinct
+  regional-industry/provenance-branding study rather than the corporate-messaging-attribution focus
+  TARIFF_PAPER already has) or Journal of Food Products Marketing / British Food Journal given the
+  food-provenance-labeling literature base it would sit alongside; a Louisiana-specific
+  economic-development angle could also make Journal of Public Policy & Marketing plausible if
+  framed around the certification program itself as policy.
+- Leads (unverified, WebSearch only): [The Advocate — Louisiana's shrimping industry faces threats from imports](https://www.theadvocate.com/acadiana/news/business/louisianas-shrimping-industry-still-fighting-to-survive/article_675e6022-2936-4365-bb3d-226253944542.html), [SeafoodSource — LA lawmakers ask ITC to extend antidumping duties](https://www.seafoodsource.com/news/supply-trade/louisiana-lawmakers-ask-international-trade-commission-to-extend-antidumping-duties-on-shrimp-imports), [Southern Shrimp Alliance — India Shrimp Tariff Act](https://shrimpalliance.com/general-tariffs-can-change-india-shrimp-tariff-act-offers-long-term-solution/), [WAFB — Louisiana, Southern shrimpers praise bill targeting hazardous imports](https://www.wafb.com/2026/07/25/louisiana-southern-shrimpers-praise-bill-targeting-hazardous-imports/), [Louisiana Dept. of Wildlife & Fisheries — Wild Seafood Certification Program](https://lwscpadmin.wlf.louisiana.gov/LWSCP/), [The Fish Site — consumers appear indifferent to COOL for shrimp (USDA-ERS)](https://thefishsite.com/articles/consumers-appear-indifferent-to-countryoforigin-labeling-for-shrimp), [Journal of Agricultural and Applied Economics — WTP for shrimp with local/Homegrown-by-Heroes attributes](https://www.cambridge.org/core/journals/journal-of-agricultural-and-applied-economics/article/willingness-to-pay-for-shrimp-with-homegrown-by-heroes-communitysupported-fishery-best-aquaculture-practices-or-local-attributes/9393EE1CE8A05033230323D07A41CF0D)
+
+### 10. AI-answer brand exclusion ("zero-click"/GEO visibility gap) as a consumer-marketing
+mechanism (moderate confidence — real, distinct mechanism, but weaker dated hook and a crowded
+adjacent literature on general AI-trust-and-purchase-intention)
+- **Gap/question:** as AI search answers (Google AI Overviews, ChatGPT, Perplexity) replace
+  traditional link-clicking for product research, brands not cited in an AI's answer appear to
+  functionally disappear from the consumer's consideration set rather than just ranking lower — one
+  2026 audit of 33 brands found 52% invisible or barely visible in AI answers, and more pointedly,
+  audited brands were named in *zero* of 34 purchase-intent-stage prompts even when visible earlier
+  in the funnel, while cited brands saw meaningfully higher click-through than non-cited competitors
+  on the same queries. That's a distinct mechanism from generic "does AI recommendation build trust"
+  research (which a saturation check tonight confirmed is already a fairly active PLS-SEM literature
+  — AI-generated review transparency, AI-personalization, AI-agent trust studies all already exist):
+  this is specifically about *exclusion/invisibility* at the consideration-set-formation stage, not
+  about trusting an AI recommendation once one is given. It's also a different consumer-journey stage
+  than idea 6 (already logged 2026-08-20, "Agentic AI commerce delegation"), which is about handing
+  off the purchase/execution decision to an agent — this is about upstream discovery/consideration,
+  before a purchase decision is even being delegated.
+- **Why tractable soon, honest caveats:** the trend data is very current (68% of Google searches
+  ended without a click in early 2026, up from 60% in 2024; AI Overviews cut non-cited-brand organic
+  CTR by 61% in one cross-organization analysis) and there's live regulatory/legal salience attached
+  (EU Commission opened a formal antitrust probe into Google's AI Overviews in Dec 2025; Penske Media's
+  Feb 2026 court filing alleges AI Overviews cut publisher clicks by 58%; Senate Democrats have pushed
+  FTC/DOJ to investigate) — but that legal fight is about publishers vs. Google, not directly about
+  consumers, so it's a weaker "dated hook" than idea 9's or idea 7's fixed legislative/court dates; the
+  underlying trend itself is closer to the "vague evergreen topic" this file's own standing instructions
+  warn against than a single fixed event. Treat this as real but slower-moving than the other entries.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template if narrowly scoped. Antecedent:
+  brand citation/omission in an AI answer to a category query (manipulable in a vignette — show
+  participants an AI answer that does or doesn't name a target brand for a purchase-intent query).
+  Mediator: perceived brand relevance/credibility, or awareness itself (does omission read as "doesn't
+  exist" vs. "wasn't chosen"). Outcome: consideration-set inclusion, purchase intention. Plausible
+  moderator: category familiarity or prior brand loyalty (a familiar brand may survive omission better
+  than an unfamiliar one). Could also run as Study 1 (AI-assisted content analysis of actual AI-answer
+  outputs across a category, building a citation-inclusion typology) → Study 2 (PLS-SEM/experimental
+  survey) if Britton wants the two-study shape, though this leans more experimental than the TA-heavy
+  papers.
+- **Target venue:** Journal of Interactive Marketing or Journal of Retailing and Consumer Services fit
+  the digital-consumer-behavior framing best; Journal of Consumer Marketing is a plausible alternate but
+  would need to be pitched clearly distinct from idea 6 to avoid reviewer overlap concerns given both
+  are AI-and-purchase-journey papers from the same research line.
+- Leads (unverified, WebSearch only): [Digital Elevator — 33 AI-search audits reveal brand visibility gap](https://thedigitalelevator.com/blog/ai-search-visibility-gap-study/), [Search Engine Land — Google zero-click searches reach 68% in early 2026](https://searchengineland.com/google-zero-click-searches-2026-study-479717), [Similarweb — Zero-Click Marketing: what the 2026 data means](https://www.similarweb.com/blog/marketing/geo/zero-click-marketing/), [ALM Corp — Google AI Overviews and publisher traffic, antitrust filing analysis](https://almcorp.com/blog/google-ai-overviews-publisher-traffic-decline-antitrust-lawsuit-analysis/), [Yahoo/AFP — EU Commission probes Google's AI search mode](https://www.yahoo.com/news/articles/eu-commission-probes-googles-ai-092631086.html)
+
+Both proposals only, per standing rule — nothing built, nothing committed to. Idea 9 is the
+stronger of the two tonight (sharp dated tariff/legislative hooks, crosses two of Britton's four
+adjacent buckets at once, clean gap versus older non-PLS-SEM COOL literature); idea 10 is a real,
+distinct mechanism but flagged moderate-confidence given the weaker single-event hook and the
+adjacent "AI trust and purchase intention" literature already being fairly active — Britton should
+weigh whether the exclusion/invisibility framing is different enough from that existing work, and
+whether it's differentiated enough from idea 6 in the same file, before greenlighting. Also checked
+tonight and set aside as not-a-new-idea: Flock/ALPR state legislation restricting ICE data-sharing
+(Washington's Driver Privacy Act, Illinois camera-access reporting, more contract terminations) and
+further Louisiana CCS opposition news (Air Products blue-hydrogen plant abandoned in June, Exxon's
+CO2-pipeline antitrust dispute) — both are live and real, but read as corpus-extension material for
+the already-active FLOCK_CAMERAS_PAPER and CCS_PAPER respectively, not distinct new paper ideas, so
+neither got a standalone write-up here (same call as the RTCC note on 2026-08-20).
