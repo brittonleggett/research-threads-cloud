@@ -484,3 +484,123 @@ further Louisiana CCS opposition news (Air Products blue-hydrogen plant abandone
 CO2-pipeline antitrust dispute) — both are live and real, but read as corpus-extension material for
 the already-active FLOCK_CAMERAS_PAPER and CCS_PAPER respectively, not distinct new paper ideas, so
 neither got a standalone write-up here (same call as the RTCC note on 2026-08-20).
+
+## 2026-08-24 — nightly scouting run (WebSearch only this session; did not test WebFetch/egress
+tonight, so no fresh confirmation either way on the network issue logged every prior session —
+treat sourcing below as WebSearch-summarized leads, not primary-source-verified, consistent with
+every prior entry in this file)
+
+### 11. Surveillance/algorithmic pricing disclosure-mandate wave — perceived fairness and trust
+under a live 2026 state-law rollout (moderate confidence — strong, unusually close dated hook;
+honest caveat that the underlying fairness-perception construct is an already-active literature)
+- **Gap/question:** 2026 has produced a fast state-legislative wave against "surveillance
+  pricing" (setting different prices for the same good based on a consumer's personal data via
+  AI/algorithmic tools) — more than 40 bills introduced across at least 24 states this year alone,
+  already outpacing all of 2025. Maryland's Protection From Predatory Pricing Act (food retailers/
+  delivery apps) and Connecticut's surveillance-pricing ban both take effect **October 1, 2026** —
+  about five weeks from tonight — and Connecticut's law specifically mandates a consumer-facing
+  *disclosure label* at the point of sale, not just a ban. New York's One Fair Price Act passed the
+  legislature June 4, 2026, and California's AG opened a retail/grocery/hotel investigative sweep in
+  January 2026. The open question this wave creates that existing personalized-pricing-fairness
+  literature doesn't yet answer: does a *mandated, standardized disclosure label* — the actual
+  regulatory instrument now going live, not just abstract awareness that pricing might be
+  personalized — change perceived fairness, trust, and purchase/switching intention differently than
+  generic disclosure does, and does support for these bans track a distributive-justice or a
+  procedural-justice (autonomy/consent) logic more strongly.
+- **Why tractable soon, honest caveat included:** the Oct 1, 2026 effective dates give an unusually
+  precise, near-term before/after natural-experiment window — a survey or vignette fielded around
+  that date captures a real regulatory change landing in real time, not a hypothetical. But a
+  WebSearch saturation check tonight found this is *not* a blank slate: perceived price fairness
+  under personalized/algorithmic pricing is an established stream (Journal of Revenue and Pricing
+  Management has run studies on this since at least 2019, with more in 2024; a 2024 CHI paper
+  specifically compares algorithmic vs. human price discrimination and price-fairness perceptions).
+  What that existing work doesn't cover is the *specific 2026 disclosure-label mandate as the
+  stimulus* — most existing studies manipulate awareness/suspicion of personalized pricing in the
+  abstract, not a real, dated, government-mandated label format. That's a narrower, real gap, not a
+  wide-open one — Britton should weigh whether the disclosure-mandate framing is different enough
+  from the existing fairness-perception literature to clear review, not assume it automatically is.
+  Louisiana's own version of this bill (HB 471, SB 362) was checked tonight and is weak as a
+  Louisiana-specific hook — SB 362 is dead, HB 471 stalled in committee as of March 2026 — so this
+  reads as a genuinely *national* consumer-marketing paper adjacent to Britton's tariff/consumer-
+  behavior line, not a Louisiana-specific one, similar in scope to the national framing already used
+  for ideas 2a/6/7/10.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: exposure to a
+  disclosure label mirroring the actual Connecticut-mandated format (vs. no label / vs. a generic AI-
+  pricing disclosure) in a vignette purchase scenario, or awareness of the state-law change measured
+  in a survey fielded post-Oct-1. Mediators: perceived price fairness (distributive) and perceived
+  autonomy/control (procedural) as parallel or competing mediators — literature above supports both
+  as live constructs. Outcome: trust in retailer, purchase intention, switching/boycott intention,
+  support for further regulation. Plausible moderator: prior awareness of surveillance pricing as a
+  practice, or general privacy concern. PLS-SEM survey design is the more natural fit than a TA-based
+  Study 1, given there's no discourse corpus equivalent to the infrastructure-opposition papers here.
+- **Target venue:** Journal of Consumer Marketing or Journal of Public Policy & Marketing (the
+  policy-disclosure-mandate framing fits JPP&M's usual lane well, and is a plausible companion piece
+  to Britton's existing JPP&M-track work without competing with it on design or corpus).
+- Leads (unverified, WebSearch only): [Bloomberg Law — states are cracking down on algorithmic pricing](https://news.bloomberglaw.com/legal-exchange-insights-and-commentary/states-are-cracking-down-on-algorithmic-pricing-are-you-ready), [Skadden — Maryland becomes first state to restrict surveillance pricing in food industry](https://www.skadden.com/insights/publications/2026/05/maryland-becomes-the-first-state-to-restrict-surveillance-pricing), [Loeb & Loeb — New York's One Fair Price Act](https://www.loeb.com/en/insights/passle/2026/06/one-fair-price-act-new-yorks-developing-approach-to-surveillance-pricing), [Holland & Knight — surveillance pricing and dynamic pricing, Aug 2026](https://www.hklaw.com/en/insights/publications/2026/08/surveillance-pricing-and-dynamic-pricing-what-general-counsels), [ailawsbystate.com — 24-state tracker](https://www.ailawsbystate.com/tools/surveillance-pricing-tracker), [MyRepTracker — Louisiana HB 471](https://www.myreptracker.com/louisiana/bills/la-2026-regular-session-hb-471), [Springer/JRPM — antecedents and outcomes of consumer fairness perceptions in personalized pricing](https://link.springer.com/article/10.1057/s41272-024-00509-2), [CHI 2026 proceedings — algorithmic vs. human price discrimination and fairness](https://dl.acm.org/doi/10.1145/3613904.3642280)
+
+### 12. St. James Parish "Cancer Alley" racial-zoning ruling — a legally distinct environmental-
+justice hook, adjacent to but not a restatement of DATA_CENTER_PAPER/CCS_PAPER (moderate confidence
+— strong, sharply dated legal hook; honest caveat that it's structurally similar in shape to several
+already-logged infrastructure-opposition ideas)
+- **Gap/question:** on February 9, 2026, a federal district court ruled that Inclusive Louisiana,
+  Mt. Triumph Baptist Church, and RISE St. James can proceed on *all* claims in their suit against
+  St. James Parish — including that the parish's decades-long practice of zoning heavy petrochemical
+  industry into its majority-Black 4th and 5th Districts violates the Thirteenth Amendment (as a
+  "vestige of slavery") and the Fourteenth Amendment's Equal Protection Clause. That's a materially
+  different legal theory and opposition object than any of Britton's three infrastructure papers or
+  the ideas already logged in this file (data centers, LNG, nuclear, solar): those are about siting a
+  *new* facility and contesting its arrival; this is about a *historical land-use pattern itself*
+  being challenged as racially discriminatory under constitutional (not just environmental-
+  regulatory) doctrine — a procedural-justice claim about the zoning process and its history, not
+  about a single facility's environmental review. The open marketing/public-policy question: how do
+  residents, advocacy groups, and industry frame this land-use/zoning-discrimination claim rhetorically
+  compared to the facility-specific opposition frames already coded or being coded in DATA_CENTER_PAPER
+  and CCS_PAPER, and does explicit constitutional/civil-rights framing (vs. environmental-harm framing)
+  produce a distinct persuasion or legitimacy-perception pattern.
+- **Why tractable soon, honest caveat included:** the Feb 9, 2026 ruling is a fixed, dated, and
+  unusually significant procedural win (surviving a motion to dismiss on every count, including the
+  13th Amendment claim, which is a rare and notable legal theory to survive this stage) — meaning
+  there will be continued docket activity and press coverage to build a corpus from as the case
+  proceeds. The honest caveat: this is the *fourth* Louisiana industrial-siting/environmental-justice
+  angle surfaced across this file's scouting sessions (after LNG at #3/3a, nuclear at #5, and
+  solar-misinformation at #8), all sharing the same broad procedural/distributive-justice theoretical
+  vocabulary and the same likely venue (JPP&M) — Britton should weigh whether this is genuinely
+  differentiated by its distinct legal theory (racial zoning/13th Amendment vs. facility-specific
+  environmental review) or whether the well is being drawn from too many times in one thread. A
+  WebSearch check tonight for existing marketing/PLS-SEM treatment of this specific case came back
+  empty — coverage is legal/journalistic (Earthjustice, Capital B News, Center for Constitutional
+  Rights, e&e News), not academic-marketing, so the immediate gap is real even if the broader
+  infrastructure-opposition vein is getting crowded.
+- **Rough method sketch:** same Study 1 (AI-assisted discourse analysis of case coverage, advocacy-
+  group statements, parish council/zoning records where public) → Study 2 (PLS-SEM) template as the
+  other three papers. Candidate chain: perceived procedural injustice (historical zoning pattern) as
+  antecedent, legitimacy of the land-use/regulatory process as mediator, support for a facility
+  moratorium or distrust of parish government as outcome — civil-rights framing as a plausible
+  moderator on the antecedent-mediator link.
+- **Target venue:** Journal of Public Policy & Marketing (same lane as DATA_CENTER_PAPER/CCS_PAPER)
+  or Journal of Business Ethics/Business & Society given the explicit civil-rights/constitutional
+  framing, which is a slightly different fit than the consumer-facing JPP&M angle.
+- **Recommendation, not a decision:** given how close this sits to the already-logged infrastructure-
+  opposition ideas and to DATA_CENTER_PAPER/CCS_PAPER's own template, Britton may prefer this as a
+  candidate *fourth case* folded into DATA_CENTER_PAPER's now-national comparative design (procedural-
+  justice framing across facility types/regions) rather than a fully separate fifth paper — flagging
+  the choice rather than assuming either answer, same as idea 3a's LNG entry did.
+- Leads (unverified, WebSearch only): [Capital B News — Black residents win key ruling in Cancer Alley environmental racism case](https://capitalbnews.org/cancer-alley-residents-pollution-lawsuit/), [Center for Constitutional Rights — court rules lawsuit can proceed on all counts](https://ccrjustice.org/home/press-center/press-releases/victory-black-residents-cancer-alley-court-rules-landmark-lawsuit), [Earthjustice — a deserved reprieve for St. John residents](https://earthjustice.org/experts/deena-tumeh/in-louisianas-cancer-alley-a-deserved-reprieve-for-st-john-residents-after-years-of-environmental-injustice), [E&E News — court stymies EPA enforcement push at Cancer Alley plant](https://www.eenews.net/articles/court-stymies-epa-enforcement-push-at-cancer-alley-plant/)
+
+Both proposals only, per standing rule — nothing built, nothing committed to. Idea 11 has the
+sharper near-term dated hook (Oct 1, 2026 disclosure-mandate effective dates, five weeks out) but
+sits in a literature that's already moderately active, so it's a narrower gap than it first looks;
+idea 12 has an even sharper dated legal hook (a fixed Feb 9, 2026 ruling date) and a genuinely novel
+legal theory, but is the fourth entry in this file's Louisiana-infrastructure-opposition vein and
+reads structurally close enough to DATA_CENTER_PAPER's own scope that Britton may want it folded in
+rather than spun out standalone. Also checked tonight and set aside as not-a-new-idea or too weak a
+hook: a Louisiana bill (SB246, health-insurance AI-claims-denial human-review mandate) that stalled
+at "subject to call" in the Senate in April 2026 with no confirmed final passage found as of tonight
+— too uncertain a legislative hook to anchor a study on, and the general AI-disclosure-and-trust
+construct is already a fairly active literature (an American Impact Review systematic lit review on
+exactly this published March 2026); a Louisiana crawfish-tariff angle (ITC renewed antidumping duties
+on Chinese crawfish tail meat, June 2026; Cassidy's Home Market Restoration Act) that reads as too
+close a mechanical repeat of idea 9's shrimp-tariff/provenance-branding design to be a distinct paper
+rather than a corpus variant of the same idea; and shrinkflation/FTC scrutiny, which remains the same
+generically-true, no-fixed-recent-date topic it would have been in any prior year, not a fresh 2026
+hook.
