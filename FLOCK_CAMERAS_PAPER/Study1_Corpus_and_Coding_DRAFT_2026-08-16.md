@@ -61,18 +61,29 @@ a finished design decision.
 | 17 | National (PBS feature) | Counter-current: Flock credits camera network with 800K-1M crimes/year solved, Brown University shooting response, 2,000+ missing persons found | 2026-07 | [PBS NewsHour](https://www.pbs.org/newshour/show/police-say-flock-cameras-help-solve-crimes-but-critics-call-them-an-invasion-of-privacy) | WebSearch |
 | 18 | Ferndale / Oakland County, MI | Counter-current: police credit cameras with solving a murder, a double murder, a carjacking | 2026 | [Fox2 Detroit](https://www.fox2detroit.com/news/flock-camera-vandalism-safety-surveillance-backlash-michigan) (context piece) | WebSearch (named: Oakland Co. Sheriff Michael Bouchard, "game-changer" quote attributed to a Chief Campurciani) |
 | 19 | Unspecified (ABC News) | Officer allegedly misused Flock to track a boyfriend's ex-wife — individual-level misuse, not institutional | 2026 | [ABC News](https://abcnews.com/US/officer-allegedly-flock-license-plate-cameras-track-boyfriends/story?id=135418955) | WebSearch — headline/lede only, needs a direct fetch pass before citing specifics (officer name, department, discipline outcome not yet confirmed) |
-| 20 | El Cerrito, CA | Council rejection; Mayor Pro Tem cites federal-access fear | 2026 | (carried from orientation note, not re-verified this pass) | WebSearch-confidence only |
-| 21 | Appleton, WI | Council rejection; Mayor cites eroded trust in Flock's "underlying system" | 2026 | (carried from orientation note, not re-verified this pass) | WebSearch-confidence only |
+| 20 | El Cerrito, CA | Council rejection 3-2 (May 2026); cameras dark June 7, removed by end of July; driver was federal agencies accessing data without local PD knowledge | 2026 | (multi-source: KALW, Local News Matters, NBC Bay Area, Contra Costa News, ccpulse.org — see `notes/2026-08-21-corpus-addendum-new-evidence.md` Part 1) | WebSearch (multi-source triangulated, upgraded 2026-08-21 from WebSearch-confidence-only; still recommend a direct-fetch check before citation-grade quoting) |
+| 21 | Appleton, WI | Council rejection; Mayor Jake Woodford cites eroded trust in Flock's "underlying system," explicitly citing the Menasha/Milwaukee misuse cases (#23/#24) as evidence | 2026 (cameras stopped/covered June 30) | (multi-source: WBAY, WFRV, Fox11, WTMJ, NBC26 — see `notes/2026-08-21-corpus-addendum-new-evidence.md` Part 1) | WebSearch (multi-source triangulated, upgraded 2026-08-21; same caveat as #20) |
 | 22 | League City, TX | Data center adoption question sent to a November voter referendum | 2026 (referendum pending) | (carried from orientation note, not re-verified this pass) | WebSearch-confidence only, and note this is forward-looking/unresolved, similar to Data Center Paper's #17 Caddo tax vote |
+| 23 | Menasha, WI | Officer Cristian Morales convicted (felony misconduct in office; judge rejected a lighter plea deal) for using Flock network off-duty to track his ex-girlfriend — 7 searches across ~15,000-92,000 cameras nationwide; sentenced 6 months jail, 3 years probation, $250 fine, permanent bar from law enforcement/Flock access | Sentenced 2026-08-17 | (multi-source: Wisconsin Examiner, WBAY, Fox11, WTAQ, WHBY, WIXX, 94.3 Jack FM — independently re-confirmed via fresh WebSearch 2026-08-24) | WebSearch (multi-source triangulated; first corpus artifact with formal legal consequences for an individual misuser, not an institution) |
+| 24 | Milwaukee, WI | Two separate officers charged with Flock misuse: Josue Ayala (179-200+ searches tracking a partner and her ex; guilty plea, probation) and Det. Tehrangi Chapman (20 unauthorized searches plus a physical GPS tracker on one victim's car; Chapman had earlier helped investigate Ayala's case) | Charged/reported 2026-07/08 | (multi-source: FOX6, NBC26, WTMJ, WPR, TMJ4, CNN, Yahoo — independently re-confirmed via fresh WebSearch 2026-08-24; note a minor sourcing discrepancy on the Ayala search count, 179 per the Yahoo headline vs. "more than 200" per a CNN-derived summary — not reconciled, flag before citing an exact number) | WebSearch (multi-source triangulated) |
+| 25 | Mountain View, CA | Internal audit found federal agencies (ATF Kentucky/Tennessee, Langley AFB, GSA-OIG, Lake Mead NRA, an Ohio AFB) accessed one camera's data Aug-Nov 2024 via an undisclosed nationwide-search default; separately, a statewide search function let CA state/local agencies access 29 of the city's 30 cameras — neither approved by the city or its PD. City suspended and is shutting down its ALPR program | 2024-08 to 2024-11 access; disclosed/response 2026 | (multi-source: ABC7 News ×2 pieces, Yahoo — independently re-confirmed via fresh WebSearch 2026-08-24; WebFetch attempt on the ABC7 primary source failed, EGRESS_BLOCKED) | WebSearch (multi-source triangulated); first corpus artifact documenting both a federal *and* a state-level version of the undisclosed-default mechanism in the same case |
 
 **Corpus notes:** #1-4, #6-16 directly verified this pass (fetched or multi-source
 WebSearch-triangulated); #5, #17-19 are real but thinner-sourced (single article, headline-
-level, or missing a name/date) — flag before treating as citation-ready; #20-22 are
-WebSearch-confidence carried from the 2026-08-16 orientation note, not independently
-re-verified in this pass. Geographic spread achieved: OR, IL, NY, VA (×3: Richmond, Hampton
-Roads, Norfolk), TX (×2), OH, CA (×3: LA, San Jose, statewide), NE, CO, MI (×3: Menominee,
-Ferndale/Oakland Co., statewide implied), MA, WI, national — 14 states plus one national-level
-piece, a meaningfully broader footprint than Data Center Paper's original single-state corpus.
+level, or missing a name/date) — flag before treating as citation-ready; #20-21 upgraded
+2026-08-21 to multi-source WebSearch-triangulated (from WebSearch-confidence-only); #22 remains
+WebSearch-confidence carried from the 2026-08-16 orientation note, not independently re-verified;
+#23-25 added 2026-08-21 (`notes/2026-08-21-corpus-addendum-new-evidence.md`), multi-source
+WebSearch-triangulated, independently re-confirmed via a fresh WebSearch pass 2026-08-24 (see
+`notes/2026-08-24-*` for tonight's session). None of #20-25 has been direct-fetch verified —
+WebFetch has now failed with `EGRESS_BLOCKED` in twelve straight sessions across every domain
+tried (SAGE, ABC7, Techdirt, ResearchGate, TCU, and others); this is an environment-level block,
+not a domain-specific one, and remains the single biggest verification gap in this corpus.
+Geographic spread achieved: OR, IL, NY, VA (×3: Richmond, Hampton Roads, Norfolk), TX (×2), OH,
+CA (×4: LA, San Jose, statewide, Mountain View), NE, CO, MI (×3: Menominee, Ferndale/Oakland
+Co., statewide implied), MA, WI (×3: Appleton, Menasha, Milwaukee), national — 14 states plus one
+national-level piece, a meaningfully broader footprint than Data Center Paper's original
+single-state corpus.
 
 ---
 

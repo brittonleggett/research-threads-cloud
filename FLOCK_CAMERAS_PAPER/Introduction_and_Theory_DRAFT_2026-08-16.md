@@ -68,17 +68,29 @@ instead to federal immigration enforcement or other out-of-jurisdiction agencies
 public's knowledge. Third, this paper is, to our knowledge, the first study to move beyond
 qualitative and interview-based treatments of ALPR controversy — most directly, Nhan and
 Helfers's (2026) interview study with Flock Safety representatives, law-enforcement users, and
-policymakers — to a design that inductively derives its theoretical mechanism from a large,
-geographically diverse corpus of real public controversies and then tests that mechanism's
-causal structure experimentally. Where Nhan and Helfers document practitioner and vendor
-perspectives on the security-privacy tradeoff, this paper centers the public's own reaction and
-tests whether disclosure, not just accuracy or capability, is what determines whether that
-tradeoff is judged legitimate. It is also worth noting plainly, in the interest of an even-handed
-comparison, that Nhan and Helfers's study was conducted under a research grant from Flock Safety
-itself (with contractually stipulated researcher independence on topic, methodology, and
-findings) and relied on Flock as a gatekeeper for agency access; the present study uses no
-vendor funding or vendor-facilitated access, drawing instead on public news coverage, court
-filings, and government records.
+policymakers, and two further 2026 qualitative treatments identified in a 2026-08-24 literature
+scan, Monahan's (2026) critical-surveillance-studies analysis of Flock's network architecture as
+a "communicative network" enabling discriminatory, cross-jurisdictional policing (*Mobile Media &
+Communication*), and Monahan's (2026) companion piece on campus police departments' use of Flock
+as an appendage of a national policing apparatus, built on open-records-request document analysis
+(*Policing and Society*) — to a design that inductively derives its theoretical mechanism from a
+large, geographically diverse corpus of real public controversies and then tests that mechanism's
+causal structure experimentally. All three prior treatments are qualitative/document-analytic;
+none manipulates disclosure of a camera network's data-sharing practice or tests a trust-mediated
+opposition-intention outcome, which is this paper's specific point of departure from the existing
+Flock/ALPR literature as a whole, not just from Nhan and Helfers alone. Where Nhan and Helfers
+document practitioner and vendor perspectives on the security-privacy tradeoff, this paper centers
+the public's own reaction and tests whether disclosure, not just accuracy or capability, is what
+determines whether that tradeoff is judged legitimate. It is also worth noting plainly, in the
+interest of an even-handed
+comparison, that Nhan and Helfers's (2026) study was conducted under a research relationship with
+Flock Safety and relied on Flock as a gatekeeper for agency access — Flock representatives were
+themselves among the interviewees, and Flock's cooperation was necessary to reach the
+law-enforcement users and policymakers in the sample. The published article's own funding and
+disclosure statement has not been independently verified for this paper as of this draft; the
+present study uses no vendor funding or vendor-facilitated access of any kind, drawing instead on
+public news coverage, court filings, and government records — a methodological contrast that
+holds regardless of how the 2026 study's specific disclosure statement reads once confirmed.
 
 ## Theoretical Background and Hypothesis Development
 
@@ -104,9 +116,18 @@ immigration enforcement (Evanston, Bend, Syracuse), or is queried hundreds of th
 by outside agencies without a warrant (San Jose: 261,711 warrantless searches by the city's own
 police department alone, per the ACLU/EFF lawsuit filed on behalf of SIREN and CAIR-CA), the
 violation is not merely that data was collected — it is that data moved outside the context the
-public understood it to be confined to. We treat undisclosed default data-sharing as a
-contextual-integrity violation that should be perceived as a specific, procedural form of
-injustice, distinct from a generic privacy-concern measure.
+public understood it to be confined to. The mechanism is not limited to federal access. In
+Mountain View, California, an internal audit found that a single camera's data had been queried
+by federal agencies as geographically and functionally disparate as an Air Force base, a national
+recreation area, and multiple regional field offices — while a separate, distinct search function
+had let California state and local law-enforcement agencies access data from twenty-nine of the
+city's thirty cameras, neither use approved by the city or its police department. That a single
+undisclosed-default architecture produces both a federal and a state-level version of the same
+violation is, if anything, stronger evidence that the mechanism under study is structural to how
+the technology is configured by default, not an artifact of any one agency's federal overreach. We
+treat undisclosed default data-sharing as a contextual-integrity violation that should be
+perceived as a specific, procedural form of injustice, distinct from a generic privacy-concern
+measure.
 
 This paper's proposed institutional-trust mechanism (H2 below) is not a theoretical reach into
 an unstudied domain. Li (2024), drawing on a 2021 nationally representative U.S. survey
@@ -122,7 +143,19 @@ conclusion via a different method (a UK live-facial-recognition field survey), f
 legitimacy — not perceived effectiveness — predicted public support. Both studies measure
 trustworthiness/legitimacy as an antecedent to acceptance broadly rather than testing an
 experimentally manipulated disclosure condition specifically, which is this paper's point of
-departure from both:
+departure from both. A 2026-08-24 literature scan surfaced one further, closer methodological
+precedent for the general survey-experiment-on-policing-technology approach: Schiff, Schiff,
+Adams, McCrain, and Mourtgos (2025), a pre-registered survey experiment (*n* = 4,200) on public
+responsiveness to AI use in policing, found citizens respond most strongly to *institutional*
+factors — specifically, whether a technology is deployed by local versus national law
+enforcement — published in *Public Administration Review*, another leading candidate venue for
+this paper. That study manipulates institutional/agency-level factors, not disclosure of a
+data-sharing practice, and does not test a trust-mediated opposition-intention chain, so it does
+not anticipate this paper's specific design — but its local-versus-national manipulation is a
+notable structural echo of this paper's own local-police-versus-federal-agency distinction
+running through the corpus (Bend, Evanston, Mountain View), and it is worth citing both as a
+precedent for the general method and as evidence PAR's editorial community is already receptive
+to this class of design:
 
 > **H1.** A camera network operating under a secret, undisclosed default data-sharing practice
 > will produce higher perceived procedural injustice than one operating under an explicitly
@@ -215,10 +248,24 @@ of behavioral intention, not an interpretive filter on the injustice appraisal i
 Study 1's corpus surfaced two further real, well-evidenced patterns not incorporated into the
 hypotheses above, reported here for completeness rather than omitted silently. First, a
 function-creep pattern — the network sold as a stolen-vehicle tool but used for
-reproductive-healthcare surveillance or personal stalking — is real but rests on only two,
-thinly sourced corpus artifacts (see `Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`, #5 and
-#19) and is treated as a discussion-section direction for future work rather than a hypothesis
-in this design. Second, algorithmic accuracy and wrongful-stop harms (a Toledo, Ohio K9 mauling
+reproductive-healthcare surveillance, personal stalking, or unauthorized off-duty tracking — is
+real and, as of a 2026-08-21 corpus addendum, now supported by five artifacts rather than the two
+thinly sourced cases in the original 22-artifact corpus (see
+`Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`, #5 and #19): alongside the original two, a
+Menasha, Wisconsin officer was sentenced to six months in jail and permanently barred from law
+enforcement or Flock system access for using the network to track an ex-girlfriend, and two
+Milwaukee officers were separately charged with misconduct for tracking people they were
+personally involved with, one case surfaced only after the victim checked a public self-audit
+tool (haveibeenflocked.com). A cited but not yet independently verified industry-tracking figure
+(attributed by search results to the Institute for Justice: at least 21 similar cases nationally
+since 2024) would, if confirmed, convert this from an anecdotal pattern into a documented
+national one. This strengthened evidentiary base is treated here as a discussion-section
+direction for future work rather than a hypothesis in the present design, consistent with the
+2026-08-16 Phase 3 decision — though the decision to keep it out of the primary Study 2 model was
+made when the evidentiary base was thinner, and is flagged for the PI's own reassessment given how
+much stronger it now is (see `notes/2026-08-21-corpus-addendum-new-evidence.md` and
+`notes/2026-08-22-theory-draft-strengthening-mountain-view-and-function-creep.md`). Second,
+algorithmic accuracy and wrongful-stop harms (a Toledo, Ohio K9 mauling
 following a single-digit plate misread; a Los Angeles Police Department audit finding a 32.3%
 false-positive rate on stolen-vehicle flags) constitute a distinct causal story — dread risk
 (Slovic) operating largely independent of the disclosure/trust chain modeled here — and are
@@ -245,6 +292,35 @@ into the present design.
    substitute), and the archival distributive-surveillance-exposure moderator (Britton's
    feasibility call, unresolved).
 3. No Results section exists and shouldn't until Study 2 actually runs.
-4. The two "not built into the primary model" themes (function creep, algorithmic accuracy) are
+4. **2026-08-24 update:** the two prose inserts drafted 2026-08-22
+   (`notes/2026-08-22-theory-draft-strengthening-mountain-view-and-function-creep.md`) have now
+   been merged into this draft — the Mountain View state-level-access paragraph (contextual-
+   integrity section) and the updated "five artifacts, not two" function-creep count above. Both
+   underlying facts were independently re-checked via fresh WebSearch tonight (Mountain View,
+   Menasha, Milwaukee all corroborate across multiple outlets not consulted on 2026-08-21/22) —
+   still WebSearch-triangulated confidence, not direct-fetch, per the same caveat the original
+   notes carried; a direct-fetch check of the ABC7 News Mountain View piece specifically is
+   recommended before this goes into a submitted manuscript. The Nhan & Helfers "contractually
+   stipulated researcher independence" clause has also been replaced with the softened language
+   drafted 2026-08-22 (`notes/2026-08-22-nhan-helfers-independence-claim-resolution.md`) — that
+   claim remains genuinely unverified as of tonight (WebFetch still egress-blocked, 12th straight
+   session; WebSearch surfaced no funding/disclosure statement for the article) and needs a
+   direct read of the 2026 *Police Journal* article itself (library access or working WebFetch)
+   before any independence claim stronger than "a research relationship with Flock Safety
+   existed" goes in a submitted manuscript.
+5. The two "not built into the primary model" themes (function creep, algorithmic accuracy) are
    real findings worth Britton's own read — he may want either promoted into the design rather
    than held for a discussion section or follow-up study.
+6. **2026-08-24 — deeper literature-novelty scan run** (see
+   `notes/2026-08-24-literature-novelty-deep-scan.md` for full detail): no competing study found
+   that experimentally manipulates ALPR/Flock data-sharing disclosure or tests this paper's
+   specific serial-mediation chain (disclosure → procedural injustice → institutional trust →
+   opposition intention) with these two moderators — the novelty claim in this Introduction still
+   holds after a real search, not just the 2026-08-16 orientation pass's shallow one. Two close
+   adjacent works have been folded into this draft (Monahan's two 2026 qualitative Flock papers
+   above; Schiff et al. 2025 in the theory section). One more close structural analog — a
+   randomized-vignette experiment on public perceptions of police information technology
+   (*Journal of Criminal Justice*, Dec 2024, Article 102332) — was found but **not** added to this
+   draft because its author list could not be confirmed via WebSearch (WebFetch still
+   egress-blocked); flagged in the novelty-scan note for Britton or a future library-access
+   session to pull and potentially cite.
