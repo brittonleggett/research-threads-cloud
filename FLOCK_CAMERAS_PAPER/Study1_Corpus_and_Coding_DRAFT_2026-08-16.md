@@ -65,7 +65,7 @@ a finished design decision.
 | 21 | Appleton, WI | Council rejection; Mayor Jake Woodford cites eroded trust in Flock's "underlying system," explicitly citing the Menasha/Milwaukee misuse cases (#23/#24) as evidence | 2026 (cameras stopped/covered June 30) | (multi-source: WBAY, WFRV, Fox11, WTMJ, NBC26 — see `notes/2026-08-21-corpus-addendum-new-evidence.md` Part 1) | WebSearch (multi-source triangulated, upgraded 2026-08-21; same caveat as #20) |
 | 22 | League City, TX | Data center adoption question sent to a November voter referendum | 2026 (referendum pending) | (carried from orientation note, not re-verified this pass) | WebSearch-confidence only, and note this is forward-looking/unresolved, similar to Data Center Paper's #17 Caddo tax vote |
 | 23 | Menasha, WI | Officer Cristian Morales convicted (felony misconduct in office; judge rejected a lighter plea deal) for using Flock network off-duty to track his ex-girlfriend — 7 searches across ~15,000-92,000 cameras nationwide; sentenced 6 months jail, 3 years probation, $250 fine, permanent bar from law enforcement/Flock access | Sentenced 2026-08-17 | (multi-source: Wisconsin Examiner, WBAY, Fox11, WTAQ, WHBY, WIXX, 94.3 Jack FM — independently re-confirmed via fresh WebSearch 2026-08-24) | WebSearch (multi-source triangulated; first corpus artifact with formal legal consequences for an individual misuser, not an institution) |
-| 24 | Milwaukee, WI | Two separate officers charged with Flock misuse: Josue Ayala (179-200+ searches tracking a partner and her ex; guilty plea, probation) and Det. Tehrangi Chapman (20 unauthorized searches plus a physical GPS tracker on one victim's car; Chapman had earlier helped investigate Ayala's case) | Charged/reported 2026-07/08 | (multi-source: FOX6, NBC26, WTMJ, WPR, TMJ4, CNN, Yahoo — independently re-confirmed via fresh WebSearch 2026-08-24; note a minor sourcing discrepancy on the Ayala search count, 179 per the Yahoo headline vs. "more than 200" per a CNN-derived summary — not reconciled, flag before citing an exact number) | WebSearch (multi-source triangulated) |
+| 24 | Milwaukee, WI | Two separate officers charged with Flock misuse: Josue Ayala (179 searches tracking a partner and her ex — 124 searches on the partner, 55 on her ex, per the criminal complaint; guilty plea, probation) and Det. Tehrangi Chapman (20 unauthorized searches plus a physical GPS tracker on one victim's car; Chapman had earlier helped investigate Ayala's case) | Charged/reported 2026-07/08 | (multi-source: FOX6, NBC26, WTMJ, WPR, TMJ4, CNN, Yahoo, WISN, News From The States, AOL/wire — independently re-confirmed via fresh WebSearch 2026-08-24 and again 2026-08-25) | WebSearch (multi-source triangulated) |
 | 25 | Mountain View, CA | Internal audit found federal agencies (ATF Kentucky/Tennessee, Langley AFB, GSA-OIG, Lake Mead NRA, an Ohio AFB) accessed one camera's data Aug-Nov 2024 via an undisclosed nationwide-search default; separately, a statewide search function let CA state/local agencies access 29 of the city's 30 cameras — neither approved by the city or its PD. City suspended and is shutting down its ALPR program | 2024-08 to 2024-11 access; disclosed/response 2026 | (multi-source: ABC7 News ×2 pieces, Yahoo — independently re-confirmed via fresh WebSearch 2026-08-24; WebFetch attempt on the ABC7 primary source failed, EGRESS_BLOCKED) | WebSearch (multi-source triangulated); first corpus artifact documenting both a federal *and* a state-level version of the undisclosed-default mechanism in the same case |
 
 **Corpus notes:** #1-4, #6-16 directly verified this pass (fetched or multi-source
@@ -76,9 +76,21 @@ WebSearch-confidence carried from the 2026-08-16 orientation note, not independe
 #23-25 added 2026-08-21 (`notes/2026-08-21-corpus-addendum-new-evidence.md`), multi-source
 WebSearch-triangulated, independently re-confirmed via a fresh WebSearch pass 2026-08-24 (see
 `notes/2026-08-24-*` for tonight's session). None of #20-25 has been direct-fetch verified —
-WebFetch has now failed with `EGRESS_BLOCKED` in twelve straight sessions across every domain
-tried (SAGE, ABC7, Techdirt, ResearchGate, TCU, and others); this is an environment-level block,
-not a domain-specific one, and remains the single biggest verification gap in this corpus.
+WebFetch has now failed with `EGRESS_BLOCKED` in fourteen straight sessions across every domain
+tried (SAGE, ABC7, Techdirt, ResearchGate, TCU, CNN, Wikipedia-as-control, and others); this is an
+environment-level block, not a domain-specific one, and remains the single biggest verification
+gap in this corpus. **2026-08-25 update:** the #24 Ayala search-count discrepancy (179 vs. "more
+than 200") flagged 2026-08-24 was investigated further via targeted WebSearch (still no working
+WebFetch) — see `notes/2026-08-25-ayala-count-and-jcrimjustice-authorship.md` for full detail.
+Multiple independent outlets (WISN, News From The States) explicitly attribute 179 to the
+criminal complaint itself, with a specific breakdown (124 searches on the romantic partner, 55 on
+her ex) that sums exactly to 179 — this is the primary-source-anchored figure and is now used
+throughout this table and the Introduction draft. "More than 200" and "nearly 180" both recur in
+other outlets' looser paraphrases, but none of them cite the complaint or give a breakdown;
+treated as secondary/imprecise characterizations, not a genuine competing primary-source figure.
+Confidence: WebSearch-triangulated, not direct-fetch — a direct read of the charging document or
+the CNN piece would still be the fully conclusive check, but 179 is no longer a coin-flip between
+two equally-weighted numbers.
 Geographic spread achieved: OR, IL, NY, VA (×3: Richmond, Hampton Roads, Norfolk), TX (×2), OH,
 CA (×4: LA, San Jose, statewide, Mountain View), NE, CO, MI (×3: Menominee, Ferndale/Oakland
 Co., statewide implied), MA, WI (×3: Appleton, Menasha, Milwaukee), national — 14 states plus one

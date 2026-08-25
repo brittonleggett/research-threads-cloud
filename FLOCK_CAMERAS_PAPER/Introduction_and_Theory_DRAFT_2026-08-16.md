@@ -155,7 +155,27 @@ not anticipate this paper's specific design — but its local-versus-national ma
 notable structural echo of this paper's own local-police-versus-federal-agency distinction
 running through the corpus (Bend, Evanston, Mountain View), and it is worth citing both as a
 precedent for the general method and as evidence PAR's editorial community is already receptive
-to this class of design:
+to this class of design. The single closest structural analog located in that same scan is
+Przeszlowski and Guerette (2025), a randomized vignette experiment (*n* = 345, *Journal of
+Criminal Justice*) manipulating "informational stimuli" — transparency-, legitimacy-, and
+effectiveness-framed messaging — about police technologies housed in Real-Time Crime Centers, and
+finding transparent, neutral messaging increased public approval; perceived police transparency
+was itself a key predictor of that approval. (Przeszlowski and Guerette have also published a
+2023 *Policing* appraisal of real-time crime centers with several co-authors, consistent with this
+being an established RTCC-focused research program, which corroborates the attribution.) This is
+the closest prior experimental design in the literature to the one proposed here — a vignette
+experiment manipulating transparency-adjacent framing of a police technology and measuring public
+approval — but it studies Real-Time Crime Centers generally, not ALPR/Flock specifically; it
+manipulates message framing about the technology rather than the technology's actual
+data-sharing/disclosure practice; and, per available result summaries, it does not model
+procedural injustice or institutional trust as a serial-mediation chain, nor test an
+opposition-intention behavioral-support DV. Its transparency-approval finding is nonetheless a
+direct, useful precedent that disclosure-adjacent framing measurably moves public approval of
+police technology, strengthening the case for H1 below. *Author-list and journal-detail
+confidence note: this citation is WebSearch-triangulated (RePEc/IDEAS listing plus corroborating
+author-profile evidence) rather than direct-fetch-verified — WebFetch remains blocked on the
+ScienceDirect page itself — and should be spot-checked against the publisher record before a
+submission-ready draft locks it in.*
 
 > **H1.** A camera network operating under a secret, undisclosed default data-sharing practice
 > will produce higher perceived procedural injustice than one operating under an explicitly
@@ -318,9 +338,20 @@ into the present design.
    opposition intention) with these two moderators — the novelty claim in this Introduction still
    holds after a real search, not just the 2026-08-16 orientation pass's shallow one. Two close
    adjacent works have been folded into this draft (Monahan's two 2026 qualitative Flock papers
-   above; Schiff et al. 2025 in the theory section). One more close structural analog — a
-   randomized-vignette experiment on public perceptions of police information technology
-   (*Journal of Criminal Justice*, Dec 2024, Article 102332) — was found but **not** added to this
-   draft because its author list could not be confirmed via WebSearch (WebFetch still
-   egress-blocked); flagged in the novelty-scan note for Britton or a future library-access
-   session to pull and potentially cite.
+   above; Schiff et al. 2025 in the theory section).
+7. **2026-08-25 update:** the *Journal of Criminal Justice* RTCC vignette experiment flagged
+   2026-08-24 as uncited pending author confirmation has now been added to the theory section
+   above, attributed to **Przeszlowski and Guerette (2025)**. Authorship was confirmed via two
+   independent WebSearch routes (an IDEAS/RePEc bibliographic listing, and corroborating evidence
+   that the same two authors, plus additional co-authors, published a 2023 *Policing* journal
+   appraisal of real-time crime centers — consistent with an established RTCC research program).
+   This is WebSearch-triangulated, not direct-fetch-verified confidence (same caveat as everything
+   else in this draft while WebFetch is blocked) — flagged inline in the citation itself for a
+   spot-check against the ScienceDirect/publisher record before submission. Also this date: the
+   #24 Milwaukee corpus row's Ayala search-count discrepancy (179 vs. "more than 200," flagged
+   2026-08-24) was investigated further — 179 is now used throughout as the primary-source-
+   anchored figure (multiple outlets attribute it directly to the criminal complaint, with an
+   exact 124+55 breakdown); see `Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`'s corpus notes and
+   `notes/2026-08-25-ayala-count-and-jcrimjustice-authorship.md` for full detail. WebFetch was
+   retested again tonight (CNN, Wikipedia-as-control) and remains `EGRESS_BLOCKED` — 14th
+   consecutive session.
