@@ -604,3 +604,141 @@ close a mechanical repeat of idea 9's shrimp-tariff/provenance-branding design t
 rather than a corpus variant of the same idea; and shrinkflation/FTC scrutiny, which remains the same
 generically-true, no-fixed-recent-date topic it would have been in any prior year, not a fresh 2026
 hook.
+
+## 2026-08-25 — nightly scouting run (WebSearch only this session; did not test WebFetch/egress
+tonight — treat sourcing below as WebSearch-summarized leads, not primary-source-verified, consistent
+with every prior entry in this file)
+
+### 13. Louisiana's App Store Accountability Act (HB 570/Act 481) — a state-mandated age-verification/
+parental-consent gate on app marketing to minors, with a fixed 2027 effective date (moderate-high
+confidence — genuinely fresh Louisiana-specific dated law, no marketing/PLS-SEM treatment found; honest
+caveat that the adjacent parental-mediation/advertising-to-children literature is old and well-
+established, so the novelty is in the specific stimulus, not the general topic)
+- **Gap/question:** Louisiana's App Store Accountability Act (HB 570 by Rep. Kim Carver, signed by Gov.
+  Landry June 30, 2025, Act No. 481 of the 2025 Regular Session) requires app stores (Apple, Google) to
+  verify a user's age category and obtain verifiable parental consent before a minor can download an app
+  or make in-app purchases — and, notably, Louisiana's version explicitly rejects the "safe harbor" Texas
+  and Utah's versions give developers for relying on the app store's age signal, so app-level marketers
+  and developers carry independent compliance exposure here in a way they don't in the other two states.
+  A delay bill (HB 977, signed May 15, 2026) pushed the effective date to **July 1, 2027**. The open
+  question: does inserting a mandatory, friction-adding age-verification/parental-consent step change
+  how minors and parents perceive an app's trustworthiness and privacy-protectiveness, and does it
+  actually change download/in-app-purchase behavior — or does it mostly shift friction onto parents
+  without changing minors' underlying exposure to marketing, the way COPPA-era consent walls have been
+  argued to do. This sits squarely in Britton's surveillance/privacy-in-marketing bucket and is
+  Louisiana-specific like the energy/infrastructure line, but is a genuinely different mechanism from
+  anything else logged in this file — not facility-siting opposition, not pricing, marketing-to-minors
+  friction at the point of app acquisition.
+- **Why tractable soon, honest caveat included:** July 1, 2027 is a fixed, dated, already-once-delayed
+  effective date roughly eleven months out — close enough to plan a survey or vignette study around a
+  real, imminent regulatory change (pre-implementation attitudes now, a natural post-implementation
+  follow-up next summer), similar in shape to how idea 11 used the Oct 1, 2026 surveillance-pricing
+  disclosure dates. NetChoice has already testified against the law and it is publicly expected to face
+  the same First Amendment/compelled-speech legal challenges Texas's and Utah's versions have drawn
+  (both already litigated), so there is a real chance the effective date slips again or the law is
+  enjoined — that uncertainty is worth flagging plainly, not smoothing over. A WebSearch check tonight
+  for existing academic marketing/PLS-SEM treatment of app-store-level age-verification/parental-consent
+  mandates came back empty — coverage found was entirely legal/compliance-firm and advocacy material
+  (Alston & Bird, Wiley, McDermott, Digital Childhood Alliance, NetChoice), not academic-marketing. The
+  honest caveat: parental-mediation theory and advertising-to-children research are long-established
+  literatures (decades old), so this isn't a brand-new construct space — the gap is specifically in
+  testing this new device-level, store-wide consent-gate mechanism (as opposed to a single app's or
+  platform's own age gate) as the stimulus, which no one has been able to study yet because it hasn't
+  taken effect anywhere.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: exposure to (or
+  awareness of) the mandatory age-verification/parental-consent flow, manipulable in a vignette (a
+  mocked-up consent-gate screen vs. a normal frictionless download) or measured as awareness in a survey
+  fielded on parents of Louisiana minors. Mediator candidates: perceived privacy protection/trust in the
+  app, or perceived parental control/reduced anxiety. Outcome: intended app engagement, willingness to
+  allow in-app purchases, attitude toward the app/developer brand. Plausible moderator: parent vs. minor
+  respondent (this is one of the few designs in this file where surveying minors as well as parents would
+  strengthen it, which raises the standing human-subjects/IRB flag this repo can't resolve on its own —
+  flagging clearly, not proceeding). A Study 1 (AI-assisted content analysis of the legislative record,
+  NetChoice/industry opposition testimony, and Louisiana Family Forum/advocacy framing) could map the
+  competing "child safety" vs. "compelled speech/privacy overreach" argument structures before any Study
+  2 survey work, same two-study shape as the other active papers.
+- **Target venue:** Journal of Public Policy & Marketing (policy-mandate framing, consistent with
+  Britton's other JPP&M-track work) or Journal of Consumer Affairs given the consumer-protection/
+  parental-consent angle; Journal of Interactive Marketing is a plausible alternate given the
+  app-marketing specificity.
+- **Human-subjects flag:** any design that actually surveys parents or minors (rather than just coding
+  public legislative/advocacy discourse) requires primary data collection and, for minors specifically,
+  extra IRB sensitivity — flagging per standing repo rule, not proceeding past the idea stage.
+- Leads (unverified, WebSearch only): [Alston & Bird — Louisiana delays App Store Accountability effective date to July 2027](https://www.alstonprivacy.com/louisiana-delays-app-store-accountability-effective-date-to-july-2027/), [Digital Childhood Alliance — Louisiana becomes third state to sign App Store Accountability legislation](https://www.digitalchildhoodalliance.org/louisiana-becomes-third-state-to-sign-app-store-accountability-legislation-into-law/), [Route Fifty — Louisiana becomes third state to pass app store accountability law](https://www.route-fifty.com/customer-experience/2025/07/louisiana-becomes-third-state-pass-app-store-accountability-law/406661/), [NetChoice testimony in opposition to Louisiana's app store age-verification bill](https://netchoice.org/netchoice-testimony-in-opposition-to-louisianas-app-store-age-verification-bill/), [Louisiana Legislature — enrolled Act No. 481, 2025 Regular Session, House Bill 570](https://www.legis.la.gov/legis/ViewDocument.aspx?d=1427667), [Wiley — State App Store Accountability Acts introduce new obligations](https://www.wiley.law/alert-State-App-Store-Accountability-Acts-Introduce-New-Obligations-for-App-Developers)
+
+### 14. Empirically testing the "AI Booing / AI Washing" mistrust cycle against a real recurring
+corporate case (Coca-Cola's AI holiday ads) (moderate confidence — the theoretical model already exists
+as a 2025 conceptual paper; the opportunity is an empirical/PLS-SEM test of it, not a from-scratch gap,
+and that distinction should be weighed honestly before greenlighting)
+- **Gap/question:** Ozturkcan & Bozdağ (2025, International Journal of Market Research) recently
+  published a conceptual framework — "AI Washing" (firms exaggerating/over-messaging AI use for
+  marketing advantage) triggering "AI Booing" (public backlash over unmet expectations and authenticity
+  concerns), which in turn pushes firms toward more symbolic AI-transparency gestures that restart the
+  cycle. That paper is conceptual, not an empirical/SEM test. Coca-Cola has now run AI-generated holiday
+  ad campaigns two years running (2024's "Holidays Are Coming" remake, 2025's "Refresh Your Holidays"
+  with Silverside/Secret Level) and drawn documented, escalating social-media backlash both years without
+  discontinuing the practice — a real, dated, repeating corporate case that maps onto the washing/booing
+  cycle almost exactly as the theory describes it, but the theory itself hasn't been tested against
+  consumer-level survey data. The open question: does *repeated* corporate use of AI-generated creative
+  content despite public backlash (a defiance/doubling-down pattern, distinct from a single-exposure
+  AI-disclosure event) produce cumulative trust erosion or, alternatively, backlash fatigue/habituation —
+  and which of perceived authenticity-violation vs. perceived corporate insincerity better mediates that
+  effect. This is a different question from the already-crowded single-exposure AI-ad-disclosure
+  literature (see caveat below) because it's about repetition and defiance, not first exposure.
+- **Why tractable soon, honest caveat included:** a WebSearch saturation check tonight found the
+  single-exposure AI-ad-disclosure-and-trust space is already fairly active — a Manchester paper, a
+  Tandfonline "Disclaimer! This Content Is AI-Generated" study, a ScienceDirect generative-AI-service-ads
+  paper, and an American Impact Review systematic lit review (already flagged in this file's 2026-08-24
+  entry) all exist, several using PLS-SEM already. What's *not* yet done, as far as tonight's search
+  found, is an empirical test of the specific washing/booing *cycle* framework, or any study using a
+  real multi-year repeating corporate campaign (rather than a single manipulated stimulus) as the
+  measurement anchor. Industry-side survey data already shows the trend moving fast and being tracked
+  longitudinally — a 2026 Fractl tracking study found consumers saying heavy AI use would decrease trust
+  in a favorite brand roughly doubled year-over-year (20% in 2025 to 40% in 2026), which is exactly the
+  kind of erosion-over-repetition data point the cycle theory needs and that a fielded study could extend
+  with primary data. The near-term hook is real but not fully confirmed: Coca-Cola has not yet announced
+  a 2026 (third) holiday AI campaign as of tonight — the pattern of two consecutive years makes a
+  third plausible around November 2026, but that is this scout's inference, not a confirmed fact, and
+  should be treated as such. If Coca-Cola does not repeat the campaign this year, the "repetition despite
+  backlash" natural-experiment framing weakens considerably and the paper would need a different anchor
+  case.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: awareness of a
+  brand's repeated (vs. single, vs. no) use of AI-generated advertising despite documented public
+  backlash — measurable as a real-world awareness variable in a survey fielded around this year's holiday
+  season, or manipulated as a repetition count in a vignette. Mediators: perceived authenticity violation
+  and perceived corporate insincerity/hypocrisy as parallel or competing mediators (both are explicit
+  constructs in the Ozturkcan & Bozdağ conceptual model, giving a ready-made theoretical basis to operationalize
+  rather than build from nothing). Outcome: brand trust, purchase intention, willingness to
+  publicly criticize/boycott. Plausible moderator: prior general AI attitude or Gen Z/generational cohort
+  (industry data already shows a sharp generational split — Gen Z roughly twice as likely as Boomers to
+  lose trust over heavy AI-ad use). Survey-based PLS-SEM around the 2026 holiday season is the natural
+  fit; Study 1 (AI-assisted content analysis of the actual social-media backlash text across 2024 and
+  2025, and 2026 if it recurs) could build the theme typology feeding Study 2's measures.
+- **Target venue:** Journal of Consumer Marketing or International Journal of Market Research itself
+  (the venue that published the conceptual model — a natural home for the first empirical test of it,
+  though also the highest-scrutiny venue for exactly that reason); Journal of Advertising is a plausible
+  alternate given the ad-specific framing.
+- Leads (unverified, WebSearch only): [SAGE/IJMR — Ozturkcan & Bozdağ, "Responsible AI in Marketing: AI Booing and AI Washing Cycle of AI Mistrust" (2025)](https://journals.sagepub.com/doi/10.1177/14707853251379285), [Marketing Dive — Coca-Cola doubles down on AI in new holiday campaign](https://www.marketingdive.com/news/coca-cola-doubles-down-ai-new-holiday-campaign/804303/), [Campaign US — Coca-Cola reignites AI ad debate with new holiday campaign](https://www.campaignlive.com/article/coca-cola-reignites-ai-ad-debate-new-holiday-campaign/1938664), [Forbes — Coca-Cola sparks backlash with AI-generated Christmas ad, again](https://www.forbes.com/sites/danidiplacido/2025/11/04/coca-cola-sparks-backlash-with-ai-generated-christmas-ad-again/), [Tandfonline — "Disclaimer! This Content Is AI-Generated": how AI-disclosures influence trust](https://www.tandfonline.com/doi/full/10.1080/15252019.2025.2554149)
+
+Both proposals only, per standing rule — nothing built, nothing committed to. Idea 13 has the cleaner,
+more novel gap (a Louisiana-specific law with no academic-marketing treatment found yet, though it
+carries a real human-subjects/IRB flag if it ever moves past discourse analysis into surveying parents
+or minors); idea 14 is honestly the weaker of the two — it extends rather than fills a gap, since the
+underlying conceptual framework already exists and the single-exposure AI-ad-disclosure literature
+around it is already fairly active, and its near-term hook (a plausible third Coca-Cola holiday AI
+campaign) is inferred, not confirmed, as of tonight. Also checked tonight and set aside as not a
+distinct new idea: Super Bowl LXI (confirmed hosted in Los Angeles/SoFi Stadium in 2027, not New
+Orleans — ruled out as a Louisiana hook entirely); Louisiana coffee-roaster tariff pass-through
+(Community Coffee, French Truck Coffee) — real and current, but mechanically too close to ideas 2a, 7,
+and 9 (tariff-attribution framing, surcharge-line-item transparency, and Louisiana-provenance branding
+are all already logged) to be a distinct paper; Louisiana's coastal-erosion litigation against oil
+majors (Chevron's $744.6M verdict remanded to federal court after an 8-0 April 2026 SCOTUS ruling;
+Exxon separately reached a settlement with the state in May 2026) — a real and Louisiana-specific
+corporate-reputation story, but no confirmed near-term trial date was found (Exxon settled, Chevron's
+case has no scheduled retrial date yet), and the adjacent greenwashing/corporate-environmental-boycott
+PLS-SEM literature is already fairly active, making this a weaker hook than ideas 13/14 tonight; and the
+FTC's "click-to-cancel" subscription rule and California's Delete Act data-broker deadline, both
+real 2026 privacy/consumer-protection stories but weak hooks right now — click-to-cancel is still stuck
+at the ANPRM stage with no confirmed new effective date after last year's Eighth Circuit vacatur, and the
+Delete Act's DROP deadline (August 1, 2026) has already passed as of tonight rather than sitting ahead of
+it.
