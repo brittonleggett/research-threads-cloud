@@ -742,3 +742,95 @@ real 2026 privacy/consumer-protection stories but weak hooks right now — click
 at the ANPRM stage with no confirmed new effective date after last year's Eighth Circuit vacatur, and the
 Delete Act's DROP deadline (August 1, 2026) has already passed as of tonight rather than sitting ahead of
 it.
+
+## 2026-08-27 — nightly scouting run (WebSearch only this session; did not test WebFetch/egress
+tonight — treat sourcing below as WebSearch-summarized leads, not primary-source-verified, consistent
+with every prior entry in this file)
+
+### 15. Sports prediction markets (Kalshi/Polymarket) advertised as a regulatory-category loophole
+around responsible-gambling disclosure rules, tested against Louisiana's active enforcement fight
+(moderate-high confidence — genuinely new mechanism not yet touched in this file, no academic-marketing
+treatment found; honest caveat that the single sharpest federal date, the CFTC comment deadline, has
+already passed and the resulting rule's finalization timeline isn't confirmed)
+- **Gap/question:** CFTC-regulated "event contract" platforms (Kalshi, Polymarket, and similar) now let
+  users wager on game outcomes, point differentials, and win/loss results in a form functionally close to
+  sports betting, but because they're classified as derivatives exchanges rather than state-licensed
+  sportsbooks, their advertising isn't subject to the responsible-gaming disclosure rules (self-exclusion
+  notices, help-line messaging, age-gating enforcement) that apply to licensed operators like DraftKings or
+  FanDuel. Louisiana is one of the states most actively contesting this: the Louisiana Gaming Control Board
+  sent an advisory (reported Dec 10, 2025) declaring sports event contracts fall within the state's legal
+  definition of sports betting, and Attorney General Liz Murrill has publicly criticized the platforms
+  ("They literally will let people bet on anything you can think of") — while Kalshi is simultaneously
+  reported as now the most visible sports-betting-adjacent brand by digital ad impressions nationally, and
+  an American Gaming Association analysis found roughly 43% of digital sports-betting-category ads in early
+  2026 didn't need to comply with state responsible-gaming messaging requirements at all, precisely because
+  of this classification gap. The open marketing question: does presenting a functionally identical wager
+  as a regulated "financial/event contract" rather than as "sports betting" — the actual ad-copy and
+  framing choice these platforms are making — lower consumers' perceived risk and perceived need for
+  self-regulation, and does the resulting absence of responsible-gaming messaging measurably change
+  betting/trading intention compared to an ad for the identical wager framed and disclosed as gambling.
+  That's a distinct question from the general problem-gambling-and-advertising literature (already
+  large and not something this file needed to re-log) because the mechanism here is specifically a
+  regulatory-classification framing choice, not exposure to gambling advertising generally.
+- **Why tractable soon, honest caveat included:** this is a live, moving, multi-front fight, not a
+  retrospective one — beyond Louisiana's advisory and AG statements, Kalshi alone is reportedly party to
+  19 federal lawsuits, other states (New York's AG Letitia James, Kentucky's AG, and others per a 2026
+  lawsuit tracker) have sued or issued cease-and-desist orders, and the CFTC itself has been actively
+  rulemaking: it issued a Notice of Proposed Rulemaking on June 10, 2026 that would specifically govern
+  which sports-related event contracts are permitted, with a public-comment deadline of July 27, 2026 —
+  meaning the comment period has already closed as of tonight and a final rule could land at any point
+  from here, an honest limit on how precisely "near-term" this is compared to entries with a still-future
+  fixed date. What keeps it tractable regardless: DraftKings, Fanatics, and FanDuel — the licensed
+  incumbents who bear the disclosure costs these platforms currently avoid — were reported (Covers.com,
+  Aug 24, 2026) to be actively lobbying for prediction-market consumer protections just this week, and the
+  National Council on Problem Gambling has published specific policy asks (age verification, self-exclusion
+  parity, help-line access) aimed squarely at this gap, giving a live advocacy record to build a Study 1
+  corpus from immediately. A WebSearch saturation check tonight for existing academic marketing treatment
+  of prediction-market/event-contract advertising came back empty — what exists is computational/finance
+  literature on arbitrage pricing (arXiv) and legal/policy analysis (CRS, Congress.gov, law-firm client
+  alerts), not a marketing or PLS-SEM treatment of the advertising-framing/disclosure-gap question. Given
+  how new sports event contracts are (mainstream since roughly 2025), this reads as a genuinely open, not
+  merely under-searched, gap.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template, with a moderator available from
+  the regulatory record itself. Antecedent: ad framing of a wager as a "financial/event contract" vs. as
+  regulated "sports betting" for an otherwise identical outcome (manipulable directly in a vignette — two
+  mocked-up ads differing only in classification language and the presence/absence of a responsible-gaming
+  disclosure line, closely modeled on real Kalshi/DraftKings ad copy). Mediator candidates: perceived risk
+  of the wager, or perceived legitimacy/regulatory endorsement (does "CFTC-regulated" read to consumers as
+  safer than "state-licensed," reversing the actual protection level). Outcome: betting/trading intention,
+  amount willing to wager. Plausible moderator: prior sports-betting experience, or exposure to problem-
+  gambling-helpline messaging specifically (does its mere presence in the comparison ad measurably reduce
+  intention, testing whether the disclosure requirement these platforms are avoiding actually does anything
+  behaviorally). A Study 1 (AI-assisted content analysis of actual prediction-market vs. sportsbook ad
+  creative, the LGCB advisory, Murrill's public statements, and the CFTC docket's public comments) could
+  build the classification-framing typology before any Study 2 vignette-survey work.
+- **Human-subjects flag:** Study 1 as scoped (advertising creative, regulatory filings, public statements)
+  is public-record content analysis, no IRB concern. Any Study 2 that shows ad vignettes to real
+  respondents and measures betting intention is primary human-subjects survey data and would need IRB
+  approval before proceeding — flagging per standing repo rule, not building toward it.
+- **Target venue:** Journal of Public Policy & Marketing (regulatory-gap/advertising-self-regulation
+  framing fits its lane directly, consistent with several of Britton's other JPP&M-track ideas in this
+  file) or Journal of Consumer Affairs given the consumer-protection-disclosure angle; Journal of
+  Advertising is a plausible alternate given the ad-copy-manipulation design.
+- Leads (unverified, WebSearch only): [iGamingBusiness — Louisiana warns sports prediction markets are illegal sports betting](https://igamingbusiness.com/sports-betting/louisiana-prediction-markets-sports-betting-letter/), [The Advocate — the prediction market boom Louisiana can't tax](https://www.theadvocate.com/baton_rouge/news/prediction-markets-illegal-louisiana-loophole-kalshi-polymarket/article_b032de66-0745-4502-b195-d41e01703e41.html), [Stateline — Kalshi and Polymarket are skirting laws on sports betting, states say](https://stateline.org/2026/03/06/kalshi-and-polymarket-are-skirting-laws-on-sports-betting-states-say/), [American Gaming Association — Prediction Market Advertising Trends](https://www.americangaming.org/resources/prediction-market-advertising-trends/), [National Council on Problem Gambling — Consumer Protections for Prediction Market Event Contracts](https://www.ncpgambling.org/advocacy/consumer-protection-prediction-markets/), [Covers.com — DraftKings, Fanatics, FanDuel seek PM consumer protections](https://www.covers.com/industry/draftkings-fanatics-fanduel-seek-consumer-safeguards-for-prediction-markets-august-24-2026), [CFTC — Notice of Proposed Rulemaking, event contracts (Jun 10, 2026)](https://www.cftc.gov/PressRoom/PressReleases/9249-26), [Federal Register — Prediction Markets NPRM](https://www.federalregister.gov/documents/2026/03/16/2026-05105/prediction-markets), [NOTUS — Letitia James takes aim at prediction market Kalshi](https://www.notus.org/courts/letitia-james-new-york-prediction-market-kalshi-lawsuit-polymarket)
+
+Proposal only, per standing rule — nothing built, nothing committed to. Also checked tonight and set
+aside as weaker hooks or corpus-extension material rather than distinct new paper ideas: Louisiana's
+food-additive/dye disclosure law (SB 14, amended by SB 57 on June 1, 2026) — genuinely Louisiana-specific
+and marketing-adjacent (QR-code-linked "NOTICE" disclaimers on packaging), but SB 57 pushed the effective
+date out to December 31, 2028, more than two years off, and an academic study was already found tonight
+(Illinois Experts — "The MAHA movement: Early evidence of consumer perceptions of ingredient warning
+labels," a 1,020-respondent survey), closing the "no prior treatment" gap this file otherwise looks for;
+Louisiana's 2026 carbon-capture legislative session (the Landowners Protection Act/HB 7 rejected in
+committee, the new Louisiana Energy Protection Act shielding industry from climate-change lawsuits) — real
+and current, but reads as corpus-extension material for the already-active CCS_PAPER rather than a
+standalone idea, same call this file has made for CCS/Flock news in prior sessions; continued Flock/ALPR
+contract cancellations (Santa Barbara ended Aug 23, 2026; Tempe and other Phoenix suburbs; Sheboygan) —
+same call, corpus material for FLOCK_CAMERAS_PAPER; Louisiana's property-insurance reform push (a possible
+2027-session cap on general damages) — real but no fixed near-term date, reforms described in coverage as
+"remain untested," too vague a hook right now; and two national (not Louisiana-specific) consumer-marketing
+stories — GLP-1 telehealth direct-to-consumer marketing enforcement (FDA warning letters, Mar 2026) and
+buy-now-pay-later disclosure regulation (CFPB retreating federally, states like New York stepping in) —
+both real and current but already heavily trodden by decades-deep DTC-pharma-advertising and fast-moving
+fintech-disclosure literatures respectively, with no sharp Louisiana angle to differentiate either from
+existing coverage.
