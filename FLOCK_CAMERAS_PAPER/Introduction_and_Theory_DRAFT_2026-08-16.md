@@ -68,8 +68,11 @@ instead to federal immigration enforcement or other out-of-jurisdiction agencies
 public's knowledge. Third, this paper is, to our knowledge, the first study to move beyond
 qualitative and interview-based treatments of ALPR controversy — most directly, Nhan and
 Helfers's (2026) interview study with Flock Safety representatives, law-enforcement users, and
-policymakers, and two further 2026 qualitative treatments identified in a 2026-08-24 literature
-scan, Monahan's (2026) critical-surveillance-studies analysis of Flock's network architecture as
+policymakers — "Cops and hotlists: Balancing security and privacy with ALPR technology," *The
+Police Journal*, DOI 10.1177/0032258X251349633, title and DOI newly confirmed 2026-08-27 via
+WebSearch (multiple independent listings: SAGE's own DOI-resolving page, a SAGE-affiliated mirror,
+and independent secondary coverage all converge on the same title/author/DOI) — and two further
+2026 qualitative treatments identified in a 2026-08-24 literature scan, Monahan's (2026) critical-surveillance-studies analysis of Flock's network architecture as
 a "communicative network" enabling discriminatory, cross-jurisdictional policing (*Mobile Media &
 Communication*), and Monahan's (2026) companion piece on campus police departments' use of Flock
 as an appendage of a national policing apparatus, built on open-records-request document analysis
@@ -355,3 +358,17 @@ into the present design.
    `notes/2026-08-25-ayala-count-and-jcrimjustice-authorship.md` for full detail. WebFetch was
    retested again tonight (CNN, Wikipedia-as-control) and remains `EGRESS_BLOCKED` — 14th
    consecutive session.
+8. **2026-08-27 update:** the Nhan & Helfers article's actual title and DOI were located and added
+   above ("Cops and hotlists: Balancing security and privacy with ALPR technology," DOI
+   10.1177/0032258X251349633) — a citation-precision improvement, WebSearch-triangulated, not
+   direct-fetch-verified. The unresolved "researcher independence" question (whether the article's
+   own funding/disclosure statement supports any independence claim) got another fresh attempt
+   tonight with five new search angles plus a new WebFetch target (a SAGE-affiliated mirror site,
+   in addition to the publisher page and Wikipedia control) — still no funding/disclosure statement
+   or contract term found by search, and WebFetch remains fully blocked (17th+ consecutive
+   session). This claim remains genuinely unresolved; no wording in this draft changed as a result
+   of tonight's attempt (the already-softened 08-22/08-24 language stands). Full detail:
+   `notes/2026-08-27-nhan-helfers-retry-and-study2-instrument-assembly.md`. Also new tonight: a
+   full Study 2 platform-ready instrument assembly document,
+   `Study2_Instrument_DRAFT_2026-08-27.md`, closing the "not started" gap flagged in the IRB
+   draft's item #5.
