@@ -834,3 +834,70 @@ buy-now-pay-later disclosure regulation (CFPB retreating federally, states like 
 both real and current but already heavily trodden by decades-deep DTC-pharma-advertising and fast-moving
 fintech-disclosure literatures respectively, with no sharp Louisiana angle to differentiate either from
 existing coverage.
+
+## 2026-08-27 — added mid-session at Britton's request (WebSearch only; not a nightly-routine entry)
+
+### 16. SpaceX's $100B Vermilion Parish spaceport — economic-benefit and environmental-commitment
+framing vs. the FAA regulatory-waiver fight and the Boca Chica, TX precedent (high confidence — breaking
+this week, directly extends machinery already built for DATA_CENTER_PAPER, no marketing-specific academic
+treatment of the parallel Texas case found despite 4+ years of coverage there)
+- **What happened:** SpaceX announced (Aug 25, 2026) a second Starship spaceport on ~130,000 acres of
+  former Exxon property in coastal Vermilion Parish, Louisiana — a $100B investment, first launch targeted
+  2029. Musk's own announcement video framed it as "probably 10,000 really exciting jobs"; Louisiana
+  Economic Development's official estimate is more conservative and specific — 3,000+ direct jobs
+  (avg. $92,600/yr) plus ~8,100 indirect. Fiscal terms: SpaceX pays local taxing authorities a flat
+  $25M/year in lieu of property tax, a $20M upfront payment, and $100M toward the state's coastal master
+  plan. Simultaneously, the Louisiana Wildlife Federation, National Wildlife Federation, and Pontchartrain
+  Conservancy have filed comments opposing an FAA regulatory change that would waive environmental-review
+  requirements for the site, citing endangered/threatened species that depend on the wetlands (whooping
+  crane, piping plover, Kemp's ridley sea turtle) — while SpaceX has separately stated it will keep large
+  portions of the 130,000 acres undeveloped and is coordinating with Louisiana's CPRA on habitat/hydrology
+  work.
+- **Gap/question:** two framing gaps stacked in the same story, both squarely in Britton's existing
+  theoretical toolkit. (1) **Magnitude/specificity framing**: Musk's round, large, informal jobs number
+  ("10,000 exciting jobs") vs. LED's precise, lower, sourced figure (3,000 direct + 8,100 indirect) — an
+  attribution-specificity gap structurally identical to the explicit/vague/silent causation-attribution
+  theme already coded in TARIFF_PAPER's Study 1, just applied to economic-benefit claims instead of
+  cost-attribution claims. (2) **Environmental-commitment framing**: SpaceX's own voluntary-restraint
+  language ("keeping large portions... untouched") and philanthropic-sounding fiscal commitments
+  ($100M coastal master plan) running in parallel with an active push to *remove* the regulatory review
+  that would otherwise verify those claims — a real, live instance of the CSR/greenwashing framing problem
+  (saying environmental care publicly while lobbying to weaken the mechanism that would check it), and a
+  direct match for DATA_CENTER_PAPER's already-built `regulatory-venue-shifting` code (there it was
+  utilities moving fights to friendlier venues; here it's the same mechanism at the federal/FAA level).
+- **Why tractable and why now:** unlike most scouted ideas in this file, there is a ready-made comparison
+  case with four-plus years of outcome data already public: SpaceX's Starbase, Boca Chica, TX (operating
+  since 2021). Academic/investigative work already exists there (Cameron County's own $800M economic-impact
+  claim; ethnographic/environmental-justice research on Latino and Indigenous community members' experience
+  of road closures, beach-access loss, and sonic-boom disruption; reporting that local politicians'
+  personal real-estate/campaign gains outpaced broader community economic gains) — but that existing work
+  reads as sociology/environmental-justice/investigative-journalism, not a marketing or PLS-SEM treatment of
+  the framing-claim-vs-outcome gap specifically. That's the open lane: Louisiana's announcement is young
+  enough to capture the *framing* in real time (something Boca Chica's retrospective coverage can't offer
+  now), while Boca Chica supplies real, checkable longitudinal outcome data to frame Louisiana's promises
+  against — a comparative design with one prospective and one retrospective case a single-site study
+  couldn't offer.
+- **Rough method sketch:** two options, not mutually exclusive with existing work. (a) Standalone Study
+  1 (AI-assisted thematic/content analysis) coding a corpus of SpaceX/Musk statements, LED and Gov. Landry
+  official materials, FAA docket comments, wildlife-group filings, and local Louisiana news, cross-coded
+  against an equivalent archival Boca Chica corpus (2021 announcement through present) for the same
+  magnitude-specificity and environmental-commitment-vs-verification codes — a same-company, same-playbook,
+  two-site comparison. A Study 2 vignette-survey could manipulate benefit-claim specificity (precise/sourced
+  vs. large/round) × environmental-commitment verifiability (backed by a named regulatory review vs. a
+  voluntary/unverified pledge) and measure public support, trust, and perceived greenwashing, with prior
+  awareness of the Boca Chica outcome as a plausible moderator (does knowing how the Texas promises played
+  out change how Louisiana's version of the same claims lands). (b) Alternatively, given how directly the
+  mechanism overlaps, this could run as a fifth anchor case folded into DATA_CENTER_PAPER's existing
+  multi-state comparative design instead of a standalone paper — same region/community-profile-moderator
+  framework, same regulatory-venue-shifting code, different industry (aerospace vs. data centers) testing
+  whether the theoretical model generalizes across infrastructure types, not just across states. Britton's
+  call, not decided here.
+- **Human-subjects flag:** Study 1 as scoped (corporate statements, FAA docket comments, wildlife-group
+  filings, news coverage) is public-record content analysis, no IRB concern. Any Study 2 vignette-survey
+  work would need IRB approval before proceeding.
+- **Target venue:** Journal of Public Policy & Marketing (same lane as DATA_CENTER_PAPER, and the
+  regulatory-waiver/greenwashing angle fits directly) as lead candidate; Journal of Consumer Affairs or
+  Journal of Marketing Management (CSR/greenwashing framing) as alternates.
+- Leads (unverified, WebSearch only): [TechCrunch — SpaceX will build a second, $100B 'Starbase' spaceport in Louisiana](https://techcrunch.com/2026/08/25/spacex-will-build-a-second-100b-starbase-spaceport-in-louisiana/), [CNBC — SpaceX plans to build a $100 billion spaceport in Louisiana](https://www.cnbc.com/2026/08/25/spacex-louisiana-spaceport.html), [CNN — SpaceX plans to build the 'biggest launch site on Earth' for $100 billion in Louisiana](https://www.cnn.com/2026/08/25/science/spacex-launch-site-louisiana), [Louisiana Illuminator — Musk plans $100 billion SpaceX launch site in coastal Louisiana](https://lailluminator.com/2026/08/25/spacex-louisiana-2/), [Louisiana Illuminator — Wildlife groups warn not to waive protections to accommodate Louisiana SpaceX site](https://lailluminator.com/2026/08/25/wildlife-spacex/), [Louisiana Radio Network — Questions raised concerning effects of announced Vermilion Parish SpaceX facility on area wildlife](https://louisianaradionetwork.com/2026/08/27/47951/), [Gizmodo — SpaceX's Plan to Build the World's Biggest Spaceport Could Be an Environmental Disaster](https://gizmodo.com/spacexs-plan-to-build-the-worlds-biggest-spaceport-could-be-an-environmental-disaster-2000803286), [Fortune — SpaceX says it's building its largest spaceport yet, committing $100 billion for a Louisiana site](https://fortune.com/2026/08/27/spacex-largest-spaceport-100-billion-louisiana-expansion/), [Washington Times — 5 questions about SpaceX's new Louisiana spaceport](https://www.washingtontimes.com/news/2026/aug/26/5-questions-spacexs-new-louisiana-spaceport/), [Opportunity Louisiana (LED) — SpaceX in Vermilion Parish](https://www.opportunitylouisiana.gov/spacex), [The Conversation — The Starbase rocket testing facility is permanently changing the landscape of southern Texas](https://theconversation.com/the-starbase-rocket-testing-facility-is-permanently-changing-the-landscape-of-southern-texas-242450)
+
+Proposal only, per standing rule — nothing built, nothing committed to.
