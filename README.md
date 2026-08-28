@@ -50,7 +50,14 @@ personal/sensitive material — deliberately scoped to just these research threa
   different regulator (FAA vs. state utility commissions). Exploratory stage, no
   design-lock yet — see `CLAUDE.md` and `notes/2026-08-27-orientation.md`. **No Phase 3
   exception for this paper** (only `FLOCK_CAMERAS_PAPER` has one) — theme/design-lock
-  calls stay Britton's.
+  calls stay Britton's. Same-night follow-up primary-source pass (`notes/2026-08-27-
+  webfetch-primary-source-pass.md`) confirmed LED's own figures directly and found a real
+  FAA docket comment letter (PDF, hosted, confirmed real — text not yet extracted, needs
+  working PDF tooling); also flagged an unresolved discrepancy between a "$100M coastal
+  master plan" figure from news coverage and a "$25M charitable donation to Community
+  Foundation of Acadiana" figure from LED's own page — don't assume these are the same
+  line item without checking. A first corpus inventory (not a coding scheme) is in
+  `Study1_Corpus_and_Coding_DRAFT_2026-08-27.md`.
 - **`Claude_Knowledge/`** — shared methodology, used by all four papers above:
   - `Thematic Analysis/AI_Assisted_TA_Shared_Method.md` and
     `Study1_AI_Thematic_Analysis_Publishable_Protocol.md` — the six-phase
