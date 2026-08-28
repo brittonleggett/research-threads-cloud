@@ -18,23 +18,26 @@ TA), per `Claude Knowledge\Thematic Analysis\AI_Assisted_TA_Shared_Method.md`. I
 
 ## Corpus status at a glance
 
-**15 artifacts total**, all with at least one verification pass as of 2026-08-14. Three
-confidence tiers, not two — this is the one thing that was easy to lose track of across five
-separate note files, so it's made explicit here:
+**15 artifacts total**, all with at least one verification pass as of 2026-08-14, and 3 of the 4
+Tier-B artifacts direct-fetch-upgraded as of 2026-08-28. Three confidence tiers, not two — this
+is the one thing that was easy to lose track of across five separate note files, so it's made
+explicit here:
 
 | Tier | Meaning | Artifacts |
 |---|---|---|
-| **A — primary-fetched** | Official transcript/press-release/IR page directly fetched and read | Nike, Mattel, BMW, Lennox, Dormakaba, GMS, Williams-Sonoma (original 7, sourced 2026-07-24) + Lovesac, IKEA-adjacent¹, Walmart (verification pass 1/2, 2026-08-12) |
-| **B — search-summarized, pending re-fetch** | Verified via cross-corroborated WebSearch results, not yet directly fetched (WebFetch has been `EGRESS_BLOCKED` since ~2026-08-13) | La-Z-Boy, Birkenstock, Insteel Industries, Home Depot (verification pass 3, 2026-08-14) |
+| **A — primary-fetched** | Official transcript/press-release/IR page directly fetched and read | Nike, Mattel, BMW, Lennox, Dormakaba, GMS, Williams-Sonoma (original 7, sourced 2026-07-24) + Lovesac, IKEA-adjacent¹, Walmart (verification pass 1/2, 2026-08-12) + **La-Z-Boy, Birkenstock, Insteel Industries (direct-fetch upgrade, 2026-08-28 — see `notes/2026-08-28-direct-fetch-tier-b-upgrade-and-scotus-primary-check.md`)** |
+| **B — search-summarized, pending re-fetch** | Verified via cross-corroborated WebSearch results, not yet directly fetched | **Home Depot only** — 2 of 4 sources direct-fetched 2026-08-28 (CFO Dive, Yahoo Finance, both confirming the McPhail→Bastek correction), but The Hill (403) and Digital Commerce 360 (not attempted) still unread directly |
 | **C — single-source, unverified beyond original draft coding** | Chipotle's core quote is confirmed accurate but the artifact itself needs a Phase-3-adjacent scope decision (see below) — not a confidence problem, a fit problem | Chipotle |
 
 ¹ IKEA's own newsroom wasn't directly reached; the quote is from Ingka Group's on-record
 statement to WSJ, corroborated identically across two outlets (Fox Business, qz.com) — strong
 enough to treat as Tier A-adjacent, but flagging the one-step remove honestly.
 
-**Before this corpus goes in the manuscript, two things still need direct-fetch confirmation**
-once WebFetch is restored (queued, not urgent — Tier B is already usable at search-confidence
-for drafting purposes): the four Tier B artifacts, and Home Depot's exact quote dates.
+**Known drift needing a fix, found 2026-08-28:** artifact 15's Phase-1-codes writeup below still
+attributes the Aug 2025 "modest price movement... not broad-based" quote to CFO Richard McPhail —
+this was already corrected to EVP William Bastek on 2026-08-18, but that correction never made it
+into this consolidated draft. Two independent direct-fetches on 2026-08-28 re-confirm Bastek is
+correct. Not fixed in this file yet — flagged for the next pass that touches this artifact's text.
 
 ---
 
@@ -50,13 +53,22 @@ for drafting purposes): the four Tier B artifacts, and Home Depot's exact quote 
 | 6 | GMS | Building materials distribution | Surcharge adjustment notice | Eff. 2026-02-01 | A | [Banner Solutions](https://www.bannersolutions.com/news/2026-manufacturer-price-changes) |
 | 7 | Williams-Sonoma | Home goods retail | Earnings call | 2026-05-21 | A | [Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/05/21/williams-sonoma-wsm-q1-2026-earnings-transcript/) |
 | 8 | IKEA (Ingka Group) | Furniture/home goods retail | On-record statement to WSJ + confirmed pricing | Aug 2026 pricing | A¹ | [Fox Business](https://www.foxbusiness.com/lifestyle/ikea-raises-prices-trumps-furniture-tariffs-hit-retailer), [qz.com](https://qz.com/ikea-raising-prices-tariffs-trump-retail) |
-| 9 | La-Z-Boy | Furniture retail | Exec statements + tariff-delay news | 2025 increases; Jan 2026 delay | B | [Supply Chain Dive](https://www.supplychaindive.com/news/la-z-boy-volumes-remain-steady-tariff-driven-price-hike/806496/), [SCD delay piece](https://www.supplychaindive.com/news/trump-furniture-cabinets-tariffs-delay/808681/), [IndexBox](https://www.indexbox.io/blog/la-z-boy-maintains-steady-volume-following-2025-tariff-price-hikes/) |
+| 9 | La-Z-Boy | Furniture retail | Exec statements + tariff-delay news | 2025 increases; Jan 2026 delay | A² | [Supply Chain Dive](https://www.supplychaindive.com/news/la-z-boy-volumes-remain-steady-tariff-driven-price-hike/806496/), [SCD delay piece](https://www.supplychaindive.com/news/trump-furniture-cabinets-tariffs-delay/808681/), [IndexBox](https://www.indexbox.io/blog/la-z-boy-maintains-steady-volume-following-2025-tariff-price-hikes/) |
 | 10 | Lovesac | Furniture retail | Official IR press release, FY2026 Q4 | ~Mar 2026 | A | [Lovesac IR](https://investor.lovesac.com/news-events/press-releases/detail/161/the-lovesac-company-reports-fourth-quarter-and-fiscal-2026), [Supply Chain Dive](https://www.supplychaindive.com/news/lovesac-enacts-four-step-tariff-response/802623/) |
 | 11 | Chipotle | Food service/restaurant | CEO interview (NBC Nightly News) | **2025-03-02** — see note below | C | [LiveNOW/FOX](https://www.livenowfox.com/news/chipotle-ceo-trump-tariff-costs) |
-| 12 | Birkenstock | Footwear retail | CFO interview (WWD) + guidance | FY2026 | B | [Supply Chain Dive](https://www.supplychaindive.com/news/birkenstock-2026-margin-hit-tariffs-bite/809309/), [WWD](https://wwd.com/footwear-news/shoe-industry-news/birkenstock-ivica-krolo-tariffs-prices-second-quarter-1237724929/), [BoF](https://www.businessoffashion.com/news/retail/birkenstock-price-increase-tariff/) |
+| 12 | Birkenstock | Footwear retail | CFO interview, Dec 18 2025 earnings call | FY2026 | A² | [Supply Chain Dive](https://www.supplychaindive.com/news/birkenstock-2026-margin-hit-tariffs-bite/809309/), [WWD](https://wwd.com/footwear-news/shoe-industry-news/birkenstock-ivica-krolo-tariffs-prices-second-quarter-1237724929/), [BoF](https://www.businessoffashion.com/news/retail/birkenstock-price-increase-tariff/) |
 | 13 | Walmart | General merchandise retail | Official earnings-call transcripts (IR-hosted) | Q1 FY26, Q2 2026 | A | [Q2 2026 PDF](https://stock.walmart.com/_assets/_6d8e3881855c41c66fb7ff90ce72f9f2/walmart/db/938/9959/transcript_management_call/Q2+2026+Earnings+Transcript.pdf), [Q1 FY26 PDF](https://corporate.walmart.com/content/dam/corporate/documents/newsroom/2025/05/15/walmart-releases-q1-fy26-earnings/q1-fy26-earnings-call-transcript.pdf) |
-| 14 | Insteel Industries | Steel/industrial (B2B) | Earnings call (CEO Woltz), Q3 2026 | Jul 2026 | B | [Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/07/23/insteel-industries-iiin-q3-2026-earnings-call-transcript/), [GuruFocus](https://www.gurufocus.com/news/8963423/insteel-industries-inc-iiin-q3-2026-earnings-call-highlights-navigating-challenges-with-strategic-pricing-and-financial-flexibility) |
-| 15 | Home Depot | Home improvement retail | CFO statements across 3 dated moments | May 2025, Aug 2025, May 2026 | B | [The Hill](https://thehill.com/homenews/nexstar_media_wire/5459448-some-prices-to-rise-at-home-depot-despite-earlier-stance-cfo-says/), [Yahoo Finance](https://finance.yahoo.com/news/home-depot-said-wouldnt-raise-021516060.html), [CFO Dive](https://www.cfodive.com/news/home-depot-warns-tariff-impact-modest-price-hikes/758202/), [Digital Commerce 360](https://www.digitalcommerce360.com/2026/05/19/home-depot-cost-changes-tariffs-oil-prices/) |
+| 14 | Insteel Industries | Steel/industrial (B2B) | Earnings call (CEO Woltz), Q3 2026 | Jul 2026 | A²·³ | [Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/07/23/insteel-industries-iiin-q3-2026-earnings-call-transcript/), [GuruFocus](https://www.gurufocus.com/news/8963423/insteel-industries-inc-iiin-q3-2026-earnings-call-highlights-navigating-challenges-with-strategic-pricing-and-financial-flexibility) |
+| 15 | Home Depot | Home improvement retail | Exec statements across 3 dated moments (Bastek, not McPhail — see drift note above) | May 2025, Aug 2025, May 2026 | B⁴ | [The Hill](https://thehill.com/homenews/nexstar_media_wire/5459448-some-prices-to-rise-at-home-depot-despite-earlier-stance-cfo-says/), [Yahoo Finance](https://finance.yahoo.com/news/home-depot-said-wouldnt-raise-021516060.html), [CFO Dive](https://www.cfodive.com/news/home-depot-warns-tariff-impact-modest-price-hikes/758202/), [Digital Commerce 360](https://www.digitalcommerce360.com/2026/05/19/home-depot-cost-changes-tariffs-oil-prices/) |
+
+² Direct-fetched 2026-08-28 (see `notes/2026-08-28-direct-fetch-tier-b-upgrade-and-scotus-primary-check.md`)
+after ~2 weeks at WebSearch-summary confidence — this session's WebFetch worked where the nightly
+cloud routine's has not.
+³ One word-level flag: the freight-cost quote's exact wording ("freight" vs. this fetch's "profit")
+needs one human eyeball on the actual transcript page before manuscript use — see the note above.
+⁴ 2 of 4 sources direct-fetched 2026-08-28 (CFO Dive, Yahoo Finance), both re-confirming the
+McPhail→Bastek correction; The Hill (403) and Digital Commerce 360 (not attempted) still need a
+direct read.
 
 Original 7 remain secondary-sourced news/transcript-aggregator coverage, not scraped directly
 from SEC filings — flagged in the original 07-24 note as a to-do that was never separately
