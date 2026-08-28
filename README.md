@@ -1,6 +1,6 @@
 # Research Threads — Cloud Working Copy
 
-This repo is a **mirror** of five local project folders, pushed here specifically so
+This repo is a **mirror** of six local project folders, pushed here specifically so
 a scheduled cloud agent can work on them overnight (the local versions live outside
 git, on Britton's machine, and aren't reachable by a cloud agent). It contains no
 personal/sensitive material — deliberately scoped to just these research threads.
@@ -40,7 +40,18 @@ personal/sensitive material — deliberately scoped to just these research threa
   (literature grounding, verified scales, Study 1/2 drafts) was in progress as of
   2026-08-16 — check `notes/` for the newest dated file before starting new work
   here, so nightly runs build on that rather than duplicating it.
-- **`Claude_Knowledge/`** — shared methodology, used by all three papers above:
+- **`SPACEX_LOUISIANA_PAPER/`** — newest, added 2026-08-27, same day as the real-world
+  announcement (SpaceX's $100B Starship spaceport, Vermilion Parish). Economic-benefit
+  claim-specificity framing and environmental-commitment/greenwashing framing vs. an
+  active FAA regulatory-review-waiver fight, with SpaceX's existing Starbase (Boca
+  Chica, TX, operating since 2021) as a built-in comparison case. Britton's explicit
+  call: distinct enough from `DATA_CENTER_PAPER` to be its own paper, not a fifth
+  anchor case folded into that one — different industry (aerospace vs. data centers),
+  different regulator (FAA vs. state utility commissions). Exploratory stage, no
+  design-lock yet — see `CLAUDE.md` and `notes/2026-08-27-orientation.md`. **No Phase 3
+  exception for this paper** (only `FLOCK_CAMERAS_PAPER` has one) — theme/design-lock
+  calls stay Britton's.
+- **`Claude_Knowledge/`** — shared methodology, used by all four papers above:
   - `Thematic Analysis/AI_Assisted_TA_Shared_Method.md` and
     `Study1_AI_Thematic_Analysis_Publishable_Protocol.md` — the six-phase
     AI-assisted thematic analysis workflow, reporting standards, and citation stack.
@@ -103,13 +114,19 @@ having to hand-hold each session. Each run should:
 2. **Work the priority queue**, spending real time on at least one item rather than
    shallow-touching all of them: (1) `TARIFF_PAPER` — top priority, "I need this
    one"; (2) `DATA_CENTER_PAPER`; (3) `CCS_PAPER`; (4) `FLOCK_CAMERAS_PAPER` — added
-   2026-08-16, same priority tier as Data Center/CCS (not above Tariff). Rotate
-   toward whichever has the most open, actionable next-steps in its notes rather
-   than mechanically going in order every night — recheck each project's actual
-   state, since prior nights change what's "next." For `FLOCK_CAMERAS_PAPER`
-   specifically, remember its Phase 3 exception above — you can extend/build on its
-   already-locked theory chain and finish the autonomous build-out (literature,
-   scales, drafts) without waiting on Britton, unlike the other three projects.
+   2026-08-16; (5) `SPACEX_LOUISIANA_PAPER` — added 2026-08-27, same priority tier as
+   Data Center/CCS/Flock (not above Tariff). Rotate toward whichever has the most
+   open, actionable next-steps in its notes rather than mechanically going in order
+   every night — recheck each project's actual state, since prior nights change
+   what's "next." For `FLOCK_CAMERAS_PAPER` specifically, remember its Phase 3
+   exception above — you can extend/build on its already-locked theory chain and
+   finish the autonomous build-out (literature, scales, drafts) without waiting on
+   Britton, unlike the other four projects. For `SPACEX_LOUISIANA_PAPER`
+   specifically, it has no design-lock yet — useful early-run work is corpus-
+   gathering (primary-source verification of the facts in `notes/2026-08-27-
+   orientation.md`, expanding the Boca Chica comparison corpus) and literature-gap
+   scouting, not picking its Study 1 option (A/B/C) or theory chain — that's
+   Britton's call, same as Data Center/CCS/Tariff.
 3. **Spend some time scouting new research streams**, not just advancing the three
    existing papers. Use web search to look for near-term paper opportunities
    adjacent to Britton's existing lines (consumer/marketing behavior, tariffs,

@@ -886,12 +886,12 @@ treatment of the parallel Texas case found despite 4+ years of coverage there)
   vs. large/round) × environmental-commitment verifiability (backed by a named regulatory review vs. a
   voluntary/unverified pledge) and measure public support, trust, and perceived greenwashing, with prior
   awareness of the Boca Chica outcome as a plausible moderator (does knowing how the Texas promises played
-  out change how Louisiana's version of the same claims lands). (b) Alternatively, given how directly the
-  mechanism overlaps, this could run as a fifth anchor case folded into DATA_CENTER_PAPER's existing
-  multi-state comparative design instead of a standalone paper — same region/community-profile-moderator
-  framework, same regulatory-venue-shifting code, different industry (aerospace vs. data centers) testing
-  whether the theoretical model generalizes across infrastructure types, not just across states. Britton's
-  call, not decided here.
+  out change how Louisiana's version of the same claims lands).
+- **Decided 2026-08-27 (same day):** Britton's call is standalone paper, not folded into
+  DATA_CENTER_PAPER — "while there is overlap, I think it's distinct" (different industry/regulator: FAA
+  vs. state utility commissions/PSCs). **Promoted from scouted idea to active project the same day** —
+  see `SPACEX_LOUISIANA_PAPER/CLAUDE.md` and `SPACEX_LOUISIANA_PAPER/notes/2026-08-27-orientation.md` for
+  the full project brief; this entry stays here as the scouting-log record of how the idea originated.
 - **Human-subjects flag:** Study 1 as scoped (corporate statements, FAA docket comments, wildlife-group
   filings, news coverage) is public-record content analysis, no IRB concern. Any Study 2 vignette-survey
   work would need IRB approval before proceeding.
