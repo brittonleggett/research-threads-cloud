@@ -18,9 +18,14 @@ C = existence-confirmed but content not yet extracted.
 
 | # | Source | Type | Date | Tier | Link |
 |---|--------|------|------|------|------|
-| 4 | Louisiana Wildlife Federation, National Wildlife Federation, Pontchartrain Conservancy | Joint FAA comment letter (PDF, directly hosted) | 2026-08-24 | C — confirmed real/hosted, text not yet extracted (WebFetch pulled raw bytes; local PDF-render tooling unavailable this session) | [lawildlifefed.org PDF](https://lawildlifefed.org/wp-content/uploads/FAA-Comment-Letter-8-24-2026-LWF_NWF_PC.pdf) |
-| 5 | FAA | Proposed rule docket (waives NEPA/Endangered Species Act/Clean Water Act/Clean Air Act/National Historic Preservation Act reviews for commercial launch sites) | comment period through ~2026-08-31 | B — docket number FAA-2026-8614 identified via WebSearch only, not confirmed on a directly-loaded regulations.gov page (regulations.gov 403'd WebFetch) | not yet a confirmed direct link — needs a browser session, not WebFetch, to load regulations.gov |
+| 4 | Louisiana Wildlife Federation, National Wildlife Federation, Pontchartrain Conservancy | Joint FAA comment letter (PDF, directly hosted) | 2026-08-24 | **A — UPGRADED 2026-08-29**: full text extracted directly (`curl` + `pdftotext`, poppler-utils installed this session) and cross-checked against an independent extraction path (r.jina.ai reader proxy on the same URL); both agree. See notes/2026-08-29 for full extracted text and summary. | [lawildlifefed.org PDF](https://lawildlifefed.org/wp-content/uploads/FAA-Comment-Letter-8-24-2026-LWF_NWF_PC.pdf) |
+| 5 | FAA | NPRM "Waiver of Specified Statutory Requirements for Commercial Space Launch and Reentry Actions," Docket No. FAA-2026-8614, Notice No. 26-11, RIN 2120-AM51 (waives NEPA/ESA/CWA/CAA/NHPA/MMPA + 7 more statutes for commercial launch/reentry licensing) | Federal Register notice 2026-07-30; comments due on or before **2026-08-31** | **A — UPGRADED 2026-08-29**: docket number, notice number, RIN, and comment deadline all confirmed directly from the Federal Register's own PDF (govinfo.gov mirror, fetched via `curl`+`pdftotext` after federalregister.gov and regulations.gov both continued to block WebFetch/bot access). Independently corroborated by the docket number cited in the wildlife groups' own comment letter (#4). | [Federal Register PDF via govinfo.gov](https://www.govinfo.gov/content/pkg/FR-2026-07-30/pdf/2026-15415.pdf) (regulations.gov docket page itself still not directly loadable: [regulations.gov/docket/FAA-2026-8614](https://www.regulations.gov/docket/FAA-2026-8614)) |
 | 6 | Louisiana Illuminator | News coverage of the wildlife-groups' opposition | 2026-08-25 | A (news article itself fetched/read) | [lailluminator.com](https://lailluminator.com/2026/08/25/wildlife-spacex/) |
+| 6b | Louisiana Illuminator | "Pecan Island residents fight to be heard on SpaceX" — reports LED required elected officials to sign NDAs (State Rep. Jacob Landry signed one in Feb. 2026; State Sen. Bob Hensgens signed then rescinded), residents first noticed survey crews ~Aug. 10, formed "StopSpaceX" group | 2026-08-19 | A — fetched via reader-proxy after direct site 403 (see notes/2026-08-29); content plausible/internally consistent, treat as A-minus pending a second independent confirmation of the NDA detail specifically | [lailluminator.com/2026/08/19/pecan-island-spacex](https://lailluminator.com/2026/08/19/pecan-island-spacex/) |
+| 6c | KPLC (Lake Charles CBS affiliate) | "'Landry really stabbed us in the back' — Pecan Island residents still concerned after SpaceX announcement" — direct resident quotes on lack of warning, eminent-domain fear, noise/Boca-Chica comparison, crabbing-business livelihood concern | 2026-08-26 | A (fetched directly) | [kplctv.com](https://www.kplctv.com/2026/08/26/landry-really-stabbed-us-back-pecan-island-residents-still-concerned-after-spacex-announcement/) |
+| 6d | Fox 8 Live (WVUE New Orleans) | "Some Pecan Island residents complain they were left in the dark about SpaceX project" — resident Crystal Mhire quote on outreach failure | 2026-08-26 | A (fetched directly) | [fox8live.com](https://www.fox8live.com/2026/08/26/some-pecan-island-residents-complain-they-were-left-dark-about-spacex-project/) |
+| 6e | Louisiana Economic Development | Official press release (distinct URL from the /spacex program page, #1 above) — confirms $25M Community Foundation of Acadiana donation, PILOT terms, no coastal-master-plan dollar figure | 2026-08-25 | A (fetched directly) | [opportunitylouisiana.gov/news/...](https://www.opportunitylouisiana.gov/news/spacex-launches-new-era-of-commercial-spaceflight-with-100-billion-louisiana-campus) |
+| 6f | The Current (Lafayette) | Live-blog of the Aug. 25 press conference in Abbeville — contemporaneous, timestamped reporting; the only source located that attributes a specific "$100 million coastal master plan" figure to a direct Landry statement to press (see notes/2026-08-29 for the $25M/$100M reconciliation) | 2026-08-25 | A — fetched via reader-proxy after direct site 403 (flagging the proxy-mediated path per repo verification norms) | [thecurrentla.com/2026/live-is-spacex-coming-to-pecan-island](https://thecurrentla.com/2026/live-is-spacex-coming-to-pecan-island/) |
 
 ## Boca Chica, TX comparison corpus (candidate Option C material — the paper's built-in
 comparison case)
@@ -43,3 +48,20 @@ comparison case)
 4. Once Britton picks a Study 1 option (A/B/C from the orientation note), this table's scope
    narrows accordingly — right now it's deliberately broad across both corporate and opposition
    material.
+
+## Update — 2026-08-29 primary-source pass
+
+See `notes/2026-08-29-primary-source-pass-and-discrepancy-resolution.md` for full detail. Summary
+of what changed in this table:
+- **#4 (FAA comment letter) and #5 (FAA docket) both upgraded C/B → A.** Working PDF text
+  extraction (poppler-utils `pdftotext`) was available this session; both documents were pulled
+  and read in full, not paraphrased from search snippets.
+- **New rows 6b-6f added**: local-resident opposition/transparency material (NDAs signed by
+  elected officials, "StopSpaceX" group, direct resident quotes) that the earlier corpus pass
+  didn't have — this is genuinely new Option-B-relevant material, distinct from the wildlife-group
+  filing angle already in the table.
+- **The $25M vs. $100M discrepancy flagged on 2026-08-27 is now resolved** (moderate-high
+  confidence): both figures are real and distinct. See the dedicated notes file for sourcing and
+  reasoning — not restating the full analysis here to avoid the table drifting out of sync with
+  the notes file.
+- No theory chain, coding scheme, or Study 1 option decided — same standing rule as before.
