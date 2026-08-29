@@ -901,3 +901,111 @@ treatment of the parallel Texas case found despite 4+ years of coverage there)
 - Leads (unverified, WebSearch only): [TechCrunch — SpaceX will build a second, $100B 'Starbase' spaceport in Louisiana](https://techcrunch.com/2026/08/25/spacex-will-build-a-second-100b-starbase-spaceport-in-louisiana/), [CNBC — SpaceX plans to build a $100 billion spaceport in Louisiana](https://www.cnbc.com/2026/08/25/spacex-louisiana-spaceport.html), [CNN — SpaceX plans to build the 'biggest launch site on Earth' for $100 billion in Louisiana](https://www.cnn.com/2026/08/25/science/spacex-launch-site-louisiana), [Louisiana Illuminator — Musk plans $100 billion SpaceX launch site in coastal Louisiana](https://lailluminator.com/2026/08/25/spacex-louisiana-2/), [Louisiana Illuminator — Wildlife groups warn not to waive protections to accommodate Louisiana SpaceX site](https://lailluminator.com/2026/08/25/wildlife-spacex/), [Louisiana Radio Network — Questions raised concerning effects of announced Vermilion Parish SpaceX facility on area wildlife](https://louisianaradionetwork.com/2026/08/27/47951/), [Gizmodo — SpaceX's Plan to Build the World's Biggest Spaceport Could Be an Environmental Disaster](https://gizmodo.com/spacexs-plan-to-build-the-worlds-biggest-spaceport-could-be-an-environmental-disaster-2000803286), [Fortune — SpaceX says it's building its largest spaceport yet, committing $100 billion for a Louisiana site](https://fortune.com/2026/08/27/spacex-largest-spaceport-100-billion-louisiana-expansion/), [Washington Times — 5 questions about SpaceX's new Louisiana spaceport](https://www.washingtontimes.com/news/2026/aug/26/5-questions-spacexs-new-louisiana-spaceport/), [Opportunity Louisiana (LED) — SpaceX in Vermilion Parish](https://www.opportunitylouisiana.gov/spacex), [The Conversation — The Starbase rocket testing facility is permanently changing the landscape of southern Texas](https://theconversation.com/the-starbase-rocket-testing-facility-is-permanently-changing-the-landscape-of-southern-texas-242450)
 
 Proposal only, per standing rule — nothing built, nothing committed to.
+
+## 2026-08-29 — nightly scouting run (WebSearch this session; WebFetch tested and, unlike every prior
+session logged in this file, was NOT network-wide blocked tonight — `lailluminator.com` returned a plain
+HTTP 403 (that site's own bot-protection, not the `EGRESS_BLOCKED` proxy failure logged repeatedly before),
+while `legis.la.gov` fetched successfully and returned a real PDF's raw bytes/metadata [Producer: Corel PDF
+Engine, created Aug 25, 2026, 7 pages] confirming the document exists and is current — but this session had
+no PDF-to-text tool available to read its content, so the bill text below is still drawn from secondary
+legal-summary coverage, not directly read from the primary document. Worth flagging for whoever runs this
+next: egress may no longer be the blocker it was in every session from 2026-08-13 through at least 2026-08-27.)
+
+### 17. Louisiana's own Click-to-Cancel Act (HB750/Act No. 830) filling the vacuum left by the stalled
+federal FTC rule — subscription-cancellation friction as a trust/loyalty mechanism (high confidence — sharp,
+newly-signed Louisiana-specific law with a fixed near-term compliance date; genuine gap versus adjacent
+dark-pattern/UX literature, which doesn't test a legal mandate as the stimulus in a marketing-trust frame)
+- **Gap/question:** the FTC's own federal "click-to-cancel" Negative Option Rule was vacated by the Eighth
+  Circuit and remains stalled (already checked and flagged as too weak a hook in this file's 2026-08-24
+  entry) — but states are stepping into that vacuum on their own, and Louisiana is one of them: Gov. Landry
+  signed HB750, the Click-to-Cancel Act (Act No. 830 of the 2026 Regular Session), June 9, 2026. It requires
+  any business operating in Louisiana that offers an auto-renewing subscription/purchase agreement to provide
+  a cancellation mechanism that is "cost-effective, timely, and easy-to-use" and not "unreasonably burdensome
+  or designed to deter cancellation," plus pre-renewal notice (at least 3 days ahead) for annual-or-longer
+  terms, material changes, or trial-to-paid conversions — enforced by the Louisiana AG with civil penalties up
+  to $500/violation. Compliance is required by January 1, 2027. The open question: when a company visibly
+  complies with (vs. still resists/works around) a newly mandated easy-cancellation requirement, does that
+  change perceived autonomy/trust and brand loyalty specifically — as opposed to just usability or re-
+  engagement, which is what the existing adjacent literature measures (see saturation check below). This is a
+  different mechanism from every AI/pricing-disclosure idea already logged in this file (11, 13) — it's about
+  *exit* friction from an existing relationship, not entry-point disclosure or consent.
+- **Why tractable soon:** the Jan 1, 2027 compliance date is about four months out from tonight — close
+  enough to field a survey or vignette study capturing pre-implementation attitudes now, with a natural
+  post-implementation follow-up available next year, the same shape idea 11 used for its Oct 1, 2026
+  disclosure-mandate dates. This is also a live multi-state wave, not a Louisiana-only curiosity — California,
+  Colorado, New York and others have their own versions — so the design and framing could be pitched either as
+  Louisiana-specific (using the AG-enforcement/$500-penalty mechanism as the concrete stimulus) or as a
+  national trend-piece, matching the flexibility this file's ideas 2a/6/7/10/11 already used. A saturation
+  check tonight found real adjacent work — a 2026 ACM ECCE conference paper builds a 44-pattern dark-pattern
+  taxonomy and measures usability (System Usability Scale) and a Human-Computer Trust Scale after a vignette
+  cancellation experience — but that is HCI/UX-framed (usability, willingness to re-engage with *an*
+  interface), not a marketing-journal PLS-SEM treatment of a *specific state law mandate* as the antecedent
+  and brand trust/loyalty/WOM as the outcome. A follow-up search specifically for a PLS-SEM or marketing-
+  journal study of a state click-to-cancel law's effect on consumer trust/switching came back empty — closest
+  hits were compliance-law-firm coverage and a UX-compliance vendor's own material, not peer-reviewed
+  marketing research.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template directly. Antecedent: experienced (or
+  vignette-manipulated) ease/difficulty of cancelling a subscription — compliant one-click cancellation vs. a
+  friction-laden process (calls-only, retention-offer gauntlets, etc.), which could also be framed as
+  awareness of the new legal requirement itself. Mediator candidates: perceived autonomy/control over the
+  relationship, or perceived corporate goodwill/trustworthiness (does an easy exit read as the company
+  respecting the customer, distinct from the dark-pattern literature's usability framing). Outcome: brand
+  trust, willingness to resubscribe/repurchase, positive WOM — testing whether easy exit *increases* loyalty
+  (the "confident commitment" hypothesis some retention-marketing practitioners already argue informally) or
+  simply accelerates churn, which is a genuinely open empirical question. Plausible moderator: subscription
+  category (utility/streaming vs. something higher-stakes like gym memberships, which have their own older,
+  separate cancellation-friction reputation) or prior negative-cancellation-experience history. Study 1 (AI-
+  assisted content analysis of the bill's legislative record, consumer complaints to the LA AG's office if
+  public, and national press coverage of the broader state-law wave) could map the "why this law now" framing
+  before a Study 2 vignette-survey tests the trust/loyalty model — same two-study shape as the other active
+  papers.
+- **Human-subjects flag:** Study 1 as scoped (legislative record, public AG complaint data if available, news
+  coverage) is public-record content analysis, no IRB concern. Any Study 2 vignette-survey work measuring real
+  respondents' trust/loyalty judgments is primary human-subjects data collection and would need IRB approval
+  before proceeding — flagging per standing repo rule, not building toward it.
+- **Target venue:** Journal of Consumer Marketing or Journal of Consumer Affairs (consumer-protection-mandate
+  framing fits both); Journal of Public Policy & Marketing is a plausible alternate given the state-AG-
+  enforcement angle, consistent with several of Britton's other JPP&M-track ideas in this file.
+- Leads (mostly WebSearch-summarized secondary coverage; the enrolled Act itself was confirmed to exist and be
+  current via a direct WebFetch — see session note above — but its text wasn't machine-readable this session):
+  [Regulatory Oversight/Foley — Companies Doing Business in Louisiana Must Prepare for New 'Click-to-Cancel
+  Act'](https://www.regulatoryoversight.com/2026/06/companies-doing-business-in-louisiana-must-prepare-for-new-click-to-cancel-act/),
+  [Lexology — same summary, syndicated](https://www.lexology.com/library/detail.aspx?g=412a83c6-2a56-4919-a85b-f48aa4cc3b9f),
+  [Louisiana Legislature — HB750 enrolled Act No. 830, 2026 Regular Session (PDF, confirmed live via WebFetch,
+  not text-extracted)](https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1481459),
+  [LegiScan — Louisiana HB750 (2026) bill history/status](https://legiscan.com/LA/bill/HB750/2026),
+  [Arnall Golden Gregory — State Wave of Click-to-Cancel Rules](https://www.agg.com/news-insights/publications/state-wave-of-click-to-cancel-rules/),
+  [Kronenberger Rosenfeld — Court Blocks Click-to-Cancel, federal rule vacatur](https://kr.law/news/article-detail/court-blocks-click-to-cancel-halting-federal-consumer-protection-against-unfair-subscription-practices),
+  [ACM ECCE 2026 — "Dark patterns in subscription service cancellation processes"](https://dl.acm.org/doi/10.1145/3746175.3746211)
+
+Proposal only, per standing rule — nothing built, nothing committed to. Also checked tonight and set aside,
+each for a specific reason rather than by default:
+- **Data-center water usage/aquifer opposition** (Meta's Richland Parish "Hyperion" expansion drawing on the
+  Mississippi River Alluvial Aquifer, no state body monitoring usage over time) — real and current, but this
+  is the same actor, same site, and same opposition dynamic DATA_CENTER_PAPER's corpus already covers; it
+  reads as another antecedent/theme within that paper's existing national-opposition design (like the RTCC and
+  CCS-legislative-session items set aside in prior sessions), not a structurally distinct new paper the way 1a
+  (ratepayer cost-shifting, a different actor/question/outcome) was. Flagging as corpus material for whoever
+  next works DATA_CENTER_PAPER, not writing it up standalone.
+- **AI companion-chatbot regulation and parasocial trust/dependency** — genuinely fresh regulatory wave (12
+  states with companion-chatbot laws by mid-2026, Oregon's private right of action), and this file's own
+  Louisiana-relevance standard means checking Louisiana's own "AI Bill of Rights" (HB734), which would have
+  covered companion chatbots specifically. Checked and it does NOT hold up as a Louisiana hook — HB734 was
+  withdrawn March 30, 2026 and never became law. Separately, a saturation check found the disclosure-and-trust
+  mechanism itself is already a more active experimental literature than expected — multiple field experiments
+  already show chatbot-identity disclosure lowering trust/purchase behavior (one cited a 79.7% purchase-rate
+  drop), on top of the AI-ad-disclosure literature already flagged in this file's idea 14. Set aside on both
+  counts, not just one.
+- **Retail facial recognition (Kroger, Walgreens, Walmart BIPA suits; Kroger's abandoned "targeted coupon"
+  facial-recognition plan)** — a real, live consumer-backlash story with Congressional attention (Warren/Casey/
+  Tlaib), but a saturation check found a fairly active existing marketing-academic literature already
+  (facial-recognition-payment adoption studies in Information Systems Research and Humanities & Social Sciences
+  Communications, a 2026 systematic literature review on facial recognition + neuromarketing specifically), and
+  the dynamic-pricing angle of it overlaps substantially with idea 11 (surveillance pricing) already logged
+  2026-08-24. Not distinct enough from existing coverage, both academic and within this file.
+- **Louisiana's 2024 gubernatorial veto of a political-deepfake bill** — turned up in an early search and
+  looked promising, but checking the date showed it's June 2024 news, not a 2026 hook; ruled out as stale.
+- **Stablecoin/crypto-debit-card marketing framed to dodge disclosure rules** — the classification-loophole
+  mechanism that made idea 15 (prediction markets) work doesn't hold here: 2026 coverage shows stablecoin
+  regulation (the GENIUS Act framework) converging toward *more* disclosure and licensing, not a gap
+  advertisers are exploiting. Mechanism doesn't match the story; ruled out.
