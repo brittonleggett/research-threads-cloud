@@ -1,5 +1,21 @@
 # Tariff Paper — Study 1: Corporate Tariff-Messaging Corpus & Coding (CONSOLIDATED DRAFT, 2026-08-21)
 
+**Changelog note (2026-08-29):** Fixed the Home Depot Aug 2025 quote attribution in artifact 15's
+Phase-1-codes writeup below — it read "CFO Richard McPhail reversed" and now correctly reads "EVP
+William 'Billy' Bastek stated." This had been re-confirmed via WebSearch/WebFetch on 2026-08-18,
+2026-08-25, 2026-08-27, and 2026-08-28 but never actually applied to this file's text until now.
+Tonight's pass went one step further than prior confirmations: it direct-fetched Home Depot's own
+IR-hosted Q2 2025 earnings-call transcript PDF (the primary source itself, not a news article about
+it) at https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2025/hd-2q25-transcript-vf.pdf
+and read the speaker-labeled Q&A directly: the line "So as you'd expect, there'll be some modest
+price movement in some categories, but it won't be broad based" is spoken by "Billy Bastek - The
+Home Depot, Inc. – EVP, Merchandising" in response to an analyst question from Steve Zaccone
+(Citi), on the Aug 19, 2025 call. Richard McPhail (CFO) spoke earlier and later on the same call but
+not this line. See `notes/2026-08-29-mcphail-bastek-fix-and-new-developments-check.md` for the full
+verification trail, including two other sources (CFO Dive, Yahoo Finance) that gave conflicting
+attributions on this same re-check before the primary transcript settled it. Quote wording below
+also corrected to verbatim (was a close paraphrase before).
+
 **Supersedes `Study1_Corpus_and_Coding_DRAFT_2026-07-24.md` (kept in place, not overwritten,
 per project convention) for corpus content — that file only contains the original 7 artifacts
 and predates the 2026-08-04 expansion and the 2026-08-12/13/14 verification passes.** This file
@@ -26,18 +42,19 @@ explicit here:
 | Tier | Meaning | Artifacts |
 |---|---|---|
 | **A — primary-fetched** | Official transcript/press-release/IR page directly fetched and read | Nike, Mattel, BMW, Lennox, Dormakaba, GMS, Williams-Sonoma (original 7, sourced 2026-07-24) + Lovesac, IKEA-adjacent¹, Walmart (verification pass 1/2, 2026-08-12) + **La-Z-Boy, Birkenstock, Insteel Industries (direct-fetch upgrade, 2026-08-28 — see `notes/2026-08-28-direct-fetch-tier-b-upgrade-and-scotus-primary-check.md`)** |
-| **B — search-summarized, pending re-fetch** | Verified via cross-corroborated WebSearch results, not yet directly fetched | **Home Depot only** — 2 of 4 sources direct-fetched 2026-08-28 (CFO Dive, Yahoo Finance, both confirming the McPhail→Bastek correction), but The Hill (403) and Digital Commerce 360 (not attempted) still unread directly |
+| **B — search-summarized, pending re-fetch** | Verified via cross-corroborated WebSearch results, not yet directly fetched | **Home Depot** — the Aug 2025 (Bastek) beat is now primary-source confirmed (IR-hosted transcript PDF, 2026-08-29 — see below), but the May 2025 and May 2026 beats are still B: The Hill (403) and Digital Commerce 360 (not attempted) unread directly, CFO Dive/Yahoo Finance only cover the Aug 2025 beat |
 | **C — single-source, unverified beyond original draft coding** | Chipotle's core quote is confirmed accurate but the artifact itself needs a Phase-3-adjacent scope decision (see below) — not a confidence problem, a fit problem | Chipotle |
 
 ¹ IKEA's own newsroom wasn't directly reached; the quote is from Ingka Group's on-record
 statement to WSJ, corroborated identically across two outlets (Fox Business, qz.com) — strong
 enough to treat as Tier A-adjacent, but flagging the one-step remove honestly.
 
-**Known drift needing a fix, found 2026-08-28:** artifact 15's Phase-1-codes writeup below still
-attributes the Aug 2025 "modest price movement... not broad-based" quote to CFO Richard McPhail —
-this was already corrected to EVP William Bastek on 2026-08-18, but that correction never made it
-into this consolidated draft. Two independent direct-fetches on 2026-08-28 re-confirm Bastek is
-correct. Not fixed in this file yet — flagged for the next pass that touches this artifact's text.
+**Drift fixed 2026-08-29** (was flagged but not applied as of 2026-08-28): artifact 15's
+Phase-1-codes writeup below previously attributed the Aug 2025 "modest price movement... not
+broad-based" quote to CFO Richard McPhail. This is now corrected to EVP William "Billy" Bastek,
+confirmed via a direct fetch of Home Depot's own IR-hosted Q2 2025 transcript PDF (primary source)
+on 2026-08-29 — see the changelog note at the top of this file and
+`notes/2026-08-29-mcphail-bastek-fix-and-new-developments-check.md`.
 
 ---
 
@@ -59,16 +76,18 @@ correct. Not fixed in this file yet — flagged for the next pass that touches t
 | 12 | Birkenstock | Footwear retail | CFO interview, Dec 18 2025 earnings call | FY2026 | A² | [Supply Chain Dive](https://www.supplychaindive.com/news/birkenstock-2026-margin-hit-tariffs-bite/809309/), [WWD](https://wwd.com/footwear-news/shoe-industry-news/birkenstock-ivica-krolo-tariffs-prices-second-quarter-1237724929/), [BoF](https://www.businessoffashion.com/news/retail/birkenstock-price-increase-tariff/) |
 | 13 | Walmart | General merchandise retail | Official earnings-call transcripts (IR-hosted) | Q1 FY26, Q2 2026 | A | [Q2 2026 PDF](https://stock.walmart.com/_assets/_6d8e3881855c41c66fb7ff90ce72f9f2/walmart/db/938/9959/transcript_management_call/Q2+2026+Earnings+Transcript.pdf), [Q1 FY26 PDF](https://corporate.walmart.com/content/dam/corporate/documents/newsroom/2025/05/15/walmart-releases-q1-fy26-earnings/q1-fy26-earnings-call-transcript.pdf) |
 | 14 | Insteel Industries | Steel/industrial (B2B) | Earnings call (CEO Woltz), Q3 2026 | Jul 2026 | A²·³ | [Motley Fool](https://www.fool.com/earnings/call-transcripts/2026/07/23/insteel-industries-iiin-q3-2026-earnings-call-transcript/), [GuruFocus](https://www.gurufocus.com/news/8963423/insteel-industries-inc-iiin-q3-2026-earnings-call-highlights-navigating-challenges-with-strategic-pricing-and-financial-flexibility) |
-| 15 | Home Depot | Home improvement retail | Exec statements across 3 dated moments (Bastek, not McPhail — see drift note above) | May 2025, Aug 2025, May 2026 | B⁴ | [The Hill](https://thehill.com/homenews/nexstar_media_wire/5459448-some-prices-to-rise-at-home-depot-despite-earlier-stance-cfo-says/), [Yahoo Finance](https://finance.yahoo.com/news/home-depot-said-wouldnt-raise-021516060.html), [CFO Dive](https://www.cfodive.com/news/home-depot-warns-tariff-impact-modest-price-hikes/758202/), [Digital Commerce 360](https://www.digitalcommerce360.com/2026/05/19/home-depot-cost-changes-tariffs-oil-prices/) |
+| 15 | Home Depot | Home improvement retail | Exec statements across 3 dated moments (Aug 2025 beat: Bastek, not McPhail — fixed 2026-08-29, primary-source confirmed) | May 2025, Aug 2025, May 2026 | B⁴ | [The Hill](https://thehill.com/homenews/nexstar_media_wire/5459448-some-prices-to-rise-at-home-depot-despite-earlier-stance-cfo-says/), [Yahoo Finance](https://finance.yahoo.com/news/home-depot-said-wouldnt-raise-021516060.html), [CFO Dive](https://www.cfodive.com/news/home-depot-warns-tariff-impact-modest-price-hikes/758202/), [Digital Commerce 360](https://www.digitalcommerce360.com/2026/05/19/home-depot-cost-changes-tariffs-oil-prices/), [HD IR Q2'25 transcript PDF](https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2025/hd-2q25-transcript-vf.pdf) |
 
 ² Direct-fetched 2026-08-28 (see `notes/2026-08-28-direct-fetch-tier-b-upgrade-and-scotus-primary-check.md`)
 after ~2 weeks at WebSearch-summary confidence — this session's WebFetch worked where the nightly
 cloud routine's has not.
 ³ One word-level flag: the freight-cost quote's exact wording ("freight" vs. this fetch's "profit")
 needs one human eyeball on the actual transcript page before manuscript use — see the note above.
-⁴ 2 of 4 sources direct-fetched 2026-08-28 (CFO Dive, Yahoo Finance), both re-confirming the
-McPhail→Bastek correction; The Hill (403) and Digital Commerce 360 (not attempted) still need a
-direct read.
+⁴ For the Aug 2025 beat: 2 of 4 secondary sources direct-fetched 2026-08-28 (CFO Dive, Yahoo
+Finance) gave conflicting attribution on 2026-08-29 re-check (CFO Dive said Bastek; Yahoo Finance
+said McPhail) — resolved by direct-fetching Home Depot's own IR-hosted transcript PDF, which
+settles it as Bastek (see changelog note at top of file). The Hill (403) and Digital Commerce 360
+(not attempted) remain unread directly, and the May 2025/May 2026 beats are still WebSearch-only.
 
 Original 7 remain secondary-sourced news/transcript-aggregator coverage, not scraped directly
 from SEC filings — flagged in the original 07-24 note as a to-do that was never separately
@@ -151,9 +170,12 @@ one-line draft entries in `2026-08-04-study1-corpus-expansion.md`):**
 
 15. **Home Depot** — Three-beat sequence, not a single reversal: (1) May 2025, publicly said it
     would **not** raise prices broadly (>50% U.S.-sourced, no single country >10% of purchases);
-    (2) Aug 2025, CFO Richard McPhail reversed — "some modest price movement for some
-    categories," "not on a broad scale"; (3) May 2026, further update citing fuel/commodity
-    pressure plus new tariffs, "the environment is changing almost every day."
+    (2) Aug 2025 (Q2 FY2025 earnings call, Aug 19, 2025), EVP Merchandising William "Billy" Bastek
+    stated — "there'll be some modest price movement in some categories, but it won't be broad
+    based" (verbatim, per Home Depot's own IR-hosted transcript — corrected 2026-08-29 from a
+    prior misattribution to CFO Richard McPhail; see changelog note at top of file); (3) May 2026,
+    further update citing fuel/commodity pressure plus new tariffs, "the environment is changing
+    almost every day."
     → `causation-explicit` (from Aug 2025 on), `reversal-narrative` (new candidate code — a
     stated position changing under continued cost pressure), `hedged-commitment`. **This artifact
     was originally flagged as the weakest lead in the corpus (placeholder-only entry); the
