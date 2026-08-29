@@ -85,17 +85,50 @@ recognizable real-world detail.
 **Condition B — Secret/broad-access default (undisclosed):**
 
 > After the cameras were installed, a local news investigation found that the camera system had a
-> default setting — one the city council was not told about when it approved the contract — that
-> automatically allowed federal agencies and out-of-state police departments to search the city's
-> camera data. City officials said they had not known this setting existed until the news
+> default setting that automatically allowed federal agencies and out-of-state police departments
+> to search the city's camera data. The city council had not been told about this setting when it
+> approved the contract. City officials said they had not known the setting existed until the news
 > investigation brought it to their attention.
+
+**2026-08-29 mechanical revision note:** Condition B's first sentence was split in two (was one
+46-word sentence containing two embedded em-dash parenthetical clauses; now two sentences of 33
+and 15 words) per the face-validity flag in
+`notes/2026-08-27-webfetch-retry-and-study2-vignette-face-validity-review.md` (finding 2b). This
+is a pure sentence-boundary/punctuation change — no fact, claim, or framing element was added,
+removed, or reworded; the "found via news investigation, city council not told, officials didn't
+know" content is fully preserved (see that same note's finding 2d, which flags this framing itself,
+not the sentence complexity, as a possible confound with perceived government incompetence — that
+substantive question was deliberately left untouched here and still needs Britton's or a pilot's
+judgment, not a wording fix).
 
 **Delivery notes:**
 - Include a brief forced pause / minimum-time-on-page setting (e.g., 10 seconds), matching
   Tariff Paper's instrument convention, to discourage skimming.
-- Both versions are matched for length and structure (three sentences of shared setup + three
-  sentences of condition-specific content) to avoid a length/complexity confound — verify this
-  once actual final wording is set; see confound-check items below, which test exactly this.
+- **Corrected 2026-08-29** (the "three sentences" claim below was factually wrong as originally
+  written — both conditions' condition-specific content was actually two sentences; see
+  `notes/2026-08-27-webfetch-retry-and-study2-vignette-face-validity-review.md` finding 2a).
+  Shared setup is three sentences (54 words). Condition A's condition-specific content is two
+  sentences (67 words: 41 + 26). Condition B's condition-specific content is now **three**
+  sentences after the 2026-08-29 split above (67 words: 33 + 15 + 19) — word count is now matched
+  almost exactly to Condition A (67 vs. 67), though sentence *count* no longer matches (2 vs. 3).
+  That trade-off is deliberate: the split sacrifices exact sentence-count symmetry to fix the
+  larger complexity gap the 08-27 review flagged (no single Condition B sentence now exceeds 33
+  words or contains an embedded parenthetical clause, versus the original 46-word/double-embedded
+  sentence). Re-verify both conditions' word/sentence counts if any further wording changes are
+  made; see confound-check items below, which test perceived ease-of-understanding directly.
+- **Readability, computed 2026-08-29** (Flesch-Kincaid Grade Level, via the `textstat` Python
+  library — a formula-based estimate, not a human pilot): the full vignette (shared opening +
+  condition text) originally scored **14.9 (Condition A)** and **15.2 (Condition B)** — both far
+  above the instrument's own stated ~8th-grade target for the study (confirming finding 2c of the
+  08-27 review). The sentence split above brings Condition B down to **13.7** — a real
+  improvement, closer to Condition A, but **still well above an 8th-grade target**. Getting either
+  condition genuinely to ~8th grade would require shortening sentences further and/or simplifying
+  vocabulary (e.g., "automated license-plate-reader (ALPR) cameras," "law-enforcement databases,"
+  passive constructions like "would be accessible" and "were not told") — changes that start to
+  touch the actual wording/content of the stimulus, not just its punctuation, so that is flagged
+  here for Britton/a pilot rather than done unilaterally. See
+  `notes/2026-08-29-vignette-mechanical-fixes-and-buildout.md` for the full calculation and
+  per-sentence breakdown.
 
 ## 5. Manipulation checks
 
@@ -235,15 +268,24 @@ information (real, not placeholder, per that note — confirm current before use
 2. **The two open design calls** (Section 8's Path A/B branch; single-manipulation vs. factorial)
    — this document is written to be usable either way for Path A/B, but factorial vs.
    single-manipulation would require a second manipulated vignette dimension not drafted here.
-3. **Actual piloting** — the vignette text in Section 4 is newly drafted and has had no
-   face-validity review of any kind (unlike the scale items, which went through the 08-20 desk
-   review). This is the single highest-priority item to pilot before fielding anything, higher
-   priority than the already-reviewed scale items.
+3. **Actual piloting** — the vignette text in Section 4 got a desk-level face-validity review
+   (08-27) and two mechanical fixes (08-29: sentence split, corrected sentence-count claim — see
+   Section 4 above), but still has had **no human pilot**. This is the single highest-priority item
+   to pilot before fielding anything, higher priority than the already-reviewed scale items.
+   **Unresolved even after 08-29's mechanical fixes:** (a) Condition B's "discovered via news
+   investigation, city didn't know" framing may still confound disclosure/secrecy with perceived
+   government incompetence (08-27 finding 2d) — this is a content/framing question, not touched by
+   the mechanical fixes, and needs Britton's or a pilot's judgment; (b) even after the sentence
+   split, both conditions' Flesch-Kincaid grade level (13.7-14.9) remains well above the
+   instrument's own ~8th-grade target — closing that gap fully would require vocabulary/wording
+   changes beyond what a mechanical fix can do without touching stimulus content.
 4. **Platform build** — this is a content-order document, not a configured Qualtrics/panel-vendor
    flow. No branching logic, randomization weights, or attention-check placement have been
    implemented anywhere.
-5. **Length/complexity confound check on the vignette pair (Section 4)** — flagged inline above;
-   worth an actual word-count/readability check once the wording is finalized, not just the
-   "matched sentence count" design intent stated here.
+5. **Length/complexity confound check on the vignette pair (Section 4)** — done 2026-08-29 via
+   `textstat` Flesch-Kincaid calculation (see Section 4's readability note above and
+   `notes/2026-08-29-vignette-mechanical-fixes-and-buildout.md`); word counts are now closely
+   matched (67 vs. 67) and Condition B's sentence complexity is reduced, but this is a
+   formula-based estimate, not a substitute for the human pilot in item 3 above.
 6. A priori power analysis and finalized target N — still pending the PLS-SEM-vs-PROCESS decision,
    per the IRB draft.

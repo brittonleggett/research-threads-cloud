@@ -279,9 +279,18 @@ Menasha, Wisconsin officer was sentenced to six months in jail and permanently b
 enforcement or Flock system access for using the network to track an ex-girlfriend, and two
 Milwaukee officers were separately charged with misconduct for tracking people they were
 personally involved with, one case surfaced only after the victim checked a public self-audit
-tool (haveibeenflocked.com). A cited but not yet independently verified industry-tracking figure
-(attributed by search results to the Institute for Justice: at least 21 similar cases nationally
-since 2024) would, if confirmed, convert this from an anecdotal pattern into a documented
+tool (haveibeenflocked.com). **Updated 2026-08-29:** an industry-tracking figure previously
+flagged as "cited but not yet independently verified" is now direct-fetch-confirmed via two
+independent secondary outlets (Fox affiliate syndication and Malwarebytes' security-news desk),
+both directly quoting the same Institute for Justice analysis: **"at least 22 cases nationwide"**
+of officers allegedly using ALPR systems to track romantic interests, "the bulk... happening since
+2024." (The Institute for Justice's own database page, `ij.org/the-ij-database-of-alpr-abuse/`,
+returned an HTTP 403 on direct fetch — the same publisher/bot-blocking pattern seen with SAGE and
+other paywalled or bot-defended sites in this project, not a network-egress failure — so this
+citation rests on two independently-fetched outlets that themselves quote IJ's figure, not a
+direct pull of IJ's own page.) The number has evidently grown since the 08-21/08-22 sourcing (21
+→ 22), consistent with IJ's database being actively updated as new cases surface, not a
+discrepancy. This converts what was an anecdotal pattern into a documented, source-confirmed
 national one. This strengthened evidentiary base is treated here as a discussion-section
 direction for future work rather than a hypothesis in the present design, consistent with the
 2026-08-16 Phase 3 decision — though the decision to keep it out of the primary Study 2 model was
@@ -371,4 +380,28 @@ into the present design.
    `notes/2026-08-27-nhan-helfers-retry-and-study2-instrument-assembly.md`. Also new tonight: a
    full Study 2 platform-ready instrument assembly document,
    `Study2_Instrument_DRAFT_2026-08-27.md`, closing the "not started" gap flagged in the IRB
-   draft's item #5.
+   draft's item #5. A same-day follow-up session also got a direct WebFetch through to the SAGE
+   page for this DOI and hit a clean HTTP 403 (bot-block, not egress-block) — see
+   `notes/2026-08-27-webfetch-retry-and-study2-vignette-face-validity-review.md` — and gave the
+   Study 2 vignette its first face-validity read (4 flags, none yet fixed as of that session).
+9. **2026-08-29 update:** WebFetch worked normally tonight (tested against Wikipedia as a control,
+   which loaded cleanly). Two items flagged in the 08-24/08-27 notes as WebSearch-triangulated
+   only were upgraded:
+   - The Mountain View paragraph above (contextual-integrity section) is now **direct-fetch
+     confirmed** against `abc7news.com`'s own article — every specific detail (the federal
+     agencies involved, the "29 of 30 cameras" state-level figure, the internal-audit discovery
+     mechanism) matches the article text exactly, closing the "recommended before this goes into a
+     submitted manuscript" item from 08-24.
+   - The Institute for Justice "21 similar cases" function-creep figure (above) is now
+     direct-fetch confirmed via two independent outlets quoting IJ directly, and updated to
+     IJ's current count of "at least 22." IJ's own database page itself is bot-blocked (HTTP 403)
+     to direct fetch, the same pattern as SAGE — so this is corroborated-secondary-source
+     confidence, not a pull of the primary tracker itself.
+   - The Nhan & Helfers SAGE page was **not** retried tonight, per the 08-27 note's own
+     recommendation not to re-attempt that specific URL — see
+     `notes/2026-08-29-vignette-mechanical-fixes-and-buildout.md` for what else was checked
+     instead (a literature-gap sweep found no new competing studies).
+   - The Study 2 instrument's vignette (`Study2_Instrument_DRAFT_2026-08-27.md`, Section 4) had
+     two mechanical face-validity fixes applied (a factual "three sentences" correction; a
+     sentence-complexity split in Condition B) and a Flesch-Kincaid readability calculation run —
+     full detail in the same new note. No hypothesis, theme, or design element changed.
