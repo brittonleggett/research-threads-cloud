@@ -1009,3 +1009,134 @@ each for a specific reason rather than by default:
   mechanism that made idea 15 (prediction markets) work doesn't hold here: 2026 coverage shows stablecoin
   regulation (the GENIUS Act framework) converging toward *more* disclosure and licensing, not a gap
   advertisers are exploiting. Mechanism doesn't match the story; ruled out.
+
+## 2026-08-30 — nightly scouting run (WebSearch this session; WebFetch attempted twice against
+`journals.uchicago.edu` JACR forthcoming-issue pages and blocked both times with a plain HTTP 403 — that
+site's own bot-protection, the same shape of block `lailluminator.com` gave in the 2026-08-29 session, not
+the network-wide `EGRESS_BLOCKED` proxy failure from earlier sessions. So the special-issue details below
+are WebSearch-summarized secondary/indexed text, cross-checked across three independent queries that all
+returned matching specifics, not a direct read of the primary CFP page.)
+
+### 18. A methods/protocol paper on Britton's own six-phase AI-assisted thematic analysis workflow, targeted
+at JACR's "AI in the Consumer Marketplace" special issue (moderate confidence — a real, dated, well-matched
+venue opportunity that needs essentially no new primary data collection, but a genuine and growing adjacent
+literature on LLM-assisted thematic analysis already exists, so this is a narrower, more defensible gap than
+a first-mover claim)
+- **Gap/question:** the *Journal of the Association for Consumer Research* has an open special issue, "AI in
+  the Consumer Marketplace" (Vol. 13, Issue 3; editors Bernd Schmitt, Ana Valenzuela, Reto Hofstetter, and
+  Luca Cian), that explicitly names "what standards ensure transparency and reproducibility in AI-assisted
+  research (prompt reporting, model documentation, validation practices)" as a topic of interest, alongside
+  "how can GenAI tools be used for theory abstraction, stimuli creation, or qualitative coding." Britton's
+  team already has exactly this in hand and already tested across five live projects: the six-phase
+  AI-assisted thematic analysis workflow in `Claude_Knowledge/Thematic Analysis/AI_Assisted_TA_Shared_
+  Method.md` and `Study1_AI_Thematic_Analysis_Publishable_Protocol.md`, including the explicit human-only
+  Phase 3 safeguard (and the one documented, reasoned exception for `FLOCK_CAMERAS_PAPER`) that is itself a
+  concrete, defensible answer to the CFP's transparency/reproducibility question. A saturation check tonight
+  found this is **not an empty lane**: there is a real and growing published literature on LLM-assisted
+  thematic analysis specifically — De Paoli 2024 (Sage, *Field Methods* per the DOI path, on the limits of
+  using an LLM for inductive TA of interview transcripts), a 2026 Springer Nature *Discover AI* piece asking
+  whether LLMs can code text for TA, several PMC/arXiv papers comparing LLM-vs-human coding agreement
+  (kappa/Spearman figures reported), and — closest of all — a 2026 *Humanities and Social Sciences
+  Communications* (Nature) paper describing "GATOS" (Generative AI-enabled Theme Organization and
+  Structuring), an open-source-ML thematic-analysis workflow demonstrated across three case studies. None of
+  what turned up tonight is a marketing/consumer-research-journal treatment applying a disclosed, multi-phase,
+  human-AI-divided-labor protocol specifically to *public corporate/marketing-controversy content* (corporate
+  statements, regulatory filings, public comments) simultaneously across several live real-world case
+  studies — the closest hits are healthcare/HCI transcript-coding studies or a single open-source-tool
+  demonstration paper, not a consumer-marketing methods contribution built on a track record across five
+  concurrent corporate-controversy corpora. That's a real but narrower gap than "nobody has tried this," and
+  should be presented to Britton with that hedge rather than as an unclaimed lane.
+- **Why tractable soon:** the submission portal for this special issue opens February 1, 2027 and the first
+  deadline is April 1, 2027 — about seven months from tonight, and unlike most ideas in this file, this one
+  requires no new corpus, no new fieldwork, and no IRB exposure at all, because the paper's subject *is* the
+  already-built and already-applied methodology, not a new empirical study. The manuscript would essentially
+  be a write-up-and-generalize job over material Britton's team has already produced (the shared method docs,
+  the five projects' worth of applied experience, the one documented Phase-3-exception decision as a case
+  study in itself of how the team handles an edge case) rather than a from-scratch research undertaking,
+  which is unusual tractability for this file.
+- **Rough method sketch:** this doesn't fit Britton's usual mediated-antecedent → psychological-mediator →
+  outcome / PLS-SEM template — it's a methods/protocol contribution, not an empirical consumer-behavior study,
+  which is a deliberate fit to what the task brief asked to scout (AI-augmented qualitative methods) rather
+  than a mismatch. A plausible shape: (1) present the six-phase workflow itself as the contribution, with the
+  human-only Phase 3 rule framed explicitly as a reproducibility/validity safeguard; (2) illustrate it across
+  two or three of the five live projects (e.g., Tariff, Data Center, Flock Cameras) as parallel demonstration
+  cases, echoing GATOS's multi-case-demonstration structure but on marketing-controversy content instead of
+  general qualitative data; (3) if reviewers would expect a quantified reliability claim, a modest inter-rater
+  check (a second human coder independently reviewing a subsample of AI-proposed themes against the already-
+  locked Phase 3 human calls, reporting agreement) would strengthen the transparency claim without requiring
+  new primary data collection.
+- **Human-subjects flag:** as scoped, this is a methods paper about an internal research workflow applied to
+  already-public-record corpora — no participant data involved. If a reliability check adds a second human
+  coder, that's ordinary co-author/research-team methodology practice, not human-subjects data collection in
+  the regulatory sense, though this is a plain-language read, not a legal one — worth Britton (or the IRB
+  office, if he wants to be certain) confirming before treating it as settled.
+- **Target venue:** *Journal of the Association for Consumer Research*, "AI in the Consumer Marketplace"
+  special issue (Vol. 13, Iss. 3), portal opens Feb 1, 2027, deadline Apr 1, 2027, decisions expected ~Mar
+  2028, publication ~Jul 2028 — a long final timeline typical of a journal special issue, but the near-term
+  action (drafting toward an April 2027 deadline) is what makes this worth flagging now rather than later.
+- Leads (WebSearch-summarized secondary/indexed text only, primary CFP page blocked by 403 both times
+  tonight — see session note above): [Journal of the Association for Consumer Research — Call for
+  papers](https://www.journals.uchicago.edu/journals/jacr/forthcoming-13.3), [Association for Consumer
+  Research — JACR](https://acrwebsite.org/jacr/), [De Paoli 2024, SAGE — Performing an Inductive Thematic
+  Analysis of Semi-Structured Interviews With a Large Language Model](https://journals.sagepub.com/doi/10.1177/08944393231220483),
+  [Springer Nature, Discover AI 2025/2026 — Can large language models be used to code text for thematic
+  analysis?](https://link.springer.com/article/10.1007/s44163-025-00441-3), [Nature, Humanities and Social
+  Sciences Communications 2026 — Thematic analysis with open-source generative AI and machine learning
+  (GATOS)](https://www.nature.com/articles/s41599-026-06508-5), [arXiv — Human-AI Collaboration in Thematic
+  Analysis using ChatGPT](https://arxiv.org/pdf/2311.03999)
+
+Proposal only, per standing rule — nothing built, nothing committed to. Also checked tonight and set aside,
+each for a specific reason rather than by default:
+- **Louisiana Data Privacy Act (SB386, signed May 29, 2026, effective Jan 1, 2027, the state's 22nd
+  comprehensive privacy law)** — real, current, and has a concrete near-term compliance date structurally
+  identical to idea 17's, but a saturation check found the specific consumer-facing mechanism (an opt-out
+  right for targeted advertising) sits on top of an already-substantial existing research base built around
+  CCPA/CPRA since 2018–2023 (opt-out-effectiveness studies, Global Privacy Control research, survey data on
+  consumer opt-out preferences). Louisiana being the 22nd state to pass a near-identical law, rather than the
+  first or most distinctive, makes it hard to argue a fresh mechanism rather than one more entrant in an
+  already-well-studied wave; set aside rather than force a differentiator that wasn't found tonight.
+- **Louisiana's two 2026 grocery/surveillance-pricing bills, HB800 ("Make Affordable Groceries Again Act")
+  and HB471 (surveillance-based price discrimination)** — both genuinely on-point (grocery pricing ties
+  directly to Britton's tariff/affordability interest, and surveillance-pricing is squarely idea 11's
+  mechanism), but both stalled in House committee as of their last recorded action (Feb/Mar 2026) with no
+  further movement found and no effective date to anchor a before/after design — and even if either had
+  passed, it would read as the same mechanism idea 11 already logged 2026-08-24, not a distinct new idea.
+  Set aside on both the stalled-status and the duplication grounds.
+- **Louisiana Act No. 182 (60-day advance-notice requirement before insurers cancel/non-renew property or
+  auto policies, effective July 1, 2026)** — real and Louisiana-specific, but the compliance date is already
+  nearly two months in the past as of tonight, losing the clean prospective before/after window this file
+  otherwise looks for, and insurer-cancellation trust/switching behavior is a long-established research area
+  in insurance/marketing journals; no distinct new mechanism found to justify treating it as a fresh gap.
+- **The Louisiana PSC's Aug 12, 2026 ruling blocking a subpoena that would have forced Meta to disclose data
+  center economic-impact and power-demand documentation, and the related ratepayer-cost-exposure coverage
+  (Entergy's pending application for 7 more gas plants, PSC decision expected Dec 16, 2026)** — real, current,
+  and even has a concrete near-term decision date, but this is the same actor, same site, and same regulatory
+  fight DATA_CENTER_PAPER's corpus already covers (Britton's own Meta/Richland-Parish anchor case); reads as
+  corpus/update material for that already-active project, not a structurally distinct new paper, same call
+  made for the water-usage/aquifer item set aside in the 2026-08-29 entry. Flagging for whoever next works
+  DATA_CENTER_PAPER, not writing it up standalone.
+- **Louisiana's 2026 PBM (pharmacy benefit manager) reforms (reimbursement-formula floor by Mar 1, 2026, the
+  $45M CVS Caremark settlement, HB1236's cost-share protections)** — real and current, but the affected
+  relationship (PBM-to-pharmacy reimbursement formulas, PBM-to-insurer contracting) is a B2B/regulatory-
+  compliance dynamic, not a consumer-facing marketing-communication or trust mechanism a patient/consumer
+  directly experiences and evaluates; doesn't fit Britton's consumer-behavior lane without a stretch not
+  attempted tonight.
+- **LNG export-terminal opposition in southwest Louisiana (Venture Global's Calcasieu Pass 2 expansion,
+  Commonwealth LNG's contested permit, both drawing active Cameron Parish resident opposition over safety,
+  wastewater discharge, and infrastructure strain)** — real, current, and would fit Britton's industrial-
+  siting-opposition interest structurally, but Britton already has three active projects in almost exactly
+  this genre (data center, CCS, and SpaceX siting opposition) plus idea 5 (nuclear) already logged in this
+  file; no distinct new mechanism (versus regulatory-venue-shifting, magnitude-framing, or the other codes
+  already built) turned up tonight to justify a fourth or fifth entry in the same bucket rather than reading
+  as more corpus material for an existing line. Worth another look only if a sharper, different mechanism
+  surfaces later.
+- **The August 2026 Walmart boycott (a viral creator ban) and the ongoing Target DEI-rollback boycott/"Shop
+  Smart, Not Target" campaign** — real, current, and squarely about consumer trust and brand behavior, but a
+  saturation check found boycott-intention and political-consumerism is already an active, recent academic
+  literature (a 2026 *International Journal of Advertising* piece specifically on political identity,
+  corporate response, and boycott intention turned up directly in the search), and neither story has a
+  distinct Louisiana angle to differentiate it from that existing coverage.
+- **Louisiana SB254 (bans retail surcharges specifically on debit-card payment, with a private right of
+  action)** — real and current, but sits on top of a decades-deep existing marketing literature on
+  partitioned/drip pricing and surcharge fairness perception; no fresh mechanism found tonight to distinguish
+  it from that established base.
