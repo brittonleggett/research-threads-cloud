@@ -244,7 +244,20 @@ The corpus also contains a genuine, mainstream-covered counter-current: real, na
 officials crediting Flock cameras with solving specific violent crimes (a murder and a
 double-murder in Ferndale and Hazel Park, Michigan; a carjacking response in Oakland County),
 and Flock's own aggregate claims running alongside the privacy critique in the same PBS
-NewsHour segment rather than being presented as a rebutted talking point. This mirrors a
+NewsHour segment rather than being presented as a rebutted talking point. Independent empirical
+evidence for this ambivalence exists beyond anecdote: the one rigorous, peer-reviewed outcome
+evaluation of a major ALPR expansion located in this project's literature searches — Shjarback
+and Sarkos's (2025) process-and-impact evaluation of a Smart Policing Initiative-funded,
+city-wide fixed-ALPR deployment in Atlantic City, NJ (*Justice Evaluation Journal*, 8(2),
+225–242, DOI 10.1080/24751979.2025.2473363) — found genuinely mixed real-world results: no
+measurable reduction in violent crime, but significant associated reductions in shootings, motor
+vehicle theft, and property crime, alongside process findings that use of the technology was more
+siloed in specific investigative units than deployed department-wide for patrol. This is a
+real-world evidentiary counterpart to this moderator's premise — that ALPR's public-safety value
+is neither straightforwardly proven nor straightforwardly absent — useful for the Discussion
+section's grounding of *perceived* crime-solving necessity against actual outcome evidence,
+though the study itself measures crime statistics, not public perception, and is not a citation
+for H6's mediation/moderation logic itself. This mirrors a
 documented pattern in the adjacent facial-recognition-in-policing literature: perceived
 public-safety effectiveness and privacy concern are both independent, simultaneous predictors
 of technology support, and their relative weight shifts by context (Miethe, Dudinskaya,
@@ -405,3 +418,20 @@ into the present design.
      two mechanical face-validity fixes applied (a factual "three sentences" correction; a
      sentence-complexity split in Condition B) and a Flesch-Kincaid readability calculation run —
      full detail in the same new note. No hypothesis, theme, or design element changed.
+10. **2026-08-30 update:** the two adjacent literature leads flagged 2026-08-29 as "found but not
+    verified or added" were run down. **Shjarback and Sarkos (2025)**, "An Evaluation of a Major
+    Expansion in Automated License Plate Reader (ALPR) Technology," *Justice Evaluation Journal*,
+    8(2), 225–242, DOI 10.1080/24751979.2025.2473363 — confirmed real via direct WebSearch-summary
+    triangulation plus an independent institutional source (the corresponding author's Rowan
+    University faculty research-profile page, which lists the identical citation), and judged
+    genuinely on-topic as real-world outcome evidence for the Moderator 2 discussion; added to the
+    Moderator 2 section above. **Shjarback (2024) alone** — "Examining Police Officers'
+    Perceptions of Automated License Plate Readers Before Technology Expansion," *Criminal Justice
+    Policy Review*, 35(1), 3–21, DOI 10.1177/08874034231220627 — was direct-fetch confirmed via
+    the SAGE Journals page itself (also correcting the 08-29 note's misremembered journal name,
+    "Policing: An International Journal," to the actual venue), but judged **not** genuinely
+    on-topic for this paper's citizen-facing theory chain (it surveys officers, not the public, on
+    predictors — prior experience, age, guardian orientation — unrelated to disclosure, procedural
+    injustice, or institutional trust) and was **not added** to this draft. Full detail, including
+    the fetched abstracts and the topical-fit reasoning for both, in
+    `notes/2026-08-30-literature-verification-shjarback-alpr-eval.md`.
