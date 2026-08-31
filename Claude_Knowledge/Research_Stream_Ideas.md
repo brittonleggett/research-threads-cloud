@@ -1140,3 +1140,116 @@ each for a specific reason rather than by default:
   action)** — real and current, but sits on top of a decades-deep existing marketing literature on
   partitioned/drip pricing and surcharge fairness perception; no fresh mechanism found tonight to distinguish
   it from that established base.
+
+## 2026-08-31 — nightly scouting run (WebSearch this session; WebFetch tried once against `marketplace.org`
+and got a plain HTTP 403 — that site's own bot-protection, same shape of block `lailluminator.com`/
+`journals.uchicago.edu` gave in the two prior sessions, not the network-wide `EGRESS_BLOCKED` proxy failure
+from earlier in the file. Below is WebSearch-summarized, leads not primary-source-verified.)
+
+### 19. De minimis tariff-exemption elimination and the collapse of Temu/Shein/AliExpress's "too-cheap-to-
+question" value proposition — perceived pricing-legitimacy and platform trust as a tariff-shock mechanism
+distinct from ideas 2a/7/9 (high confidence — sharp, multiply-dated legal timeline, real measured behavioral
+shift already in industry data, no academic-marketing treatment found)
+- **Gap/question:** the U.S. eliminated the "de minimis" duty-free import exemption (previously $800/
+  shipment) in stages — China/Hong Kong lost it May 2, 2025, all other countries lost it August 29, 2025 — and
+  that suspension has since been repeatedly re-upheld on its own legal footing, separate from the broader
+  IEEPA tariff program already covered in this file's idea 7: the U.S. Court of International Trade
+  specifically declined to overturn the suspension on August 13, 2026 (ruling it rests on CBP's Section
+  321/Trade Facilitation and Trade Enforcement Act discretion, not the IEEPA authority the Supreme Court
+  struck down in February), and the "One Big Beautiful Bill Act" separately repeals the statutory exemption
+  outright, permanently, effective July 1, 2027. The result: platforms whose entire consumer proposition was
+  "impossibly cheap, delivered duty-free" (Temu, Shein, AliExpress) saw 20-40% price increases and products
+  disappearing from U.S. catalogs, and audience data shows it actually changed behavior, not just prices —
+  Temu's U.S. audience fell as much as 62% and Shein's 47% from pre-suspension levels, both still running
+  roughly 30% below baseline as of April 2026, with Target/Walmart/Amazon absorbing the displaced shoppers.
+  One tracking piece (Measure Protocol) frames the remaining core as having shifted "from deal-hunting to
+  trust-checking" — i.e., the shock didn't just raise prices, it appears to have changed how the *surviving*
+  low-price claims from these platforms are evaluated. That's a distinct mechanism from every other tariff
+  entry already logged here: not corporate causal-attribution framing at an established retailer (2a), not
+  post-ruling price non-reversal on goods already in the market (7), and not a domestic-provenance/COOL
+  branding question (9) — this is about an entire platform category's core value proposition (near-zero
+  markup, enabled by a now-closed regulatory loophole) being revealed as artificially cheap, and whether
+  that revelation itself (not just the resulting price increase) erodes trust in the platform's future price
+  claims.
+- **Why tractable soon, honest caveat included:** three separate fixed dates give this real temporal
+  structure rather than a single vague trend: the original suspension dates (May/Aug 2025) are now over a
+  year in the rearview, meaning any survey fielded now captures lived, not hypothetical, experience; the Aug
+  13, 2026 CIT ruling (18 days before tonight) re-confirmed the suspension is durable, not a fluke pending
+  further litigation; and the July 1, 2027 permanent statutory repeal (about ten months out) gives a genuine
+  future before/after point distinct from the already-lived initial shock, useful for a longitudinal framing.
+  A WebSearch saturation check tonight for prior academic or PLS-SEM treatment of de minimis elimination and
+  consumer trust/switching came back empty — what exists is trade-press/logistics-industry coverage
+  (SupplyChainBrain, CNBC, Newsweek, WWD, Measure Protocol's own audience-tracking data) and legal/customs-
+  compliance analysis (RVIA, KPMG, Alvarez & Marsal on the CIT ruling), not a marketing-journal treatment of
+  the consumer-trust mechanism. Given how new and still-unfolding the legal timeline is (the CIT ruling is
+  barely three weeks old, the permanent repeal hasn't happened yet), this reads as a genuinely open gap, not
+  an under-searched one. Honest caveat: the *general* tariff-driven-brand-switching consumer-survey base (the
+  60%-would-switch-brands, Circana private-label-stickiness data already cited under idea 2a) is the same
+  industry evidence base this idea would also draw on, so the lit review overlaps with 2a even though the
+  stimulus/mechanism is different — Britton should weigh that shared evidence base explicitly if he greenlights
+  both, to avoid the two papers reading as thin variations of each other in a lit review.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: awareness/experience of
+  a previously-trusted low-cost platform's price jump and product disappearance following the loophole's
+  closure — measurable as an individual-difference/awareness variable in a survey of past Temu/Shein/
+  AliExpress shoppers, or manipulated in a vignette (a mock product listing shown at the old vs. new price,
+  framed as "duty-free" vs. "duty added"). Mediator candidates: perceived pricing legitimacy/authenticity (was
+  the original low price ever a real, sustainable offer, or an artifact of a loophole), or perceived platform
+  trustworthiness going forward. Outcome: platform loyalty/switching intention (to Amazon/Walmart/Target, per
+  the audience data above), willingness to pay a premium at the same platform post-price-increase, or general
+  skepticism toward other "too good to be true" pricing claims (a spillover-trust outcome worth testing).
+  Plausible moderator: prior awareness that the low price depended on a tariff loophole (does knowing *why*
+  the price rose change the trust effect, similar to 2a's/7's causal-attribution logic) or platform loyalty/
+  purchase frequency pre-suspension. Survey-based PLS-SEM fits better than a TA-based Study 1 here, given
+  there's no discourse corpus equivalent to the infrastructure-opposition papers — though a light Study 1
+  (AI-assisted content analysis of platform reviews/social commentary on the price changes, which is
+  extensive and public) could still map the trust-erosion language before a Study 2 survey.
+- **Target venue:** Journal of Consumer Marketing or Journal of Retailing — a genuine companion to
+  TARIFF_PAPER and idea 2a (same broad tariff-and-consumer-behavior line) but a structurally distinct
+  paper (platform-level value-proposition collapse, not corporate messaging framing or COOL/provenance
+  branding), not a competing use of the same design.
+- Leads (unverified, WebSearch only): [SupplyChainBrain — EU to end de minimis with new customs fee in 2026](https://www.supplychainbrain.com/articles/43004-eu-to-end-de-minimis-with-new-customs-fee-in-2026), [Marketplace.org — yep, the de minimis tariff exemption is still suspended](https://www.marketplace.org/story/2026/03/03/supreme-court-tariffs-de-minimis-exemption-cheap-imports) (WebFetch blocked 403 tonight, title/date from search index only), [CNBC — Shein and Temu see U.S. demand plunge on 'de minimis' trade loophole closure](https://www.cnbc.com/2025/06/05/shein-temu-see-us-demand-plunge-on-de-minimis-trade-loophole-closure.html), [Measure Protocol — Shein & Temu After Tariffs: Where Shoppers Went](https://www.measureprotocol.com/insights/shein-temu-shoppers-after-us-tariffs), [Newsweek — 'De minimis exception': how Trump's China tariffs will hurt Temu and Shein](https://www.newsweek.com/de-minimis-exception-trump-tariff-shein-temu-2025483), [RVIA — United States Court of International Trade (CIT) upholds suspension of de minimis](https://www.rvia.org/news-insights/united-states-court-international-trade-cit-upholds-suspension-de-minimis), [KPMG — US Trade Court: IEEPA authorizes presidential rescission of de minimis exemption](https://kpmg.com/us/en/taxnewsflash/news/2026/08/us-trade-court-ieepa-de-minimis-treatment.html), [Alvarez & Marsal — USCIT upholds IEEPA suspension of de minimis treatment in Axle of Dearborn](https://www.alvarezandmarsal.com/thought-leadership/uscit-upholds-ieepa-suspension-of-de-minimis-treatment-in-axle-of-dearborn)
+
+Proposal only, per standing rule — nothing built, nothing committed to. Also checked tonight and set aside,
+each for a specific reason rather than by default:
+- **New York's Tariff Transparency Act (A8241/S3567), which would require a "tariff cost estimate" on new
+  cars' federal Monroney window-sticker label** — a genuinely on-point mechanism (a mandated tariff-specific
+  disclosure label, structurally similar to idea 11's surveillance-pricing disclosure-label logic but for
+  tariffs specifically) and a real gap versus the general tariff-attribution literature, but a direct check of
+  the bill's status tonight (via WebFetch on the NY Senate's own bill tracker) found it's stalled — introduced
+  May 5, 2025, re-referred to the Assembly Transportation Committee January 7, 2026, no further movement since
+  — too uncertain a legislative hook to anchor a study on right now, same standard this file has applied to
+  other stalled bills (HB800/HB471 set aside 2026-08-30, SB246 set aside 2026-08-24). Worth rechecking if it
+  moves.
+- **LLM/"silicon sample" synthetic survey respondents as a methods-paper angle** (an alternative AI-augmented-
+  methods idea to sit alongside idea 18's AI-assisted-TA/JACR pitch) — real and directly relevant to Britton's
+  own PLS-SEM toolkit (synthetic respondents replacing or augmenting a fielded survey sample), but a saturation
+  check tonight found this is thoroughly claimed already: Sarstedt et al. 2024 in *Psychology & Marketing* — a
+  paper by one of PLS-SEM's own leading methodologists — is specifically titled "Using large language models to
+  generate silicon samples in consumer and marketing research: Challenges, opportunities, and guidelines," and
+  a wave of 2026 psychometric-audit and cross-domain-benchmark papers (several on arXiv, one explicitly finding
+  LLM survey samples fabricate indirect/mediation effects on placebo paths) has followed it. Not a gap; set
+  aside outright rather than logged as a candidate.
+- **Hyundai's $5.8B Donaldsonville/Ascension Parish steel mill** — a real, live, well-documented Louisiana
+  siting fight (air-permit fast-tracking concerns, a coalition of United Steelworkers District 13, NAACP
+  Louisiana, Sierra Club Delta Chapter, and Rural Roots Louisiana demanding a longer public-comment period,
+  reporting through Aug 28, 2026) that pattern-matches the same economic-benefit-claim-vs-environmental/
+  procedural-justice-opposition template already active in DATA_CENTER_PAPER, CCS_PAPER, and
+  SPACEX_LOUISIANA_PAPER, plus already-logged ideas 3a (LNG), 5 (nuclear), 8 (solar), and 12 (Cancer Alley
+  zoning) — the same reasoning this file already applied to set aside further LNG-terminal opposition
+  2026-08-30 ("Britton already has three active projects in almost exactly this genre... no distinct new
+  mechanism... to justify a fourth or fifth entry"). No sharper or different mechanism than what's already
+  coded turned up tonight; flagging as corpus-extension material for whoever next works DATA_CENTER_PAPER or
+  CCS_PAPER (it sits closest to CCS_PAPER's industrial-permitting angle) rather than a standalone idea.
+- **Orion Renewable Energy Group's 1 GW "Persimmon Energy Center" solar/storage project, North Calcasieu
+  Parish** — same underlying story as the ~4,700-acre Moss Bluff solar opposition already covered under idea 8
+  (2026-08-24 entry); this is a name/detail update on the same project, not a new one. No standalone write-up.
+- **Meta's $17.1B multistate settlement over Instagram/Facebook's addictive design and harm to minors**
+  (announced Aug 26, 2026, largest state consumer-protection settlement outside Big Tobacco, mandates
+  algorithmic-feed opt-outs and overnight/school-hours notification limits for minors) — real, current, and
+  squarely in the marketing-to-minors space, but it's a national story with no distinct Louisiana angle, its
+  core mechanism (algorithmic-feed opt-outs/parental-consent-style protections for minors) overlaps
+  substantially with idea 13's App Store Accountability Act framing already logged 2026-08-25, and a "does a
+  post-scandal settlement change trust in a platform's safety claims" framing would sit on top of a very large
+  existing crisis-communication/corporate-trust-repair literature this file didn't find time to fully
+  saturation-check tonight — flagging as worth a closer look later rather than either logging or fully ruling
+  out.
