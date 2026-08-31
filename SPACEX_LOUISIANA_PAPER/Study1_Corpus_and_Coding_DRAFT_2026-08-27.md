@@ -34,20 +34,36 @@ comparison case)
 |---|--------|------|------|------|------|
 | 7 | Cameron County, TX | Self-released Starbase economic-impact stats (~$800M claim) | released 2024, covering prior period | B — WebSearch-summarized only; both outlets covering the release (myrgv.com, valleycentral.com) 403'd direct WebFetch tonight | [MyRGV](https://myrgv.com/publications/the-monitor/2024/06/21/spacex-claims-it-has-800m-impact-in-cameron-county/), [ValleyCentral](https://www.valleycentral.com/spacex/cameron-county-releases-starbase-local-impact-economic-stats/) |
 | 8 | The Conversation | Academic-adjacent commentary on Starbase's landscape/community impact | 2026 | A (article itself fetched earlier tonight, see orientation note) | [theconversation.com](https://theconversation.com/the-starbase-rocket-testing-facility-is-permanently-changing-the-landscape-of-southern-texas-242450) |
-| 9 | Unidentified academic/ethnographic research program | Ongoing community-impact research with Latino/Indigenous Boca Chica residents, referenced since 2021 | ongoing | C — existence referenced by search summaries, the specific researcher(s)/institution/publication not yet identified | not yet found — needs a follow-up pass specifically searching for the named study, not just news mentions of "academic research has been conducted" |
+| 9 | Jorge Palacios, *Martian Borderlands: Colonizing (Outer) Space in the Lower Rio Grande Valley* | M.A. Thesis, MAPSS, University of Chicago, CC BY 4.0 — ethnographic/participatory-action research on Starbase's impact on Indigenous (Carrizo/Comecrudo) and Latinx Brownsville-area communities | August 2023 (author's continuing PhD research at MIT HASTS confirms this is an active, ongoing research program, not a one-off) | **A — RESOLVED 2026-08-30**: independently confirmed three ways (direct WebFetch of the record page, DOI resolution to a second independent record URL, cross-reference against MIT HASTS's own student-bio page). Thesis-tier, not peer-reviewed-tier — flag that distinction if cited. See notes/2026-08-30 for full verification detail. | [DOI 10.6082/uchicago.7220](https://doi.org/10.6082/uchicago.7220), [knowledge.uchicago.edu/record/7220](https://knowledge.uchicago.edu/record/7220) |
+| 10 | U.S. EPA Region 6 | Consent Agreement and Final Order (CAFO), Docket No. CWA-06-2024-1768 — federal Clean Water Act enforcement action against SpaceX for 8 unauthorized discharges (liquid oxygen spill + water deluge system discharges) to wetlands bordering the Starbase Launch Pad, Cameron County, TX, 2022-2024; $148,378 civil penalty; SpaceX "neither admits nor denies" the specific factual allegations | violations 2022-2024, CAFO on/around Sept. 2024 | **A — verified 2026-08-31**: primary document fetched directly (`curl`, HTTP 200) and extracted with `pdftotext -layout`; this is the actual federal enforcement record the FAA-docket wildlife-groups' letter (#4) and the Wesolick FAA comment (see notes/2026-08-30) both cite as "commenters state" — now independently confirmed, not secondhand. See notes/2026-08-31 for full extracted detail (dates/volumes of each discharge, admission language, related TCEQ Agreed Order). | [epa.gov CAFO PDF](https://www.epa.gov/system/files/documents/2024-09/spacex_cafo_cwa-06-2024-1768_txu09110_090624__0.pdf) |
 
 ## What's still needed before this is a workable Study 1 corpus
 
-1. **Extract the FAA comment-letter PDF's actual text** (#4) — the file is confirmed real and
-   saved locally; a session with working PDF-to-text tooling (or Britton opening it directly)
-   should pull the specific species/habitat arguments rather than relying on news paraphrase.
-2. **Confirm the FAA-2026-8614 docket number directly** (#5) — regulations.gov blocks WebFetch;
-   this needs a browser-driven check (claude-in-chrome) rather than another WebFetch attempt.
-3. **Identify the actual Boca Chica community-impact study** (#9) by name/author, not just its
-   existence — several notes have referenced "academic research since 2021" without naming it.
-4. Once Britton picks a Study 1 option (A/B/C from the orientation note), this table's scope
+1. ~~Extract the FAA comment-letter PDF's actual text (#4)~~ — DONE 2026-08-29.
+2. ~~Confirm the FAA-2026-8614 docket number directly (#5)~~ — DONE 2026-08-29 (Federal Register
+   PDF via govinfo.gov); docket status (open/closed, comment count) re-checked as recently as
+   2026-08-31, see notes for that date.
+3. ~~Identify the actual Boca Chica community-impact study (#9)~~ — DONE 2026-08-30 (Palacios
+   thesis).
+4. The $3,750 TCEQ state-level fine (distinct from the $148,378 federal EPA penalty in row #10) is
+   still sourced only to news coverage, not a directly-fetched TCEQ enforcement record — a
+   reasonable next Boca Chica item.
+5. Once Britton picks a Study 1 option (A/B/C from the orientation note), this table's scope
    narrows accordingly — right now it's deliberately broad across both corporate and opposition
    material.
+
+## Update — 2026-08-31 (see notes/2026-08-31-faa-docket-deadline-check-and-boca-chica-cwa-verification.md)
+
+- Row 9 updated with the Palacios thesis citation (resolved 08-30, corpus table not updated until
+  now).
+- New row 10 added: the actual EPA CWA enforcement record (CAFO, Docket CWA-06-2024-1768) against
+  SpaceX's Boca Chica facility — fetched and read directly, upgrading the CWA-violation claim from
+  "commenters state" (as it stood in rows 4 and the FAA-docket notes) to independently primary-
+  verified.
+- FAA docket (#5) re-checked same-day as the (real) comment-period deadline: as of ~05:17 UTC
+  2026-08-31, the docket was still open (`commentEndDate: 2026-09-01T03:59:59Z`, i.e. 11:59:59 PM
+  ET tonight), total comments still 1,453 (unchanged from 08-30), nothing newly posted since
+  2026-08-28. A true post-close check is still outstanding.
 
 ## Update — 2026-08-29 primary-source pass
 
