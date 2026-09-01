@@ -1208,6 +1208,11 @@ shift already in industry data, no academic-marketing treatment found)
   paper (platform-level value-proposition collapse, not corporate messaging framing or COOL/provenance
   branding), not a competing use of the same design.
 - Leads (unverified, WebSearch only): [SupplyChainBrain — EU to end de minimis with new customs fee in 2026](https://www.supplychainbrain.com/articles/43004-eu-to-end-de-minimis-with-new-customs-fee-in-2026), [Marketplace.org — yep, the de minimis tariff exemption is still suspended](https://www.marketplace.org/story/2026/03/03/supreme-court-tariffs-de-minimis-exemption-cheap-imports) (WebFetch blocked 403 tonight, title/date from search index only), [CNBC — Shein and Temu see U.S. demand plunge on 'de minimis' trade loophole closure](https://www.cnbc.com/2025/06/05/shein-temu-see-us-demand-plunge-on-de-minimis-trade-loophole-closure.html), [Measure Protocol — Shein & Temu After Tariffs: Where Shoppers Went](https://www.measureprotocol.com/insights/shein-temu-shoppers-after-us-tariffs), [Newsweek — 'De minimis exception': how Trump's China tariffs will hurt Temu and Shein](https://www.newsweek.com/de-minimis-exception-trump-tariff-shein-temu-2025483), [RVIA — United States Court of International Trade (CIT) upholds suspension of de minimis](https://www.rvia.org/news-insights/united-states-court-international-trade-cit-upholds-suspension-de-minimis), [KPMG — US Trade Court: IEEPA authorizes presidential rescission of de minimis exemption](https://kpmg.com/us/en/taxnewsflash/news/2026/08/us-trade-court-ieepa-de-minimis-treatment.html), [Alvarez & Marsal — USCIT upholds IEEPA suspension of de minimis treatment in Axle of Dearborn](https://www.alvarezandmarsal.com/thought-leadership/uscit-upholds-ieepa-suspension-of-de-minimis-treatment-in-axle-of-dearborn)
+- **Update, 2026-09-01 (checked, no change):** rechecked for anything new since the entry above.
+  Nothing has moved — the Aug 13, 2026 CIT ruling (*Axle of Dearborn v. Dep't of Commerce*) upholding
+  the suspension stands, a WebSearch tonight found no Federal Circuit appeal filed against it, and the
+  audience-decline figures (Temu, Shein) are still the same pre-April-2026 data points cited above, not
+  fresher numbers. No update needed to the gap/method sketch; logged here rather than as a new idea.
 
 Proposal only, per standing rule — nothing built, nothing committed to. Also checked tonight and set aside,
 each for a specific reason rather than by default:
@@ -1253,3 +1258,148 @@ each for a specific reason rather than by default:
   existing crisis-communication/corporate-trust-repair literature this file didn't find time to fully
   saturation-check tonight — flagging as worth a closer look later rather than either logging or fully ruling
   out.
+
+## 2026-09-01 — nightly scouting run (WebSearch only this session; did not test WebFetch/egress
+tonight)
+
+**Numbering/continuity note:** tonight's task briefing referenced "idea 19" (the de minimis/
+Temu-Shein-AliExpress entry above) and a 2026-08-31 Meta-settlement flag as already logged. This
+session's git worktree had branched from an older point in this file's history (before those
+entries existed) and didn't have them yet when it ran, so it re-researched the de minimis question
+independently — that check found no new developments since 2026-08-31 and has been folded into a
+short dated update on idea 19 above, rather than duplicated as a separate entry. The two genuinely
+new items below continue the real numbering (20, 21) rather than restarting from a stale 16.
+
+### 20. Meta's $17.1B multistate minors-safety settlement — saturation check completed tonight as
+requested: real, narrow gap, distinct from idea 13 (high confidence on the gap being real and
+unduplicated; the caveat is that the settlement itself is six days old as of tonight, so this is
+necessarily speculative about what the post-implementation literature will look like)
+- **What happened, confirmed tonight:** Meta agreed Aug 26, 2026 to pay up to $17.1B to 48 states, DC,
+  Puerto Rico, and other territories, settling claims it knowingly designed Instagram/Facebook to be
+  addictive to minors, misled the public about the harm, and improperly collected data from
+  under-13 users. Terms include a default 2-hour/day cumulative time limit for under-18 users
+  (parent-overridable only), hidden like-counts on minors' posts by default, a ban on "extreme"
+  beauty filters for minors, and a contractual bar on Meta making "false, misleading, or deceptive"
+  statements about platform safety going forward. Meta owes the full amount unless TikTok and YouTube
+  also settle and adopt comparable defaults, in which case Meta's share drops to 70%.
+  Reporting since (TechCrunch, France24, Al Jazeera, Aug 26-28) converges on one specific practical
+  problem: the settlement's core mechanism — determining which accounts belong to under-18 users —
+  depends on age-verification technology that, per multiple outlets, "doesn't work well," with no
+  reliable industry-standard method existing yet; child-safety advocates (e.g., Jean Twenge, quoted
+  in coverage) flag this as the linchpin the whole settlement rests on.
+- **Saturation check (the specific ask tonight):** searched directly for existing marketing/
+  consumer-behavior academic literature on post-settlement platform-trust-repair in a minors-safety
+  context. Found none — unsurprising given the settlement is six days old. What *does* already exist,
+  and matters for scoping this honestly: (1) a well-established general corporate-trust-repair/image-
+  repair literature (warmth-and-competence apology models, SEM studies showing apologies restore trust
+  via perceived warmth/competence as mediators); (2) a specific, directly-relevant precedent case
+  already studied — Facebook's 2018 post-Cambridge-Analytica apology-and-marketing-campaign response,
+  which the general trust-repair literature already treats as a case example. So the *general
+  mechanism* (corporate apology → perceived sincerity → trust restoration) is not a gap; a straight
+  replication of that design on this settlement would be a weak contribution.
+  **Where the real, undercovered gap sits:** the existing literature is almost entirely about
+  *voluntary* corporate apologies/CSR gestures following a scandal. This case is different in a way
+  that looks testable — the corrective action here is *court-mandated* (a legal settlement with
+  contractual behavior requirements and a bar on future deceptive safety claims), not a chosen
+  gesture, and its flagship mechanism (age verification) is *publicly and simultaneously reported as
+  unreliable* even as it rolls out — meaning the "corrective action" itself may not be perceived as
+  credible independent of Meta's sincerity. That's a mandated-vs.-voluntary compliance-credibility
+  distinction the existing apology/image-repair literature doesn't test, and a live, dated natural
+  experiment now exists to test it against (rollout is required within one year per settlement terms,
+  so implementation, not just announcement, will be observable within this file's usual planning
+  horizon).
+- **Distinct from idea 13, confirmed:** idea 13 (App Store Accountability Act) is about a *state-law-
+  mandated* age-verification/parental-consent gate applied at the *app-store* level, before download —
+  a friction-at-acquisition mechanism, with the open question being whether that friction changes
+  perceived trustworthiness and download/purchase behavior. This Meta entry is about a *company's own*
+  account-level enforcement following a *litigation settlement* (not a legislature), applied to
+  *existing* users post-signup, with the open question being whether mandated (vs. voluntary) corrective
+  action under public skepticism about its own technical credibility produces trust repair or backlash.
+  Different regulatory instrument (litigation settlement vs. statute), different point in the user
+  lifecycle (existing account vs. pre-download), different literature gap (mandated-compliance
+  credibility vs. store-level friction). Not a duplicate — a real, separate gap.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: exposure to/
+  awareness of the settlement's mandated changes, framed as either court-imposed (mandated) or
+  reframed as a voluntary safety initiative (manipulable in a vignette holding the actual changes
+  constant and varying only the mandated-vs.-voluntary framing — a clean 2-cell or 2x2 design).
+  Mediator candidates: perceived sincerity/corporate insincerity (from the existing apology
+  literature) and, as the novel addition, perceived implementation credibility (does the parent/user
+  believe the age-verification mechanism will actually work, given it's being reported as unreliable
+  in the same news cycle). Outcome: trust in the platform, continued-use intention for parents of
+  minors specifically, support for the settlement/regulatory approach generally. Plausible moderator:
+  parent vs. non-parent respondent, or prior awareness of the age-verification-technology-doesn't-work
+  reporting. Given the settlement rolls out over the coming year, a Study 1 (AI-assisted content
+  analysis of coverage/advocacy reaction as it accumulates) tracking how the "mandated but maybe
+  unworkable" frame develops in public discourse, feeding a Study 2 (PLS-SEM survey) once rollout is
+  underway, would let this follow the same two-study shape as the other active papers rather than
+  requiring everything fielded at once.
+- **Human-subjects flag:** Study 1 as scoped (settlement documents, news coverage, advocacy statements)
+  is public-record content analysis, no IRB concern. Any Study 2 survey of parents (or, worse, minors)
+  is primary human-subjects data and would need IRB approval before proceeding — flagging per standing
+  repo rule, not proceeding past the idea stage.
+- **Target venue:** Journal of Public Policy & Marketing (regulatory/settlement-compliance framing) or
+  Journal of Consumer Affairs (consumer-protection angle); Journal of Advertising or Journal of Business
+  Ethics are plausible alternates given the "false/misleading safety claims" contractual language, which
+  edges toward corporate-communication-ethics territory.
+- Leads (unverified, WebSearch only): [NPR — Meta, states agree to $17 billion settlement in child safety trial](https://www.npr.org/2026/08/26/nx-s1-5944781/meta-settlement-child-safety-lawsuit), [Axios — Meta agrees to $17 billion settlement in states' Facebook, Instagram lawsuit](https://www.axios.com/2026/08/26/meta-lawsuit-settlement-states-facebook), [CNBC — Meta $17 billion settlement mandates new safeguards for minors](https://www.cnbc.com/2026/08/28/new-meta-safeguards-teens.html), [TechCrunch — Meta's $18B child-safety deal hinges on age-verification tech that doesn't work well](https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/), [France24 — Meta's teen safety deal runs into an unsolved problem: proving age](https://www.france24.com/en/live-news/20260828-meta-s-teen-safety-deal-runs-into-an-unsolved-problem-proving-age), [Al Jazeera — Meta's $18bn settlement: how social platforms will change for child users](https://www.aljazeera.com/features/2026/8/27/metas-18bn-settlement-how-social-platforms-will-change-for-child-users), [The Conversation — changes to Facebook and Instagram are key part of Meta's $17B settlement](https://theconversation.com/changes-to-facebook-and-instagram-are-key-part-of-metas-17b-settlement-with-the-states-over-harm-to-teens-290582)
+
+### 21. "Made in USA" claim proliferation under tariff pressure, against a *declining* baseline of
+consumer persuadability and a live 2026 FTC truthful-advertising crackdown (moderate confidence —
+genuine gap versus PLS-SEM literature on origin labels specifically, but sits inside a very old
+country-of-origin research tradition, and the sharpest baseline data point is now a year old, not
+fresh)
+- **Gap/question:** two 2026 trends are pulling in opposite directions on the same claim. On one side,
+  tariffs are pushing more brands to advertise domestic origin than ever (retailers and manufacturers
+  citing tariff exposure as a reason to lean into "Made in USA" positioning, echoed by a March 2026
+  White House executive order, "Ensuring Truthful Advertising of Products Claiming to Be Made in
+  America," directing the FTC to prioritize enforcement, followed by an actual FTC enforcement sweep in
+  April 2026 — three settlements and two closing letters over U.S.-origin claims). On the other side, The
+  Conference Board's own survey work (n=3,000 US adults) found the persuasive power of "Made in USA" on
+  purchase intention fell 18% since 2022 — consumers are, if anything, growing more skeptical of the
+  claim at the exact moment more companies are making it under enforcement scrutiny. The open question:
+  does *awareness that "Made in USA" claims are being actively investigated/found false* (enforcement
+  salience) function like a spillover-skepticism effect — making consumers discount even accurate,
+  verifiable claims more heavily — and does claim *specificity* (a vague blanket "Made in USA" vs. a
+  specific, checkable claim like "assembled in Ohio from US-sourced steel") moderate that discounting,
+  the same vague/specific distinction TARIFF_PAPER's Study 1 already codes for price-increase-cause
+  attribution, just applied to origin claims instead.
+- **Why tractable soon, honest caveat included:** the regulatory hook (EO March 2026, FTC sweep April
+  2026) is a live, ongoing enforcement priority, not a one-off event, so awareness of "Made in USA"
+  claims being scrutinized is plausibly current and rising, not a settled backdrop. The honest caveat:
+  the sharpest quantitative data point (the 18%-decline figure) comes from an August 2025 Conference
+  Board report, over a year old as of tonight, not a fresh 2026 data point — this reads more as an
+  already-existing baseline condition that the 2026 enforcement wave is landing on top of, rather than
+  a single fresh event the way idea 7's Supreme Court ruling or idea 19's de minimis closure are. A
+  WebSearch saturation check tonight for a PLS-SEM or academic-marketing treatment of this specific
+  claim-specificity/enforcement-salience-skepticism mechanism came back empty — what exists is general
+  country-of-origin/ethnocentrism research (a decades-old, heavily-studied tradition, unlike the newer
+  gaps elsewhere in this file) and general AI-content-label/authenticity-trust studies, neither of
+  which tests this specific "enforcement-salience discounts even true claims" mechanism.
+- **Rough method sketch:** experimental (vignette) design fits well. Manipulate (1) claim specificity
+  (blanket "Made in USA" vs. specific/verifiable sourcing detail) and (2) enforcement-salience priming
+  (a news snippet about the FTC's Made-in-USA crackdown present vs. absent) in a 2x2, measuring
+  perceived claim credibility as the mediator and purchase intention/willingness-to-pay premium as the
+  outcome. Plausible moderator: general skepticism toward advertising, or tariff-policy awareness.
+- **Target venue:** Journal of Consumer Marketing or Journal of Advertising — a country-of-origin-
+  labeling study with a live regulatory-enforcement twist, distinct from TARIFF_PAPER's messaging-
+  attribution focus and from idea 9's shrimp/provenance-certification design (that one is about a
+  positive, official state-certification label; this one is about a legally-regulated but
+  self-declared, non-certified origin claim under active-fraud-enforcement conditions — a different
+  credibility mechanism).
+- Leads (unverified, WebSearch only): [The Conference Board — US consumers less swayed by "Made in USA"](https://www.conference-board.org/press/consumers-less-swayed-by-made-in-america), [Fibre2Fashion — 18% decline in Made in USA influence since 2022](https://www.fibre2fashion.com/news/association-news/conference-board/18-decline-in-made-in-usa-influence-since-2022-tcb-survey-304582-newsdetails.htm), [Axios — why the "buy American" movement is fading for US consumers](https://www.axios.com/2025/08/11/buy-american-products-study), [White House — Ensuring Truthful Advertising of Products Claiming to Be Made in America](https://www.whitehouse.gov/presidential-actions/2026/03/ensuring-truthful-advertising-of-products-claiming-to-be-made-in-america/), [Global Policy Watch — FTC sweep on "Made in the USA" claims](https://www.globalpolicywatch.com/2026/04/ftc-sweep-on-made-in-the-usa-claims/), [Arnold & Porter — FTC launches Made in the USA enforcement sweep following Trump executive order](https://www.arnoldporter.com/en/perspectives/blogs/consumer-products-and-retail-navigator/2026/04/ftc-launches-made-in-the-usa-enforcement-sweep)
+
+Both proposals only, per standing rule — nothing built, nothing committed to. Of the two, idea 20
+(Meta settlement saturation check) is the one tonight's brief specifically asked for and is the
+stronger: a real, confirmed-undupicated gap with a clean distinction from idea 13. Idea 21
+(Made-in-USA) is real and undupicated at the specific mechanism level, but sits inside a much
+older, heavily-trodden general literature (country-of-origin labeling), so Britton should weigh
+novelty carefully before greenlighting. Also checked tonight and set aside: a Louisiana
+coffee-roaster tariff-relief non-pass-through angle (coffee/cocoa tariff-exempted Nov 2025, but
+retail prices still up 17-23% YoY as of tonight's search) — this is close enough to both idea 7's
+price-stickiness mechanism and the coffee-roaster angle already explicitly rejected in this file's
+2026-08-27 entry to not be a distinct new idea; and an AI-companion-chatbot/minors-safety angle
+(FTC inquiry into Character.AI, OpenAI, Meta, Snap, Alphabet, xAI chatbots, open since Sept 2025;
+California's SB 243 effective Jan 1, 2026) — real and adjacent to idea 20's Meta settlement, but
+the FTC inquiry and state law are both about a year old already and the space is already crowded
+with wrongful-death litigation and press coverage, reading as a weaker, less fresh hook than idea
+20 tonight rather than a distinct addition.
