@@ -26,6 +26,9 @@ C = existence-confirmed but content not yet extracted.
 | 6d | Fox 8 Live (WVUE New Orleans) | "Some Pecan Island residents complain they were left in the dark about SpaceX project" — resident Crystal Mhire quote on outreach failure | 2026-08-26 | A (fetched directly) | [fox8live.com](https://www.fox8live.com/2026/08/26/some-pecan-island-residents-complain-they-were-left-dark-about-spacex-project/) |
 | 6e | Louisiana Economic Development | Official press release (distinct URL from the /spacex program page, #1 above) — confirms $25M Community Foundation of Acadiana donation, PILOT terms, no coastal-master-plan dollar figure | 2026-08-25 | A (fetched directly) | [opportunitylouisiana.gov/news/...](https://www.opportunitylouisiana.gov/news/spacex-launches-new-era-of-commercial-spaceflight-with-100-billion-louisiana-campus) |
 | 6f | The Current (Lafayette) | Live-blog of the Aug. 25 press conference in Abbeville — contemporaneous, timestamped reporting; the only source located that attributes a specific "$100 million coastal master plan" figure to a direct Landry statement to press (see notes/2026-08-29 for the $25M/$100M reconciliation) | 2026-08-25 | A — fetched via reader-proxy after direct site 403 (flagging the proxy-mediated path per repo verification norms) | [thecurrentla.com/2026/live-is-spacex-coming-to-pecan-island](https://thecurrentla.com/2026/live-is-spacex-coming-to-pecan-island/) |
+| 6g | State of Louisiana | Act 874 (2026 Reg. Session), HB 1098 (Reps. McFarland/Chassion) — enacts La. R.S. 9:2800.31, a liability shield barring nuisance/trespass/inverse-condemnation/strict-liability claims against any aerospace entity holding 20,000+ contiguous acres; exceptions for gross negligence, intentional injury, FAA-license violations, and excess falling-debris harm | signed 2026, effective on signature | A — enrolled bill text fetched directly (`curl`+r.jina.ai proxy after direct legis.la.gov 403) | [legis.la.gov ViewDocument d=1481505](https://www.legis.la.gov/legis/ViewDocument.aspx?d=1481505) |
+| 6h | Louisiana Illuminator | "Louisiana launches immunity law to lure aerospace companies" — HB1098's 33-3 Senate passage; names a 2026-05-01 Texas Tribune-reported Boca Chica-area homeowner lawsuit over rocket-shock home damage as the claim type the bill immunizes against in Louisiana; quotes Sen. Luneau (opposing) and Sen. Connick ("No other state gives immunity away like we just did"); confirms a companion public-records exemption for aerospace company records | 2026-05-29 | A (fetched directly via proxy) | [lailluminator.com/2026/05/29/aerospace-immunity-law](https://lailluminator.com/2026/05/29/aerospace-immunity-law/) |
+| 6i | The Current (Lafayette) | "What does SpaceX's legal shield mean for Vermilion Parish residents?" — names Act 874 + companion Act 343 (HB1250, blocks injunctions/enables early dismissal of nuisance suits with fee-shifting); quotes attorney Bill Goodell calling both acts likely unconstitutional and a "double shield" (IDB of Vermilion Parish holds spaceport land under long-term lease); explicitly links the state liability shield's FAA-license-violation exception to the pending federal waiver fight (row 5) | 2026-08-31 | A (fetched directly via proxy) | [thecurrentla.com/.../what-does-spacexs-legal-shield-mean...](https://thecurrentla.com/2026/what-does-spacexs-legal-shield-mean-for-vermilion-parish-residents/) |
 
 ## Boca Chica, TX comparison corpus (candidate Option C material — the paper's built-in
 comparison case)
@@ -36,6 +39,23 @@ comparison case)
 | 8 | The Conversation | Academic-adjacent commentary on Starbase's landscape/community impact | 2026 | A (article itself fetched earlier tonight, see orientation note) | [theconversation.com](https://theconversation.com/the-starbase-rocket-testing-facility-is-permanently-changing-the-landscape-of-southern-texas-242450) |
 | 9 | Jorge Palacios, *Martian Borderlands: Colonizing (Outer) Space in the Lower Rio Grande Valley* | M.A. Thesis, MAPSS, University of Chicago, CC BY 4.0 — ethnographic/participatory-action research on Starbase's impact on Indigenous (Carrizo/Comecrudo) and Latinx Brownsville-area communities | August 2023 (author's continuing PhD research at MIT HASTS confirms this is an active, ongoing research program, not a one-off) | **A — RESOLVED 2026-08-30**: independently confirmed three ways (direct WebFetch of the record page, DOI resolution to a second independent record URL, cross-reference against MIT HASTS's own student-bio page). Thesis-tier, not peer-reviewed-tier — flag that distinction if cited. See notes/2026-08-30 for full verification detail. | [DOI 10.6082/uchicago.7220](https://doi.org/10.6082/uchicago.7220), [knowledge.uchicago.edu/record/7220](https://knowledge.uchicago.edu/record/7220) |
 | 10 | U.S. EPA Region 6 | Consent Agreement and Final Order (CAFO), Docket No. CWA-06-2024-1768 — federal Clean Water Act enforcement action against SpaceX for 8 unauthorized discharges (liquid oxygen spill + water deluge system discharges) to wetlands bordering the Starbase Launch Pad, Cameron County, TX, 2022-2024; $148,378 civil penalty; SpaceX "neither admits nor denies" the specific factual allegations | violations 2022-2024, CAFO on/around Sept. 2024 | **A — verified 2026-08-31**: primary document fetched directly (`curl`, HTTP 200) and extracted with `pdftotext -layout`; this is the actual federal enforcement record the FAA-docket wildlife-groups' letter (#4) and the Wesolick FAA comment (see notes/2026-08-30) both cite as "commenters state" — now independently confirmed, not secondhand. See notes/2026-08-31 for full extracted detail (dates/volumes of each discharge, admission language, related TCEQ Agreed Order). | [epa.gov CAFO PDF](https://www.epa.gov/system/files/documents/2024-09/spacex_cafo_cwa-06-2024-1768_txu09110_090624__0.pdf) |
+
+## Update — 2026-09-01 (see notes/2026-09-01-faa-docket-post-deadline-close-and-aerospace-liability-shield-laws.md)
+
+- **FAA docket (#5) — comment period now CLOSED**, confirmed post-deadline (~1h15m after the
+  2026-09-01T03:59:59Z close): `openForComment: false`. **Comments posted jumped from 1,453
+  (08-30/08-31) to 2,785** — a late-breaking surge, ~1,332 of which posted in the final 72 hours.
+  **Comments received (incl. not-yet-posted backlog): 14,669** — do not treat this as a readable/
+  codable count; only the 2,785 posted are currently accessible. "Vermilion"-mentioning comments
+  rose from 141 to 345. No filing found under "StopSpaceX," "Hensgens," or "police jury" even
+  post-surge.
+- **New rows 6g-6i added**: Louisiana's 2026 aerospace liability-shield legislative package (Act
+  874/HB1098, companion Act 343/HB1250, and a public-records exemption for aerospace company
+  records) — directly relevant to the regulatory-venue-shifting frame candidate (a federal review
+  waiver paired with a state liability shield whose main carve-out is FAA-license compliance) and
+  to the Boca-Chica-precedent-awareness frame candidate (legislators cited an active 2026 Texas
+  homeowner lawsuit over Starbase-related home damage as their explicit reason for acting).
+- No theory chain, coding scheme, or Study 1 option decided — same standing rule as before.
 
 ## What's still needed before this is a workable Study 1 corpus
 
@@ -51,6 +71,12 @@ comparison case)
 5. Once Britton picks a Study 1 option (A/B/C from the orientation note), this table's scope
    narrows accordingly — right now it's deliberately broad across both corporate and opposition
    material.
+6. Rows 6g-6i (added 2026-09-01): Act 343/HB1250's enrolled text and the aerospace public-records-
+   exemption bill's enrolled text are still B-tier (news-sourced), not yet independently fetched
+   as primary legislative text the way Act 874/HB1098 was.
+7. The FAA docket's 2,785 posted / 14,669 received comment-surge (2026-09-01) is quantified but
+   not yet characterized — a sample read of newly-posted comments (organic vs. form-letter,
+   who's filing) is still open.
 
 ## Update — 2026-08-31 (see notes/2026-08-31-faa-docket-deadline-check-and-boca-chica-cwa-verification.md)
 
