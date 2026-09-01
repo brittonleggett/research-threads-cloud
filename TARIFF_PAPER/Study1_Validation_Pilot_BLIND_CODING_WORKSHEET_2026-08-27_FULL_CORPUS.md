@@ -259,9 +259,15 @@ exercise, not a random sample) — don't read significance into it.
 - **Facts:** (1) May 2025: Home Depot said it would **not** raise prices broadly due to tariffs
   — "we don't see broad-based price increases for our customers at all going forward" — citing
   that over 50% of purchases are U.S.-sourced and no single non-U.S. country exceeds 10% of
-  purchases within a year. (2) Aug 2025: CFO Richard McPhail, to the Wall Street Journal, reverses
-  course — customers would see "some modest price movement for some categories," though "not on
-  a broad scale," because tariffs on some goods were higher by August than in May. (3) May 2026:
+  purchases within a year. (2) Aug 2025: EVP Merchandising Billy Bastek, on Home Depot's own Q2
+  FY2025 earnings call, reverses course — verbatim: "there'll be some modest price movement in
+  some categories, but it won't be broad based" — because tariffs on some goods were higher by
+  August than in May. *(Correction 2026-09-01: prior versions of this worksheet misattributed
+  this quote to CFO Richard McPhail and to "the Wall Street Journal" — neither is supported by
+  any source in this project's corpus. The speaker and verbatim wording above are confirmed
+  directly from Home Depot's own IR-hosted transcript PDF. If you already coded this artifact
+  under the old text, the correction shouldn't change the substance of what's being coded — same
+  event, same company, same quote content — but flag it if it does.)* (3) May 2026:
   a further update citing additional cost pressure from fuel/commodity inputs plus new tariffs,
   framing it as "the environment is changing almost every day."
 - **Source:** [The Hill/Nexstar](https://thehill.com/homenews/nexstar_media_wire/5459448-some-prices-to-rise-at-home-depot-despite-earlier-stance-cfo-says/), [Yahoo Finance](https://finance.yahoo.com/news/home-depot-said-wouldnt-raise-021516060.html), [CFO Dive](https://www.cfodive.com/news/home-depot-warns-tariff-impact-modest-price-hikes/758202/), [Digital Commerce 360](https://www.digitalcommerce360.com/2026/05/19/home-depot-cost-changes-tariffs-oil-prices/)
