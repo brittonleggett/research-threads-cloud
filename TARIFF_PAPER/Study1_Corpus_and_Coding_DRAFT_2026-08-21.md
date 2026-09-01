@@ -33,11 +33,17 @@ explicit here:
 statement to WSJ, corroborated identically across two outlets (Fox Business, qz.com) — strong
 enough to treat as Tier A-adjacent, but flagging the one-step remove honestly.
 
-**Known drift needing a fix, found 2026-08-28:** artifact 15's Phase-1-codes writeup below still
-attributes the Aug 2025 "modest price movement... not broad-based" quote to CFO Richard McPhail —
-this was already corrected to EVP William Bastek on 2026-08-18, but that correction never made it
-into this consolidated draft. Two independent direct-fetches on 2026-08-28 re-confirm Bastek is
-correct. Not fixed in this file yet — flagged for the next pass that touches this artifact's text.
+**Known drift, fixed 2026-09-01:** artifact 15's Phase-1-codes writeup (below, item 15) previously
+attributed the Aug 2025 "modest price movement... not broad-based" quote to CFO Richard McPhail.
+This was corrected to EVP William Bastek on 2026-08-18 and re-confirmed by two independent
+direct-fetches on 2026-08-28 (CFO Dive, Yahoo Finance) and, most authoritatively, by Home Depot's
+own IR-hosted Q2 FY2025 transcript PDF read directly on 2026-08-29 (page 9, Q&A, in response to a
+question from Steve Zaccone of Citi) — verbatim: *"Yeah. Thanks, Steven. This is Billy... So as
+you'd expect, there'll be some modest price movement in some categories, but it won't be broad
+based."* The 2026-08-29 session's note claimed this had been fully applied, but on re-reading the
+file tonight (2026-09-01) the corpus table row and footnote had been updated, while this note and
+the actual write-up at item 15 below had not — a partial fix, now completed. Both are fixed as of
+tonight, and the write-up below now uses the verbatim quote rather than the earlier paraphrase.
 
 ---
 
@@ -151,9 +157,11 @@ one-line draft entries in `2026-08-04-study1-corpus-expansion.md`):**
 
 15. **Home Depot** — Three-beat sequence, not a single reversal: (1) May 2025, publicly said it
     would **not** raise prices broadly (>50% U.S.-sourced, no single country >10% of purchases);
-    (2) Aug 2025, CFO Richard McPhail reversed — "some modest price movement for some
-    categories," "not on a broad scale"; (3) May 2026, further update citing fuel/commodity
-    pressure plus new tariffs, "the environment is changing almost every day."
+    (2) Aug 2025, EVP Merchandising Billy Bastek (not CFO Richard McPhail — see corrected 2026-09-01)
+    reversed course, on Home Depot's own Q2 FY2025 earnings call — verbatim: "there'll be some
+    modest price movement in some categories, but it won't be broad based"; (3) May 2026, further
+    update citing fuel/commodity pressure plus new tariffs, "the environment is changing almost
+    every day."
     → `causation-explicit` (from Aug 2025 on), `reversal-narrative` (new candidate code — a
     stated position changing under continued cost pressure), `hedged-commitment`. **This artifact
     was originally flagged as the weakest lead in the corpus (placeholder-only entry); the
