@@ -72,11 +72,16 @@ policymakers — "Cops and hotlists: Balancing security and privacy with ALPR te
 Police Journal*, DOI 10.1177/0032258X251349633, title and DOI newly confirmed 2026-08-27 via
 WebSearch (multiple independent listings: SAGE's own DOI-resolving page, a SAGE-affiliated mirror,
 and independent secondary coverage all converge on the same title/author/DOI) — and two further
-2026 qualitative treatments identified in a 2026-08-24 literature scan, Monahan's (2026) critical-surveillance-studies analysis of Flock's network architecture as
-a "communicative network" enabling discriminatory, cross-jurisdictional policing (*Mobile Media &
-Communication*), and Monahan's (2026) companion piece on campus police departments' use of Flock
+2026 qualitative treatments identified in a 2026-08-24 literature scan, Monahan's (2026)
+critical-surveillance-studies analysis of Flock's network architecture as
+a "communicative network" enabling discriminatory, cross-jurisdictional policing — "Grounding the
+Flock: Confronting Police Surveillance of Mobilities," *Mobile Media &
+Communication*, DOI 10.1177/20501579261453519, title/DOI confirmed 2026-09-01 via Crossref —
+and Monahan's (2026) companion piece on campus police departments' use of Flock
 as an appendage of a national policing apparatus, built on open-records-request document analysis
-(*Policing and Society*) — to a design that inductively derives its theoretical mechanism from a
+— "Flock on Campus: University Police as Appendages of a National Policing Apparatus," *Policing
+and Society*, 34, 1–23, DOI 10.1080/10439463.2026.2702635, title/DOI confirmed 2026-09-01 via
+Crossref — to a design that inductively derives its theoretical mechanism from a
 large, geographically diverse corpus of real public controversies and then tests that mechanism's
 causal structure experimentally. All three prior treatments are qualitative/document-analytic;
 none manipulates disclosure of a camera network's data-sharing practice or tests a trust-mediated
@@ -89,11 +94,26 @@ interest of an even-handed
 comparison, that Nhan and Helfers's (2026) study was conducted under a research relationship with
 Flock Safety and relied on Flock as a gatekeeper for agency access — Flock representatives were
 themselves among the interviewees, and Flock's cooperation was necessary to reach the
-law-enforcement users and policymakers in the sample. The published article's own funding and
-disclosure statement has not been independently verified for this paper as of this draft; the
-present study uses no vendor funding or vendor-facilitated access of any kind, drawing instead on
-public news coverage, court filings, and government records — a methodological contrast that
-holds regardless of how the 2026 study's specific disclosure statement reads once confirmed.
+law-enforcement users and policymakers in the sample. **Update, 2026-09-01:** after five prior
+sessions and roughly 25 combined search queries plus repeated blocked or bot-rejected direct-fetch
+attempts failed to surface a disclosure statement, Crossref's own publisher-submitted funder
+metadata for this article's DOI (10.1177/0032258X251349633; confirmed via a raw, unprocessed JSON
+pull, not a summarized fetch) lists **"Flock Safety" as a funder, with award number 23854** (full
+citation: *The Police Journal: Theory, Practice and Principles*, 99(1), 160–179). This is real,
+structured, publisher-registered metadata — the kind SAGE submits at DOI registration, not a
+WebSearch summary or an inference — and is the first genuine resolution of the funding question
+after four prior sessions found nothing. It is still not equivalent to having read the article's
+own printed disclosure paragraph verbatim (SAGE's journal page itself remains bot-blocked — a
+clean HTTP 403, confirmed again tonight, not a network block), so the exact disclosure wording
+(e.g., an unrestricted gift vs. a research contract with stated independence terms) remains
+unconfirmed. Full detail, including a cross-check against OpenAlex's raw JSON (which lacks this
+funder field — a data-coverage gap on OpenAlex's side, not a contradiction of Crossref's record),
+in `notes/2026-09-01-literature-citation-verification-pass.md`. The published article's own
+funding and disclosure statement has therefore been *partially* verified for this paper as of this
+draft (funder identity confirmed; disclosure wording still not); the present study uses no vendor
+funding or vendor-facilitated access of any kind, drawing instead on public news coverage, court
+filings, and government records — a methodological contrast that now rests on a confirmed funding
+relationship on the comparison side.
 
 ## Theoretical Background and Hypothesis Development
 
@@ -133,7 +153,10 @@ perceived as a specific, procedural form of injustice, distinct from a generic p
 measure.
 
 This paper's proposed institutional-trust mechanism (H2 below) is not a theoretical reach into
-an unstudied domain. Li (2024), drawing on a 2021 nationally representative U.S. survey
+an unstudied domain. Li (2024) — "Institutional Trustworthiness on Public Attitudes toward Facial
+Recognition Technology: Evidence from U.S. Policing," *Government Information Quarterly*, 41(3),
+101941, DOI 10.1016/j.giq.2024.101941, title/DOI confirmed 2026-09-01 via Crossref — drawing on a
+2021 nationally representative U.S. survey
 (*n* = 4,679), found that institutional trustworthiness — specifically the integrity dimension —
 was the strongest and most consistent predictor of public acceptability of a closely analogous
 policing technology (facial recognition), with the effect largest in the highest-privacy-concern
@@ -141,14 +164,20 @@ scenario tested (public protests). That study, notably, was published in *Govern
 Quarterly* — this paper's own leading target venue — which is both a direct empirical precedent
 for the trust-mediated structure proposed here and a signal that this journal's editorial
 community already treats institutional-trustworthiness-in-policing-technology as squarely
-in-scope. Bradford, Yesberg, Jackson, and Dawson (2020) reach a structurally identical
+in-scope. Bradford, Yesberg, Jackson, and Dawson (2020) — "Live Facial Recognition: Trust and
+Legitimacy as Predictors of Public Support for Police Use of New Technology," *The British
+Journal of Criminology*, DOI 10.1093/bjc/azaa032, title/DOI confirmed 2026-09-01 via Crossref —
+reach a structurally identical
 conclusion via a different method (a UK live-facial-recognition field survey), finding trust and
 legitimacy — not perceived effectiveness — predicted public support. Both studies measure
 trustworthiness/legitimacy as an antecedent to acceptance broadly rather than testing an
 experimentally manipulated disclosure condition specifically, which is this paper's point of
 departure from both. A 2026-08-24 literature scan surfaced one further, closer methodological
 precedent for the general survey-experiment-on-policing-technology approach: Schiff, Schiff,
-Adams, McCrain, and Mourtgos (2025), a pre-registered survey experiment (*n* = 4,200) on public
+Adams, McCrain, and Mourtgos (2025) — "Institutional Factors Driving Citizen Perceptions of AI in
+Government: Evidence from a Survey Experiment on Policing," *Public Administration Review*, 85(2),
+451–467, DOI 10.1111/puar.13754 (published online 2023-10-26, print issue 2025-03; the (2025)
+citation year matches the print issue, confirmed via Crossref 2026-09-01) — a pre-registered survey experiment (*n* = 4,200) on public
 responsiveness to AI use in policing, found citizens respond most strongly to *institutional*
 factors — specifically, whether a technology is deployed by local versus national law
 enforcement — published in *Public Administration Review*, another leading candidate venue for
@@ -174,11 +203,17 @@ data-sharing/disclosure practice; and, per available result summaries, it does n
 procedural injustice or institutional trust as a serial-mediation chain, nor test an
 opposition-intention behavioral-support DV. Its transparency-approval finding is nonetheless a
 direct, useful precedent that disclosure-adjacent framing measurably moves public approval of
-police technology, strengthening the case for H1 below. *Author-list and journal-detail
-confidence note: this citation is WebSearch-triangulated (RePEc/IDEAS listing plus corroborating
-author-profile evidence) rather than direct-fetch-verified — WebFetch remains blocked on the
-ScienceDirect page itself — and should be spot-checked against the publisher record before a
-submission-ready draft locks it in.*
+police technology, strengthening the case for H1 below. **Citation-precision update, 2026-09-01:**
+full bibliographic record now confirmed via Crossref (a raw JSON pull, not WebSearch triangulation)
+— the article's actual title is "Public Perceptions on Police Use of Information Technologies:
+Findings from a Randomized Vignette Experiment," *Journal of Criminal Justice*, 96, article 102336,
+DOI 10.1016/j.jcrimjus.2024.102336. This resolves the confidence flag below from the 2026-08-24
+scan; ScienceDirect's own article page is still bot-blocked (a 403, not an egress failure — same
+diagnosis as SAGE), so the abstract/full text itself has not been directly read, only the publisher
+-registered metadata, which is nonetheless a firmer source than the WebSearch triangulation this
+note originally flagged. *Original confidence note, superseded above but left for the record:
+this citation was WebSearch-triangulated (RePEc/IDEAS listing plus corroborating author-profile
+evidence) rather than direct-fetch-verified.*
 
 > **H1.** A camera network operating under a secret, undisclosed default data-sharing practice
 > will produce higher perceived procedural injustice than one operating under an explicitly
@@ -303,8 +338,14 @@ other paywalled or bot-defended sites in this project, not a network-egress fail
 citation rests on two independently-fetched outlets that themselves quote IJ's figure, not a
 direct pull of IJ's own page.) The number has evidently grown since the 08-21/08-22 sourcing (21
 → 22), consistent with IJ's database being actively updated as new cases surface, not a
-discrepancy. This converts what was an anecdotal pattern into a documented, source-confirmed
-national one. This strengthened evidentiary base is treated here as a discussion-section
+discrepancy. **Further updated 2026-09-01:** a fresh direct-fetch of a secondary outlet quoting
+the same IJ running tally puts the count at **24 cases as of mid-July 2026**, again in the
+officers-tracking-romantic-partners category specifically, majority since 2024 — consistent with
+the same actively-updated database, not a discrepancy with the 22 figure four days earlier. Because
+IJ itself frames this as a running tally, any figure cited in a submitted manuscript should be
+dated (as of mid-July 2026, per this update) rather than presented as a fixed total, and a
+before-submission recheck for a more current count is recommended. This converts what was an
+anecdotal pattern into a documented, source-confirmed national one. This strengthened evidentiary base is treated here as a discussion-section
 direction for future work rather than a hypothesis in the present design, consistent with the
 2026-08-16 Phase 3 decision — though the decision to keep it out of the primary Study 2 model was
 made when the evidentiary base was thinner, and is flagged for the PI's own reassessment given how
@@ -435,3 +476,27 @@ into the present design.
     injustice, or institutional trust) and was **not added** to this draft. Full detail, including
     the fetched abstracts and the topical-fit reasoning for both, in
     `notes/2026-08-30-literature-verification-shjarback-alpr-eval.md`.
+11. **2026-09-01 update — literature citation verification pass, WebFetch/Crossref confirmed
+    working tonight (unlike the 17+ prior blocked sessions):** a systematic re-verification pass
+   ran every major citation feeding this theory chain through the Crossref REST API (raw JSON,
+   not summarized) and, for one, Semantic Scholar. Nine citations now have confirmed real
+   titles/DOIs where the draft previously carried only author/year or a WebSearch-triangulation
+   flag: Przeszlowski & Guerette (2025), Li (2024), Bradford et al. (2020), Schiff et al. (2025,
+   volume/page/DOI added), both Monahan (2026) pieces, Reisig & Lloyd (2009), Sunshine & Tyler
+   (2003), and Nissenbaum's (2010) *Privacy in Context* (Stanford University Press, DOI
+   10.1515/9780804772891). Tyler (1990) and Tyler & Huo (2002) were confirmed as real published
+   books via Crossref book-review records. **The most substantive finding: Crossref's
+   publisher-submitted funder metadata for the Nhan & Helfers DOI lists Flock Safety as a funder
+   (award 23854)** — seeded into the funding/independence paragraph above — the first real
+   resolution of a question five prior sessions could not close by search alone. SAGE's and
+   ScienceDirect's own article pages remain bot-blocked (clean 403s) even with working network
+   egress tonight, confirming the 2026-08-27 diagnosis that this is publisher-side bot detection,
+   not an environment egress issue — Crossref/Semantic Scholar's open metadata APIs were the
+   working alternative path. The Institute for Justice ALPR-misuse running tally (see above) was
+   also updated to 24 cases as of mid-July 2026, sourced via a direct fetch of a secondary article
+   quoting IJ, not WebSearch-summary, superseding the "at least 22" figure from item 9 above. No
+   locked theme, hypothesis, design element, or Britton-reserved design call was touched; the
+   vignette-wording and confound concerns raised in the 2026-08-27 face-validity review were left
+   entirely as-is — not re-decided. Full detail, including what remains unverified (the Police
+   Journal article's exact disclosure-statement wording; Tyler/Tyler & Huo/Nissenbaum's book text
+   itself, not just their existence) in `notes/2026-09-01-literature-citation-verification-pass.md`.
