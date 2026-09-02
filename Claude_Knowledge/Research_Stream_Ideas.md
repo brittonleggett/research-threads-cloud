@@ -1403,3 +1403,68 @@ California's SB 243 effective Jan 1, 2026) — real and adjacent to idea 20's Me
 the FTC inquiry and state law are both about a year old already and the space is already crowded
 with wrongful-death litigation and press coverage, reading as a weaker, less fresh hook than idea
 20 tonight rather than a distinct addition.
+
+## 2026-09-02
+
+### 22. Tariff-refund windfall retention — corporate distribution decisions on IEEPA refunds as a live distributive-fairness test (moderate-high confidence — real and undupicated, but close enough to the existing tariff-messaging line to need explicit differentiation from idea 21)
+
+- **Gap/question:** following the Supreme Court's February 2026 IEEPA ruling, the government has
+  refunded roughly $100–168B in tariffs directly to importers (Walmart $2.9B, Target $994M, Apple
+  ~$2.2B, Ford $1.3B, Home Depot $730M, Nike $684M, Amazon $640M). Sen. Warren sent public letters
+  (mid-to-late August 2026) pressing seven companies to pass those refunds on to the consumers who
+  actually paid the tariff-inflated prices. Corporate responses are now on the record and split:
+  UPS/FedEx/DHL committed to rolling consumer refunds with dedicated portals; Amazon said refunds only
+  in "limited circumstances" it can trace to specific customers; Walmart's CFO said refunds would go to
+  earnings, not customers. This is a clean, currently-forming corpus of contrastive corporate
+  statements on a live fairness question — distinct mechanism from idea 21 (which is about claims-
+  credibility on "Made in USA" labeling, not about who keeps a refund).
+- **Why tractable soon:** the refund wave and the Warren letters are both within the last few weeks;
+  CFO statements are already quoted verbatim in press coverage and earnings-call transcripts, so a
+  contrastive-statement corpus can be assembled now without waiting on more events to happen.
+- **Rough method sketch:** antecedent = corporate refund-distribution decision/framing (full pass-
+  through vs. partial/traceable-only vs. retain-as-earnings) → mediator = perceived distributive/
+  procedural fairness (windfall-retention framing) → outcome = brand trust, repurchase intention, or
+  willingness to boycott; candidate moderator = perceived corporate market power, or political
+  ideology (flagged as a real confound risk, since tariff politics are partisan — worth Britton's
+  attention if this moves forward). Data: Warren's letters and company replies, earnings-call
+  transcripts, news coverage (NPR, CNN, Fortune, Newsweek).
+- **Target venue:** *Journal of Consumer Affairs* (official journal of ACCI) — strong, specific fit
+  for consumer-policy/distributive-fairness work; *Journal of Public Policy & Marketing* as the
+  alternative for a more marketing-strategy framing.
+- **Honest differentiation note (from the scouting session that found this):** this sits close enough
+  to both the existing TARIFF_PAPER line and to idea 21 that it risks reading as a variation rather
+  than a new idea — worth pitching to Britton explicitly as "windfall-retention fairness" (who keeps a
+  refund) vs. idea 21's "claims-credibility" (is a labeling claim true) framing, so he can judge
+  whether it's differentiated enough to run alongside idea 21 rather than instead of it.
+
+### Refresh, not a new idea: idea 1/1a's ratepayer cost-shifting angle has new, sharper material
+
+Idea 1a (Louisiana data-center ratepayer cost-shifting, first logged 2026-08-13/14, referenced several
+times since) now has substantially fresher and more specific evidence than what's in the file already:
+the Louisiana PSC fast-tracked Entergy Louisiana's application to triple gas plants (10 total, ~7.5 GW
+— over 6x New Orleans peak demand) to power Meta's Hyperion data center in Richland Parish; regulators
+recently **killed a subpoena** that would have forced Meta to disclose more about its plans/costs;
+Union of Concerned Scientists and the Alliance for Affordable Energy now estimate ratepayers could see
+**$8–13/month** increases, with hundreds of millions to billions in costs shifted onto non-beneficiary
+customers; and the PSC's **final vote is set for December 16, 2026** — giving this a concrete,
+near-term endpoint and a growing comment/advocacy corpus through fall 2026. This sharpens 1a's
+transparency-withholding/distributive-injustice mechanism (the killed subpoena is a strong antecedent
+candidate: perceived transparency-withholding by the utility/company → perceived distributive
+injustice or regulatory capture → political trust erosion / support for rate-case intervention) with a
+real news hook, rather than being a new numbered idea. Not logged as its own number — flagging so
+whoever next picks up 1a doesn't have to re-search for what's changed since 08-14.
+
+### Noted, not logged as a new idea: SpaceX Starbase Louisiana has substantial new corpus material
+
+This session's SPACEX_LOUISIANA_PAPER note
+(`SPACEX_LOUISIANA_PAPER/notes/2026-09-02-faa-docket-post-close-comment-batch-analysis.md`) and the
+scouting pass both independently surfaced a lot of new material for the *existing* SpaceX line (idea
+16, already logged 2026-08-25) rather than a new stream: the FAA's proposal to waive 13 environmental
+laws for commercial launch licensing, a "Stop SpaceX" resident coalition, and — new since the FAA
+docket closed — formal opposition filings from national environmental NGOs, SpaceX's own launch
+competitors (Blue Origin, Rocket Lab, etc.), and a California state-agency coalition. Not logged as a
+new numbered idea, since it's squarely corpus material for the already-existing, already-in-rotation
+SPACEX_LOUISIANA_PAPER project, not a new research stream.
+
+Idea 22 is a proposal only, per standing rule — nothing built, nothing committed to. Idea 20 (Meta
+settlement) and idea 21 (Made-in-USA) remain from 09-01, still awaiting a greenlight call.
