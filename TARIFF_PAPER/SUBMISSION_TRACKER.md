@@ -56,19 +56,36 @@ documented once in this project's memory for the Home Depot McPhail→Bastek
 citation fix (found and "fixed" four separate times before it actually
 landed in a file).
 
-**Action needed from Britton, higher priority than anything else on this
-list:** do you remember pulling Campbell (1999), Maxham & Netemeyer (2002),
-Homburg, Hoyer & Koschate (2005), and Dodds, Monroe & Grewal (1991) via your
-Ole Miss library access around 2026-08-13? If that chat session is still
-in your claude.ai history, the verified item wording is sitting there and
-just needs to be copied into the project files — that would be faster and
-higher-confidence than anything else on this list, including today's
-Consensus-sourced partial answers. If that history is gone, today's
-Consensus.app findings (`notes/2026-09-03-consensus-*.md`, 3 files) are the
-fallback, but they are lower-confidence than what you apparently already
-had once. **Do not build the Qualtrics instrument on either today's
-Consensus answers or the original placeholder guesses until this is
-resolved one way or the other.**
+**Searched claude.ai's history 2026-09-03 — the session was not found.**
+Checked both the regular chat history and the "Claude Code" cloud sessions
+list (`claude.ai/code`). The only cloud session from ~mid-August is titled
+"APA citation style skill" and is about building an APA-citation-checking
+skill, tested against `Introduction_and_Theory_DRAFT_2026-08-12.md` — not
+the scale-verification work. Notably, **that session's own citation review
+still flags Campbell (1999) as "not checked in this project's prior
+citation-verification pass"** — a real data point suggesting the Ole Miss
+scale-verification work may not have been fully completed/saved even in a
+session that did happen, not just lost afterward. The three regular-chat
+entries from Aug 13 (Chrome extension troubleshooting, two GitHub-access
+threads) are unrelated tooling fixes. **Most likely explanation: that
+verification ran in a local terminal Claude Code session on Britton's own
+machine, which doesn't sync to claude.ai's cloud session list.** Britton:
+worth a quick check locally if you remember running it that way, but this
+is not blocking further work.
+
+**Decision: proceeded on Consensus.app answers, and got a strong result.**
+A fifth targeted query found Campbell (1999)'s actual Perceived Fairness
+scale with quoted item text and a reported reliability statistic (2-item,
+r=.84) — not an inference, a direct quote-level match. **Fairness and
+Opportunism — the two theoretically load-bearing mediators H1a/H1b/H2a/H2b
+depend on — are now both resolved with real, correctly-attributed item
+wording**, folded directly into `notes/2026-08-04-full-instrument-
+assembly.md` (items 6-7). Only Purchase Intention and Word-of-Mouth
+(secondary/downstream DVs, not mediators) remain genuinely open — see
+`notes/2026-09-03-consensus-dodds-maxham-scales-partial.md`. If the lost
+2026-08-13 local session surfaces later, reconciling it is a fast
+follow-up, not a blocker — the instrument no longer needs it to move
+forward.
 
 ## The one thing that matters most
 
@@ -95,7 +112,7 @@ perfectly verified.
 | Study 1 validation pilot (blind coding vs. sealed AI codes) | Worksheet is prepared **for a grad assistant to complete as second coder** (2026-08-27, full 15-artifact corpus) — worksheet text confirms it's an *instruction sheet awaiting completion*, not a finished comparison; no Gwet's AC1 or agreement stats computed yet as of this pass | **Yes — external dependency on the grad assistant, not just Britton's own time; check on this immediately given the timeline** |
 | Study 2 vignette stimuli (6 cells) | **Drafted v1** (2026-08-04) | No |
 | Study 2/3 instrument content & flow | **Fully specified on paper** (2026-08-04) — not yet built in Qualtrics | Yes, once scales lock |
-| Study 2/3 scales (5 total) | **See the ⚠ discrepancy flag at the top of this file first** — memory claims all 5 were verified 2026-08-13 via Ole Miss library access but that work isn't in the repo; today's Consensus.app pass is a lower-confidence fallback, not confirmed as the final answer | **Yes — sits directly upstream of instrument build and IRB submission** |
+| Study 2/3 scales (5 total) | **3 of 5 resolved with quote-level wording** (Trust, Fairness, Opportunism — the two theoretically load-bearing mediators are now solid). Purchase Intention needs Britton's pick between 2 candidate wordings; WOM remains genuinely unverified (best-guess placeholder). See `notes/2026-08-04-full-instrument-assembly.md` items 6-10. | **Down to a minor blocker** — only 2 secondary-DV scales left, neither as critical as what's already resolved |
 | IRB application package | **Draft content exists** (2026-08-04) but explicitly incomplete: missing CITI number, needs final scale wording reflected, needs realistic dates (placeholder Aug25–Sep15 window has already passed) | **Yes — hard blocker on all data collection** |
 | **IRB submission to McNeese HSIRB** | **No evidence of actual submission as of 2026-09-03** | **Yes — the critical-path item** |
 | Study 2 data collection (Prolific, N target 360–600) | **Not started** | Depends on IRB |
@@ -111,12 +128,13 @@ perfectly verified.
 ## Critical path to submission (do these roughly in this order)
 
 1. **This week:** Get your CITI certificate number/expiration (only you can
-   pull this) and confirm/reconcile the two still-shaky scales (Fairness —
-   likely re-sourced to Campbell 1999 itself; Purchase Intention — decide
-   whether to use the existing 3-item draft or Fennell et al.'s 4-item
-   proxy, or pull the real Dodds et al. 1991 appendix). WOM can proceed on
-   its current best-guess wording if needed — flag it as such in the IRB
-   package rather than blocking submission on it.
+   pull this) and pick Purchase Intention's wording (existing 3-item draft
+   vs. Fennell et al.'s 4-item proxy — see
+   `notes/2026-08-04-full-instrument-assembly.md` item 9) or pull the real
+   Dodds et al. (1991) appendix if there's time. WOM can proceed on its
+   current best-guess wording if needed — flag it as such in the IRB
+   package rather than blocking submission on it. Fairness and Opportunism
+   are done — no action needed there.
 2. **This week/early next:** Finalize IRB application package (fold in CITI
    number, finalized scale wording, realistic dates) and **submit to
    McNeese HSIRB**. This is the single highest-leverage action available
@@ -142,13 +160,12 @@ perfectly verified.
 
 ## Open questions only Britton can answer
 
-0. **(Highest priority — see ⚠ flag above)** Do you have the 2026-08-13
-   session's chat history where you pulled Campbell, Maxham & Netemeyer,
-   Homburg et al., and Dodds/Monroe/Grewal via your Ole Miss library
-   access? If yes, that content needs to be copied into
-   `notes/2026-08-04-full-instrument-assembly.md` and
-   `notes/2026-08-04-scale-items-verification-status.md` for real this
-   time, verified against a fresh `git log`/`grep` check before moving on.
+0. **(Resolved 2026-09-03 — no longer blocking)** Searched claude.ai's
+   history for the 2026-08-13 session; not found in the cloud session list
+   (see the ⚠ section above for detail). If you happen to have it in a
+   local terminal session's history, worth a quick check and reconciliation
+   — but the project is moving forward on today's Consensus.app-sourced
+   scale answers in the meantime.
 1. CITI certificate number/expiration.
 2. McNeese HSIRB's realistic turnaround time — this determines whether the
    Oct 15 deadline is actually reachable and, if not, whether to (a) push
@@ -156,10 +173,12 @@ perfectly verified.
    design qualifies (minimal risk, no vulnerable populations, no
    deception beyond standard hypothesis-non-disclosure), or (c) start
    thinking now about whether Oct 15 is realistic at all.
-3. Fairness scale: confirm using Campbell (1999)'s own fairness items (once
-   sourced) rather than the incorrectly-attributed Xia/Monroe/Cox wording.
+3. ~~Fairness scale~~ — **resolved 2026-09-03**, Campbell (1999) Study 2
+   two-item scale (r=.84), see `notes/2026-08-04-full-instrument-
+   assembly.md` item 6.
 4. Purchase Intention: which version — existing 3-item draft, Fennell et
    al.'s 4-item proxy, or wait for a direct pull of Dodds et al. (1991)?
+   The one real remaining scale decision.
 5. **Has the grad assistant completed the blind-coding worksheet yet?**
    Confirmed this pass: as of 2026-08-27 it was still an unfilled
    instruction sheet, not a completed comparison — no Gwet's AC1 computed.

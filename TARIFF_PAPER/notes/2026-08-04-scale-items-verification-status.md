@@ -1,3 +1,15 @@
+**⚠ SUPERSEDED 2026-09-03.** Fairness and Opportunism (both below, marked
+NOT VERIFIED) are now resolved with quote-level wording — see
+`2026-09-03-consensus-campbell-1999-fairness-scale-resolved.md` and
+`2026-09-03-consensus-campbell-1999-opportunism-scale.md`, and the current
+status folded directly into `2026-08-04-full-instrument-assembly.md`
+(items 6-7). Purchase Intention and WOM below remain accurate as still-open
+gaps — see `2026-09-03-consensus-dodds-maxham-scales-partial.md` for the
+current best-available proxies. Read this file for historical context on
+what was tried; read `full-instrument-assembly.md` for current status.
+
+---
+
 # 2026-08-04 — Scale item wording: what's verified vs. what isn't
 
 Ran multiple targeted searches (and one direct PDF fetch attempt, which failed — the Xia et
