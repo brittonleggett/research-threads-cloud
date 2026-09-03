@@ -104,6 +104,78 @@ price data used:
   retail price series materially changes the answer. Any manuscript claim
   about beef price asymmetry should name which data series it rests on.
 
+### 3.1 Verification upgrade (2026-09-03, via Consensus.app Deep Research —
+full text of Pozo et al. read, not just abstract)
+
+Closes the verification gap flagged earlier (ScienceDirect had 403'd
+WebFetch). Confirmed details:
+- **Method:** Threshold vector error-correction model (TVECM) with
+  simulated nonlinear impulse responses, monthly farm/wholesale/BLS-retail/
+  scanner-retail beef prices, **January 2001–December 2012**.
+- **Core result:** Impulse-response tests fail to reject symmetry in all
+  models using scanner retail data. One exception: a slope-based long-run
+  asymmetry detected for the farm-to-scanner-retail price pair specifically
+  — so the "no asymmetry" finding is not perfectly clean even within this
+  paper; it's the *impulse-response* evidence the authors treat as
+  decisive (offsetting coefficients across horizons can still net to a
+  symmetric cumulative response), not an absence of any asymmetric
+  coefficient anywhere in the model.
+- **Mechanism claim:** Scanner prices are systematically lower and more
+  variable than BLS prices because BLS methodology omits quantity
+  weighting, discounted/sale prices, random-weight items, and lower-priced
+  outlet formats (e.g., supercenters) — a bias that inflates the *apparent*
+  retail price and can manufacture the appearance of asymmetry. Rojas,
+  Andino & Purcell (2008), "Retailers' response to wholesale price changes:
+  new evidence from scanner-based quantity-weighted beef prices,"
+  *Agribusiness*, made the same measurement argument earlier, using
+  scanner data to show retailers respond *more* to wholesale price changes
+  than BLS series suggest.
+
+**This is a genuinely split literature, not just old-vs-new.** Consensus's
+own evidence synthesis across 16 papers on "do U.S. beef prices transmit
+asymmetrically" put it at 69% Yes / 13% Mixed / 19% No among papers taking
+a position — i.e., most papers in the broader corpus still find *some*
+asymmetry; Pozo et al. is the strongest scanner-data challenge to that
+majority view, not proof the majority is wrong. Newer nonlinear/
+disaggregated studies continue to find asymmetry, often concentrated at the
+**wholesale-retail** stage (not farm-wholesale) and stronger for
+higher-quality cuts:
+- Fousekis, P. et al. (2015). "Vertical price transmission in the US beef
+  sector: Evidence from the nonlinear ARDL model." *Economic Modelling* —
+  125 citations; NARDL finds asymmetry, strongest at wholesale-retail.
+- Panagiotou, D. (2017) — wholesale increases transmit to retail in 5 of 6
+  cut-grade pairs; decreases often don't; "rockets and feathers" strongest
+  in Choice and sirloin products specifically.
+- Surathkal (2017) — similar cut-grade disaggregation finding.
+- Hahn (1990) — early asymmetry finding, greater responsiveness to
+  increases than decreases (BLS-era).
+- Chung (2018) — Mandatory Price Reporting improved *speed* of adjustment
+  but left only limited evidence of *greater* asymmetry.
+- **Parcell (2026)** — an event-study around the **alleged 2015–2019 beef
+  packer collusion/price-fixing litigation** finds only slight and
+  economically unimportant changes in price responsiveness around that
+  period. **Flag for `SOURCE_VERIFICATION/Evidence_Table.md`'s Market
+  Concentration/Antitrust section** — this is a real, findable academic
+  study bearing directly on the currently-unverified "beef/broiler
+  processors have faced antitrust litigation alleging price-fixing" claim;
+  full citation still needs to be pinned down (title/journal), but the
+  existence and substantive finding are corroborated by Consensus's
+  citation-graph search, not just a single search snippet.
+- Luke (2026) — quantity-weighted scanner-based beef demand elasticities
+  are higher than USDA/BLS-derived series would suggest (consumers more
+  price-sensitive than public data implies) — same BLS-understates-
+  responsiveness pattern as the Pozo/Rojas measurement critique, applied to
+  demand elasticity rather than price-transmission symmetry specifically.
+
+**Bottom line, sharpened:** Don't state "beef price transmission is
+symmetric" or "asymmetric" as a flat fact. The defensible claim is
+narrower and more useful for the manuscript: *retail measurement choice
+(scanner vs. BLS) materially changes the empirical answer*, asymmetry when
+it appears is concentrated at the wholesale-retail stage rather than
+farm-wholesale, and it's stronger for higher-quality cuts than commodity
+grades — none of which was in the project's evidence base before this
+Consensus pass.
+
 ## 4. COVID-19 as a natural stress-test of the beef supply chain
 
 - Erol, E., & Saghaian, S. H. (2022). "The COVID-19 Pandemic and Dynamics of
