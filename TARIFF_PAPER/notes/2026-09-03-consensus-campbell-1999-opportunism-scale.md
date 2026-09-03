@@ -78,3 +78,13 @@ items, and Maxham & Netemeyer (2002) word-of-mouth items remain at their
 prior "moderate" / "moderate-low" confidence — not re-checked this pass.
 Worth a follow-up Consensus query if there's time before the instrument
 needs to lock.
+
+---
+
+**⚠ UPDATE, same day, later:** After writing this note, found that Britton's
+memory system claims all 5 scales were already verified 2026-08-13 via his Ole
+Miss library access, with better/different answers than this note (a real
+Homburg, Hoyer & Koschate 2005 fairness scale; a real 5-item Dodds "Willingness
+to Buy Indicators" scale). That work never made it into this repo (confirmed
+via git log/grep) — see `SUBMISSION_TRACKER.md`'s discrepancy flag at the top.
+**Treat this note as a fallback, not the final answer, until that's resolved.**

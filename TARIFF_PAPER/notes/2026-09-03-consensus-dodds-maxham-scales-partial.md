@@ -86,3 +86,13 @@ Dodds/Monroe/Grewal, and Maxham/Netemeyer before the instrument locks** —
 but the instrument no longer has to sit on illustrative-only guesses for
 Campbell's opportunism item, and the Xia/Monroe/Cox error would have been
 a real problem if it reached a reviewer uncaught.
+
+---
+
+**⚠ UPDATE, same day, later:** After writing this note, found that Britton's
+memory system claims all 5 scales were already verified 2026-08-13 via his Ole
+Miss library access, with better/different answers than this note (a real
+Homburg, Hoyer & Koschate 2005 fairness scale; a real 5-item Dodds "Willingness
+to Buy Indicators" scale). That work never made it into this repo (confirmed
+via git log/grep) — see `SUBMISSION_TRACKER.md`'s discrepancy flag at the top.
+**Treat this note as a fallback, not the final answer, until that's resolved.**

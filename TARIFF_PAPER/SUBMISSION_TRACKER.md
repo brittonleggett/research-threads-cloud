@@ -23,6 +23,53 @@ scattered notes did.
   already closed before this project's design was even locked — the AMS
   conference-track route is the only path left for this special issue.
 
+## ⚠ Urgent discrepancy found 2026-09-03 — read before touching the scales
+
+Britton's memory system (`project_tariff_paper_pipeline.md`) states that
+**all 5 Study 2/3 scales were already verified on 2026-08-13**, via his Ole
+Miss library access through the claude-in-chrome extension — and with
+**better answers than anything found via Consensus.app today**:
+- Campbell (1999) and Maxham & Netemeyer (2002): "verified with real item
+  wording, both corrected earlier wrong reconstructions" (real library
+  PDFs, not AI-synthesized secondary corroboration like today's Consensus
+  pass).
+- Xia, Monroe & Cox (2004): confirmed no scale of its own (matches today's
+  independent Consensus finding — good convergent validation on that
+  specific point) — but memory says it was **replaced with Homburg, Hoyer
+  & Koschate (2005)'s verified 3-item Perceived Motive Fairness scale**,
+  which Britton signed off on same-day. Today's Consensus pass never found
+  this paper at all.
+- Dodds, Monroe & Grewal (1991): memory says verified via JSTOR as a
+  **5-item "Willingness to Buy Indicators" scale**, not the 3-item guess
+  this project had been carrying, and not the 4-item Fennell et al. (2025)
+  proxy Consensus found today either.
+
+**Checked just now (2026-09-03): none of this is actually in the repo.**
+`grep` for "Homburg" and "Willingness to Buy Indicators" across the entire
+`TARIFF_PAPER` folder returns nothing. `notes/2026-08-04-full-instrument-
+assembly.md` and `notes/2026-08-04-scale-items-verification-status.md`
+still show `[UNVERIFIED]` tags throughout — `git log` confirms neither file
+has been touched since the initial repo mirror. **The 2026-08-13 verification
+session's real findings appear to have been done in an interactive session
+and never committed anywhere** — the same failure pattern already
+documented once in this project's memory for the Home Depot McPhail→Bastek
+citation fix (found and "fixed" four separate times before it actually
+landed in a file).
+
+**Action needed from Britton, higher priority than anything else on this
+list:** do you remember pulling Campbell (1999), Maxham & Netemeyer (2002),
+Homburg, Hoyer & Koschate (2005), and Dodds, Monroe & Grewal (1991) via your
+Ole Miss library access around 2026-08-13? If that chat session is still
+in your claude.ai history, the verified item wording is sitting there and
+just needs to be copied into the project files — that would be faster and
+higher-confidence than anything else on this list, including today's
+Consensus-sourced partial answers. If that history is gone, today's
+Consensus.app findings (`notes/2026-09-03-consensus-*.md`, 3 files) are the
+fallback, but they are lower-confidence than what you apparently already
+had once. **Do not build the Qualtrics instrument on either today's
+Consensus answers or the original placeholder guesses until this is
+resolved one way or the other.**
+
 ## The one thing that matters most
 
 **Study 2 and Study 3 have zero data collected, the IRB application has not
@@ -48,7 +95,7 @@ perfectly verified.
 | Study 1 validation pilot (blind coding vs. sealed AI codes) | Worksheet is prepared **for a grad assistant to complete as second coder** (2026-08-27, full 15-artifact corpus) — worksheet text confirms it's an *instruction sheet awaiting completion*, not a finished comparison; no Gwet's AC1 or agreement stats computed yet as of this pass | **Yes — external dependency on the grad assistant, not just Britton's own time; check on this immediately given the timeline** |
 | Study 2 vignette stimuli (6 cells) | **Drafted v1** (2026-08-04) | No |
 | Study 2/3 instrument content & flow | **Fully specified on paper** (2026-08-04) — not yet built in Qualtrics | Yes, once scales lock |
-| Study 2/3 scales (5 total) | **Trust verified; Opportunism upgraded; Fairness citation corrected (needs re-sourcing); Purchase Intention has a proxy needing reconciliation; WOM still unverified** — see `notes/2026-09-03-consensus-*.md` (3 files) | **Yes — sits directly upstream of instrument build and IRB submission** |
+| Study 2/3 scales (5 total) | **See the ⚠ discrepancy flag at the top of this file first** — memory claims all 5 were verified 2026-08-13 via Ole Miss library access but that work isn't in the repo; today's Consensus.app pass is a lower-confidence fallback, not confirmed as the final answer | **Yes — sits directly upstream of instrument build and IRB submission** |
 | IRB application package | **Draft content exists** (2026-08-04) but explicitly incomplete: missing CITI number, needs final scale wording reflected, needs realistic dates (placeholder Aug25–Sep15 window has already passed) | **Yes — hard blocker on all data collection** |
 | **IRB submission to McNeese HSIRB** | **No evidence of actual submission as of 2026-09-03** | **Yes — the critical-path item** |
 | Study 2 data collection (Prolific, N target 360–600) | **Not started** | Depends on IRB |
@@ -95,6 +142,13 @@ perfectly verified.
 
 ## Open questions only Britton can answer
 
+0. **(Highest priority — see ⚠ flag above)** Do you have the 2026-08-13
+   session's chat history where you pulled Campbell, Maxham & Netemeyer,
+   Homburg et al., and Dodds/Monroe/Grewal via your Ole Miss library
+   access? If yes, that content needs to be copied into
+   `notes/2026-08-04-full-instrument-assembly.md` and
+   `notes/2026-08-04-scale-items-verification-status.md` for real this
+   time, verified against a fresh `git log`/`grep` check before moving on.
 1. CITI certificate number/expiration.
 2. McNeese HSIRB's realistic turnaround time — this determines whether the
    Oct 15 deadline is actually reachable and, if not, whether to (a) push
