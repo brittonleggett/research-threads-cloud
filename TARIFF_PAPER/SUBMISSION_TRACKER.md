@@ -19,14 +19,18 @@ scattered notes did.
   the schedule has already slipped past the original plan once.
 - **Today is 2026-09-03. That leaves 42 days (6 weeks) to the hard
   deadline.**
-- **Working backward-planned schedule (2026-09-03, pending confirmation of
-  actual HSIRB turnaround — see open question #2):** IRB submitted by
-  2026-09-06 → if approved in ~1-2 weeks, data collection (Pretest → Study
-  2, Study 3 in parallel) complete by ~2026-09-27 → analysis + write-up
-  ~2026-09-28 to 2026-10-08 → final polish + submission by 2026-10-15. This
-  schedule has almost no slack — see `notes/2026-08-04-IRB-draft-content.md`
-  Questions 3-4 for the full reasoning, including the Pretest→Study 2
-  sequencing dependency.
+- **Britton's stated target (2026-09-03): IRB package completed and
+  submitted this weekend (~2026-09-05/06)** — he's got other work in
+  between now and then, so no further action needed on this thread until
+  then unless something changes.
+- **Working backward-planned schedule, unchanged otherwise (pending
+  confirmation of actual HSIRB turnaround — see open question #2):** IRB
+  submitted this weekend → if approved in ~1-2 weeks, data collection
+  (Pretest → Study 2, Study 3 in parallel) complete by ~2026-09-27 →
+  analysis + write-up ~2026-09-28 to 2026-10-08 → final polish + submission
+  by 2026-10-15. This schedule has almost no slack — see
+  `notes/2026-08-04-IRB-draft-content.md` Questions 3-4 for the full
+  reasoning, including the Pretest→Study 2 sequencing dependency.
 - A separate JCM ScholarOne direct-submission window (June 15–Aug 15, 2026)
   already closed before this project's design was even locked — the AMS
   conference-track route is the only path left for this special issue.
