@@ -6,12 +6,16 @@ GSBRC (conference submission/presentation materials in this folder). Next
 goal: adapt and submit to a **JCM special issue, deadline before October
 2026**.
 
-## Status (as of 2026-07-07)
-Already presented at GSBRC. Currently between that presentation and the
-JCM special issue submission — revision/adaptation work has not yet
-started in earnest.
+## Status
+**See `SUBMISSION_TRACKER.md` first — it's the living status doc.** Hard
+deadline is **Oct 15, 2026** (AMS conference track, JCM special issue).
+As of 2026-09-03: Introduction/Theory drafted, Study 1 corpus/coding done,
+instrument content specified — but Study 2/3 have zero data collected and
+IRB has not been submitted to McNeese HSIRB yet. That's the critical path.
 
 ## Folder contents
+- `SUBMISSION_TRACKER.md` — **read this first.** Component-by-component
+  status, critical path, and open questions only Britton can answer.
 - `GSRBC_Submission.docx` / `GSRBC_Submission_Anon.docx` / `.pdf` — the
   GSBRC conference submission (anonymized version for review).
 - `gsbr-tariff-5page-revised.docx` — revised short-form version.
