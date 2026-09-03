@@ -83,19 +83,28 @@ Faculty sponsor/supervisor: N/A (faculty-led project). CITI certification: **Hum
 Certificate PDF confirmed 2026-09-03 (`Claude Global/citiCompletionCertificate_7794530_
 30186541.pdf`).
 
-**Two things worth a two-minute check with McNeese's IRB office before submitting, not
-assumed away:**
-1. **The certificate itself lists Expiration Date as "N/A"** — CITI's own paperwork doesn't
-   auto-expire it. But the completion date is 2019-01-23, over 7 years ago as of this
-   submission, and many institutions impose their own 3-year refresher requirement on top of
-   CITI's "N/A" regardless of what the certificate says. Worth confirming McNeese HSIRB still
-   accepts a 2019-completed Basic Course without a refresher before relying on it.
-2. **"Under requirements set by: University of South Alabama"** — this training was completed
-   under South Alabama's CITI institutional affiliation, not McNeese's. CITI content is
-   standardized and most institutions accept any valid CITI Human Research completion
-   regardless of which institution's requirements it was taken under, but this is exactly the
-   kind of small procedural detail that can cause an avoidable back-and-forth with an IRB
-   office — a quick confirmation now is cheaper than a delay later.
+**Checked directly against McNeese's own published HSIRB policy 2026-09-03
+(`https://www.mcneese.edu/policy/human-subjects-institutional-review-board-hsirb-policy/`):**
+
+1. **⚠ Real, specific mismatch — the policy states the required module is
+   "Social/Behavior/Educational *Comprehensive*."** Britton's certificate is
+   explicitly labeled **"1 - Basic Course"**, not Comprehensive. This is a
+   concrete course-name mismatch, not a vague concern — worth resolving
+   before submission, not rolling past it. Two ways to close this: (a)
+   confirm with McNeese's IRB office directly whether the Basic Course
+   satisfies the requirement in practice (policy pages sometimes lag actual
+   office practice), or (b) if it doesn't, complete the additional CITI
+   modules needed to reach "Comprehensive" status — CITI typically layers
+   this on top of a completed Basic Course rather than requiring a full
+   restart, so this is likely a short add-on, not hours of new training.
+2. **Expiration/renewal: not actually a concern.** McNeese's policy "does
+   not specify any expiration date or renewal interval for the CITI
+   training certificate" — the earlier flag about the 2019 completion date
+   being "old" turns out to be a non-issue per McNeese's own stated policy.
+3. **Cross-institution acceptance (completed under University of South
+   Alabama's CITI affiliation): policy is silent on this**, doesn't confirm
+   or rule it out. Lower priority than item 1 — worth a combined question
+   to the IRB office alongside the Comprehensive-vs-Basic question.
 
 ## Question 6 — Exempt/Expedited Review & Rationale
 
