@@ -1468,3 +1468,103 @@ SPACEX_LOUISIANA_PAPER project, not a new research stream.
 
 Idea 22 is a proposal only, per standing rule — nothing built, nothing committed to. Idea 20 (Meta
 settlement) and idea 21 (Made-in-USA) remain from 09-01, still awaiting a greenlight call.
+
+## 2026-09-03
+
+### 23. Amazon's "secret ad-auction surcharge" FTC lawsuit — B2B deception exposure as a trust-spillover shock to consumer belief in "Sponsored" labels (high confidence — brand-new, three days old at time of scouting, no academic treatment exists yet)
+
+- **Gap/question:** on August 31, 2026, the FTC and 22 state AGs sued Amazon, alleging that for 7+
+  years Amazon told advertisers it ran a "second-price" Sponsored Products/Brands/Display auction
+  (winner pays "one cent more than the next highest bidder") while in practice charging advertisers
+  close to their own winning bid ~80% of the time — effectively a covert first-price auction,
+  extracting what the complaint frames as tens of billions in extra ad spend from 1M+ brands/sellers.
+  This is a B2B deception story on its face, but it opens an untested B2C question: when a platform is
+  publicly revealed to have lied to *advertisers* about how its "Sponsored" listings are priced, does
+  that spill over into *consumers'* trust that the "Sponsored" vs. organic distinction on the same
+  search results page means anything — i.e., does institutional deception exposed at one level
+  (advertiser-facing auction mechanics) erode belief in a disclosure label the same platform shows
+  consumers? A saturation check found adjacent literature (influencer sponsorship-disclosure/trust; an
+  arXiv paper on AI shopping agents discounting "Sponsored" labels) is about human endorsers or
+  algorithmic agents, not a platform's own documented, litigated auction-deception as a spillover-
+  distrust cue for ordinary consumers evaluating search results generally.
+- **Why tractable soon:** the lawsuit is dated (Aug 31, 2026); the complaint quotes internal Amazon
+  documents admitting disclosure would cause "irrevocable damage to advertiser trust"; Amazon's public
+  rebuttal is already on record — a contrastive-statement corpus (FTC complaint language vs. Amazon's
+  defense) exists today. Litigation will generate ongoing docket/press material as it proceeds.
+- **Rough method sketch:** antecedent = awareness of the FTC's auction-deception allegations
+  (news-vignette manipulable) → mediator = perceived platform integrity/institutional trust (distinct
+  from ad-specific trust) → outcome = trust in "Sponsored"-labeled results specifically, general
+  platform trust, purchase intention on Amazon vs. switching to Walmart. Candidate moderator: prior
+  Amazon loyalty/Prime tenure. Study 1 (AI-assisted content analysis of complaint text, Amazon's
+  response, social/press reaction) → Study 2 (PLS-SEM or vignette survey) — the usual two-study shape.
+- **Target venue:** *Journal of Consumer Marketing* or *Journal of Retailing and Consumer Services*
+  (retail-platform trust framing); *Journal of Public Policy & Marketing* as an alternate given the
+  live FTC-enforcement angle.
+- **Sources:** [FTC press release, Aug 31, 2026](https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme), [TechCrunch](https://techcrunch.com/2026/08/31/ftc-accuses-amazon-of-running-a-secret-ad-surcharge-scheme-in-new-lawsuit/), [CNBC](https://www.cnbc.com/2026/08/31/amazon-ftc-lawsuit-advertisers.html), [Amazon's response](https://www.aboutamazon.com/company-news/amazon-ftc-sponsored-ads-lawsuit-response), [Marketing Dive](https://www.marketingdive.com/news/amazon-hid-surcharges-on-ad-auctions-alleges-ftc-complaint/829274/), [NPR](https://www.npr.org/2026/08/31/nx-s1-5950482/ftc-amazon-advertising-lawsuit)
+- **Note:** a related, narrower angle (semiconductor Section 232 tariffs and silent price pass-through
+  in electronics) was checked and explicitly ruled out as its own idea — same mechanism TARIFF_PAPER's
+  Study 1 already codes for, just a new product category. Flagging only as a possible future
+  corpus-extension for TARIFF_PAPER, not logged separately.
+
+### 24. Louisiana's insurer premium-transparency mandates (HB148 "previous premium" disclosure, live now; Act 428's full rate-transparency report, effective Jan 1 2027) — a Louisiana-specific price-disclosure shock inside an active insurance-crisis narrative (high confidence — Louisiana-specific, dated, no PLS-SEM treatment found)
+
+- **Gap/question:** Louisiana's property/auto insurance market has been in a well-documented
+  affordability crisis (nonrenewals, insurer exits, coastal unavailability). Two new disclosure
+  mandates are now live or imminent: HB148 already requires insurers, on 2026 renewals, to show the
+  customer's *previous premium side-by-side with the new one* — a first-time forced comparison point;
+  Act No. 428 (2025 Regular Session) goes further, requiring insurers to file an annual rate-
+  transparency report breaking a premium down into loss/expense/profit shares, effective **January 1,
+  2027**, with Commissioner Temple's implementing Bulletin 2026-05 already issued (March 2026). Open
+  question: does forced premium-comparison and cost-component disclosure — landing inside an active
+  "why is Louisiana insurance so broken" media narrative — increase perceived fairness/trust and
+  shopping/switching intention, or backfire by making already-salient price increases feel more like
+  betrayal (a distributive-fairness mechanism, in an untouched product category: annual-cycle,
+  high-stakes, low-frequency insurance rather than retail/subscription/algorithmic pricing). A
+  saturation check found the closest prior work is the UK FCA's 2016-era field trials on showing "last
+  year's premium next to this year's" (UK-specific, pre-dates the Louisiana crisis narrative entirely)
+  — no PLS-SEM or U.S./Louisiana marketing-journal treatment of this mechanism was found.
+- **Why tractable soon:** HB148's comparison-disclosure is already appearing on real renewal notices
+  this year (immediate corpus/survey-timing opportunity); Act 428's fuller mandate has a fixed Jan 1,
+  2027 date (~4 months out), giving a genuine before/after window. Commissioner Temple, Triple-I, and
+  the Louisiana Dept. of Insurance are all actively producing public commentary right now.
+- **Rough method sketch:** antecedent = exposure to the previous-vs-new-premium disclosure (and/or the
+  fuller cost-breakdown report), manipulable in a vignette or measured as real awareness in a survey of
+  Louisiana homeowners. Mediators: perceived distributive fairness and perceived insurer transparency/
+  trustworthiness as parallel candidates. Outcome: shopping/switching intention, trust in insurer,
+  support for further LDI regulation. Moderator: prior nonrenewal experience or coastal-parish
+  residence. PLS-SEM survey fits better than a TA-heavy Study 1, though a light Study 1 coding LDI
+  bulletins, Triple-I/insurer statements, and news coverage could map the "crisis narrative vs.
+  reform-is-working" framing split evident in coverage itself.
+- **Target venue:** *Journal of Public Policy & Marketing* (regulatory-disclosure-mandate framing,
+  consistent with several of Britton's other JPP&M-track ideas) or *Journal of Consumer Affairs* given
+  the consumer-protection angle.
+- **Sources:** [Insurance Journal — Louisiana insurers must disclose prior policy premiums under controversial new law](https://www.insurancejournal.com/news/southcentral/2025/07/15/831755.htm), [Insurance Journal — New law orders Louisiana insurers to show prior policy premiums](https://www.insurancejournal.com/magazines/mag-features/2025/08/04/834138.htm), [Live Insurance News](https://www.liveinsurancenews.com/louisiana-renewal-notices-higher/8572159/), [Insurance Business — Louisiana urges annual insurance market data in new rate transparency push](https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/louisiana-urges-annual-insurance-market-data-in-new-rate-transparency-push-577417.aspx), [LDI Bulletin 2026-05 PDF](https://ldi.la.gov/docs/default-source/documents/legaldocs/bulletins/bul2026-05-cur-ratetransparencyrep.pdf), [Fox 8 — Louisiana homeowners still trapped in insurance crisis](https://www.fox8live.com/2026/06/02/louisiana-homeowners-still-trapped-insurance-crisis-hurricane-season-begins/), [Yahoo/Triple-I — reforms begin to deliver rate relief but challenges remain](https://finance.yahoo.com/healthcare/articles/triple-louisiana-insurance-reforms-begin-152700682.html)
+
+### 25. NY's AI Transparency in Advertising Act (synthetic-performer disclosure mandate, effective June 9, 2026) as a specific stimulus for an AI-ad-trust study (moderate confidence — real, dated, state-mandated hook, but sits in the file's most crowded adjacent literature; logging with an explicit weakness flag rather than pushing it)
+
+- **Gap/question:** NY's law (signed Dec 11, 2025, effective June 9, 2026) is the first state statute
+  specifically requiring "conspicuous disclosure" when an ad features a synthetic/AI-generated
+  performer — distinct from the FTC's general endorsement-rule enforcement (Operation AI Comply, 12+
+  actions in 2026, treating undisclosed virtual-influencer endorsement as deceptive because "the
+  audience is being asked to trust a relationship that does not exist"). The narrow open question: does
+  a *mandated, standardized* synthetic-performer disclosure label (vs. a voluntary or ad-hoc AI-content
+  notice) change perceived source credibility and purchase intention differently than the existing
+  AI-disclosure literature has tested — echoing the "real mandate as stimulus" logic already used for
+  ideas 11, 13, and 17.
+- **Honest caveat (why this is the weakest of tonight's three):** the AI-ad-disclosure-and-trust space
+  is, per this file's own repeated saturation checks (ideas 14, and 20's adjacent notes), already
+  fairly active — a Tandfonline "Disclaimer! This Content Is AI-Generated" study, a ScienceDirect
+  generative-AI-service-ads paper, an American Impact Review systematic lit review — and overlaps with
+  idea 14's Coca-Cola AI-washing/booing entry. The differentiator (a state-mandated label for synthetic
+  *performers* specifically, not general AI-generated content) is real but narrow, similar in shape to
+  how idea 11 was flagged as "a narrower gap than it first looks."
+- **Target venue:** *Journal of Advertising* or *Journal of Consumer Marketing*.
+- **Sources:** [Dynamis LLP — AI Disclosure Rules 2026](https://www.dynamisllp.com/knowledge/ai-disclosure-in-2026-recent-developments-and-practical-steps-for-brands-and-influencers), [Duke Undergraduate Law Review — synthetic performers in digital advertising](https://www.dukeundergraduatelawreview.com/online-journal/4zpxec24o44zuz07rpgbexesztttyi), [Hollywood Branded — FTC AI influencer compliance](https://blog.hollywoodbranded.com/what-the-ftc-taught-hollywood-branded-about-ai-influencer-compliance), [thestacc.com — FTC AI Disclosure Rules 2026](https://thestacc.com/blog/ftc-ai-disclosure-rules-2026/)
+
+Ideas 23-25 are proposals only, per standing rule — nothing built, nothing committed to. Also checked
+tonight and explicitly not written up: multimodal AI thematic analysis (video/image coding) as an
+idea-4/18 extension — real 2026 commercial momentum (ATLAS.ti multimodal support, Conveo AI-moderated
+video interviews) but reads as a crowded, vendor-driven capability space without a sharp enough
+academic-gap differentiator. No material found tonight that sharpens or refreshes any pre-existing
+entry (unlike 09-02's 1a/SpaceX refreshes) — 23-25 are genuinely new mechanisms/objects. Ideas 20, 21,
+22 remain from prior nights, still awaiting a greenlight call.
