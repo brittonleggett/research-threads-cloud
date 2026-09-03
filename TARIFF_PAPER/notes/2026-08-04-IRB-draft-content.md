@@ -78,8 +78,10 @@ without IRB even submitted).
 ## Question 5 — Status of Principal Investigator
 Faculty investigator: Britton R. Leggett, College of Business, Burton Business Center,
 4205 Ryan Street, Lake Charles, LA 70605. Phone: ext. 5578. Email: bleggett1@mcneese.edu.
-Faculty sponsor/supervisor: N/A (faculty-led project). CITI certification: [CERTIFICATE
-NUMBER / EXPIRATION — fill in from your CITI records].
+Faculty sponsor/supervisor: N/A (faculty-led project). CITI certification number: **7794530**
+(set to memory 2026-09-03, per Britton). **Expiration date still needed** — CITI
+certifications typically expire every 3 years; confirm current expiration before submitting
+if it's not already on file with McNeese's IRB office.
 
 ## Question 6 — Exempt/Expedited Review & Rationale
 
