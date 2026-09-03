@@ -78,33 +78,31 @@ without IRB even submitted).
 ## Question 5 — Status of Principal Investigator
 Faculty investigator: Britton R. Leggett, College of Business, Burton Business Center,
 4205 Ryan Street, Lake Charles, LA 70605. Phone: ext. 5578. Email: bleggett1@mcneese.edu.
-Faculty sponsor/supervisor: N/A (faculty-led project). CITI certification: **Human Research
-(Social-Behavioral-Educational), Basic Course, Record ID 7794530, completed 23-Jan-2019.**
-Certificate PDF confirmed 2026-09-03 (`Claude Global/citiCompletionCertificate_7794530_
-30186541.pdf`).
+Faculty sponsor/supervisor: N/A (faculty-led project). CITI certification: **Social &
+Behavioral Research (Basic/Refresher), Record ID 79382211, McNeese State University
+affiliation, completed 03-Sep-2026, expires 03-Sep-2029, score 93/100 (min. passing 80).**
+Completion Report PDF confirmed 2026-09-03 (`Claude Global/citiCompletionReport_7794530_
+79382211.pdf`) — verified at
+`www.citiprogram.org/verify/?ka158692f-3aa2-4dd9-a16a-7bf8373a58b8-79382211`. This supersedes
+the earlier 2019/South Alabama certificate (Record ID 7794530) referenced in this file's prior
+revision.
 
-**Checked directly against McNeese's own published HSIRB policy 2026-09-03
+**Status after Britton completed a refresher 2026-09-03, checked against McNeese's own
+published HSIRB policy
 (`https://www.mcneese.edu/policy/human-subjects-institutional-review-board-hsirb-policy/`):**
 
-1. **⚠ Real, specific mismatch — the policy states the required module is
-   "Social/Behavior/Educational *Comprehensive*."** Britton's certificate is
-   explicitly labeled **"1 - Basic Course"**, not Comprehensive. This is a
-   concrete course-name mismatch, not a vague concern — worth resolving
-   before submission, not rolling past it. Two ways to close this: (a)
-   confirm with McNeese's IRB office directly whether the Basic Course
-   satisfies the requirement in practice (policy pages sometimes lag actual
-   office practice), or (b) if it doesn't, complete the additional CITI
-   modules needed to reach "Comprehensive" status — CITI typically layers
-   this on top of a completed Basic Course rather than requiring a full
-   restart, so this is likely a short add-on, not hours of new training.
-2. **Expiration/renewal: not actually a concern.** McNeese's policy "does
-   not specify any expiration date or renewal interval for the CITI
-   training certificate" — the earlier flag about the 2019 completion date
-   being "old" turns out to be a non-issue per McNeese's own stated policy.
-3. **Cross-institution acceptance (completed under University of South
-   Alabama's CITI affiliation): policy is silent on this**, doesn't confirm
-   or rule it out. Lower priority than item 1 — worth a combined question
-   to the IRB office alongside the Comprehensive-vs-Basic question.
+1. **✅ Institution affiliation — resolved.** New certificate lists "Institution Affiliation:
+   McNeese State University (ID: 1850)" directly, not South Alabama.
+2. **✅ Expiration — resolved, and now genuinely tracked.** 03-Sep-2029. (McNeese's policy
+   itself doesn't specify a renewal interval, but this certificate now carries one regardless.)
+3. **⚠ Still open — Comprehensive vs. Basic Course.** The new certificate's Curriculum Group
+   is "Social & Behavioral Research - **Basic/Refresher**," Stage "**Stage 1 - Basic Course**"
+   — refreshing/extending the existing Basic Course track, not upgrading to the
+   "Comprehensive" module McNeese's policy text names. **This is the one item still worth a
+   direct confirmation with the IRB office before submitting**: either they accept Basic
+   Course in practice (the policy wording may not reflect actual office practice), or a
+   separate CITI "Comprehensive" module needs to be completed. Not attempting to guess which —
+   flag it and ask directly.
 
 ## Question 6 — Exempt/Expedited Review & Rationale
 

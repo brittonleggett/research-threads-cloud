@@ -122,7 +122,7 @@ perfectly verified.
 | Study 2 vignette stimuli (6 cells) | **Drafted v1** (2026-08-04) | No |
 | Study 2/3 instrument content & flow | **Fully specified with recommended defaults for every remaining decision** (2026-08-04, updated 2026-09-03) — not yet built in Qualtrics | No longer blocking on content — just needs Britton's confirm/override pass and the actual Qualtrics build |
 | Study 2/3 scales (5 total) | **3 of 5 resolved with quote-level wording** (Trust, Fairness, Opportunism — the two theoretically load-bearing mediators are now solid). Purchase Intention needs Britton's pick between 2 candidate wordings; WOM remains genuinely unverified (best-guess placeholder). See `notes/2026-08-04-full-instrument-assembly.md` items 6-10. | **Down to a minor blocker** — only 2 secondary-DV scales left, neither as critical as what's already resolved |
-| IRB application package | **Draft content complete**, but **one real CITI mismatch found 2026-09-03 checking against McNeese's actual policy page**: policy requires "Social/Behavior/Educational **Comprehensive**"; Britton's certificate is **"1 - Basic Course."** Expiration/renewal turned out to be a non-issue (McNeese's policy doesn't specify any interval). Cross-institution acceptance (South Alabama vs. McNeese) still unconfirmed but lower priority. | **Real blocker, not just a "quick check"** — resolve the Basic-vs-Comprehensive gap (confirm with IRB office it's fine as-is, or complete the additional CITI modules) before submitting |
+| IRB application package | **Draft content complete.** Britton completed a CITI refresher 2026-09-03 (new Record ID 79382211, McNeese-affiliated, expires 2029-09-03) — this resolved 2 of 3 flagged concerns (institution affiliation, expiration). **One item still open: it's still "Stage 1 - Basic Course," not the "Comprehensive" module McNeese's policy text names.** | **Down to one specific confirm-with-IRB-office question** — everything else in the package is ready |
 | **IRB submission to McNeese HSIRB** | **No evidence of actual submission as of 2026-09-03** | **Yes — the critical-path item** |
 | Study 2 data collection (Prolific, N target 360–600) | **Not started** | Depends on IRB |
 | Study 3 data collection (Prolific, N target 300–400) | **Not started** | Depends on IRB |
@@ -179,17 +179,14 @@ perfectly verified.
    local terminal session's history, worth a quick check and reconciliation
    — but the project is moving forward on today's Consensus.app-sourced
    scale answers in the meantime.
-1. **CITI: real gap found 2026-09-03, checked against McNeese's own
-   published policy** (not just general knowledge this time). Record ID
-   7794530, Human Research (SBE) "1 - Basic Course," completed 2019-01-23
-   (saved to memory — will recur across other papers' IRB packages). But
-   **McNeese's policy explicitly requires "Comprehensive," not "Basic
-   Course."** Two paths: confirm with the IRB office that Basic Course is
-   accepted in practice despite the policy wording, or complete the
-   additional CITI module(s) to reach Comprehensive status (likely a short
-   add-on to the existing Basic Course, not a full retake — confirm with
-   CITI's own course catalog). Expiration/institution-of-completion turned
-   out not to be real concerns per the policy text.
+1. **CITI: down to one specific question.** Britton refreshed his training
+   2026-09-03 under McNeese's own CITI affiliation (Record ID 79382211,
+   score 93/100, expires 2029-09-03) — resolved the institution-affiliation
+   and expiration concerns. **Still Stage 1 - Basic Course, not the
+   "Comprehensive" module McNeese's policy text names.** Ask the IRB office
+   directly whether Basic Course/Refresher satisfies the requirement in
+   practice, or whether a separate Comprehensive module is needed — don't
+   guess either way.
 2. McNeese HSIRB's realistic turnaround time — this determines whether the
    Oct 15 deadline is actually reachable and, if not, whether to (a) push
    IRB submission literally today, (b) request expedited review if the
