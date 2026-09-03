@@ -41,22 +41,39 @@ Participant compensation funded through the investigator's Prolific researcher a
 funding is obtained, an amendment will be submitted.
 
 ## Question 3 — Date to Begin Data Collection
-Anticipated start: **as soon as written IRB exempt confirmation is received** — target
-2026-08-25 (placeholder; actual date depends on HSIRB turnaround, which is not yet
-confirmed). Study 1 does not involve human subjects and may proceed independently of this
-timeline; the investigator will still await written confirmation that Study 1 is excluded
-before treating it as formally cleared.
+**Updated 2026-09-03 — the original placeholder dates below have passed
+without a submission; revised.** Anticipated start: **as soon as written
+IRB exempt confirmation is received.** Application being finalized for
+submission the week of **2026-09-03** (target: by Friday 2026-09-06). Actual
+data-collection start depends entirely on McNeese HSIRB's turnaround time,
+which is not yet known — see `SUBMISSION_TRACKER.md`'s open question #2.
+Study 1 does not involve human subjects and may proceed independently of
+this timeline; the investigator will still await written confirmation that
+Study 1 is excluded before treating it as formally cleared.
+~~2026-08-25~~ (original placeholder, superseded).
 
 ## Question 4 — Anticipated Date of Completion
-All three human-subjects phases (Pretest → Study 2 → Study 3) targeted for completion by
-**2026-09-15**, to leave a narrow but workable window before a late-September submission
-target for the JCM special issue. **This is a tight sequence — flagging honestly rather than
-smoothing over it:** the pretest has to run, be analyzed, and (if needed) trigger vignette
-revisions *before* Study 2 can launch; only Study 3 can run in parallel with the other two
-since it doesn't depend on the vignette stimuli. If HSIRB turnaround runs past
-~2026-08-25, this completion date compresses further and the late-September target is at
-risk — worth surfacing to the guest editors or planning a contingency (submit to the later
-June–Aug 2026 JCM ScholarOne window instead) if approval is delayed.
+**Updated 2026-09-03.** All three human-subjects phases (Pretest → Study 2
+→ Study 3) need to complete with enough runway left for analysis and
+write-up before the **hard Oct 15, 2026** AMS conference-track deadline —
+see `SUBMISSION_TRACKER.md` for the full picture. Rough backward-planned
+target, **pending confirmation of actual HSIRB turnaround time**:
+- IRB submitted: by 2026-09-06.
+- If approved within ~1-2 weeks: data collection (Pretest → Study 2, Study
+  3 in parallel) targeted to complete by ~2026-09-27.
+- Analysis + Results/Discussion write-up: ~2026-09-28 to 2026-10-08.
+- Final citation/word-budget pass and submission: by 2026-10-15.
+**This is a tight sequence, flagged honestly, not smoothed over:** the
+pretest has to run, be analyzed, and (if needed) trigger vignette revisions
+*before* Study 2 can launch; only Study 3 can run in parallel with the
+other two since it doesn't depend on the vignette stimuli. **If HSIRB
+turnaround runs past ~2 weeks from submission, this schedule breaks and Oct
+15 becomes genuinely at risk** — worth surfacing to the guest editors early
+if that becomes apparent, or confirming whether the design qualifies for
+expedited review (minimal risk, no vulnerable populations, no deception
+beyond standard hypothesis non-disclosure) to shorten the timeline.
+~~2026-09-15~~ (original placeholder, no longer reachable — already passed
+without IRB even submitted).
 
 ## Question 5 — Status of Principal Investigator
 Faculty investigator: Britton R. Leggett, College of Business, Burton Business Center,

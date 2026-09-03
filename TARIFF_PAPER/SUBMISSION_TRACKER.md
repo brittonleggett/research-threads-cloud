@@ -19,6 +19,14 @@ scattered notes did.
   the schedule has already slipped past the original plan once.
 - **Today is 2026-09-03. That leaves 42 days (6 weeks) to the hard
   deadline.**
+- **Working backward-planned schedule (2026-09-03, pending confirmation of
+  actual HSIRB turnaround — see open question #2):** IRB submitted by
+  2026-09-06 → if approved in ~1-2 weeks, data collection (Pretest → Study
+  2, Study 3 in parallel) complete by ~2026-09-27 → analysis + write-up
+  ~2026-09-28 to 2026-10-08 → final polish + submission by 2026-10-15. This
+  schedule has almost no slack — see `notes/2026-08-04-IRB-draft-content.md`
+  Questions 3-4 for the full reasoning, including the Pretest→Study 2
+  sequencing dependency.
 - A separate JCM ScholarOne direct-submission window (June 15–Aug 15, 2026)
   already closed before this project's design was even locked — the AMS
   conference-track route is the only path left for this special issue.
@@ -110,6 +118,7 @@ perfectly verified.
 | Study 1 Methods section draft | **Drafted** (2026-08-11, consolidated 2026-08-21) | No |
 | Study 1 Results write-up (themes → manuscript prose) | **Not started** (~600w budgeted) | No — but needs doing |
 | Study 1 validation pilot (blind coding vs. sealed AI codes) | Worksheet is prepared **for a grad assistant to complete as second coder** (2026-08-27, full 15-artifact corpus) — worksheet text confirms it's an *instruction sheet awaiting completion*, not a finished comparison; no Gwet's AC1 or agreement stats computed yet as of this pass | **Yes — external dependency on the grad assistant, not just Britton's own time; check on this immediately given the timeline** |
+| **Pretest** (vignette validation, N=150-180, Prolific) | Design specified (`notes/2026-08-04-pretest-design.md`) — **not yet run.** Must complete and be analyzed BEFORE Study 2 can launch (may trigger vignette revisions) — this is a real sequencing dependency, not something that can run in parallel with Study 2 | **Yes — gates Study 2 specifically; only Study 3 can run in parallel with Pretest+Study 2** |
 | Study 2 vignette stimuli (6 cells) | **Drafted v1** (2026-08-04) | No |
 | Study 2/3 instrument content & flow | **Fully specified on paper** (2026-08-04) — not yet built in Qualtrics | Yes, once scales lock |
 | Study 2/3 scales (5 total) | **3 of 5 resolved with quote-level wording** (Trust, Fairness, Opportunism — the two theoretically load-bearing mediators are now solid). Purchase Intention needs Britton's pick between 2 candidate wordings; WOM remains genuinely unverified (best-guess placeholder). See `notes/2026-08-04-full-instrument-assembly.md` items 6-10. | **Down to a minor blocker** — only 2 secondary-DV scales left, neither as critical as what's already resolved |
@@ -148,9 +157,13 @@ perfectly verified.
    `notes/2026-08-04-full-instrument-assembly.md` — this is implementation,
    not design work). Confirm blind-coding validation-pilot agreement
    analysis is actually complete (see flag above).
-4. **Once IRB approved:** Launch Study 2 and Study 3 on Prolific
-   (can likely run in parallel). Typical Prolific turnaround for these
-   sample sizes is usually days, not weeks, once live.
+4. **Once IRB approved:** Launch the **Pretest** (N=150-180) and **Study 3**
+   (N=300-400) in parallel — Study 3 doesn't depend on vignette stimuli, so
+   it can start immediately. **Study 2 (N=360-600) cannot launch until the
+   Pretest is complete AND analyzed**, since it may trigger vignette
+   revisions. Typical Prolific turnaround for these sample sizes is usually
+   days, not weeks, once live — the Pretest→Study 2 sequencing, not
+   Prolific speed, is the real time cost here.
 5. **Once data in:** Run analyses (MANOVA/mediation for Study 2, PLS-SEM
    for Study 3), draft Results sections for Study 1/2/3, draft
    Discussion/Implications/Limitations/Conclusion.
