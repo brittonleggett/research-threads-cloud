@@ -122,7 +122,7 @@ perfectly verified.
 | Study 2 vignette stimuli (6 cells) | **Drafted v1** (2026-08-04) | No |
 | Study 2/3 instrument content & flow | **Fully specified with recommended defaults for every remaining decision** (2026-08-04, updated 2026-09-03) — not yet built in Qualtrics | No longer blocking on content — just needs Britton's confirm/override pass and the actual Qualtrics build |
 | Study 2/3 scales (5 total) | **3 of 5 resolved with quote-level wording** (Trust, Fairness, Opportunism — the two theoretically load-bearing mediators are now solid). Purchase Intention needs Britton's pick between 2 candidate wordings; WOM remains genuinely unverified (best-guess placeholder). See `notes/2026-08-04-full-instrument-assembly.md` items 6-10. | **Down to a minor blocker** — only 2 secondary-DV scales left, neither as critical as what's already resolved |
-| IRB application package | **Draft content essentially complete** (2026-08-04, updated 2026-09-03): CITI number filled in (7794530), scale wording resolved, dates revised to a realistic backward-planned schedule. **Only open item: CITI certificate expiration date** — confirm before submitting if not already on file | **Down to a minor blocker — ready to submit pending that one date confirmation and Britton's review pass** |
+| IRB application package | **Draft content complete** (2026-08-04, updated 2026-09-03): CITI details filled in (Record ID 7794530, completed 2019-01-23, certificate confirmed), scale wording resolved, dates revised to a realistic backward-planned schedule. **Two quick institutional checks flagged, not blocking**: certificate shows no expiration but is 7+ years old (confirm McNeese still accepts it), and it was completed under U. of South Alabama's CITI affiliation, not McNeese's (usually fine, worth confirming) | **No longer a hard blocker — ready for Britton's review pass and submission, pending those two quick checks** |
 | **IRB submission to McNeese HSIRB** | **No evidence of actual submission as of 2026-09-03** | **Yes — the critical-path item** |
 | Study 2 data collection (Prolific, N target 360–600) | **Not started** | Depends on IRB |
 | Study 3 data collection (Prolific, N target 300–400) | **Not started** | Depends on IRB |
@@ -179,9 +179,13 @@ perfectly verified.
    local terminal session's history, worth a quick check and reconciliation
    — but the project is moving forward on today's Consensus.app-sourced
    scale answers in the meantime.
-1. ~~CITI certificate number~~ — **resolved 2026-09-03**, 7794530 (also
-   saved to memory since it'll recur across other papers' IRB packages).
-   **Expiration date still needed** — confirm before submitting.
+1. ~~CITI certificate~~ — **resolved 2026-09-03**, Record ID 7794530,
+   Human Research (SBE) Basic Course, completed 2019-01-23 (also saved to
+   memory since it'll recur across other papers' IRB packages). Certificate
+   shows no formal expiration but is 7+ years old and was completed under
+   U. of South Alabama's CITI affiliation — confirm both are fine with
+   McNeese HSIRB before submitting (quick check, not expected to be a real
+   problem).
 2. McNeese HSIRB's realistic turnaround time — this determines whether the
    Oct 15 deadline is actually reachable and, if not, whether to (a) push
    IRB submission literally today, (b) request expedited review if the

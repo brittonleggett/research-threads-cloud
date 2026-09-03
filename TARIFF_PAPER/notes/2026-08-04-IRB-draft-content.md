@@ -78,10 +78,24 @@ without IRB even submitted).
 ## Question 5 — Status of Principal Investigator
 Faculty investigator: Britton R. Leggett, College of Business, Burton Business Center,
 4205 Ryan Street, Lake Charles, LA 70605. Phone: ext. 5578. Email: bleggett1@mcneese.edu.
-Faculty sponsor/supervisor: N/A (faculty-led project). CITI certification number: **7794530**
-(set to memory 2026-09-03, per Britton). **Expiration date still needed** — CITI
-certifications typically expire every 3 years; confirm current expiration before submitting
-if it's not already on file with McNeese's IRB office.
+Faculty sponsor/supervisor: N/A (faculty-led project). CITI certification: **Human Research
+(Social-Behavioral-Educational), Basic Course, Record ID 7794530, completed 23-Jan-2019.**
+Certificate PDF confirmed 2026-09-03 (`Claude Global/citiCompletionCertificate_7794530_
+30186541.pdf`).
+
+**Two things worth a two-minute check with McNeese's IRB office before submitting, not
+assumed away:**
+1. **The certificate itself lists Expiration Date as "N/A"** — CITI's own paperwork doesn't
+   auto-expire it. But the completion date is 2019-01-23, over 7 years ago as of this
+   submission, and many institutions impose their own 3-year refresher requirement on top of
+   CITI's "N/A" regardless of what the certificate says. Worth confirming McNeese HSIRB still
+   accepts a 2019-completed Basic Course without a refresher before relying on it.
+2. **"Under requirements set by: University of South Alabama"** — this training was completed
+   under South Alabama's CITI institutional affiliation, not McNeese's. CITI content is
+   standardized and most institutions accept any valid CITI Human Research completion
+   regardless of which institution's requirements it was taken under, but this is exactly the
+   kind of small procedural detail that can cause an avoidable back-and-forth with an IRB
+   office — a quick confirmation now is cheaper than a delay later.
 
 ## Question 6 — Exempt/Expedited Review & Rationale
 
