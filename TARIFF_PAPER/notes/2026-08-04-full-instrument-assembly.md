@@ -76,7 +76,13 @@ Monroe & Grewal (1991), but the exact 1991 item wording is not recoverable via s
       / "The probability that I would purchase the [product] from [retailer] is..." / "My
       willingness to buy the [product] from [retailer] is..." / "I would definitely try the
       [product] at [retailer]'s current price."
-  **Britton's call which to use**, or pull the actual 1991 JMR appendix if there's time. See
+  **Recommendation (2026-09-03), to keep this moving unless Britton overrides:** use option
+  (b), Fennell, Niedrich & Rice (2025)'s 4-item scale. It has a real, citable source paper that
+  explicitly states its adaptation from Dodds et al. (1991), which is a stronger position for
+  an IRB package and eventual manuscript than option (a)'s internally-reconstructed 3 items
+  with no traceable source at all. Cite as "adapted from Dodds, Monroe & Grewal (1991), via
+  Fennell, Niedrich & Rice (2025)." Swap for the real 1991 wording later if a library pull
+  happens before the instrument locks — low cost to change at that point. See
   `notes/2026-09-03-consensus-dodds-maxham-scales-partial.md`.
 
 **10. Word-of-Mouth Intention** [PROVISIONAL — genuine gap] — Maxham & Netemeyer (2002), 3
@@ -92,6 +98,27 @@ shop at retailers like the one described, political ideology (single 7-pt libera
 conservative item — worth including given the CFP's own framing around "social and political
 polarization" as a live theme for this special issue; also lets you check whether Attribution
 Frame or Cost-Response effects vary by respondent ideology as a supplementary analysis).
+
+**Proposed response options (2026-09-03), standard survey-methodology defaults — override
+freely, these are low-stakes choices:**
+- Age: open numeric entry (more precise than brackets for a Prolific sample; screener already
+  terminates <18).
+- Gender: Male / Female / Non-binary / Prefer to self-describe / Prefer not to say.
+- Household income: <$25k / $25k-49,999 / $50k-74,999 / $75k-99,999 / $100k-149,999 /
+  $150k+ / Prefer not to say (standard Census-adjacent brackets, works for MANOVA covariate
+  use without too many sparse cells).
+- Education: Less than high school / High school or GED / Some college, no degree /
+  Associate's / Bachelor's / Graduate or professional degree.
+- Shopping frequency at retailers like the one described: Never / Rarely (a few times a
+  year) / Occasionally (monthly) / Regularly (a few times a month) / Frequently (weekly or
+  more).
+- Political ideology: single 7-pt item, 1="Very liberal" to 7="Very conservative."
+
+**Scale-order decision, formalized (2026-09-03):** using the theoretical order shown in this
+document (manipulation checks → Fairness → Opportunism → Trust → Purchase Intention → WOM →
+demographics) rather than counterbalancing — this was already the note's own default
+recommendation ("simpler to justify... what I'd default to unless you have a specific
+concern"); treating as decided unless Britton flags an ordering-effects concern.
 
 **12. Debriefing** — `2026-08-04-debriefing-statement.md`.
 
@@ -127,14 +154,17 @@ manipulation to explain, just a shorter thank-you + purpose statement.
 ---
 
 ## Open items before either survey can actually be built in Qualtrics
-1. **Fairness and Opportunism are now resolved** (2026-09-03, quote-level, see items 6-7
-   above) — no longer blocking. **Purchase Intention (item 9) needs Britton's pick between
-   two candidate wordings, or a fresh library pull. WOM (item 10) needs a library pull or
-   acceptance of the unverified placeholder as-is** — these two are the only remaining
-   blockers, and neither is as theoretically load-bearing as Fairness/Opportunism were.
-2. Decide on exact demographic response options/brackets.
-3. Decide whether to counterbalance scale order (fairness/opportunism before or after trust)
-   or keep the theoretical order shown above — theoretical order is simpler to justify and is
-   what I'd default to unless you have a specific concern about ordering effects.
-4. Build actual Qualtrics logic (randomization, branching, skip logic) — this note specifies
-   content and order, not the Qualtrics-file mechanics themselves.
+**Status as of 2026-09-03: content is now fully specified with defaults/recommendations for
+every item.** Remaining items need only Britton's confirm-or-override, not new research:
+1. Fairness and Opportunism — **resolved**, quote-level (items 6-7).
+2. Purchase Intention (item 9) — **recommended default set** (Fennell et al. 2025 proxy);
+   confirm or wait for a library pull of the real 1991 wording.
+3. WOM (item 10) — still a genuine gap; **using the existing placeholder as-is unless/until
+   a library pull happens** — flag this honestly in the IRB package as not yet verbatim-verified
+   against the original.
+4. Demographic response options — **proposed defaults given** above; confirm or override.
+5. Scale order — **formalized as theoretical order** (the note's own prior default); confirm
+   or flag an ordering-effects concern.
+6. Build actual Qualtrics logic (randomization, branching, skip logic) — this note specifies
+   content and order, not the Qualtrics-file mechanics themselves; needs Britton's Qualtrics
+   account access to actually build.
