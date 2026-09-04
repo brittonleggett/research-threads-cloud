@@ -5,11 +5,17 @@
 (`notes/2026-08-04-design-locked-jcm-fit.md`) and real, citation-checked sources. This
 covers Introduction and Theory/Hypotheses only. It does **not** include Results —
 Study 2/3 have not collected data yet, and writing results without real data would be
-fabrication. Method is drafted separately (`Study1_Methods_Section_DRAFT_2026-08-11.md`
-covers Study 1; Study 2/3 Method still needs the scale-item verification gaps from
-`notes/2026-08-04-scale-items-verification-status.md` closed — 4 of 5 scales still need
-your library access before the instrument is final). Treat everything below as a strong
-first draft to react to and edit, not finished manuscript text.
+fabrication. Method is drafted separately
+(`Study1_Methods_Section_DRAFT_2026-09-04_CONSOLIDATED.md` covers Study 1, current as
+of 2026-09-04; Study 2/3 Method needs the scale content in
+`notes/2026-08-04-full-instrument-assembly.md` — as of 2026-09-04, 4 of 5 scales are
+fully resolved with quote-level/verbatim wording, Purchase Intention has a strong
+default pending your confirm-or-override). **Fact-checked 2026-09-04:** the KPMG stat
+below and the Nike "surgical price increase" quote were both re-verified against this
+project's own sourced files (`Tariff_Scan_2026-07-23.md` and
+`Study1_Corpus_and_Coding_DRAFT_2026-07-24.md` respectively) — both real, both
+correctly represented here. Treat everything below as a strong first draft to react to
+and edit, not finished manuscript text.
 
 ---
 
@@ -153,9 +159,17 @@ it to others.
 2. H3 (the interaction hypothesis) is new — I added it because a full factorial design
    without an interaction hypothesis tends to draw reviewer questions ("why run a 3×2 if
    you're only predicting main effects?"). Worth deciding if you want to keep it, and if
-   so, whether the direction I've proposed is the one you'd actually predict.
-3. Method section for Study 2/3 still needs the scale-item verification gap closed (see
-   `notes/2026-08-04-scale-items-verification-status.md`) — Campbell (1999)'s exact
-   wording especially, since it's the most theoretically load-bearing scale here (H1b,
-   H2b both hinge on the opportunism construct).
-4. No Results section exists and shouldn't until Study 2/3 actually run.
+   so, whether the direction I've proposed is the one you'd actually predict. **Still
+   open as of 2026-09-04 — this is the one real theoretical judgment call left in this
+   draft.**
+3. ~~Method section for Study 2/3 still needs the scale-item verification gap closed~~
+   — **resolved 2026-09-04.** Campbell (1999)'s exact opportunism wording (H1b, H2b's
+   load-bearing construct) is in hand — see
+   `notes/2026-08-04-full-instrument-assembly.md` item 7. Fairness (H1a/H2a), Trust
+   (H4a/H4b), and WOM (H5b) are also all resolved with quote-level or verbatim wording.
+   Purchase Intention (H5a) has a strong default pending your sign-off — the one
+   remaining scale item, and it's a quick confirm-or-override, not a research gap.
+4. No Results section exists and shouldn't until Study 2/3 actually run. Study 1's own
+   Results paragraph (corpus → prose) is close, but blocked on your Phase 3 theme
+   review — see `Study1_Phase3_Quick_Decisions_2026-09-04.md` for the three specific
+   calls needed to unblock it.
