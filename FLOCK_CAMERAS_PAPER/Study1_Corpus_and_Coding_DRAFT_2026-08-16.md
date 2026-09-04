@@ -38,7 +38,7 @@ a finished design decision.
 
 ---
 
-## Corpus (22 artifacts, sourced 2026-08-16)
+## Corpus (26 artifacts as of 2026-09-04, originally sourced 2026-08-16; see per-row dates for additions)
 
 | # | Location | Event type | Date | Source | Fetch status |
 |---|---|---|---|---|---|
@@ -67,6 +67,7 @@ a finished design decision.
 | 23 | Menasha, WI | Officer Cristian Morales convicted (felony misconduct in office; judge rejected a lighter plea deal) for using Flock network off-duty to track his ex-girlfriend — 7 searches across ~15,000-92,000 cameras nationwide; sentenced 6 months jail, 3 years probation, $250 fine, permanent bar from law enforcement/Flock access | Sentenced 2026-08-17 | (multi-source: Wisconsin Examiner, WBAY, Fox11, WTAQ, WHBY, WIXX, 94.3 Jack FM — independently re-confirmed via fresh WebSearch 2026-08-24) | WebSearch (multi-source triangulated; first corpus artifact with formal legal consequences for an individual misuser, not an institution) |
 | 24 | Milwaukee, WI | Two separate officers charged with Flock misuse: Josue Ayala (179 searches tracking a partner and her ex — 124 searches on the partner, 55 on her ex, per the criminal complaint; guilty plea, probation) and Det. Tehrangi Chapman (20 unauthorized searches plus a physical GPS tracker on one victim's car; Chapman had earlier helped investigate Ayala's case) | Charged/reported 2026-07/08 | (multi-source: FOX6, NBC26, WTMJ, WPR, TMJ4, CNN, Yahoo, WISN, News From The States, AOL/wire — independently re-confirmed via fresh WebSearch 2026-08-24 and again 2026-08-25) | WebSearch (multi-source triangulated) |
 | 25 | Mountain View, CA | Internal audit found federal agencies (ATF Kentucky/Tennessee, Langley AFB, GSA-OIG, Lake Mead NRA, an Ohio AFB) accessed one camera's data Aug-Nov 2024 via an undisclosed nationwide-search default; separately, a statewide search function let CA state/local agencies access 29 of the city's 30 cameras — neither approved by the city or its PD. City suspended and is shutting down its ALPR program | 2024-08 to 2024-11 access; disclosed/response 2026 | (multi-source: ABC7 News ×2 pieces, Yahoo — independently re-confirmed via fresh WebSearch 2026-08-24; WebFetch attempt on the ABC7 primary source failed, EGRESS_BLOCKED) | WebSearch (multi-source triangulated); first corpus artifact documenting both a federal *and* a state-level version of the undisclosed-default mechanism in the same case |
+| 26 | Texas (statewide) | State agency (Motor Vehicle Crime Prevention Authority) quietly funneled at least $30M — from a 2023 law (SB 224) adding a $1 fee to auto-insurance policies specifically to fight catalytic-converter theft, passed unanimously with no legislative discussion of ALPR — into building 3,200+ Flock cameras statewide since 2023, including a $15.9M/~1,200-camera TX DPS contract; Gov. Abbott then verbally directed state agencies to halt future Flock funding (narrow/prospective only, doesn't mandate removing existing cameras or touch local/federal/private funding) | Fee effective 2023-05-29 (SB 224) / cameras built 2023-2026 / Tribune investigation + Abbott directive 2026-08-27/28 | [Texas Tribune](https://www.texastribune.org/2026/08/28/texas-greg-abbott-flock-cameras-order-state-money/), [EFF](https://www.eff.org/deeplinks/2026/09/texas-and-florida-step-back-alprs), [TX Dept. of Insurance Bulletin B-0006-23](https://www.tdi.texas.gov/bulletins/2023/B-0006-23.html), [TX Legislature SB 224 bill analysis](https://capitol.texas.gov/tlodocs/88R/analysis/pdf/SB00224F.pdf), [TxDMV FY2025 Chairman's Annual Report](https://www.txdmv.gov/sites/default/files/report-files/FY-2025_Chairmans_Annual_Report.pdf) | Direct fetch (investigative reporting + three independent official Texas government documents — the strongest-sourced entry in the corpus); the $30M/3,200-camera totals themselves rest on the Tribune's own reporting, not an itemized public ledger this session located, so treat as "confirmed by direct-fetch of a named investigative source" rather than independently re-derived from a raw financial record. See `notes/2026-09-04-texas-fee-diversion-verification-and-corpus-addition.md` for full verification detail and an explicit theory-chain-fit assessment (funding-purpose-diversion variant of Theme 2's institutional-secrecy mechanism, not the data-sharing-default variant the locked Study 2 manipulation targets — supports Theme 2's existence/generalizability, not load-bearing for a quantitative claim, same evidentiary role as #16/#25) |
 
 **Corpus notes:** #1-4, #6-16 directly verified this pass (fetched or multi-source
 WebSearch-triangulated); #5, #17-19 are real but thinner-sourced (single article, headline-
@@ -91,7 +92,16 @@ treated as secondary/imprecise characterizations, not a genuine competing primar
 Confidence: WebSearch-triangulated, not direct-fetch — a direct read of the charging document or
 the CNN piece would still be the fully conclusive check, but 179 is no longer a coin-flip between
 two equally-weighted numbers.
-Geographic spread achieved: OR, IL, NY, VA (×3: Richmond, Hampton Roads, Norfolk), TX (×2), OH,
+**#26 added 2026-09-04** (`notes/2026-09-04-texas-fee-diversion-verification-and-corpus-addition.md`)
+— direct-fetch verified against the Texas Tribune's own investigation plus three independent
+official Texas government documents (TDI bulletin, Texas Legislature bill analysis, TxDMV annual
+report). Note for future sessions: **WebFetch worked normally this session** (successful direct
+fetches of texastribune.org, eff.org, tdi.texas.gov, capitol.texas.gov, txdmv.gov, and local PDF
+reads) — the `EGRESS_BLOCKED` failures logged across fourteen straight prior sessions (through
+2026-08-25) did not recur here; worth re-testing WebFetch on #20-25's still-unverified sources in a
+future session rather than assuming the block is still in effect.
+Geographic spread achieved: OR, IL, NY, VA (×3: Richmond, Hampton Roads, Norfolk), TX (×2: unspecified
+abortion case #5, statewide fee-diversion #26), OH,
 CA (×4: LA, San Jose, statewide, Mountain View), NE, CO, MI (×3: Menominee, Ferndale/Oakland
 Co., statewide implied), MA, WI (×3: Appleton, Menasha, Milwaukee), national — 14 states plus one
 national-level piece, a meaningfully broader footprint than Data Center Paper's original
