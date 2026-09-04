@@ -1568,3 +1568,137 @@ video interviews) but reads as a crowded, vendor-driven capability space without
 academic-gap differentiator. No material found tonight that sharpens or refreshes any pre-existing
 entry (unlike 09-02's 1a/SpaceX refreshes) — 23-25 are genuinely new mechanisms/objects. Ideas 20, 21,
 22 remain from prior nights, still awaiting a greenlight call.
+
+## 2026-09-04 — nightly scouting run (WebSearch only this session; did not test WebFetch/egress
+tonight — treat sourcing below as WebSearch-summarized leads, not primary-source-verified, consistent
+with every prior entry in this file). Checked ideas 20-25 for anything that would change their
+assessment — found nothing materially new on any of them tonight; not re-logged or refreshed, per
+standing instruction.
+
+### 26. The FTC's "Active Listening" case (Cox Media Group) as a real-world debunking shock to the
+widespread "my phone is listening to me" belief — advertising-trust spillover, not just belief mapping
+(high confidence — genuinely new stimulus, no prior test of exposure-to-a-debunking-case found; the
+underlying belief itself is already well-mapped academically, which is an honest scoping note, not a
+disqualifier)
+- **Gap/question:** the FTC finalized orders against Cox Media Group (CMG) and two smaller firms
+  (MindSift, 1010 Digital Works) on August 27, 2026 — about a week before tonight — over a marketing
+  service branded "Active Listening" that CMG sold to advertiser-clients on the claim it could target
+  localized ads based on conversations picked up by consumers' smart devices, with consumers supposedly
+  having "opted in" via ordinary app terms-of-service. The FTC's finding: the service never listened to
+  anyone or used voice data at all — it was resold, marked-up email-list data from data brokers, sold
+  under a fabricated capability. CMG pays $880,000; MindSift and 1010 Digital Works pay $25,000 each, for
+  consumer redress. This lands squarely on top of a well-documented, widespread belief: cross-national
+  academic survey work (Segijn, Strycharz, Turner & Opree, 2024/2025, published via Sage) finds roughly
+  48% of Americans believe their phones are actively listening to conversations for ad-targeting purposes
+  — a belief experts broadly agree isn't supported by technical evidence, but that persists via priming,
+  confirmation bias, and misattribution. That existing research maps the *belief itself* thoroughly, but
+  doesn't (and couldn't, since this case is a week old) test what happens to the belief, or to broader
+  trust in digital/targeted advertising, when a real, FTC-confirmed case surfaces that is neither a clean
+  debunking nor a clean confirmation — a company really *did* try to sell exactly the capability the myth
+  describes, and got caught faking it rather than actually having it. That ambiguity (proof someone tried,
+  proof it didn't technically work) is a different exposure stimulus than either "here's why phones can't
+  listen" (pure debunking) or "here's proof they do" (pure confirmation), and isn't something the existing
+  belief-mapping literature has had a live case to test against.
+- **Why tractable soon:** the finalized-order date (Aug 27, 2026) is current, and coverage already exists
+  with concrete, quotable numbers and plain-language framing (Yahoo Finance, TechTimes, RadioInk, Captain
+  Compliance, the FTC's own release) — enough to build a vignette stimulus (a short news-style summary of
+  the case) without needing to wait on further developments. A WebSearch saturation check tonight for
+  existing academic/PLS-SEM work testing exposure to a real ad-surveillance-myth-adjacent enforcement case
+  as a trust antecedent came back empty — what exists is the belief-prevalence mapping (Segijn et al.) and
+  general AI-disclosure-and-trust literature already flagged elsewhere in this file (ideas 14, 25), neither
+  of which uses this kind of ambiguous-verdict natural stimulus.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: exposure to a
+  vignette summarizing the Cox Media Group case (vs. a no-exposure control, and possibly vs. a version
+  emphasizing "it was fake" alone or "a company really tried this" alone, to separate the two readings).
+  Mediator candidates: change in phone-eavesdropping belief strength, or more broadly, perceived
+  trustworthiness of targeted/AI-driven advertising claims generally (a spillover-skepticism construct,
+  structurally similar to idea 19's "trust-checking" framing but for a different stimulus). Outcome:
+  general trust in digital advertising, self-reported privacy-protective intentions (app-permission
+  restriction, ad-blocker use), willingness to believe *other* AI-marketing-capability claims at face
+  value. Plausible moderator: strength of prior belief in phone-listening (does the ambiguous case backfire
+  for strong believers — a motivated-reasoning/continued-influence-effect risk worth testing explicitly,
+  not assuming away).
+- **Human-subjects flag:** any design showing the vignette to real respondents and measuring belief/trust
+  change is primary human-subjects survey data and would need IRB approval before proceeding — flagging
+  per standing repo rule, not proceeding past the idea stage.
+- **Target venue:** *Journal of Advertising* or *Journal of Consumer Marketing* (advertising-trust framing
+  fits directly); *Journal of Public Policy & Marketing* is a plausible alternate given the FTC-enforcement
+  angle, consistent with several of Britton's other JPP&M-track ideas in this file.
+- Leads (unverified, WebSearch only): [FTC — Cox Media Group, two other firms to pay nearly $1 million (finalized order, Aug 27, 2026)](https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-finalizes-orders-cox-media-group-two-other-firms-settling-charges-they-deceived-customers-about), [FTC — original charges (May 2026)](https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived), [Yahoo Finance — Cox Media Group reach settlement with FTC over fake AI ad service](https://finance.yahoo.com/sectors/technology/articles/cox-media-group-reach-settlement-132109366.html), [TechTimes — Cox Media Group fined $930K, claimed AI listened to phones](https://www.techtimes.com/articles/317217/20260526/cox-media-group-fined-930k-ftc-claimed-ai-listened-phones-sold-email-lists.htm), [Radio Ink — FTC says CMG falsified Active Listening AI ad tool](https://radioink.com/2026/05/22/ftc-says-cox-media-group-falsified-active-listening-ai-ad-tool/), [Sage/Big Data & Society — Segijn, Strycharz, Turner & Opree, "My phone must be listening!": surveillance beliefs around devices "listening" (2025)](https://journals.sagepub.com/doi/10.1177/20539517251337102), [Sage — same authors, "Conversation-Related Advertising and Electronic Eavesdropping" (2024)](https://journals.sagepub.com/doi/10.1177/20563051241288448)
+
+### 27. Tariff-attribution as a stigma-reducing legitimizer for secondhand/resale shopping (moderate
+confidence — real, current economic data tying tariffs to resale growth, but the general secondhand-
+consumption/stigma literature is already substantial and recently systematically reviewed, so this is a
+narrow slice of an old literature, not a fresh gap — logging with an explicit weakness flag, same
+treatment this file gave idea 25)
+- **Gap/question:** 2026 reporting explicitly ties tariff-driven new-goods inflation to secondhand-market
+  growth — Wells Fargo economists are quoted describing households "seeking to blunt the impact of
+  tariffs by buying used merchandise," US thrift-store revenue is estimated at $13.7B in 2026, and the
+  broader US secondhand apparel market is estimated at $61B, up 8.2% year over year, growing several times
+  faster than first-hand retail. The open question: does framing a secondhand purchase explicitly as a
+  tariff-driven necessity (vs. the generic frugality/sustainability motivations the existing literature
+  already studies) reduce the social stigma/perceived-status-cost of buying used, and does that in turn
+  increase purchase intention or willingness to openly discuss the purchase (a word-of-mouth outcome) —
+  i.e., does an external, blameless economic cause (tariffs, not personal financial hardship) function as
+  a social-legitimacy shield the existing frugality-motivation framing doesn't provide.
+- **Honest weakness flag:** a saturation check tonight found secondhand consumption, its motivations, and
+  its stigma/legitimacy dynamics are already a substantial, recently-reviewed academic literature — a 2024
+  *International Journal of Consumer Studies* systematic literature review (Gilal et al.) and a
+  ScienceDirect paper on "relational legitimacy" overcoming secondhand-clothing stigma both already exist,
+  alongside consumer-segment typologies (frugality-driven "thrift-seekers" vs. identity-driven
+  "creativists"). The general mechanism (stigma, legitimacy, motivation) is not a gap; only the specific
+  external-attribution framing (tariffs as a blameless cause, mirroring the causal-attribution logic
+  already used in TARIFF_PAPER's Study 1 and ideas 2a/7/9/21 in this file) is untested, as far as tonight's
+  search found — a narrower opening than most entries in this file, and one Britton should weigh against
+  how differentiated a reviewer would find it from the existing stigma/legitimacy literature.
+- **Why tractable soon:** the 2026 growth figures and the explicit tariff-framing in trade press (Wells
+  Fargo commentary, thrift-industry revenue data) are current, but there's no fixed legal/regulatory date
+  anchoring this the way most of this file's stronger entries have — it's an ongoing economic trend, not a
+  single dated event, which is a real limit on how "near-term" this reads compared to ideas like 23/24.
+- **Rough method sketch:** experimental (vignette) design. Manipulate purchase-justification framing
+  (explicit "buying secondhand because of tariff-driven price increases on new goods" vs. generic
+  budget-consciousness vs. sustainability motivation, holding the actual purchase constant) in a
+  secondhand-clothing or general-goods scenario. Mediator: perceived social legitimacy / reduced
+  self-stigma of the purchase. Outcome: purchase intention, willingness to disclose the purchase to
+  others (a WOM/self-presentation outcome). Plausible moderator: category (clothing/fashion, where stigma
+  research concentrates, vs. lower-stigma categories like books/electronics) or prior secondhand-shopping
+  frequency.
+- **Target venue:** *International Journal of Consumer Studies* (same venue as the existing systematic
+  review — a natural but high-scrutiny home) or *Journal of Consumer Marketing*/*Journal of Consumer
+  Behaviour* as alternates.
+- Leads (unverified, WebSearch only): [Forbes — Resale Market 2026: From Thrift To Retail's Next Growth Engine](https://www.forbes.com/sites/richardkestenbaum/2025/12/16/resale-market-2026-from-thrift-to-retails-next-growth-engine/), [ThredUp — 2026 Resale Market and Consumer Trend Report](https://www.thredup.com/resale), [IBISWorld — Thrift Stores in the US Industry Analysis, 2026](https://www.ibisworld.com/united-states/industry/thrift-stores/5525/), [Wiley/IJCS — Gilal et al., "Secondhand consumption: A systematic literature review and future research agenda" (2024)](https://onlinelibrary.wiley.com/doi/10.1111/ijcs.13059), [ScienceDirect — "Understanding the expansion of circular markets: Building relational legitimacy to overcome the stigma of second-hand clothing"](https://www.sciencedirect.com/science/article/pii/S2352550921003420)
+
+Both proposals only, per standing rule — nothing built, nothing committed to. Idea 26 is the stronger of
+tonight's two (a genuinely fresh, ambiguous-verdict stimulus with no prior academic test found); idea 27
+is real but narrow, sitting inside an already-reviewed literature, and logged with that caveat explicit
+rather than oversold. Also checked tonight and set aside, each for a specific reason:
+- **Louisiana SB490 ("private power" bill allowing large industrial/data-center loads to build private
+  electrical networks bypassing utility regulation)** — genuinely relevant to the ratepayer-fairness
+  mechanism already tracked under idea 1a, but confirmed dead for the 2026 Regular Session (no floor vote,
+  no veto — it simply ran out of legislative clock) as of tonight's check. Reads as corpus/context material
+  for whoever next refreshes 1a (a second, distinct mechanism — regulatory exit/self-generation, not just
+  cost-allocation for facilities that stay on the grid), not a standalone idea given the dead-bill status;
+  worth rechecking if reintroduced next session.
+- **OpenAI's shutdown of in-chat "Instant Checkout" in ChatGPT (announced March 2026, after only ~30
+  merchants integrated it)** — a real, dated agentic-commerce adoption failure, but reads as corpus/context
+  material for the already-logged ideas 6 (agentic commerce delegation) and 10 (AI-answer brand exclusion)
+  rather than a distinct new mechanism; the reporting attributes the failure mostly to consumer preference
+  for completing purchases on merchants' own sites plus real infrastructure gaps (tax, fraud, inventory
+  sync), not a clean trust-specific finding, so it doesn't cleanly stand alone.
+- **FTC's Junk Fees Rule (total-price display for live-event tickets and short-term lodging)** — real and
+  marketing-relevant, but effective since May 2025, well over a year old as of tonight, and sits on top of
+  a long-established partitioned/drip-pricing academic literature — same "stale, generically-true" call
+  this file has made on shrinkflation and similar evergreen topics.
+- **National Flood Insurance Program reauthorization (deadline September 30, 2026, roughly four weeks
+  out)** — genuinely Louisiana-relevant given the state's outsized flood-claim exposure, and has a fixed
+  near-term date, but the program has been reauthorized via short-term extension 35 times since 2017 with
+  no lapse-avoided-again pattern breaking; this reads as the same kind of recurring, no-fresh-hook topic
+  this file set aside for shrinkflation/click-to-cancel's federal stall — worth a look only if it actually
+  lapses this time, which would be a genuinely new event.
+- **Recent LLM-assisted-qualitative-coding papers (a 2026 CHI extended-abstract on an on-device open-source
+  LLM coding tool, a 2026 Sage comparative study using Gemma2/Llama3.1 on patient interviews)** — confirms
+  the field flagged as already-active in ideas 4/18 remains active, but nothing found tonight sharpens or
+  changes those two entries' own assessment; not logged as a refresh.
+
+Ideas 20, 21, 22, 23, 24, 25 remain from prior nights, still awaiting a greenlight call — nothing tonight
+changes their assessment.
