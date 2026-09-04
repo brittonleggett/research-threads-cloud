@@ -1,11 +1,13 @@
 # Study 1: Method — Manuscript-Ready Draft (2026-09-04, CONSOLIDATED)
 
-**Update, later 2026-09-04, walked back:** Claude proposed Phase 3 resolutions;
-Britton asked to hold off adopting them and review independently first. Nothing in
-this file's Coding Procedure/AI-Use Disclosure below is finalized — see
-`Study1_Phase3_Quick_Decisions_2026-09-04.md` for the actual open decisions and
-`Tariff_Manuscript_Working_Draft_2026-09-04.md` for the provisional (not confirmed)
-Results paragraph drafted from Claude's proposals.
+**Update, later 2026-09-04, Phase 3 finalized by Britton:** Britton reviewed Claude's
+proposed Phase 3 resolutions independently and finalized **six themes, not seven** —
+overriding Claude's suggestion to elevate Home Depot's `reversal-narrative` to a
+seventh theme, reporting it as a deviant case instead. Full record:
+`Study1_Phase3_Quick_Decisions_2026-09-04.md`. The current Coding Procedure/Results
+text is in `Tariff_Manuscript_Working_Draft_2026-09-04.md`, which supersedes this
+file's Coding Procedure section below (kept for the record, not updated line-by-line
+here to avoid two copies drifting).
 
 **Status note (delete before submission):** This replaces the two-file split between
 `Study1_Methods_Section_DRAFT_2026-08-11.md` (base structure) and
@@ -78,10 +80,13 @@ research question, data source, and theoretical frame, (1) deductive and inducti
 coding of individual artifacts, (2) clustering of codes into candidate themes, (3)
 review and refinement of candidate themes, (4) definition and naming of finalized
 themes, and (5) write-up. Consistent with the precedent established in Xu (2026),
-**Phase 3 (theme review) was conducted by the researcher alone, without AI
-involvement** — a deliberate methodological choice reflecting the judgment that
-recursive, contextual theme refinement is not a task current models perform reliably
-without a human interpretive check.
+**Phase 3 (theme review) was conducted by the researcher.** Claude surfaced candidate
+resolutions for each open clustering/scope decision with supporting evidence
+summarized for each; the researcher independently reviewed these, adopting three as
+proposed and overriding a fourth — declining to elevate a single-artifact deviant case
+to a full theme (see `Study1_Phase3_Quick_Decisions_2026-09-04.md`) — reflecting the
+judgment that theme-level interpretive calls require a human check current models
+aren't relied on to make unsupervised.
 
 ### Reliability and Validity
 
@@ -154,12 +159,13 @@ researcher, not revisited here.
 
 Consistent with emerging disclosure norms in this literature (Xu, 2026; Naeem et al.,
 2025), the authors disclose that AI assistance (Claude, Anthropic) was used in corpus
-coding (Phases 1–2) and theme-naming support (Phase 4). Theme review (Phase 3) and all
-substantive interpretive judgments were conducted by the authors without AI
-involvement. [Full disclosure statement to be finalized in acknowledgements per
-journal requirements. **This sentence's accuracy depends on how the pending Phase 3
-review actually goes — see `Study1_Phase3_Quick_Decisions_2026-09-04.md` — update it
-to match once that's done, don't leave it stale either direction.**]
+coding (Phases 1–2) and theme-naming support (Phase 4). For Phase 3, Claude surfaced
+candidate resolutions with supporting evidence for each open clustering/scope
+decision; the researcher independently reviewed these and made the final
+determination for each, including overriding one AI-surfaced recommendation
+(declining to elevate a single-artifact deviant case to a full theme). All final
+interpretive judgments were the researcher's. [Full disclosure statement to be
+finalized in acknowledgements per journal requirements.]
 
 ---
 
@@ -168,12 +174,11 @@ to match once that's done, don't leave it stale either direction.**]
 1. Confirm whether the Home Depot May 2025 / May 2026 beats can be direct-fetch-upgraded
    from Tier B to Tier A (The Hill returned a 403 on the last attempt; Digital Commerce
    360 not yet attempted) — low priority, doesn't block writing.
-2. **Conduct Phase 3 theme review (researcher-only)** — Claude's proposed resolution is
-   ready for your review in `Study1_Phase3_Quick_Decisions_2026-09-04.md`, but the
-   actual review is still yours to do.
+2. ~~Conduct Phase 3 theme review~~ — **done 2026-09-04**, see
+   `Study1_Phase3_Quick_Decisions_2026-09-04.md` (six themes finalized, Home Depot
+   kept as a deviant case).
 3. Run the validation pilot (confirm grad-assistant status first — see Reliability and
    Validity above) and compute agreement statistics.
 4. Finalize the N and update this draft's placeholder language accordingly.
-5. Finalize the Results subsection — a provisional draft exists in
-   `Tariff_Manuscript_Working_Draft_2026-09-04.md`, written from Claude's unconfirmed
-   Phase 3 proposal; revise it once your own review is done.
+5. ~~Write the Results subsection~~ — **done**, see `Tariff_Manuscript_Working_
+   Draft_2026-09-04.md` — reflects the final six-theme structure.
