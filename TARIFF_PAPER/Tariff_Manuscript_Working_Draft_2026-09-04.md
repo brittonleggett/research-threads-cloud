@@ -380,18 +380,114 @@ appendix this weekend, this paragraph is a 2-minute edit, not a rewrite.]**
 
 ---
 
+# References
+
+**Compiled 2026-09-04 from bibliographic detail already established in this project's
+own files** (`Overnight_Citation_Verification_2026-07-08.md`,
+`notes/2026-08-04-scale-sourcing.md`, `notes/2026-08-04-AI-methodology-justification.md`,
+`notes/2026-09-04-purchase-intention-wom-scales-resolved.md`, and
+`Claude Knowledge\Thematic Analysis\AI_Assisted_TA_Shared_Method.md`, whose citation
+list was Crossref-verified 2026-07-08) — not re-researched here, just assembled into
+one alphabetical list for the first time. Five entries carry an explicit gap, flagged
+inline rather than papered over; everything else below has a confirmed journal,
+volume, and page range from this project's own prior verification work.
+
+AlGhamdi, R. (2026). From code variability to theme convergence: AI–human alignment in
+thematic analysis with Claude Code. *International Journal of Qualitative Methods*.
+https://doi.org/10.1177/16094069261462093
+
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. *Qualitative
+Research in Psychology, 3*(2), 77–101. **[Not independently verified in this
+project's own pipeline — canonical, extremely well-established citation; worth one
+quick confirm before submission, same standard applied to everything else here.]**
+
+Braun, V., & Clarke, V. (2019). Reflecting on reflexive thematic analysis.
+*Qualitative Research in Sport, Exercise and Health, 11*(4), 589–597. **[Same flag as
+above — not independently verified in this project's pipeline.]**
+
+Brehm, J. W. (1966). *A theory of psychological reactance*. Academic Press. **[Same
+flag — confirmed as a real, foundational citation in the 2026-07-08 verification pass,
+but exact publisher detail not independently re-checked since.]**
+
+Campbell, M. C. (1999). Perceptions of price unfairness: Antecedents and consequences.
+*Journal of Marketing Research, 36*(2), 187–199.
+
+Campbell, M. C. (2007). **[Exact title/journal not yet captured anywhere in this
+project — only described secondhand as "Campbell's 2007 follow-up" extending the 1999
+opportunism construct in `notes/2026-09-03-consensus-campbell-1999-opportunism-
+scale.md`. This is the one citation in this list that needs a real lookup, not just a
+spot-check, before it can go in a reference list — H1b/H2b's opportunism measure
+depends on it.]**
+
+Chaudhuri, A., & Holbrook, M. B. (2001). The chain of effects from brand trust and
+brand affect to brand performance: The role of brand loyalty. *Journal of Marketing,
+65*(2), 81–93.
+
+Dodds, W. B. (2002). The effects of perceived and objective market cues on consumers'
+product evaluations. *Marketing Bulletin, 13*, Article 2.
+
+Dodds, W. B., Monroe, K. B., & Grewal, D. (1991). Effects of price, brand, and store
+information on buyers' product evaluations. *Journal of Marketing Research, 28*(3),
+307–319. **[Construct/attribution source for Purchase Intention — exact 1991 item
+wording still not directly verified; see the Measures section note above.]**
+
+Goyanes, M., Lopezosa, C., & Jordá, B. (2025). Thematic analysis of interview data
+with ChatGPT: Designing and testing a reliable research protocol. *Quality &
+Quantity, 59*, 5493–[end page not captured in this project's records — confirm before
+submission]. https://doi.org/10.1007/s11135-025-02199-3
+
+Grewal, D., Krishnan, R., Baker, J., & Borin, N. (1998). The effect of store name,
+brand name and price discounts on consumers' evaluations and purchase intentions.
+*Journal of Retailing, 74*(3), 331–352.
+
+Hill, C., Dahil, A., Simpson, G., Hardisty, D., Keast, J., Pinn, C. K., &
+Dambha-Miller, H. (2026). Large language models for thematic analysis in healthcare
+research: A blinded mixed-methods comparison with human analysts. *PLOS Digital
+Health, 5*(4), e0001189. https://doi.org/10.1371/journal.pdig.0001189
+
+Kahneman, D., Knetsch, J. L., & Thaler, R. (1986). Fairness as a constraint on profit
+seeking: Entitlements in the market. *American Economic Review, 76*(4), 728–741.
+
+Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under
+risk. *Econometrica, 47*(2), 263–291. **[Not independently verified in this project's
+pipeline — canonical citation; confirmed as real in the 2026-07-08 pass but without
+recorded volume/page detail until now.]**
+
+KPMG. (2026). *2026 tariff survey*.
+https://kpmg.com/us/en/media/news/kpmg-2026-tariff-survey.html
+
+Maxham, J. G., III, & Netemeyer, R. G. (2002). A longitudinal study of complaining
+customers' evaluations of multiple service failures and recovery efforts. *Journal of
+Marketing, 66*(4), 57–71.
+
+Misra, R., et al. (2026). Large language models in qualitative analysis: Comparing
+traditional and researcher-interpreted approaches. *International Journal of
+Qualitative Methods*. https://doi.org/10.1177/16094069261426100 **[Full author list
+beyond the lead author not captured in this project's records — pull before
+submission.]**
+
+Naeem, M., Smith, T., & Thomas, L. (2025). Thematic analysis and artificial
+intelligence: A step-by-step process for using ChatGPT in thematic analysis.
+*International Journal of Qualitative Methods, 24*, 1–18.
+https://doi.org/10.1177/16094069251333886
+
+Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of
+choice. *Science, 211*(4481), 453–458. **[Not independently verified in this
+project's pipeline — canonical citation, same flag as the 1979 entry above.]**
+
+Xu, W. (2026). Doing thematic analysis in the age of generative AI: Practices, ethics
+and reflexivity. *International Journal of Qualitative Methods, 25*, 1–14.
+https://doi.org/10.1177/16094069261425173
+
+---
+
 # What's not written yet (correctly)
 
 - **Study 2 Results, Study 3 Results** — no data collected; IRB not yet submitted.
 - **Discussion, Implications, Limitations, Conclusion** — depend on the above.
-- **Full reference list** — every citation above traces to a real source found and
-  read directly in this project's own research (Campbell 1999/2007, Chaudhuri &
-  Holbrook 2001, Grewal et al. 1998, Dodds et al. 1991, Maxham & Netemeyer 2002, Hill
-  et al. 2026, AlGhamdi 2026, Braun & Clarke 2006/2019, Xu 2026, Naeem et al. 2025,
-  Goyanes et al. 2025, Misra et al. 2026, KPMG 2026 survey), with full bibliographic
-  detail available in the notes cited inline above. The theoretical-foundation
-  citations (Kahneman, Knetsch, & Thaler 1986; Kahneman & Tversky 1979; Tversky &
-  Kahneman 1981; Brehm 1966) are classic, well-known citations that predate this
-  project's own verification pipeline — worth one quick check of exact journal/
-  volume/page details before the reference list is finalized, same as everything else
-  got checked.
+- **Reference list gaps** — five entries above are flagged individually; the one real
+  blocker is **Campbell (2007)**, whose exact title/journal isn't captured anywhere in
+  this project yet and directly underpins the opportunism scale (H1b/H2b). The other
+  four (Braun & Clarke 2006/2019, Kahneman & Tversky 1979, Tversky & Kahneman 1981,
+  Brehm 1966) are canonical citations already confirmed real in an earlier pass, just
+  worth a final spot-check against the exact wording above before submission.
