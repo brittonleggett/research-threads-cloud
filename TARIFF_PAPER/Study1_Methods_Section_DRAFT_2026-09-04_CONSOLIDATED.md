@@ -1,10 +1,11 @@
 # Study 1: Method — Manuscript-Ready Draft (2026-09-04, CONSOLIDATED)
 
-**Update, later 2026-09-04:** Phase 3 is now resolved — see
-`Study1_Phase3_Quick_Decisions_2026-09-04.md` and the fuller Coding Procedure/Results
-text in `Tariff_Manuscript_Working_Draft_2026-09-04.md`, which is now the more current
-copy of this section (this file's Coding Procedure/AI-Use Disclosure below are updated
-to match but the manuscript working draft has the full Results paragraph too).
+**Update, later 2026-09-04, walked back:** Claude proposed Phase 3 resolutions;
+Britton asked to hold off adopting them and review independently first. Nothing in
+this file's Coding Procedure/AI-Use Disclosure below is finalized — see
+`Study1_Phase3_Quick_Decisions_2026-09-04.md` for the actual open decisions and
+`Tariff_Manuscript_Working_Draft_2026-09-04.md` for the provisional (not confirmed)
+Results paragraph drafted from Claude's proposals.
 
 **Status note (delete before submission):** This replaces the two-file split between
 `Study1_Methods_Section_DRAFT_2026-08-11.md` (base structure) and
@@ -115,10 +116,12 @@ explicit recommendation.
 
 ### Coding Procedure and Themes
 
-**Phase 3 resolved 2026-09-04 — see the update note at the top of this file; full
-7-theme list and Results paragraph in `Tariff_Manuscript_Working_Draft_2026-09-04.md`.**
-For the record, the provisional five-theme state this section originally described:
-subject to the researcher's ongoing review: (1) *restraint signaling*, in which firms
+**[PENDING — Phase 3 not yet confirmed by Britton.]** Claude's proposed 7-theme
+resolution is in `Study1_Phase3_Quick_Decisions_2026-09-04.md` (not yet reviewed) and
+the provisional Results paragraph drafted from it is in
+`Tariff_Manuscript_Working_Draft_2026-09-04.md`. The original five-theme state this
+section described, still the last researcher-confirmed state: (1) *restraint
+signaling*, in which firms
 frame price actions as the minimum necessary response; (2) *causation attribution*,
 ranging from explicit naming of tariffs as cause to vague or silent framing, present in
 some form across the full corpus and the strongest candidate for a theoretically
@@ -149,13 +152,14 @@ researcher, not revisited here.
 
 ### AI-Use Disclosure
 
-**Updated 2026-09-04 — see this file's top note.** Consistent with emerging disclosure
-norms in this literature (Xu, 2026; Naeem et al., 2025), the authors disclose that AI
-assistance (Claude, Anthropic) was used in corpus coding (Phases 1–2), Phase 3
-theme-review recommendations (reviewed and adopted by the researcher, 2026-09-04), and
-theme-naming support (Phase 4). All final interpretive decisions were made by the
-researcher. [Full disclosure statement to be finalized in acknowledgements per journal
-requirements.]
+Consistent with emerging disclosure norms in this literature (Xu, 2026; Naeem et al.,
+2025), the authors disclose that AI assistance (Claude, Anthropic) was used in corpus
+coding (Phases 1–2) and theme-naming support (Phase 4). Theme review (Phase 3) and all
+substantive interpretive judgments were conducted by the authors without AI
+involvement. [Full disclosure statement to be finalized in acknowledgements per
+journal requirements. **This sentence's accuracy depends on how the pending Phase 3
+review actually goes — see `Study1_Phase3_Quick_Decisions_2026-09-04.md` — update it
+to match once that's done, don't leave it stale either direction.**]
 
 ---
 
@@ -164,9 +168,12 @@ requirements.]
 1. Confirm whether the Home Depot May 2025 / May 2026 beats can be direct-fetch-upgraded
    from Tier B to Tier A (The Hill returned a 403 on the last attempt; Digital Commerce
    360 not yet attempted) — low priority, doesn't block writing.
-2. ~~Conduct Phase 3 theme review~~ — **done 2026-09-04**, see top note.
+2. **Conduct Phase 3 theme review (researcher-only)** — Claude's proposed resolution is
+   ready for your review in `Study1_Phase3_Quick_Decisions_2026-09-04.md`, but the
+   actual review is still yours to do.
 3. Run the validation pilot (confirm grad-assistant status first — see Reliability and
    Validity above) and compute agreement statistics.
 4. Finalize the N and update this draft's placeholder language accordingly.
-5. ~~Write the Results subsection~~ — **done**, see `Tariff_Manuscript_Working_
-   Draft_2026-09-04.md`.
+5. Finalize the Results subsection — a provisional draft exists in
+   `Tariff_Manuscript_Working_Draft_2026-09-04.md`, written from Claude's unconfirmed
+   Phase 3 proposal; revise it once your own review is done.
