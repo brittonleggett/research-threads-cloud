@@ -125,7 +125,7 @@ perfectly verified.
 | **Pretest** (vignette validation, N=150-180, Prolific) | Design specified (`notes/2026-08-04-pretest-design.md`) — **not yet run.** Must complete and be analyzed BEFORE Study 2 can launch (may trigger vignette revisions) — this is a real sequencing dependency, not something that can run in parallel with Study 2 | **Yes — gates Study 2 specifically; only Study 3 can run in parallel with Pretest+Study 2** |
 | Study 2 vignette stimuli (6 cells) | **Drafted v1** (2026-08-04) | No |
 | Study 2/3 instrument content & flow | **Fully specified with recommended defaults for every remaining decision** (2026-08-04, updated 2026-09-03) — not yet built in Qualtrics | No longer blocking on content — just needs Britton's confirm/override pass and the actual Qualtrics build |
-| Study 2/3 scales (5 total) | **3 of 5 resolved with quote-level wording** (Trust, Fairness, Opportunism — the two theoretically load-bearing mediators are now solid). Purchase Intention needs Britton's pick between 2 candidate wordings; WOM remains genuinely unverified (best-guess placeholder). See `notes/2026-08-04-full-instrument-assembly.md` items 6-10. | **Down to a minor blocker** — only 2 secondary-DV scales left, neither as critical as what's already resolved |
+| Study 2/3 scales (5 total) | **4 of 5 resolved with quote-level wording** (Trust, Fairness, Opportunism, and now WOM — see `notes/2026-09-04-purchase-intention-wom-scales-resolved.md` for Maxham & Netemeyer 2002's verbatim 3-item Favorable WOM scale, fetched directly from the paper's own Appendix A). Purchase Intention is improved but not closed: the real 1991 Dodds, Monroe & Grewal appendix is still paywalled, but Grewal et al. (1998, *Journal of Retailing*, co-authored by one of the original scale's own authors) reproduces the 3 items verbatim in its own Table 1 — item 3 matches the project's existing draft, items 1-2 don't and should be swapped for the Grewal et al.-sourced wording pending Britton's pick (existing draft vs. this stronger secondary source vs. waiting for the real appendix). See `notes/2026-08-04-full-instrument-assembly.md` items 6-10. | **Down to one minor blocker** — WOM is done; Purchase Intention just needs Britton's pick among 3 options, none as critical as what's already resolved |
 | IRB application package | **Draft content complete.** Britton completed a CITI refresher 2026-09-03 (new Record ID 79382211, McNeese-affiliated, expires 2029-09-03) — this resolved 2 of 3 flagged concerns (institution affiliation, expiration). **One item still open: it's still "Stage 1 - Basic Course," not the "Comprehensive" module McNeese's policy text names.** | **Down to one specific confirm-with-IRB-office question** — everything else in the package is ready |
 | **IRB submission to McNeese HSIRB** | **No evidence of actual submission as of 2026-09-03** | **Yes — the critical-path item** |
 | Study 2 data collection (Prolific, N target 360–600) | **Not started** | Depends on IRB |
@@ -200,9 +200,12 @@ perfectly verified.
 3. ~~Fairness scale~~ — **resolved 2026-09-03**, Campbell (1999) Study 2
    two-item scale (r=.84), see `notes/2026-08-04-full-instrument-
    assembly.md` item 6.
-4. Purchase Intention: which version — existing 3-item draft, Fennell et
-   al.'s 4-item proxy, or wait for a direct pull of Dodds et al. (1991)?
-   The one real remaining scale decision.
+4. Purchase Intention: which version — existing 3-item draft, the
+   Grewal et al. (1998)-sourced wording (item 3 already matches the draft;
+   items 1-2 don't and are likely more accurate — see
+   `notes/2026-09-04-purchase-intention-wom-scales-resolved.md`), or wait
+   for a direct pull of Dodds et al. (1991)'s own 1991 appendix (still
+   paywalled as of 2026-09-04)? The one real remaining scale decision.
 5. **Has the grad assistant completed the blind-coding worksheet yet?**
    Confirmed this pass: as of 2026-08-27 it was still an unfilled
    instruction sheet, not a completed comparison — no Gwet's AC1 computed.
