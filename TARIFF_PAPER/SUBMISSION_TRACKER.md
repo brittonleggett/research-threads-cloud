@@ -1,6 +1,8 @@
 # Submission Tracker — Tariff Messaging & Consumer Behavior (JCM Special Issue)
 
-**Last updated: 2026-09-03.** This is the living, single-source-of-truth
+**Last updated: 2026-09-04** (writing-prep pass ahead of Britton's weekend session — see
+note at bottom of Status table and the new consolidated Methods file). This is the
+living, single-source-of-truth
 status doc for getting this paper submitted. Everything else in this
 project (38+ dated files in `notes/`) is the detailed record of *how* each
 piece got built; this file is *where things stand* and *what's left*. Update
@@ -119,13 +121,13 @@ perfectly verified.
 | Introduction & Theory/Hypotheses draft | **Strong first draft done** (2026-08-12) — needs Britton's read-through, H3 confirmation, and the scale-citation fixes below reflected in-text | No — but should get a final pass once scales lock |
 | Study 1 corpus (real corporate tariff-messaging artifacts) | **Actively maintained, high confidence** — near-daily verification/correction passes through 2026-09-03 | No |
 | Study 1 coding/themes (3 themes: restraint signaling, causation attribution, mitigation-effort) | **Done**, stable since design-lock | No |
-| Study 1 Methods section draft | **Drafted** (2026-08-11, consolidated 2026-08-21) | No |
+| Study 1 Methods section draft | **Drafted, fully consolidated into one current file** (`Study1_Methods_Section_DRAFT_2026-09-04_CONSOLIDATED.md` — the 08-11/08-21 two-file split is superseded, both kept for the record) | No — but Results subsection within it can't be written until Phase 3 (below) is done |
 | Study 1 Results write-up (themes → manuscript prose) | **Not started** (~600w budgeted) | No — but needs doing |
 | Study 1 validation pilot (blind coding vs. sealed AI codes) | Worksheet is prepared **for a grad assistant to complete as second coder** (2026-08-27, full 15-artifact corpus) — worksheet text confirms it's an *instruction sheet awaiting completion*, not a finished comparison; no Gwet's AC1 or agreement stats computed yet as of this pass | **Yes — external dependency on the grad assistant, not just Britton's own time; check on this immediately given the timeline** |
 | **Pretest** (vignette validation, N=150-180, Prolific) | Design specified (`notes/2026-08-04-pretest-design.md`) — **not yet run.** Must complete and be analyzed BEFORE Study 2 can launch (may trigger vignette revisions) — this is a real sequencing dependency, not something that can run in parallel with Study 2 | **Yes — gates Study 2 specifically; only Study 3 can run in parallel with Pretest+Study 2** |
 | Study 2 vignette stimuli (6 cells) | **Drafted v1** (2026-08-04) | No |
 | Study 2/3 instrument content & flow | **Fully specified with recommended defaults for every remaining decision** (2026-08-04, updated 2026-09-03) — not yet built in Qualtrics | No longer blocking on content — just needs Britton's confirm/override pass and the actual Qualtrics build |
-| Study 2/3 scales (5 total) | **4 of 5 resolved with quote-level wording** (Trust, Fairness, Opportunism, and now WOM — see `notes/2026-09-04-purchase-intention-wom-scales-resolved.md` for Maxham & Netemeyer 2002's verbatim 3-item Favorable WOM scale, fetched directly from the paper's own Appendix A). Purchase Intention is improved but not closed: the real 1991 Dodds, Monroe & Grewal appendix is still paywalled, but Grewal et al. (1998, *Journal of Retailing*, co-authored by one of the original scale's own authors) reproduces the 3 items verbatim in its own Table 1 — item 3 matches the project's existing draft, items 1-2 don't and should be swapped for the Grewal et al.-sourced wording pending Britton's pick (existing draft vs. this stronger secondary source vs. waiting for the real appendix). See `notes/2026-08-04-full-instrument-assembly.md` items 6-10. | **Down to one minor blocker** — WOM is done; Purchase Intention just needs Britton's pick among 3 options, none as critical as what's already resolved |
+| Study 2/3 scales (5 total) | **4 of 5 fully resolved with quote-level/verbatim wording** (Trust, Fairness, Opportunism, WOM — WOM resolved 2026-09-04, Maxham & Netemeyer 2002's verbatim 3-item Favorable WOM scale, fetched directly from the paper's own Appendix A). Purchase Intention is substantially improved: the real 1991 Dodds, Monroe & Grewal appendix is still paywalled, but Grewal et al. (1998, *Journal of Retailing*, co-authored by one of the original scale's own authors) reproduces the 3 items verbatim in its own Table 1 — item 3 matches the project's existing draft, items 1-2 don't and have been swapped for the Grewal et al.-sourced wording as the new recommended default in `notes/2026-08-04-full-instrument-assembly.md` item 9 (2026-09-04). | **Down to one confirm-or-override** — WOM is done; Purchase Intention has a strong default in place, just needs Britton's sign-off (or a 1991-appendix pull if library access is handy this weekend) |
 | IRB application package | **Draft content complete.** Britton completed a CITI refresher 2026-09-03 (new Record ID 79382211, McNeese-affiliated, expires 2029-09-03) — this resolved 2 of 3 flagged concerns (institution affiliation, expiration). **One item still open: it's still "Stage 1 - Basic Course," not the "Comprehensive" module McNeese's policy text names.** | **Down to one specific confirm-with-IRB-office question** — everything else in the package is ready |
 | **IRB submission to McNeese HSIRB** | **No evidence of actual submission as of 2026-09-03** | **Yes — the critical-path item** |
 | Study 2 data collection (Prolific, N target 360–600) | **Not started** | Depends on IRB |
@@ -141,13 +143,12 @@ perfectly verified.
 ## Critical path to submission (do these roughly in this order)
 
 1. **This week:** Get your CITI certificate number/expiration (only you can
-   pull this) and pick Purchase Intention's wording (existing 3-item draft
-   vs. Fennell et al.'s 4-item proxy — see
-   `notes/2026-08-04-full-instrument-assembly.md` item 9) or pull the real
-   Dodds et al. (1991) appendix if there's time. WOM can proceed on its
-   current best-guess wording if needed — flag it as such in the IRB
-   package rather than blocking submission on it. Fairness and Opportunism
-   are done — no action needed there.
+   pull this — already done, see item 1 below) and confirm-or-override
+   Purchase Intention's new recommended default (Grewal et al. 1998-sourced
+   wording — see `notes/2026-08-04-full-instrument-assembly.md` item 9) or
+   pull the real Dodds et al. (1991) appendix if there's time. Fairness,
+   Opportunism, Trust, and WOM are all done — no action needed on any of
+   those four.
 2. **This week/early next:** Finalize IRB application package (fold in CITI
    number, finalized scale wording, realistic dates) and **submit to
    McNeese HSIRB**. This is the single highest-leverage action available
@@ -200,12 +201,12 @@ perfectly verified.
 3. ~~Fairness scale~~ — **resolved 2026-09-03**, Campbell (1999) Study 2
    two-item scale (r=.84), see `notes/2026-08-04-full-instrument-
    assembly.md` item 6.
-4. Purchase Intention: which version — existing 3-item draft, the
-   Grewal et al. (1998)-sourced wording (item 3 already matches the draft;
-   items 1-2 don't and are likely more accurate — see
-   `notes/2026-09-04-purchase-intention-wom-scales-resolved.md`), or wait
-   for a direct pull of Dodds et al. (1991)'s own 1991 appendix (still
-   paywalled as of 2026-09-04)? The one real remaining scale decision.
+4. Purchase Intention: the Grewal et al. (1998)-sourced wording is now the
+   recommended default in `notes/2026-08-04-full-instrument-assembly.md`
+   item 9 (item 3 already matched the prior draft; items 1-2 replaced) —
+   just needs your confirm-or-override, or a direct pull of Dodds et al.
+   (1991)'s own 1991 appendix if you get library access this weekend. Last
+   real scale decision, and it's now a quick yes/no, not a blind pick.
 5. **Has the grad assistant completed the blind-coding worksheet yet?**
    Confirmed this pass: as of 2026-08-27 it was still an unfilled
    instruction sheet, not a completed comparison — no Gwet's AC1 computed.
