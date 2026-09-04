@@ -120,9 +120,9 @@ perfectly verified.
 | Venue/design lock (3×2 factorial, JCM fit) | **Done** (2026-08-04, reconfirmed 2026-08-13) | No |
 | Introduction & Theory/Hypotheses draft | **Strong first draft done** (2026-08-12) — needs Britton's read-through, H3 confirmation, and the scale-citation fixes below reflected in-text | No — but should get a final pass once scales lock |
 | Study 1 corpus (real corporate tariff-messaging artifacts) | **Actively maintained, high confidence** — near-daily verification/correction passes through 2026-09-03 | No |
-| Study 1 coding/themes (3 themes: restraint signaling, causation attribution, mitigation-effort) | **Done**, stable since design-lock | No |
-| Study 1 Methods section draft | **Drafted, fully consolidated into one current file** (`Study1_Methods_Section_DRAFT_2026-09-04_CONSOLIDATED.md` — the 08-11/08-21 two-file split is superseded, both kept for the record) | No — but Results subsection within it can't be written until Phase 3 (below) is done |
-| Study 1 Results write-up (themes → manuscript prose) | **Not started** (~600w budgeted) | No — but needs doing |
+| Study 1 coding/themes (7 themes final, up from the original 3-5) | **Phase 3 done 2026-09-04** — see `Study1_Phase3_Quick_Decisions_2026-09-04.md`. Used a recommend-and-confirm protocol (Claude proposed each resolution with reasoning, Britton confirmed adopting) rather than researcher-only review — the Methods draft's AI-Use Disclosure was updated to describe this accurately rather than left stating "no AI involvement" | No |
+| Study 1 Methods section draft | **Drafted, fully consolidated**, updated same day once Phase 3 closed (`Study1_Methods_Section_DRAFT_2026-09-04_CONSOLIDATED.md`) | No |
+| Study 1 Results write-up (themes → manuscript prose) | **Done 2026-09-04** (~600w), in `Tariff_Manuscript_Working_Draft_2026-09-04.md` | No |
 | Study 1 validation pilot (blind coding vs. sealed AI codes) | Worksheet is prepared **for a grad assistant to complete as second coder** (2026-08-27, full 15-artifact corpus) — worksheet text confirms it's an *instruction sheet awaiting completion*, not a finished comparison; no Gwet's AC1 or agreement stats computed yet as of this pass | **Yes — external dependency on the grad assistant, not just Britton's own time; check on this immediately given the timeline** |
 | **Pretest** (vignette validation, N=150-180, Prolific) | Design specified (`notes/2026-08-04-pretest-design.md`) — **not yet run.** Must complete and be analyzed BEFORE Study 2 can launch (may trigger vignette revisions) — this is a real sequencing dependency, not something that can run in parallel with Study 2 | **Yes — gates Study 2 specifically; only Study 3 can run in parallel with Pretest+Study 2** |
 | Study 2 vignette stimuli (6 cells) | **Drafted v1** (2026-08-04) | No |
@@ -214,8 +214,10 @@ perfectly verified.
    the Study 1 Method section's validation-plan claim needs this closed —
    worth checking on today, in parallel with everything else, since it's
    not on your own critical path to unblock.
-6. H3 (the interaction hypothesis) — confirm the predicted direction, per
-   `Introduction_and_Theory_DRAFT_2026-08-12.md`'s open item #2.
+6. ~~H3 (the interaction hypothesis)~~ — **resolved 2026-09-04**, kept as originally
+   drafted (amplified-under-absorption / attenuated-under-pass-through direction),
+   per Britton's confirm-Claude's-judgment call. Still worth a final gut-check on your
+   own read-through, but no longer an open design question.
 7. Which banked/measured-but-unreported scales (if any) to add to the
    instrument for a future companion paper, per
    `notes/2026-08-13-design-confirmed-3x2-word-budget.md` — resolve before

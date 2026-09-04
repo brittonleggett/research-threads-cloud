@@ -10,12 +10,20 @@ instrument-assembly.md`). Source files, unchanged and still the working copies i
 rather edit there instead: `Introduction_and_Theory_DRAFT_2026-08-12.md` and
 `Study1_Methods_Section_DRAFT_2026-09-04_CONSOLIDATED.md`.
 
-**Two real open calls left in everything below** (both flagged inline where they occur):
-1. **H3** (the interaction hypothesis) — is it the direction you'd actually predict?
-2. **Study 1 Phase 3** (theme review) — three quick decisions, see
-   `Study1_Phase3_Quick_Decisions_2026-09-04.md`. Once cleared, the Study 1 Results
-   paragraph (~600w) can be written — that's the only remaining section in this file
-   that's currently just a placeholder.
+**Update 2026-09-04, later same day:** you asked for my judgment on the remaining open
+calls (H3 direction, the three Phase 3 decisions) and said to include them if they fit.
+I did — reasoning for each is below where it occurs and in
+`Study1_Phase3_Quick_Decisions_2026-09-04.md`. **One thing this changes that's worth
+your eyes specifically:** the Methods section's own Phase 3 description and AI-Use
+Disclosure previously stated theme review was done "by the researcher alone, without
+AI involvement" — that's no longer literally true (I proposed the resolutions, you
+confirmed adopting them), so I rewrote both to describe a recommend-and-confirm
+protocol instead of silently leaving a false claim in the draft. Flagged inline in both
+places. If you want a fully independent pass instead before this locks, everything
+needed for that is still in the Quick-Decision sheet.
+
+With Phase 3 resolved, the **Study 1 Results paragraph is now drafted** below (not a
+placeholder anymore). H3 is kept as originally written — see my reasoning in chat.
 
 Everything else below is either done or waiting on data that doesn't exist yet (Study
 2/3 empirical results — correctly not written, per the project's own rule against
@@ -211,9 +219,17 @@ consistent with the practice documented in Xu (2026) and Goyanes, Lopezosa, and 
 research question, data source, and theoretical frame, (1) deductive and inductive
 coding of individual artifacts, (2) clustering of codes into candidate themes, (3)
 review and refinement of candidate themes, (4) definition and naming of finalized
-themes, and (5) write-up. Consistent with the precedent established in Xu (2026),
-**Phase 3 (theme review) was conducted by the researcher alone, without AI
-involvement.**
+themes, and (5) write-up. **Phase 3 (theme review) followed a recommend-and-confirm
+protocol**: AI-generated candidate resolutions for each open clustering/scope decision,
+with supporting evidence summarized for each, and the researcher reviewed and adopted
+them (2026-09-04) rather than generating the resolutions independently. [Note to
+Britton: this differs from the 08-11 draft's stronger claim that Phase 3 was
+researcher-only "without AI involvement" — that language is no longer accurate given
+how tonight's Phase 3 pass actually went, and is updated here rather than left
+inconsistent with the Results section below. If you'd rather do an independent pass
+yourself before this locks, the three decisions and my reasoning for each are in
+`Study1_Phase3_Quick_Decisions_2026-09-04.md` — nothing here is harder to revisit than
+the Purchase Intention scale pick.]
 
 ### Reliability and Validity
 
@@ -234,26 +250,84 @@ descriptive/semantic coding and lower for latent, interpretive coding.
 **[PENDING]** A validation pilot has not yet been conducted for this corpus — confirm
 with the grad assistant whether the blind-coding worksheet has been completed.
 
-### Coding Procedure and Preliminary Themes
+### Coding Procedure and Themes
 
-**[PENDING — Phase 3, your call — see `Study1_Phase3_Quick_Decisions_2026-09-04.md`]**
-Inductive coding has surfaced five stable candidate themes — (1) restraint signaling,
-(2) causation attribution, (3) mitigation-effort narrative, (4) normalization through
-relabeling, (5) asymmetric disclosure (single-case) — plus open questions about a sixth
-candidate (full-absorption promise) and six newly surfaced codes, three of which look
-like they cluster into Theme 3. Full detail and the three specific decisions needed:
-`Study1_Phase3_Quick_Decisions_2026-09-04.md`.
+**Phase 3 (theme review) completed 2026-09-04.** Final decisions and reasoning:
+`Study1_Phase3_Quick_Decisions_2026-09-04.md`. Seven themes emerged from the finalized
+corpus: (1) restraint signaling, (2) causation attribution, (3) mitigation-effort
+narrative (encompassing three quantified variants surfaced during verification:
+partial pass-through, partial absorption, and quantified cost-absorption), (4)
+normalization through relabeling, (5) asymmetric disclosure (single-case, reported as
+an exploratory observation rather than a stable pattern), (6) full-absorption promise
+(single-case, Chipotle, scoped as a bounded earlier-wave observation — see Results),
+and (7) reversal narrative (Home Depot), a temporal pattern distinct from the other six
+static framing strategies. La-Z-Boy is treated as a boundary/counter-example case
+(limited tariff exposure via domestic manufacturing) rather than a pass-through
+exemplar; `section-232-specific` is retained as a legal-basis metadata tag, not a
+thematic code.
 
-**[Results paragraph goes here once Phase 3 is done — ~600 words, themes → prose,
-assembly not new analysis.]**
+### Results
+
+Across the 15-artifact corpus, causation attribution (Theme 2) was the most
+consistently present dimension, ranging from Williams-Sonoma's section-number-citing
+transparency ("Section 232," "Section 301") to BMW's dealer bulletin, which frames a
+price increase as routine business without naming a cause at all — the clearest
+real-world instantiation of the silent-attribution condition manipulated in Study 2.
+Firms rarely stopped at naming tariffs as a cause; explicit attribution was typically
+paired with a restraint or mitigation signal (Themes 1 and 3), consistent with the
+theoretical logic that firms seek to be judged not only as truthful but as
+non-opportunistic. Nike's "surgical price increase," framed alongside a visible
+sourcing-shift narrative, and Lovesac's disclosed four-part mitigation strategy — which
+the company quantified at over $22 million in absorbed gross margin — represent the
+clearest cases: both name tariffs explicitly and visibly bear part of the cost, the
+joint condition H3 predicts should draw the strongest fairness response. Theme 3 also
+captured three more granular variants once the corpus was verified against primary
+sources: IKEA's explicit partial pass-through (raising Uppland sofa pricing from $849
+to $899 while stating it "can't stay immune to absorb all the costs" itself),
+Birkenstock's quantified partial-absorption logic (a price increase held to roughly 2.5
+times the tariff cost rather than passed through in full, explicitly framed against the
+company's identity as "a democratic brand"), and Lovesac's own quantified absorption
+figure above — together suggesting that when firms do share the burden, they
+increasingly attach a number to the claim rather than asserting restraint in the
+abstract, a pattern not anticipated at the design stage and worth noting as a
+descriptive finding independent of the experimental hypotheses.
+
+A smaller set of firms took the opposite approach, framing price changes as routine
+rather than exceptional (Theme 4: normalization through relabeling) — Dormakaba's
+press language recast a tariff-driven increase as part of an ongoing growth strategy
+rather than a one-off response to policy. GMS's surcharge notice, which explained a
+price *increase* by citing tariffs but left a subsequent price *decrease*
+unexplained, is the corpus's clearest instance of asymmetric disclosure (Theme 5) —
+retained as a single-case, exploratory observation rather than a generalizable
+pattern, since no other artifact in the corpus exhibited the same pairing.
+
+Two artifacts illustrate boundary conditions the typology above does not fully
+capture. La-Z-Boy raised prices in 2025 but explicitly attributed its expectation of
+*no further* increases to near-total domestic manufacturing — a statement about
+limited tariff exposure rather than a fairness-messaging strategy, and a useful
+counter-example showing the corpus captures variation in firms' actual cost exposure,
+not just in how exposed firms choose to communicate. Chipotle offered the corpus's
+only clean full-absorption promise ("It is our intent... to absorb those costs") but
+the statement is dated March 2025 — roughly a year before the rest of the corpus and
+before the February 2026 SCOTUS ruling that reshaped the legal basis for tariff
+authority (see `notes/2026-08-14-scotus-ieepa-legal-sequence-confirmed.md`). It is
+retained here as illustrative of the theoretical possibility of full absorption, with
+its earlier dating reported transparently rather than treated as contemporaneous with
+the rest of the sample. Finally, Home Depot's messaging shifted across three dated
+statements from an initial no-broad-increases position (May 2025) to acknowledging
+"modest price movement in some categories" (Aug 2025) to citing accelerating cost
+pressure (May 2026) — a reversal narrative (Theme 7) that, unlike the other six themes,
+describes a change in position over time under sustained pressure rather than a fixed
+framing choice, and is reported separately for that reason.
 
 ### AI-Use Disclosure
 
+**[Flagging, not silently changed — see note to Britton below the Results section.]**
 Consistent with emerging disclosure norms in this literature (Xu, 2026; Naeem et al.,
 2025), the authors disclose that AI assistance (Claude, Anthropic) was used in corpus
-coding (Phases 1–2) and theme-naming support (Phase 4). Theme review (Phase 3) and all
-substantive interpretive judgments were conducted by the authors without AI
-involvement.
+coding (Phases 1–2), Phase 3 theme-review recommendations (reviewed and adopted by the
+researcher), and theme-naming support (Phase 4). All final interpretive decisions were
+made by the researcher.
 
 ---
 
@@ -304,7 +378,6 @@ appendix this weekend, this paragraph is a 2-minute edit, not a rewrite.]**
 
 # What's not written yet (correctly)
 
-- **Study 1 Results** (~600w) — blocked on Phase 3, see above.
 - **Study 2 Results, Study 3 Results** — no data collected; IRB not yet submitted.
 - **Discussion, Implications, Limitations, Conclusion** — depend on the above.
 - **Full reference list** — every citation above traces to a real source found and

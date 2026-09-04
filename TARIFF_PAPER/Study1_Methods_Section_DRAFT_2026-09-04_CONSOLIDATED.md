@@ -1,5 +1,11 @@
 # Study 1: Method — Manuscript-Ready Draft (2026-09-04, CONSOLIDATED)
 
+**Update, later 2026-09-04:** Phase 3 is now resolved — see
+`Study1_Phase3_Quick_Decisions_2026-09-04.md` and the fuller Coding Procedure/Results
+text in `Tariff_Manuscript_Working_Draft_2026-09-04.md`, which is now the more current
+copy of this section (this file's Coding Procedure/AI-Use Disclosure below are updated
+to match but the manuscript working draft has the full Results paragraph too).
+
 **Status note (delete before submission):** This replaces the two-file split between
 `Study1_Methods_Section_DRAFT_2026-08-11.md` (base structure) and
 `Study1_Methods_Section_DRAFT_2026-08-21.md` (Data/Coding Procedure patch, meant to be
@@ -107,10 +113,11 @@ AI-selected supporting quotations in fact substantiate their assigned code — a
 reporting of any error rate should accompany this pilot, per Hill et al.'s (2026)
 explicit recommendation.
 
-### Coding Procedure and Preliminary Themes
+### Coding Procedure and Themes
 
-**[PENDING — provisional, awaiting final Phase 3 sign-off — this is the researcher-only
-step]** Inductive coding of the corpus to date has surfaced five candidate themes,
+**Phase 3 resolved 2026-09-04 — see the update note at the top of this file; full
+7-theme list and Results paragraph in `Tariff_Manuscript_Working_Draft_2026-09-04.md`.**
+For the record, the provisional five-theme state this section originally described:
 subject to the researcher's ongoing review: (1) *restraint signaling*, in which firms
 frame price actions as the minimum necessary response; (2) *causation attribution*,
 ranging from explicit naming of tariffs as cause to vague or silent framing, present in
@@ -142,12 +149,13 @@ researcher, not revisited here.
 
 ### AI-Use Disclosure
 
-Consistent with emerging disclosure norms in this literature (Xu, 2026; Naeem et al.,
-2025), the authors disclose that AI assistance (Claude, Anthropic) was used in corpus
-coding (Phases 1–2) and theme-naming support (Phase 4). Theme review (Phase 3) and all
-substantive interpretive judgments were conducted by the authors without AI
-involvement. [Full disclosure statement to be finalized in acknowledgements per
-journal requirements.]
+**Updated 2026-09-04 — see this file's top note.** Consistent with emerging disclosure
+norms in this literature (Xu, 2026; Naeem et al., 2025), the authors disclose that AI
+assistance (Claude, Anthropic) was used in corpus coding (Phases 1–2), Phase 3
+theme-review recommendations (reviewed and adopted by the researcher, 2026-09-04), and
+theme-naming support (Phase 4). All final interpretive decisions were made by the
+researcher. [Full disclosure statement to be finalized in acknowledgements per journal
+requirements.]
 
 ---
 
@@ -156,14 +164,9 @@ journal requirements.]
 1. Confirm whether the Home Depot May 2025 / May 2026 beats can be direct-fetch-upgraded
    from Tier B to Tier A (The Hill returned a 403 on the last attempt; Digital Commerce
    360 not yet attempted) — low priority, doesn't block writing.
-2. **Conduct Phase 3 theme review (researcher-only) on the full finalized corpus** —
-   this is the one real remaining step that blocks writing the Results subsection, and
-   it is explicitly yours to do, not AI's. It needs three decisions: (a) the
-   full-absorption-promise / Chipotle-scope question, (b) whether the six new candidate
-   codes cluster into existing themes or form new ones, (c) final theme names/definitions
-   for the write-up.
+2. ~~Conduct Phase 3 theme review~~ — **done 2026-09-04**, see top note.
 3. Run the validation pilot (confirm grad-assistant status first — see Reliability and
    Validity above) and compute agreement statistics.
 4. Finalize the N and update this draft's placeholder language accordingly.
-5. Write the Results subsection (~600 words, themes → manuscript prose) — this depends
-   entirely on step 2 above being done first.
+5. ~~Write the Results subsection~~ — **done**, see `Tariff_Manuscript_Working_
+   Draft_2026-09-04.md`.

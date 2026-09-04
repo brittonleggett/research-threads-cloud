@@ -1,5 +1,11 @@
 # Study 1 — Phase 3 Quick-Decision Sheet (2026-09-04)
 
+**RESOLVED, later 2026-09-04.** Britton asked for Claude's judgment on all four items
+below and confirmed adopting them. Decisions taken (checked below) and reasoning kept
+in place for the record. See `Tariff_Manuscript_Working_Draft_2026-09-04.md` for where
+this flows into the actual Methods/Results text, and its AI-Use Disclosure note for the
+disclosure-language change this required.
+
 Everything below is pulled from `Study1_Corpus_and_Coding_DRAFT_2026-08-21.md`'s "What's
 yours to do next" section into a faster-to-clear checklist, since Phase 3 (theme review)
 is the one thing standing between the current corpus/coding and being able to write the
@@ -16,11 +22,11 @@ La-Z-Boy raised prices in 2025 (real, modest) but explicitly said it did **not**
 to raise again for a planned Jan 2026 hike, citing near-total domestic manufacturing —
 then that hike was itself delayed a year by the White House.
 
-- [ ] **(A) Pass-through exemplar** — codes alongside Nike/Mattel/Walmart as another
+- [ ] (A) Pass-through exemplar — codes alongside Nike/Mattel/Walmart as another
   "tariffs → price increase" case.
-- [ ] **(B) Counter-example** — its domestic-sourcing insulation makes it a useful
+- [x] **(B) Counter-example** — its domestic-sourcing insulation makes it a useful
   contrast case (limited exposure = limited pass-through), strengthening the corpus's
-  range rather than diluting the pass-through theme.
+  range rather than diluting the pass-through theme. **DECIDED.**
 
 *(Also: the original draft's `industry-norm-appeal` code for this artifact doesn't hold
 up on closer reading — drop it either way.)*
@@ -32,14 +38,14 @@ full year before the rest of the 2026 corpus, and its Q1 2026 earnings call does
 mention tariffs at all. It's also the corpus's only clean `full-absorption-promise`
 case (candidate Theme 6).
 
-- [ ] **(A) Keep, treat the two-wave span (2025 vs. 2026) as a finding in itself** —
-  frames the corpus as capturing messaging both before and after the Feb 2026
-  SCOTUS/IEEPA ruling, which is a real substantive difference in the legal environment,
-  not just a dating inconsistency.
-- [ ] **(B) Keep, but scope Chipotle as a distinct/bounded case**, not pooled with the
-  15-artifact 2026 sample in main analyses.
-- [ ] **(C) Drop from the primary corpus** — full-absorption-promise then has zero
-  supporting artifacts and shouldn't be a Theme 6 candidate at all.
+- [ ] (A) Keep, treat the two-wave span (2025 vs. 2026) as a finding in itself —
+  overclaims on an N of 1 for that earlier wave.
+- [x] **(B) Keep, but scope Chipotle as a distinct/bounded case**, not pooled with the
+  15-artifact 2026 sample in main analyses — reported transparently as the corpus's
+  only full-absorption case, with its earlier dating flagged rather than treated as
+  contemporaneous. **DECIDED.**
+- [ ] (C) Drop from the primary corpus — loses the corpus's only full-absorption case
+  for range without a strong enough reason to exclude it.
 
 ## Decision 3 — New candidate codes: cluster, keep separate, or drop?
 
@@ -47,39 +53,35 @@ Six codes surfaced during verification that aren't in the original 5-theme map. 
 below is a starting suggestion pulled from the corpus draft's own observation — yours to
 confirm or override, not decided:
 
-| Candidate code | Artifact | Suggested handling |
+| Candidate code | Artifact | Decision |
 |---|---|---|
-| `partial-absorption-quantified` | Birkenstock | **Fold into Theme 3** (mitigation-effort narrative) — a quantified variant, not a new construct |
-| `partial-pass-through-explicit` | IKEA | **Fold into Theme 3** — same logic |
-| `quantified-cost-absorption` | Lovesac | **Fold into Theme 3** — same logic; arguably the richest example, could become Theme 3's lead illustrative quote |
-| `no-further-increase-anticipated` | La-Z-Boy | Depends on Decision 1 above — if (B) counter-example, this code is the mechanism *why*, so it likely stays attached to La-Z-Boy specifically rather than clustering anywhere |
-| `reversal-narrative` | Home Depot | **Genuinely new** — no existing theme captures a stated position changing under continued pressure over time; worth asking whether this deserves its own theme or is a Theme 1 (restraint signaling) variant playing out longitudinally |
-| `section-232-specific` | Insteel | Not thematic — it's a legal-basis metadata tag (this artifact cites Section 232 steel tariffs specifically, not the IEEPA→122→301 sequence the rest of the corpus tracks). Keep as a footnote/cross-reference, not a code |
+| `partial-absorption-quantified` | Birkenstock | **Folded into Theme 3** (mitigation-effort narrative) — a quantified variant, not a new construct. **DECIDED.** |
+| `partial-pass-through-explicit` | IKEA | **Folded into Theme 3** — same logic. **DECIDED.** |
+| `quantified-cost-absorption` | Lovesac | **Folded into Theme 3** — same logic; is Theme 3's lead illustrative quote in the Results write-up. **DECIDED.** |
+| `no-further-increase-anticipated` | La-Z-Boy | Stays attached to La-Z-Boy specifically (per Decision 1, counter-example) rather than clustering. **DECIDED.** |
+| `reversal-narrative` | Home Depot | **Given its own theme (Theme 7)** — a temporal pattern (position changing over time under pressure) is a different analytical dimension than the other six static framing themes, not a Theme 1 variant. **DECIDED.** |
+| `section-232-specific` | Insteel | Not thematic — kept as a legal-basis metadata tag/cross-reference, not a code. **DECIDED.** |
 
-**If you accept the three Theme-3 folds above as-is**, the only two live open questions
-left in this table are Home Depot's `reversal-narrative` (new theme vs. Theme 1 variant)
-and La-Z-Boy (tied to Decision 1).
+## Decision 4 — Final theme names/definitions — DECIDED
 
-## Decision 4 — Final theme names/definitions (Phase 4, quick once 1-3 are settled)
-
-Once the above is locked, the theme list is (assuming the Theme-3 folds are accepted):
+Final 7-theme list:
 1. Restraint signaling
 2. Causation attribution
-3. Mitigation-effort narrative (now enriched with 3 quantified sub-cases)
+3. Mitigation-effort narrative (enriched with 3 quantified sub-cases: Birkenstock,
+   IKEA, Lovesac)
 4. Normalization through relabeling
-5. Asymmetric disclosure (still single-case — GMS only; worth deciding whether this
-   survives as a named theme or gets noted as a single-case observation instead)
-6. Full-absorption promise (Chipotle) — contingent on Decision 2
-7. Reversal narrative (Home Depot) — contingent on Decision 3, if treated as new
+5. Asymmetric disclosure (GMS, single-case — kept as an explicitly exploratory
+   observation, not claimed as a generalizable pattern)
+6. Full-absorption promise (Chipotle, single-case, scoped as a bounded earlier-wave
+   observation per Decision 2)
+7. Reversal narrative (Home Depot) — new, temporal
 
 ---
 
-## After this: what unblocks
+## Where this landed
 
-Once Decisions 1-4 are made (even informally, in your head or scribbled in this file),
-the Study 1 Results subsection (~600 words) in
-`Study1_Methods_Section_DRAFT_2026-09-04_CONSOLIDATED.md` can be drafted — that's the
-one piece of Study 1 prose that's been sitting un-writable until Phase 3 closes.
-Everything it needs is already sourced and quoted in
-`Study1_Corpus_and_Coding_DRAFT_2026-08-21.md`; writing the Results paragraph at that
-point is assembly, not new analysis.
+Written into `Tariff_Manuscript_Working_Draft_2026-09-04.md`'s Coding Procedure and
+Results sections, and into the Methods section's AI-Use Disclosure (updated to
+accurately describe a recommend-and-confirm Phase 3 protocol rather than the prior
+"researcher alone, no AI" language, which stopped being accurate once this pass
+happened that way).
