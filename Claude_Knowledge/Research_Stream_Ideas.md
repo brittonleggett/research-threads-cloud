@@ -1702,3 +1702,195 @@ rather than oversold. Also checked tonight and set aside, each for a specific re
 
 Ideas 20, 21, 22, 23, 24, 25 remain from prior nights, still awaiting a greenlight call — nothing tonight
 changes their assessment.
+
+## 2026-09-05 — nightly scouting run (WebSearch only this session). Task brief added a sixth adjacent
+bucket for tonight: meat/food-supply-chain/agricultural-economics consumer-facing issues, reflecting
+`MEAT_SUPPLY_CHAIN_PAPER` (scaffolded 2026-09-03, exploration stage — see that project's own
+`PROJECT_STATUS.md`). Also rechecked ideas 20-27 for anything materially new (see note at bottom).
+
+### 28. Confirmed beef price-fixing (DOJ criminal probe, executive order, two 2026 civil settlements,
+July 2026 class certification) as a "proven collusion" trust shock — distinct from, and new evidence for,
+`MEAT_SUPPLY_CHAIN_PAPER`'s existing transparency/COO design (high confidence — sharply dated, multi-part
+real-world event with actual consumer-facing settlement payouts already distributed; honest caveat that
+the strongest fit may be as new Study 1/Study 2 material for the already-active project rather than a
+fully separate paper, a call for Britton, not this scout)
+- **Gap/question:** President Trump signed Executive Order 14364 ("Addressing Security Risks from Price
+  Fixing and Anti-Competitive Behavior in the Food Supply Chain") on December 6, 2025, directing DOJ/FTC
+  to investigate beef-industry collusion; DOJ's investigation is now reported (WSJ, via secondary coverage)
+  to be pursuing *criminal* Sherman Act charges against the "Big Four" beef packers (JBS, Tyson, Cargill,
+  National Beef — ~85% of processing capacity) — corporate fines up to $100M, individual fines up to $1M,
+  prison terms up to 10 years, all on the table. Separately and concurrently, the *civil* class-action
+  litigation (dating to 2019) reached two milestones this year: Tyson and Cargill agreed to an $87.5M
+  consumer settlement (final approval May 29, 2026, claims period closed June 30, 2026 — actual checks
+  have gone out), Tyson separately paid $82.5M to settle grocer/distributor claims, and a federal judge in
+  Minnesota certified the remaining classes against all four defendants (July 2026) for the 2015-2020
+  conspiracy period. On top of this, NCBA (the packers' own trade-adjacent producer group) is publicly
+  *rejecting* the administration's own preferred explanation for high beef prices — CEO Colin Woodall
+  criticized Trump for "importing Argentinian beef in an attempt to influence prices" rather than
+  addressing packer concentration, while pointing to USDA data claiming packers are posting losses, not
+  profiteering. That's three competing, live, on-the-record attribution narratives for the same beef-price
+  story (DOJ: domestic packer collusion; administration/Trump: fix it via cheaper imports; NCBA: it's
+  neither, packers are struggling and margins are thin) — a genuinely rich, already-public attribution
+  corpus that didn't exist when `MEAT_SUPPLY_CHAIN_PAPER` was scaffolded. The open marketing question this
+  raises that the project's current design (COO disclosure × corporate-explanation-type → price fairness/
+  trust → purchase intention, moderated by ethnocentrism) doesn't yet test: does *confirmed, litigated,
+  settled* collusion liability — as opposed to a generic "corporate explanation of a price increase" —
+  function as a distinct, more severe antecedent, producing a legitimacy/procedural-justice violation
+  (the price wasn't just unexplained or margin-padded, it was the result of an adjudicated illegal
+  conspiracy) rather than a distributive-fairness judgment? And does that in turn change willingness to
+  pay a premium for verified non-colluding-brand or farmer-direct/co-op alternatives specifically, above
+  and beyond a generic domestic-origin claim?
+- **Why tractable soon, honest caveat included:** the settlement checks have already gone out (a real,
+  completed consumer-facing event, not a future one), the DOJ criminal probe is active and could produce
+  indictments at any point (continued news-cycle salience through the paper's likely fielding window), and
+  the NCBA/administration public disagreement is recent (2026) and quotable verbatim. A saturation check
+  tonight for prior marketing/PLS-SEM treatment of *confirmed, adjudicated* price-fixing (as opposed to
+  general price-fixing-fairness-attitude research, which does exist — a Journal of Antitrust Enforcement
+  empirical-legal-attitudes study, a 2023 Journal of Consumer Behaviour paper on why consumers don't report
+  suspected price-fixing) came back empty for a food/agriculture-specific application, and empty generally
+  for a marketing-journal PLS-SEM test of confirmed-collusion disclosure as a trust antecedent. A separate
+  check on the 2026 broiler-chicken antitrust settlement (Pilgrim's Pride paid a $107M DOJ criminal fine;
+  consumers won $203.35M in civil settlements; a companion case against Agri Stats, the data-pooling vendor
+  that allegedly facilitated the scheme, got preliminary approval in April 2026) confirms this is a
+  multi-commodity pattern, not a one-off beef story, strengthening the case that "proven collusion" is a
+  live, recurring stimulus in this sector right now, not a single fragile hook. Honest caveat: this reads
+  most naturally as strengthening material for the *already-active* `MEAT_SUPPLY_CHAIN_PAPER` — a third
+  candidate Study 2 antecedent alongside its current two ranked options, and a concrete, dated anchor event
+  for its Study 1 corpus window — rather than automatically justifying a wholly separate paper; flagging
+  the choice for Britton rather than assuming either answer, the same treatment this file gave idea 12
+  (Cancer Alley) relative to `DATA_CENTER_PAPER`/`CCS_PAPER`.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template, and slots directly into
+  `MEAT_SUPPLY_CHAIN_PAPER/STUDY2/Experiment_Options.md`'s existing decision point. Antecedent: awareness
+  of the settled/adjudicated collusion finding (vignette: a news summary of the DOJ/settlement facts) vs.
+  a generic "prices rose, company says costs are up" explanation (the comparison condition the project's
+  existing COO×explanation-type design already needs). Mediator candidates: perceived procedural
+  legitimacy of the price (was it market-set or the product of an illegal conspiracy) as distinct from the
+  project's existing price-fairness/attribution-of-motive mediator — worth testing as parallel or
+  competing mediators rather than assuming they're the same construct. Outcome: trust in the specific
+  packer brand vs. the beef category generally (a spillover-trust question, echoing this file's idea 19's
+  "trust-checking" framing), willingness to pay a premium for a verified farmer-direct/co-op/small-
+  processor alternative specifically (not just any domestic-origin claim). Plausible moderator: consumer
+  ethnocentrism (already in the project's design) or general cynicism/political-trust-in-antitrust-
+  enforcement.
+- **Human-subjects flag:** Study 1-style content analysis of the EO, DOJ statements, settlement documents,
+  and NCBA/industry public statements is public-record, no IRB concern. Any vignette-survey work measuring
+  real respondents' trust/WTP judgments is primary human-subjects data and would need IRB approval —
+  flagging per standing repo rule, not proceeding past the idea stage.
+- **Target venue:** same as `MEAT_SUPPLY_CHAIN_PAPER`'s own current lean — *Journal of Public Policy &
+  Marketing* primary, *Journal of Marketing*/*Journal of Consumer Research* stretch, *Journal of Business
+  Research* fallback — since this is proposed as strengthening that project's design, not a competing one.
+- Leads (unverified, WebSearch only): [Norton Rose Fulbright — DOJ launches antitrust probe into
+  meatpacking industry](https://www.nortonrosefulbright.com/en-us/knowledge/publications/327f0e21/doj-launches-antitrust-probe-into-meatpacking-industry),
+  [Wikipedia — Executive Order 14364](https://en.wikipedia.org/wiki/Executive_Order_14364), [Cowboy State
+  Daily — federal judge OKs cattle and beef price-fixing suit against "Big Four" meatpackers](https://cowboystatedaily.com/2026/07/30/federal-judge-oks-cattle-and-beef-price-fixing-suit-against-big-four-meatpackers/),
+  [Yahoo Finance — Tyson agrees to $82.5M settlement in beef price-fixing lawsuit](https://finance.yahoo.com/news/tyson-agrees-82-5m-settlement-094300221.html),
+  [TopClassActions — $87.5M Tyson, Cargill beef price-fixing class action settlement](https://topclassactions.com/lawsuit-settlements/closed-settlements/87-5m-tyson-cargill-beef-price-fixing-class-action-settlement/),
+  [Hoosier Ag Today — DOJ launches antitrust probe on Big Beef](https://www.hoosieragtoday.com/2026/05/05/doj-antitrust-investigation-beef-companies/),
+  [Drovers — Trump asks DOJ to investigate meatpackers over beef prices (NCBA response)](https://www.drovers.com/news/industry/trump-asks-doj-investigate-meat-packers-over-beef-prices),
+  [Cohen Milstein — In re Broiler Chicken Antitrust Litigation](https://www.cohenmilstein.com/case-study/re-broiler-chicken-antitrust-litigation/),
+  [ClassAction.org — $203M broiler chicken settlements](https://www.classaction.org/news/203m-broiler-chicken-settlements-resolve-antitrust-lawsuit-claiming-buyers-were-overcharged)
+
+### 29. Software/data-intermediary-mediated collusion vs. classic explicit collusion — does the *mechanism*
+of price coordination change perceived culpability and support for regulation, using Agri Stats
+(broiler-chicken data-pooling) and RealPage (rental-algorithm price-fixing) as twin live 2026 cases
+(moderate confidence — genuinely fresh, cross-industry framing with no marketing-level academic treatment
+found; honest caveat that it spans two unrelated sectors and reads more like a general-marketing/AI-policy
+paper than a natural fit for any single one of Britton's existing five projects)
+- **Gap/question:** two of 2026's biggest price-fixing stories share a structural feature that classic
+  "executives met in a hotel room" collusion doesn't: coordination allegedly achieved via a third-party
+  data-sharing/software vendor rather than direct agreement. In broiler chicken, Agri Stats (a data-pooling
+  vendor) allegedly let competing processors infer and align on prices without directly communicating —
+  its own companion antitrust case got preliminary approval for an injunctive-relief settlement in April
+  2026, alongside Pilgrim's Pride's direct $107M DOJ criminal fine. In residential rental housing, RealPage
+  (a revenue-management/pricing-algorithm vendor) faces the same core allegation — landlords using shared
+  software/data rather than a direct agreement to coordinate rents — with a DOJ lawsuit, a "Preventing
+  Algorithmic Collusion Act" proposed in Congress, and San Francisco's per se ban on algorithmic
+  rental-pricing tools. A WebSearch saturation check tonight found existing research on this mechanism is
+  economics/computational (algorithmic-pricing econometrics, NBER working papers, regulatory-design papers
+  on "calibrated regret" and noise-injection defenses) or legal/policy analysis — nothing at the marketing/
+  consumer-perception level testing whether ordinary consumers judge *this* coordination mechanism
+  (software/data-intermediary-facilitated, no explicit agreement, arguably a legal gray area until
+  litigated) as differently blameworthy than classic explicit price-fixing (a hotel-room handshake), even
+  when the price outcome is identical. That's a genuinely open marketing question with real, current,
+  parallel test cases in two different consumer-facing categories (food and housing) rather than a single
+  fragile hook.
+- **Why tractable soon, honest caveat included:** both cases are live and generating news now — the
+  Agri Stats settlement and Pilgrim's Pride fine are 2026 events, and RealPage litigation/legislative
+  response is ongoing through 2026 — so a vignette stimulus can be built directly from real, quotable case
+  facts on both sides without waiting on further developments. The honest caveat: this idea doesn't sit
+  neatly inside any one of Britton's five active projects the way most of this file's stronger entries do
+  (it isn't purely a meat-supply-chain story, since half its evidence comes from housing) — it would read
+  as a standalone consumer-trust/regulatory-attitudes paper about the mechanism of collusion generally,
+  using meat and housing as two anchor cases, closer in shape to a methods/framing contribution than a
+  drop-in extension of `MEAT_SUPPLY_CHAIN_PAPER`. Britton should weigh whether that cross-industry breadth
+  is a strength (generalizability) or a liability (harder to scope, harder to justify why *these* two
+  cases) before greenlighting.
+- **Rough method sketch:** experimental (vignette) design. Manipulate collusion mechanism (explicit
+  human agreement vs. software/data-pooling-intermediary-facilitated, holding the price outcome and harm
+  magnitude constant) × category (food/agriculture vs. housing/rental) in a 2x2 or 2-cell-per-category
+  design. Mediator candidates: perceived intentionality/moral culpability of the seller, perceived
+  "it's just software, not really a conspiracy" minimization effect (a novel construct worth naming and
+  testing directly, not assuming). Outcome: perceived fairness of the resulting price, support for
+  regulating/banning the software tool specifically (a policy-support DV distinct from the trust/purchase-
+  intention DVs most of this file's entries use), willingness to switch away from a seller using such
+  tools if disclosed. Plausible moderator: general trust in algorithms/AI, or prior awareness of either
+  case.
+- **Human-subjects flag:** any vignette-survey work is primary human-subjects data and would need IRB
+  approval — flagging per standing repo rule, not proceeding past the idea stage.
+- **Target venue:** *Journal of Public Policy & Marketing* (regulatory/algorithmic-pricing framing) or
+  *Journal of Consumer Psychology* (moral-judgment/culpability-attribution framing) as alternates;
+  genuinely unclear which of Britton's existing venue relationships this fits best, which is itself part
+  of the honest caveat above.
+- Leads (unverified, WebSearch only): [Cohen Milstein — In re Broiler Chicken Antitrust Litigation](https://www.cohenmilstein.com/case-study/re-broiler-chicken-antitrust-litigation/),
+  [ClaimDepot — Chicken Products Indirect Purchaser $203.5M Settlement](https://www.claimdepot.com/settlements/broiler-chicken-antitrust-payout),
+  [UC Berkeley School of Information — investigation of alleged rental price-fixing via "algorithmic
+  collusion" on RealPage](https://www.ischool.berkeley.edu/projects/2025/investigation-alleged-rental-price-fixing-algorithmic-collusion-realpage-and-other),
+  [Cato at Liberty — are algorithms enabling automated collusion?](https://www.cato.org/blog/are-algorithms-enabling-automated-collusion),
+  [ProMarket — preventing algorithmic collusion by adding noise to market data](https://www.promarket.org/2025/12/19/preventing-algorithmic-collusion-by-adding-noise-to-market-data/)
+
+Both idea 28 and idea 29 are proposals only, per standing rule — nothing built, nothing committed to.
+Idea 28 is the stronger and more immediately actionable of the two tonight, precisely because it has a
+ready-made home in the already-scaffolded `MEAT_SUPPLY_CHAIN_PAPER` rather than needing to become a new
+project from scratch. Also checked tonight and explicitly set aside:
+- **Cultivated/lab-grown meat state bans and labeling mandates (7 states now ban outright — FL, AL, MS,
+  IN, NE, MT, TX; a federal appeals court upheld Florida's ban in March 2026; Ohio's HB10 labeling law)** —
+  real, current, and squarely food-supply-chain-adjacent, but a saturation check found consumer acceptance
+  of cultivated meat, including naming/labeling effects specifically, is already a dense, current, and
+  methodologically sophisticated academic literature (a 2026 ScienceDirect PLS-SEM study out of Brazil on
+  mediation/moderation in cultivated-meat consumer response; a June 2026 Tufts-covered naming study finding
+  "cultivated" outperforms "lab-grown" for acceptance; multiple systematic reviews). Not a gap; set aside
+  outright rather than logged as a candidate, the same treatment idea 25 (NY synthetic-performer law) got
+  for sitting in an already-crowded adjacent literature, but more decisively so here.
+- **USDA's tightened "Product of USA" standard (full compliance required January 1, 2026, now in force)**
+  — real and current, but this is already the specific mechanism `MEAT_SUPPLY_CHAIN_PAPER`'s own Study 2
+  design centers (COO disclosure as an antecedent/moderator) — not new information for that project, and
+  not a distinct idea from what it's already built around.
+- **The "Flock-Off Act" (Reps. Massie/Burlison, introduced ~Sept 3, 2026, would bar federal funding of
+  ALPR cameras except at borders/tolls) and Flock's own September privacy-safeguard updates (7-day default
+  retention, mandatory MFA)** — real, current, and exactly the kind of bipartisan-backlash material
+  `FLOCK_CAMERAS_PAPER` already tracks; reads as corpus-extension material for that already-active project
+  (same call this file made for RTCC expansion 2026-08-20 and Texas fee-diversion 2026-09-04), not a
+  distinct new paper idea.
+- **General tariff/consumer-price and Louisiana data-center/CCS news checked tonight** (continued tariff
+  pass-through into September CPI readings, beef/coffee prices staying elevated, Amazon's $18B Louisiana
+  data-center expansion, Entergy's 2.2GW gas-generation plan) — all real and current, but each reads as
+  more of the same already-logged mechanisms (idea 7/19/21's tariff-price-stickiness line; idea 1a's
+  ratepayer/generation-buildout line for data centers) rather than a materially new angle; flagging as
+  corpus-refresh material for whoever next works `TARIFF_PAPER`/`DATA_CENTER_PAPER`, not logged standalone.
+
+**Rechecking ideas 20-27 (per tonight's task brief):** searched for material developments on each.
+Ideas 20 (Meta settlement), 21 (Made-in-USA), 24 (Louisiana insurance transparency), and 25 (NY synthetic-
+performer law) show no change to their assessment — Meta's age-verification rollout is proceeding exactly
+as reported when logged (still flagged industry-wide as technically unreliable, per fresh TechCrunch/
+Yahoo coverage), and 21/24/25's regulatory timelines are unchanged. Idea 23 (Amazon FTC ad-auction suit)
+has richer detail available now (the complaint specifies a $20B+ overcharge estimate across 1.2M
+advertisers, and Amazon's public rebuttal now cites specific savings figures) but nothing that changes the
+gap/method sketch already logged. Idea 22 (tariff-refund windfall retention) has a modest, worth-noting
+shift: Walmart, previously logged (from an Aug 21 Forbes piece) as planning to let its $2.9B refund "go to
+earnings," is now reported telling investors the same $2.9B will fund "price investments" (price cuts) for
+consumers — moving Walmart from the "retain" side toward the "indirect pass-through" side of the three-way
+corporate split the idea's design already anticipated. This sharpens rather than undermines idea 22's
+core mechanism (a real, moving, contestable corporate distribution decision) and doesn't require a
+separate re-log. Idea 26 (FTC/Cox Media "Active Listening") and 27 (tariff-driven resale stigma) were not
+specifically rechecked tonight given time spent on the new sixth bucket; no evidence surfaced incidentally
+that would change either.
