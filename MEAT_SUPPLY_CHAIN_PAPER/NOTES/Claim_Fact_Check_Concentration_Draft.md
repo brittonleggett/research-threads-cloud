@@ -13,7 +13,49 @@ data) could change the nuance.
 ### Claim #3: "Has meatpacking concentration increased, decreased, or
 remained stable?"
 
-**Verdict: Supported (increased) — with commodity-specific magnitude.**
+**Verdict: Supported (increased, long-run 1963-2019) — with commodity-
+specific magnitude. 2019-2021 specifically shows flat-to-declining
+concentration in the one directly-read official source, not a continued rise.**
+
+**2026-09-05 update — USDA AMS Packers and Stockyards Division (PSD) 2021/2022
+Annual Report to Congress obtained and read in full** (direct PDF fetch via
+`curl` with a browser user-agent, local `poppler-utils` text extraction —
+resolves the "identify but don't fetch" status this source had as of
+2026-09-03). This is PSD's own official annual four-firm concentration ratio
+table, 2012-2021, methodology stated in the report itself:
+
+| Year | Total Value | Steers & Heifers | Cows & Bulls | Hogs | Sheep & Lambs | Broilers | Turkeys |
+|---|---|---|---|---|---|---|---|
+| 2019 | 66% | 85% | 50% | 67% | 53% | 53% | 55% |
+| 2020 | 65% | 81% | 46% | 64% | 44% | 53% | 55% |
+| 2021 | 67% | 81% | 47% | 65% | 42% | 55% | 55% |
+
+PSD attributes the steer/heifer decline (85%→81%) explicitly to "disruptions
+in operations at the major packing plants during the COVID-19 pandemic" —
+i.e., a temporary capacity-shock effect, not evidence of durable
+deconcentration. HHI figures (2017-2021) show steer/heifer slaughter as
+"moderately concentrated" per DOJ/FTC merger guidelines (HHI 1,687-1,878),
+while cow/bull and sheep/lamb slaughter are "relatively unconcentrated."
+
+**This directly contradicts, and should supersede, this project's own
+prior "poultry CR4 = 78% (2019)" figure** (adopted 2026-09-03 via a
+Consensus.app AI-search synthesis of "Schaefer et al.," never independently
+read). PSD's own official broiler figure for 2019 is 53%, not 78% — a large
+enough gap that it cannot be attributed to rounding or a minor methodology
+difference. Do not treat this as resolved in favor of either number: PSD is
+a directly-read primary regulatory source with stated methodology; Schaefer
+et al. is still genuinely unread (paywalled) and may define "concentration"
+differently (e.g., plant-level vs. firm-level, a different product-market
+definition, or CR4 vs. CR8). **Recommendation: use PSD's 53-55% for poultry
+in any manuscript draft until Schaefer et al. is read directly and the
+discrepancy is either reconciled or explained; do not average or split the
+difference.** This also means poultry should likely revert to being
+characterized as the least-concentrated of the three commodities, consistent
+with AER-785's original framing, rather than "no longer clearly the least
+concentrated" as this project stated as of 2026-09-03.
+
+**Original (2026-09-03) analysis below, retained for the historical
+1963-1997 trend, which is unaffected by the above:**
 
 Two independent primary sources, using consistent market definitions,
 bracket a 40-year trend:
@@ -44,8 +86,75 @@ peer-reviewed source or a USDA AMS Packers and Stockyards annual report.
 ### Claim #14: "Is there evidence processors or retailers benefit
 disproportionately from supply disruptions?"
 
-**Verdict: Unresolved (this pass) — plausible but not independently
-verified to the standard this project requires.**
+**Verdict: Supported for beef and pork during the 2020-2021 COVID window
+specifically (resolved 2026-09-05 via direct SEC-filed audited data) —
+commodity-specific, does not extend cleanly to poultry.**
+
+**2026-09-05 update.** The dedicated follow-up recommended below was
+completed. Both companies' own SEC filings, read directly:
+
+**Tyson Foods** (10-K, FY2021 filing for FY2019-2021; 10-K, FY2023 filing
+for FY2021-2023 — both fetched directly from SEC EDGAR via `curl`, since
+WebFetch's summarizer truncated the MD&A section):
+
+| Segment | FY2019 | FY2020 | FY2021 | FY2022 | FY2023 |
+|---|---|---|---|---|---|
+| Beef operating margin | 6.6% | 10.0% | **18.0%** | 12.6% | -0.5% |
+| Pork operating margin | 5.3% | 11.0% | 5.2% | 3.0% | -2.4% |
+| Chicken operating margin | 4.7% | 0.9% | -4.6%* | 5.6% | -4.5% |
+
+*Chicken FY2021 driven substantially by a $626M one-time price-fixing
+legal-contingency accrual, not market conditions — see below.
+
+Tyson's own MD&A language (not a third party's characterization) for the
+FY2020-vs-FY2019 Beef change: "Operating income increased primarily due to
+market conditions, including COVID-19 disruptions, which increased the
+spread between preexisting contractual agreements and the cost of fed
+cattle." Nearly identical language appears for Pork. This is the company
+itself, in an audited SEC filing, attributing margin expansion to the
+disruption — about as strong a primary-source confirmation as this project
+is likely to obtain.
+
+**JBS USA** (SEC Form F-4 registration statement, filed 2023, containing
+full-year 2020-2022 segment financials — SEC EDGAR, CIK 1450123; JBS does
+not currently file 10-Ks, so this F-4 is the best full-year SEC-filed
+segment data located this pass):
+
+| Segment | 2020 | 2021 | 2022 |
+|---|---|---|---|
+| Beef North America EBITDA margin | ~13.1% | **~21.3%** | ~9.4% |
+| Pork USA EBITDA margin | ~10.4% | ~10.5% | n/a (not extracted) |
+| Pilgrim's Pride (poultry) EBITDA margin | ~9.5% | ~11.5% | n/a (not extracted) |
+
+JBS's Beef North America Adjusted EBITDA rose 108.8% in 2021 (net revenue
++29.0%, i.e., margin expanded, not just absolute dollars), which JBS's own
+filing attributes to "a strong demand in the United States" and a 25.1%
+sales-price increase against only a 16.9% rise in operating costs — the same
+disproportionate-benefit pattern as Tyson's Beef segment, independently
+confirmed at a second major packer. Pork USA's margin was comparatively
+flat (proportional revenue/cost growth), and Pilgrim's Pride (poultry) rose
+only modestly — poultry again does not show the same dramatic pattern as
+beef.
+
+**Independent, non-advocacy corroboration**: the USDA AMS PSD 2021/2022
+Annual Report to Congress states in its own voice: "The imbalance between
+cattle supply and processing capacity persisted from 2020, and beef packers
+continued to earn record profits in 2021. Strong demand for beef helped
+maintain high prices at the retail level, and the disparity between live
+cattle prices and boxed beef persisted from the prior year." This is a
+government regulatory agency's own factual statement, not a political
+office's blog post — a materially stronger source type than the White House
+CEA blog this project relied on previously.
+
+**Caveat / scope limit, same as Claim #12**: this is strong evidence for the
+2020-2021 acute-disruption window specifically. Margins reverted sharply by
+FY2022-FY2023 (Tyson Beef fell to -0.5%; JBS Beef NA nearly halved) — do not
+generalize to "processors always benefit from disruptions" or treat the
+elevated margin as a new permanent baseline.
+
+**Original (2026-09-03) analysis below, retained for the antitrust-
+litigation background, which remains accurate and is now expanded in
+Claim #15 below:**
 
 The White House CEA blog (Sept. 2021) asserts that "gross profits for some
 of the leading beef, poultry, and pork processors are at their highest
@@ -109,3 +218,38 @@ the paper needs to resolve as a factual matter before it can proceed.
 other actors' use of "monopoly"/"food monopolies" language as *data* (a
 framing choice by that speaker) rather than adopting it as the paper's own
 descriptive claim.
+
+**2026-09-05 addendum — the anticompetitive-conduct evidence base is
+broader and more commodity-differentiated than previously documented.** The
+USDA AMS PSD 2021/2022 Annual Report to Congress (read in full this pass)
+devotes a section to price-fixing litigation spanning all three commodities,
+2020-2022, not just the beef case already in this file:
+
+- **Poultry — criminal, not just civil.** Pilgrim's Pride *pleaded guilty*
+  to a federal charge of conspiring to fix chicken prices (Feb. 2021) and
+  paid a $107.9M DOJ fine; it separately paid $75M (Jan. 2021) and $110.5M
+  (Oct. 2020, restraint-of-competition plea) in related matters. Tyson
+  settled turkey price-fixing claims for $4.6M and $1.75M (2021). A related
+  criminal case against Koch Foods and Pilgrim's Pride executives ended in
+  two mistrials and eventual not-guilty verdicts/dropped charges
+  (2021-2022) — the *criminal* prosecution of individuals did not succeed,
+  even though Pilgrim's Pride the company pleaded guilty separately.
+- **Pork.** Smithfield paid ~$200M combined (2022) across two price-fixing
+  settlements; JBS paid $20M (Sept. 2022, pork).
+- **Beef.** JBS paid $52.5M (Feb. 2022) in the beef price-fixing suit
+  already documented in this file; a related Sysco Corp. suit (June 2022)
+  makes the same allegation against Tyson/JBS/Cargill/National Beef.
+- **Cross-cutting, different conduct category.** Cargill, Sanderson Farms,
+  and Wayne Farms paid $84.8M (2022) to settle a *labor-market* wage-
+  suppression conspiracy (improperly sharing worker-wage data via a
+  consulting firm) — this is anticompetitive conduct on the *input* (labor)
+  side, not output price-fixing, and should not be conflated with the
+  price-fixing cases above in the manuscript.
+
+**A guilty plea to a federal criminal antitrust charge (Pilgrim's
+Pride/poultry) is categorically stronger evidence than a civil settlement
+with an explicit no-wrongdoing statement (the beef case)** — this is a real,
+commodity-specific difference in the strength of the anticompetitive-conduct
+evidence that the manuscript should preserve rather than treat "meat
+industry price-fixing" as one undifferentiated fact pattern across beef,
+pork, and poultry.

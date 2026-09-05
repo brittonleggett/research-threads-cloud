@@ -70,6 +70,29 @@ periods" broadly without separately checking margin data for, e.g., the
 2021–2023 general inflation episode — **flagged as an open follow-up**,
 not yet done in this pass.
 
+**2026-09-05 update: Erol & Saghaian (2022) now read in full (not just
+abstract), and Tyson/JBS SEC segment data pulled directly — both confirm
+and refine, but also add an important nuance, this claim.** The Erol &
+Saghaian working paper (an open-access AAEA 2022 conference poster by the
+same authors, same title, hosted on AgEconSearch — MDPI itself stayed
+bot-blocked) states its finding precisely: **"The COVID-19 pandemic caused
+retailers and wholesalers to have higher prices, while farmers received
+lower prices than their predicted values,"** and **"Price spreads are
+widened due to the COVID-19 shock in favor of wholesalers and retailers."**
+Note the mechanism identified is wholesale/retail-level, not narrowly
+"meat packers/processors" — the paper's background section separately
+asserts "Meat packers and processors have market power" as motivating
+context, but the VEC/historical-decomposition result itself is about price
+levels at the farm/wholesale/retail stages, not a direct measurement of
+packer margins. The direct packer-margin evidence for Claim #4/#12 now
+comes from Tyson's and JBS's own SEC filings instead (see Claim #12 and
+`NOTES/Claim_Fact_Check_Concentration_Draft.md` Claim #14) — both sources
+point the same direction but are not the same measurement, and should be
+cited for what each actually shows. See
+`SOURCE_VERIFICATION/Evidence_Table_PriceTransmission.md` for the full
+extracted findings (speed-of-adjustment coefficients, structural breaks,
+etc.).
+
 ### Claim #5 — Do increases in cattle prices transmit differently to
 consumers than decreases (asymmetric price transmission)?
 
@@ -89,7 +112,21 @@ Caveat: this fork could not get past a paywall to read the Pozo et al. full
 text directly (403 on ScienceDirect); findings here rely on a search-engine-
 summarized abstract, confirmed only at the citation-exists level via
 RePEc/EconPapers. Recommend a library-proxy full-text pull before any
-manuscript claim leaning on this paper specifically.
+manuscript claim leaning on this paper specifically. (Not attempted again
+2026-09-05 — outside that session's three targeted items; still open.)
+
+**2026-09-05 note relevant to this claim**: GAO-02-246 ("Economic Models of
+Cattle Prices," March 2002 — now read in full, see Claim #7 discussion in
+the concentration fork / master fact-check) independently corroborates that
+this contestedness is long-standing and not merely a function of newer vs.
+older data: as of 2002, GAO's own 40-expert panel disagreed on how much
+weight structural change and imports deserve relative to domestic
+supply/demand fundamentals, and GIPSA's internal 1996 literature review of
+concentration's price effects was itself "inconclusive." This is background
+corroboration for the *general contestedness* of vertical/structural price
+effects in cattle markets, not a direct test of asymmetric transmission
+specifically — file alongside, not instead of, the Pozo/older-literature
+split above.
 
 ### Claim #12 — Is there evidence processors or retailers benefit
 disproportionately from supply disruptions?
@@ -106,6 +143,23 @@ acute 2020 disruption). This is the single best-supported claim in this
 fork's scope. **Scope limit: this is evidence about one acute historical
 shock (COVID plant closures), not a general claim that disruptions always
 benefit intermediaries — do not overgeneralize in the manuscript.**
+
+**2026-09-05: now also confirmed directly at the individual-company level.**
+Tyson Foods' own FY2020 and FY2021 10-Ks (SEC EDGAR, read directly) state
+that Beef segment operating income increased because COVID-19 disruptions
+"increased the spread between preexisting contractual agreements and the
+cost of fed cattle" (nearly identical language for Pork). Tyson's Beef
+operating margin: 6.6% (FY19) → 10.0% (FY20) → 18.0% (FY21), reverting to
+12.6% (FY22) and a loss (-0.5%, FY23) — confirming both the disruption-era
+widening and its temporariness. JBS USA's Beef North America segment shows
+the same pattern independently (Adjusted EBITDA margin ~13.1%→~21.3%,
+2020→2021, SEC Form F-4). Poultry did not show the same pattern at either
+company (Tyson Chicken margin fell during 2020-2021; see the master
+fact-check Claim #14 for the full breakdown) — this strengthens the
+"beef/pork specifically, not a blanket meat-industry pattern" framing of
+this claim's scope limit. Full detail:
+`NOTES/Claim_Fact_Check_Concentration_Draft.md` Claim #14 and
+`SOURCE_VERIFICATION/Evidence_Table_Concentration.md`.
 
 ### Claim #13 — Are similar dynamics (producer/consumer price divergence)
 present in pork?
