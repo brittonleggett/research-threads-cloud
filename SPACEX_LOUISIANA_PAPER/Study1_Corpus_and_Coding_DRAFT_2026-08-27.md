@@ -40,6 +40,80 @@ comparison case)
 | 9 | Jorge Palacios, *Martian Borderlands: Colonizing (Outer) Space in the Lower Rio Grande Valley* | M.A. Thesis, MAPSS, University of Chicago, CC BY 4.0 — ethnographic/participatory-action research on Starbase's impact on Indigenous (Carrizo/Comecrudo) and Latinx Brownsville-area communities | August 2023 (author's continuing PhD research at MIT HASTS confirms this is an active, ongoing research program, not a one-off) | **A — RESOLVED 2026-08-30**: independently confirmed three ways (direct WebFetch of the record page, DOI resolution to a second independent record URL, cross-reference against MIT HASTS's own student-bio page). Thesis-tier, not peer-reviewed-tier — flag that distinction if cited. See notes/2026-08-30 for full verification detail. | [DOI 10.6082/uchicago.7220](https://doi.org/10.6082/uchicago.7220), [knowledge.uchicago.edu/record/7220](https://knowledge.uchicago.edu/record/7220) |
 | 10 | U.S. EPA Region 6 | Consent Agreement and Final Order (CAFO), Docket No. CWA-06-2024-1768 — federal Clean Water Act enforcement action against SpaceX for 8 unauthorized discharges (liquid oxygen spill + water deluge system discharges) to wetlands bordering the Starbase Launch Pad, Cameron County, TX, 2022-2024; $148,378 civil penalty; SpaceX "neither admits nor denies" the specific factual allegations | violations 2022-2024, CAFO on/around Sept. 2024 | **A — verified 2026-08-31**: primary document fetched directly (`curl`, HTTP 200) and extracted with `pdftotext -layout`; this is the actual federal enforcement record the FAA-docket wildlife-groups' letter (#4) and the Wesolick FAA comment (see notes/2026-08-30) both cite as "commenters state" — now independently confirmed, not secondhand. See notes/2026-08-31 for full extracted detail (dates/volumes of each discharge, admission language, related TCEQ Agreed Order). | [epa.gov CAFO PDF](https://www.epa.gov/system/files/documents/2024-09/spacex_cafo_cwa-06-2024-1768_txu09110_090624__0.pdf) |
 
+## Update — 2026-09-05 (see notes/2026-09-05-faa-quiet-nda-document-and-osprey-loi-found.md)
+
+- **Row 7 (Cameron County $800M claim) UPGRADED B → A.** The county's own two-page PR PDF was
+  fetched directly (`curl`, HTTP 200) and extracted with `pdftotext`:
+  [cameroncountytx.gov PR PDF](https://www.cameroncountytx.gov/wp-content/uploads/2024/06/2024.6.18-STARBASE-LOCAL-IMPACT-PR-2.pdf).
+  Confirms $800M+ state/local capital income & indirect business tax figure verbatim, plus a fuller
+  stat set (see notes file) not previously in this table: $3B+ SpaceX infrastructure investment,
+  $6.5B+ annual gross economic market value, 3,400+ FTE employees/contractors, 21,400+ indirect
+  jobs, $99M+ 2025 tourism impact, quote from Cameron County Judge Eddie Treviño Jr.
+- **New row 11**: U.S. Fish and Wildlife Service, final Biological and Conference Opinion (BCO),
+  Consultation No. 02ETCC00-2012-F-0186-R001, dated May 12, 2022 — the federal ESA Section 7
+  review for FAA's permit/license issuance to SpaceX at Boca Chica, covering ocelot, jaguarundi,
+  aplomado falcon, four sea turtle species, piping plover, and red knot. Conclusion (read directly):
+  "not likely to jeopardize the continued existence of the species." Directly fetched (`curl` +
+  `pdftotext`, 5.9MB, HTTP 200) from [fws.gov](https://www.fws.gov/sites/default/files/documents/5-12-2022%20SpaceX%20Final%20BCO_signed%20with%20appendix%20A-D.pdf).
+  Tier A. A 2023 addendum and a 2025 "Amended BCO Addendum #2" reportedly exist (per search
+  snippets only) — not fetched tonight, a lead for a future session on how the environmental review
+  evolved as Starbase's launch cadence increased.
+- **New row 12**: SpaceX's own filing, TCEQ Docket No. 2024-1821-IWD ("Space Exploration
+  Technology Corporation's Response to Requests for Contested Case Hearing and Requests for
+  Reconsideration," filed Jan. 17, 2025) — SpaceX's own legal argument that STEJN, the
+  Carrizo/Comecrudo Nation, and Save RGV lack associational/affected-person standing to contest its
+  new TPDES wastewater permit (WQ0005462000). This is a distinct TCEQ docket from the
+  2024-1282-IWD-E agreed-order penalty already in the corpus (09-04) — same recurring coalition,
+  different proceeding. Directly fetched (`curl` + `pdftotext`, HTTP 200, 1724 lines). Tier A.
+  [tceq.texas.gov PDF](https://www.tceq.texas.gov/downloads/agency/decisions/agendas/backup/2024/2024-1821-iwd-appr.pdf)
+- **New row 13**: South Texas Environmental Justice Network's own press release (its site,
+  directly fetched, HTTP 200), Dec. 18, 2024 — announcing a **separate lawsuit**, filed Dec. 16,
+  2024 in Travis County (TX) District Court, by SOTXEJN + the Carrizo/Comecrudo Tribe (represented
+  by Perales, Allmon & Ice, P.C.) against TCEQ itself (not SpaceX), arguing TCEQ exceeded its
+  authority by using an agreed order to authorize continued discharge in lieu of requiring a permit.
+  Named: Bekah Hinojosa (SOTXEJN), Juan Mancias (Tribal chairman), Attorney Lauren Ice. A third,
+  distinct Boca Chica legal action by the same recurring coalition (alongside the 2026 federal
+  land-exchange suit and the TCEQ contested-case-hearing filing above). Case number/docket and
+  outcome **not yet independently verified against a Travis County court record** — flag before
+  citing. Tier A for the press release itself (org's own statement); B for the underlying suit's
+  procedural facts pending a docket check. [sotxejn.org](https://sotxejn.org/2024/12/18/rio-grande-valley-organizations-sue-the-tceq-for-bypassing-permitting-in-favor-of-spacex/)
+- **New row 6j** (Vermilion Parish side): Louisiana Economic Development's own "Letter of Intent
+  for Project Osprey," dated July 10, 2026, addressed to "Ben Lancaster, Senior Manager,
+  Governmental Affairs" — LED's negotiating document, released via public-records request and
+  hosted directly by Louisiana Illuminator. States a **Total Potential Value of $27.544 billion**:
+  $23.852B PILOT (25-yr property-tax abatement in exchange for $25M/yr + $20M one-time payment,
+  matching figures already in the corpus), $3.663B Aerospace Facilities/Activities sales-tax
+  rebate, plus smaller HIP/FastStart items. Confirms the $25M charitable donation to the Community
+  Foundation of Acadiana (matching LED's public figure) and contains **no line item for a "$100M
+  coastal master plan"** — consistent with, and now more strongly evidenced than, the 08-29 note's
+  finding that the $100M figure is a separate verbal press-conference commitment, not part of LED's
+  written incentive package. This is the single most consequential fiscal find of any night so
+  far for the paper's economic-benefit-claim-specificity frame: LED's *own written document* values
+  the deal at $27.5B, dwarfing the figures ($25M/yr, $20M, "800M+") emphasized in LED's public
+  messaging and most news coverage. Directly fetched (`curl`, HTTP 200, 1.78MB PDF, `pdftotext`
+  extraction). Tier A. [lailluminator.com PDF](https://lailluminator.com/wp-content/uploads/2026/09/LOI-Project-Osprey.pdf)
+- **New row 6k**: WWNO/Gulf States Newsroom (Drew Hawkins), "Inside Louisiana's $100 billion
+  SpaceX deal: NDAs, record tax breaks and a community left out," published 2026-09-02, directly
+  fetched (`curl`, HTTP 200, no proxy needed). New named individuals beyond Sagrera/Broussard/
+  Miller: **Kim Nehrbass and his wife Libby Smith** (Pecan Island camp owners; Smith held a
+  "Sportsman's Paradise" protest sign at the Aug. 25 announcement), **Gabe Giffin** (outdoor
+  educator, Mississippi Flyway/bird-habitat concern), and **Hollie Girouard** (named once, in a
+  photo caption alongside Broussard and Giffin, role not otherwise described in the fetched text).
+  Confirms the SpaceX deal's NDA codename was **"Project Osprey"** and reports "dozens of local and
+  state officials" signed NDAs (not just the two — Rep. Jacob Landry, Sen. Bob Hensgens — already
+  named in the corpus), traced to the same Gulf States Newsroom NDA-pattern investigation that
+  covered the Meta/Richland Parish deal. Tier A. [wwno.org](https://www.wwno.org/economy/2026-09-02/inside-louisianas-100-billion-spacex-deal-ndas-record-tax-breaks-and-a-community-left-out)
+- **New row 6l**: the actual Feb. 1, 2026 NDA signed by State Rep. Jacob J. Landry with LED —
+  located on DocumentCloud (an 8-page filing). WebFetch confirmed the document's metadata (date,
+  parties, page count) directly from the page; full-text extraction was **blocked** — both
+  `documentcloud.org` and `assets.documentcloud.org` returned Cloudflare 403s to direct `curl`, and
+  the `r.jina.ai` reader proxy used elsewhere tonight returned an "AuthenticationRequiredError...
+  bad IP reputation" error specifically for this domain (worked fine for other domains the same
+  session) — a new, domain-specific failure mode, not the familiar site-level 403. Tier B (metadata
+  confirmed, full text not yet extracted) pending a future session with a different fetch path.
+  [documentcloud.org/documents/28476037](https://www.documentcloud.org/documents/28476037-20260201-led-nda-jacob-j-landry-state-representative/)
+- No theory chain, coding scheme, or Study 1 option decided — same standing rule as before.
+
 ## Update — 2026-09-01 (see notes/2026-09-01-faa-docket-post-deadline-close-and-aerospace-liability-shield-laws.md)
 
 - **FAA docket (#5) — comment period now CLOSED**, confirmed post-deadline (~1h15m after the
