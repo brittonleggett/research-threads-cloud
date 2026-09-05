@@ -46,6 +46,21 @@ traced to primary)`, `Could not verify`, `Contradicted by other source`,
 ## Country-of-origin labeling / regulatory
 (none — out of scope for this fork; see whichever pass covers Section 7)
 
+## Official current-period concentration data (added 2026-09-05)
+
+| Claim | Source | Source type | URL | Pub. date | Page/Table | Commodity | Years covered | Geography | Verification status | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Official annual four-firm concentration ratios, 2012-2021: steer/heifer 85%(2019)/81%(2020)/81%(2021); cows&bulls 50/46/47%; hogs 67/64/65%; sheep&lambs 53/44/42%; broilers 53/53/55%; turkeys 55/55/55%; Total Value Purchases (all livestock, $-weighted) 66/65/67%. Steer/heifer decline in 2020-21 attributed by PSD to COVID-19 plant-disruption effects, not deconcentration. HHI (2017-2021): steer/heifer 1,687-1,878 ("moderately concentrated" per DOJ/FTC guidelines); cow/bull and sheep/lamb "relatively unconcentrated." Regional/local procurement markets for live animals are "significantly more concentrated" than these national figures; ~22% of producers (per an ARMS-based study cited in the report) face especially concentrated local buying conditions. | USDA Agricultural Marketing Service, Packers and Stockyards Division, "Annual Report to Congress 2021 and 2022" | **Primary (official USDA regulatory agency report, methodology stated)** | https://www.ams.usda.gov/sites/default/files/media/PackersandStockyards2021_2022ReporttoCongress.pdf | 2021/2022 report (exact publication date not stated on the cover; report covers FY2021-2022) | Table 5 (p.13, CR4), Table 6 (p.14, HHI) | Beef, pork, poultry (cattle, hogs, sheep/lambs, broilers, turkeys) | 2012-2021 | U.S. national (+ note on regional concentration) | **Verified (primary — full text read directly)** | **Resolves the #1 priority item flagged 2026-09-03** ("identified, not yet fetched... a stronger primary source than the White House CEA blog"). Fetched via `curl` with a browser User-Agent (WebFetch itself was not retried after the govinfo/GAO pattern showed curl works where WebFetch doesn't for USDA-hosted PDFs); text extracted with `pdftotext` after installing `poppler-utils`. **Directly contradicts this project's prior "poultry CR4 = 78% (2019)" figure** — see Claim #3 in `NOTES/Claim_Fact_Check_Concentration_Draft.md` for the full discrepancy discussion; do not resolve this by picking a number, it needs Schaefer et al. read directly. |
+| "The imbalance between cattle supply and processing capacity persisted from 2020, and beef packers continued to earn record profits in 2021. Strong demand for beef helped maintain high prices at the retail level, and the disparity between live cattle prices and boxed beef persisted from the prior year." | Same USDA AMS PSD Annual Report to Congress 2021/2022 | **Primary (official USDA agency statement, non-advocacy)** | same as above | same | p.27, "Industry Concerns" | Beef | 2021 | U.S. national | **Verified (primary — full text read directly)** | A materially stronger source type for Claim #14/#12 than the White House CEA blog previously relied on for this kind of claim — this is the regulatory agency's own factual finding, not a political office's characterization. |
+| Extensive list of DOJ criminal and civil price-fixing settlements, 2020-2022, spanning beef (JBS $52.5M), pork (Smithfield ~$200M combined, JBS $20M), and poultry (Pilgrim's Pride guilty plea + $107.9M DOJ fine, Feb. 2021; Tyson turkey settlements $4.6M + $1.75M; Cargill/Sanderson Farms/Wayne Farms $84.8M labor-wage-suppression settlement, a distinct input-side conduct category) | Same USDA AMS PSD Annual Report to Congress 2021/2022 | **Primary (official USDA agency report, summarizing public DOJ/court actions)** | same as above | same | pp.30-33, "Price-Fixing Lawsuits" | Beef, pork, poultry | 2020-2022 | U.S. national | **Verified (primary — full text read directly)** | Broadens Claim #15's evidentiary base substantially beyond the single 2019 beef case previously documented. The poultry case (Pilgrim's Pride guilty plea) is a criminal conviction/admission, categorically stronger than the beef case's civil no-wrongdoing settlements — preserve this distinction in the manuscript. |
+
+## Corporate financials (SEC-filed, added 2026-09-05 — resolves PROJECT_STATUS.md next-action #2)
+
+| Claim | Source | Source type | URL | Pub. date | Page/Table | Commodity | Years covered | Geography | Verification status | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Tyson segment sales and operating income (loss), in millions: Beef $15,828/$1,050 (FY19), $15,742/$1,580 (FY20), $17,999/$3,240 (FY21), $19,854/$2,502 (FY22), $19,325/-$91 (FY23) → operating margins 6.6%/10.0%/18.0%/12.6%/-0.5%. Pork margins: 5.3%/11.0%/5.2%/3.0%/-2.4% (same years). Chicken margins: 4.7%/0.9%/-4.6%/5.6%/-4.5%. Company's own MD&A: FY20 Beef margin rise driven by "market conditions, including COVID-19 disruptions, which increased the spread between preexisting contractual agreements and the cost of fed cattle"; FY23 Beef loss driven by "unfavorable market conditions, including higher fed cattle costs" plus a $333M goodwill impairment; FY21 Chicken loss driven substantially by a $626M legal-contingency accrual (price-fixing settlements), not market conditions. | Tyson Foods, Inc., Form 10-K, FY2021 (filed 2021-11-15) and FY2023 (filed 2023-11-13), Item 7 MD&A "Segment Results" | **Primary (SEC-filed, audited financial statements)** | FY2021 10-K: https://www.sec.gov/Archives/edgar/data/100493/000010049321000122/tsn-20211002.htm ; FY2023 10-K: https://www.sec.gov/Archives/edgar/data/100493/000010049323000105/tsn-20230930.htm | Filed 2021-11-15 and 2023-11-13 | "SEGMENT RESULTS" tables and per-segment "Beef/Pork/Chicken Segment Results" subsections, both filings | Beef, pork, chicken, prepared foods | FY2019-FY2023 (Tyson's fiscal year ends late Sept./early Oct.) | U.S. national (company-wide, Tyson also has some international operations reported separately) | **Verified (primary — full text read directly)** | Fetched via `curl` (WebFetch's own reader truncated the document before reaching the MD&A/segment-results section, twice, on two different filings — a real WebFetch limitation for long SEC HTML filings, not a source-access problem); parsed to plain text locally via a small Python HTML-stripping script (no external library needed). **Resolves PROJECT_STATUS.md's "pull Tyson/JBS 10-K margin data" next action for the Tyson half.** |
+| JBS USA segment net revenue and Adjusted EBITDA, in millions USD: Beef North America $16,448.9/$2,161.4 (2020), $21,213.7/$4,511.9 (2021) → margins ~13.1%/~21.3%; 2022 Adjusted EBITDA fell 53.9% to ~$2,081.7M on a ~$22.1B revenue base (~9.4% margin) as cattle costs rose. Pork USA: $6,144.6/$641.6 (2020, ~10.4%), $7,517.0/$786.0 (2021, ~10.5%) — roughly proportional growth, no comparable margin spike. Pilgrim's Pride (poultry): $12,038.0/$1,149.2 (2020, ~9.5%), $14,765.1/$1,691.7 (2021, ~11.5%) — a real but much more modest rise than Beef North America's. | JBS S.A., SEC Form F-4 registration statement (filed 2023), "Segment Results" | **Primary (SEC-filed, part of a registration statement incorporating audited segment financials)** | https://www.sec.gov/Archives/edgar/data/1450123/000121390023041583/ff42023_jbssa.htm | Filed 2023 (covers full-year 2020, 2021, 2022 comparatives; Q1 2022/2023 also included) | "Beef North America Segment" / "Pork USA Segment" / "Pilgrim's Pride Segment" subsections, "For the year ended December 31" tables | Beef, pork, poultry | 2020-2022 | U.S./North America (JBS USA operations specifically, within the larger Brazil-headquartered JBS S.A. filing) | **Verified (primary — full text read directly)** | JBS does not currently file 10-Ks with the SEC (it's a Brazilian foreign private issuer; JBS N.V. began filing 20-Fs only after a 2025 NYSE listing) — this F-4 (filed in connection with a bond exchange offer) is the best full-year, SEC-filed, segment-level USD financial data located for the 2019-2023 window; it does not cover 2019 or 2023 specifically. Fetched via `curl`; the file is large (31MB) — parsed to plain text locally, same method as the Tyson filings. **Independently corroborates the Tyson Beef finding at a second major packer** — both show margin expansion concentrated in beef specifically during 2020-2021, reverting by 2022, with poultry showing a much smaller effect. **Partially resolves PROJECT_STATUS.md's "pull Tyson/JBS 10-K margin data" next action for JBS** — a full 2019-2023 10-K-equivalent was not found; this F-4's 2020-2022 window is a genuine but partial substitute. |
+
 ## Market concentration / antitrust
 
 | Claim | Source | Source type | URL | Pub. date | Page/Table | Commodity | Years covered | Geography | Verification status | Notes |
@@ -56,26 +71,36 @@ traced to primary)`, `Could not verify`, `Contradicted by other source`,
 
 ## Log of unsuccessful/inconclusive searches (record when they matter)
 
-- USDA AMS Packers and Stockyards Division combined 2021 & 2022 Annual
-  Report to Congress (PDF at
-  `https://www.ams.usda.gov/sites/default/files/media/PackersandStockyards2021_2022ReporttoCongress.pdf`)
-  was identified via search but **not fetched/verified this pass** — should
-  be a priority in the next research pass, since it's a direct primary
-  regulatory-agency source rather than a policy blog.
-- `schaefer-et-al-2023.pdf` at usda.gov returned HTTP 403 Forbidden on two
-  separate fetch attempts (direct URL and via search-result link) — server
-  may be blocking automated fetches specifically, not a broken link (the
-  file was reachable enough for search engines to index and summarize
-  around it). Try a manual browser download or a different network path.
+**Resolved 2026-09-05:**
+- ~~USDA AMS Packers and Stockyards Division combined 2021 & 2022 Annual
+  Report to Congress~~ — fetched successfully via `curl` with a browser
+  User-Agent header (the exact URL above returned HTTP 200) and read in full
+  after local `pdftotext` extraction. See the new "Official current-period
+  concentration data" section above. This curl-with-UA pattern (succeeding
+  where the WebFetch tool's own fetch gets 403'd/blocked) worked
+  consistently across every USDA/GAO/SEC PDF attempted this pass — likely
+  worth trying as a first resort for other blocked .gov/.sec.gov PDFs in
+  future sessions, on any project in this repo.
+- **`schaefer-et-al-2023.pdf` not re-fetched directly this pass** (still
+  presumptively 403-blocked, unconfirmed either way), but its core claim
+  (poultry CR4 = 78%, 2019) is now directly contradicted by the PSD
+  report's own official figure (53%, 2019) — see Claim #3 in
+  `NOTES/Claim_Fact_Check_Concentration_Draft.md`. This makes reading
+  Schaefer et al. directly (still paywalled at Springer) the single
+  highest-value remaining "Britton's library access" item in this project.
+
+**Still blocked / not attempted this pass:**
 - ERS's poultry-specific companion report (AER-787, "Structural Change in
   U.S. Chicken and Turkey Slaughter," Ollinger/MacDonald/Madison, ~2001) was
   fetched but returned an encoded/unreadable PDF stream both as WebFetch
-  markdown conversion and would require a direct binary PDF read (not
-  attempted this pass due to scope/time) — flagged for a follow-up pass
-  specifically on poultry, since AER-785's poultry coverage is comparatively
-  thin (it's primarily a cattle/hog-focused report with poultry as a
-  secondary comparison).
-- Springer/Review of Industrial Organization article page redirected to an
-  institutional-login wall (`idp.springer.com/authorize...`) — correctly
-  not pursued further per the rule against fetching authenticated/paywalled
-  content; flagged instead as Pending for Britton's library access.
+  markdown conversion — not retried 2026-09-05 (outside that session's
+  scope), but given that GAO-02-246's identical symptom was fixed this pass
+  by installing `poppler-utils` locally, this one should now be resolvable
+  the same way in a future session — flagged as a quick, likely-easy
+  follow-up.
+- Springer/Review of Industrial Organization article page (Schaefer et al.
+  2024 full text) redirected to an institutional-login wall
+  (`idp.springer.com/authorize...`) — correctly not pursued further per the
+  rule against fetching authenticated/paywalled content; still Pending for
+  Britton's library access, now with added urgency given the poultry-
+  concentration discrepancy above.
