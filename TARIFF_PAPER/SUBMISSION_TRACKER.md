@@ -143,12 +143,17 @@ perfectly verified.
 ## Critical path to submission (do these roughly in this order)
 
 1. **This week:** Get your CITI certificate number/expiration (only you can
-   pull this — already done, see item 1 below) and confirm-or-override
-   Purchase Intention's new recommended default (Grewal et al. 1998-sourced
-   wording — see `notes/2026-08-04-full-instrument-assembly.md` item 9) or
-   pull the real Dodds et al. (1991) appendix if there's time. Fairness,
-   Opportunism, Trust, and WOM are all done — no action needed on any of
-   those four.
+   pull this — already done, see item 1 below) and confirm-or-override which
+   Purchase Intention items to use — **RESOLVED 2026-09-07: real Dodds,
+   Monroe & Grewal (1991) appendix pulled via your library access
+   (`Literature/Dodds_Monroe_Grewal_1991_JMR_EffectsPriceBrandStore.pdf`),
+   verbatim 5-item "Willingness to Buy" scale now in hand — no more wording
+   uncertainty, see `notes/2026-09-07-purchase-intention-1991-original-
+   resolved-library-pull.md`.** Only remaining choice: all 5 items, or a
+   3-item subset (items 1/4/5 are the safest generic fallback; items 2-3
+   reference "the price shown," which fits this study's price-manipulation
+   vignettes well). Fairness, Opportunism, Trust, and WOM are all done — no
+   action needed on any of those four.
 2. **This week/early next:** Finalize IRB application package (fold in CITI
    number, finalized scale wording, realistic dates) and **submit to
    McNeese HSIRB**. This is the single highest-leverage action available
@@ -201,12 +206,12 @@ perfectly verified.
 3. ~~Fairness scale~~ — **resolved 2026-09-03**, Campbell (1999) Study 2
    two-item scale (r=.84), see `notes/2026-08-04-full-instrument-
    assembly.md` item 6.
-4. Purchase Intention: the Grewal et al. (1998)-sourced wording is now the
-   recommended default in `notes/2026-08-04-full-instrument-assembly.md`
-   item 9 (item 3 already matched the prior draft; items 1-2 replaced) —
-   just needs your confirm-or-override, or a direct pull of Dodds et al.
-   (1991)'s own 1991 appendix if you get library access this weekend. Last
-   real scale decision, and it's now a quick yes/no, not a blind pick.
+4. ~~Purchase Intention~~ — **resolved 2026-09-07**, real Dodds, Monroe &
+   Grewal (1991) appendix pulled via library access, verbatim 5-item
+   "Willingness to Buy" scale (not the Grewal et al. 1998 proxy), see
+   `notes/2026-09-07-purchase-intention-1991-original-resolved-library-
+   pull.md`. Only remaining choice is 5 items vs. a 3-item subset — a quick
+   yes/no, not a blind pick.
 5. **Has the grad assistant completed the blind-coding worksheet yet?**
    Confirmed this pass: as of 2026-08-27 it was still an unfilled
    instruction sheet, not a completed comparison — no Gwet's AC1 computed.
