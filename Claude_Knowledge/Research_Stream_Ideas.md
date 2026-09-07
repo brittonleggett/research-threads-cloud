@@ -1894,3 +1894,155 @@ core mechanism (a real, moving, contestable corporate distribution decision) and
 separate re-log. Idea 26 (FTC/Cox Media "Active Listening") and 27 (tariff-driven resale stigma) were not
 specifically rechecked tonight given time spent on the new sixth bucket; no evidence surfaced incidentally
 that would change either.
+
+## 2026-09-07 — nightly scouting run (WebSearch this session; WebFetch worked against some sites
+(Brookings, OPB/NPR-affiliate, Fortune — all fetched directly and successfully) and was blocked with a
+plain HTTP 403/503 on others (npr.org itself, axios.com, cnbc.com) — same site-specific-bot-protection
+pattern logged repeatedly since 2026-08-29, not the network-wide `EGRESS_BLOCKED` failure from earlier in
+the file. Facts below marked "direct fetch" were read primary/near-primary; facts marked "WebSearch
+synthesis only" were cross-checked across multiple independent syndicated outlets carrying the same wire
+text but not independently fetched.)
+
+### 30. Data centers as 2026 midterm campaign-ad messaging — candidate framing as a political-marketing
+persuasion question, distinct from `DATA_CENTER_PAPER`'s resident-opposition framing and idea 1a's
+ratepayer-fairness angle (high confidence — breaking this week, sharp dated hook with a fixed Nov 2026
+election endpoint, real running ad stimuli already public, no marketing-journal treatment found)
+- **Gap/question:** data centers have become a live, bipartisan 2026 midterm-campaign issue, not just a
+  siting/backlash story. Confirmed via direct fetch (Brookings): Ohio Democratic Senate candidate Sherrod
+  Brown is running an ad calling incumbent Republican Jon Husted the "face of data centers" over his past
+  tax-break support; in Texas, Democrat Gina Hinojosa is attacking Gov. Greg Abbott's data-center
+  sympathies, and Abbott responded by endorsing a data-center "audit"; Pennsylvania Gov. Josh Shapiro
+  shifted from supporting to restricting data centers under Republican pressure; a Washington Post
+  rhetoric-coded study found candidates' comments swung from mostly positive (2024) to significantly
+  negative (2026), Republicans more negative than Democrats overall. Public opinion moved sharply in
+  parallel: 44% supported/42% opposed data-center construction in September 2025, vs. a 2026 Reuters/Ipsos
+  poll finding 64% say rapid data-center building is "not a good thing," 77% worried about electricity-rate
+  increases, and only 14% would live near one (all direct-fetch, Brookings). This is a genuinely different
+  object than `DATA_CENTER_PAPER`'s resident-opposition-to-a-facility framing or idea 1a's
+  ratepayer-cost-shifting-fairness angle: the antecedent here is a *political candidate's ad*, and the
+  outcome is *voter trust/support for that candidate*, not opposition to the facility or a utility-fairness
+  judgment.
+- **Why tractable soon, sourcing honestly separated:** direct fetch (OPB, an NPR-wire syndication site
+  that loaded where npr.org itself 503'd) confirms: campaigns and outside groups have spent more than $45M
+  on ads mentioning data centers since January 2026 across gubernatorial/House/Senate races ($22M+
+  Republican-supporting, $21M+ Democratic-supporting through August; Democrats ran 127 ads to Republicans'
+  67); specific real ad-spend examples — a Believe in Wisconsin PAC ad for David Crowley cost $634,795 to
+  air in August; a Friends of Byron Donalds PAC spent over $2.5M in Florida; Georgia's governor's race has
+  drawn $12.8M across nine ads, the single most of any race; ad *mentions* grew from 62 in June to 110+ in
+  July to about 164 in August — a clearly accelerating trend, not a plateaued one. WebSearch-synthesis-only
+  (cross-checked across several independent NPR-affiliate reprints of the same underlying story but not
+  independently fetched, so treat with slightly less confidence than the OPB/Brookings figures above): tech
+  companies and investors (Meta, Google, Anthropic, Andreessen Horowitz, OpenAI's Greg Brockman) have
+  reportedly donated $190M+ to pro-data-center super PACs/nonprofits, with the single largest, "Leading the
+  Future," reporting close to $45M spent through June, often against candidates taking a hard line on AI/
+  data-center regulation. Election Day (Nov 3, 2026) is a fixed, near-term natural endpoint — a survey or
+  ad-vignette study fielded now captures live, moving political communication rather than a retrospective
+  account. A WebSearch saturation check for prior academic work on this specific mechanism found general
+  political-advertising/issue-congruency and targeted-political-ad-perception literature (real, but
+  political-science/communication-journal framed, testing generic issue fit and ad-targeting knowledge, not
+  data centers specifically or a marketing-journal PLS-SEM brand-trust design) — no direct-hit treatment of
+  data-center-opposition messaging as the stimulus.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template, applied to political rather than
+  consumer-product marketing. Antecedent: ad framing (attack framing tying an opponent to
+  data-center/tech-industry interests vs. a neutral/informational message vs. no mention), manipulable in a
+  vignette modeled directly on the real Brown/Husted or Hinojosa/Abbott ads, or measured as exposure/recall
+  in a survey fielded closer to November. Mediator candidates: perceived candidate-community alignment
+  (does the candidate seem to represent local ratepayer/resident interests vs. corporate-tech interests) or
+  perceived candidate authenticity. Outcome: candidate trust, voting intention/support. Plausible moderator:
+  respondent's proximity to an existing/proposed data center (personal stake) or prior awareness of
+  ratepayer cost impacts (a natural link to idea 1a's material, without duplicating its design). A light
+  Study 1 (AI-assisted content analysis of the growing public ad corpus itself — FEC filings, ad-tracker
+  data — building an attack-vs-informational frame typology) could precede a Study 2 vignette/survey, same
+  two-study shape as the other active papers.
+- **Human-subjects flag:** Study 1 as scoped (public ad content, FEC/ad-tracker filings, news coverage) is
+  public-record content analysis, no IRB concern. Any Study 2 survey/vignette measuring real respondents'
+  candidate trust or voting intention is primary human-subjects data and would need IRB approval —
+  flagging per standing repo rule, not proceeding past the idea stage.
+- **Honest scope note:** this is political marketing, not consumer-product marketing — a genuine but
+  different lane than most of Britton's existing venue relationships (JPP&M's own scope does cover
+  public-policy-adjacent marketing, but Britton should weigh whether a political-advertising design fits
+  his research identity and target venues before greenlighting, not just whether the gap is real).
+- **Target venue:** *Journal of Public Policy & Marketing* (policy-advertising framing, consistent with
+  several of Britton's other JPP&M-track ideas) as lead candidate; *Journal of Political Marketing* as a
+  specialist alternate if Britton wants to lean into the political-communication angle explicitly.
+- Leads: [Brookings — Why data centers are a top issue in the 2026 midterms](https://www.brookings.edu/articles/why-data-centers-are-a-top-issue-in-the-2026-midterms/) (direct fetch), [OPB/NPR — Voters are fed up with data centers. Both parties are trying to cash in for midterms](https://www.opb.org/article/2026/09/05/data-centers-have-republicans-and-democrats-on-the-same-page/) (direct fetch), [NPR — same story, original](https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending) (503 tonight, use the OPB mirror), [Axios — Data center uproar scrambles the midterm election](https://www.axios.com/2026/08/20/data-center-uproar-2026-midterms) (403 tonight, WebSearch-summarized only), [CNBC — AI data center outrage is showing up everywhere from ads to elections](https://www.cnbc.com/2026/08/20/ai-data-center-election-backlash.html) (403 tonight, WebSearch-summarized only), [CNN — A uniquely bipartisan backlash against data centers shakes up the midterms](https://www.cnn.com/2026/08/31/politics/data-centers-backlash-midterms-invs-vis), [NBC News — Trump pushes for data centers, voters in key midterm races say they don't want them](https://www.nbcnews.com/politics/2026-election/trump-data-centers-voters-key-midterm-races-rcna594914)
+
+### 31. Meta Ray-Ban smart-glasses covert-recording/harassment scandal — real-scandal exposure and a
+company-issued technical fix as brand-trust antecedents, distinct mechanism from the existing
+adoption-intention smart-glasses literature (moderate confidence — genuinely fresh, dated stimulus; honest
+caveat that adjacent smart-glasses-privacy-adoption literature already exists, and this is the *second*
+Meta-anchored, mandated/company-fix-credibility idea logged in this file after idea 20, worth Britton
+weighing explicitly)
+- **Gap/question:** starting March 2026 (Wired, confirmed via direct Fortune fetch), influencers and
+  "pickup artists" began using Meta Ray-Ban smart glasses' hands-free camera to covertly film women in
+  public without consent and post the footage online. Instagram head Adam Mosseri announced enforcement
+  ("if you're posting content that is taking advantage of people and harassing them...we're going to take
+  the content down") and Meta removed violating creator accounts; separately, Meta shipped a mandatory
+  firmware update reported July 7, 2026 that disables the camera if the glasses' recording-indicator LED is
+  physically tampered with or destroyed (WebSearch-synthesis, corroborated across several outlets, not
+  independently fetched). This is a real, documented, dated misuse scandal for a genuinely large and
+  growing consumer product — Meta held 69.2% of the smart-glasses market and shipments were up 167%
+  year-over-year in Q1 2026 to 2.25M units, with new $299 frame styles launched June 2026 (all confirmed
+  via direct Fortune fetch) — not a hypothetical privacy risk. The open question: does exposure to this
+  *specific, real* misuse case (rather than the abstract "this device could threaten others' privacy" risk
+  the existing literature tests pre-purchase) change purchase intention and brand trust, and does Meta's
+  technical fix (LED-enforcement firmware) read as an adequate/credible remedy or as a minimal gesture —
+  echoing idea 20's mandated-corrective-action-credibility mechanism (also a Meta case), but for a
+  company-initiated fix rather than a litigation-mandated one, and for a bystander-harm frame rather than a
+  minors-safety frame.
+- **Honest caveat:** a saturation check tonight found this is not an empty lane — a 2018 ScienceDirect
+  paper on antecedents to AR-smart-glasses adoption already finds that *others'* privacy risk (not the
+  wearer's own) meaningfully shapes adoption intention, and a CHI 2024 paper ("In Focus, Out of Privacy")
+  studies the wearer's own perspective on the camera-glasses privacy dilemma. Neither tests exposure to a
+  real, named, dated misuse scandal as the stimulus, nor tests whether a specific technical fix is perceived
+  as credible — but Britton should weigh how differentiated a reviewer would find "real scandal exposure"
+  from "abstract privacy-risk salience," since the two are conceptually close. Also worth flagging plainly:
+  this is the second idea in this file (after 20) built around a Meta mandated/voluntary-fix-credibility
+  mechanism — a real pattern in the current news cycle, but one that could read as thin if both were pursued
+  without clear differentiation.
+- **Why tractable soon:** the scandal is recent and still escalating (March→July 2026), Meta's own fix and
+  Instagram's enforcement statements are on the record and quotable, and the EU's European Data Protection
+  Board agreed in June 2026 to prepare formal public recommendations on smart glasses by autumn 2026
+  (WebSearch-synthesis) — a near-term regulatory data point that would make a study fielded this fall
+  genuinely timely rather than retrospective.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: exposure to a
+  vignette summarizing the real misuse case, crossed with presence/absence of the LED-enforcement
+  technical-fix disclosure (a 2x2, or a 3-cell design against a no-exposure control). Mediator candidates:
+  perceived brand trustworthiness, or perceived adequacy/credibility of the technical fix specifically
+  (distinct from the general privacy-risk-perception construct the existing literature already measures).
+  Outcome: purchase intention (as a prospective wearer) *and*, as a genuinely two-sided outcome this file
+  hasn't tested elsewhere, support for others wearing/using the device in public spaces (a bystander-facing
+  DV). Plausible moderator: gender (women are the reported disproportionate target of the harassment
+  use-case — worth testing directly rather than assuming) or prior device ownership/familiarity.
+- **Human-subjects flag:** any vignette-survey work measuring real respondents' trust/purchase-intention
+  judgments is primary human-subjects data and would need IRB approval before proceeding — flagging per
+  standing repo rule, not proceeding past the idea stage.
+- **Target venue:** *Journal of Consumer Marketing* or *Journal of Interactive Marketing* (wearable-tech
+  consumer-trust framing); *Journal of Public Policy & Marketing* as an alternate given the EU regulatory
+  angle.
+- Leads: [Fortune — Instagram cracks down on growing "pervert glasses" problem with Meta Ray-Bans](https://fortune.com/2026/07/28/ray-ban-meta-pervert-glasses-secret-videos-women/) (direct fetch), [Tech-Channels — Meta Smart Glasses Face Possible European Ban Over AI and Privacy Risk](https://www.tech-channels.com/breaking-news/meta-smart-glasses-face-possible-european-ban-over-ai-and-privacy-risk) (WebSearch-summarized only), [ScienceDirect — Antecedents to the adoption of augmented reality smart glasses: a closer look at privacy risks](https://www.sciencedirect.com/science/article/abs/pii/S0148296318303849), [ACM/CHI 2024 — In Focus, Out of Privacy: The Wearer's Perspective on the Privacy Dilemma of Camera Glasses](https://dl.acm.org/doi/full/10.1145/3613904.3642242)
+
+Both idea 30 and idea 31 are proposals only, per standing rule — nothing built, nothing committed to. Idea
+30 is the stronger of the two tonight (a sharper, more clearly differentiated gap, and richer direct-fetch
+verification); idea 31 is real but narrower, sits closer to existing adjacent literature, and echoes idea
+20's mechanism closely enough that Britton should weigh the overlap explicitly rather than pursue both
+Meta-anchored ideas as if they were unrelated. Also checked tonight and set aside: the EU's Empowering
+Consumers Directive (EmpCo), which bans generic/unsubstantiated environmental claims ("eco-friendly,"
+"sustainable," "green") effective this month (September 2026) — a live, dated regulatory hook, but a
+saturation check found the underlying mechanism (vague vs. specific/substantiated green claims changing
+perceived greenwashing) is already a dense, established literature, including PLS-SEM treatments — not a
+fresh gap, same standard this file applied to Louisiana's Data Privacy Act (set aside 2026-08-30) for being
+one more entrant in an already-well-studied wave rather than a distinctive new mechanism.
+
+**Rechecking ideas 20-27 (spot-check, not the full pass the 2026-09-05 entry already did two days
+ago):** re-searched ideas 20 (Meta minors settlement), 23 (Amazon FTC ad-auction suit), and 24 (Louisiana
+insurance transparency) specifically, since those have the most actively moving underlying facts. No
+material change to any of the three: Meta's settlement figure and age-verification-credibility problem are
+being reported consistently with what's already logged (some outlets now say "$18B" rather than "$17.1B" —
+a rounding/inclusion difference in coverage, not a new fact); Amazon's public rebuttal to the FTC lawsuit
+now cites a specific figure (its auction system reportedly saved advertisers $8B between 2021-2025) that
+sharpens but doesn't change the contrastive-statement corpus idea 23 already anticipated; Louisiana's Act
+182/Act 428/Act 429 insurance-transparency timeline is unchanged from idea 24's original write-up. Ideas
+21, 22, 25, 26, and 27 were not independently rechecked tonight (time went to the two new ideas and the
+20/23/24 spot-check instead) — no evidence surfaced incidentally that would change any of them; per
+standing practice, treat as "not rechecked," not as "confirmed unchanged."
