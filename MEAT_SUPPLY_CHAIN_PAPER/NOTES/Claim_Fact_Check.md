@@ -88,19 +88,60 @@ for full method/detail):
   present) directly rather than relying on a two-year secondary summary
   (needed for claim #1's "historically weak" framing). Not attempted this
   pass — out of tonight's scope.
-- Schaefer et al. (2024, *Review of Industrial Organization*) remains
-  genuinely paywalled (Springer login wall) — its exact 78% poultry figure,
-  and how it was constructed, still cannot be independently confirmed or
-  reconciled with the PSD report's 53-55% figure. This is the single
-  highest-value remaining "Britton's library access" item.
+- **Still blocked, but materially advanced 2026-09-07**: Schaefer et al.
+  (2024, *Review of Industrial Organization*) itself remains genuinely
+  paywalled (Springer login wall; the USDA-hosted preprint mirror that
+  worked as recently as it was found is now also 403ing; Wayback/
+  archive.org is blocked by this environment's egress policy; ResearchGate
+  403s). **However, a 2025 companion paper by the same core author team
+  (Saitone, Schaefer, Scheitrum, Arita, Breneman, Nemec Boehm — identical to
+  five of the RIO 2024 paper's authors), "Consolidation, productivity, and
+  downstream prices in the US poultry industry" (*Agricultural and Resource
+  Economics Review* 54, 2025, open-access CC-BY, Cambridge Core), was found
+  and read in full, and independently confirms the exact "78%" 2019 broiler
+  CR4 figure verbatim** ("In 2019, the CR-4 for the US poultry industry was
+  0.78"), plus the "60% absent 1991-2019 consolidation" counterfactual —
+  so the number itself is a real, directly-verified figure from this
+  author team, not a fabrication or a Consensus.app artifact. Critically,
+  this paper's own methodology section states it is built on **NETS
+  (National Establishment Time-Series) data — a private, D&B/DUNS-based
+  ownership and sales database — not USDA/FSIS federally-inspected
+  slaughter-volume data**, whereas the RIO 2024 abstract (independently
+  confirmed via multiple search-engine syntheses of its abstract, though
+  the abstract itself still hasn't been read primary) states *that* paper
+  uses "annual plant-level food safety and inspection service (FSIS) data"
+  — the same data family USDA AMS PSD's own official CR4s are built from.
+  **Working hypothesis, not yet confirmed by a direct read of RIO 2024
+  itself: the "78%" figure may have been correctly reported by Consensus.app
+  but mis-attributed to the wrong paper** — i.e., it may belong to this NETS-
+  based 2025 poultry-specific companion piece rather than to the FSIS-based
+  RIO 2024 meat-processing paper the project actually cited, which would
+  mean RIO 2024's own broiler CR4 is plausibly much closer to PSD's 53-55%.
+  This would resolve the discrepancy as a citation mix-up rather than a
+  genuine factual contradiction between two data sources — but this is
+  still a hypothesis, not a resolution, since RIO 2024's own broiler figure
+  has still not been independently read. **Do not use "78%" for poultry in
+  the manuscript regardless of this finding** — see PROJECT_STATUS.md Open
+  Decision #6, updated 2026-09-07, and
+  `NOTES/2026-09-07-schaefer-pozo-idea28-followup.md` for the full chain of
+  reasoning and every channel attempted.
 - Meat Institute rebuttal page (403 both prior sessions) — not retried this
   pass; still open.
-- Pozo/Bachmeier/Schroeder (2021) full text remains paywalled at
-  ScienceDirect — not part of tonight's three targeted items, still relying
-  on abstract-level synthesis (though a separate Consensus.app pass on
-  2026-09-03 reported reading it in full; that source type is lower-
-  confidence than a direct primary read and should still be treated with
-  some caution).
+- **RESOLVED 2026-09-07**: Pozo/Bachmeier/Schroeder (2021) full text —
+  still paywalled at ScienceDirect itself, but the authors' own K-State
+  University working-paper version (KREx institutional repository,
+  `krex.k-state.edu`, "revised_bachmeier_pozo_schroeder.pdf") was found and
+  read in full directly (44 pages, via `curl` with a browser UA — WebFetch
+  itself 403'd). Confirms the 2026-09-03 Consensus.app synthesis's
+  conclusions essentially verbatim: scanner-data models fail to reject
+  symmetry at monthly or weekly frequency; BLS-data models show statistically
+  significant asymmetry (retail responds asymmetrically to farm, wholesale,
+  and own-price shocks); counterfactual analysis suggests any undetected
+  asymmetry favors consumers, not producers, at the retail level, and is
+  ambiguous at the farm level depending on which shock is isolated. This is
+  now a directly-verified primary read, not an AI-tool-mediated one — see
+  `NOTES/2026-09-07-schaefer-pozo-idea28-followup.md` for detail. Evidence
+  Table and this file's Claim #5 row updated accordingly.
 - Extract pork-specific figures from Balagtas & Cooper (2021) to confirm or
   disconfirm a pork-specific COVID-margin finding (claim #13). Not
   attempted this pass.

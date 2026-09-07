@@ -1848,6 +1848,19 @@ paper than a natural fit for any single one of Britton's existing five projects)
   [Cato at Liberty — are algorithms enabling automated collusion?](https://www.cato.org/blog/are-algorithms-enabling-automated-collusion),
   [ProMarket — preventing algorithmic collusion by adding noise to market data](https://www.promarket.org/2025/12/19/preventing-algorithmic-collusion-by-adding-noise-to-market-data/)
 
+**2026-09-07 addendum (MEAT_SUPPLY_CHAIN_PAPER session, not a scouting pass):** idea 28's core facts were
+independently verified against primary sources (DOJ's Executive Order 14364 text, actual signed federal
+court orders from the MDL 22-3031 docket via CourtListener's RECAP archive, Tyson's own Q3 FY2026 earnings
+release) — they hold up well, with a few precision corrections (the July 2026 class certification was a
+mixed ruling, not a blanket grant; the $87.5M settlement's final approval was signed May 27, not May 29;
+Pilgrim's Pride's $107.9M fine is a 2021 event, distinct from 2026's Agri Stats developments). One new,
+not-yet-logged-here development was also found: DOJ expanded its beef-pricing probe to eight major
+retailers (Kroger, Walmart, Costco, Amazon, and others) around Sept. 1-3, 2026 (secondary-sourced only so
+far, not yet traced to a DOJ document). Full detail:
+`MEAT_SUPPLY_CHAIN_PAPER/NOTES/2026-09-07-schaefer-pozo-idea28-followup.md`. This was fact-verification
+only — the adoption decision (whether idea 28 becomes Study 1/2 material) remains Britton's, unchanged from
+this entry's original framing.
+
 Both idea 28 and idea 29 are proposals only, per standing rule — nothing built, nothing committed to.
 Idea 28 is the stronger and more immediately actionable of the two tonight, precisely because it has a
 ready-made home in the already-scaffolded `MEAT_SUPPLY_CHAIN_PAPER` rather than needing to become a new

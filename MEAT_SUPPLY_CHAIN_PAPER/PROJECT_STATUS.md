@@ -1,11 +1,14 @@
 # Project Status — Meat Supply Chain Paper
 
-Last updated: 2026-09-05 (second research session — primary-source retry
-pass targeting three specific blocked/pending sources; see dated note in
-`NOTES/` for full detail. First session was 2026-09-03: scaffold + five
-parallel research passes on commodity structure & concentration, imports,
-COOL regulatory timeline, price-transmission literature, theory-candidates
-literature search).
+Last updated: 2026-09-07 (third research session — retry pass on the two
+still-blocked sources, primary-source verification of the beef price-fixing
+saga (scouting-log idea 28), and a Tyson FY2026 margin update; see dated
+note in `NOTES/` for full detail). Second session was 2026-09-05
+(primary-source retry pass targeting three specific blocked/pending
+sources). First session was 2026-09-03: scaffold + five parallel research
+passes on commodity structure & concentration, imports, COOL regulatory
+timeline, price-transmission literature, theory-candidates literature
+search).
 
 ## What we currently know
 
@@ -176,6 +179,49 @@ All three of that night's targeted next actions were substantially resolved:
   specifically**, no longer resting on the unverified White House CEA
   figures.
 
+## 2026-09-07 research pass (see `NOTES/2026-09-07-schaefer-pozo-idea28-followup.md` for full detail)
+
+Three lines of work: (1) another retry pass on the two sources still
+blocked as of 2026-09-05 — Pozo et al. and Schaefer et al.; (2)
+primary-source verification of scouting-log idea 28 (the 2025-26 beef
+price-fixing saga); (3) a Tyson FY2026 margin update.
+
+- **Pozo, Bachmeier & Schroeder (2021): RESOLVED.** Found and read in full
+  via the authors' own open-access working-paper version on Kansas State
+  University's KREx institutional repository — a legitimate open-access
+  channel not previously tried. Confirms the project's existing
+  characterization (scanner data: no robust asymmetry; BLS data: robust
+  asymmetry) directly rather than via an AI-tool-mediated read.
+- **Schaefer et al. (2024): still blocked, but the discrepancy investigation
+  advanced materially.** The paper itself remains inaccessible after trying
+  five more channels this pass. But a 2025 open-access companion paper by
+  an overlapping author team was found and confirms "78%" is a real figure
+  this team has published — using a different (NETS, private ownership/
+  sales) dataset than the FSIS-based one the actually-cited 2024 paper
+  claims to use. Working hypothesis (not confirmed): the 78% figure may
+  belong to the wrong paper in this author team's body of work, which would
+  make this a citation mix-up rather than a genuine data contradiction —
+  still needs a direct RIO 2024 read to settle. See Open Decisions #6.
+- **Idea 28 (beef price-fixing saga) fact-checked against primary sources**:
+  DOJ's Executive Order 14364 (read via Federal Register API), four actual
+  signed federal court orders from the MDL 22-3031 docket (fetched via
+  CourtListener's free RECAP archive, not news summaries), and Tyson's own
+  Q3 FY2026 earnings release. Core facts hold up well; a few precision
+  corrections surfaced (July 2026 class certification was a mixed ruling,
+  not a blanket grant; the $87.5M settlement's final approval was signed
+  May 27, not May 29; Pilgrim's Pride's $107.9M fine is a 2021 event, not
+  2026). One brand-new development found: DOJ expanded its probe to eight
+  major retailers around Sept. 1-3, 2026 (secondary-sourced only so far).
+  **This was fact-verification, not an adoption recommendation** — whether
+  to use idea 28 as Study 1/2 material stays Britton's call. See Open
+  Decisions #8.
+- **Tyson FY2026 update**: Beef segment margin was (2.6)% in Q3 FY2026 and
+  (4.3)% for the nine months, continuing losses from FY2023 rather than
+  reverting to profit — driven by what Tyson's own release calls "one of
+  the most severe cattle shortages in U.S. history." A useful contrast to
+  the FY2020-21 COVID-era margin-widening finding: different shock type,
+  opposite margin direction, both real.
+
 ## Top 10 sources found so far
 
 1. USDA/ERS AER-785 (MacDonald, Ollinger, Nelson, Handy, 2000), "Consolidation
@@ -196,7 +242,9 @@ All three of that night's targeted next actions were substantially resolved:
    — the current legal meaning of "Product of USA."
 7. Pozo, Bachmeier & Schroeder (2021), "Are there price asymmetries in the
    U.S. beef market?", *Journal of Commodity Markets* — the key
-   scanner-data counter-finding on beef price asymmetry.
+   scanner-data counter-finding on beef price asymmetry. **Full text read
+   directly 2026-09-07** via the authors' own K-State (KREx) open-access
+   working paper, not just an AI-search synthesis.
 8. Balagtas & Cooper (2021), *Choices*, and Cooper et al. (2023), *Food
    Policy* — the best-triangulated evidence on 2020 COVID packer-margin
    widening.
@@ -231,43 +279,108 @@ All three of that night's targeted next actions were substantially resolved:
    returning unreadable streams) is now fixed** — installing `poppler-utils`
    locally resolved it, and GAO-02-246 has been read in full. What remains
    is genuinely paywalled journal access, not a tooling problem.
-6. **New 2026-09-05: a real, unresolved discrepancy in the poultry
-   concentration figure needs Britton's awareness, not a decision per se.**
-   The project's current "poultry CR4 = 78% (2019)" figure (from an
-   AI-search synthesis of Schaefer et al. 2024, itself still unread/
-   paywalled) is directly contradicted by the official USDA AMS Packers and
-   Stockyards Division Annual Report to Congress, which gives 53% for the
-   same year using a stated methodology — even though the same synthesis's
-   beef (85%) and hog (67%) figures for 2019 match the official PSD data
-   exactly. This project is now using PSD's 53-55% figure and treating
-   poultry as the least-concentrated commodity again (reverting the
-   2026-09-03 characterization), but the discrepancy itself is unresolved
-   pending a direct read of Schaefer et al. **If Britton has institutional
-   access to *Review of Industrial Organization* (Springer), reading
-   Schaefer et al. (2024) directly is now the single highest-value
-   remaining verification gap in the whole project** — it would also
-   resolve the parallel Pozo et al. (2021, *Journal of Commodity Markets*)
-   full-text gap for Claim #5 if the same institutional access covers
-   ScienceDirect.
+6. **Poultry concentration discrepancy (opened 2026-09-05, materially
+   advanced but NOT resolved 2026-09-07) — still needs Britton's awareness,
+   still not a decision per se, but the picture has changed.** The
+   project's current "poultry CR4 = 78% (2019)" figure (from a 2026-09-03
+   AI-search synthesis attributed to Schaefer et al. 2024, itself still
+   unread/paywalled) is directly contradicted by the official USDA AMS
+   Packers and Stockyards Division Annual Report to Congress, which gives
+   53% for the same year using a stated methodology — even though the same
+   synthesis's beef (85%) and hog (67%) figures for 2019 match the official
+   PSD data exactly. This project is now using PSD's 53-55% figure and
+   treating poultry as the least-concentrated commodity again. **2026-09-07
+   update:** Schaefer et al. (2024) itself remains genuinely blocked after
+   a thorough retry across multiple legitimate open-access channels (the
+   USDA-hosted preprint mirror that worked 2026-09-05 is now 403ing;
+   Wayback/archive.org is blocked by this cloud environment's own egress
+   policy, not by the source; Springer redirects to an institutional login
+   wall; ResearchGate 403s). However, a 2025 open-access (CC-BY) companion
+   paper by an overlapping author team (Saitone, Schaefer, Scheitrum, Arita,
+   Breneman, Nemec Boehm — five of the same names) was found and read in
+   full: "Consolidation, productivity, and downstream prices in the US
+   poultry industry," *Agricultural and Resource Economics Review* 54
+   (2025). It independently confirms "78%" as a real 2019 broiler CR4
+   figure this author team has published verbatim — so the number is not
+   fabricated — but that paper's own methodology is built on **NETS
+   (National Establishment Time-Series) private ownership/sales data**, not
+   the USDA/FSIS federally-inspected slaughter-volume data that both PSD's
+   official figures and (per its own abstract) the actually-cited RIO 2024
+   paper use. **Working hypothesis, not yet confirmed: the 78% figure may
+   have been correctly reported but attributed to the wrong paper by this
+   author team** (the 2025 NETS-based poultry paper, not the 2024 FSIS-based
+   meat-processing paper originally cited) — which would resolve this as a
+   citation mix-up rather than a genuine two-source factual contradiction,
+   but this remains unconfirmed without a direct read of RIO 2024 itself.
+   **If Britton has institutional access to *Review of Industrial
+   Organization* (Springer), reading Schaefer et al. (2024) directly is
+   still the single highest-value remaining verification gap in the whole
+   project** — specifically, checking whether that paper's own broiler CR4
+   figure for 2019 is 78% or something close to PSD's 53-55%. **The Pozo et
+   al. (2021) gap is now separately resolved (see item below) and no
+   longer depends on this.** Full chain of reasoning and every access
+   channel attempted: `NOTES/2026-09-07-schaefer-pozo-idea28-followup.md`.
+   **Do not use the 78% figure anywhere in this project without this
+   caveat** — `LITERATURE/Market_Concentration_Evidence.md` and
+   `NOTES/Commodity_Structure_Comparison.md` were both updated 2026-09-07 to
+   carry it inline rather than only in this file.
+7. **RESOLVED 2026-09-07**: Pozo, Bachmeier & Schroeder (2021) full text —
+   the published version remains paywalled at ScienceDirect, but the
+   authors' own open-access working-paper version was found on Kansas State
+   University's institutional repository (KREx) and read in full (44 pages,
+   direct primary read, not AI-tool-mediated). Confirms the project's
+   existing Claim #5 characterization: scanner-data models find no robust
+   price asymmetry; BLS-data models do. See Evidence Table and the new
+   dated note for detail.
+8. **New 2026-09-07, informational, not a decision needed yet: the
+   scouting log's idea 28 (2025-26 beef price-fixing saga) has now had its
+   core facts independently verified against primary sources** — DOJ's own
+   Executive Order 14364 text, actual signed federal court orders (not news
+   summaries) from the MDL settlement and July 2026 class-certification
+   rulings, and Tyson's own Q3 FY2026 earnings release. The verification
+   surfaced a few corrections to the original scouting entry worth knowing
+   before any adoption decision: the July 2026 class certification was a
+   **mixed ruling**, not a blanket grant (several classes, including the
+   cattle "feeder"/indirect-seller class and all injunctive-relief classes,
+   were denied); the $87.5M consumer settlement's final-approval order was
+   signed May 27, 2026 (not May 29); and Pilgrim's Pride's $107.9M criminal
+   fine is a 2021 event, distinct from 2026's Agri Stats developments, even
+   though the scouting entry's prose places them in the same paragraph. A
+   brand-new, not-yet-in-the-scouting-log development was also found: DOJ's
+   Antitrust Division expanded its beef-pricing probe to eight major
+   retailers (Kroger, Walmart, Costco, Amazon, and others) around Sept.
+   1-3, 2026 — confirmed only via reputable secondary press so far, not yet
+   traced to a DOJ document directly. **Whether to adopt idea 28 as Study
+   1/2 material remains entirely Britton's call, per the scouting log's own
+   framing — this pass verified facts, it did not make or lean toward that
+   adoption decision.** Full detail:
+   `NOTES/2026-09-07-schaefer-pozo-idea28-followup.md`.
 
 ## Next actions (prioritized)
 
-1. **DONE 2026-09-05, except Schaefer et al./Pozo et al. themselves which
-   remain genuinely paywalled**: Erol & Saghaian (2022) resolved via the
+1. **DONE 2026-09-05/2026-09-07**: Erol & Saghaian (2022) resolved via the
    authors' own open-access conference poster; the 2024 Federal Register
    voluntary-labeling rule resolved via federalregister.gov's own API/XML
    endpoints; GAO-02-246 resolved by installing local PDF-text-extraction
-   tooling. Schaefer et al. (2024, *Review of Industrial Organization*) and
-   Pozo et al. (2021, *Journal of Commodity Markets*) still require
-   Britton's institutional access if he has it — see Open Decisions #6.
+   tooling; **Pozo et al. (2021) resolved 2026-09-07** via the authors' own
+   K-State institutional-repository working paper. **Schaefer et al. (2024,
+   *Review of Industrial Organization*) is the one item still genuinely
+   blocked** despite a thorough 2026-09-07 retry across five more channels
+   — Britton's institutional Springer access, if he has it, remains the
+   only way to close this one. See Open Decisions #6.
 2. **DONE 2026-09-05**: Tyson 10-Ks (FY2019-2023, full segment margin data)
    and JBS's SEC Form F-4 (2020-2022 segment data) pulled and read directly.
    Claim #14 upgraded from Unresolved to Supported-for-beef/pork-during-
    2020-2021 on this basis. A full 2019-2023 JBS equivalent to a 10-K was
    not located (JBS doesn't currently file 10-Ks) — a minor residual gap.
-3. Get Britton's decision on the six open items above, especially Study 1
-   commodity scope, since that determines corpus-building work. (Item #6,
-   the poultry-concentration-figure discrepancy, is new as of 2026-09-05.)
+   **Extended 2026-09-07**: Tyson's own Q3 FY2026 earnings release pulled
+   directly, showing sustained Beef segment losses through FY2026 (a
+   cattle-supply-driven shock, not COVID) — a useful contrast case to the
+   FY2020-21 margin-widening finding, not a contradiction of it.
+3. Get Britton's decision on the open items above, especially Study 1
+   commodity scope, since that determines corpus-building work. (Items #6
+   and #8 were updated/added 2026-09-07; item #7 was resolved 2026-09-07
+   and needs no decision.)
 4. Once Study 1 scope is set, begin building the actual artifact corpus
    (`CORPUS/`) per the inclusion criteria in
    `STUDY1/Study1_Concept_and_Corpus_Plan.md` — not yet started.
@@ -275,7 +388,15 @@ All three of that night's targeted next actions were substantially resolved:
    Annual Report to Congress pulled and read directly — now the project's
    anchor concentration source, superseding the White House CEA blog. It
    also surfaced the poultry-figure discrepancy in Open Decisions #6.
-6. **New from this pass**: pull the full USDA ERS Meat Price Spreads
-   historical time series (1970-present, beef/pork-specific) to properly
-   test Claim #1's "historically weak returns" framing — flagged repeatedly
-   across research passes but still not attempted.
+6. Pull the full USDA ERS Meat Price Spreads historical time series
+   (1970-present, beef/pork-specific) to properly test Claim #1's
+   "historically weak returns" framing — flagged repeatedly across research
+   passes (2026-09-03, -05, -07) but still not attempted; now the top
+   remaining un-started next-action.
+7. **New 2026-09-07, if a future pass has time**: trace the DOJ retailer-
+   probe expansion (Open Decisions #8) to an actual DOJ document rather
+   than secondary press; confirm the Tyson-only $82.5M grocer/distributor
+   settlement's final-approval order directly (only its motion/notice
+   docket entries were confirmed this pass, not the signed order itself);
+   check whether the Sept. 1, 2026 Agri Stats final-approval hearing has
+   occurred and with what outcome.

@@ -80,6 +80,20 @@ current commentary — JBS, Tyson, Cargill, National Beef — is consistent with
 industry-recognized "Big Four" packer identity, though this fork did not
 independently re-verify each company's individual share.
 
+## CAVEAT ADDED 2026-09-05/09-07 — DO NOT USE THE 78% POULTRY FIGURE BELOW
+WITHOUT THIS CAVEAT. The official USDA AMS Packers and Stockyards Division
+Annual Report to Congress (read in full 2026-09-05) gives an official 2019
+broiler CR4 of **53%**, not 78% — a discrepancy not yet resolved. The
+project is currently using PSD's 53-55% for poultry, not the 78% figure
+below. As of 2026-09-07 there is a plausible (not yet confirmed)
+explanation — the 78% figure may belong to a different, NETS-data-based
+2025 companion paper by an overlapping author team, not to the FSIS-data-
+based Schaefer et al. (2024) paper actually cited — see
+`PROJECT_STATUS.md` Open Decision #6 and
+`NOTES/2026-09-07-schaefer-pozo-idea28-followup.md`. This section is kept
+for its historical/directional content but its headline 78% figure should
+not be repeated in the manuscript unqualified.
+
 ## Update 2026-09-03 (via Consensus.app Deep Research) — current 2019
 figures found, and a correction to the poultry characterization below
 
@@ -144,10 +158,14 @@ various CR4/HHI figures (sourced from AER-785, the CEA blog, and now
 Schaefer et al.) as more precisely comparable across sources than they are.
 
 ## Poultry is structurally different, and USDA's own framing says so
-**(see the 2026-09-03 update above — the magnitude claim in this section is
-now superseded by the 78% (2019) CR4 figure; keeping this section for the
-historical trajectory and the vertical-integration point, which still
-hold)**
+**(see the 2026-09-03 update above AND the 2026-09-05/09-07 caveat at the
+top of this file — the "78% (2019)" figure that briefly superseded this
+section's framing is itself now unresolved/disputed against PSD's official
+53%, and the project has reverted to treating poultry as the least-
+concentrated of the three commodities on a national CR4 basis, consistent
+with the framing below. Keeping this section for the historical trajectory
+and the vertical-integration point, which still hold regardless of which
+2019 figure is correct)**
 
 USDA ERS's own historical assessment (AER-785, Chapter 3) is explicit:
 *"Market concentration in hog, chicken, and turkey slaughter is not
