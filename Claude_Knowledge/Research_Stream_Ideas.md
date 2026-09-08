@@ -2059,3 +2059,206 @@ sharpens but doesn't change the contrastive-statement corpus idea 23 already ant
 21, 22, 25, 26, and 27 were not independently rechecked tonight (time went to the two new ideas and the
 20/23/24 spot-check instead) — no evidence surfaced incidentally that would change any of them; per
 standing practice, treat as "not rechecked," not as "confirmed unchanged."
+
+## 2026-09-08 — nightly scouting run (WebSearch only this session; did not test WebFetch/egress tonight —
+treat sourcing below as WebSearch-summarized leads, not primary-source-verified, consistent with every
+prior entry in this file). Task brief for tonight: recheck ideas 21, 22, 25, 26, 27 (light pass) and scout
+new candidates, continuing numbering from 31.
+
+**Recheck of ideas 21, 22, 25, 26, 27 (the actual ask tonight):** searched each individually for material
+developments since they were logged. Short version: nothing has moved enough to change any of the five
+assessments.
+- **Idea 21 (Made-in-USA claims under FTC enforcement):** the FTC sent a fresh round of "Made in USA"
+  warning letters July 6, 2026 (at least one company advertising "Made in Texas" despite imported content),
+  confirming the enforcement sweep is a sustained priority, not a one-off April event — sharpens the
+  enforcement-salience antecedent slightly but doesn't change the gap/method sketch already logged. Still
+  live, still real.
+- **Idea 22 (tariff-refund windfall retention):** no new movement beyond the Walmart earnings-to-"price
+  investments" shift already captured in the 09-07 entry. Still an accurate three-way corporate split
+  (pass-through / traceable-only / retain) as of tonight.
+- **Idea 25 (NY synthetic-performer disclosure law):** confirmed still in effect since June 9, 2026, no
+  amendments or enforcement actions found tonight. Assessment unchanged — still the file's honestly-flagged
+  weakest of the three logged 2026-09-03, sitting inside the already-active AI-ad-disclosure literature.
+- **Idea 26 (FTC "Active Listening" / Cox Media Group):** confirmed the finalized order (Aug 27, 2026) is
+  the terminal state of the case — no appeal or further enforcement action found. Nothing new to report;
+  gap/method sketch stands as logged.
+- **Idea 27 (tariff-driven secondhand/resale stigma-reduction):** the underlying trend is if anything
+  slightly stronger than when logged — this session's independent search (not aware of the exact prior
+  figures) found 59% of consumers now say they'll turn to secondhand apparel specifically as a tariff
+  buffer, and industry estimates of the resale market have grown further (a Forbes/ThredUp figure now near
+  $82B for 2026 U.S. resale fashion specifically, vs. the $61B figure logged 09-04 — different analysts,
+  not strictly comparable, so treat as directional not a precise revision). Still no fixed regulatory/legal
+  date anchoring it, the honest weakness flagged originally. No change to the recommendation.
+
+None of the five needed a re-log or a weakness/strength change tonight — logging the recheck itself here so
+the next session doesn't have to redo it.
+
+### 32. AI-generated deepfake political ads and mandated disclosure labels in the 2026 midterms — does a
+disclosure label change how viewers evaluate a synthetic political ad, extending idea 25's commercial-
+synthetic-performer mechanism into political advertising (high confidence — live, fast-moving, fixed Nov 3
+2026 election endpoint, a concrete real ad already in circulation to model a stimulus on, no
+marketing/consumer-research academic treatment found)
+
+- **Gap/question:** election deepfakes have gone from a hypothetical 2024 worry to a documented,
+  campaign-deployed 2026 tactic. The clearest case: in March 2026 the National Republican Senatorial
+  Committee released an AI-generated video of Texas Senate candidate James Talarico that he never filmed —
+  a lifelike, extended-duration synthetic performance putting invented lines in his mouth (self-praising
+  remarks and inflammatory statements pulled loosely from his past tweets) — timed to fall just outside the
+  30-day window Texas's own anti-deepfake statute covers, so it wasn't illegal despite being a textbook case
+  of exactly what such laws target. Separately, 33 states now carry some form of election-deepfake law into
+  the 2026 midterms (up from an earlier wave), with real variation in what they require: Minnesota/Texas ban
+  distribution within a window before an election, Maryland bans year-round, Colorado/Utah require detailed
+  creator/edit-history disclosures rather than an outright ban — and two states' laws (California, Hawaii)
+  have already been struck down on First Amendment grounds, so the legal landscape is actively being tested,
+  not settled. The open marketing/communication question this creates: when a political ad is disclosed as
+  AI-generated/synthetic (vs. not disclosed, vs. disclosed only after the fact via fact-checking coverage,
+  which is what actually happened in the Talarico case), does that change perceived candidate credibility,
+  perceived attacker credibility, and voting-relevant trust — and does it do so differently than idea 25's
+  commercial-advertising synthetic-performer mechanism, given political ads carry persuasion-knowledge and
+  partisan-motivated-reasoning dynamics that product ads don't.
+- **Why tractable soon:** Election Day (Nov 3, 2026) is a fixed, near-term natural endpoint, same shape as
+  idea 30's data-center-messaging entry — a study fielded now captures live political communication instead
+  of a retrospective account, and there is already a real, well-documented, widely-covered ad (Talarico) to
+  model a vignette stimulus on rather than needing to invent one. This is also explicitly billed by
+  political-communication trade press as "the first big test" of the state deepfake-law wave, meaning
+  academic attention is plausibly about to spike — a reason to move on this before the field crowds in,
+  not after. A WebSearch saturation check tonight for existing marketing/consumer-research (as opposed to
+  legal/political-science) treatment of *disclosure-label efficacy* for political deepfakes specifically
+  came back empty — what exists is legal-tracker/policy analysis (state-by-state law summaries) and general
+  deepfake-detection/media-literacy research, not a marketing-journal test of whether a disclosure label
+  changes trust/persuasion outcomes for a *political* synthetic ad the way idea 25 is testing for commercial
+  ones.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template, run as a vignette experiment
+  closely modeled on the real Talarico-style case. Antecedent: exposure to a synthetic political attack ad,
+  manipulated across (a) disclosed-as-AI-generated vs. undisclosed vs. disclosed-only-via-later-fact-check
+  (mirroring what actually happened), and possibly (b) in-party vs. out-party target (does disclosure matter
+  less when the ad flatters the viewer's own side). Mediator candidates: perceived attacker/sponsor
+  credibility (does using a deepfake read as itself disqualifying, regardless of content) and perceived
+  target-candidate credibility (does the target get any credibility recovery once the ad is known to be
+  fake). Outcome: candidate trust/support, willingness to share or challenge the ad. Plausible moderator:
+  partisan identity strength (motivated-reasoning risk, worth testing directly rather than assuming away) or
+  general AI-media literacy.
+- **Human-subjects flag:** any vignette-survey work measuring real respondents' candidate trust or voting-
+  relevant judgments is primary human-subjects data and would need IRB approval — flagging per standing
+  repo rule, not proceeding past the idea stage. Political-attitude research of this kind may also draw
+  extra IRB scrutiny given its proximity to an active election; worth flagging to Britton explicitly, not
+  assuming a light review.
+- **Honest scope note, same as idea 30:** this is political-communication research, not consumer-product
+  marketing — a different lane than most of Britton's venue relationships. Worth weighing against idea 30
+  (data centers as campaign-ad content) before greenlighting both, since they'd both be political-marketing
+  papers logged in the same file within days of each other; they are mechanistically distinct (ad *content*
+  and issue-messaging vs. ad *authenticity*/synthetic-media disclosure) but Britton should decide
+  deliberately whether he wants one political-marketing paper this cycle or two.
+- **Target venue:** *Journal of Political Marketing* (direct fit) or *Journal of Public Policy & Marketing*
+  (policy-disclosure framing, consistent with several of Britton's other JPP&M-track ideas); *Journal of
+  Advertising* as an alternate given the disclosure-manipulation design's kinship with idea 25's.
+- Leads (unverified, WebSearch only): [CNN — Republicans release AI deepfake of James Talarico as phony videos proliferate in midterm races](https://www.cnn.com/2026/03/13/politics/james-talarico-ai-deepfake-republicans-midterms), [PolitiFact — how James Talarico's opponents use AI to boost false claims](https://politifact.com/article/2026/jun/22/talarico-artificial-intelligence-ads-senate-texas/), [Poynter — in Texas, AI-generated political ads are blurring the line between real and fake](https://www.poynter.org/fact-checking/2026/james-talarico-ken-paxton-ai-political-ads-texas/), [OECD.AI incident tracker — AI-generated deepfake ad targets Texas Senate candidate with misinformation](https://oecd.ai/en/incidents/2026-06-09-1803), [Arizona Capitol Times — state AI deepfake laws face first big test in 2026 midterm elections](https://azcapitoltimes.com/news/2026/07/21/state-ai-deepfake-laws-face-first-big-test-in-2026-midterm-elections/), [Axios Boston — Massachusetts election deepfake law stalls as 29 other states pass AI ad rules](https://www.axios.com/local/boston/2026/08/26/as-states-ban-political-deepfakes-mass-lawmakers-lag-behind), [JLCW — synthetic media and the ballot: election-integrity law heading into the 2026 midterms](https://www.jlcw.org/news/deepfakes-election-integrity-2026-midterms)
+
+### 33. Section 232 pharmaceutical tariffs (100% default rate, phasing in July 31 and September 29, 2026)
+as a high-stakes, low-switching-elasticity test of tariff-attribution effects on a captive, health-necessity
+purchase — a new product category for TARIFF_PAPER's core mechanism, not a restatement (moderate-high
+confidence — sharply dated, one deadline days away; genuine gap in the specific consumer-trust mechanism,
+though the general DTC-pharma-advertising-trust literature is old and dense)
+
+- **Gap/question:** the administration's Section 232 pharmaceutical tariff regime (April 2, 2026
+  proclamation) sets a default 100% tariff on patented drugs/pharmaceutical ingredients from certain
+  countries, tiered down for companies with a Commerce-approved U.S. onshoring plan or a signed
+  most-favored-nation pricing agreement with HHS. Rollout is staggered: larger firms' tariffs took effect
+  July 31, 2026; smaller firms' (and, per some coverage, a broader deadline) take effect **September 29,
+  2026 — three weeks from tonight**. Independent modeling (Health Affairs Scholar, Sept 2026) estimates a
+  100% worldwide tariff would raise average generic-drug prices ~30% (+$21/prescription), with a targeted
+  cancer-drug example citing a possible $10,000 increase over a 24-week course; PhRMA-commissioned analysis
+  separately estimates a $51B/year system-wide cost increase. The open question this creates that
+  TARIFF_PAPER's existing corporate-tariff-messaging design doesn't test: pharmaceuticals are a category
+  where the standard tariff-driven consumer response (brand-switch, trade down to private label, delay
+  purchase) is mostly unavailable — patients on a prescribed medication have low real substitution freedom,
+  and drug pricing is mediated by insurance/PBM structures most consumers don't see clearly. Does
+  tariff-attributed price/cost messaging from a pharma manufacturer (vs. insurer, vs. pharmacy) in this
+  captive-purchase context change patient trust and perceived corporate exploitation *differently* than in
+  a normal retail category, given the patient largely can't exit the relationship the way idea 2a's/7's/
+  19's/21's retail-category consumers can? A related, more testable sub-question: manufacturers with a
+  Commerce-approved onshoring plan or MFN pricing deal get a *lower* tariff tier — does the presence/framing
+  of that exemption (a manufacturer publicly citing its onshoring commitment to justify a smaller price
+  increase) function as a credibility-building disclosure, similar in shape to idea 21's claim-specificity
+  logic but inside a life-necessity purchase category that raises the moral stakes of any perceived
+  opportunism.
+- **Why tractable soon, honest caveat included:** the Sept 29, 2026 deadline is genuinely imminent (about
+  three weeks out from tonight), giving a real, fixed before/after point unlike most of this file's ongoing-
+  trend entries; unlike idea 21's "Made in USA" baseline data (over a year old), the cost-impact modeling
+  here (Health Affairs Scholar) is a September 2026 publication, current as of this week. Honest caveat: a
+  WebSearch saturation check tonight found the *economic-impact* literature on pharma tariffs is already
+  substantial (Health Affairs Scholar, PhRMA/Tax Foundation reports, Johns Hopkins commentary) — but all of
+  it models cost/price impact, not consumer trust or attribution psychology; a second check for DTC-pharma-
+  advertising-trust and tariff-attribution specifically came back empty for this exact intersection, though
+  the *general* DTC-pharma-trust literature (decades old, large) is real and adjacent, so Britton should
+  weigh the "new category, old adjacent literature" framing honestly, the same caveat this file gave ideas
+  21 and 27.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: tariff-attributed
+  price-increase messaging from a pharmaceutical manufacturer (vs. generic/unexplained increase, vs. an
+  onshoring-exemption framing citing the lower tariff tier), manipulable in a vignette using a prescription
+  medication scenario, or measurable as awareness in a survey of patients on maintenance medications.
+  Mediator candidates: perceived corporate exploitation of a captive/necessity purchase (a "they know I
+  can't switch" construct, distinct from the general price-fairness mediator TARIFF_PAPER's Study 1 already
+  codes) and perceived manufacturer credibility/onshoring-commitment sincerity. Outcome: trust in the
+  manufacturer, medication-adherence intention (a genuinely high-stakes, health-relevant outcome this file's
+  retail-category entries don't have), support for drug-price regulation. Plausible moderator: whether the
+  respondent is currently on a maintenance medication (personal stake) or insurance type/out-of-pocket
+  exposure.
+- **Human-subjects flag:** Study 1 (manufacturer statements, HHS/Commerce program documentation, news
+  coverage) is public-record content analysis, no IRB concern. Any Study 2 survey of actual patients on
+  medication is primary human-subjects data touching health status — likely to draw more IRB scrutiny than
+  this file's typical retail-consumer surveys, not less; flagging explicitly rather than assuming a routine
+  review.
+- **Target venue:** *Journal of Public Policy & Marketing* (health-policy/tariff-disclosure framing) or
+  *Journal of Consumer Affairs*; *Health Marketing Quarterly* as a specialist alternate given the health-
+  necessity-purchase framing.
+- Leads (unverified, WebSearch only): [Crowell & Moring — Section 232 tariffs on patented pharmaceutical imports, tiered rate structure](https://www.crowell.com/en/insights/client-alerts/trump-administration-imposes-section-232-tariffs-on-patented-pharmaceutical-imports-tiered-rate-structure-takes-effect-beginning-july-31-2026), [Health Affairs Scholar — potential impact of tariffs on active pharmaceutical ingredients on the price of US-made generic drugs (2026)](https://academic.oup.com/healthaffairsscholar/article/4/2/qxaf247/8402426), [Mallory Group — Section 232 tariffs on pharma start July 31: importer guide](https://www.mallorygroup.com/blog-posts/100-duties-two-deadlines-section-232-pharmaceutical-tariffs-take-effect-july-31-2026), [Carra Globe — Section 232 pharmaceutical tariffs 2026: the complete guide before September 29](https://carraglobe.com/section-232-pharmaceutical-tariffs-2026/), [Johns Hopkins Bloomberg School of Public Health — tariffs and U.S. drug prices](https://publichealth.jhu.edu/2025/tariffs-and-us-drug-prices), [Yahoo Finance/PhRMA — US pharma tariffs would raise US drug costs by $51 billion annually](https://finance.yahoo.com/news/exclusive-us-pharma-tariffs-raise-135301074.html)
+
+Both idea 32 and idea 33 are proposals only, per standing rule — nothing built, nothing committed to. Idea
+32 is the stronger of the two tonight (a cleaner, more specific gap, a real concrete ad already in
+circulation to model a stimulus on, and an unusually hard deadline in the "first big test" framing), though
+Britton should weigh it against idea 30 explicitly since both are political-marketing papers surfaced within
+days of each other in this file. Idea 33 is real and has the sharpest near-term date of anything logged
+tonight (Sept 29, 2026, three weeks out) but leans on an adjacent DTC-pharma-trust literature that is old and
+large, so the novelty is specifically in the tariff-captive-purchase intersection, not the general mechanism
+— flagged honestly rather than oversold.
+
+Also checked tonight and explicitly set aside, each for a specific reason:
+- **State legislative wave against data-center NDAs/nondisclosure agreements (North Dakota's SB2406 died on
+  a 32-15 Senate vote Sept 3, 2026; Utah's SB318 died in committee back in March 2026; Minnesota's Pine
+  Island project drew similar transparency complaints)** — genuinely fresh and dated, but this is corpus/
+  context material for the already-logged idea 1a (Louisiana data-center ratepayer/transparency-withholding
+  mechanism, refreshed 2026-09-02 around the PSC's killed Meta subpoena) rather than a distinct new idea —
+  same underlying mechanism (transparency-withholding by a utility/developer as the antecedent to perceived
+  distributive/procedural injustice), just more states doing the same fight. Worth noting for whoever next
+  refreshes 1a: the wave is real but currently *losing* nearly everywhere it's been tried (ND and UT NDA
+  bans both died this year) except for narrower, adjacent transparency mandates that did pass (Utah's HB76,
+  requiring disclosure of data-center *water* usage specifically, signed March 23 2026, effective May 6
+  2026) — an honest, not-uniformly-winning legislative pattern, worth Britton knowing rather than assuming
+  the wave is succeeding.
+- **DOJ's beef-pricing probe expanding to eight major grocery retailers (Kroger, Walmart, Publix,
+  Albertsons, Aldi, Ahold Delhaize, Costco, Amazon — confirmed via multiple outlets this week)** — already
+  flagged as a new, not-yet-fully-logged development in the 2026-09-07 addendum to idea 28
+  (`MEAT_SUPPLY_CHAIN_PAPER/NOTES/2026-09-07-schaefer-pozo-idea28-followup.md`); tonight's search confirms
+  and sharpens that finding (the specific eight retailers named) but doesn't change its status as
+  strengthening material for the already-active `MEAT_SUPPLY_CHAIN_PAPER` project via idea 28, not a
+  standalone idea.
+- **AI companion-chatbot child-safety lawsuits (a new August 2026 Gibbs Mura suit against Character
+  Technologies/Google)** — real and current, but this exact space was already checked and set aside in the
+  2026-08-29 entry (Louisiana's HB734 withdrawn, general disclosure-and-trust mechanism already
+  crowded) and again implicitly covered by idea 20's Meta-minors-settlement entry; nothing found tonight
+  changes that assessment — still crowded, still no sharp Louisiana angle.
+- **State AGs' broadening "affordability" enforcement posture (California's Affordability Response Team,
+  bipartisan AG price-gouging/antitrust cooperation, NY's algorithmic-pricing-disclosure-law investigation
+  into a grocery-delivery service)** — real and current, but reads as institutional/political-economy
+  background context spanning several already-logged mechanisms (idea 11's surveillance-pricing disclosure,
+  idea 22's refund-fairness, idea 28's beef-collusion) rather than a single distinct new idea; too diffuse
+  to write up as one candidate tonight.
+- **Holiday-season 2026 tariff-driven spending outlook (Bain, PwC, Chamber of Commerce holiday forecasts;
+  32% of Americans say tariffs will cut their holiday spending)** — real and current, but reads as
+  corpus-refresh/timing material for the already-logged tariff-consumer-behavior line (2a, 7, 19, 21) rather
+  than a distinct new mechanism; no fresh angle found tonight beyond what those entries already cover.
+
+Ideas 20, 22 (unchanged), 23, 24, 28, 29, 30, and 31 were not independently rechecked tonight — time went to
+the requested 21/22/25/26/27 recheck and the two new ideas instead; no evidence surfaced incidentally that
+would change any of them.
