@@ -1,14 +1,17 @@
 # Project Status — Meat Supply Chain Paper
 
-Last updated: 2026-09-07 (third research session — retry pass on the two
-still-blocked sources, primary-source verification of the beef price-fixing
-saga (scouting-log idea 28), and a Tyson FY2026 margin update; see dated
-note in `NOTES/` for full detail). Second session was 2026-09-05
-(primary-source retry pass targeting three specific blocked/pending
-sources). First session was 2026-09-03: scaffold + five parallel research
-passes on commodity structure & concentration, imports, COOL regulatory
-timeline, price-transmission literature, theory-candidates literature
-search).
+Last updated: 2026-09-08 (fourth research session — final new-channel
+retry on Schaefer et al. (2024), a closer full re-read of the 2025 poultry
+companion paper to test the citation-mix-up hypothesis, and primary-source
+confirmation of the DOJ eight-retailer probe expansion; see dated note in
+`NOTES/` for full detail). Third session was 2026-09-07 (retry pass on the
+two still-blocked sources, primary-source verification of the beef
+price-fixing saga (scouting-log idea 28), and a Tyson FY2026 margin
+update). Second session was 2026-09-05 (primary-source retry pass
+targeting three specific blocked/pending sources). First session was
+2026-09-03: scaffold + five parallel research passes on commodity
+structure & concentration, imports, COOL regulatory timeline,
+price-transmission literature, theory-candidates literature search).
 
 ## What we currently know
 
@@ -320,6 +323,28 @@ price-fixing saga); (3) a Tyson FY2026 margin update.
    al. (2021) gap is now separately resolved (see item below) and no
    longer depends on this.** Full chain of reasoning and every access
    channel attempted: `NOTES/2026-09-07-schaefer-pozo-idea28-followup.md`.
+   **2026-09-08 update: one more genuinely new-channel retry (Unpaywall API,
+   Semantic Scholar API, IDEAS/RePEc, a second USDA-mirror check, PubAg,
+   ShareOK, UC Davis eScholarship, an adjacent SSRN paper) still could not
+   retrieve the paper — and this time for a stronger reason than "another
+   403": Unpaywall's own aggregated index, which tracks open-access copies
+   across institutional repositories and preprint servers broadly, reports
+   no open-access location exists anywhere for this DOI
+   (`is_oa: false`, `best_oa_location: null`). Recommend no further
+   automated-retry time on this specific paper in future nightly passes —
+   it appears to genuinely require Britton's own institutional Springer
+   access, not a gap this environment's tooling can close.** A closer,
+   full re-read of the 2025 NETS-based companion paper (all 1,391 lines of
+   extracted text, not just the two headline sentences) found it **never
+   cites the RIO 2024 paper anywhere in its own text or 30-entry reference
+   list**, despite being by nearly the same author team on a closely
+   related topic roughly a year later — which argues against the two being
+   presented as a deliberate matched comparison, and somewhat strengthens
+   (without confirming) the citation-mix-up hypothesis: two independently-
+   scoped analyses that don't reference each other are more plausible to
+   mix up than two papers explicitly built to compare. Still unconfirmed
+   without a direct RIO 2024 read. Full detail:
+   `NOTES/2026-09-08-schaefer-final-retry-doj-retailer-confirmed.md`.
    **Do not use the 78% figure anywhere in this project without this
    caveat** — `LITERATURE/Market_Concentration_Evidence.md` and
    `NOTES/Commodity_Structure_Comparison.md` were both updated 2026-09-07 to
@@ -355,6 +380,23 @@ price-fixing saga); (3) a Tyson FY2026 margin update.
    framing — this pass verified facts, it did not make or lean toward that
    adoption decision.** Full detail:
    `NOTES/2026-09-07-schaefer-pozo-idea28-followup.md`.
+   **2026-09-08 update: the retailer-probe expansion is now primary-source
+   confirmed.** DOJ's own official X/Twitter account (@TheJusticeDept)
+   posted the announcement September 2, 2026, naming Associate Attorney
+   General Stanley Woodward as the letters' sender and listing all eight
+   retailers (Kroger, Walmart, Publix, Albertsons, Aldi, Ahold Delhaize USA,
+   Costco, Amazon) — verified by fetching the actual post URL directly and
+   confirming its server-rendered metadata matches what two independent
+   agricultural trade-press outlets (Meatingplace, Hoosier Ag Today) quoted,
+   not relying on either outlet's paraphrase alone. No dedicated DOJ.gov
+   press release was found for this specific action (unlike the May "Big
+   Four" announcement, which did get one) — this is a confirmed DOJ social-
+   media statement, not a formal OPA release; worth knowing if the
+   manuscript ever cites "a DOJ press release" for this specific event. One
+   secondary-sourced detail — that the underlying letters were dated July
+   14, 2026, weeks before the public announcement — was NOT independently
+   confirmed this pass and should not be used without further verification.
+   Full detail: `NOTES/2026-09-08-schaefer-final-retry-doj-retailer-confirmed.md`.
 
 ## Next actions (prioritized)
 
@@ -367,7 +409,17 @@ price-fixing saga); (3) a Tyson FY2026 margin update.
    *Review of Industrial Organization*) is the one item still genuinely
    blocked** despite a thorough 2026-09-07 retry across five more channels
    — Britton's institutional Springer access, if he has it, remains the
-   only way to close this one. See Open Decisions #6.
+   only way to close this one. See Open Decisions #6. **2026-09-08: one
+   more retry (Unpaywall/Semantic Scholar APIs, RePEc, PubAg, ShareOK,
+   eScholarship) confirms via Unpaywall's own aggregated index that no
+   open-access copy exists anywhere — recommend no further automated-retry
+   time on this specific paper; it needs Britton's own access.**
+1b. **DONE 2026-09-08**: DOJ's eight-retailer beef-price probe expansion
+   (Open Decision #8 / idea 28) traced to a primary source — DOJ's own
+   official X/Twitter post (Sept. 2, 2026), independently verified via the
+   post's own server-rendered metadata, not just trade-press paraphrase.
+   No dedicated DOJ.gov press release found for this specific action. See
+   Open Decisions #8.
 2. **DONE 2026-09-05**: Tyson 10-Ks (FY2019-2023, full segment margin data)
    and JBS's SEC Form F-4 (2020-2022 segment data) pulled and read directly.
    Claim #14 upgraded from Unresolved to Supported-for-beef/pork-during-

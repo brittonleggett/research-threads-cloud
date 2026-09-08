@@ -2262,3 +2262,17 @@ Also checked tonight and explicitly set aside, each for a specific reason:
 Ideas 20, 22 (unchanged), 23, 24, 28, 29, 30, and 31 were not independently rechecked tonight — time went to
 the requested 21/22/25/26/27 recheck and the two new ideas instead; no evidence surfaced incidentally that
 would change any of them.
+
+## 2026-09-08 — addendum to idea 28: DOJ eight-retailer probe now primary-source confirmed
+
+The DOJ beef-pricing probe's expansion to eight major grocery retailers (noted above as a 2026-09-07
+addendum to idea 28, secondary-press-only at that point) has now been traced to a primary source: DOJ's own
+official X/Twitter account (@TheJusticeDept) posted the announcement September 2, 2026, naming Associate
+Attorney General Stanley Woodward as the letters' sender and listing all eight retailers (Kroger, Walmart,
+Publix, Albertsons, Aldi, Ahold Delhaize USA, Costco, Amazon) — verified by fetching the actual post
+directly and confirming its server-rendered metadata matches what two independent agricultural trade-press
+outlets quoted, not relying on paraphrase alone. No dedicated DOJ.gov press release was found for this
+specific action (unlike May's "Big Four" meatpacker announcement, which got one) — this is a confirmed DOJ
+social-media statement, not a formal OPA release. Doesn't change this item's status as strengthening
+material for `MEAT_SUPPLY_CHAIN_PAPER`'s already-active idea 28, not a standalone idea. Full detail:
+`MEAT_SUPPLY_CHAIN_PAPER/NOTES/2026-09-08-schaefer-final-retry-doj-retailer-confirmed.md`.
