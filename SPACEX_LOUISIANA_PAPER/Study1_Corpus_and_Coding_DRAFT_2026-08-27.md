@@ -40,6 +40,58 @@ comparison case)
 | 9 | Jorge Palacios, *Martian Borderlands: Colonizing (Outer) Space in the Lower Rio Grande Valley* | M.A. Thesis, MAPSS, University of Chicago, CC BY 4.0 — ethnographic/participatory-action research on Starbase's impact on Indigenous (Carrizo/Comecrudo) and Latinx Brownsville-area communities | August 2023 (author's continuing PhD research at MIT HASTS confirms this is an active, ongoing research program, not a one-off) | **A — RESOLVED 2026-08-30**: independently confirmed three ways (direct WebFetch of the record page, DOI resolution to a second independent record URL, cross-reference against MIT HASTS's own student-bio page). Thesis-tier, not peer-reviewed-tier — flag that distinction if cited. See notes/2026-08-30 for full verification detail. | [DOI 10.6082/uchicago.7220](https://doi.org/10.6082/uchicago.7220), [knowledge.uchicago.edu/record/7220](https://knowledge.uchicago.edu/record/7220) |
 | 10 | U.S. EPA Region 6 | Consent Agreement and Final Order (CAFO), Docket No. CWA-06-2024-1768 — federal Clean Water Act enforcement action against SpaceX for 8 unauthorized discharges (liquid oxygen spill + water deluge system discharges) to wetlands bordering the Starbase Launch Pad, Cameron County, TX, 2022-2024; $148,378 civil penalty; SpaceX "neither admits nor denies" the specific factual allegations | violations 2022-2024, CAFO on/around Sept. 2024 | **A — verified 2026-08-31**: primary document fetched directly (`curl`, HTTP 200) and extracted with `pdftotext -layout`; this is the actual federal enforcement record the FAA-docket wildlife-groups' letter (#4) and the Wesolick FAA comment (see notes/2026-08-30) both cite as "commenters state" — now independently confirmed, not secondhand. See notes/2026-08-31 for full extracted detail (dates/volumes of each discharge, admission language, related TCEQ Agreed Order). | [epa.gov CAFO PDF](https://www.epa.gov/system/files/documents/2024-09/spacex_cafo_cwa-06-2024-1768_txu09110_090624__0.pdf) |
 
+## Update — 2026-09-08 (see notes/2026-09-08-tceq-vote-confirmed-opic-split-boca-chica-expansion-vermilion-rv-ordinance.md)
+
+- **Row 6i (Act 343/HB1250) UPGRADED B → A.** The enrolled bill text was fetched directly from
+  `legis.la.gov` and read (`pdftotext`): it creates a "special motion to strike" for claims against
+  any "aerospace flight entity" (broadly defined), with automatic discovery stay and attorney-fees
+  to the prevailing party on the motion — an anti-SLAPP-style mechanism. Confirms, with the
+  statute's own text, the news-sourced characterization already in the corpus.
+- **New row 6m** (Vermilion Parish side): Vermilion Parish Police Jury RV-park moratorium/ordinance,
+  driven explicitly by anticipated spaceport-worker housing demand — Modern Campground news article
+  (2026-09-04, fetched directly) plus the Police Jury's own Aug. 19, 2026 meeting agenda (fetched
+  directly from `vppj.org`), which confirms the Finance Committee's moratorium recommendation in the
+  parish's own words. Names Parish Administrator Keith Roy and Councilman Scott Broussard; a
+  follow-up Police Jury meeting was scheduled for Sept. 16, 2026. Tier A (both the news article and
+  the parish's own agenda document). A genuinely new local-governance/second-order-cost angle, not
+  previously in the corpus.
+- **New row 14** (Boca Chica): **Center for Biological Diversity et al. v. FAA, Case No.
+  1:23-cv-01204** (D.D.C., filed May 1, 2023) — a NEPA challenge to FAA's 2022 approval of increased
+  Starship/Super Heavy launch cadence at Boca Chica, distinct from the 2026 land-exchange suit
+  already in the corpus. Primary-verified via the actual CourtListener docket: Judge Carl J. Nichols
+  signed a Memorandum Opinion and Order on Sept. 15, 2025 denying plaintiffs' partial summary
+  judgment motion and granting the government's and SpaceX's cross-motions — i.e., the environmental
+  groups lost on the NEPA claim's merits (news coverage calls this "dismissed," which is imprecise;
+  docket activity continued into Dec. 2025). Save RGV joined this case as a plaintiff via a July
+  2025 amended complaint — another point of overlap with the recurring Boca Chica coalition already
+  tracked in this corpus. Tier A (primary docket).
+- **Row 13 (SOTXEJN v. TCEQ, Travis County) status update**: the actual court portal was identified
+  tonight (`odysseyweb.traviscountytx.gov/Portal/`) but is a cookie/JS-gated search application this
+  session's tooling cannot query — a more precisely diagnosed access barrier than prior nights'
+  generic 502s, still unresolved.
+- **New row 15**: SOTXEJN's Sept. 5, 2026 blog post confirming a **formal joint FAA comment** filed
+  together with the Vermilion Parish `@stopspacex` group, SouthWings, the Southern Environmental Law
+  Center, and the National Parks Conservation Association, opposing the FAA-2026-8614 waiver NPRM —
+  direct primary-source evidence that the two sites' opposition coalitions are actively coordinating,
+  not just structurally comparable. The underlying joint comment document itself is Google-Drive
+  hosted and not yet text-extracted (JS-viewer limitation). Tier A for the fact/framing of the
+  partnership (SOTXEJN's own statement); Tier B for the comment's actual text.
+- **New row 16**: SOTXEJN's July 15, 2026 petition post, which describes Starbase, TX's designation
+  under Texas's Critical Infrastructure law — entering the town "could" mean felony arrest exposure.
+  A useful direct comparison to Vermilion Parish's own state-level legal-protection package (Acts
+  874/343): one site criminalizes entry, the other shields the company from suit. Tier A (SOTXEJN's
+  own statement; the underlying "critical infrastructure" designation itself not independently
+  verified against the Texas statute or a state registry tonight).
+- **TCEQ Docket 2024-1821-IWD update**: the Commission's 3-0 vote approving the permit (Feb. 13,
+  2025) is now confirmed via a directly-fetched San Antonio Current article (byline Sanford Nowlin,
+  2026-02-18), not just secondary corroboration. A new nuance: TCEQ's own Office of Public Interest
+  Counsel (OPIC) — fetched directly, `2024-1821-iwd-picr.pdf` — recommended the *opposite* of the
+  Executive Director, i.e. granting a contested-case hearing to the three organizational requestors;
+  the Commission's 3-0 vote followed the ED, not OPIC. The literal signed order document remains
+  structurally unlocated (TCEQ's permit-search tool is a JS single-page app this session's tooling
+  cannot drive).
+- No theory chain, coding scheme, or Study 1 option decided — same standing rule as before.
+
 ## Update — 2026-09-05 (see notes/2026-09-05-faa-quiet-nda-document-and-osprey-loi-found.md)
 
 - **Row 7 (Cameron County $800M claim) UPGRADED B → A.** The county's own two-page PR PDF was
