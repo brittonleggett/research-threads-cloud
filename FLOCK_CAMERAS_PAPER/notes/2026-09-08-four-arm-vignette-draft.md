@@ -66,10 +66,36 @@ Design decisions made this session (all Britton's calls, not defaulted):
 All four are matched on sentence count (2) and stay in a 32-39 word band, active voice throughout,
 no embedded parentheticals — designed to avoid the two problems the 08-27 face-validity review
 found in the original 2-condition draft (a syntactic-complexity mismatch, and a
-readability level of FK 13.7-14.9 against an 8th-grade target). **Not yet run through an actual
-Flesch-Kincaid calculation** (the 08-29 note used the `textstat` Python library for the old draft —
-same check needed here before piloting) and **not yet human-piloted** — this is a first-pass draft
-for Britton's review, same standing caveat as every prior draft in this project.
+readability level of FK 13.7-14.9 against an 8th-grade target). **Not yet human-piloted** — this
+is still a draft for Britton's review, same standing caveat as every prior draft in this project.
+
+**Readability — actually measured (2026-09-09), not just asserted.** Installed `textstat` and ran
+real Flesch-Kincaid checks on the v1 text above. Result: FK 11.5-13.0 (Reading Ease 30.2-42.7) —
+genuinely better than the old 2-condition draft's 13.7-14.9, confirming this design's intended
+improvement, but still above the 8th-grade target. **Revised (v2) text, re-tested:**
+
+Shared opening: "The city of Meridian Falls set up license-plate cameras at intersections around
+the city. The cameras take photos of car plates and check them against police lists. City
+officials said the cameras will help police solve crimes such as car theft."
+
+- Neutral: "The cameras started working a few weeks after they went up. The city posted basic
+  facts about the new cameras on its website. Local news covered the story as routine city news."
+  — **FK 7.6**
+- Safety-benefit: "Two months after the cameras went live, they helped police find a car linked to
+  a string of home burglaries. Police said the arrest would not have happened as fast without the
+  cameras." — **FK 7.7**
+- Broad-network-access: "The camera network links to a national database that many other police
+  departments use. Departments in other cities and states can search this database for camera data
+  from Meridian Falls." — **FK 9.7**
+- Disparate-impact: "A new study of camera locations found that minority and lower-income
+  neighborhoods had far more cameras than other parts of the city. Some neighborhoods had several
+  cameras nearby, while others had none." — **FK 9.7**
+
+Three of four now hit or land very close to the 8th-grade target; the two conditions naming
+multi-syllable technical nouns ("database," "neighborhoods") stay slightly elevated for reasons
+tied to real content rather than avoidable wordiness. Script saved at
+`notes/readability_check_2026-09-09.py`. **Recommend adopting this v2 wording**, superseding v1.
+Still not a substitute for an actual human pilot.
 
 ## Two design calls Britton made explicitly this session
 
