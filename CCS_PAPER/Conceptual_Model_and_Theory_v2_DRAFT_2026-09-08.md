@@ -51,6 +51,15 @@ or paraphrased from Anders et al.'s own (unseen) vignette wording, per Britton's
 priority that nothing in this project risk his academic integrity. Full text and a shared
 manipulation-check item already drafted in the file cited above.
 
+**Update 2026-09-09:** the vignette file's v1 text above was superseded same-day by a v2 revision
+after real Flesch-Kincaid testing (via `textstat`) found the v1 wording ran FK grade 15-18
+("very difficult") — far above the 8th-grade target — driven by bureaucratic vocabulary, not
+sentence length. V2 lands at FK 8.2-9.2 for four of five conditions; the Tribal-consultation
+condition stays elevated (FK 11.0) by deliberate choice, since simplifying "federally recognized"/
+"consultation" further would cost the precision Part H's ethics guardrails require. Use the v2
+wording (`notes/2026-09-08-original-vignette-draft.md`, "Readability" section) as the actual
+draft going forward.
+
 ## 4. Change #3 — the institutional-legitimacy-manipulation angle now has a real primary citation
 
 Early in this session, before the pivot to the May lit review, a search pass tried to ground this

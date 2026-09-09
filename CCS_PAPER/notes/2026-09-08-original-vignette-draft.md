@@ -95,6 +95,49 @@ piloting — not resolved by this draft, still Britton's call.
 > (e) Formally consulted with the tribal government whose lands include the project area.
 >     [Condition 5]
 
+## Readability — actually measured, not just asserted (2026-09-09)
+
+Installed `textstat` and ran real Flesch-Kincaid checks on the draft above. **Results were worse
+than expected — worse than even Flock's original flagged-as-too-complex 2-condition draft**: FK
+grade 15.2-17.8 across the five conditions (Tribal-consultation the worst at 17.8, Flesch Reading
+Ease 10.4 — "very difficult"). The 8th-grade target requires real revision, not just the
+matched-length/active-voice/no-embedded-clauses discipline already applied — the driver here is
+vocabulary complexity (bureaucratic/regulatory terms: "regulators," "consultation," "permitting,"
+"federally recognized," "jurisdiction"-adjacent language), not sentence length alone.
+
+**Revised (v2) text, re-tested, real improvement:**
+
+Shared opening: "The Louisiana Department of Energy and Natural Resources is reviewing a request
+for a new well in a rural parish. The well would pump carbon dioxide gas deep underground for
+storage. The EPA's Region 6 office would also oversee the well. The company says the project will
+help cut pollution from nearby factories."
+
+- No consultation: "State regulators looked at the company's request and technical data on their
+  own. They followed the same process used for similar well permits. No public meetings were held
+  before they approved it." — **FK 8.4**
+- Notice-only: "State regulators posted a notice about the request on their website for two weeks.
+  They did not hold any public meetings. None of the comments people sent in changed the final
+  decision." — **FK 8.2**
+- Affected-community: "Before deciding, state regulators held a public meeting in the parish. They
+  also accepted written comments from residents. They changed the monitoring plan based on
+  concerns raised at the meeting." — **FK 8.9**
+- Broader-regional: "Before deciding, state regulators held public meetings in several parishes.
+  They also collected input from residents across the state. They changed the permit conditions
+  based on that input." — **FK 9.2**
+- Tribal-consultation: "Before deciding, state regulators consulted with the federally recognized
+  tribal government whose historic lands include the project area. State rules require this
+  consultation. The tribal government's input was included in the final permit conditions." —
+  **FK 11.0** (still elevated — "federally recognized" and "consultation" are hard to simplify
+  further without losing the precision Part H's ethics guardrails require; recommend keeping this
+  wording despite the readability cost rather than sacrificing accuracy on this specific condition)
+
+Four of five conditions now land at or near the 8th-grade target (8.2-9.2); Tribal-consultation
+stays elevated for a defensible, flagged reason. Real formula-based result, not an assertion —
+computed via `textstat` (`flesch_kincaid_grade`), script saved at
+`notes/readability_check_2026-09-09.py`. Still not a substitute for an actual human pilot.
+**Recommend adopting this v2 wording as the actual draft going forward**, superseding the v1 text
+above.
+
 ## What's still open
 
 1. **Not yet crossed with a "frame strength" (token vs. substantive) second factor** — the lit
