@@ -1,0 +1,39 @@
+state,retail_legal,retail_launch_date,mobile_legal,mobile_launch_date,notes
+Arizona,YES,2021-09-09,YES,2021-09-09,
+Arkansas,YES,2019-07-01,YES,2022-03-01,Mobile launched later than retail; verify exact mobile date before analysis
+Colorado,YES,2020-05-01,YES,2020-05-01,
+Connecticut,YES,2021-10-19,YES,2021-10-19,
+Delaware,YES,2018-06-05,YES,2018-06-05,
+Florida,YES,2023-12-07,YES,2023-11-07,Online preceded retail by about a month; Seminole Tribe compact structure, verify treatment coding
+Illinois,YES,2020-03-09,YES,2020-06-18,In-person registration required for online wagering until March 2022; treat as a phased mobile treatment, not a single date
+Indiana,YES,2019-08-30,YES,2019-08-30,
+Iowa,YES,2019-08-15,YES,2019-08-15,In-person registration required until 2021
+Kansas,YES,2022-09-01,YES,2022-09-01,
+Kentucky,YES,2023-09-07,YES,2023-09-28,
+Louisiana,YES,2022-01-28,YES,2022-01-28,Mobile not available in parishes that voted against it in 2020 local option votes
+Maine,YES,2023-11-03,YES,2023-11-03,
+Maryland,YES,2021-12-09,YES,2022-11-23,Retail preceded mobile by about a year
+Massachusetts,YES,2023-01-31,YES,2023-03-10,
+Michigan,YES,2020-03-11,YES,2021-01-22,Retail preceded mobile
+Mississippi,YES,2018-08-01,NO,,Mobile restricted to on-property WiFi only (not statewide mobile) - code as retail-only for this project's mobile/retail distinction
+Missouri,YES,2025-12-01,YES,2025-12-01,Newest launch in this dataset - confirm final tax/promotional-deduction rules once in force
+Montana,YES,2020-03-09,NO,,State lottery-run kiosk model; mobile is on-premises only via app tied to retail location
+Nevada,YES,1931,YES,2010-2013 (phased),Predates the post-2018 wave entirely; treat as always-legal / exclude from staggered-DiD as a pre-period state per standard practice in this literature
+New Hampshire,YES,2019-12-30,YES,2019-12-30,DraftKings monopoly operator model - single-operator states may need separate handling
+New Jersey,YES,2018-06-14,YES,2018-08-06,
+New Mexico,YES,2018-10-16,NO,,Tribal-compact-only, no statewide mobile; verify against most recent compact renegotiations before treating as static
+New York,YES,2019-07-16,YES,2022-01-08,Large retail-to-mobile gap (2.5 years) - useful natural within-state comparison
+North Carolina,YES,2024-03-11,YES,2024-03-11,
+Ohio,YES,2023-01-01,YES,2023-01-01,Doubled tax rate July 2023 specifically citing promotional-spending volume - useful for policy-laxity variable
+Oregon,YES,2019-08-27,YES,2019-10-01,Lottery-run mobile app (Scoreboard) rather than private-operator model
+Pennsylvania,YES,2018-11-15,YES,2019-05-28,
+Rhode Island,YES,2018-11-26,YES,2019-09-04,Named high-dependence case in identification_strategy.md - verify policy variables carefully here
+South Dakota,YES,2021-09-09,NO,,Retail limited to Deadwood and tribal casinos only
+Tennessee,NO,,YES,2020-11-01,Mobile-only state (no retail casinos) - unusual case, verify before pooling with other states
+Vermont,YES,2024-01-11,YES,2024-01-11,
+Virginia,YES,2021-01-21,YES,2021-01-21,Removed promotional-deduction tax credit effective mid-2025 per state budget action - verify exact date for policy variable
+Washington,YES,2020-09-09,NO,,Tribal-compact retail only, no commercial mobile
+Washington DC,YES,2020-05-28,YES,2020-05-28,GambetDC lottery-run app has citywide monopoly except near sports venues where private operators compete
+West Virginia,YES,2018-09-01,YES,2019-01-02,Named high-dependence case in identification_strategy.md - verify policy variables carefully here
+Wisconsin,YES,2021-07-01,NO,2026 (authorized, not yet launched as of this pass),Tribal-only retail since 2021; statewide online authorized April 9 2026 per legislation but not live yet - do not code as a 2026 mobile treatment until confirmed launched
+Wyoming,NO,,YES,2021-09-01,Mobile-only state (no retail casinos)

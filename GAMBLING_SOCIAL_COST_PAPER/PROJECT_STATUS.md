@@ -51,7 +51,26 @@ Individual-level credit-bureau or financial-transaction-panel data (the data cla
 This also now answers what Study 2 (primary data) must capture: since promotional/ad exposure can't be measured secondarily, the Study 2 survey should ask bettors directly about perceived promotional/ad exposure, using Study 1's hand-coded state policy-stringency scores as a moderator on individual-level outcomes — linking the macro (Study 1) and micro (Study 2) halves of the paper.
 
 Next concrete deliverables, in order:
-1. `research_design/identification_strategy.md` — resolve the still-open causal identification question for "dependence causes weaker protection" (revenue-shock instrument vs. fiscal-threshold-crossing design vs. accepting a correlational/policy-heterogeneity framing with strong robustness checks). This is the single blocking design decision before any coding work starts.
-2. `policy/state_legalization_timeline.csv` — state-by-state retail vs. mobile legalization and launch dates (mobile matters enormously per Hollenbeck et al.'s ~17x credit-score effect finding) — foundation for both the dependence measure and any timing-based identification strategy.
-3. `policy/state_policy_variables.md` — hand-code the consumer-protection policy variables (advertising limits, promotional-deduction caps, responsible-gambling funding) across ~38-40 states per the feasibility sweep's scoping.
+1. **DONE 2026-09-09**: `research_design/identification_strategy.md` written — recommends
+   associational primary specification (dependence measure broadened to total gambling revenue,
+   which has real cross-state variance sports-betting-only revenue lacks) with a shift-share
+   instrument as a robustness check, not a headline causal claim (no precedent found for that
+   instrument in this exact application — would be this project's own contribution). **Two things
+   left for Britton, not decided here**: (a) whether broadening the dependence measure to total
+   gambling revenue — which reframes the paper from sports-betting-specific to gambling-dependence-
+   general — is acceptable, and (b) whether the associational/robustness-IV framing is acceptable
+   or he wants to push harder for a causal headline design first.
+2. **DONE 2026-09-09**: `policy/state_legalization_timeline.csv` built — ~37 states + DC, retail
+   and mobile launch dates, sourced live from sportsbettingdime.com's tracker plus separate
+   verification of the two newest entries (Missouri, Wisconsin). Several states flagged needing
+   hand-verification (phased mobile rollouts, ambiguous "launch" dates) before use in analysis.
+3. **PARTIAL 2026-09-09**: `policy/state_policy_variables.md` — first-pass coding of ~10
+   well-documented states (advertising restrictions, promo-deduction treatment, RG mandates).
+   **Rhode Island and West Virginia — the two named high-dependence cases the whole design
+   depends on — are explicitly left unscored**, not guessed at; this is the top remaining gap,
+   ahead of broader 38-40-state coverage. Full coverage needs a direct read of AGA's Responsible
+   Gaming Regulations and Statutes Guide, not more web search.
 4. Rough out Study 2's survey construct list (perceived promotional/ad exposure, financial vulnerability, marketplace access) once Study 1's panel is underway — the theoretical grounding should come from Category F of the literature map plus whatever Study 1's results actually show.
+5. **New 2026-09-09**: code Rhode Island and West Virginia's actual consumer-protection policy
+   stringency directly — the highest-value single next action, since it's the closest thing this
+   project has to a face-validity test of the core mechanism.
