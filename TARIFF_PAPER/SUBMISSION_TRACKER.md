@@ -25,6 +25,12 @@ scattered notes did.
   submitted this weekend (~2026-09-05/06)** — he's got other work in
   between now and then, so no further action needed on this thread until
   then unless something changes.
+- **Flagged 2026-09-09: that weekend target has now passed with nothing in
+  this repo indicating actual submission happened.** Not something an
+  automated session can check (no visibility into McNeese HSIRB's portal) —
+  worth Britton confirming status directly, since this is the actual
+  critical-path item and every downstream date (Oct 15) assumes it already
+  moved.
 - **Working backward-planned schedule, unchanged otherwise (pending
   confirmation of actual HSIRB turnaround — see open question #2):** IRB
   submitted this weekend → if approved in ~1-2 weeks, data collection
@@ -189,14 +195,24 @@ perfectly verified.
    local terminal session's history, worth a quick check and reconciliation
    — but the project is moving forward on today's Consensus.app-sourced
    scale answers in the meantime.
-1. **CITI: down to one specific question.** Britton refreshed his training
-   2026-09-03 under McNeese's own CITI affiliation (Record ID 79382211,
-   score 93/100, expires 2029-09-03) — resolved the institution-affiliation
-   and expiration concerns. **Still Stage 1 - Basic Course, not the
-   "Comprehensive" module McNeese's policy text names.** Ask the IRB office
-   directly whether Basic Course/Refresher satisfies the requirement in
-   practice, or whether a separate Comprehensive module is needed — don't
-   guess either way.
+1. **CITI: down to one specific question — strong evidence found 2026-09-09.**
+   Britton refreshed his training 2026-09-03 under McNeese's own CITI
+   affiliation (Record ID 79382211, score 93/100, expires 2029-09-03) —
+   resolved the institution-affiliation and expiration concerns. **Still
+   Stage 1 - Basic Course, not the "Comprehensive" module.** Fetched
+   McNeese's own published HSIRB policy page directly 2026-09-09
+   (`mcneese.edu/policy/human-subjects-institutional-review-board-hsirb-policy/`)
+   — its exact text: *"All researchers involved in research with human
+   subjects must complete a CITI Program training module about human
+   subjects protection, either 'Biomedical Comprehensive' or
+   'Social/Behavior/Educational Comprehensive'"* — no mention of Basic
+   Course/Refresher anywhere. Strong evidence the Basic Course won't
+   satisfy this, not a confirmed final answer (policy pages can lag
+   practice) — see `notes/2026-09-09-docket-recheck-partial-waf-block-and-
+   citi-comprehensive-finding.md`. **Recommend just completing the
+   Social/Behavior/Educational Comprehensive CITI module now** (same-day,
+   self-paced) rather than waiting on an IRB-office confirmation, given the
+   Oct 15 deadline.
 2. McNeese HSIRB's realistic turnaround time — this determines whether the
    Oct 15 deadline is actually reachable and, if not, whether to (a) push
    IRB submission literally today, (b) request expedited review if the
