@@ -1,6 +1,6 @@
 # Research Threads — Cloud Working Copy
 
-This repo is a **mirror** of six local project folders, pushed here specifically so
+This repo is a **mirror** of seven local project folders, pushed here specifically so
 a scheduled cloud agent can work on them overnight (the local versions live outside
 git, on Britton's machine, and aren't reachable by a cloud agent). It contains no
 personal/sensitive material — deliberately scoped to just these research threads.
@@ -58,7 +58,17 @@ personal/sensitive material — deliberately scoped to just these research threa
   Foundation of Acadiana" figure from LED's own page — don't assume these are the same
   line item without checking. A first corpus inventory (not a coding scheme) is in
   `Study1_Corpus_and_Coding_DRAFT_2026-08-27.md`.
-- **`Claude_Knowledge/`** — shared methodology, used by all four papers above:
+- **`MEAT_SUPPLY_CHAIN_PAPER/`** — added 2026-09-03. Foreign meat imports,
+  meatpacking/processing concentration, farmer/rancher returns, consumer
+  prices, and country-of-origin transparency in U.S. beef, pork, and poultry
+  markets. Same Study 1→2→3 architecture as the others; no theory/design-lock
+  yet. See `CLAUDE.md` and `PROJECT_STATUS.md` (living status doc — read this
+  first) for current state; the naive "corporations gouge consumers" framing
+  did not survive fact-checking, and the real angle is a fact-vs-popular-
+  narrative gap (transparency of value distribution, COO disclosure, and
+  price-fairness attribution). No Phase 3 exception for this paper — stays
+  human-only like Tariff/Data Center/CCS/SpaceX.
+- **`Claude_Knowledge/`** — shared methodology, used by all papers above:
   - `Thematic Analysis/AI_Assisted_TA_Shared_Method.md` and
     `Study1_AI_Thematic_Analysis_Publishable_Protocol.md` — the six-phase
     AI-assisted thematic analysis workflow, reporting standards, and citation stack.
@@ -121,14 +131,20 @@ having to hand-hold each session. Each run should:
 2. **Work the priority queue**, spending real time on at least one item rather than
    shallow-touching all of them: (1) `TARIFF_PAPER` — top priority, "I need this
    one"; (2) `DATA_CENTER_PAPER`; (3) `CCS_PAPER`; (4) `FLOCK_CAMERAS_PAPER` — added
-   2026-08-16; (5) `SPACEX_LOUISIANA_PAPER` — added 2026-08-27, same priority tier as
-   Data Center/CCS/Flock (not above Tariff). Rotate toward whichever has the most
+   2026-08-16; (5) `SPACEX_LOUISIANA_PAPER` — added 2026-08-27; (6)
+   `MEAT_SUPPLY_CHAIN_PAPER` — added 2026-09-03, same priority tier as Data
+   Center/CCS/Flock/SpaceX (not above Tariff). Rotate toward whichever has the most
    open, actionable next-steps in its notes rather than mechanically going in order
    every night — recheck each project's actual state, since prior nights change
    what's "next." For `FLOCK_CAMERAS_PAPER` specifically, remember its Phase 3
    exception above — you can extend/build on its already-locked theory chain and
    finish the autonomous build-out (literature, scales, drafts) without waiting on
-   Britton, unlike the other four projects. For `SPACEX_LOUISIANA_PAPER`
+   Britton, unlike the other five projects. For `MEAT_SUPPLY_CHAIN_PAPER`
+   specifically, it has no design-lock yet either — useful work is primary-source
+   verification of open claims (`NOTES/Claim_Fact_Check.md`), advancing the still-
+   open Schaefer/poultry-concentration and scouting-log-idea-28 threads in
+   `PROJECT_STATUS.md`, and literature-gap work — not picking its Study 1/2 design
+   options, which stay Britton's call same as the others. For `SPACEX_LOUISIANA_PAPER`
    specifically, it has no design-lock yet — useful early-run work is corpus-
    gathering (primary-source verification of the facts in `notes/2026-08-27-
    orientation.md`, expanding the Boca Chica comparison corpus) and literature-gap
