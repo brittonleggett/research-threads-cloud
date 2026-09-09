@@ -282,9 +282,25 @@ price-fixing saga); (3) a Tyson FY2026 margin update.
    returning unreadable streams) is now fixed** — installing `poppler-utils`
    locally resolved it, and GAO-02-246 has been read in full. What remains
    is genuinely paywalled journal access, not a tooling problem.
-6. **Poultry concentration discrepancy (opened 2026-09-05, materially
-   advanced but NOT resolved 2026-09-07) — still needs Britton's awareness,
-   still not a decision per se, but the picture has changed.** The
+6. **RESOLVED 2026-09-08: poultry concentration discrepancy closed.** Britton
+   retrieved Schaefer et al. (2024, *Review of Industrial Organization*)
+   directly via his institutional library access and it was read in full
+   (`LITERATURE/PDFs/Saitone_Schaefer_et_al_2024_RIO_...pdf`, kept out of the
+   public git history per repo `.gitignore`). **The paper's own broiler CR4
+   for FY2021 is 52%** — nowhere close to 78%, and consistent with USDA PSD's
+   53-55% figure. The "78%" figure almost certainly belongs elsewhere: this
+   paper's own broiler **CR10** for FY2021 is 77%, a near-exact match for the
+   erroneous "78%" figure, making a CR4-vs-CR10 mix-up the most likely single
+   explanation (on top of the 2025 NETS-based companion paper already
+   identified as a possible source 2026-09-07). **Use poultry/broiler CR4 ≈
+   52-55% (FY2021) going forward, sourced to a direct primary read — do not
+   use 78% as a broiler CR4 figure anywhere in this project.** Full detail:
+   `NOTES/2026-09-08-schaefer-2024-direct-read-resolves-poultry-discrepancy.md`.
+   (Original entry below, kept for history.)
+
+   *Original entry (opened 2026-09-05, materially advanced but not resolved
+   2026-09-07) — still needs Britton's awareness, still not a decision per se,
+   but the picture has changed.* The
    project's current "poultry CR4 = 78% (2019)" figure (from a 2026-09-03
    AI-search synthesis attributed to Schaefer et al. 2024, itself still
    unread/paywalled) is directly contradicted by the official USDA AMS
@@ -400,20 +416,18 @@ price-fixing saga); (3) a Tyson FY2026 margin update.
 
 ## Next actions (prioritized)
 
-1. **DONE 2026-09-05/2026-09-07**: Erol & Saghaian (2022) resolved via the
-   authors' own open-access conference poster; the 2024 Federal Register
-   voluntary-labeling rule resolved via federalregister.gov's own API/XML
-   endpoints; GAO-02-246 resolved by installing local PDF-text-extraction
-   tooling; **Pozo et al. (2021) resolved 2026-09-07** via the authors' own
-   K-State institutional-repository working paper. **Schaefer et al. (2024,
-   *Review of Industrial Organization*) is the one item still genuinely
-   blocked** despite a thorough 2026-09-07 retry across five more channels
-   — Britton's institutional Springer access, if he has it, remains the
-   only way to close this one. See Open Decisions #6. **2026-09-08: one
-   more retry (Unpaywall/Semantic Scholar APIs, RePEc, PubAg, ShareOK,
-   eScholarship) confirms via Unpaywall's own aggregated index that no
-   open-access copy exists anywhere — recommend no further automated-retry
-   time on this specific paper; it needs Britton's own access.**
+1. **DONE 2026-09-05/2026-09-07/2026-09-08**: Erol & Saghaian (2022) resolved
+   via the authors' own open-access conference poster; the 2024 Federal
+   Register voluntary-labeling rule resolved via federalregister.gov's own
+   API/XML endpoints; GAO-02-246 resolved by installing local
+   PDF-text-extraction tooling; **Pozo et al. (2021) resolved 2026-09-07** via
+   the authors' own K-State institutional-repository working paper.
+   **Schaefer et al. (2024, *Review of Industrial Organization*) resolved
+   2026-09-08** — Britton retrieved it directly via institutional library
+   access. See Open Decisions #6. (The overnight 2026-09-08 nightly pass ran
+   before this resolution landed and still logged Schaefer as blocked with no
+   further automated-retry channels left — superseded by the same-day
+   resolution above.)
 1b. **DONE 2026-09-08**: DOJ's eight-retailer beef-price probe expansion
    (Open Decision #8 / idea 28) traced to a primary source — DOJ's own
    official X/Twitter post (Sept. 2, 2026), independently verified via the

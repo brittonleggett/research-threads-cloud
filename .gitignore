@@ -1,0 +1,5 @@
+# This repo is public. Paywalled/copyrighted journal-article PDFs must never be
+# committed here (citations, abstracts, and open-access-only text are fine).
+# Blanket-ignoring all PDFs is the safe default rather than relying on manual
+# vigilance each time one gets added to a project's Literature folder.
+*.pdf

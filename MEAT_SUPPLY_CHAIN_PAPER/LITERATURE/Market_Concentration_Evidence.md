@@ -80,8 +80,22 @@ current commentary — JBS, Tyson, Cargill, National Beef — is consistent with
 industry-recognized "Big Four" packer identity, though this fork did not
 independently re-verify each company's individual share.
 
-## CAVEAT ADDED 2026-09-05/09-07 — DO NOT USE THE 78% POULTRY FIGURE BELOW
-WITHOUT THIS CAVEAT. The official USDA AMS Packers and Stockyards Division
+## RESOLVED 2026-09-08 — DO NOT USE THE 78% POULTRY FIGURE BELOW AT ALL
+Britton retrieved Schaefer et al. (2024) directly via institutional library access and it was
+read in full. **The paper's own broiler CR4 for FY2021 is 52%** — consistent with USDA AMS
+Packers and Stockyards Division's official 53-55% figure, not 78%. The paper's own broiler
+**CR10** for FY2021 is 77% — a near-exact match for the erroneous "78%" figure, making a
+CR4-vs-CR10 mix-up the most likely explanation for how this number entered the project (on top of
+the 2025 NETS-based companion paper already flagged 2026-09-07 as a possible alternate source).
+**Use poultry/broiler CR4 ≈ 52-55% (FY2021) going forward. The 78% row in the table below is
+confirmed wrong for CR4 and should not be cited anywhere in this project, including as a
+"convergent secondary corroboration" figure — it was never independently verified against the
+actual paper until now, and now that it has been, it doesn't hold up.** Full detail:
+`NOTES/2026-09-08-schaefer-2024-direct-read-resolves-poultry-discrepancy.md`. (Prior caveat below
+kept for history.)
+
+### Original caveat, added 2026-09-05/09-07
+The official USDA AMS Packers and Stockyards Division
 Annual Report to Congress (read in full 2026-09-05) gives an official 2019
 broiler CR4 of **53%**, not 78% — a discrepancy not yet resolved. The
 project is currently using PSD's 53-55% for poultry, not the 78% figure
