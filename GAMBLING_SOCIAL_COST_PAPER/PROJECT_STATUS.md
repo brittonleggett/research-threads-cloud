@@ -1,6 +1,6 @@
 # Project Status — Gambling Social Cost Paper
 
-_Last updated: 2026-09-04 (initial kickoff audit)_
+_Last updated: 2026-09-09 evening (RI/WV policy-coding gap closed, coverage expanded to 17 states, one new verified literature entry)_
 
 ## GO / MODIFY / STOP RECOMMENDATION
 
@@ -64,13 +64,24 @@ Next concrete deliverables, in order:
    and mobile launch dates, sourced live from sportsbettingdime.com's tracker plus separate
    verification of the two newest entries (Missouri, Wisconsin). Several states flagged needing
    hand-verification (phased mobile rollouts, ambiguous "launch" dates) before use in analysis.
-3. **PARTIAL 2026-09-09**: `policy/state_policy_variables.md` — first-pass coding of ~10
-   well-documented states (advertising restrictions, promo-deduction treatment, RG mandates).
-   **Rhode Island and West Virginia — the two named high-dependence cases the whole design
-   depends on — are explicitly left unscored**, not guessed at; this is the top remaining gap,
-   ahead of broader 38-40-state coverage. Full coverage needs a direct read of AGA's Responsible
-   Gaming Regulations and Statutes Guide, not more web search.
+3. **DONE 2026-09-09 (evening)**: `policy/state_policy_variables.md` — coding expanded from ~10 to
+   **17 states**, via direct primary-source pulls (AGA per-state fact sheets + the full AGA
+   Responsible Gaming Regulations and Statutes Guide, extracted with `pdftotext` after WebFetch's
+   own PDF handling failed). **Rhode Island and West Virginia are now scored — the blocking gap is
+   closed.** Result is a real, if preliminary, face-validity match: RI and WV score 2 and 3, the
+   two lowest advertising-stringency scores in the table so far. Virginia's promo-deduction note
+   was also corrected (was misdated as a mid-2025 policy change; actual mechanism is an older
+   per-operator 12-month sunset). See `DECISION_LOG.md`'s 2026-09-09 entries for full detail.
 4. Rough out Study 2's survey construct list (perceived promotional/ad exposure, financial vulnerability, marketplace access) once Study 1's panel is underway — the theoretical grounding should come from Category F of the literature map plus whatever Study 1's results actually show.
-5. **New 2026-09-09**: code Rhode Island and West Virginia's actual consumer-protection policy
-   stringency directly — the highest-value single next action, since it's the closest thing this
-   project has to a face-validity test of the core mechanism.
+5. **DONE 2026-09-09 (evening)**: Rhode Island and West Virginia's consumer-protection policy
+   stringency coded directly (see #3) — the face-validity test this project needed most is done.
+6. **New 2026-09-09 (evening), next concrete step**: the promotional-deduction tax-treatment
+   column is now the thinnest dimension across nearly every coded state (the AGA Responsible
+   Gaming Guide used this pass is RG/advertising-focused, not reliably comprehensive on tax
+   treatment) — needs its own pass through actual state sports-wagering tax statutes. Expanding
+   from 17 toward full ~37-40-state coverage is mechanical from here (same AGA guide, more states)
+   and lower priority than closing the promo-deduction gap.
+7. **New 2026-09-09 (evening)**: one new literature entry added and verified (Obiol-Anaya et al.
+   2026, corroborates the paper's novelty claim with international evidence); literature map now
+   at ~29 entries. A dedicated JPP&M/JCR/Journal of Macromarketing back-issue search remains the
+   best next step to close in on the 30-50 target, not done this pass.
