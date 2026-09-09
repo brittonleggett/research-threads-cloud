@@ -8,6 +8,59 @@ tonight's CCS Paper pivot — see [[feedback_literature_corpus_building]] and
 literature-building effort should continue from here, the same way CCS's did across a full session
 tonight before this one started.
 
+## Addendum (2026-09-09, same night) — closing out the four "not done" items
+
+**1. Guidi & Dominici (2026), arXiv:2607.02531 — full text reached.** Maps water consumption
+across 472 U.S. hyperscale data centers by linking facility locations to electricity regions,
+hydrologic basins, and water-stress data, tracking two pathways: direct on-site cooling and
+water consumed in electricity generation. Finding: ~300 GL/year total operational water
+consumption; electricity-related water is three-quarters of the total (bigger than direct
+cooling). Direct-cooling burdens concentrate in western/south-central water-stressed basins;
+electricity-related burdens cluster in eastern grid regions dependent on fossil generation — just
+3 of 24 hosting balancing authorities account for 59% of electricity-related water. **No Louisiana-
+specific mention found** in the reachable content — the paper's framing is national/regional
+(balancing-authority level), not state-by-state, so it doesn't directly cite Richland Parish/Meta
+"Hyperion," but the general finding (electricity-related water often exceeds direct-cooling water,
+concentrated in fossil-heavy grid regions) is a real, usable framing point for that case.
+
+**2. Cartwright (2026), *Climate and Energy* 42, 15-17, DOI 10.1002/gas.70012 — still not reached,
+confirmed genuine access wall.** Wiley 403'd again on direct fetch. Confirmed via search: a short
+3-page piece (not a full research article) by Echo D. Cartwright, arguing environmental-justice
+impacts of data centers are under-discussed relative to energy/grid/water framing. DeepDyve lists
+it (a paywall rental service, not open access). Treat as citable-by-title/abstract only unless
+Britton pulls it via his own library access, same pattern as tonight's CCS pulls.
+
+**3. The EJI/social-vulnerability finding disambiguated as real but NOT the same as Ancona et al.
+— these are two separate, both-real studies, not one.**
+- **Ancona et al. (2026), "Urban infrastructure and fossil fuel industrial legacy drive US data
+  center siting," *Nature Cities*, DOI 10.1038/s44284-026-00487-z** — confirmed as a real, distinct
+  paper: 4,283 commercial data centers (2025 Data Center Map database), headline finding is that
+  97.5% of facilities sit in metro/micropolitan areas (challenging "rural cloud expansion"
+  narratives) and that urban infrastructure + fossil-fuel industrial legacy predict siting, not an
+  EJI-specific framing. Full text not reached (Nature login-wall redirect).
+- **A separate, real finding — still not pinned to one single confirmed primary source after this
+  pass, genuinely unresolved, not just under-searched:** a "~700 data centers nationally, nearly
+  half in census tracts with above-median CDC Environmental Justice Index burden" claim recurs
+  across secondary sources. The closest candidate found is **George, B. (2026), "Health
+  Consequences of Large Data Centers: Air Pollution, Noise, Water Use, and Environmental Justice,"
+  SocArXiv preprint** (Alcorn State University) — abstract-level only reached, modeling ~1,300
+  premature deaths/year and ~600,000 asthma cases/year nationally from data-center-linked air
+  pollution by the late 2020s, ~$20B annual public health cost, disproportionate impact on
+  vulnerable communities — but the abstract does NOT contain the specific "~700 facilities/half
+  above-median EJI" figure, so this may or may not be the source of that claim. **Flag clearly: do
+  not cite the "~700/half" EJI figure to either Ancona or George without further verification** —
+  it remains a real, recurring claim with an unconfirmed primary source.
+
+**4. Next10 (California policy-research org), "The Intersection of Data Center Development, Water
+Availability, and Environmental Justice In California" — found and read.** Not peer-reviewed (policy
+report), but substantive: built a GIS-based vulnerability index combining water-scarcity and social-
+vulnerability indicators across California data centers, with 5 case-study facilities. Key finding
+directly useful as a comparison case for Louisiana's own Richland Parish/Meta "Hyperion" water-use
+concern: newer hyperscale facilities are increasingly sited in regions with *higher* social
+vulnerability and water scarcity than earlier urban tech-hub locations, with Imperial County and
+Sacramento flagged as the sharpest water-scarcity/social-vulnerability intersection points, and a
+real regulatory-gap finding — some data centers may avoid full CEQA environmental/water review.
+
 ## 1. Transferable literature already verified tonight in the CCS Paper thread
 
 CCS's `Conceptual_Model_and_Theory_v2_DRAFT_2026-09-08.md` and its lit-review digest assembled a
