@@ -1,0 +1,517 @@
+﻿Year,Month,Month_Number,Data_Item,Value,Units
+2026,February,2,Retail prices or values: Choice beef retail value,1012.3,Cents per pound
+2026,March,3,Retail prices or values: Choice beef retail value,1008.5,Cents per pound
+2026,April,4,Retail prices or values: Choice beef retail value,1047.3,Cents per pound
+2026,May,5,Retail prices or values: Choice beef retail value,1034.7,Cents per pound
+2026,June,6,Retail prices or values: Choice beef retail value,1045,Cents per pound
+2026,July,7,Retail prices or values: Choice beef retail value,1048.7,Cents per pound
+2026,February,2,Retail prices or values: all-fresh beef retail value,968.5,Cents per pound
+2026,March,3,Retail prices or values: all-fresh beef retail value,959.4,Cents per pound
+2026,April,4,Retail prices or values: all-fresh beef retail value,999.6,Cents per pound
+2026,May,5,Retail prices or values: all-fresh beef retail value,951.9,Cents per pound
+2026,June,6,Retail prices or values: all-fresh beef retail value,964.3,Cents per pound
+2026,July,7,Retail prices or values: all-fresh beef retail value,975.3,Cents per pound
+2026,February,2,Retail prices or values: ground beef,673.9,Cents per pound
+2026,March,3,Retail prices or values: ground beef,670.1,Cents per pound
+2026,April,4,Retail prices or values: ground beef,689.9,Cents per pound
+2026,May,5,Retail prices or values: ground beef,674.5,Cents per pound
+2026,June,6,Retail prices or values: ground beef,682.5,Cents per pound
+2026,July,7,Retail prices or values: ground beef,688.5,Cents per pound
+2026,February,2,"Retail prices or values: round roast, USDA Choice boneless",858.7,Cents per pound
+2026,March,3,"Retail prices or values: round roast, USDA Choice boneless",847.7,Cents per pound
+2026,April,4,"Retail prices or values: round roast, USDA Choice boneless",898.3,Cents per pound
+2026,May,5,"Retail prices or values: round roast, USDA Choice boneless",861.5,Cents per pound
+2026,June,6,"Retail prices or values: round roast, USDA Choice boneless",896.2,Cents per pound
+2026,July,7,"Retail prices or values: round roast, USDA Choice boneless",915.5,Cents per pound
+2026,February,2,"Retail prices or values: sirloin steak, USDA Choice boneless",1419.1,Cents per pound
+2026,March,3,"Retail prices or values: sirloin steak, USDA Choice boneless",1412.4,Cents per pound
+2026,April,4,"Retail prices or values: sirloin steak, USDA Choice boneless",1472.7,Cents per pound
+2026,May,5,"Retail prices or values: sirloin steak, USDA Choice boneless",1427.4,Cents per pound
+2026,June,6,"Retail prices or values: sirloin steak, USDA Choice boneless",1445.1,Cents per pound
+2026,July,7,"Retail prices or values: sirloin steak, USDA Choice boneless",1459.2,Cents per pound
+2026,February,2,Retail prices or values: pork retail value,490,Cents per pound
+2026,March,3,Retail prices or values: pork retail value,487.1,Cents per pound
+2026,April,4,Retail prices or values: pork retail value,489.2,Cents per pound
+2026,May,5,Retail prices or values: pork retail value,494.1,Cents per pound
+2026,June,6,Retail prices or values: pork retail value,491.8,Cents per pound
+2026,July,7,Retail prices or values: pork retail value,488.8,Cents per pound
+2026,February,2,Retail prices or values: bacon,690.4,Cents per pound
+2026,March,3,Retail prices or values: bacon,680.1,Cents per pound
+2026,April,4,Retail prices or values: bacon,682.6,Cents per pound
+2026,May,5,Retail prices or values: bacon,671.2,Cents per pound
+2026,June,6,Retail prices or values: bacon,656.1,Cents per pound
+2026,July,7,Retail prices or values: bacon,658.4,Cents per pound
+2026,February,2,"Retail prices or values: pork chops, boneless",449.6,Cents per pound
+2026,March,3,"Retail prices or values: pork chops, boneless",448.4,Cents per pound
+2026,April,4,"Retail prices or values: pork chops, boneless",469.9,Cents per pound
+2026,May,5,"Retail prices or values: pork chops, boneless",461.6,Cents per pound
+2026,June,6,"Retail prices or values: pork chops, boneless",455.5,Cents per pound
+2026,July,7,"Retail prices or values: pork chops, boneless",457.3,Cents per pound
+2026,February,2,"Retail prices or values: ham, boneless not canned",561.6,Cents per pound
+2026,March,3,"Retail prices or values: ham, boneless not canned",547.9,Cents per pound
+2026,April,4,"Retail prices or values: ham, boneless not canned",540.5,Cents per pound
+2026,May,5,"Retail prices or values: ham, boneless not canned",545.7,Cents per pound
+2026,June,6,"Retail prices or values: ham, boneless not canned",550.8,Cents per pound
+2026,July,7,"Retail prices or values: ham, boneless not canned",549.2,Cents per pound
+2026,February,2,Retail prices or values: retail broiler composite,238.5,Cents per pound
+2026,March,3,Retail prices or values: retail broiler composite,240.6,Cents per pound
+2026,April,4,Retail prices or values: retail broiler composite,238.9,Cents per pound
+2026,May,5,Retail prices or values: retail broiler composite,243.9,Cents per pound
+2026,June,6,Retail prices or values: retail broiler composite,238.2,Cents per pound
+2026,July,7,Retail prices or values: retail broiler composite,238.7,Cents per pound
+2026,February,2,"Retail prices or values: chicken, fresh whole",204.9,Cents per pound
+2026,March,3,"Retail prices or values: chicken, fresh whole",203.3,Cents per pound
+2026,April,4,"Retail prices or values: chicken, fresh whole",202.6,Cents per pound
+2026,May,5,"Retail prices or values: chicken, fresh whole",203.6,Cents per pound
+2026,June,6,"Retail prices or values: chicken, fresh whole",204.4,Cents per pound
+2026,July,7,"Retail prices or values: chicken, fresh whole",200.5,Cents per pound
+2026,February,2,"Retail prices or values: chicken, legs, bone-in",170.7,Cents per pound
+2026,March,3,"Retail prices or values: chicken, legs, bone-in",173.9,Cents per pound
+2026,April,4,"Retail prices or values: chicken, legs, bone-in",171.2,Cents per pound
+2026,May,5,"Retail prices or values: chicken, legs, bone-in",178.6,Cents per pound
+2026,June,6,"Retail prices or values: chicken, legs, bone-in",168.8,Cents per pound
+2026,July,7,"Retail prices or values: chicken, legs, bone-in",172.3,Cents per pound
+2026,February,2,"Retail prices or values: chicken, boneless breast",414.2,Cents per pound
+2026,March,3,"Retail prices or values: chicken, boneless breast",417.2,Cents per pound
+2026,April,4,"Retail prices or values: chicken, boneless breast",416.8,Cents per pound
+2026,May,5,"Retail prices or values: chicken, boneless breast",417.1,Cents per pound
+2026,June,6,"Retail prices or values: chicken, boneless breast",418.1,Cents per pound
+2026,July,7,"Retail prices or values: chicken, boneless breast",415.3,Cents per pound
+2026,February,2,"Retail prices or values: eggs, Grade A,  large, retail",250,Cents per dozen
+2026,March,3,"Retail prices or values: eggs, Grade A,  large, retail",234.8,Cents per dozen
+2026,April,4,"Retail prices or values: eggs, Grade A,  large, retail",225,Cents per dozen
+2026,May,5,"Retail prices or values: eggs, Grade A,  large, retail",219.1,Cents per dozen
+2026,June,6,"Retail prices or values: eggs, Grade A,  large, retail",214.1,Cents per dozen
+2026,July,7,"Retail prices or values: eggs, Grade A,  large, retail",218.9,Cents per dozen
+2026,February,2,Price spread: beef farm to wholesale,6.7,Cents per pound
+2026,March,3,Price spread: beef farm to wholesale,54.6,Cents per pound
+2026,April,4,Price spread: beef farm to wholesale,20.1,Cents per pound
+2026,May,5,Price spread: beef farm to wholesale,6.5,Cents per pound
+2026,June,6,Price spread: beef farm to wholesale,12.9,Cents per pound
+2026,July,7,Price spread: beef farm to wholesale,21.2,Cents per pound
+2026,February,2,Price spread: beef wholesale to retail,451.9,Cents per pound
+2026,March,3,Price spread: beef wholesale to retail,418.8,Cents per pound
+2026,April,4,Price spread: beef wholesale to retail,471.9,Cents per pound
+2026,May,5,Price spread: beef wholesale to retail,452.8,Cents per pound
+2026,June,6,Price spread: beef wholesale to retail,457.7,Cents per pound
+2026,July,7,Price spread: beef wholesale to retail,491.1,Cents per pound
+2026,February,2,"Price spread: Farmers' share of retail beef dollar, percent",54.7,Percent
+2026,March,3,"Price spread: Farmers' share of retail beef dollar, percent",53.1,Percent
+2026,April,4,"Price spread: Farmers' share of retail beef dollar, percent",53,Percent
+2026,May,5,"Price spread: Farmers' share of retail beef dollar, percent",55.6,Percent
+2026,June,6,"Price spread: Farmers' share of retail beef dollar, percent",55,Percent
+2026,July,7,"Price spread: Farmers' share of retail beef dollar, percent",51.1,Percent
+2026,February,2,Price spread: pork farm to wholesale,65,Cents per pound
+2026,March,3,Price spread: pork farm to wholesale,66.9,Cents per pound
+2026,April,4,Price spread: pork farm to wholesale,59.8,Cents per pound
+2026,May,5,Price spread: pork farm to wholesale,52.6,Cents per pound
+2026,June,6,Price spread: pork farm to wholesale,51.5,Cents per pound
+2026,July,7,Price spread: pork farm to wholesale,51.3,Cents per pound
+2026,February,2,Price spread: Pork wholesale to retail,313.1,Cents per pound
+2026,March,3,Price spread: Pork wholesale to retail,303.9,Cents per pound
+2026,April,4,Price spread: Pork wholesale to retail,314.4,Cents per pound
+2026,May,5,Price spread: Pork wholesale to retail,326.2,Cents per pound
+2026,June,6,Price spread: Pork wholesale to retail,323.6,Cents per pound
+2026,July,7,Price spread: Pork wholesale to retail,316.7,Cents per pound
+2026,February,2,Price spread: farmers' share of retail pork dollar,22.8,Percent
+2026,March,3,Price spread: farmers' share of retail pork dollar,23.9,Percent
+2026,April,4,Price spread: farmers' share of retail pork dollar,23.5,Percent
+2026,May,5,Price spread: farmers' share of retail pork dollar,23.3,Percent
+2026,June,6,Price spread: farmers' share of retail pork dollar,23.7,Percent
+2026,July,7,Price spread: farmers' share of retail pork dollar,24.7,Percent
+2026,February,2,Price spread: wholesale-retail broiler spread,150.2,"Cents per pound, retail weight"
+2026,March,3,Price spread: wholesale-retail broiler spread,155.9,"Cents per pound, retail weight"
+2026,April,4,Price spread: wholesale-retail broiler spread,149.5,"Cents per pound, retail weight"
+2026,May,5,Price spread: wholesale-retail broiler spread,150,"Cents per pound, retail weight"
+2026,June,6,Price spread: wholesale-retail broiler spread,143.2,"Cents per pound, retail weight"
+2026,July,7,Price spread: wholesale-retail broiler spread,137.2,"Cents per pound, retail weight"
+2026,February,2,Price spread: retail minus wholesale egg price,138.3,Cents per dozen
+2026,March,3,Price spread: retail minus wholesale egg price,79.4,Cents per dozen
+2026,April,4,Price spread: retail minus wholesale egg price,161.7,Cents per dozen
+2026,May,5,Price spread: retail minus wholesale egg price,158.4,Cents per dozen
+2026,June,6,Price spread: retail minus wholesale egg price,157.7,Cents per dozen
+2026,July,7,Price spread: retail minus wholesale egg price,118.3,Cents per dozen
+2024,August,8,"Consumer price index, all items",314.796,1982-84=100
+2024,September,9,"Consumer price index, all items",315.301,1982-84=100
+2024,October,10,"Consumer price index, all items",315.664,1982-84=100
+2024,November,11,"Consumer price index, all items",315.493,1982-84=100
+2024,December,12,"Consumer price index, all items",315.605,1982-84=100
+2025,January,1,"Consumer price index, all items",317.671,1982-84=100
+2025,February,2,"Consumer price index, all items",319.082,1982-84=100
+2025,March,3,"Consumer price index, all items",319.799,1982-84=100
+2025,April,4,"Consumer price index, all items",320.795,1982-84=100
+2025,May,5,"Consumer price index, all items",321.465,1982-84=100
+2025,June,6,"Consumer price index, all items",322.561,1982-84=100
+2025,July,7,"Consumer price index, all items",323.048,1982-84=100
+2025,August,8,"Consumer price index, all items",323.976,1982-84=100
+2025,September,9,"Consumer price index, all items",324.8,1982-84=100
+2025,October,10,"Consumer price index, all items",NA,1982-84=100
+2025,November,11,"Consumer price index, all items",324.122,1982-84=100
+2025,December,12,"Consumer price index, all items",324.054,1982-84=100
+2026,January,1,"Consumer price index, all items",325.252,1982-84=100
+2026,February,2,"Consumer price index, all items",326.785,1982-84=100
+2026,March,3,"Consumer price index, all items",330.213,1982-84=100
+2026,April,4,"Consumer price index, all items",333.02,1982-84=100
+2026,May,5,"Consumer price index, all items",335.123,1982-84=100
+2026,June,6,"Consumer price index, all items",333.952,1982-84=100
+2026,July,7,"Consumer price index, all items",333.918,1982-84=100
+2024,August,8,"Consumer price index, all items, 12 month percent change",2.5,percent
+2024,September,9,"Consumer price index, all items, 12 month percent change",2.4,percent
+2024,October,10,"Consumer price index, all items, 12 month percent change",2.6,percent
+2024,November,11,"Consumer price index, all items, 12 month percent change",2.7,percent
+2024,December,12,"Consumer price index, all items, 12 month percent change",2.9,percent
+2025,January,1,"Consumer price index, all items, 12 month percent change",3,percent
+2025,February,2,"Consumer price index, all items, 12 month percent change",2.8,percent
+2025,March,3,"Consumer price index, all items, 12 month percent change",2.4,percent
+2025,April,4,"Consumer price index, all items, 12 month percent change",2.3,percent
+2025,May,5,"Consumer price index, all items, 12 month percent change",2.4,percent
+2025,June,6,"Consumer price index, all items, 12 month percent change",2.7,percent
+2025,July,7,"Consumer price index, all items, 12 month percent change",2.7,percent
+2025,August,8,"Consumer price index, all items, 12 month percent change",2.9,percent
+2025,September,9,"Consumer price index, all items, 12 month percent change",3,percent
+2025,October,10,"Consumer price index, all items, 12 month percent change",NA,percent
+2025,November,11,"Consumer price index, all items, 12 month percent change",2.7,percent
+2025,December,12,"Consumer price index, all items, 12 month percent change",2.7,percent
+2026,January,1,"Consumer price index, all items, 12 month percent change",2.4,percent
+2026,February,2,"Consumer price index, all items, 12 month percent change",2.4,percent
+2026,March,3,"Consumer price index, all items, 12 month percent change",3.3,percent
+2026,April,4,"Consumer price index, all items, 12 month percent change",3.8,percent
+2026,May,5,"Consumer price index, all items, 12 month percent change",4.2,percent
+2026,June,6,"Consumer price index, all items, 12 month percent change",3.5,percent
+2026,July,7,"Consumer price index, all items, 12 month percent change",3.4,percent
+2024,August,8,"Consumer price index, food",330.75,1982-84=100
+2024,September,9,"Consumer price index, food",332.083,1982-84=100
+2024,October,10,"Consumer price index, food",332.678,1982-84=100
+2024,November,11,"Consumer price index, food",332.904,1982-84=100
+2024,December,12,"Consumer price index, food",333.566,1982-84=100
+2025,January,1,"Consumer price index, food",335.517,1982-84=100
+2025,February,2,"Consumer price index, food",336.274,1982-84=100
+2025,March,3,"Consumer price index, food",337.751,1982-84=100
+2025,April,4,"Consumer price index, food",337.747,1982-84=100
+2025,May,5,"Consumer price index, food",338.598,1982-84=100
+2025,June,6,"Consumer price index, food",339.498,1982-84=100
+2025,July,7,"Consumer price index, food",340.036,1982-84=100
+2025,August,8,"Consumer price index, food",341.295,1982-84=100
+2025,September,9,"Consumer price index, food",342.405,1982-84=100
+2025,October,10,"Consumer price index, food",NA,1982-84=100
+2025,November,11,"Consumer price index, food",341.721,1982-84=100
+2025,December,12,"Consumer price index, food",343.795,1982-84=100
+2026,January,1,"Consumer price index, food",345.165,1982-84=100
+2026,February,2,"Consumer price index, food",346.564,1982-84=100
+2026,March,3,"Consumer price index, food",346.796,1982-84=100
+2026,April,4,"Consumer price index, food",348.499,1982-84=100
+2026,May,5,"Consumer price index, food",349.032,1982-84=100
+2026,June,6,"Consumer price index, food",349.731,1982-84=100
+2026,July,7,"Consumer price index, food",350.164,1982-84=100
+2024,August,8,"Consumer price index, food, 12 month percent change",2.1,percent
+2024,September,9,"Consumer price index, food, 12 month percent change",2.3,percent
+2024,October,10,"Consumer price index, food, 12 month percent change",2.1,percent
+2024,November,11,"Consumer price index, food, 12 month percent change",2.4,percent
+2024,December,12,"Consumer price index, food, 12 month percent change",2.5,percent
+2025,January,1,"Consumer price index, food, 12 month percent change",2.5,percent
+2025,February,2,"Consumer price index, food, 12 month percent change",2.6,percent
+2025,March,3,"Consumer price index, food, 12 month percent change",3,percent
+2025,April,4,"Consumer price index, food, 12 month percent change",2.8,percent
+2025,May,5,"Consumer price index, food, 12 month percent change",2.9,percent
+2025,June,6,"Consumer price index, food, 12 month percent change",3,percent
+2025,July,7,"Consumer price index, food, 12 month percent change",2.9,percent
+2025,August,8,"Consumer price index, food, 12 month percent change",3.2,percent
+2025,September,9,"Consumer price index, food, 12 month percent change",3.1,percent
+2025,October,10,"Consumer price index, food, 12 month percent change",NA,percent
+2025,November,11,"Consumer price index, food, 12 month percent change",2.6,percent
+2025,December,12,"Consumer price index, food, 12 month percent change",3.1,percent
+2026,January,1,"Consumer price index, food, 12 month percent change",2.9,percent
+2026,February,2,"Consumer price index, food, 12 month percent change",3.1,percent
+2026,March,3,"Consumer price index, food, 12 month percent change",2.7,percent
+2026,April,4,"Consumer price index, food, 12 month percent change",3.2,percent
+2026,May,5,"Consumer price index, food, 12 month percent change",3.1,percent
+2026,June,6,"Consumer price index, food, 12 month percent change",3,percent
+2026,July,7,"Consumer price index, food, 12 month percent change",3,percent
+2024,August,8,"Consumer price index, meats",339.01,1982-84=100
+2024,September,9,"Consumer price index, meats",340.716,1982-84=100
+2024,October,10,"Consumer price index, meats",337.952,1982-84=100
+2024,November,11,"Consumer price index, meats",340.323,1982-84=100
+2024,December,12,"Consumer price index, meats",338.901,1982-84=100
+2025,January,1,"Consumer price index, meats",339.581,1982-84=100
+2025,February,2,"Consumer price index, meats",340.777,1982-84=100
+2025,March,3,"Consumer price index, meats",346.005,1982-84=100
+2025,April,4,"Consumer price index, meats",346.53,1982-84=100
+2025,May,5,"Consumer price index, meats",347.384,1982-84=100
+2025,June,6,"Consumer price index, meats",351.703,1982-84=100
+2025,July,7,"Consumer price index, meats",357.909,1982-84=100
+2025,August,8,"Consumer price index, meats",363.913,1982-84=100
+2025,September,9,"Consumer price index, meats",369.662,1982-84=100
+2025,October,10,"Consumer price index, meats",NA,1982-84=100
+2025,November,11,"Consumer price index, meats",370.74,1982-84=100
+2025,December,12,"Consumer price index, meats",370.221,1982-84=100
+2026,January,1,"Consumer price index, meats",370.662,1982-84=100
+2026,February,2,"Consumer price index, meats",370.031,1982-84=100
+2026,March,3,"Consumer price index, meats",369.423,1982-84=100
+2026,April,4,"Consumer price index, meats",377.121,1982-84=100
+2026,May,5,"Consumer price index, meats",373.867,1982-84=100
+2026,June,6,"Consumer price index, meats",377.668,1982-84=100
+2026,July,7,"Consumer price index, meats",377.292,1982-84=100
+2024,August,8,"Consumer price index, meats, 12 month percent change",2.8,percent
+2024,September,9,"Consumer price index, meats, 12 month percent change",2.5,percent
+2024,October,10,"Consumer price index, meats, 12 month percent change",0.4,percent
+2024,November,11,"Consumer price index, meats, 12 month percent change",2.6,percent
+2024,December,12,"Consumer price index, meats, 12 month percent change",2.7,percent
+2025,January,1,"Consumer price index, meats, 12 month percent change",3.2,percent
+2025,February,2,"Consumer price index, meats, 12 month percent change",3.8,percent
+2025,March,3,"Consumer price index, meats, 12 month percent change",4.6,percent
+2025,April,4,"Consumer price index, meats, 12 month percent change",4.4,percent
+2025,May,5,"Consumer price index, meats, 12 month percent change",4,percent
+2025,June,6,"Consumer price index, meats, 12 month percent change",5.2,percent
+2025,July,7,"Consumer price index, meats, 12 month percent change",5.8,percent
+2025,August,8,"Consumer price index, meats, 12 month percent change",7.3,percent
+2025,September,9,"Consumer price index, meats, 12 month percent change",8.5,percent
+2025,October,10,"Consumer price index, meats, 12 month percent change",NA,percent
+2025,November,11,"Consumer price index, meats, 12 month percent change",8.9,percent
+2025,December,12,"Consumer price index, meats, 12 month percent change",9.2,percent
+2026,January,1,"Consumer price index, meats, 12 month percent change",9.2,percent
+2026,February,2,"Consumer price index, meats, 12 month percent change",8.6,percent
+2026,March,3,"Consumer price index, meats, 12 month percent change",6.8,percent
+2026,April,4,"Consumer price index, meats, 12 month percent change",8.8,percent
+2026,May,5,"Consumer price index, meats, 12 month percent change",7.6,percent
+2026,June,6,"Consumer price index, meats, 12 month percent change",7.4,percent
+2026,July,7,"Consumer price index, meats, 12 month percent change",5.4,percent
+2024,August,8,"Consumer price index, beef and veal",430.328,1982-84=100
+2024,September,9,"Consumer price index, beef and veal",431.79,1982-84=100
+2024,October,10,"Consumer price index, beef and veal",426.449,1982-84=100
+2024,November,11,"Consumer price index, beef and veal",433.911,1982-84=100
+2024,December,12,"Consumer price index, beef and veal",433.225,1982-84=100
+2025,January,1,"Consumer price index, beef and veal",434.386,1982-84=100
+2025,February,2,"Consumer price index, beef and veal",443.105,1982-84=100
+2025,March,3,"Consumer price index, beef and veal",450.262,1982-84=100
+2025,April,4,"Consumer price index, beef and veal",453.243,1982-84=100
+2025,May,5,"Consumer price index, beef and veal",455.104,1982-84=100
+2025,June,6,"Consumer price index, beef and veal",465.866,1982-84=100
+2025,July,7,"Consumer price index, beef and veal",477.484,1982-84=100
+2025,August,8,"Consumer price index, beef and veal",490.28,1982-84=100
+2025,September,9,"Consumer price index, beef and veal",495.239,1982-84=100
+2025,October,10,"Consumer price index, beef and veal",NA,1982-84=100
+2025,November,11,"Consumer price index, beef and veal",502.259,1982-84=100
+2025,December,12,"Consumer price index, beef and veal",504.317,1982-84=100
+2026,January,1,"Consumer price index, beef and veal",499.597,1982-84=100
+2026,February,2,"Consumer price index, beef and veal",506.788,1982-84=100
+2026,March,3,"Consumer price index, beef and veal",504.885,1982-84=100
+2026,April,4,"Consumer price index, beef and veal",520.433,1982-84=100
+2026,May,5,"Consumer price index, beef and veal",513.773,1982-84=100
+2026,June,6,"Consumer price index, beef and veal",521.049,1982-84=100
+2026,July,7,"Consumer price index, beef and veal",522.219,1982-84=100
+2024,August,8,"Consumer price index, beef and veal, 12 month percent change",4.2,percent
+2024,September,9,"Consumer price index, beef and veal, 12 month percent change",4.2,percent
+2024,October,10,"Consumer price index, beef and veal, 12 month percent change",1.9,percent
+2024,November,11,"Consumer price index, beef and veal, 12 month percent change",5,percent
+2024,December,12,"Consumer price index, beef and veal, 12 month percent change",4.9,percent
+2025,January,1,"Consumer price index, beef and veal, 12 month percent change",5.5,percent
+2025,February,2,"Consumer price index, beef and veal, 12 month percent change",7.6,percent
+2025,March,3,"Consumer price index, beef and veal, 12 month percent change",8.6,percent
+2025,April,4,"Consumer price index, beef and veal, 12 month percent change",8.5,percent
+2025,May,5,"Consumer price index, beef and veal, 12 month percent change",8.6,percent
+2025,June,6,"Consumer price index, beef and veal, 12 month percent change",10.6,percent
+2025,July,7,"Consumer price index, beef and veal, 12 month percent change",11.3,percent
+2025,August,8,"Consumer price index, beef and veal, 12 month percent change",13.9,percent
+2025,September,9,"Consumer price index, beef and veal, 12 month percent change",14.7,percent
+2025,October,10,"Consumer price index, beef and veal, 12 month percent change",NA,percent
+2025,November,11,"Consumer price index, beef and veal, 12 month percent change",15.8,percent
+2025,December,12,"Consumer price index, beef and veal, 12 month percent change",16.4,percent
+2026,January,1,"Consumer price index, beef and veal, 12 month percent change",15,percent
+2026,February,2,"Consumer price index, beef and veal, 12 month percent change",14.4,percent
+2026,March,3,"Consumer price index, beef and veal, 12 month percent change",12.1,percent
+2026,April,4,"Consumer price index, beef and veal, 12 month percent change",14.8,percent
+2026,May,5,"Consumer price index, beef and veal, 12 month percent change",12.9,percent
+2026,June,6,"Consumer price index, beef and veal, 12 month percent change",11.8,percent
+2026,July,7,"Consumer price index, beef and veal, 12 month percent change",9.4,percent
+2024,August,8,"Consumer price index, pork",270.233,1982-84=100
+2024,September,9,"Consumer price index, pork",273.01,1982-84=100
+2024,October,10,"Consumer price index, pork",271.851,1982-84=100
+2024,November,11,"Consumer price index, pork",270.281,1982-84=100
+2024,December,12,"Consumer price index, pork",266.768,1982-84=100
+2025,January,1,"Consumer price index, pork",268.703,1982-84=100
+2025,February,2,"Consumer price index, pork",264.45,1982-84=100
+2025,March,3,"Consumer price index, pork",270.383,1982-84=100
+2025,April,4,"Consumer price index, pork",266.785,1982-84=100
+2025,May,5,"Consumer price index, pork",268.747,1982-84=100
+2025,June,6,"Consumer price index, pork",269.386,1982-84=100
+2025,July,7,"Consumer price index, pork",272.994,1982-84=100
+2025,August,8,"Consumer price index, pork",273.591,1982-84=100
+2025,September,9,"Consumer price index, pork",277.429,1982-84=100
+2025,October,10,"Consumer price index, pork",NA,1982-84=100
+2025,November,11,"Consumer price index, pork",272.637,1982-84=100
+2025,December,12,"Consumer price index, pork",268.949,1982-84=100
+2026,January,1,"Consumer price index, pork",272.348,1982-84=100
+2026,February,2,"Consumer price index, pork",270.757,1982-84=100
+2026,March,3,"Consumer price index, pork",271.73,1982-84=100
+2026,April,4,"Consumer price index, pork",272.927,1982-84=100
+2026,May,5,"Consumer price index, pork",275.683,1982-84=100
+2026,June,6,"Consumer price index, pork",275.906,1982-84=100
+2026,July,7,"Consumer price index, pork",274.241,1982-84=100
+2024,August,8,"Consumer price index, pork, 12 month percent change",1.8,percent
+2024,September,9,"Consumer price index, pork, 12 month percent change",1.5,percent
+2024,October,10,"Consumer price index, pork, 12 month percent change",-0.6,percent
+2024,November,11,"Consumer price index, pork, 12 month percent change",1.7,percent
+2024,December,12,"Consumer price index, pork, 12 month percent change",1.8,percent
+2025,January,1,"Consumer price index, pork, 12 month percent change",2.8,percent
+2025,February,2,"Consumer price index, pork, 12 month percent change",1.8,percent
+2025,March,3,"Consumer price index, pork, 12 month percent change",2.9,percent
+2025,April,4,"Consumer price index, pork, 12 month percent change",1.3,percent
+2025,May,5,"Consumer price index, pork, 12 month percent change",0.6,percent
+2025,June,6,"Consumer price index, pork, 12 month percent change",0.5,percent
+2025,July,7,"Consumer price index, pork, 12 month percent change",1.1,percent
+2025,August,8,"Consumer price index, pork, 12 month percent change",1.2,percent
+2025,September,9,"Consumer price index, pork, 12 month percent change",1.6,percent
+2025,October,10,"Consumer price index, pork, 12 month percent change",NA,percent
+2025,November,11,"Consumer price index, pork, 12 month percent change",0.9,percent
+2025,December,12,"Consumer price index, pork, 12 month percent change",0.8,percent
+2026,January,1,"Consumer price index, pork, 12 month percent change",1.4,percent
+2026,February,2,"Consumer price index, pork, 12 month percent change",2.4,percent
+2026,March,3,"Consumer price index, pork, 12 month percent change",0.5,percent
+2026,April,4,"Consumer price index, pork, 12 month percent change",2.3,percent
+2026,May,5,"Consumer price index, pork, 12 month percent change",2.6,percent
+2026,June,6,"Consumer price index, pork, 12 month percent change",2.4,percent
+2026,July,7,"Consumer price index, pork, 12 month percent change",0.5,percent
+2024,August,8,"Consumer price index, poultry",308.907,1982-84=100
+2024,September,9,"Consumer price index, poultry",308.669,1982-84=100
+2024,October,10,"Consumer price index, poultry",308.363,1982-84=100
+2024,November,11,"Consumer price index, poultry",306.669,1982-84=100
+2024,December,12,"Consumer price index, poultry",307.108,1982-84=100
+2025,January,1,"Consumer price index, poultry",306.298,1982-84=100
+2025,February,2,"Consumer price index, poultry",305.256,1982-84=100
+2025,March,3,"Consumer price index, poultry",308.498,1982-84=100
+2025,April,4,"Consumer price index, poultry",311.422,1982-84=100
+2025,May,5,"Consumer price index, poultry",313.02,1982-84=100
+2025,June,6,"Consumer price index, poultry",315.693,1982-84=100
+2025,July,7,"Consumer price index, poultry",315.235,1982-84=100
+2025,August,8,"Consumer price index, poultry",314.008,1982-84=100
+2025,September,9,"Consumer price index, poultry",313.126,1982-84=100
+2025,October,10,"Consumer price index, poultry",NA,1982-84=100
+2025,November,11,"Consumer price index, poultry",310.592,1982-84=100
+2025,December,12,"Consumer price index, poultry",311.509,1982-84=100
+2026,January,1,"Consumer price index, poultry",311.307,1982-84=100
+2026,February,2,"Consumer price index, poultry",312.117,1982-84=100
+2026,March,3,"Consumer price index, poultry",313.234,1982-84=100
+2026,April,4,"Consumer price index, poultry",313.084,1982-84=100
+2026,May,5,"Consumer price index, poultry",317.098,1982-84=100
+2026,June,6,"Consumer price index, poultry",315.294,1982-84=100
+2026,July,7,"Consumer price index, poultry",313.722,1982-84=100
+2024,August,8,"Consumer price index, poultry, 12 month percent change",0.9,percent
+2024,September,9,"Consumer price index, poultry, 12 month percent change",0.5,percent
+2024,October,10,"Consumer price index, poultry, 12 month percent change",0,percent
+2024,November,11,"Consumer price index, poultry, 12 month percent change",0.4,percent
+2024,December,12,"Consumer price index, poultry, 12 month percent change",1,percent
+2025,January,1,"Consumer price index, poultry, 12 month percent change",0.4,percent
+2025,February,2,"Consumer price index, poultry, 12 month percent change",1.3,percent
+2025,March,3,"Consumer price index, poultry, 12 month percent change",0.9,percent
+2025,April,4,"Consumer price index, poultry, 12 month percent change",2.4,percent
+2025,May,5,"Consumer price index, poultry, 12 month percent change",2.5,percent
+2025,June,6,"Consumer price index, poultry, 12 month percent change",3.4,percent
+2025,July,7,"Consumer price index, poultry, 12 month percent change",3.1,percent
+2025,August,8,"Consumer price index, poultry, 12 month percent change",1.7,percent
+2025,September,9,"Consumer price index, poultry, 12 month percent change",1.4,percent
+2025,October,10,"Consumer price index, poultry, 12 month percent change",NA,percent
+2025,November,11,"Consumer price index, poultry, 12 month percent change",1.3,percent
+2025,December,12,"Consumer price index, poultry, 12 month percent change",1.4,percent
+2026,January,1,"Consumer price index, poultry, 12 month percent change",1.6,percent
+2026,February,2,"Consumer price index, poultry, 12 month percent change",2.2,percent
+2026,March,3,"Consumer price index, poultry, 12 month percent change",1.5,percent
+2026,April,4,"Consumer price index, poultry, 12 month percent change",0.5,percent
+2026,May,5,"Consumer price index, poultry, 12 month percent change",1.3,percent
+2026,June,6,"Consumer price index, poultry, 12 month percent change",-0.1,percent
+2026,July,7,"Consumer price index, poultry, 12 month percent change",-0.5,percent
+2024,August,8,"Consumer price index, Dairy and related products",269.468,1982-84=100
+2024,September,9,"Consumer price index, Dairy and related products",269.643,1982-84=100
+2024,October,10,"Consumer price index, Dairy and related products",271.695,1982-84=100
+2024,November,11,"Consumer price index, Dairy and related products",270.819,1982-84=100
+2024,December,12,"Consumer price index, Dairy and related products",271.358,1982-84=100
+2025,January,1,"Consumer price index, Dairy and related products",272.038,1982-84=100
+2025,February,2,"Consumer price index, Dairy and related products",269.432,1982-84=100
+2025,March,3,"Consumer price index, Dairy and related products",272.244,1982-84=100
+2025,April,4,"Consumer price index, Dairy and related products",271.75,1982-84=100
+2025,May,5,"Consumer price index, Dairy and related products",271.348,1982-84=100
+2025,June,6,"Consumer price index, Dairy and related products",270.626,1982-84=100
+2025,July,7,"Consumer price index, Dairy and related products",272.586,1982-84=100
+2025,August,8,"Consumer price index, Dairy and related products",272.84,1982-84=100
+2025,September,9,"Consumer price index, Dairy and related products",271.583,1982-84=100
+2025,October,10,"Consumer price index, Dairy and related products",NA,1982-84=100
+2025,November,11,"Consumer price index, Dairy and related products",266.491,1982-84=100
+2025,December,12,"Consumer price index, Dairy and related products",268.951,1982-84=100
+2026,January,1,"Consumer price index, Dairy and related products",271.185,1982-84=100
+2026,February,2,"Consumer price index, Dairy and related products",269.599,1982-84=100
+2026,March,3,"Consumer price index, Dairy and related products",267.992,1982-84=100
+2026,April,4,"Consumer price index, Dairy and related products",270.164,1982-84=100
+2026,May,5,"Consumer price index, Dairy and related products",268.523,1982-84=100
+2026,June,6,"Consumer price index, Dairy and related products",271.683,1982-84=100
+2026,July,7,"Consumer price index, Dairy and related products",271.337,1982-84=100
+2024,August,8,"Consumer price index, Dairy and related products, 12 month percent change",0.4,percent
+2024,September,9,"Consumer price index, Dairy and related products, 12 month percent change",0.5,percent
+2024,October,10,"Consumer price index, Dairy and related products, 12 month percent change",1.3,percent
+2024,November,11,"Consumer price index, Dairy and related products, 12 month percent change",1.2,percent
+2024,December,12,"Consumer price index, Dairy and related products, 12 month percent change",1.3,percent
+2025,January,1,"Consumer price index, Dairy and related products, 12 month percent change",1.2,percent
+2025,February,2,"Consumer price index, Dairy and related products, 12 month percent change",0.8,percent
+2025,March,3,"Consumer price index, Dairy and related products, 12 month percent change",2.2,percent
+2025,April,4,"Consumer price index, Dairy and related products, 12 month percent change",1.6,percent
+2025,May,5,"Consumer price index, Dairy and related products, 12 month percent change",1.7,percent
+2025,June,6,"Consumer price index, Dairy and related products, 12 month percent change",0.9,percent
+2025,July,7,"Consumer price index, Dairy and related products, 12 month percent change",1.5,percent
+2025,August,8,"Consumer price index, Dairy and related products, 12 month percent change",1.3,percent
+2025,September,9,"Consumer price index, Dairy and related products, 12 month percent change",0.7,percent
+2025,October,10,"Consumer price index, Dairy and related products, 12 month percent change",NA,percent
+2025,November,11,"Consumer price index, Dairy and related products, 12 month percent change",-1.6,percent
+2025,December,12,"Consumer price index, Dairy and related products, 12 month percent change",-0.9,percent
+2026,January,1,"Consumer price index, Dairy and related products, 12 month percent change",-0.3,percent
+2026,February,2,"Consumer price index, Dairy and related products, 12 month percent change",0.1,percent
+2026,March,3,"Consumer price index, Dairy and related products, 12 month percent change",-1.6,percent
+2026,April,4,"Consumer price index, Dairy and related products, 12 month percent change",-0.6,percent
+2026,May,5,"Consumer price index, Dairy and related products, 12 month percent change",-1,percent
+2026,June,6,"Consumer price index, Dairy and related products, 12 month percent change",0.4,percent
+2026,July,7,"Consumer price index, Dairy and related products, 12 month percent change",-0.5,percent
+2024,August,8,"Consumer price index, eggs",323.929,1982-84=100
+2024,September,9,"Consumer price index, eggs",356.19,1982-84=100
+2024,October,10,"Consumer price index, eggs",333.047,1982-84=100
+2024,November,11,"Consumer price index, eggs",359.058,1982-84=100
+2024,December,12,"Consumer price index, eggs",389.077,1982-84=100
+2025,January,1,"Consumer price index, eggs",442.773,1982-84=100
+2025,February,2,"Consumer price index, eggs",498.223,1982-84=100
+2025,March,3,"Consumer price index, eggs",504.205,1982-84=100
+2025,April,4,"Consumer price index, eggs",451.154,1982-84=100
+2025,May,5,"Consumer price index, eggs",417.195,1982-84=100
+2025,June,6,"Consumer price index, eggs",372.296,1982-84=100
+2025,July,7,"Consumer price index, eggs",359.678,1982-84=100
+2025,August,8,"Consumer price index, eggs",359.131,1982-84=100
+2025,September,9,"Consumer price index, eggs",351.693,1982-84=100
+2025,October,10,"Consumer price index, eggs",NA,1982-84=100
+2025,November,11,"Consumer price index, eggs",311.513,1982-84=100
+2025,December,12,"Consumer price index, eggs",307.876,1982-84=100
+2026,January,1,"Consumer price index, eggs",291.463,1982-84=100
+2026,February,2,"Consumer price index, eggs",288.679,1982-84=100
+2026,March,3,"Consumer price index, eggs",279.024,1982-84=100
+2026,April,4,"Consumer price index, eggs",274.415,1982-84=100
+2026,May,5,"Consumer price index, eggs",270.421,1982-84=100
+2026,June,6,"Consumer price index, eggs",268.277,1982-84=100
+2026,July,7,"Consumer price index, eggs",267.136,1982-84=100
+2024,August,8,"Consumer price index, eggs, 12 month percent change",28.1,percent
+2024,September,9,"Consumer price index, eggs, 12 month percent change",39.6,percent
+2024,October,10,"Consumer price index, eggs, 12 month percent change",30.4,percent
+2024,November,11,"Consumer price index, eggs, 12 month percent change",37.5,percent
+2024,December,12,"Consumer price index, eggs, 12 month percent change",36.8,percent
+2025,January,1,"Consumer price index, eggs, 12 month percent change",53,percent
+2025,February,2,"Consumer price index, eggs, 12 month percent change",58.8,percent
+2025,March,3,"Consumer price index, eggs, 12 month percent change",60.4,percent
+2025,April,4,"Consumer price index, eggs, 12 month percent change",49.3,percent
+2025,May,5,"Consumer price index, eggs, 12 month percent change",41.5,percent
+2025,June,6,"Consumer price index, eggs, 12 month percent change",27.3,percent
+2025,July,7,"Consumer price index, eggs, 12 month percent change",16.4,percent
+2025,August,8,"Consumer price index, eggs, 12 month percent change",10.9,percent
+2025,September,9,"Consumer price index, eggs, 12 month percent change",-1.3,percent
+2025,October,10,"Consumer price index, eggs, 12 month percent change",NA,percent
+2025,November,11,"Consumer price index, eggs, 12 month percent change",-13.2,percent
+2025,December,12,"Consumer price index, eggs, 12 month percent change",-20.9,percent
+2026,January,1,"Consumer price index, eggs, 12 month percent change",-34.2,percent
+2026,February,2,"Consumer price index, eggs, 12 month percent change",-42.1,percent
+2026,March,3,"Consumer price index, eggs, 12 month percent change",-44.7,percent
+2026,April,4,"Consumer price index, eggs, 12 month percent change",-39.2,percent
+2026,May,5,"Consumer price index, eggs, 12 month percent change",-35.2,percent
+2026,June,6,"Consumer price index, eggs, 12 month percent change",-27.9,percent
+2026,July,7,"Consumer price index, eggs, 12 month percent change",-25.7,percent

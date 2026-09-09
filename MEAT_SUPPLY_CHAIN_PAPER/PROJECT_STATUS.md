@@ -414,6 +414,32 @@ price-fixing saga); (3) a Tyson FY2026 margin update.
    confirmed this pass and should not be used without further verification.
    Full detail: `NOTES/2026-09-08-schaefer-final-retry-doj-retailer-confirmed.md`.
 
+## 2026-09-09 research pass (see `NOTES/2026-09-09-meat-price-spreads-historical-farm-share-analysis.md` and `NOTES/2026-09-09-doj-tyson-agristats-status-check.md` for full detail)
+
+- **DONE: full 1970-present USDA ERS Meat Price Spreads historical pull** (top un-started
+  next-action, flagged since 2026-09-03, never attempted until now). Real finding: beef and
+  pork farmers' shares of the retail dollar both fell substantially since the 1970s (beef
+  63.6%→44.4% decade-average, 1970s→2020s; pork 53.7%→22.6%) — a genuine structural fact
+  underneath the popular narrative, distinct from the "6 cents of the food dollar" conflation
+  already documented. Beef's already-noted 2023-2025 rebound (47.8%→53.5%) is real and is the
+  largest 3-year gain in the 55-year series, but is a partial recovery within a longer decline,
+  not a trend reversal; pork has not shared in this rebound. Data + script in `DATA/`. Claim #2
+  in `NOTES/Claim_Fact_Check.md` and `SOURCE_VERIFICATION/Evidence_Table.md` still need this
+  folded in formally — flagged, not yet done.
+- **DOJ eight-retailer probe**: reconfirmed no DOJ.gov press release exists beyond the
+  already-verified official social-media post. Closed for now.
+- **Tyson $82.5M DPP settlement**: clarified this is a *distinct* settlement from the
+  already-tracked $87.5M consumer settlement (which has a confirmed May 27, 2026 final-approval
+  date). The $82.5M grocer/distributor settlement's own final-approval date could **not** be
+  confirmed tonight — CourtListener blocked automated access, Tyson's 10-Q disclosure exists
+  (XBRL-tagged) but its narrative text couldn't be extracted. Only preliminary approval (May 14,
+  2026) is solidly confirmed. Don't state a final-approval date for this specific settlement
+  without further verification — see the dated note for why search results conflate the two
+  settlements.
+- **Agri Stats Sept 1, 2026 final approval hearing**: genuinely unresolved — confirmed the
+  hearing was scheduled via DOJ's own Federal Register notice, but no source (primary or
+  secondary) confirms the outcome. Real open item for a future pass.
+
 ## Next actions (prioritized)
 
 1. **DONE 2026-09-05/2026-09-07/2026-09-08**: Erol & Saghaian (2022) resolved
@@ -454,15 +480,14 @@ price-fixing saga); (3) a Tyson FY2026 margin update.
    Annual Report to Congress pulled and read directly — now the project's
    anchor concentration source, superseding the White House CEA blog. It
    also surfaced the poultry-figure discrepancy in Open Decisions #6.
-6. Pull the full USDA ERS Meat Price Spreads historical time series
-   (1970-present, beef/pork-specific) to properly test Claim #1's
-   "historically weak returns" framing — flagged repeatedly across research
-   passes (2026-09-03, -05, -07) but still not attempted; now the top
-   remaining un-started next-action.
-7. **New 2026-09-07, if a future pass has time**: trace the DOJ retailer-
-   probe expansion (Open Decisions #8) to an actual DOJ document rather
-   than secondary press; confirm the Tyson-only $82.5M grocer/distributor
-   settlement's final-approval order directly (only its motion/notice
-   docket entries were confirmed this pass, not the signed order itself);
-   check whether the Sept. 1, 2026 Agri Stats final-approval hearing has
-   occurred and with what outcome.
+6. **DONE 2026-09-09**: Full USDA ERS Meat Price Spreads historical time series (1970-present)
+   pulled and analyzed — see the 2026-09-09 research pass above. Follow-up: fold the new
+   decade-trend figures into Claim #2 (`NOTES/Claim_Fact_Check.md`) and
+   `SOURCE_VERIFICATION/Evidence_Table.md` formally — not yet done.
+7. **Partially advanced 2026-09-09**: DOJ retailer-probe expansion reconfirmed closed (no
+   further DOJ.gov document exists). Tyson $82.5M DPP settlement's final-approval date remains
+   unconfirmed (clarified it's distinct from the already-resolved $87.5M settlement) — needs
+   either a working CourtListener/PACER credential or a targeted pull of Tyson's 10-Q
+   legal-proceedings footnote. Whether the Sept. 1, 2026 Agri Stats final-approval hearing
+   concluded, and with what outcome, is still completely unconfirmed — genuine open item for a
+   future pass.
