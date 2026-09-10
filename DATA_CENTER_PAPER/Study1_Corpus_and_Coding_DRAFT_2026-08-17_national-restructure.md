@@ -54,7 +54,7 @@ pass same as everything else).**
 | 24 | Project Blue (Beale Infrastructure) | AZ (Tucson) | Local/independent news (protest coverage) | 2026-04-24 | [AZ Luminaria](https://azluminaria.org/2026/04/24/we-said-no-dozens-protest-as-construction-of-project-blue-data-center-begins/) |
 | 25 | Mesa/Avondale/Phoenix water caps; Buckeye/Pinal Co. (Tract) | AZ | Local/policy coverage | 2026 | (per 2026-08-16 scan note; re-verify exact source URLs before citing) |
 | 26 | NY Executive Order 62 (statewide moratorium) | NY | State policy coverage | 2026-07-14 | [Axios](https://www.axios.com/2026/07/14/ny-gov-kathy-hochul-data-center-moratorium-executive-order), [NY Governor's office](https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops) |
-| 27 | Clinton County rezoning denial (Data One/Logix Reality) | IN | Local news, court-adjacent (county commission vote) | 2026-01-20 | [Clinton County Daily News](https://clintoncountydailynews.com/clinton-county-commissioners-deny-rezoning-request-for-proposed-data-center/), corroborated by WTHR, Fox59, ftimes.com (added 2026-09-10, promoted from Tier 3 — see note below) |
+| 27 | Clinton County rezoning denial (developer Logix Realty, project name "Data One") | IN | Local news, court-adjacent (county commission vote) | 2026-01-20/21 (sources disagree by one day, see note below) | [Clinton County Daily News](https://clintoncountydailynews.com/clinton-county-commissioners-deny-rezoning-request-for-proposed-data-center/), [Inside INdiana Business](https://www.insideindianabusiness.com/articles/rezoning-request-for-clinton-county-data-center-denied) (direct-fetch confirmed developer name 2026-09-10), corroborated by WTHR, Fox59, ftimes.com, Data Center Dynamics (added 2026-09-10, promoted from Tier 3 — see note below) |
 | 28 | xAI/MZX Tech "Colossus 2" gas turbines — *NAACP v. X.AI Corp.*, N.D. Miss. 3:26-cv-00074 | MS (Southaven, DeSoto Co.) / TN (South Memphis) | Federal litigation, primary docket + party's own case page | 2026-04-14 (filed); ongoing | [CourtListener docket 73188848](https://www.courtlistener.com/docket/73188848/national-association-for-the-advancement-of-colored-people-v-xai-corp/) (122 entries as of 2026-09-10, read directly), [Earthjustice case page](https://earthjustice.org/case/xai-illegal-gas-power-plant-data-center-colossus), [Utility Dive](https://www.utilitydive.com/news/doj-intervenes-xai-data-center-gas-turbine-lawsuit/823267/) — added 2026-09-10, see note below |
 
 **Tier 3 — WebSearch-confidence only, hold out of formal coding until a working
@@ -67,12 +67,20 @@ simple turbine-opposition item, see the federal-preemption note above.)
 
 **2026-09-10 additions (see `notes/2026-09-10-national-sweep-clinton-county-verified-naacp-v-xai-colossus-federal-preemption-case.md` for full detail):**
 - **#27, Clinton County, IN** — promoted from Tier 3 to Tier 2. Directly re-verified
-  (not just WebSearch-summarized): Clinton County Commissioners voted 3-0 on 2026-01-20
-  to deny a rezoning request (agricultural to light industrial, ~715 acres) for a
+  (not just WebSearch-summarized): Clinton County Commissioners voted 3-0 to
+  deny a rezoning request (agricultural to light industrial, ~715 acres) for a
   proposed data center, citing negative public comment and the petitioner's
   incomplete negotiation of 14 community commitments. This is one of the few clean
   outright *wins* for opposition via a local zoning board in the corpus so far — a
-  useful counterweight to LA's PSC/council losses.
+  useful counterweight to LA's PSC/council losses. **2026-09-10 follow-up pass:**
+  developer name independently direct-fetch-confirmed via Inside INdiana Business
+  (not just WebSearch synthesis) — the project is "Data One," developed by
+  **Logix Realty**, which also had an earlier ~300MW Clinton County proposal
+  withdrawn last year after community backlash. One small unresolved discrepancy:
+  Clinton County Daily News dates the vote 2026-01-20, Inside INdiana Business dates
+  it 2026-01-21 — both are direct-fetch reads, not search synthesis, so flagged as an
+  open one-day gap rather than corrected either way. Full detail in
+  `notes/2026-09-10-followup-xai-ruling-check-and-clinton-county-developer-verified.md`.
 - **#28, NAACP v. X.AI Corp. (Colossus 2, Southaven MS / South Memphis TN)** — a
   significant new addition, primary-docket-verified via CourtListener directly (case
   3:26-cv-00074, N.D. Mississippi, Judge Debra M. Brown, Greenville division). NAACP
