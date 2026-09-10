@@ -152,12 +152,24 @@ May document.
 ## 8. What's still genuinely open
 
 1. Whether to add restorative-justice items to the instrument (Section 2) — not decided.
-2. Full instrument assembly (scale item wording for all mediators/moderators) — not yet done for
-   this paper, unlike Flock's already-sourced instrument.
-3. Power analysis for the new 5-condition (not 6-condition) design.
+2. ~~Full instrument assembly (scale item wording for all mediators/moderators)~~ **Done** —
+   `Study2_Instrument_Scale_Items_DRAFT_2026-09-09.md`. Trust (Liu, Bouman, Perlaviciute & Steg
+   2020, full verbatim items building on Terwel et al. 2009's competence/integrity distinction),
+   procedural justice/voice (Firestone et al. 2020, real US energy-siting items), and the DV
+   (Anders et al. 2024's two-item acceptability/fairness measure) are all real, sourced,
+   energy-domain items. **Legitimacy is the one exception worth Britton's explicit sign-off**: no
+   energy-specific validated scale was found; the item set now in the file is adapted from Pan et
+   al. (2022, ACM CSCW) — a real, validated 5-item institutional-legitimacy scale (α=.92) rooted in
+   the Gibson/Caldeira political-science legitimacy tradition, but built and tested for social-media
+   content-moderation legitimacy, not energy infrastructure. This is a genuine cross-domain
+   adaptation, not an energy-literature-native instrument — flagging rather than treating as settled.
+3. ~~Power analysis for the new 5-condition (not 6-condition) design.~~ **Done** —
+   `notes/2026-09-08-power-analysis-5-condition.md`. Target n=150/cell (750 total) recommended;
+   note adjacent-step contrasts along the consultation gradient are underpowered at any feasible
+   N, so those should be treated as exploratory, not confirmatory.
 4. IRB drafting — explicitly parked per Britton's direction earlier this session.
 5. Louisiana-only vs. Gulf Coast panel-size feasibility check — not yet run against a real
-   CloudResearch/Prolific account.
+   CloudResearch/Prolific account (Britton-only unblock, needs the account to exist first).
 6. Whether to pull the two remaining not-yet-full-text sources (Sovacool, Baum & Fritz 2024;
    Chailleux, Arnauld de Sartre & Briday 2023; Lefstad, Allesson, Busch & Carton 2024; the
    pluralizing-energy-justice and Mejía-Montero papers) to full text via library access — currently
