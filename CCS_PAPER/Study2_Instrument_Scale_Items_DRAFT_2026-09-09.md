@@ -160,22 +160,46 @@ constructs above. Splitting the nine by what they actually need:
   a methodological convention (used across the energy-siting literature broadly, including
   Firestone et al. 2020's own demographic battery), not something requiring its own citation.
 
-**Real candidate scales found and confirmed to exist, NOT yet item-level verified (same honesty
-standard as Terwel et al. 2009 above — flagging, not inventing wording):**
-- *Climate concern* — **Dunlap, Van Liere, Mertig & Jones (2000), "Measuring Endorsement of the
-  New Ecological Paradigm: A Revised NEP Scale," Journal of Social Issues, 56(3), 425-442.** The
-  standard 15-item environmental-concern instrument in this literature (5,000+ citations); a real
-  **5-item efficient short-form exists** (Sciencedirect, 2025, "An efficient five-item New
-  Environmental Paradigm") that would fit this survey's length constraints far better than the
-  full 15-item version — worth pulling full text to confirm the 5 retained items before use.
-- *Perceived benefits/risks* — **Xu, Liu, Chen & Lu (2023), "Public perceived risks and benefits
-  of carbon capture, utilization, and storage (CCUS): Scale development and validation," Journal
-  of Environmental Management** (confirmed real via PubMed/ScienceDirect: PMID 37801951). This is
-  the first CCUS-specific validated risk/benefit scale found in this whole project's lit review —
-  a direct, on-topic replacement for adapting a generic risk-perception instrument. Full text not
-  yet pulled (ScienceDirect paywall hit tonight); item wording still unknown. **High-value library
-  pull for next session** — this is a better fit than anything else sourced in this file, being
-  CCS-specific rather than adapted cross-domain.
+**Climate concern — RESOLVED at the full-scale level (2026-09-10), short-form still open.**
+Pulled the actual verbatim 15-item **Dunlap, Van Liere, Mertig & Jones (2000)** New Ecological
+Paradigm scale in full via a real open-access secondary source: Wells & Petherick (2016),
+*"New Ecological Paradigm and Sustainability Attitudes with Respect to a Multi-Cultural
+Educational Milieu in China,"* International Conferences ITS/ICEduTech/STE 2016, Table 1 —
+itself a direct, properly-cited reproduction of Dunlap et al.'s own Table 1, not a paraphrase.
+Real, verbatim, 5-point-Likert items (7 are reverse-scored, marked *R*):
+
+1. We are approaching the limit of the number of people the earth can support.
+2. Humans have the right to modify the natural environment to suit their needs. *(R)*
+3. When humans interfere with nature it often produces disastrous consequences.
+4. Human ingenuity will ensure that we do not make the earth unliveable. *(R)*
+5. Humans are severely abusing the environment.
+6. The earth has plenty of natural resources if we just learn how to develop them. *(R)*
+7. Plants and animals have as much right as humans to exist.
+8. The balance of nature is strong enough to cope with the impacts of modern industrial nations. *(R)*
+9. Despite their special abilities humans are still subject to the laws of nature.
+10. The so-called "ecological crisis" facing humankind has been greatly exaggerated. *(R)*
+11. The earth is like a spaceship with very limited room and resources.
+12. Humans are meant to rule over the rest of nature. *(R)*
+13. The balance of nature is very delicate and easily upset.
+14. Humans will eventually learn enough about how nature works to be able to control it. *(R)*
+15. If things continue on their present course we will soon experience a major ecological catastrophe.
+
+**The 2025 5-item efficient short-form's specific retained items remain unverified** — ScienceDirect,
+Semantic Scholar, and search all failed to surface which 5 of the 15 it keeps (paywalled, no open
+mirror found). **This matters a lot for survey length**: the full 15-item scale alone is longer than
+this entire moderator block combined. Recommend Britton decide between (a) using the full 15-item
+scale now, since it's real and fully verified, or (b) holding for a future session with library
+access to pull the actual 5-item short-form before locking the instrument — do not guess at which 5
+items the short-form keeps.
+
+**Perceived benefits/risks — still genuinely inaccessible, honestly flagged, not fabricated.**
+**Xu, Liu, Chen & Lu (2023), Journal of Environmental Management** (PMID 37801951) remains real and
+on-topic (confirmed again via PubMed and Semantic Scholar's own API tonight, both closed-access) but
+its item wording could not be pulled through any open channel tried tonight: ScienceDirect (403),
+ResearchGate (403), OUCI mirror (metadata only, no items), Semantic Scholar API (abstract only,
+`openAccessPdf` field empty/closed). **This remains the single highest-value library pull for a
+future session** — still the only CCS-specific validated risk/benefit scale found in this project's
+entire lit review, better than any cross-domain adaptation.
 - *CCS familiarity* — no single dominant validated scale found, but the convention across this
   literature (confirmed via this morning's search of the CCS-public-perception review literature)
   is a simple single item: self-rated familiarity (e.g., 1-5 "never heard of it" to "very
@@ -184,17 +208,50 @@ standard as Terwel et al. 2009 above — flagging, not inventing wording):**
   rather than measuring baseline familiarity as a moderator — worth deciding whether this paper
   wants familiarity as a measured moderator, an equalized-via-information-screen design element
   (Anders et al.'s approach), or both.
-- *Rural identity* — not resolved this session; no candidate scale searched yet. Flagging as
-  still open rather than guessing.
 - *Baseline (pre-vignette) trust* — likely the simplest resolution is administering the same
   Section 1 trust items (Liu et al. 2020 or Firestone et al. 2020 single-item) pre-vignette, asked
   about "state regulators generally" rather than the specific CCS project — i.e., reuse, not a new
   scale. Britton's call whether a pre/post design is worth the added survey length.
 
+**Rural identity — RESOLVED, real verbatim items found (2026-09-10).** The candidate flagged
+earlier (Oser et al. 2022, *Journal of Rural Health*, "The Rural Identity Scale," 15 items,
+α=.72-.83) is real and validated but sits behind a Wiley paywall — item wording not pulled. A
+**shorter, real, verbatim, open-access alternative was found instead**: Krok-Schoen et al. (2015),
+*"The Conceptualization of Self-Identity among Residents of Appalachia, Ohio,"* quoted directly
+(with citation) in an open-access PMC paper — Justice et al., *"Rural-specific identity and
+associations with lifestyle behaviors and well-being among rural cancer survivors,"* PMC13370668 —
+which is itself an honest secondary-source chain, same pattern as this file's other adapted items,
+not a claim of having read Krok-Schoen (2015) directly. Real 4-item, 4-point-Likert battery:
+
+1. "Your general attitudes and opinions are similar to people who live in rural communities."
+2. "You are typical of people who live in rural communities."
+3. "You identify with people who live in rural communities."
+4. "You see yourself belonging to a rural community."
+
+Adapt "rural communities" to name the specific Louisiana parish/region context where relevant.
+**Recommend this 4-item version over pursuing Oser et al.'s 15-item RIS** — it's real, verbatim,
+already confirmed via legitimate open-access reproduction, and vastly shorter, which matters given
+how long this moderator block already is. Cite as Krok-Schoen et al. (2015), noting it was sourced
+via Justice et al.'s open-access reproduction rather than the original if a reviewer asks for the
+chain of custody.
+
+## Current total item count (for Britton's survey-length call — not a recommendation)
+
+Rough count using this file's leanest recommended choices throughout: mediators/DV (~9-11 items,
+per the Recommendation above) + landowner status (1-2) + proximity (1) + prior O&G employment (1)
++ political ideology (1) + CCS familiarity (1-2) + rural identity (4, using Krok-Schoen) + baseline
+trust (reuses Section 1 items, ~1-3) + climate concern (**15** if the full NEP is used, unknown-but-
+likely-5 if the short-form is chased down later) + perceived benefits/risks (**unknown**, Xu et al.
+still unpulled). **Floor estimate without climate concern or risk/benefit: ~19-24 items. Add the
+full NEP and that's ~34-39 items before Xu et al. is even counted** — this is the real number behind
+the survey-length trade-off flagged below; the NEP short-form and the Xu et al. scale together are
+likely the single biggest lever on total length.
+
 **Genuine judgment calls for Britton, not research questions:**
-- Whether the survey can afford the NEP short-form (5 items) plus the Xu et al. CCUS risk/benefit
-  scale (item count unknown until pulled) on top of the four mediator/DV constructs already
-  drafted — this is a survey-length trade-off, not something to resolve by more searching.
+- Full 15-item NEP now vs. holding for the unverified 5-item short-form — see the concrete item-
+  count math above; this is the single biggest survey-length lever available.
+- Whether the survey can afford the Xu et al. CCUS risk/benefit scale (item count still unknown)
+  on top of everything else once it's eventually pulled.
 - Whether familiarity should be measured at all given Anders et al.'s precedent of neutralizing it
   via a mandatory information screen instead.
 
@@ -205,8 +262,12 @@ standard as Terwel et al. 2009 above — flagging, not inventing wording):**
 - Confirmation from Britton on whether the Pan et al. (2022) legitimacy items' cross-domain
   adaptation (content moderation → CCS governance) is acceptable, or whether a same-domain
   alternative is preferred badly enough to justify a further search.
-- Xu, Liu, Chen & Lu (2023)'s CCUS risk/benefit scale item wording (found 2026-09-10, confirmed
-  real, not yet full-text pulled — see Section 5).
-- The 2025 five-item efficient NEP short-form's exact retained items (found 2026-09-10, see
-  Section 5).
-- Rural identity — no candidate scale sourced yet at all (see Section 5).
+- Xu, Liu, Chen & Lu (2023)'s CCUS risk/benefit scale item wording — tried again 2026-09-10
+  (PubMed, ScienceDirect, ResearchGate, Semantic Scholar API), all closed/blocked. Still the
+  project's #1 highest-value library pull.
+- The 2025 five-item efficient NEP short-form's exact retained items — tried again 2026-09-10,
+  still paywalled/no open mirror. The full 15-item scale is now fully verified and usable as a
+  fallback (see Section 5) if Britton doesn't want to wait on this.
+- ~~Rural identity~~ — **RESOLVED 2026-09-10**, real verbatim 4-item Krok-Schoen et al. (2015)
+  measure found via open-access secondary source (see Section 5). Oser et al. (2022)'s longer
+  15-item RIS remains a paywalled alternative if Britton prefers it.

@@ -412,16 +412,24 @@ but exact publisher detail not independently re-checked since.]**
 Campbell, M. C. (1999). Perceptions of price unfairness: Antecedents and consequences.
 *Journal of Marketing Research, 36*(2), 187–199.
 
-Campbell, M. C. (2007). **[Exact title/journal not yet captured anywhere in this
-project — only described secondhand as "Campbell's 2007 follow-up" extending the 1999
-opportunism construct in `notes/2026-09-03-consensus-campbell-1999-opportunism-
-scale.md`. This is the one citation in this list that needs a real lookup, not just a
-spot-check, before it can go in a reference list — H1b/H2b's opportunism measure
-depends on it.]**
+Campbell, M. C. (2007). Says who?!: How the source of price information and the
+direction of price change influence perceptions of price fairness. *Journal of
+Marketing Research, 44*(2), 261–271. **[Bibliographic detail now resolved 2026-09-10 —
+verified directly against Campbell's own CV (UCR faculty page), not a search summary.
+Note: several secondary/citing sources (search engines, a citing paper's own reference
+list) give a different subtitle — "...and Affect Influence Perceived Price
+(Un)fairness" — for what appears to be the same paper (identical journal/volume/issue/
+pages, 44(2) 261–271, across sources); the CV is treated as authoritative since Campbell
+is the paper's own author. Still open: the specific scale items attributed to this
+paper in the Measures section below (a "bad"/"good" motive rating and a "took advantage
+of you" agreement item) have NOT been independently verified against the paper's actual
+text — only the bibliographic citation itself was confirmed this pass. Pull the full
+text before submission if those exact items matter.]**
 
 Chaudhuri, A., & Holbrook, M. B. (2001). The chain of effects from brand trust and
 brand affect to brand performance: The role of brand loyalty. *Journal of Marketing,
-65*(2), 81–93.
+65*(2), 81–93. **[CONFIRMED 2026-09-10 — independently re-verified via WebSearch
+(SAGE DOI jmkg.65.2.81.18255), exact match.]**
 
 Dodds, W. B. (2002). The effects of perceived and objective market cues on consumers'
 product evaluations. *Marketing Bulletin, 13*, Article 2.
@@ -433,8 +441,9 @@ wording still not directly verified; see the Measures section note above.]**
 
 Goyanes, M., Lopezosa, C., & Jordá, B. (2025). Thematic analysis of interview data
 with ChatGPT: Designing and testing a reliable research protocol. *Quality &
-Quantity, 59*, 5493–[end page not captured in this project's records — confirm before
-submission]. https://doi.org/10.1007/s11135-025-02199-3
+Quantity, 59*(6), 5491–5510. **[RESOLVED 2026-09-10 — independently confirmed via
+WebSearch; note the manuscript's own draft had a typo on the start page, 5493, off by
+2 from the real 5491.]** https://doi.org/10.1007/s11135-025-02199-3
 
 Grewal, D., Krishnan, R., Baker, J., & Borin, N. (1998). The effect of store name,
 brand name and price discounts on consumers' evaluations and purchase intentions.
@@ -449,9 +458,9 @@ Kahneman, D., Knetsch, J. L., & Thaler, R. (1986). Fairness as a constraint on p
 seeking: Entitlements in the market. *American Economic Review, 76*(4), 728–741.
 
 Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under
-risk. *Econometrica, 47*(2), 263–291. **[Not independently verified in this project's
-pipeline — canonical citation; confirmed as real in the 2026-07-08 pass but without
-recorded volume/page detail until now.]**
+risk. *Econometrica, 47*(2), 263–291. **[CONFIRMED 2026-09-10 — independently
+re-verified via WebSearch (Econometric Society + RePEc/IDEAS bibliographic record),
+exact match.]**
 
 KPMG. (2026). *2026 tariff survey*.
 https://kpmg.com/us/en/media/news/kpmg-2026-tariff-survey.html
@@ -460,11 +469,13 @@ Maxham, J. G., III, & Netemeyer, R. G. (2002). A longitudinal study of complaini
 customers' evaluations of multiple service failures and recovery efforts. *Journal of
 Marketing, 66*(4), 57–71.
 
-Misra, R., et al. (2026). Large language models in qualitative analysis: Comparing
-traditional and researcher-interpreted approaches. *International Journal of
-Qualitative Methods*. https://doi.org/10.1177/16094069261426100 **[Full author list
-beyond the lead author not captured in this project's records — pull before
-submission.]**
+Misra, R., Dahal, R., Kirk, B., Khan, R., Dogan, G., Chataut, R., & Gyawali, P. (2026).
+Large language models in qualitative analysis: Comparing traditional and
+researcher-interpreted approaches. *International Journal of Qualitative Methods*.
+https://doi.org/10.1177/16094069261426100 **[RESOLVED 2026-09-10 — full author list was
+already on record in `Claude_Knowledge/AI_Thematic_Analysis_Reading_List.csv`, just not
+yet carried into this reference list; not re-verified against the paper itself this
+pass, only cross-referenced against the project's own prior work.]**
 
 Naeem, M., Smith, T., & Thomas, L. (2025). Thematic analysis and artificial
 intelligence: A step-by-step process for using ChatGPT in thematic analysis.
@@ -472,8 +483,8 @@ intelligence: A step-by-step process for using ChatGPT in thematic analysis.
 https://doi.org/10.1177/16094069251333886
 
 Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of
-choice. *Science, 211*(4481), 453–458. **[Not independently verified in this
-project's pipeline — canonical citation, same flag as the 1979 entry above.]**
+choice. *Science, 211*(4481), 453–458. **[CONFIRMED 2026-09-10 — independently
+re-verified via WebSearch (Science/AAAS DOI record), exact match.]**
 
 Xu, W. (2026). Doing thematic analysis in the age of generative AI: Practices, ethics
 and reflexivity. *International Journal of Qualitative Methods, 25*, 1–14.
@@ -485,9 +496,15 @@ https://doi.org/10.1177/16094069261425173
 
 - **Study 2 Results, Study 3 Results** — no data collected; IRB not yet submitted.
 - **Discussion, Implications, Limitations, Conclusion** — depend on the above.
-- **Reference list gaps** — five entries above are flagged individually; the one real
-  blocker is **Campbell (2007)**, whose exact title/journal isn't captured anywhere in
-  this project yet and directly underpins the opportunism scale (H1b/H2b). The other
-  four (Braun & Clarke 2006/2019, Kahneman & Tversky 1979, Tversky & Kahneman 1981,
-  Brehm 1966) are canonical citations already confirmed real in an earlier pass, just
-  worth a final spot-check against the exact wording above before submission.
+- **Reference list gaps — mostly closed 2026-09-10** (see
+  `notes/2026-09-10-citation-accuracy-pass.md` for the full verification pass): Campbell
+  (2007)'s bibliographic citation, Goyanes et al. (2025)'s page range, and Misra et al.
+  (2026)'s full author list are all resolved. Kahneman & Tversky (1979), Tversky &
+  Kahneman (1981), and Chaudhuri & Holbrook (2001) were independently re-verified and
+  confirmed exact. **One real gap remains**: Campbell (2007)'s specific scale-item
+  wording (the "bad"/"good" motive rating and the "took advantage of you" item used for
+  H1b/H2b's opportunism measure) has NOT been independently verified against the
+  paper's actual text — only its bibliographic citation was confirmed. Braun & Clarke
+  (2006, 2019) and Brehm (1966) remain un-re-verified this pass (canonical,
+  low-fabrication-risk citations, confirmed real in the 2026-07-08 pass) — still worth
+  a final spot-check before submission, same as before.
