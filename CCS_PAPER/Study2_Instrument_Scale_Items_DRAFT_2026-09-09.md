@@ -140,6 +140,64 @@ item. **All four mediator/moderator/DV constructs in the conceptual model now ha
 item-level wording** — the instrument-building gap flagged in the conceptual model doc is closed
 as of this update, pending Britton's review of the specific cross-domain adaptations made.
 
+## 5. Moderators — status (gap closed this morning, 2026-09-10)
+
+The conceptual model doc (`Conceptual_Model_and_Theory_v2_DRAFT_2026-09-08.md`, Section 7) names
+nine moderators, none of which had sourced item wording anywhere in this file as of last night —
+this section had been entirely skipped in favor of the mediator/DV work. Pressure-testing the
+instrument against the model surfaced this as the real remaining gap, not anything in the four
+constructs above. Splitting the nine by what they actually need:
+
+**No scale needed — standard single-item/categorical convention, not a citation question:**
+- *Landowner status* — factual, e.g. "Do you own the land you currently live on? Yes/No" (+ own
+  mineral rights, separately, if relevant to the LA sample).
+- *Proximity* — factual, ZIP code or self-reported distance to nearest active/proposed CCS
+  injection site; geocode against the corpus's known project sites rather than trusting
+  self-report alone if feasible.
+- *Prior O&G employment* — factual/categorical, "Have you or an immediate family member ever
+  worked in the oil & gas industry? Yes/No," standard in Gulf Coast energy-attitude surveys.
+- *Political ideology* — standard 7-point liberal-conservative self-placement single item; this is
+  a methodological convention (used across the energy-siting literature broadly, including
+  Firestone et al. 2020's own demographic battery), not something requiring its own citation.
+
+**Real candidate scales found and confirmed to exist, NOT yet item-level verified (same honesty
+standard as Terwel et al. 2009 above — flagging, not inventing wording):**
+- *Climate concern* — **Dunlap, Van Liere, Mertig & Jones (2000), "Measuring Endorsement of the
+  New Ecological Paradigm: A Revised NEP Scale," Journal of Social Issues, 56(3), 425-442.** The
+  standard 15-item environmental-concern instrument in this literature (5,000+ citations); a real
+  **5-item efficient short-form exists** (Sciencedirect, 2025, "An efficient five-item New
+  Environmental Paradigm") that would fit this survey's length constraints far better than the
+  full 15-item version — worth pulling full text to confirm the 5 retained items before use.
+- *Perceived benefits/risks* — **Xu, Liu, Chen & Lu (2023), "Public perceived risks and benefits
+  of carbon capture, utilization, and storage (CCUS): Scale development and validation," Journal
+  of Environmental Management** (confirmed real via PubMed/ScienceDirect: PMID 37801951). This is
+  the first CCUS-specific validated risk/benefit scale found in this whole project's lit review —
+  a direct, on-topic replacement for adapting a generic risk-perception instrument. Full text not
+  yet pulled (ScienceDirect paywall hit tonight); item wording still unknown. **High-value library
+  pull for next session** — this is a better fit than anything else sourced in this file, being
+  CCS-specific rather than adapted cross-domain.
+- *CCS familiarity* — no single dominant validated scale found, but the convention across this
+  literature (confirmed via this morning's search of the CCS-public-perception review literature)
+  is a simple single item: self-rated familiarity (e.g., 1-5 "never heard of it" to "very
+  familiar") sometimes paired with a factual awareness check ("had you heard of CCS before today,
+  yes/no"). Anders et al. (2024)'s own design uses a mandatory pre-vignette information screen
+  rather than measuring baseline familiarity as a moderator — worth deciding whether this paper
+  wants familiarity as a measured moderator, an equalized-via-information-screen design element
+  (Anders et al.'s approach), or both.
+- *Rural identity* — not resolved this session; no candidate scale searched yet. Flagging as
+  still open rather than guessing.
+- *Baseline (pre-vignette) trust* — likely the simplest resolution is administering the same
+  Section 1 trust items (Liu et al. 2020 or Firestone et al. 2020 single-item) pre-vignette, asked
+  about "state regulators generally" rather than the specific CCS project — i.e., reuse, not a new
+  scale. Britton's call whether a pre/post design is worth the added survey length.
+
+**Genuine judgment calls for Britton, not research questions:**
+- Whether the survey can afford the NEP short-form (5 items) plus the Xu et al. CCUS risk/benefit
+  scale (item count unknown until pulled) on top of the four mediator/DV constructs already
+  drafted — this is a survey-length trade-off, not something to resolve by more searching.
+- Whether familiarity should be measured at all given Anders et al.'s precedent of neutralizing it
+  via a mandatory information screen instead.
+
 ## Still missing / needs library access
 
 - Terwel et al. (2009)'s own exact items (only its construct/citation confirmed, not its wording).
@@ -147,3 +205,8 @@ as of this update, pending Britton's review of the specific cross-domain adaptat
 - Confirmation from Britton on whether the Pan et al. (2022) legitimacy items' cross-domain
   adaptation (content moderation → CCS governance) is acceptable, or whether a same-domain
   alternative is preferred badly enough to justify a further search.
+- Xu, Liu, Chen & Lu (2023)'s CCUS risk/benefit scale item wording (found 2026-09-10, confirmed
+  real, not yet full-text pulled — see Section 5).
+- The 2025 five-item efficient NEP short-form's exact retained items (found 2026-09-10, see
+  Section 5).
+- Rural identity — no candidate scale sourced yet at all (see Section 5).

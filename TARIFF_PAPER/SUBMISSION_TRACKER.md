@@ -37,6 +37,13 @@ scattered notes did.
   synced it in until after Sep 8, which is why five straight nightly checks
   missed it. See `notes/2026-09-10-litigation-recheck-section301-government-
   response-was-filed-on-time-not-actually-overdue.md`. No action needed.
+- **2026-09-10: CITI Comprehensive-vs-Basic finding independently
+  re-confirmed** (second direct fetch of McNeese's HSIRB policy page, same
+  exact text as 09-09), and one more attempt made to find a stated HSIRB
+  turnaround time / submission portal — still not publicly findable, this
+  genuinely needs a direct ask to the IRB office. Clean 5-minute summary of
+  everything currently blocking this project:
+  `notes/2026-09-10-blocker-briefing-for-britton.md`.
 - **Working backward-planned schedule, unchanged otherwise (pending
   confirmation of actual HSIRB turnaround — see open question #2):** IRB
   submitted this weekend → if approved in ~1-2 weeks, data collection
