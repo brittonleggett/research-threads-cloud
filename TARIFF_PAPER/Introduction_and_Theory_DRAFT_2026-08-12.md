@@ -160,16 +160,19 @@ has already done most of that inferential work.
 The discounting principle and its compensatory-schema case are Kelley's own and
 well-established in the general attribution literature; applying a costly/cheap
 distinction to firm signals is similarly established in signaling theory (Kirmani &
-Rao, 2000; Connelly et al., 2011). What is new here is the specific combination: no
-price-fairness study we found tests attribution and cost-response as substitutable cues
-for the same inferred-motive judgment, so while the discounting logic behind H3 is
-borrowed, not invented, the hypothesis itself is this paper's extension of that logic to
-the tariff-messaging context, not a replication of a prior finding. We did not find
-price-fairness or attribution literature suggesting the opposite (additive/amplifying)
-pattern is the better-supported one, but the search here was not exhaustive of every
-adjacent literature (see `notes/2026-09-10-h3-reversal-literature-check.md` for the
-specific sources checked) — worth a second look before this becomes final manuscript
-language.
+Rao, 2000; Connelly et al., 2011). What is new here is the specific combination: the
+field's own standard price-fairness review (Xia, Monroe, & Cox, 2004), read in full
+alongside its extensive citation of Bolton, Warlop, and Alba (2003), addresses cost
+salience, attribution of responsibility, and controllability as influences on fairness
+judgments individually, but neither tests nor discusses attribution and cost-response
+as substitutable cues for the same inferred-motive judgment. So while the discounting
+logic behind H3 is borrowed, not invented, the hypothesis itself is this paper's
+extension of that logic to the tariff-messaging context, not a replication of a prior
+finding. We did not find price-fairness or attribution literature suggesting the
+opposite (additive/amplifying) pattern is the better-supported one (see
+`notes/2026-09-10-h3-reversal-literature-check.md` for the specific sources checked
+and what remains unverified — Bolton, Warlop, and Alba's own full text stays
+paywalled, verified here only through Xia et al.'s treatment of it).
 
 ### From Fairness Judgments to Trust and Behavior
 

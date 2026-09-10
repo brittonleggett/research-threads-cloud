@@ -167,11 +167,14 @@ has already done most of that inferential work.
 The discounting principle and its compensatory-schema case are Kelley's own and
 well-established in the general attribution literature; applying a costly/cheap
 distinction to firm signals is similarly established in signaling theory (Kirmani &
-Rao, 2000; Connelly et al., 2011). What is new here is the specific combination: no
-price-fairness study we found tests attribution and cost-response as substitutable cues
-for the same inferred-motive judgment, so while the discounting logic behind H3 is
-borrowed, not invented, the hypothesis itself is this paper's extension of that logic to
-the tariff-messaging context, not a replication of a prior finding.
+Rao, 2000; Connelly et al., 2011). What is new here is the specific combination: the
+field's own standard price-fairness review (Xia, Monroe, & Cox, 2004), read in full
+alongside its extensive citation of Bolton, Warlop, and Alba (2003), addresses cost
+salience, attribution of responsibility, and controllability individually but neither
+tests nor discusses attribution and cost-response as substitutable cues for the same
+inferred-motive judgment. So while the discounting logic behind H3 is borrowed, not
+invented, the hypothesis itself is this paper's extension of that logic to the
+tariff-messaging context, not a replication of a prior finding.
 
 **[RESOLVED 2026-09-10]** Britton reversed the direction and supplied the underlying
 logic (compensatory/cue-substitution, not amplification) — see the source file
@@ -538,6 +541,17 @@ https://doi.org/10.1177/16094069251333886
 Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of
 choice. *Science, 211*(4481), 453–458. **[CONFIRMED 2026-09-10 — independently
 re-verified via WebSearch (Science/AAAS DOI record), exact match.]**
+
+Xia, L., Monroe, K. B., & Cox, J. L. (2004). The price is unfair! A conceptual
+framework of price fairness perceptions. *Journal of Marketing, 68*(4), 1–15.
+**[Added 2026-09-10 for the reversed H3 — full text pulled and read directly (a real
+PDF, not a search summary) to check whether the field's standard price-fairness
+review tests or discusses an attribution × cost-response substitution interaction; it
+does not, and its own extensive citation of Bolton, Warlop, and Alba (2003) doesn't
+either — see `notes/2026-09-10-h3-reversal-literature-check.md`. Bolton, Warlop, and
+Alba (2003) itself remains paywalled to this session (JSTOR/Oxford Academic,
+ResearchGate, and SciSpace all inaccessible); verified here only through Xia et al.'s
+treatment of it, not its own full text.]**
 
 Xu, W. (2026). Doing thematic analysis in the age of generative AI: Practices, ethics
 and reflexivity. *International Journal of Qualitative Methods, 25*, 1–14.

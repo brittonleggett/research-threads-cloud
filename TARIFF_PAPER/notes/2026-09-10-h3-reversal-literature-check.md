@@ -58,11 +58,35 @@ behavioral/costly evidence is present. This is consistent with treating the spec
 interaction as this paper's extension, not a replication of an existing price-fairness
 finding — which is exactly how the rewritten section frames it.
 
-**Not exhaustively checked:** Xia, Monroe & Cox (2004)'s price-fairness review and
-Bolton, Warlop & Alba (2003) were named as worth checking but not independently
-searched this pass, given time — nothing surfaced elsewhere in this check suggesting
-either would contradict Britton's direction, but this is a real gap, not a confirmed
-clean bill of health. Worth a look if reviewers push on the interaction's novelty.
+**Follow-up check, same day: Xia, Monroe & Cox (2004) and Bolton, Warlop & Alba
+(2003) — gap now closed, no contrary evidence.** Got full text of Xia, Monroe & Cox
+(2004) directly (a real PDF, not a search summary — `storage` at seekscholar.com,
+read in full via this session's PDF tool). It is the standard price-fairness
+literature *review* — a conceptual/propositional paper (nine propositions, P1–P9),
+not an experiment — and it does not test, hypothesize, or discuss an attribution ×
+cost-response interaction of any kind, substitution or additive. Its closest relevant
+passage: "buyers may accept a firm's goodwill motive even when the higher price is
+not due to cost-related factors and is controlled by the company (Campbell 1999)" —
+broadly consistent with a substitution logic (a goodwill/motive signal can stand in
+for a cost-based cause) but stated about motive-inference generally, not the specific
+cost-absorption/verbal-attribution redundancy this paper proposes. Nothing in the
+paper's discussion of attribution, controllability, or its own citation of Bolton,
+Warlop & Alba (2003) — "consumers respond more unfavorably if a perceived price
+inequality is due to a firm's volitional intentions or actions (internal locus of
+causality and controllability) (Bolton, Warlop, and Alba 2003; Vaidyanathan and
+Aggarwal 2003)"; "making the seller's costs salient reduces people's estimate of a
+firm's profit margin... not all costs are equally legitimate (Bolton, Warlop, and
+Alba 2003)" — addresses whether justification and behavioral cost evidence combine
+additively or substitutably. Bolton, Warlop & Alba (2003)'s own full text was not
+independently pulled (JSTOR/Oxford Academic paywalled, ResearchGate and SciSpace both
+returned empty/blocked pages to this session's fetch tools) — this check relies on
+Xia et al.'s own extensive, multi-point citation of it (in the Appendix's results
+summary and four further in-text citations) as the secondary-source substitute,
+consistent with this project's standing convention for sources that can't be
+full-text verified directly. **Conclusion: the "no prior price-fairness study tests
+this specific interaction" claim in the manuscript holds up under a full-text check
+of the field's own standard review, not just an abstract-level one.** This gap is now
+closed.
 
 ## Bottom line for Britton
 
@@ -72,11 +96,14 @@ compatible with your logic, it's close to the canonical example of it, which mak
 more defensible than the original amplifying version, not less. Your provisional
 hypothesis wording was already clean and was kept close to verbatim (see the rewritten
 "The Interaction" section in `Introduction_and_Theory_DRAFT_2026-08-12.md` and the
-mirrored section in `Tariff_Manuscript_Working_Draft_2026-09-04.md`). The one thing
-worth doing before this is final manuscript language: a citation-accuracy-style check
-of Xia/Monroe/Cox (2004) and Bolton/Warlop/Alba (2003) specifically for anything on
-verbal-explanation-times-behavioral-evidence interactions, since those weren't reached
-this pass.
+mirrored section in `Tariff_Manuscript_Working_Draft_2026-09-04.md`). The follow-up
+check of Xia/Monroe/Cox (2004) and Bolton/Warlop/Alba (2003) (above) closes the one
+gap flagged earlier the same day — full text of the field's own standard review
+confirms it doesn't test this interaction either, so the "genuine extension, not a
+replication" framing in the manuscript is on solid ground. Bolton/Warlop/Alba (2003)'s
+own full text is still paywalled everywhere this session could reach — worth a direct
+pull via your library access if a reviewer specifically challenges this point, but not
+blocking.
 
 ## Files changed
 - `TARIFF_PAPER/Introduction_and_Theory_DRAFT_2026-08-12.md` — rewrote the H2 bridge
