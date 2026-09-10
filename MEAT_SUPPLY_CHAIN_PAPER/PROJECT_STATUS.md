@@ -491,3 +491,17 @@ price-fixing saga); (3) a Tyson FY2026 margin update.
    legal-proceedings footnote. Whether the Sept. 1, 2026 Agri Stats final-approval hearing
    concluded, and with what outcome, is still completely unconfirmed — genuine open item for a
    future pass.
+8. **CONFIRMED STILL PENDING (same-day follow-up, 2026-09-09 evening)** — re-searched both items
+   fresh rather than re-treating them as "search gaps." Neither has an outcome to find yet:
+   - **Agri Stats Sept. 1, 2026 broiler final-approval hearing**: a fresh search independently
+     states "as of mid-2026, the court has not yet granted final approval" — consistent with, not
+     contradicting, the earlier finding. Still genuinely open; the meatingplace.com headline
+     flagged earlier as ambiguous still can't be dated/confirmed as post-hearing coverage. Re-check
+     in a later pass (this is a real event that will eventually resolve, just hasn't yet).
+   - **Tyson $82.5M DPP settlement final approval**: fresh search confirms no final-approval
+     hearing has even been scheduled yet as of this check — coverage describes only that a hearing
+     "will" happen "after the class notice has been disseminated," with a Nov. 30, 2026 claims
+     deadline implying any final hearing is still months out. This is not a verification gap, it's
+     that the event hasn't happened — correct as "preliminarily approved May 14, 2026, final
+     approval pending, no hearing date yet set" and stop chasing a final-approval date until closer
+     to/after the claims deadline.
