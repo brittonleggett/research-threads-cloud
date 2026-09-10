@@ -54,19 +54,50 @@ pass same as everything else).**
 | 24 | Project Blue (Beale Infrastructure) | AZ (Tucson) | Local/independent news (protest coverage) | 2026-04-24 | [AZ Luminaria](https://azluminaria.org/2026/04/24/we-said-no-dozens-protest-as-construction-of-project-blue-data-center-begins/) |
 | 25 | Mesa/Avondale/Phoenix water caps; Buckeye/Pinal Co. (Tract) | AZ | Local/policy coverage | 2026 | (per 2026-08-16 scan note; re-verify exact source URLs before citing) |
 | 26 | NY Executive Order 62 (statewide moratorium) | NY | State policy coverage | 2026-07-14 | [Axios](https://www.axios.com/2026/07/14/ny-gov-kathy-hochul-data-center-moratorium-executive-order), [NY Governor's office](https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops) |
+| 27 | Clinton County rezoning denial (Data One/Logix Reality) | IN | Local news, court-adjacent (county commission vote) | 2026-01-20 | [Clinton County Daily News](https://clintoncountydailynews.com/clinton-county-commissioners-deny-rezoning-request-for-proposed-data-center/), corroborated by WTHR, Fox59, ftimes.com (added 2026-09-10, promoted from Tier 3 — see note below) |
+| 28 | xAI/MZX Tech "Colossus 2" gas turbines — *NAACP v. X.AI Corp.*, N.D. Miss. 3:26-cv-00074 | MS (Southaven, DeSoto Co.) / TN (South Memphis) | Federal litigation, primary docket + party's own case page | 2026-04-14 (filed); ongoing | [CourtListener docket 73188848](https://www.courtlistener.com/docket/73188848/national-association-for-the-advancement-of-colored-people-v-xai-corp/) (122 entries as of 2026-09-10, read directly), [Earthjustice case page](https://earthjustice.org/case/xai-illegal-gas-power-plant-data-center-colossus), [Utility Dive](https://www.utilitydive.com/news/doj-intervenes-xai-data-center-gas-turbine-lawsuit/823267/) — added 2026-09-10, see note below |
 
 **Tier 3 — WebSearch-confidence only, hold out of formal coding until a working
-WebFetch pass confirms them.** Clinton County, IN rezoning denial (2026-01-20);
-Indianapolis eastside approval-despite-opposition (Jul 2026); ~18 Ohio local
-moratoria (industry-tracker summary, not independently sourced); Southaven,
-MS/Memphis, TN "Colossus" turbine opposition + class-action suit. These are
-individually promising (Clinton County especially — one of the only outright
-opposition *wins*) but shouldn't anchor a claim until directly fetched and read,
-same standard already applied to the rest of this corpus.
+WebFetch pass confirms them.** Indianapolis eastside approval-despite-opposition (Jul
+2026); ~18 Ohio local moratoria (industry-tracker summary, not independently sourced).
+(Clinton County, IN and the Southaven, MS/Memphis, TN "Colossus" material were both
+promoted to Tier 2 on 2026-09-10 — see entries #27-28 above — after direct-fetch/
+primary-docket verification; the "Colossus" entry turned out to be much richer than a
+simple turbine-opposition item, see the federal-preemption note above.)
 
-**Corpus size note:** Tier 1 + Tier 2 = 26 artifacts across 5 states. That's above
+**2026-09-10 additions (see `notes/2026-09-10-national-sweep-clinton-county-verified-naacp-v-xai-colossus-federal-preemption-case.md` for full detail):**
+- **#27, Clinton County, IN** — promoted from Tier 3 to Tier 2. Directly re-verified
+  (not just WebSearch-summarized): Clinton County Commissioners voted 3-0 on 2026-01-20
+  to deny a rezoning request (agricultural to light industrial, ~715 acres) for a
+  proposed data center, citing negative public comment and the petitioner's
+  incomplete negotiation of 14 community commitments. This is one of the few clean
+  outright *wins* for opposition via a local zoning board in the corpus so far — a
+  useful counterweight to LA's PSC/council losses.
+- **#28, NAACP v. X.AI Corp. (Colossus 2, Southaven MS / South Memphis TN)** — a
+  significant new addition, primary-docket-verified via CourtListener directly (case
+  3:26-cv-00074, N.D. Mississippi, Judge Debra M. Brown, Greenville division). NAACP
+  and the Mississippi State Conference of the NAACP sued xAI/MZX Tech in April 2026
+  over 27 unpermitted methane gas turbines (~495MW) powering the Colossus 2 AI data
+  center, alleging Clean Air Act violations and citing potential annual emissions of
+  1,700+ tons NOx, 500 tons CO, 180 tons particulate matter, and 19 tons formaldehyde,
+  half a mile from homes and a mile from an elementary school. **The novel element for
+  this corpus: the U.S. Department of Justice itself intervened (Amended Motion to
+  Intervene and Dismiss, docket entry 85, filed 2026-07-07) to defend xAI, arguing
+  Grok is "one of only four proprietary state-of-the-art frontier AI currently capable
+  of supporting national security applications" and citing its use in an actual
+  military operation** — a federal-preemption-via-national-security dynamic distinct
+  from anything else in the corpus (state PSCs/councils overriding local bodies is the
+  existing pattern; this is the federal government itself overriding a civil-rights
+  organization's environmental litigation). DOJ's own motion attaches a letter from
+  Mississippi's governor (Gov. Reeves) — state-executive alignment with the federal
+  intervention, not just a federal-vs-community story. As of the Sept 8, 2026 docket
+  entry (the most recent read), DOJ is pushing for a ruling on its motion by Sept 10 —
+  a live, fast-moving case worth a follow-up check.
+
+**Corpus size note:** Tier 1 + Tier 2 = 28 artifacts across 6 states (IN and MS/TN new
+as of 2026-09-10). That's above
 the original 15-20 target, but the target was set for a single-state corpus — whether
-26 is right for a multi-state comparative design, or whether Tier 2 should be trimmed
+28 is right for a multi-state comparative design, or whether Tier 2 should be trimmed
 to 1-2 exemplar artifacts per state instead of every sourced item, is a real design
 question. Flagging rather than deciding — your call alongside the Phase 3 review.
 
