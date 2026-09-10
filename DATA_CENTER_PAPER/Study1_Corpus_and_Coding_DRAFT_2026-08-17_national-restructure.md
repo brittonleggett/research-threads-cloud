@@ -102,12 +102,13 @@ simple turbine-opposition item, see the federal-preemption note above.)
   entry (the most recent read), DOJ is pushing for a ruling on its motion by Sept 10 —
   a live, fast-moving case worth a follow-up check.
 
-**Corpus size note:** Tier 1 + Tier 2 = 28 artifacts across 6 states (IN and MS/TN new
-as of 2026-09-10). That's above
-the original 15-20 target, but the target was set for a single-state corpus — whether
-28 is right for a multi-state comparative design, or whether Tier 2 should be trimmed
-to 1-2 exemplar artifacts per state instead of every sourced item, is a real design
-question. Flagging rather than deciding — your call alongside the Phase 3 review.
+**Corpus size note — RESOLVED 2026-09-10:** Tier 1 + Tier 2 = 28 artifacts across 6
+states (IN and MS/TN new as of 2026-09-10). Britton locked the scope 2026-09-10: Tier 2
+is meant to be used strategically (transferability/boundary-condition testing against
+Louisiana's themes), not grown exhaustively — see `CLAUDE.md`'s "Scope note — FINAL"
+section. No retroactive trim needed; the standing rule going forward is don't
+automatically keep adding Tier 2 artifacts by default, only when the Phase 3 analysis
+itself creates a specific need (a disconfirming case, an untested state variant, etc.).
 
 ---
 
@@ -183,8 +184,9 @@ call — could go either way.
    table), would you draw the moderator lines differently.
 2. Decide whether Tier 3 (IN/OH, MS/TN) is worth a direct-fetch verification pass
    before Study 1 closes, or whether it's out of scope for this round.
-3. The corpus-size question above (26 artifacts, above the original single-state
-   target) — trim Tier 2 to exemplars, or keep it comprehensive.
+3. ~~The corpus-size question above~~ — RESOLVED 2026-09-10: no trim, but stop
+   growing Tier 2 by default; add to it only when Phase 3 analysis shows a specific
+   need (see corpus-size note above and `CLAUDE.md`'s "Scope note — FINAL").
 4. Same standing item from the 08-12 draft, now applying to Tier 2 as well: primary-
    source pulls (council minutes, the actual PSC order text, court filings) still
    haven't happened for *any* tier — WebFetch has been blocked for 6 straight nightly

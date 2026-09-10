@@ -13,16 +13,19 @@ personal/sensitive material — deliberately scoped to just these research threa
   dated file = current status). Study 1 (AI-assisted thematic analysis of corporate
   tariff-messaging) has a corpus and a manuscript-ready draft methods section
   already; validation pilot and full Phase 3 theme review still outstanding.
-- **`DATA_CENTER_PAPER/`** — public opposition to data center construction. Started
-  Louisiana-only (Meta "Hyperion"/Richland Parish, Amazon/Caddo Parish, New Orleans
-  East), corpus now at 17 artifacts and primary-source verified. **2026-08-16 scope
-  pivot: now deliberately national**, not Louisiana-only — Britton wants
-  generalizability, not single-state positioning. A national scan (GA, UT, VA, AZ,
-  IN/OH, MS/TN, NY + other moratorium states) is in `notes/2026-08-16-national-scan-beyond-louisiana.md`;
-  restructuring the corpus/design around that (region/community-profile as an
-  explicit moderator is the current recommendation) is still Britton's open call —
-  don't do it without him. Venue: Journal of Public Policy & Marketing leading
-  candidate, alongside Journal of Business Ethics/Business & Society/ERSS.
+- **`DATA_CENTER_PAPER/`** — public opposition to data center construction.
+  **Multi-state comparative design LOCKED 2026-09-10** (final — see
+  `DATA_CENTER_PAPER/CLAUDE.md`'s "Scope note — FINAL" section for Britton's exact
+  wording): Louisiana is Tier 1, the primary/deep-dive case getting Phase 3's
+  comprehensive coding attention. Georgia, Utah, Virginia, and Arizona are Tier 2 —
+  used strategically for transferability/boundary-condition testing against
+  Louisiana's themes (cross-case comparison, negative cases, state-specific
+  variants), not grown into five equally-exhaustive studies. Region and community
+  racial/socioeconomic profile stay as moderators where evidence actually supports
+  them. Clinton County, IN and the NAACP v. X.AI Corp. (MS) federal case are being
+  treated as Tier 2 under this same logic, added after the original four states.
+  Venue: Journal of Public Policy & Marketing leading candidate, alongside Journal
+  of Business Ethics/Business & Society/ERSS.
 - **`CCS_PAPER/`** — carbon capture/CCS paper, same Study1→Study2 AI-thematic-
   analysis template as the others. Less actively worked recently than Tariff.
 - **`FLOCK_CAMERAS_PAPER/`** — newest, added 2026-08-16. Public opposition to Flock
