@@ -31,6 +31,12 @@ scattered notes did.
   worth Britton confirming status directly, since this is the actual
   critical-path item and every downstream date (Oct 15) assumes it already
   moved.
+- **2026-09-10: the "Section 301 government response is overdue" litigation
+  thread (unrelated to IRB, background docket-tracking only) is resolved —
+  it was filed on time (Sep 4); CourtListener's own docket mirror just hadn't
+  synced it in until after Sep 8, which is why five straight nightly checks
+  missed it. See `notes/2026-09-10-litigation-recheck-section301-government-
+  response-was-filed-on-time-not-actually-overdue.md`. No action needed.
 - **Working backward-planned schedule, unchanged otherwise (pending
   confirmation of actual HSIRB turnaround — see open question #2):** IRB
   submitted this weekend → if approved in ~1-2 weeks, data collection
