@@ -114,7 +114,12 @@ signal restraint, and restraint is itself evidence against an opportunistic moti
 Study 1's Theme 1 (restraint signaling) and Theme 3 (mitigation-effort narrative) are
 both, at root, firms trying to claim this signal — Nike's "surgical" framing, Lovesac's
 disclosed four-part mitigation strategy that cost the firm over $22 million in absorbed
-margin. We predict:
+margin. Cost absorption works as a signal in the formal sense used in signaling theory:
+it is costly to fake (Kirmani & Rao, 2000; Connelly, Certo, Ireland, & Reutzel, 2011) —
+a firm gains nothing from claiming restraint while still passing the full increase
+through, while forgoing real margin is a cost only a firm confident it can absorb would
+accept. Verbal attribution, by contrast, costs a firm nothing to state; this asymmetry
+matters directly for H3 below. We predict:
 
 > **H2a.** Shared-burden cost absorption leads to higher perceived price fairness than
 > full pass-through.
@@ -123,18 +128,48 @@ margin. We predict:
 
 ### The Interaction: Attribution and Response Together
 
-Dual entitlement theory implies these two factors should not simply add — a firm that
-explains its reasoning *and* visibly shares the burden should be judged disproportionately
-more fairly than either cue alone would predict, because together they supply both halves
-of what the theory says a fair pass-through requires: a legitimate cause, and evidence the
-firm isn't exploiting it. Conversely, a firm that stays silent about cause *and* passes
-the full cost through supplies neither — the condition dual entitlement theory would
-predict as least defensible, and the condition Study 1's corpus suggests is rarest in
-practice, perhaps because firms themselves anticipate this penalty.
+Attribution theory offers a more specific prediction for how these two cues combine
+than a simple additive logic would suggest. Kelley's (1972) discounting principle holds
+that the causal weight assigned to any one available cue is discounted to the degree
+that another plausible cause for the same effect is already present — and Kelley
+specifically describes a *compensatory* causal schema for cases where two such causes
+are treated as continuous and substitutable rather than independent, each capable on
+its own of producing the effect. Cost absorption and explicit attribution both point to
+the same underlying inference this paper cares about — that the firm is not acting
+opportunistically — which makes them compensatory causes in exactly Kelley's sense
+rather than complementary ones. A firm that visibly absorbs cost has already supplied
+costly, hard-to-fake behavioral evidence of restraint (see above); once that evidence is
+in hand, a stated cause for the price increase has comparatively little left to add,
+because consumers already have independent grounds for the fair-intent inference dual
+entitlement theory says attribution exists to supply. Full pass-through withholds that
+behavioral evidence entirely — which is precisely the condition under which attribution
+is doing its full share of the inferential work, since cheap-talk explanation is the
+only cue available at all (Campbell, 1999).
 
-> **H3.** Attribution Frame and Cost-Response interact such that the fairness benefit of
-> explicit attribution is amplified when paired with shared-burden absorption, and
-> attenuated when paired with full pass-through.
+This predicts a *compensatory*, cue-substitution interaction rather than a "two good
+things amplify each other" one: attribution's fairness benefit should be *larger*, not
+smaller, under full pass-through, where it is the only available evidence of fair
+intent, and *smaller* under shared-burden absorption, where a costlier behavioral cue
+has already done most of that inferential work.
+
+> **H3.** Attribution frame and cost-response strategy interact such that the positive
+> effect of explicit tariff attribution on perceived price fairness is stronger when the
+> firm fully passes the cost increase through to consumers than when the firm partially
+> absorbs the cost.
+
+The discounting principle and its compensatory-schema case are Kelley's own and
+well-established in the general attribution literature; applying a costly/cheap
+distinction to firm signals is similarly established in signaling theory (Kirmani &
+Rao, 2000; Connelly et al., 2011). What is new here is the specific combination: no
+price-fairness study we found tests attribution and cost-response as substitutable cues
+for the same inferred-motive judgment, so while the discounting logic behind H3 is
+borrowed, not invented, the hypothesis itself is this paper's extension of that logic to
+the tariff-messaging context, not a replication of a prior finding. We did not find
+price-fairness or attribution literature suggesting the opposite (additive/amplifying)
+pattern is the better-supported one, but the search here was not exhaustive of every
+adjacent literature (see `notes/2026-09-10-h3-reversal-literature-check.md` for the
+specific sources checked) — worth a second look before this becomes final manuscript
+language.
 
 ### From Fairness Judgments to Trust and Behavior
 
@@ -156,12 +191,12 @@ it to others.
 
 1. Your read-through — this is a strong first draft, not final language. Flag anything
    that doesn't sound like you, or any theoretical claim you'd push back on.
-2. H3 (the interaction hypothesis) is new — I added it because a full factorial design
-   without an interaction hypothesis tends to draw reviewer questions ("why run a 3×2 if
-   you're only predicting main effects?"). Worth deciding if you want to keep it, and if
-   so, whether the direction I've proposed is the one you'd actually predict. **Still
-   open as of 2026-09-04 — this is the one real theoretical judgment call left in this
-   draft.**
+2. ~~H3 (the interaction hypothesis) — still open as of 2026-09-04~~ — **RESOLVED
+   2026-09-10.** Britton reversed the predicted direction and supplied the underlying
+   logic himself (a compensatory/cue-substitution interaction, not an amplifying one);
+   the rewrite above grounds it in Kelley's (1972) discounting principle and
+   signaling theory, verified against primary sources. See
+   `notes/2026-09-10-h3-reversal-literature-check.md` for exactly what was checked.
 3. ~~Method section for Study 2/3 still needs the scale-item verification gap closed~~
    — **resolved 2026-09-04.** Campbell (1999)'s exact opportunism wording (H1b, H2b's
    load-bearing construct) is in hand — see
