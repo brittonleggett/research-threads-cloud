@@ -1,0 +1,366 @@
+[[AdvancedFormat]]
+
+[[ED:AttributionFrame]]
+[[ED:CostResponse]]
+[[ED:AttentionCheckPass]]
+[[ED:ManipCheck1Correct]]
+
+[[Block:Consent]]
+
+[[Question:DB]]
+[[ID:consent_text]]
+&lt;PASTE THE FULL TEXT OF Informed_Consent_Tariffs.docx HERE.&gt;<br><br>This survey takes approximately 12 minutes.
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:consent]]
+Do you agree to participate in this study?
+[[Choices]]
+I agree to participate
+I do not agree to participate
+
+[[PageBreak]]
+
+[[Block:Screener]]
+
+[[Question:TE:SingleLine]]
+[[ID:age_screen]]
+What is your age in years?
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:us_resident]]
+Do you currently reside in the United States?
+[[Choices]]
+Yes
+No
+
+[[Question:Matrix:SingleAnswer]]
+[[ID:attn_check]]
+Please indicate how much you agree with each of the following statements.
+[[Choices]]
+I pay attention to details when reading online.
+To show you are reading carefully, please select "Somewhat agree" for this item.
+I often shop at national retail chains.
+[[Answers]]
+Strongly disagree
+Disagree
+Somewhat disagree
+Neither agree nor disagree
+Somewhat agree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:Vignette 1 - TariffExplicit_FullPassThrough]]
+
+[[Question:DB]]
+[[ID:vig1]]
+Imagine you are a regular customer of Meridian Home, a national retailer where you often shop. You receive the following email from the company:<br><br><b>Subject: An Update on Pricing at Meridian Home</b><br><br>As you may have seen in the news, new tariffs on imported goods have significantly increased the cost of many of the products we sell. Because of these tariff-related costs, we are raising prices on select items starting next month. These increases reflect the full amount of the added tariff costs we are now paying to bring these products to you.
+
+[[PageBreak]]
+
+[[Block:Vignette 2 - TariffExplicit_SharedBurden]]
+
+[[Question:DB]]
+[[ID:vig2]]
+Imagine you are a regular customer of Meridian Home, a national retailer where you often shop. You receive the following email from the company:<br><br><b>Subject: An Update on Pricing at Meridian Home</b><br><br>As you may have seen in the news, new tariffs on imported goods have significantly increased the cost of many of the products we sell. Because of these tariff-related costs, we are raising prices on select items starting next month. We are absorbing a significant portion of these added tariff costs ourselves, and only passing along part of the increase to our customers.
+
+[[PageBreak]]
+
+[[Block:Vignette 3 - GeneralCost_FullPassThrough]]
+
+[[Question:DB]]
+[[ID:vig3]]
+Imagine you are a regular customer of Meridian Home, a national retailer where you often shop. You receive the following email from the company:<br><br><b>Subject: An Update on Pricing at Meridian Home</b><br><br>Due to rising costs across our supply chain, the cost of many of the products we sell has significantly increased. Because of these higher costs, we are raising prices on select items starting next month. These increases reflect the full amount of the added costs we are now paying to bring these products to you.
+
+[[PageBreak]]
+
+[[Block:Vignette 4 - GeneralCost_SharedBurden]]
+
+[[Question:DB]]
+[[ID:vig4]]
+Imagine you are a regular customer of Meridian Home, a national retailer where you often shop. You receive the following email from the company:<br><br><b>Subject: An Update on Pricing at Meridian Home</b><br><br>Due to rising costs across our supply chain, the cost of many of the products we sell has significantly increased. Because of these higher costs, we are raising prices on select items starting next month. We are absorbing a significant portion of these added costs ourselves, and only passing along part of the increase to our customers.
+
+[[PageBreak]]
+
+[[Block:Vignette 5 - Silent_FullPassThrough]]
+
+[[Question:DB]]
+[[ID:vig5]]
+Imagine you are a regular customer of Meridian Home, a national retailer where you often shop. You receive the following email from the company:<br><br><b>Subject: An Update on Pricing at Meridian Home</b><br><br>We value you as a customer and want to keep you informed about changes at Meridian Home. Prices on select items will be increasing starting next month. This adjustment reflects the full increase in what it now costs us to bring these products to you. We appreciate your continued business and look forward to serving you.
+
+[[PageBreak]]
+
+[[Block:Vignette 6 - Silent_SharedBurden]]
+
+[[Question:DB]]
+[[ID:vig6]]
+Imagine you are a regular customer of Meridian Home, a national retailer where you often shop. You receive the following email from the company:<br><br><b>Subject: An Update on Pricing at Meridian Home</b><br><br>We value you as a customer and want to keep you informed about changes at Meridian Home. Prices on select items will be increasing starting next month. We are absorbing a significant portion of the increase in what it now costs us to bring these products to you, and only passing along part of it. We appreciate your continued business and look forward to serving you.
+
+[[PageBreak]]
+
+[[Block:Manipulation Checks]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:mc_reason]]
+According to the message, what did the company say was the reason for the price increase?
+[[Choices]]
+Tariffs
+General rising costs
+No reason given
+Don't recall
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:mc_clarity]]
+How clearly did the message explain the reason for the price increase?
+[[Choices]]
+1 - Not at all clearly
+2
+3
+4
+5
+6
+7 - Very clearly
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:mc_costresp]]
+According to the message, is the company passing along the full cost increase, or absorbing part of it?
+[[Choices]]
+Full amount
+Partial, company absorbing some
+Unclear
+
+[[PageBreak]]
+
+[[Block:Perceived Price Fairness]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:fair_1]]
+How would you rate the price increase described in the message?
+[[Choices]]
+1 - Very fair
+2
+3
+4
+5
+6
+7 - Very unfair
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:fair_2_R]]
+"This price is not fair."<br><i>(Reverse-scored before averaging with the item above.)</i>
+[[Choices]]
+1 - Strongly agree
+2
+3
+4
+5
+6
+7 - Strongly disagree
+
+[[PageBreak]]
+
+[[Block:Perceived Opportunism]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:opp_1]]
+How would you rate the company's motive in this situation?
+[[Choices]]
+1 - Bad
+2
+3
+4
+5
+6
+7 - Good
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:opp_2]]
+"The intent in this situation was to take advantage of you (the customer)."
+[[Choices]]
+1 - Strongly agree
+2
+3
+4
+5
+6
+7 - Strongly disagree
+
+[[PageBreak]]
+
+[[Block:Trust in the Company]]
+
+[[Question:Matrix:SingleAnswer]]
+[[ID:trust]]
+Please indicate how much you agree with each statement about Meridian Home.
+[[Choices]]
+I trust this company.
+I rely on this company.
+This is an honest company.
+This company is safe.
+[[Answers]]
+1 - Strongly disagree
+2
+3
+4
+5
+6
+7 - Strongly agree
+
+[[PageBreak]]
+
+[[Block:Purchase Intention]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:pi_1]]
+The likelihood of purchasing this product is:
+[[Choices]]
+1 - Very high
+2
+3
+4
+5
+6
+7 - Very low
+
+[[Question:Matrix:SingleAnswer]]
+[[ID:pi_23]]
+Please indicate how much you agree with each statement.
+[[Choices]]
+If I were going to buy this product, I would consider buying this product at the price shown.
+At the price shown, I would consider buying the product.
+[[Answers]]
+1 - Strongly disagree
+2
+3
+4
+5
+6
+7 - Strongly agree
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:pi_4]]
+The probability that I would consider buying the product is:
+[[Choices]]
+1 - Very high
+2
+3
+4
+5
+6
+7 - Very low
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:pi_5]]
+My willingness to buy the product is:
+[[Choices]]
+1 - Very high
+2
+3
+4
+5
+6
+7 - Very low
+
+[[PageBreak]]
+
+[[Block:Word-of-Mouth Intention]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:wom_1]]
+How likely are you to spread positive word-of-mouth about Meridian Home?
+[[Choices]]
+1 - Very unlikely
+2
+3
+4
+5
+6
+7 - Very likely
+
+[[Question:Matrix:SingleAnswer]]
+[[ID:wom_23]]
+Please indicate how much you agree with each statement.
+[[Choices]]
+I would recommend Meridian Home's products to my friends.
+If my friends were looking for a product like this, I would tell them to try Meridian Home.
+[[Answers]]
+1 - Strongly disagree
+2
+3
+4
+5
+6
+7 - Strongly agree
+
+[[PageBreak]]
+
+[[Block:Demographics]]
+
+[[Question:TE:SingleLine]]
+[[ID:age]]
+What is your age in years?
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:gender]]
+What is your gender?
+[[Choices]]
+Male
+Female
+Non-binary
+Prefer to self-describe
+Prefer not to say
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:income]]
+What is your annual household income?
+[[Choices]]
+Less than $25,000
+$25,000 - $49,999
+$50,000 - $74,999
+$75,000 - $99,999
+$100,000 - $149,999
+$150,000 or more
+Prefer not to say
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:education]]
+What is the highest level of education you have completed?
+[[Choices]]
+Less than high school
+High school diploma or GED
+Some college, no degree
+Associate's degree
+Bachelor's degree
+Graduate or professional degree
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:shop_freq]]
+How often do you shop at retailers like the one described in this study?
+[[Choices]]
+Never
+Rarely (a few times a year)
+Occasionally (monthly)
+Regularly (a few times a month)
+Frequently (weekly or more)
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:ideology]]
+In general, how would you describe your political views?
+[[Choices]]
+1 - Very liberal
+2
+3
+4 - Moderate
+5
+6
+7 - Very conservative
+
+[[PageBreak]]
+
+[[Block:Debriefing]]
+
+[[Question:DB]]
+[[ID:debrief]]
+&lt;PASTE THE FULL TEXT OF notes/2026-08-04-debriefing-statement.md HERE.&gt;<br><br>Please note: "Meridian Home" is a fictional company created for this study, and the email you read was written by the researchers. It does not describe any real company or any real pricing decision.
+
