@@ -1,5 +1,32 @@
 # Submission Tracker — Tariff Messaging & Consumer Behavior (JCM Special Issue)
 
+**⚠ Reconciliation note (2026-09-09, early morning): this file was
+overwritten back to a stale (~2026-09-04/09-03) state on disk overnight**
+— almost certainly the nightly research pipeline pulling down the GitHub
+mirror copy, which had never received the 2026-09-08 evening session's
+edits (they were made locally and not yet pushed/synced). That pipeline
+run also did real, valuable new work of its own (the CITI policy-page
+finding below, dated 2026-09-09) — kept and integrated, not discarded.
+Everything else in this note restores what the stale overwrite erased,
+confirmed directly by Britton in the 2026-09-08 evening session, not
+re-derived or guessed:
+- **IRB was submitted to McNeese HSIRB on 2026-09-08.** Submitted
+  intentionally covering all three studies (Study 1/2/3), even though
+  Study 3 has since been cut from the paper's actual scope — Britton's
+  explicit call, in case the cut gets reversed later. No amendment needed.
+- **Study 3 is cut from this paper's scope** (cost/word-budget reasons) —
+  Study 1 + Study 2 only going forward. Sequencing simplifies to IRB
+  approval → Pretest → Study 2.
+- **Validation-pilot coders are Holden (grad assistant) + Jason (another
+  professor)**, not Britton doing his own coding pass. As of 2026-09-08:
+  Holden is done, waiting on Jason. Co-authorship for Jason is still an
+  open, undecided question.
+- **CITI — see the flagged conflict below, not yet resolved.** Britton
+  said tonight "I got the basic and I think that's all we need," but the
+  nightly pipeline independently found McNeese's own published policy
+  page requiring the Comprehensive module. This is a live discrepancy,
+  not settled either way — see Open Question 1.
+
 **Last updated: 2026-09-04** (writing-prep pass ahead of Britton's weekend session — see
 note at bottom of Status table and the new consolidated Methods file). This is the
 living, single-source-of-truth
@@ -25,12 +52,11 @@ scattered notes did.
   submitted this weekend (~2026-09-05/06)** — he's got other work in
   between now and then, so no further action needed on this thread until
   then unless something changes.
-- **Flagged 2026-09-09: that weekend target has now passed with nothing in
-  this repo indicating actual submission happened.** Not something an
-  automated session can check (no visibility into McNeese HSIRB's portal) —
-  worth Britton confirming status directly, since this is the actual
-  critical-path item and every downstream date (Oct 15) assumes it already
-  moved.
+- ~~Flagged 2026-09-09: weekend target passed with nothing indicating
+  submission~~ — **resolved: Britton confirmed directly, IRB was submitted
+  2026-09-08.** The nightly pipeline's flag was accurate as of the stale
+  mirror it read from, just superseded by real-time information the
+  pipeline had no visibility into.
 - **2026-09-10: the "Section 301 government response is overdue" litigation
   thread (unrelated to IRB, background docket-tracking only) is resolved —
   it was filed on time (Sep 4); CourtListener's own docket mirror just hadn't
@@ -122,15 +148,15 @@ forward.
 
 ## The one thing that matters most
 
-**Study 2 and Study 3 have zero data collected, the IRB application has not
-been submitted to McNeese HSIRB, and no evidence exists in this project's
-files that Prolific recruitment or Qualtrics fielding has started.**
-Everything else — Introduction, Theory/Hypotheses, Study 1 corpus, Study 1
-coding, vignette stimuli, instrument content, model diagrams — is drafted
-or far along. The empirical work that actually produces a Results section
-has not begun. With 42 days left, **IRB submission is the critical-path
-bottleneck and should happen this week**, not after every scale is
-perfectly verified.
+**Updated 2026-09-09: IRB is submitted (2026-09-08). Study 2 (and Study 3,
+though Study 3 is now cut from scope) still have zero data collected**, and
+no evidence exists that Prolific recruitment or Qualtrics fielding has
+started. Everything else — Introduction, Theory/Hypotheses, Study 1 corpus,
+Study 1 coding, vignette stimuli, instrument content, model diagrams — is
+drafted or far along. The empirical work that actually produces a Results
+section has not begun. **The bottleneck now is HSIRB's decision turnaround
+(out of anyone's control) plus building the actual Qualtrics instrument**,
+which can and should happen now in parallel with waiting.
 
 ## Status by component
 
@@ -142,15 +168,15 @@ perfectly verified.
 | Study 1 coding/themes (6 themes final) | **Phase 3 done 2026-09-04, by Britton.** Reviewed Claude's proposed 7-theme resolution and overrode one item — Home Depot's `reversal-narrative` kept as a deviant case, not elevated to a 7th theme (single artifact, more conservative call) — see `Study1_Phase3_Quick_Decisions_2026-09-04.md` | No |
 | Study 1 Methods section draft | **Drafted, fully consolidated**, updated same day once Phase 3 closed (`Study1_Methods_Section_DRAFT_2026-09-04_CONSOLIDATED.md`) | No |
 | Study 1 Results write-up (themes → manuscript prose) | **Done 2026-09-04** (~600w), in `Tariff_Manuscript_Working_Draft_2026-09-04.md`, reflecting the final six-theme structure | No |
-| Study 1 validation pilot (blind coding vs. sealed AI codes) | Worksheet is prepared **for a grad assistant to complete as second coder** (2026-08-27, full 15-artifact corpus) — worksheet text confirms it's an *instruction sheet awaiting completion*, not a finished comparison; no Gwet's AC1 or agreement stats computed yet as of this pass | **Yes — external dependency on the grad assistant, not just Britton's own time; check on this immediately given the timeline** |
+| Study 1 validation pilot (blind coding vs. sealed AI codes) | Coders are **Holden (grad assistant) + Jason (another professor)**, not Britton. As of 2026-09-08: **Holden is done, waiting on Jason.** Co-authorship for Jason still undecided. No Gwet's AC1 computed yet — needs Jason's pass first | **Yes — external dependency on Jason's time, not Britton's** |
 | **Pretest** (vignette validation, N=150-180, Prolific) | Design specified (`notes/2026-08-04-pretest-design.md`) — **not yet run.** Must complete and be analyzed BEFORE Study 2 can launch (may trigger vignette revisions) — this is a real sequencing dependency, not something that can run in parallel with Study 2 | **Yes — gates Study 2 specifically; only Study 3 can run in parallel with Pretest+Study 2** |
 | Study 2 vignette stimuli (6 cells) | **Drafted v1** (2026-08-04) | No |
 | Study 2/3 instrument content & flow | **Fully specified with recommended defaults for every remaining decision** (2026-08-04, updated 2026-09-03) — not yet built in Qualtrics | No longer blocking on content — just needs Britton's confirm/override pass and the actual Qualtrics build |
 | Study 2/3 scales (5 total) | **4 of 5 fully resolved with quote-level/verbatim wording** (Trust, Fairness, Opportunism, WOM — WOM resolved 2026-09-04, Maxham & Netemeyer 2002's verbatim 3-item Favorable WOM scale, fetched directly from the paper's own Appendix A). Purchase Intention is substantially improved: the real 1991 Dodds, Monroe & Grewal appendix is still paywalled, but Grewal et al. (1998, *Journal of Retailing*, co-authored by one of the original scale's own authors) reproduces the 3 items verbatim in its own Table 1 — item 3 matches the project's existing draft, items 1-2 don't and have been swapped for the Grewal et al.-sourced wording as the new recommended default in `notes/2026-08-04-full-instrument-assembly.md` item 9 (2026-09-04). | **Down to one confirm-or-override** — WOM is done; Purchase Intention has a strong default in place, just needs Britton's sign-off (or a 1991-appendix pull if library access is handy this weekend) |
 | IRB application package | **Draft content complete.** Britton completed a CITI refresher 2026-09-03 (new Record ID 79382211, McNeese-affiliated, expires 2029-09-03) — this resolved 2 of 3 flagged concerns (institution affiliation, expiration). **One item still open: it's still "Stage 1 - Basic Course," not the "Comprehensive" module McNeese's policy text names.** | **Down to one specific confirm-with-IRB-office question** — everything else in the package is ready |
-| **IRB submission to McNeese HSIRB** | **No evidence of actual submission as of 2026-09-03** | **Yes — the critical-path item** |
+| **IRB submission to McNeese HSIRB** | **Submitted 2026-09-08.** Awaiting HSIRB decision — turnaround unknown | **Waiting on HSIRB — nothing more to do here until they respond** |
 | Study 2 data collection (Prolific, N target 360–600) | **Not started** | Depends on IRB |
-| Study 3 data collection (Prolific, N target 300–400) | **Not started** | Depends on IRB |
+| Study 3 data collection (Prolific, N target 300–400) | **Cut from paper scope (2026-09-08)** — IRB still covers it in case the cut reverses | N/A — not being run |
 | Study 2 analysis (MANOVA/mediation) | Not started (no data) | Depends on data collection |
 | Study 3 analysis (PLS-SEM) | Not started (no data) | Depends on data collection |
 | Results sections (Study 1, 2, 3) | Not started — correctly, per project rule against writing results before real data exists | Depends on above |
@@ -226,6 +252,17 @@ perfectly verified.
    Social/Behavior/Educational Comprehensive CITI module now** (same-day,
    self-paced) rather than waiting on an IRB-office confirmation, given the
    Oct 15 deadline.
+
+   **⚠ Live, unresolved conflict (2026-09-09) — flagging, not resolving:**
+   Britton stated directly in the 2026-09-08 evening session "I got the
+   basic and I think that's all we need," treating this as already closed.
+   That's the opposite conclusion from what McNeese's own policy page says
+   above. Since the IRB package has already been submitted with Basic
+   Course on file, this isn't hypothetical — worth Britton either (a)
+   confirming directly with the IRB office that Basic Course was accepted
+   in practice, or (b) completing the Comprehensive module proactively as a
+   precaution. Not assuming either answer here — this is a compliance
+   question, not a judgment call for an AI session to settle.
 2. McNeese HSIRB's realistic turnaround time — this determines whether the
    Oct 15 deadline is actually reachable and, if not, whether to (a) push
    IRB submission literally today, (b) request expedited review if the

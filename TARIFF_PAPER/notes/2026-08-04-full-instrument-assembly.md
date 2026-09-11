@@ -75,25 +75,41 @@ either flip anchors for consistency or reverse-score explicitly in analysis. See
 **8. Trust in the Company** [VERIFIED] — Chaudhuri & Holbrook (2001): I trust this company /
 I rely on this company / this is an honest company / this company is safe. 7-pt Likert.
 
-**9. Purchase Intention** [BEST AVAILABLE — quote-level, 2026-09-04] — cite Dodds, Monroe &
-Grewal (1991) for the construct/attribution; exact item wording via Grewal, Krishnan, Baker &
-Borin (1998, *Journal of Retailing*, 74(3), 331–352) — Dhruv Grewal, a co-author of the 1991
-original, reproduces the 3-item scale verbatim in that paper's own Table 1, explicitly
-attributed to "Dodds, Monroe, and Grewal (1991)." Bracketed product name genericizes to this
-study's stimuli:
+**9. Purchase Intention** [VERIFIED — verbatim, 1991 original, RESOLVED 2026-09-07] — Dodds,
+Monroe & Grewal (1991), *JMR* 28(3), 307-319, Appendix p.318. Original label is "Willingness to
+Buy," used interchangeably with "purchase intention" in the literature (including by the
+original authors themselves — their own abstract frames the construct as "purchase
+intentions"; see `notes/2026-09-07-purchase-intention-1991-original-resolved-library-pull.md`
+for the full construct-fit discussion). **Britton's call (2026-09-07): use all 5 original
+items**, accepting the wording overlap between items 2-3 ("at the price shown") and the
+Fairness scale (item 6, also price-referencing) as an empirical question to check once data is
+in, rather than pre-trimming to the generic 3-item subset (1/4/5) that was the cautious
+default. Flag this explicitly in the Method section as a deliberate design choice, and run a
+discriminant-validity check (CFA / AVE-based) between Fairness and Purchase Intention once
+Study 2 data is collected — if the overlap does inflate the Trust→PI path, that's the fallback
+moment to drop items 2-3 post hoc (pre-register this contingency if a pre-registration is filed).
+Full 5-item wording, genericized ("this model"→"this product" is cosmetic only):
+  1. "The likelihood of purchasing this product is:" (7-pt, very high to very low)
+  2. "If I were going to buy this product, I would consider buying this product at the price
+     shown." (strongly agree to strongly disagree)
+  3. "At the price shown, I would consider buying the product." (strongly agree to strongly
+     disagree)
+  4. "The probability that I would consider buying the product is:" (7-pt, very high to very
+     low)
+  5. "My willingness to buy the product is:" (7-pt, very high to very low)
+  Reported reliability in the original: coefficient alpha .97 (calculator) / .96 (stereo
+  headset), average interitem correlations .85 / .83 — very strong. Superseded status: the
+  Grewal et al. (1998)-sourced 3-item proxy below is now **no longer needed** — the real 1991
+  appendix is in hand — but the old wording is left here for the record:
   1. "I would purchase this [product]." (item reliability .92)
   2. "I would consider buying at this price." (item reliability .90)
   3. "The probability that I would consider buying [this product] is [high]." (item
      reliability .94)
-  Composite reliability = .92; variance extracted = .92. Item 3 matches this project's prior
-  3-item draft almost exactly (independently corroborated again by Dodds's 2002 solo paper's
-  single-item measure); items 1-2 of the prior draft do NOT match this source and should be
-  replaced with the wording above. **This is a strong secondary source (a co-author's own
-  verbatim reproduction) but still one step short of the 1991 JMR appendix itself** — if
-  Britton has library/JSTOR access and 5 minutes this weekend, pulling the original appendix
-  is the one remaining upgrade; otherwise this wording is defensible to use directly, citing
-  both the 1991 original (construct) and the 1998 paper (item source). See
-  `notes/2026-09-04-purchase-intention-wom-scales-resolved.md`.
+  Composite reliability = .92; variance extracted = .92 (Grewal et al. 1998 proxy, retained here
+  for the record only — not the wording to use). See
+  `notes/2026-09-04-purchase-intention-wom-scales-resolved.md` and
+  `notes/2026-09-07-purchase-intention-1991-original-resolved-library-pull.md` for the full
+  resolution history.
 
 **10. Word-of-Mouth Intention** [VERIFIED — verbatim, 2026-09-04] — Maxham & Netemeyer (2002,
 *Journal of Marketing*, 66(4), 57-71), Appendix A "Measurement Scales," Favorable WOM, 3 items,

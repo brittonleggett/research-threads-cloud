@@ -16,6 +16,16 @@ verification trail, including two other sources (CFO Dive, Yahoo Finance) that g
 attributions on this same re-check before the primary transcript settled it. Quote wording below
 also corrected to verbatim (was a close paraphrase before).
 
+**Changelog note (2026-09-11):** Resolved the long-open Insteel "freight" vs. "profit" wording
+flag (artifact 14) — see the inline note there and `notes/2026-09-11-primary-source-corrections-pass.md`.
+Verified directly against Motley Fool's own raw published page (bypassing AI-mediated fetch
+summarization): the page verbatim reads "profit," not "freight," in both its own AI-summary
+bullet and its dialogue transcript. The "freight" version, treated by prior sessions as the
+likely-correct standing answer, was traced back to an unverified AI inference, not a cleaner
+source read. Recommend paraphrasing this quote in the manuscript rather than using either word
+verbatim, since "profit" appears to be Motley Fool's own transcription error but cannot be
+corrected without the original call audio.
+
 **Supersedes `Study1_Corpus_and_Coding_DRAFT_2026-07-24.md` (kept in place, not overwritten,
 per project convention) for corpus content — that file only contains the original 7 artifacts
 and predates the 2026-08-04 expansion and the 2026-08-12/13/14 verification passes.** This file
@@ -81,8 +91,11 @@ on 2026-08-29 — see the changelog note at the top of this file and
 ² Direct-fetched 2026-08-28 (see `notes/2026-08-28-direct-fetch-tier-b-upgrade-and-scotus-primary-check.md`)
 after ~2 weeks at WebSearch-summary confidence — this session's WebFetch worked where the nightly
 cloud routine's has not.
-³ One word-level flag: the freight-cost quote's exact wording ("freight" vs. this fetch's "profit")
-needs one human eyeball on the actual transcript page before manuscript use — see the note above.
+³ Word-level flag RESOLVED 2026-09-11: verbatim source wording is "profit" (confirmed via raw
+HTML read of Motley Fool's own page, bypassing AI-mediated summarization) — near-certainly a
+transcription artifact given the sentence, but "profit" is what the primary source actually
+says; "freight" was never itself source-confirmed. Recommend paraphrasing rather than quoting
+verbatim — see note above and `notes/2026-09-11-primary-source-corrections-pass.md`.
 ⁴ For the Aug 2025 beat: 2 of 4 secondary sources direct-fetched 2026-08-28 (CFO Dive, Yahoo
 Finance) gave conflicting attribution on 2026-08-29 re-check (CFO Dive said Bastek; Yahoo Finance
 said McPhail) — resolved by direct-fetching Home Depot's own IR-hosted transcript PDF, which
@@ -161,9 +174,22 @@ one-line draft entries in `2026-08-04-study1-corpus-expansion.md`):**
     → `causation-explicit`, `category-broad`, `official-transcript-quotable` (upgraded confidence
     tag — largest-scale, most citable artifact in the corpus for a lead illustrative quote).
 
-14. **Insteel Industries** — CEO Woltz, Q3 2026: "when a [freight] cost $1,500... now $3,000
-    somebody's gotta pay the bill." Explicitly tied to **Section 232 steel tariffs** specifically
-    (not generic "tariffs"). Price increase effective July 13, 2026.
+14. **Insteel Industries** — CEO Woltz, Q3 2026: "when a **profit** cost $1,500... now $3,000
+    somebody's gotta pay the bill." *(Resolved 2026-09-11 — see changelog note at top of file:
+    Motley Fool's own published transcript page, read directly via raw HTML fetch (bypassing any
+    AI-mediated summarization), verbatim renders the word as "profit" — in both its AI-generated
+    "Takeaways" bullet and the actual dialogue-transcript body, independently. The earlier
+    "freight" version was never itself source-confirmed; it originated from an AI pass's own
+    grammatical inference ("freight is almost certainly correct; profit doesn't make sense"), not
+    from a cleaner read of any source — flagging this because "profit" and "freight" had both been
+    circulating as if one were verified and the other an error, when neither was actually checked
+    against the raw page until now. "Profit" is almost certainly Motley Fool's own transcription
+    artifact (the sentence is not grammatical with "profit" as written) — recommend NOT quoting
+    this verbatim in the manuscript; paraphrase the substance instead ("a shipping/freight-type
+    cost roughly doubled, from $1,500 to $3,000, per Insteel's CEO") and treat the exact word as
+    genuinely unverifiable without the original earnings-call audio.)* Explicitly tied to
+    **Section 232 steel tariffs** specifically (not generic "tariffs"). Price increase effective
+    July 13, 2026.
     → `causation-explicit`, `vivid-quotable-framing`, `section-232-specific` (new metadata tag —
     the corpus's one artifact naming a specific statutory basis other than the IEEPA→122→301
     sequence; see the legal-sequence note for why that distinction matters).
