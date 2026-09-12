@@ -2263,6 +2263,177 @@ Ideas 20, 22 (unchanged), 23, 24, 28, 29, 30, and 31 were not independently rech
 the requested 21/22/25/26/27 recheck and the two new ideas instead; no evidence surfaced incidentally that
 would change any of them.
 
+### 34. AI-driven algorithmic targeting of vulnerable sports bettors — a consumer-marketing trust/
+exploitation mechanism, distinct from `GAMBLING_SOCIAL_COST_PAPER`'s macro fiscal-dependence design and
+from idea 15's regulatory-classification-loophole mechanism (high confidence — real, current, multi-
+front litigation and pending federal legislation naming the exact mechanism; a real saturation check
+found the one directly-adjacent academic paper doesn't touch trust/survey data at all, leaving a genuine
+gap — but the overlap with `GAMBLING_SOCIAL_COST_PAPER`'s own planned Study 2 needs an explicit,
+honest flag, not a glossed-over one)
+- **Gap/question:** sportsbooks' use of AI/algorithms to identify and individually target likely-
+  vulnerable bettors is now a live, named target of both litigation and pending federal law, not an
+  abstract harm-reduction talking point. Baltimore City's April 2025 lawsuit against DraftKings and
+  FanDuel alleges the platforms "tweak their algorithms to target those likely to have gambling
+  disorders" to extract "lifetime total value," with one Flutter-owned platform reportedly collecting at
+  least 186 behavioral attributes per bettor including "propensity to gamble and susceptibility to
+  marketing"; the suit's own real case example (Amit Patel, a former NFL team employee given $1.1M in
+  credits and contacted by a personal "VIP host" up to 100 times a day despite visible addiction signs)
+  is a concrete, quotable stimulus. Two Massachusetts consumer-protection suits against the same
+  companies were amended in June 2026 to add claims that the firms used customer data/algorithms to
+  identify at-risk gamblers and specifically directed VIP-program and personalized-bonus marketing at
+  them. At the federal level, the SAFE Bet Act (Blumenthal/Tonko, reintroduced a third time in March
+  2026) would specifically ban sportsbooks from using AI to track individual bettor behavior, generate
+  personalized promotions, or run VIP/tiered loyalty programs at all — naming the exact mechanism as the
+  policy target. The open marketing question: does *awareness* that a personalized offer/VIP outreach was
+  algorithmically triggered by a detected vulnerability signal (rather than by ordinary loyalty-tier
+  volume) change perceived exploitation/betrayal of trust, and does that in turn shift trust in the
+  operator, support for an AI-targeting ban (the SAFE Bet Act's own ask), or continued-play intention —
+  as distinct from generic "does personalized marketing increase engagement" research, which doesn't test
+  the vulnerability-detection-and-targeting frame specifically.
+- **Saturation check, done directly rather than assumed:** the one closely-adjacent academic paper found
+  tonight — "AI Personalization and Its Influence on Online Gamblers' Behavior" (*Behavioral Sciences*,
+  2025, via PMC) — was read in full via direct fetch. It is an econometric/behavioral-log study (446,898
+  bets from a crash-game platform, OLS/fixed-effects regression comparing 2016 vs. 2021 betting patterns),
+  explicitly *not* survey-based, has no trust/perceived-manipulation constructs, no PLS-SEM, no US
+  litigation or legislative reference at all (its regulatory framing is entirely EU: GDPR, the EU AI Act,
+  UK Gambling Commission), and the authors repeatedly caveat that they infer "AI mechanisms" only from
+  temporal behavior shifts, not from platform logs. That closes the door on "this is already answered" —
+  the trust/perceived-exploitation, US-litigation-grounded, survey/PLS-SEM version of this question
+  appears genuinely open.
+- **Honest overlap flag (the real caveat here):** `GAMBLING_SOCIAL_COST_PAPER`'s own `PROJECT_STATUS.md`
+  already plans a Study 2 that surveys bettors directly about "perceived promotional/ad exposure,"
+  using Study 1's state policy-stringency scores as a moderator on individual outcomes — meaning this
+  idea sits close enough to that project's existing design that Britton should weigh it as a possible
+  sharpening/replacement of that already-planned measure (a specific AI-vulnerability-targeting-awareness
+  construct with a perceived-exploitation mediator, in place of a more generic "ad exposure" item) rather
+  than automatically a separate paper — the same choice this file flagged for idea 28 relative to
+  `MEAT_SUPPLY_CHAIN_PAPER` and idea 12 relative to `DATA_CENTER_PAPER`. It is also mechanistically
+  distinct from idea 15 (prediction markets exploiting a regulatory-classification gap to avoid
+  responsible-gaming disclosure rules) — that idea is about ad-framing/classification, this one is about
+  individualized targeting of already-signed-up users based on detected vulnerability.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template directly. Antecedent: awareness
+  that a received VIP invitation/personalized bonus was algorithmically triggered by detected
+  vulnerability signals (vs. ordinary volume-based loyalty tiering), manipulable in a vignette modeled on
+  the real Baltimore complaint's Amit Patel-style detail, or measured as recalled experience in a survey
+  of sports bettors. Mediator: perceived exploitation/betrayal of trust (distinct from a generic
+  privacy-concern or algorithm-aversion construct). Outcome: trust in the sportsbook operator, support for
+  an AI-targeting restriction (SAFE Bet Act-style), continued-play/switching intention. Plausible
+  moderator: self-assessed problem-gambling risk (does the mechanism backfire differently for bettors who
+  recognize themselves in the "vulnerable" description) or prior VIP-program enrollment.
+- **Human-subjects flag:** Study 1-style content analysis of the complaints, SAFE Bet Act text, and
+  press coverage is public-record, no IRB concern. Any survey/vignette work measuring real bettors'
+  trust/play-intention judgments is primary human-subjects data and would need IRB approval — flagging
+  per standing repo rule, not proceeding past the idea stage.
+- **Target venue:** *Journal of Public Policy & Marketing* (matches `GAMBLING_SOCIAL_COST_PAPER`'s own
+  target) or *Journal of Consumer Affairs* given the consumer-protection framing.
+- Leads (unverified except the PMC article, which was read directly): [City of Baltimore v. DraftKings/
+  FanDuel, complaint PDF](https://dicellolevitt.com/wp-content/uploads/2025/04/Sports-Gambling-Complaint-City-of-Baltimore-Stamped-Copy.pdf),
+  [Front Office Sports — Baltimore sues DraftKings, FanDuel over "exploiting" gamblers](https://frontofficesports.com/baltimore-sues-draftkings-fanduel-over-exploiting-gambling-addicts/),
+  [CasinoBeats — Baltimore lawsuit claims algorithms designed to create problem gamblers](https://casinobeats.com/2025/04/07/baltimore-lawsuit-claims-fanduel-and-draftkings-algorithms-designed-to-create-problem-gamblers/),
+  [Sports Litigation Alert — DraftKings hit with class-action consumer lawsuit in Massachusetts](https://sportslitigationalert.com/draftkings-hit-with-class-action-consumer-lawsuit-in-home-state-of-massachusetts/),
+  [AboutLawsuits.com — Sports Betting Addiction Lawsuit tracker, Aug 2026 update](https://www.aboutlawsuits.com/sports-betting-addiction-lawsuit/),
+  [Tonko/Blumenthal — SAFE Bet Act reintroduced, March 2026](https://tonko.house.gov/news/documentsingle.aspx?DocumentID=4351),
+  [iGaming Business — SAFE Bet Act to be reintroduced](https://igamingbusiness.com/sports-betting/online-sports-betting/safe-bet-act-reintroduce/),
+  [PMC — "AI Personalization and Its Influence on Online Gamblers' Behavior" (2025, read in full via direct fetch)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12189489/)
+
+### 35. Louisiana's Act 553 (utility overcharge-refund mandate, HB478, effective August 2026) — a
+mandated-correction/trust-repair mechanism for an essential monopoly-utility relationship, landing amid
+the active data-center-driven rate-hike controversy idea 1a already tracks (moderate-high confidence —
+sharply dated, genuinely Louisiana-specific, no academic-marketing treatment found; honest caveat that
+it needs an explicit differentiation from 1a's own mechanism, not an assumed one)
+- **Gap/question:** Act 553 (House Bill 478, authored by Rep. Alonzo Knox, D-New Orleans, part of a
+  wider March 2026 consumer-affordability package alongside HB800/grocery pricing and HB472/rent
+  stabilization) took effect in August 2026. It requires any water, gas, or electric utility regulated by
+  the LPSC or a local governing body to reimburse a customer in full within 90 days of discovering an
+  overcharge, to label the reimbursement explicitly as an "overcharge reimbursement" on the bill itself
+  (not bury it as an unexplained credit), and to mail refunds to a former customer's last known address
+  even after service has ended. This is a mandated-correction mechanism in a genuinely captive
+  relationship — Louisiana utility customers can't meaningfully switch providers the way idea 19's/21's/
+  27's retail-category consumers can — landing directly inside an already-hot affordability narrative:
+  Pew Research (May 2026) found three-quarters of U.S. adults report rising home energy costs, and this
+  law arrives in the same news cycle as continued coverage of data-center-driven Entergy/Louisiana rate
+  increases (idea 1a's own subject). The open question: does a utility's *compliant, labeled* response to
+  a confirmed overcharge under this new legal mandate function as genuine trust repair, or does the
+  refund read as hollow/insincere specifically because it's arriving alongside separate, larger,
+  data-center-driven rate hikes the same customers can't get refunded — a spillover-skepticism question
+  distinct from Act 553's simple compliance question itself. A real, ugly national comparison case exists
+  to motivate this: Nevada's NV Energy overcharged at least 80,000 customers (reportedly $17M+) and
+  proposed a refund plan state consumer advocates rejected for excluding some affected customers, with a
+  PUC workshop attendee quoted saying "we feel that there's something hidden... just like we weren't
+  aware that millions were being stolen from us" — precisely the trust-collapse-despite-a-refund-offer
+  dynamic worth testing rather than assuming refunds always repair trust.
+- **Why tractable soon, honest caveat included:** the law is only weeks old (news coverage dated Sept 8,
+  2026) and already has visible public reaction on the record in local coverage (a supportive resident
+  quote calling the 90-day window "wonderful," alongside a skeptical one — "they're always right, and
+  their customers are always wrong" — giving a real split-reaction starting point for a Study 1 discourse
+  pass). A WebSearch saturation check tonight for existing academic/PLS-SEM treatment of utility
+  overcharge-refund mandates and consumer trust came back empty — what exists is legal/practical guidance
+  (utility-refund statute-of-limitations explainers, audit-service marketing) and real-world case coverage
+  (NV Energy), not a marketing-journal treatment. Honest caveat: this needs explicit differentiation from
+  idea 1a, already logged and refreshed twice in this file — 1a is about who *bears the cost* of new
+  data-center-driven grid buildout (a distributive-fairness question about a cost being newly imposed);
+  this is about how a utility's *compliance with a legal remedy for an already-acknowledged billing error*
+  reads for trust, especially when it lands next to 1a's separate rate-hike story — a mandated-correction-
+  credibility mechanism closer in shape to idea 20's Meta-settlement logic or idea 17's Click-to-Cancel
+  logic than to 1a's cost-allocation logic. Britton should weigh whether that's different enough to run
+  alongside 1a as its own paper, or whether it's better used as an added antecedent/moderator inside
+  whatever survey design 1a eventually becomes.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: exposure to a
+  vignette describing a utility's Act-553-compliant overcharge refund (labeled, timely) vs. a
+  non-compliant/opaque one (modeled on the real NV Energy exclusion complaints), crossed with
+  presence/absence of a concurrent data-center-rate-hike news frame (linking to, but not duplicating,
+  1a's material). Mediator candidates: perceived distributive fairness of the refund, and — the more novel
+  addition — perceived sincerity of the correction specifically when a larger, unrelated rate increase is
+  simultaneously in the news. Outcome: trust in the utility, support for further LPSC intervention,
+  willingness to believe future billing-accuracy claims. Plausible moderator: prior personal overcharge
+  experience, or awareness of the data-center rate-hike story specifically (a natural, non-duplicative
+  link to 1a). A light Study 1 (AI-assisted content analysis of local news coverage/comment reaction to
+  Act 553's rollout, plus the NV Energy case as an out-of-state comparison) could map the "genuine fix vs.
+  hollow gesture" frame split before a Study 2 survey/vignette.
+- **Human-subjects flag:** Study 1 as scoped (news coverage, public reaction, the NV Energy case record)
+  is public-record content analysis, no IRB concern. Any Study 2 survey/vignette work measuring real
+  utility customers' trust judgments is primary human-subjects data and would need IRB approval before
+  proceeding — flagging per standing repo rule, not proceeding past the idea stage.
+- **Target venue:** *Journal of Public Policy & Marketing* (regulatory-mandate framing, consistent with
+  several of Britton's other JPP&M-track ideas, and a natural companion rather than competitor to 1a) or
+  *Journal of Consumer Affairs* given the consumer-protection/captive-relationship angle.
+- Leads (unverified, WebSearch/WebFetch this session — the Fox8/KSLA local-news piece was read directly):
+  [Fox8/KSLA — new consumer protection law in effect for Louisiana utility customers (read directly)](https://www.fox8live.com/2026/09/08/new-consumer-protection-law-effect-louisiana-utility-customers/),
+  [Hoodline — Louisiana Act 553: utilities must refund overcharges in 90 days](https://hoodline.com/2026/09/louisiana-law-forces-utilities-to-repay-overcharges-within-90-days/),
+  [WBRZ — Louisiana customers overcharged by utilities would get refunds within 90 days under new bill](https://www.wbrz.com/news/louisiana-customers-overcharged-by-utilities-would-get-refunds-within-90-days-under-new-bill),
+  [KTAL — Louisiana passes utility consumer protections to ensure more accurate billing](https://www.ktalnews.com/news/louisiana/louisiana-utility-bill-protection/),
+  [Louisiana Legislature — HB478/Act 553 bill history](https://legis.la.gov/LEGIS/BillInfo.aspx?i=250303),
+  [Yahoo News — NV Energy overcharges at least 80,000 customers, scrimps on refunds](https://www.yahoo.com/news/nv-energy-overcharges-least-80-134244072.html),
+  [KTNV — NV Energy faces pushback over refund plan that excludes some overcharged customers](https://www.ktnv.com/13-investigates/nv-energy-faces-pushback-over-refund-plan-that-excludes-some-overcharged-customers)
+
+Both idea 34 and idea 35 are proposals only, per standing rule — nothing built, nothing committed to,
+and both come with an explicit overlap flag against an already-active project (34 against
+`GAMBLING_SOCIAL_COST_PAPER`'s own planned Study 2; 35 against idea 1a) that Britton should resolve
+rather than either idea being pursued as an obviously-separate paper by default. Also checked tonight and
+explicitly set aside, each for a specific reason:
+- **"Save My Louisiana v. State" and related CCS pore-space/eminent-domain lawsuits and the 20+ CCS bills
+  filed in the 2026 Regular Session (HB7/Landowners Protection Act rejected, HB5's parish-vote-on-Class-VI-
+  wells proposal, the ongoing Governor Landry CCS moratorium)** — real, current, and genuinely
+  Louisiana-specific, but this is squarely corpus/context material for the already-active `CCS_PAPER`
+  (property-rights/eminent-domain framing, not a distinct consumer-marketing mechanism) rather than a
+  standalone idea — same call this file has made repeatedly for CCS legislative-session news (2026-08-27,
+  2026-09-05). Flagging for whoever next works `CCS_PAPER`, not writing it up separately.
+- **Schulte v. Flock Group Inc. (federal class action filed Aug 25, 2026, Georgia, alleging Flock's
+  120,000-camera system enables officer stalking/harassment misuse)** — real, current, and a serious
+  development, but reads as corpus-extension material for the already-active `FLOCK_CAMERAS_PAPER`
+  (wrongful-use/officer-misuse theme it already tracks), not a structurally distinct new paper — same
+  call this file made for the earlier Flock contract-cancellation and "Flock-Off Act" items.
+  - **Louisiana's SB490-style "private power" bill (bypassing utility regulation for large industrial/
+  data-center loads) reportedly returning in some form (per an Aug 21, 2026 SettleTalk piece), after
+  being confirmed dead for the 2026 Regular Session in this file's 2026-09-04 entry** — worth flagging as
+  a live thread to recheck, but this is refresh material for idea 1a (a second ratepayer-cost mechanism —
+  regulatory exit/self-generation — already anticipated there), not a new numbered idea.
+- **The FTC/22-state Amazon marketplace-pricing lawsuit surfacing again in this week's searches** —
+  double-checked and confirmed to be the same August 31, 2026 ad-auction-surcharge case already logged as
+  idea 23, just described by some secondary coverage as "inflated marketplace prices" rather than
+  "inflated ad-auction prices" (the mechanism — advertiser costs passed through to consumer prices — is
+  the same underlying complaint). Not a new suit; no new entry needed.
+
 ## 2026-09-08 — addendum to idea 28: DOJ eight-retailer probe now primary-source confirmed
 
 The DOJ beef-pricing probe's expansion to eight major grocery retailers (noted above as a 2026-09-07
@@ -2276,3 +2447,12 @@ specific action (unlike May's "Big Four" meatpacker announcement, which got one)
 social-media statement, not a formal OPA release. Doesn't change this item's status as strengthening
 material for `MEAT_SUPPLY_CHAIN_PAPER`'s already-active idea 28, not a standalone idea. Full detail:
 `MEAT_SUPPLY_CHAIN_PAPER/NOTES/2026-09-08-schaefer-final-retry-doj-retailer-confirmed.md`.
+
+## 2026-09-12 — scouting pass at Britton's request (WebSearch this session; did not test WebFetch/
+egress broadly, though one WebFetch against a PMC article page and one against a local-news site both
+succeeded without issue tonight). Read the full log (all 33 prior ideas) and the current README before
+starting, to avoid duplicating any of the eight now-active project threads (Tariff, Data Center, Data
+Center Legitimacy — "The Cloud Has a Zip Code," CCS, Flock Cameras, SpaceX Louisiana, Meat Supply Chain,
+Gambling Social Cost) or any idea already logged 1-33.
+
+### 34. AI-driven algorithmic targeting of vulnerable sports bettors
