@@ -1,3 +1,31 @@
+# CORRECTION — the "urgent divergence" below was a false alarm
+
+**Britton — the alarm this file originally raised was wrong. Nothing was actually
+lost or stuck.** Leaving the full original text below for transparency, but here's
+what actually happened:
+
+Early in tonight's session, before doing an authenticated `git fetch`, I compared
+this container's checked-out commit (`cd64295`, dated 2026-09-11) against the
+**stale, cached** local `remotes/origin/main` ref, which still read `160d6fd`
+(2026-09-04). That made it look like origin/main was 8 nights behind and 50 commits
+of work were stuck local-only with no push path.
+
+Once I set up the token-authenticated remote and ran a real `git fetch origin main`,
+the true current state came back: **`origin/main` already had `cd64295` as its tip**
+— all 50 commits, including the 09-05 through 09-11 overnight summaries, were already
+safely on GitHub. The stale local ref was just leftover from whenever this container's
+filesystem snapshot was taken, before it fetched fresh.
+
+So: no data was ever at risk, nothing needed reconciling, and the "reconciliation"
+guidance below never needed to be acted on. Apologies for the false alarm — I'm
+leaving this file in the repo (rather than deleting it) so the correction is on the
+record rather than silently disappearing. Safe to delete this file whenever you next
+touch the repo.
+
+---
+
+## Original (incorrect) alarm text follows, unedited, for the record
+
 # URGENT: origin/main is 8 nights behind — a week of work is stuck locally, needs your call
 
 **Britton — read this before anything else tonight.** The routine found a serious
