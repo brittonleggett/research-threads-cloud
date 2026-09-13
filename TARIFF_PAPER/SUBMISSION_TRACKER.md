@@ -81,6 +81,15 @@ scattered notes did.
 - A separate JCM ScholarOne direct-submission window (June 15–Aug 15, 2026)
   already closed before this project's design was even locked — the AMS
   conference-track route is the only path left for this special issue.
+- **2026-09-13: litigation docket recheck — all four dockets stable, no new
+  entries since 2026-09-12** (entry counts unchanged: Section 301 at 45,
+  Section 122 at 96, V.O.S. Selections at 25, Axle of Dearborn at 79; none of
+  the three pending extension motions have been ruled on). Also caught this
+  tracker out of sync with two already-decided/already-built items and
+  updated it: H3 (resolved by Britton 2026-09-10, tracker still said "open")
+  and the Study 2 Qualtrics build (spec-to-import-file done 2026-09-11,
+  tracker still said "not yet built"). See
+  `notes/2026-09-13-litigation-recheck.md`.
 
 ## ⚠ Urgent discrepancy found 2026-09-03 — read before touching the scales
 
@@ -163,7 +172,7 @@ which can and should happen now in parallel with waiting.
 | Component | Status | Blocking? |
 |---|---|---|
 | Venue/design lock (3×2 factorial, JCM fit) | **Done** (2026-08-04, reconfirmed 2026-08-13) | No |
-| Introduction & Theory/Hypotheses draft | **Strong first draft done** (2026-08-12) — needs Britton's read-through, H3 confirmation, and the scale-citation fixes below reflected in-text | No — but should get a final pass once scales lock |
+| Introduction & Theory/Hypotheses draft | **Strong first draft done** (2026-08-12), H3 confirmed and rewritten 2026-09-10 (see Open Question 6) — needs Britton's read-through and the scale-citation fixes below reflected in-text | No — but should get a final pass once scales lock |
 | Study 1 corpus (real corporate tariff-messaging artifacts) | **Actively maintained, high confidence** — near-daily verification/correction passes through 2026-09-03 | No |
 | Study 1 coding/themes (6 themes final) | **Phase 3 done 2026-09-04, by Britton.** Reviewed Claude's proposed 7-theme resolution and overrode one item — Home Depot's `reversal-narrative` kept as a deviant case, not elevated to a 7th theme (single artifact, more conservative call) — see `Study1_Phase3_Quick_Decisions_2026-09-04.md` | No |
 | Study 1 Methods section draft | **Drafted, fully consolidated**, updated same day once Phase 3 closed (`Study1_Methods_Section_DRAFT_2026-09-04_CONSOLIDATED.md`) | No |
@@ -171,7 +180,7 @@ which can and should happen now in parallel with waiting.
 | Study 1 validation pilot (blind coding vs. sealed AI codes) | Coders are **Holden (grad assistant) + Jason (another professor)**, not Britton. As of 2026-09-08: **Holden is done, waiting on Jason.** Co-authorship for Jason still undecided. No Gwet's AC1 computed yet — needs Jason's pass first | **Yes — external dependency on Jason's time, not Britton's** |
 | **Pretest** (vignette validation, N=150-180, Prolific) | Design specified (`notes/2026-08-04-pretest-design.md`) — **not yet run.** Must complete and be analyzed BEFORE Study 2 can launch (may trigger vignette revisions) — this is a real sequencing dependency, not something that can run in parallel with Study 2 | **Yes — gates Study 2 specifically; only Study 3 can run in parallel with Pretest+Study 2** |
 | Study 2 vignette stimuli (6 cells) | **Drafted v1** (2026-08-04) | No |
-| Study 2/3 instrument content & flow | **Fully specified with recommended defaults for every remaining decision** (2026-08-04, updated 2026-09-03) — not yet built in Qualtrics | No longer blocking on content — just needs Britton's confirm/override pass and the actual Qualtrics build |
+| Study 2/3 instrument content & flow | **Fully specified with recommended defaults for every remaining decision** (2026-08-04, updated 2026-09-03); a build-ready Qualtrics Advanced-Format import file (`Study2_Qualtrics_IMPORT_2026-09-11.txt`) plus a step-by-step post-import checklist (`Study2_Qualtrics_POST_IMPORT_CHECKLIST_2026-09-11.md` — Survey Flow, randomizer, timers, survey options, ~20 min) were assembled 2026-09-11 — no live Qualtrics UI build was attempted (judged higher-risk to automate unsupervised than to hand over an unambiguous spec) | No longer blocking on content or spec — just needs Britton (or anyone with Qualtrics access) to run the ~20-min import+checklist, plus the two confirm/override items below |
 | Study 2/3 scales (5 total) | **4 of 5 fully resolved with quote-level/verbatim wording** (Trust, Fairness, Opportunism, WOM — WOM resolved 2026-09-04, Maxham & Netemeyer 2002's verbatim 3-item Favorable WOM scale, fetched directly from the paper's own Appendix A). Purchase Intention is substantially improved: the real 1991 Dodds, Monroe & Grewal appendix is still paywalled, but Grewal et al. (1998, *Journal of Retailing*, co-authored by one of the original scale's own authors) reproduces the 3 items verbatim in its own Table 1 — item 3 matches the project's existing draft, items 1-2 don't and have been swapped for the Grewal et al.-sourced wording as the new recommended default in `notes/2026-08-04-full-instrument-assembly.md` item 9 (2026-09-04). | **Down to one confirm-or-override** — WOM is done; Purchase Intention has a strong default in place, just needs Britton's sign-off (or a 1991-appendix pull if library access is handy this weekend) |
 | IRB application package | **Draft content complete.** Britton completed a CITI refresher 2026-09-03 (new Record ID 79382211, McNeese-affiliated, expires 2029-09-03) — this resolved 2 of 3 flagged concerns (institution affiliation, expiration). **One item still open: it's still "Stage 1 - Basic Course," not the "Comprehensive" module McNeese's policy text names.** | **Down to one specific confirm-with-IRB-office question** — everything else in the package is ready |
 | **IRB submission to McNeese HSIRB** | **Submitted 2026-09-08.** Awaiting HSIRB decision — turnaround unknown | **Waiting on HSIRB — nothing more to do here until they respond** |
@@ -208,9 +217,11 @@ which can and should happen now in parallel with waiting.
    Prolific-based survey/experiment? That number should drive everything
    else on this list.**
 3. **In parallel with IRB review:** Build the actual Qualtrics instruments
-   for Study 2 and Study 3 (content is already fully specified in
-   `notes/2026-08-04-full-instrument-assembly.md` — this is implementation,
-   not design work). Confirm blind-coding validation-pilot agreement
+   for Study 2 and Study 3 — as of 2026-09-11 this is down to importing
+   `Study2_Qualtrics_IMPORT_2026-09-11.txt` and following
+   `Study2_Qualtrics_POST_IMPORT_CHECKLIST_2026-09-11.md` (~20 min; content was
+   already fully specified in `notes/2026-08-04-full-instrument-assembly.md` —
+   this is implementation, not design work). Confirm blind-coding validation-pilot agreement
    analysis is actually complete (see flag above).
 4. **Once IRB approved:** Launch the **Pretest** (N=150-180) and **Study 3**
    (N=300-400) in parallel — Study 3 doesn't depend on vignette stimuli, so
@@ -285,17 +296,31 @@ which can and should happen now in parallel with waiting.
    the Study 1 Method section's validation-plan claim needs this closed —
    worth checking on today, in parallel with everything else, since it's
    not on your own critical path to unblock.
-6. H3 (the interaction hypothesis) — **still open**, separately from the Phase 3 items
-   above, which Britton has now finalized. Claude's recommendation (2026-09-04) is to
-   keep it as originally drafted (amplified-under-absorption /
-   attenuated-under-pass-through direction) — see chat for reasoning — but this one
-   hasn't been through Britton's own review yet. Confirm your own predicted direction
-   against `Introduction_and_Theory_DRAFT_2026-08-12.md`'s open
-   item #2.
+6. ~~H3 (the interaction hypothesis)~~ — **resolved 2026-09-10.** Britton reviewed and
+   gave a specific reversal instruction (compensatory/cue-substitution direction:
+   attribution's fairness benefit is *stronger* under full pass-through, *weaker*
+   under absorption — not the original "two good things amplify" framing). Literature
+   check that night found Kelley (1972)'s compensatory causal schema as a strong,
+   close match with no contrary evidence; see `notes/2026-09-10-h3-reversal-
+   literature-check.md`. Already rewritten into
+   `Introduction_and_Theory_DRAFT_2026-08-12.md` and
+   `Tariff_Manuscript_Working_Draft_2026-09-04.md` — this tracker item was just out of
+   sync with those files (caught during tonight's 2026-09-13 recheck, per the local↔
+   mirror reconciliation logic in `notes/2026-09-11-local-mirror-reconciliation.md`).
+   No further action needed.
 7. Which banked/measured-but-unreported scales (if any) to add to the
    instrument for a future companion paper, per
    `notes/2026-08-13-design-confirmed-3x2-word-budget.md` — resolve before
    instrument build so it isn't a late change.
+8. **Two small Qualtrics-build decisions, flagged 2026-09-11, still open:**
+   (a) whether to flip the Opportunism item 2 anchors (it's the one item
+   running Agree→Disagree while everything else runs Disagree→Agree — built
+   as-specified/unflipped for now) vs. reverse-score it in analysis instead,
+   and (b) whether attention-check failure should flag-only (built default)
+   or hard-terminate the survey. See
+   `Study2_Qualtrics_POST_IMPORT_CHECKLIST_2026-09-11.md` for both. Neither
+   blocks building/importing the survey — both are one Branch-If/choice-order
+   tweak to make after import, whenever the call gets made.
 
 ## Research tooling note
 Britton has a paid Consensus.app subscription (see memory:
