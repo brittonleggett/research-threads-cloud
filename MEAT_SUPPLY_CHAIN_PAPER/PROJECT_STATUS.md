@@ -1,6 +1,12 @@
 # Project Status — Meat Supply Chain Paper
 
-Last updated: 2026-09-08 (fourth research session — final new-channel
+Last updated: 2026-09-13 (sixth research session — recheck of the two legal/regulatory outcomes
+flagged as "genuinely open" 2026-09-09: Agri Stats DOJ case and the Tyson $82.5M DPP settlement,
+both resolved/advanced via direct primary court-record reads; plus folding the 2026-09-09 USDA
+ERS Meat Price Spreads decade-trend figures into Claim #2 and the Evidence Table. See dated note
+in `NOTES/` for full detail). Fifth session was 2026-09-09 (full historical USDA ERS Meat Price
+Spreads pull and a status check on the DOJ retailer probe, Tyson $82.5M settlement, and Agri
+Stats hearing — see two dated notes in `NOTES/`). Fourth session was 2026-09-08 (final new-channel
 retry on Schaefer et al. (2024), a closer full re-read of the 2025 poultry
 companion paper to test the citation-mix-up hypothesis, and primary-source
 confirmation of the DOJ eight-retailer probe expansion; see dated note in
@@ -440,6 +446,41 @@ price-fixing saga); (3) a Tyson FY2026 margin update.
   hearing was scheduled via DOJ's own Federal Register notice, but no source (primary or
   secondary) confirms the outcome. Real open item for a future pass.
 
+## 2026-09-13 research pass (see `NOTES/2026-09-13-agristats-final-judgment-tyson-dpp-hearing-scheduled.md` for full detail)
+
+Rechecked the two items the 2026-09-09 pass left "genuinely open," both via direct primary-source
+court-record reads (CourtListener/RECAP docket PDFs, fetched with `curl` + a browser User-Agent;
+one order needed OCR after `pdftotext` failed on it — installed `tesseract-ocr` locally, which
+resolved it). Both are now real, dated outcomes — not manufactured, not still guesswork:
+
+- **Agri Stats DOJ case (final-approval hearing scheduled Sept. 1, 2026): RESOLVED.** DOJ's own
+  civil Tunney Act suit (*United States, et al. v. Agri Stats, Inc.*, 0:23-cv-03009, D. Minn.)
+  had its **Final Judgment signed and entered by Judge Tunheim on September 10, 2026** (Doc. 763,
+  read in full directly). Terms are injunctive/behavioral only — no monetary settlement: Agri
+  Stats must stop sharing sales reports/non-public pricing among competing processors, keep most
+  shared data at least 45 days old, make its reports available to any purchaser on
+  non-discriminatory terms (with a specific price-cap formula), run an antitrust compliance
+  program, and accept a court-appointed Monitor. **Important disambiguation confirmed this
+  pass:** this DOJ case is distinct from the private End-User Consumer class action against Agri
+  Stats (the one behind the "$203.35M" and meatingplace.com headline already flagged
+  2026-09-09) — that meatingplace article, re-fetched, is confirmed to be about the *private*
+  case's preliminary approval, not this case's outcome. Keep the two tracks separate in any
+  manuscript reference.
+- **Tyson $82.5M DPP settlement: still pending, but a final-approval hearing is now scheduled and
+  dated — don't overstate this as a resolution.** Direct Purchaser Plaintiffs formally filed their
+  Motion for Final Approval with Tyson on **August 10, 2026** (this had not happened as of the
+  2026-09-09 check). A schedule order signed August 18, 2026 (read via OCR) sets the **Final
+  Approval Hearing for October 1, 2026**, with the objection/opt-out deadline moved to September
+  14, 2026 and Plaintiffs' final-approval brief due September 21, 2026. As of today (2026-09-13)
+  no ruling exists yet — correct current framing is "preliminarily approved May 14, 2026;
+  final-approval hearing scheduled for October 1, 2026; not yet decided," not a final-approval
+  date. Recommend checking back after October 1, 2026 for the actual ruling.
+
+Also folded the 2026-09-09 USDA ERS Meat Price Spreads decade-trend figures (flagged as "not yet
+done" in that pass) into Claim #2 (`NOTES/Claim_Fact_Check.md`) and
+`SOURCE_VERIFICATION/Evidence_Table.md` (new beef and pork decade-average rows) — closing that
+loose end.
+
 ## Next actions (prioritized)
 
 1. **DONE 2026-09-05/2026-09-07/2026-09-08**: Erol & Saghaian (2022) resolved
@@ -481,18 +522,29 @@ price-fixing saga); (3) a Tyson FY2026 margin update.
    anchor concentration source, superseding the White House CEA blog. It
    also surfaced the poultry-figure discrepancy in Open Decisions #6.
 6. **DONE 2026-09-09**: Full USDA ERS Meat Price Spreads historical time series (1970-present)
-   pulled and analyzed — see the 2026-09-09 research pass above. Follow-up: fold the new
-   decade-trend figures into Claim #2 (`NOTES/Claim_Fact_Check.md`) and
-   `SOURCE_VERIFICATION/Evidence_Table.md` formally — not yet done.
-7. **Partially advanced 2026-09-09**: DOJ retailer-probe expansion reconfirmed closed (no
-   further DOJ.gov document exists). Tyson $82.5M DPP settlement's final-approval date remains
-   unconfirmed (clarified it's distinct from the already-resolved $87.5M settlement) — needs
-   either a working CourtListener/PACER credential or a targeted pull of Tyson's 10-Q
-   legal-proceedings footnote. Whether the Sept. 1, 2026 Agri Stats final-approval hearing
-   concluded, and with what outcome, is still completely unconfirmed — genuine open item for a
-   future pass.
-8. **CONFIRMED STILL PENDING (same-day follow-up, 2026-09-09 evening)** — re-searched both items
-   fresh rather than re-treating them as "search gaps." Neither has an outcome to find yet:
+   pulled and analyzed — see the 2026-09-09 research pass above. **DONE 2026-09-13**: the
+   decade-trend figures are now folded into Claim #2 (`NOTES/Claim_Fact_Check.md`) and
+   `SOURCE_VERIFICATION/Evidence_Table.md` (new beef and pork decade-average rows).
+7. **DONE 2026-09-13**: Agri Stats' DOJ case is now resolved (Final Judgment entered September
+   10, 2026 — injunctive/behavioral remedies only, no monetary settlement) and the Tyson $82.5M
+   DPP settlement now has a dated next step (Final Approval Hearing scheduled October 1, 2026,
+   not yet decided) — see the 2026-09-13 research pass above and
+   `NOTES/2026-09-13-agristats-final-judgment-tyson-dpp-hearing-scheduled.md` for the full
+   primary-source chain. *(Original entry below, kept for history.)* DOJ retailer-probe expansion
+   reconfirmed closed (no further DOJ.gov document exists). Tyson $82.5M DPP settlement's
+   final-approval date remains unconfirmed (clarified it's distinct from the already-resolved
+   $87.5M settlement) — needs either a working CourtListener/PACER credential or a targeted pull
+   of Tyson's 10-Q legal-proceedings footnote. Whether the Sept. 1, 2026 Agri Stats
+   final-approval hearing concluded, and with what outcome, is still completely unconfirmed —
+   genuine open item for a future pass.
+8. **RESOLVED / ADVANCED 2026-09-13** — see item 7 above and
+   `NOTES/2026-09-13-agristats-final-judgment-tyson-dpp-hearing-scheduled.md`: Agri Stats' DOJ
+   case reached Final Judgment (Sept. 10, 2026); the Tyson DPP settlement now has a Final
+   Approval Hearing dated October 1, 2026 (motion for final approval filed Aug. 10, 2026,
+   schedule order Aug. 18, 2026) — still not decided, but no longer "no hearing date yet set."
+   *(Original entry below, kept for history — same-day follow-up, 2026-09-09 evening)* —
+   re-searched both items fresh rather than re-treating them as "search gaps." Neither had an
+   outcome to find yet as of that check:
    - **Agri Stats Sept. 1, 2026 broiler final-approval hearing**: a fresh search independently
      states "as of mid-2026, the court has not yet granted final approval" — consistent with, not
      contradicting, the earlier finding. Still genuinely open; the meatingplace.com headline
