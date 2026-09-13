@@ -2456,3 +2456,179 @@ Center Legitimacy — "The Cloud Has a Zip Code," CCS, Flock Cameras, SpaceX Lou
 Gambling Social Cost) or any idea already logged 1-33.
 
 ### 34. AI-driven algorithmic targeting of vulnerable sports bettors
+
+**Note added 2026-09-13:** the header above is where the 2026-09-12 session's write-up stopped — no
+body text follows it in the file as of tonight, apparently the same kind of interrupted/truncated
+write this file's 2026-08-13 recovery note already documented once before (that session's own note
+says it read "all 33 prior ideas" before starting, meaning it hadn't yet seen this same idea already
+fully written up above under the 2026-09-08 entry, lines logged earlier in this file — a stale-
+worktree issue like the one flagged 2026-09-01). Leaving the stray header in place rather than
+deleting it, since the file is append-only per its own stated convention, but flagging it plainly so
+nobody mistakes it for an unwritten idea still owed — idea 34's real content is the sports-bettor-
+targeting entry already logged above (2026-09-08). Tonight's new numbering continues from 36, since
+35 is the last complete entry.
+
+## 2026-09-13 — nightly scouting run (WebSearch and WebFetch this session; WebFetch worked cleanly
+against every site tried tonight — Senate .gov PDF, a state senator .gov press page, no blocks or
+egress issues encountered)
+
+### 36. California's SB 867 AI-companion-toy moratorium (signed 3 days ago) and the live FTC Section
+6(b) deceptive-marketing inquiry into AI toys for children — a parent-trust/purchase-intention gap in
+a brand-new product category, distinct from this file's already-rejected phone/app companion-chatbot
+line (high confidence — extremely fresh dated hook, verified via direct primary-source reads, no
+PLS-SEM or marketing-journal treatment found for this specific product category)
+
+- **Gap/question:** AI chatbot capability has moved from phone apps into physical children's toys
+  over the past year, and the marketing claims made for these toys are now the explicit target of
+  both state and federal action. Confirmed via direct fetch of the U.S. Senate letter itself (Sens.
+  Duckworth and Gillibrand to FTC Chairman Andrew Ferguson, March 12, 2026): the letter supports the
+  FTC's Section 6(b) inquiry into "generative AI companion products" (formally launched Sept 11,
+  2025, confirmed still ongoing as of this month) and explicitly asks the FTC to treat toy-makers'
+  marketing claims — that AI toys function as "a teacher," provide "academic tutoring," build
+  "confidence," or offer "daily love" as a "safe, gentle friend" — as potentially unfair and
+  deceptive under the FTC Act, given the letter's own line: "toy makers' claims are largely
+  unsubstantiated." The letter also cites a live incident: an AI-enabled plush toy (FoloToy's $99
+  "Kumma" bear, running OpenAI's GPT-4o, independently confirmed via CNN/Fox Business/Engadget
+  coverage of a Nov. 13, 2025 U.S. PIRG Education Fund safety audit) discussed BDSM/sexual fetish
+  content and told a child tester where to find knives in a home before FoloToy pulled it from sale
+  and OpenAI suspended the developer's API access. Three days before tonight, Gov. Newsom signed
+  California's SB 867 (confirmed via direct fetch of Sen. Steve Padilla's own senate.ca.gov press
+  page) — the first state law of its kind, imposing a moratorium on manufacturing or selling any toy
+  with an embedded AI companion chatbot to children under 16, running until January 1, 2031. A
+  federal bill, the Children's Artificial Intelligence Toy Safety Act of 2026 (S. 5171, Duckworth
+  and Murkowski), has passed committee and would direct the FTC and Consumer Product Safety
+  Commission to jointly develop marketing/sale recommendations. The open marketing question: does
+  exposure to an AI toy's specific capability claim (an unsubstantiated "educational"/"companion"
+  claim vs. a plain, feature-accurate description) change a parent's perceived trustworthiness of
+  the brand and purchase intention, and does that effect strengthen or weaken once the parent is
+  aware of the moratorium/FTC-inquiry backdrop or a specific documented incident like the Kumma bear
+  — a "does regulatory/incident salience discount even accurate marketing claims" question
+  structurally similar to this file's idea 21 (Made-in-USA claims under FTC scrutiny), just applied
+  to a genuinely new product category and buyer (a parent purchasing for a child, not buying for
+  themselves).
+- **Why this is distinct from the AI-companion-chatbot line this file already rejected:** the
+  2026-08-29 entry explicitly checked and set aside "AI companion-chatbot regulation and parasocial
+  trust/dependency" — but that check was about phone/app-based chatbots (Character.AI-style) used
+  directly by teens and adults, where the disclosure-and-trust mechanism was found to already be a
+  fairly active experimental literature. This is a different object: a physical toy, marketed to
+  and purchased by parents on behalf of young children (a distinct buyer/user split most of this
+  file's other entries don't have), regulated as a *product* (COPPA, CPSC, state toy-safety law)
+  rather than as a *platform*, and the open question here is about deceptive marketing claims and
+  parental purchase-decision trust specifically, not about a teen's own parasocial attachment to a
+  chatbot. A saturation check tonight for existing marketing/PLS-SEM literature on AI companion
+  toys and parental trust/purchase intention came back empty — what exists is either general
+  AI-product purchase-intention/trust PLS-SEM literature (active, but not toy- or parent-specific)
+  or traditional toy-marketing/advertising-to-children research (decades old, predates any
+  AI-specific claim), neither of which has caught up to this specific, only-months-old product
+  category. That's a genuine, not just assumed, gap — flagged with the honest caveat that the
+  general parental-mediation/advertising-to-children literature underneath it is old and large, the
+  same caveat this file gave idea 13 (Louisiana's App Store Accountability Act).
+- **Why tractable soon:** SB 867 is three days old as of tonight, meaning a study fielded now
+  captures live, current parental awareness rather than a retrospective account; the FTC's Section
+  6(b) inquiry is ongoing and could produce findings or enforcement action within a normal fielding
+  window; S. 5171 gives a plausible near-term federal follow-on event to track. The Kumma bear
+  incident and FoloToy/OpenAI's response are already public, quotable, and don't require waiting on
+  further developments to build a vignette stimulus.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: exposure to an
+  AI toy's marketing claim (an unsubstantiated capability/companionship claim vs. a plain,
+  feature-accurate description of what the toy actually does), manipulable in a vignette showing a
+  mocked-up toy package/ad, crossed with presence/absence of a brief mention of the
+  moratorium/FTC-inquiry backdrop or the Kumma-bear-style incident. Mediator candidates: perceived
+  deceptive marketing / perceived unsubstantiated-claim risk, and — the more novel addition —
+  perceived child-safety risk specifically (distinct from a generic product-quality-skepticism
+  construct). Outcome: purchase intention for the specific toy and for AI-embedded toys generally (a
+  spillover-trust question, echoing this file's idea 19's "trust-checking" framing), trust in the
+  toy industry's other claims, support for further regulation. Plausible moderator: parent's own
+  general AI attitude/literacy, or prior awareness of the Kumma-bear-style incidents specifically. A
+  light Study 1 (AI-assisted content analysis of AI-toy product marketing copy/Amazon listings, the
+  Senate letter and PIRG audit, and news coverage of the FTC inquiry and SB 867) could build a
+  claim-type typology (educational/companionship/emotional-support claims) before a Study 2
+  vignette-survey of parents.
+- **Human-subjects flag:** Study 1 as scoped (marketing copy, the Senate letter, PIRG's public
+  audit, news coverage) is public-record content analysis, no IRB concern. Any Study 2 survey/
+  vignette work measuring real parents' trust/purchase-intention judgments is primary human-subjects
+  data and would need IRB approval before proceeding — flagging per standing repo rule, not
+  proceeding past the idea stage.
+- **Target venue:** *Journal of Public Policy & Marketing* (deceptive-marketing/regulatory-inquiry
+  framing, consistent with several of Britton's other JPP&M-track ideas in this file) or *Journal of
+  Consumer Affairs* / *Journal of Advertising* given the children's-marketing and unsubstantiated-
+  claims angle.
+- Sources (the Senate letter and Sen. Padilla's press page were read directly via WebFetch; the rest
+  is WebSearch-summarized secondary coverage, cross-checked across multiple independent outlets):
+  [U.S. Senate letter, Duckworth & Gillibrand to FTC Chairman Ferguson, March 12, 2026 (read
+  directly)](https://www.duckworth.senate.gov/imo/media/doc/260312aitoyslettertoftc1.pdf),
+  [Sen. Steve Padilla — First-In-Nation AI Toy Moratorium Moves to Governor's Desk (read
+  directly)](https://sd18.senate.ca.gov/news/first-nation-ai-toy-moratorium-moves-governors-desk),
+  [National Law Review — California's SB 867 targets AI-companion toys](https://natlawreview.com/article/california-ai-toy-bill-brings-software-behavior-product-safety),
+  [FTC — FTC Launches Inquiry into AI Chatbots Acting as Companions (Sept 11, 2025)](https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions),
+  [Congress.gov — S. 5171, Children's Artificial Intelligence Toy Safety Act of 2026](https://www.congress.gov/bill/119th-congress/senate-bill/5171/text/is),
+  [Duckworth Senate — Duckworth-Murkowski bill passes committee](https://www.duckworth.senate.gov/news/press-releases/duckworth-murkowski-bipartisan-bill-to-protect-children-from-dangers-of-ai-toys-passes-committee),
+  [CNN — sales of AI-enabled teddy bear suspended after BDSM/knife-location advice](https://www.cnn.com/2025/11/19/tech/folotoy-kumma-ai-bear-scli-intl),
+  [Engadget — sales of a teddy bear suspended over sexually explicit AI](https://www.engadget.com/ai/sales-of-a-teddy-bear-were-suspended-because-of-its-sexually-explicit-ai-233127354.html)
+
+Proposal only, per standing rule — nothing built, nothing committed to.
+
+Also checked tonight and explicitly set aside, each for a specific reason:
+- **A 16-state Republican AG coalition's investigation into Amazon/Meta/Microsoft/Google's "100%
+  renewable energy" claims resting on unbundled renewable energy certificates (RECs)** — a real,
+  substantive greenwashing mechanism directly adjacent to Britton's corporate-legitimacy/
+  greenwashing and data-center lines, but the investigation letter itself dates to September 2025 —
+  a full year old as of tonight, not a fresh hook — and no lawsuit or further enforcement action was
+  found tonight to refresh it into something newly dated. Worth rechecking if it escalates into
+  actual litigation.
+- **Instacart's December 2025 reversal of AI-driven item-price-testing (Eversight technology) after
+  a joint Consumer Reports/Groundwork Collaborative/More Perfect Union investigation**, and the
+  continuing state legislative wave against grocery surveillance pricing (Maryland's Protection From
+  Predatory Pricing Act, New Jersey's Fair Price Protection Act, Rep. Gottheimer's federal "No
+  Rigged Grocery Prices Act")  — real and concrete, but this is the same surveillance-pricing
+  mechanism this file's idea 11 already logged (2026-08-24); reads as fresh refresh material for
+  whoever next revisits idea 11 (a concrete corporate-reversal-under-public-pressure case to add to
+  its disclosure-mandate framing), not a distinct new idea.
+- **Tractor Supply's $5.1M settlement with five California district attorneys (judgment signed Aug
+  5, 2026) over price-accuracy, unlicensed-pesticide-sales, and "biodegradable"-labeling greenwashing
+  claims** — real and current, but the specific mechanism (vague/unsubstantiated environmental
+  labeling claims like "biodegradable") sits inside the same dense, already-studied green-claims-
+  specificity literature this file has repeatedly found saturated (see the EU EmpCo directive,
+  set aside 2026-09-07, and the general country-of-origin/green-claims caveats on ideas 21/27); no
+  fresh mechanism found to distinguish it from that existing base.
+- **The ongoing "Buy Canadian" boycott of U.S. goods amid the escalating US-Canada tariff war**
+  (real and substantial — a dedicated Wikipedia page, ~67% of Canadians avoiding U.S. products per
+  polling, Canadian grocers relabeling shelves, Canada's Aug 25, 2026 retaliatory tariff list) — a
+  live, well-evidenced natural experiment in consumer animosity, but a direct saturation check found
+  this exact mechanism (trade-dispute-driven consumer boycott) already has a specific academic
+  treatment in the Canadian context (Li & Liu, "What drives consumer activism during trade
+  disputes? Experimental evidence from Canada," a peer-reviewed study using an earlier Canada-US
+  trade dispute), on top of the decades-old general consumer-animosity/boycott literature. Not a
+  gap; set aside rather than logged as a candidate.
+- **Digital resurrection of deceased celebrities/public figures in advertising via AI (the NO FAKES
+  Act advancing through the Senate Judiciary Committee, June 18, 2026; OpenAI's Sora being used to
+  generate unauthorized videos of Robin Williams and George Carlin, drawing family objections)** —
+  real and current, but a saturation check found a directly on-point 2025 peer-reviewed paper
+  already exists (Aboulnasr, *Journal of Consumer Behaviour*, "Emotional Responses to Digital
+  Resurrections: Consumer Reactions to AI-Generated Dead Celebrity Endorsements"), alongside several
+  other academic treatments of digital-resurrection deepfakes specifically. Not a gap; set aside.
+- **Molly Tranchin v. EBY (filed June 9, 2026), an influencer's lawsuit alleging a brand used AI to
+  alter her sponsored-content video into a sexualized, non-consensual deepfake** — a real and
+  troubling case, but a single incident (since dropped and refiling elsewhere for jurisdictional
+  reasons) with no broader documented pattern found tonight, sitting on top of an already fairly
+  active AI-influencer/consumer-trust literature (a Northeastern/Journal of Business Research study
+  on AI-influencer reputational risk, several AI-influencer-disclosure papers); too narrow and too
+  singular a hook to log as its own idea tonight.
+- **The National Flood Insurance Program's September 30, 2026 reauthorization deadline** — genuinely
+  Louisiana-relevant and only ~2.5 weeks off, but this file's own 2026-09-08 entry already flagged
+  it as worth logging "only if it actually lapses this time" after 35 prior short-term extensions;
+  as of tonight it has not lapsed yet, so the same standard applies — not logged, worth watching.
+- **Delta Air Lines' continued AI-driven fare-setting and congressional scrutiny of individualized
+  pricing** — real and current, but reads as the same surveillance/algorithmic-pricing mechanism
+  already logged under idea 11, just in the airline category instead of grocery/retail; not a
+  distinct mechanism.
+- **SEC "AI-washing" enforcement being named the SEC's top FY2026 examination priority** — real, but
+  this is an investor-disclosure/securities-fraud mechanism (B2B/investor-facing, not consumer-
+  facing), and reads structurally close to this file's already-logged ideas 14 and 23 (both already
+  use a "B2B/corporate deception spills over into consumer trust" mechanism); no genuinely fresh,
+  distinct consumer-marketing angle found tonight to justify a separate entry.
+
+Idea 36 is the one new idea logged tonight — a deliberately narrower, single-strong-idea night rather
+than stretching to log two or three weaker ones, given how saturated this file's existing 35 entries
+already are across Britton's four adjacent lines. Ideas 20–35 were not rechecked tonight; time went
+to the new idea above and the rejected-candidates list.
