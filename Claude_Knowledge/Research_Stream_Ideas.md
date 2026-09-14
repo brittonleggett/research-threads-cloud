@@ -2632,3 +2632,97 @@ Idea 36 is the one new idea logged tonight — a deliberately narrower, single-s
 than stretching to log two or three weaker ones, given how saturated this file's existing 35 entries
 already are across Britton's four adjacent lines. Ideas 20–35 were not rechecked tonight; time went
 to the new idea above and the rejected-candidates list.
+
+## 2026-09-14 — nightly scouting run (WebSearch only this session; no WebFetch attempted tonight).
+Read the README, the full 36-entry log (via a header/section scan plus a close read of idea 36 and
+the 2026-09-13 rejected-candidates list, per tonight's task brief) before starting.
+
+**No new idea logged tonight.** Searched broadly across all nine of Britton's adjacent lines
+(consumer/marketing behavior, tariffs/trade, AI-augmented qualitative methods, Louisiana energy/
+infrastructure, data centers/AI infrastructure, carbon capture, ALPR/surveillance cameras, SpaceX/
+aerospace siting, meat/agriculture, gambling/sports betting) plus a few adjacent consumer-protection
+areas not yet touched by this file (food-labeling/MAHA, buy-now-pay-later, shrinkflation disclosure,
+FTC dark patterns, data-center water-rights litigation). Every current, dated hook found tonight
+either (a) is fresh corpus/strengthening material that belongs to one of the six already-active
+project folders rather than a new standalone paper opportunity, (b) is a further chapter of a
+mechanism this file already logged and would read as a refresh rather than a new idea, (c) lacked a
+genuinely fresh dated event this month, or (d) sits on top of a literature this file has already
+found saturated. Given how comprehensively 36 entries plus six live projects now cover this space,
+zero is the honest result tonight rather than stretching a marginal candidate to have something to
+show — consistent with the file's own standing instruction and last night's discipline (only 1 of 8
+candidates cleared the bar 2026-09-13).
+
+Considered and set aside, each for a specific reason:
+- **Flock Safety's nationwide federal class-action lawsuit** (filed Aug 25, 2026, N.D. Ga.), alleging
+  its 120,000-camera ALPR network let at least 46 documented cases of law-enforcement personnel
+  stalk/harass people for personal reasons, plus the ACLU's new "Get the Flock Out" municipal-contract
+  campaign and active Texas/Pennsylvania ALPR-ban bills — all real and current, but this is exactly
+  the wrongful-stop/misuse corpus material `FLOCK_CAMERAS_PAPER` (already active, Phase-3-exception
+  granted) already exists to absorb, not a new standalone mechanism outside that project's scope.
+- **Louisiana CCS developments** — the state CCS regulator publicly rejecting an NGO oversight report,
+  the Governor-Treasurer public split over the industry, the 2026 session's Louisiana Energy
+  Protection Act, and a still-pending East Baton Rouge Parish suit challenging CCS eminent-domain
+  authority as unconstitutional (predates this year but still unresolved) — all real and Louisiana-
+  specific, but this is feed material for the already-active `CCS_PAPER`, not a new mechanism.
+- **Moss Bluff data-center opposition** (new Sept 11, 2026 story, a Missouri-based developer facing
+  resident pushback in a residentially-zoned community near Lake Charles) and the NPR-reported
+  NDA/transparency scandal around Louisiana officials' data-center deal-making (Aug 26-27, 2026) —
+  both real, current, and squarely inside `DATA_CENTER_PAPER`'s already-locked Louisiana Tier-1
+  scope, not a new scouting idea.
+- **New Jersey's ~332-page U.S. Supreme Court cert petition** asking whether prediction-market
+  platforms (Kalshi et al.) must follow state sports-gambling law, plus a 38-state AG amicus coalition
+  and Connecticut's/Nevada's/South Carolina's parallel suits — a real and significant legal
+  escalation, but it is the same regulatory-classification-loophole mechanism this file already logged
+  as idea 15 (2026-08-27) and feeds the active `GAMBLING_SOCIAL_COST_PAPER` thread; reads as refresh
+  material for whoever next revisits idea 15, not a distinct new idea.
+- **Illinois/Chicago's per-wager sports-betting tax passed through to bettors as a checkout line-item
+  surcharge** (sportsbooks dropped their bid to block it in court, Sept 2026) — a real, dated, and
+  structurally interesting "who bears a mandated cost, and how transparently" question, parallel in
+  shape to this file's utility/insurance cost-shift-disclosure entries (idea 1a/24/35), but reads as
+  feed for `GAMBLING_SOCIAL_COST_PAPER`'s own Study 2 rather than a standalone paper; worth flagging
+  for that project.
+- **RFK Jr./MAHA food-dye phase-out and the FDA's still-unfinalized front-of-package nutrition-label
+  rule** — both real threads, but neither has a fresh September 2026 dated event (the industry
+  "understanding" and a West Virginia dye-ban court loss both date to late 2025/earlier 2026; the FDA
+  rule remains stuck in comment review with no movement this month), and the underlying "does a
+  front-of-package health claim change purchase intention/trust" mechanism sits inside a large,
+  long-established nutrition-labeling marketing literature. Set aside on both freshness and
+  saturation grounds.
+- **Buy-now-pay-later's state regulatory patchwork** (New York's and Illinois's new BNPL consumer-
+  protection rules, the CFPB reversing its interpretive credit-card-parity rule) — real and current,
+  but not clearly adjacent to any of Britton's established lines (no tariff, Louisiana, or AI-methods
+  tie-in), and BNPL over-indebtedness/disclosure is already a substantial existing consumer-finance
+  research literature. Weak fit and likely saturated; set aside without a deep saturation check given
+  the weak fit alone.
+- **OpenAI's "discover-in-AI, buy-on-site" agentic-commerce pivot** (Walmart's "Sparky" shopping
+  experience inside ChatGPT, replacing OpenAI's abandoned in-chat Instant Checkout) — a real and fresh
+  evolution, but this file's 2026-08-31 entry already flagged OpenAI's Instant Checkout shutdown as
+  strengthening material for the already-logged ideas 6 (agentic commerce delegation) and 10 (AI-
+  answer brand exclusion); Walmart's Sparky app is simply the next chapter of that same tracked story.
+- **Plaquemines Parish coastal-erosion litigation against Chevron/ExxonMobil** (an April 2026 SCOTUS
+  ruling sending the case to federal court, an August 2026 appellate ruling putting Chevron's $744.6M
+  verdict "in jeopardy," and a string of 2026 settlements — Exxon, ConocoPhillips, and earlier
+  Freeport-McMoRan/BP/Shell/Hilcorp) — a substantively rich, well-documented Louisiana story with a
+  plausible corporate-environmental-commitment-credibility marketing angle (echoing the greenwashing
+  framing already used in `CCS_PAPER` and `SPACEX_LOUISIANA_PAPER`), but no fresh September 2026 dated
+  event was found tonight — the most recent developments run April through August — and any pitch
+  would need to be worked hard to read as distinct from those two projects' existing framings rather
+  than a third variation on the same mechanism. Worth rechecking if a new settlement or ruling lands.
+- **FTC dark-patterns enforcement, shrinkflation-disclosure bills (Connecticut's pending House Bill
+  6856; no federal shrinkflation law enacted), and data-center water-rights litigation** (Imperial
+  Valley, CA's Colorado River suit; a Mississippi data-center nuisance suit) — all real ongoing
+  threads, but none produced a fresh September 2026 dated event tonight, and each either sits inside
+  an already-logged mechanism (dark patterns/disclosure echoes idea 11/17) or falls outside Louisiana/
+  Britton's established geographic and topical focus (CA/MS water suits) without a clear tie-in found
+  tonight.
+- **AI companion-chatbot wrongful-death litigation wave** (Character.AI's settlement, Raine v. OpenAI,
+  Montoya v. Character Technologies, a federal judge letting the OpenAI suit proceed) — rechecked
+  briefly; this file's 2026-08-29 entry already explicitly set aside the AI-companion-chatbot/
+  parasocial-trust line as sitting on an already-active experimental literature, and tonight's search
+  found nothing new to change that conclusion.
+
+Ideas 1-36 were not individually rechecked for fresh developments tonight beyond the spot-checks noted
+above (Flock, gambling/prediction-markets, agentic commerce) — time went to breadth-first scouting
+across all nine adjacent lines per tonight's brief, on the premise that a comprehensive negative result
+is more useful than a shallow re-verification pass over entries already refreshed multiple times this
+month.
