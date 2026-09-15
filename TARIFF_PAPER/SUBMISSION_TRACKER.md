@@ -90,6 +90,19 @@ scattered notes did.
   and the Study 2 Qualtrics build (spec-to-import-file done 2026-09-11,
   tracker still said "not yet built"). See
   `notes/2026-09-13-litigation-recheck.md`.
+- **2026-09-15: litigation docket recheck — real movement on two of the three
+  pending motions, both now resolved.** Section 301 (45→51 entries): a Sep 14
+  order (entry #48) **granted all 11 pending amicus-curiae motions** (Cato
+  Institute, Burlap and Barrel/Collective Horology, the 20-state coalition,
+  an economists' group, and others) and deemed their briefs filed — the Sep
+  4 government response's **Sep 18 reply deadline is unaffected and is now 3
+  days out**. Section 122 (96→99 entries): a Sep 14 order (entry #99)
+  **granted the government's motion to extend its brief deadline to
+  11/12/2026** — that's the one that had been pending since Sep 9/10.
+  V.O.S. Selections (still 25 entries) and Axle of Dearborn (still 79
+  entries) unchanged; V.O.S. Selections' Oct 5 extension motion is still
+  unruled. No "Date Terminated" field on any of the four — all still open.
+  See `notes/2026-09-15-litigation-recheck.md`.
 
 ## ⚠ Urgent discrepancy found 2026-09-03 — read before touching the scales
 
