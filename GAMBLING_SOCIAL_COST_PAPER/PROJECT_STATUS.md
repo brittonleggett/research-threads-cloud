@@ -1,6 +1,6 @@
 # Project Status — Gambling Social Cost Paper
 
-_Last updated: 2026-09-09 evening (RI/WV policy-coding gap closed, coverage expanded to 17 states, one new verified literature entry)_
+_Last updated: 2026-09-15 (promo-deduction tax-treatment gap closed for all 17 coded states via direct statute pass, McCarthy/Taylor/Wilbur author list confirmed via SSRN, 3 new Category F literature entries, identification-strategy precedent found)_
 
 ## GO / MODIFY / STOP RECOMMENDATION
 
@@ -20,9 +20,10 @@ The broad motivating question — does sports-betting tax revenue offset its soc
 - The social-cost-of-gambling measurement literature has a 25+ year unresolved methodological debate about what counts as an externality — this project cannot sidestep that debate by simply picking a formula.
 
 ## What remains uncertain
-- Whether a credible causal identification strategy exists for the "fiscal dependence → policy laxity" link in the recommended design, or whether it will end up correlational only (see `research_design/threats_to_validity.md`, reviewer-criticism #5). **Still the top open design question.**
+- Whether a credible causal identification strategy exists for the "fiscal dependence → policy laxity" link in the recommended design, or whether it will end up correlational only (see `research_design/threats_to_validity.md`, reviewer-criticism #5). **Still the top open design question** — but see "What appears novel" note below: a real published precedent for the associational-only approach was found 2026-09-15.
 - ~~Several health-outcome claims (suicide rate/hotline-call findings)~~ **Resolved 2026-09-04 via Consensus.app**: the suicide/helpline literature has a real, citable contradiction (Ozer/Greenwood/Gopal 2026 peer-reviewed finding a real effect vs. Kavanagh et al. medRxiv preprint finding none) — see `literature/literature_map.md` and `DECISION_LOG.md`.
-- ~~The marketing/consumer-research literature (Category F) is under-searched~~ **Meaningfully strengthened 2026-09-04** via Consensus (5 new addiction/behavioral-journal citations) — but a genuinely marketing-journal-specific (JPP&M/JCA) US treatment of sportsbook advertising is still the confirmed real gap, now more precisely characterized rather than just "thin."
+- ~~The marketing/consumer-research literature (Category F) is under-searched~~ **Strengthened further 2026-09-15** (3 new fully-verified entries, including a real US-based experimental study on sportsbook-ad celebrity endorsers) — but a genuinely marketing-journal-specific (JPP&M/JCR/JA/Journal of Consumer Affairs) US treatment of sportsbook advertising is still the confirmed real gap. **Honest caveat, now stated explicitly**: both the 09-04 and 09-15 searches for this gap used general web search/Consensus.app, not a systematic database search of those journals' actual back issues — "not found" means "not found by these methods."
+- ~~The promotional-deduction tax-treatment column was thin across nearly every coded state~~ **Closed 2026-09-15**: all 9 previously-gapped states (MA, ME, NJ, NC, IL, AZ, MI, PA, TN) now have statute-level promo-deduction sourcing, not AGA-guide inference — see `policy/state_policy_variables.md`. Turned up a real, dated finding worth carrying forward: North Carolina tightened its promotional-credit tax treatment via Session Law 2026-31, effective July 1, 2026 — a mid-sample policy change for a state already in the design.
 - One outstanding manual task for Britton (not a library-access issue): open `peternencka.com/assets/gambling.pdf` directly and skim it — automated extraction of the Coombs/Madonia/Nencka/Smith lottery-cannibalization working paper failed twice.
 
 ## What appears novel
@@ -35,7 +36,7 @@ The core household-finance causal question (does legalization, especially mobile
 Design C+D combined (state revenue-dependence as driver of both policy laxity and vulnerable-consumer harm) — see `research_design/candidate_designs.md` for full scoring.
 
 ## Most serious threat
-No confirmed causal identification strategy yet for the dependence→policy mechanism specifically — this is the one piece of the recommended design that still needs real design work before it's submission-ready, not just execution.
+No confirmed causal identification strategy yet for the dependence→policy mechanism specifically — this is the one piece of the recommended design that still needs real design work before it's submission-ready, not just execution. **2026-09-15**: a real, structurally-analogous published precedent for the associational (non-causal) version of this design was found — Jayawardhana et al. (2014, PLoS ONE) on tobacco-settlement-revenue dependence predicting weaker tobacco-control regulation, via plain fixed-effects panel regression with an openly-acknowledged, unresolved endogeneity caveat. This doesn't resolve the identification question (that's still Britton's call) but shows a top-tier reviewer process has accepted this exact class of design before — see `research_design/identification_strategy.md`.
 
 ## Data currently obtainable
 Legalization/launch dates (AGA, state sites), revenue (AGA), bankruptcy (US Courts), suicide (CDC WONDER), substance use (BRFSS), crime/IPV (FBI NIBRS), demographic controls (Census/ACS/BLS) — all public, no restricted access needed. See `data/DATA_SOURCES.md`.
@@ -75,13 +76,39 @@ Next concrete deliverables, in order:
 4. Rough out Study 2's survey construct list (perceived promotional/ad exposure, financial vulnerability, marketplace access) once Study 1's panel is underway — the theoretical grounding should come from Category F of the literature map plus whatever Study 1's results actually show.
 5. **DONE 2026-09-09 (evening)**: Rhode Island and West Virginia's consumer-protection policy
    stringency coded directly (see #3) — the face-validity test this project needed most is done.
-6. **New 2026-09-09 (evening), next concrete step**: the promotional-deduction tax-treatment
-   column is now the thinnest dimension across nearly every coded state (the AGA Responsible
-   Gaming Guide used this pass is RG/advertising-focused, not reliably comprehensive on tax
-   treatment) — needs its own pass through actual state sports-wagering tax statutes. Expanding
-   from 17 toward full ~37-40-state coverage is mechanical from here (same AGA guide, more states)
-   and lower priority than closing the promo-deduction gap.
+6. **DONE 2026-09-15**: the promotional-deduction tax-treatment column, flagged 09-09 as the
+   thinnest dimension across nearly every coded state, is now closed for all 9 states that were
+   missing it (MA, ME, NJ, NC, IL, AZ, MI, PA, TN) — sourced directly against actual state
+   sports-wagering tax statutes, not the AGA guide. Found the treatment is a genuine 4-category
+   variable (no deduction / capped-or-thresholded / uncapped / full disallowance), not a binary,
+   plus one dated, real policy change (NC's Session Law 2026-31, effective July 1, 2026, tightening
+   promo-credit tax treatment). See `policy/state_policy_variables.md`.
 7. **New 2026-09-09 (evening)**: one new literature entry added and verified (Obiol-Anaya et al.
    2026, corroborates the paper's novelty claim with international evidence); literature map now
-   at ~29 entries. A dedicated JPP&M/JCR/Journal of Macromarketing back-issue search remains the
-   best next step to close in on the 30-50 target, not done this pass.
+   at ~29 entries.
+8. **DONE 2026-09-15**: Category F strengthened further — 3 new fully-verified entries (Han &
+   Saunak 2025 celebrity-endorser experiment, Meiselbach et al. 2026 podcast-ad-spend data, Holbert
+   & Holbert 2025 national US media/attitudes survey) plus the existing Di Censo et al. entry
+   upgraded from "venue not captured" to fully sourced with exact coefficients (and corrected to
+   flag its sample as UK/Australia, not US). Literature map now at ~32 entries. A dedicated
+   JPP&M/JCR/Journal of Advertising/Journal of Macromarketing back-issue search via an actual
+   licensed database (not general web search) remains the best next step to close the
+   marketing-journal-specific gap and approach the 30-50 target — flagged, not done this pass, as
+   it needs library-database access beyond what this session's tools provide.
+9. **DONE 2026-09-15**: McCarthy/Taylor/Wilbur working paper's full author list confirmed directly
+   via SSRN search (`notes/claims_to_verify.md` item 6) — safe to cite as three authors
+   (McCarthy, Taylor, Wilbur) now, with a title-versioning caveat noted in the literature map.
+10. **DONE 2026-09-15**: a real published precedent (Jayawardhana et al. 2014, PLoS ONE, tobacco
+    MSA-revenue-dependence → weaker tobacco control) found for the associational-only version of
+    the identification strategy — added to `research_design/identification_strategy.md` and
+    cross-referenced from `threats_to_validity.md` reviewer-criticism #5. Does not resolve the
+    identification-strategy choice (still Britton's), but meaningfully de-risks the currently-
+    recommended approach.
+11. **Next up, not done this pass**: rough out Study 2's survey construct list (perceived
+    promotional/ad exposure, financial vulnerability, marketplace access) — several strong
+    candidate constructs are now available from Category F (Di Censo's "perceived susceptibility
+    to inducements," Han & Saunak's endorser-congruence manipulation); expanding policy coding
+    beyond 17 toward ~37-40 states using the same two-track (AGA guide for RG/advertising, direct
+    statute for tax treatment) method demonstrated this pass; re-verifying the 8 states whose
+    promo-deduction entries still come from the 09-09 AGA-guide-era pass (OH, CO, NY, VA, LA, RI,
+    WV) against statutes directly for full sourcing consistency.

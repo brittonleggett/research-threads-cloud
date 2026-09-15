@@ -1,5 +1,78 @@
 # Decision Log
 
+## 2026-09-15 — Promo-deduction tax-treatment gap closed via direct statute pass; found a real 4-category structure, not a binary
+Per the 09-09 next-step flag, checked all 9 previously-unpopulated states (MA, ME, NJ, NC, IL, AZ,
+MI, PA, TN) directly against their actual sports-wagering tax statutes (state legislature/code
+sites, with verbatim-statute mirrors used only where a .gov server itself 403'd/503'd a direct
+fetch this session) rather than the AGA Responsible Gaming Guide, which this project had already
+correctly flagged as not reliably comprehensive on tax treatment. **Finding: promotional-deduction
+treatment is not a binary allowed/disallowed variable — it's at least four distinct categories**:
+no deduction identified in the statutory definition (MA, ME, IL — inferred from the absence of any
+promo/free-play language in the "adjusted gross receipts" definition, flagged as an omission-based
+inference, not a certainty), an explicit capped/thresholded deduction (NJ's $8-12M/year threshold,
+AZ's legislated 5-year phase-out to zero), an explicit apparently-uncapped deduction (MI, PA — PA
+confirmed in active use at ~20% of gross win via a real monthly revenue report), and full
+disallowance of everything including winnings (TN, since a 2023 switch to a flat handle tax).
+**Judgment call: did not re-verify the 8 states whose promo-deduction entries already had
+statute-level or near-statute-level sourcing from the 09-09 pass** (OH, CO, NY, VA, LA, RI, WV) —
+time-boxed to closing the genuine gap rather than re-doing already-adequate work. Full detail:
+`policy/state_policy_variables.md`.
+
+## 2026-09-15 — North Carolina's July 2026 promo-tax tightening (SL 2026-31) is a real, dated mid-sample policy change
+While checking NC's promo-deduction statute directly, found Session Law 2026-31 (SB 595), signed
+by Gov. Stein, **effective July 1, 2026**, which narrows what counts as taxable sports-wagering
+revenue by including re-wagered promotional credits that had previously been excluded. This is a
+genuine, primary-source-confirmed (enrolled-bill PDF at ncleg.gov) policy change during the
+project's own study period, not a coding artifact — flagging here so whoever eventually builds the
+analysis panel treats NC's stringency as time-varying around this date rather than constant.
+Confirmed via the actual session-law PDF, not a secondary summary.
+
+## 2026-09-15 — McCarthy/Taylor working paper's third co-author confirmed via direct SSRN search: Kenneth C. Wilbur (UCSD Rady)
+Per `notes/claims_to_verify.md` item 6, which specifically asked for a direct SSRN search (not
+just Consensus.app) before citing the full author list. Confirmed: **Kenneth C. Wilbur, UC San
+Diego Rady School of Management** — cross-checked across the SSRN abstract listing, SMU Scholar's
+institutional repository, the Marketing Science Institute's own working-paper page, and a UC San
+Diego news release, all agreeing. Safe to cite the three-author list (McCarthy, Taylor, Wilbur)
+going forward. One wrinkle worth carrying forward, not a fabrication risk: the paper has apparently
+been retitled across revisions/venues (at least three different titles found for the same SSRN
+abstract ID, 4856684) — check SSRN directly for whichever title is current at citation time rather
+than assuming the title recorded in this project's 09-04 literature-map entry is still accurate.
+
+## 2026-09-15 — Category F literature expansion: 3 new entries, 1 existing entry corrected (Di Censo sample is UK/Australia, not US)
+Added Han & Saunak (2025, JGS — a real US-based experimental study on sportsbook-ad celebrity
+endorsers, the closest thing found yet to the marketing-journal-specific treatment this project has
+been looking for, albeit published in JGS not a marketing journal), Meiselbach et al. (2026, Health
+Affairs Scholar — current podcast-ad-spend data), and Holbert & Holbert (2025, Communication &
+Sport — national US Pew survey data on media exposure and gambling attitudes/behavior). Also
+corrected an existing entry: Di Censo, Delfabbro & King (2024, JGS) previously had its venue
+unconfirmed; now fully verified via direct PMC full-text read, which also surfaced that **its
+sample is UK and Australia (88.4% UK-born), not US** — the prior map entry didn't specify this and
+it matters given the project's US focus. **Judgment call, stated plainly rather than spun**: the
+core gap (a peer-reviewed, marketing-specific-journal treatment of US sportsbook advertising) is
+still not found, despite venue-targeted searches this pass (JPP&M, JCR, Journal of Advertising,
+Journal of Macromarketing, Journal of Consumer Affairs). Both this pass and the 09-04 pass used
+general web search / Consensus.app rather than a systematic database search of those journals'
+actual back issues — flagging that "not found by these methods" is a different, weaker claim than
+"confirmed not to exist," and a real database search remains the right next step if Britton wants
+to close this gap definitively.
+
+## 2026-09-15 — Real published precedent found for the associational-only identification strategy: Jayawardhana et al. (2014, PLoS ONE) on tobacco MSA dependence
+A dedicated search for analogous "vice/settlement-revenue dependence → regulatory stringency"
+designs (severance-tax/resource-curse and tobacco-settlement literatures checked) found
+Jayawardhana, Bradford, Jones, Nietert & Silvestri (2014, PLoS ONE): 50-state panel data showing a
+state's per-capita tobacco Master Settlement Agreement disbursement is negatively associated with
+its Strength of Tobacco Control Index — the same directional mechanism this project hypothesizes
+for gambling, in a structurally analogous setting. Method: plain fixed-effects panel regression, no
+instrumental variable, with the authors explicitly naming (and not resolving) the same kind of
+endogeneity concern this project faces. **No shift-share or other IV precedent was found for this
+class of question either** — the 09-09 finding stands that this project's own shift-share
+robustness check, if built, would be original work, not borrowed. **Judgment call: this precedent
+is being treated as meaningfully de-risking the associational-primary-specification recommendation
+already on record (09-09), not as resolving the identification-strategy choice itself** — that
+choice remains Britton's. Added to `research_design/identification_strategy.md`, cross-referenced
+from `research_design/threats_to_validity.md` reviewer-criticism #5.
+
+
 ## 2026-09-04 — Folder structure chosen from kickoff brief, not TARIFF_PAPER precedent
 The brief's Section 15 specifies a nested folder structure (literature/, research_design/, data/, policy/, analysis/, notes/, archive/). Britton's other paper threads (e.g. TARIFF_PAPER) use a flatter, less-nested structure. Since this is a brand-new project with no existing files to preserve, and the brief is explicit and detailed about its preferred structure, the brief's structure was used as-is rather than matching sibling-folder convention. **Ambiguous call — flagging for Britton to confirm or override** if he'd prefer this restructured to match his other papers' flatter layout.
 

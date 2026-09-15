@@ -81,6 +81,45 @@ policy stringency" was found in this or the 09-08 pass.** This is good news for 
 `PROJECT_STATUS.md`'s "what appears novel" section) and bad news for borrowing a ready-made
 identification strategy — there isn't one to borrow.
 
+## A real precedent found 2026-09-15: the tobacco Master Settlement Agreement (MSA) literature
+
+A dedicated search this pass for analogous "vice/settlement-revenue dependence → regulatory
+stringency" designs (severance-tax/resource-curse, tobacco-settlement, and sin-tax political
+economy) turned up one genuinely close, directly usable precedent, verified via full text:
+
+**Jayawardhana, J., Bradford, W.D., Jones, W., Nietert, P.J., & Silvestri, G. "Master Settlement
+Agreement (MSA) Spending and Tobacco Control Efforts." *PLoS ONE*, 9(12): e114706, Dec 2014.**
+50 states + DC, panel data across four time points (1999, 2002, 2004, 2006). Predictor: annual
+per-capita MSA disbursement to a state (a close structural analog to this project's gambling-tax
+fiscal-dependence measure — an ongoing, quasi-guaranteed revenue stream tied to a regulated vice
+industry). Outcome: the Strength of Tobacco Control (SoTC) Index, a multi-dimensional state
+regulatory-stringency score (a close structural analog to the policy-stringency variable being
+built in `policy/state_policy_variables.md`). **Finding: a $1 increase in per-capita MSA
+disbursement is associated with a 0.316-point *decrease* in SoTC — higher settlement-revenue
+dependence predicts *weaker* tobacco-control regulation.** This is the same directional mechanism
+this project hypothesizes for gambling (fiscal dependence on a vice revenue stream → weaker
+consumer-protection policy), published in a peer-reviewed journal, for a genuinely analogous
+setting.
+
+**Method used: plain fixed-effects panel regression — no instrumental variable, no shift-share, no
+other causal-identification device.** The authors explicitly name the same endogeneity concern this
+project has (their outcome, SoTC, could itself affect their predictor, MSA payments, since MSA
+disbursements are tied to a state's cigarette-consumption levels, which stronger tobacco control
+would reduce) and **do not resolve it — they report the association, name the limitation plainly,
+and stop there.** No shift-share or other IV application was found for this outcome either (in
+this literature or in the severance-tax/resource-curse literature also checked this pass), so the
+09-09 finding that no precedent instrument exists for this exact class of question still stands.
+
+**Why this matters for Britton:** this is real, publishable-venue precedent that a study using
+this project's exact recommended design — associational panel regression, explicit endogeneity
+caveat, no forced causal claim — is an accepted, normal way to publish this kind of
+dependence-predicts-policy-laxity finding, not a compromise position invented to paper over a
+missing instrument. It doesn't replace the shift-share robustness-check idea from the 09-09 pass
+(still worth building as a secondary specification, still this project's own contribution since
+no ready-made version exists), but it substantially de-risks the associational primary
+specification recommended above — there's a citable peer-reviewed precedent for exactly this
+design choice in a structurally similar setting, which is different from "no one has tried this."
+
 ## Recommendation
 
 **Do not force a fully causal design onto the dependence→policy-laxity link.** Two things
