@@ -1,6 +1,16 @@
 # Project Status — Meat Supply Chain Paper
 
-Last updated: 2026-09-13 (sixth research session — recheck of the two legal/regulatory outcomes
+Last updated: 2026-09-15 (seventh research session — rechecked the Agri Stats DOJ case, which was
+already resolved as of 2026-09-13 (this reconfirms that, catches and rules out an unsupported
+"$350,000 payment to states" figure circulating in secondary sources, and finds no further
+developments); found a real, material update to the Tyson $82.5M DPP settlement's schedule — its
+Final Approval Hearing moved from October 1, 2026 to **November 12, 2026** (objection/opt-out
+deadline moved to October 23, 2026); confirmed the Schaefer/poultry-concentration and idea-28
+threads need no new work (both already resolved/current); closed the pork-specific COVID-margin
+follow-up under Claim #13; and ran a literature-gap scouting pass on price-fairness/COO-disclosure
+marketing research. See `NOTES/2026-09-15-litigation-recheck-pork-margin-literature-scouting.md`
+and the new `LITERATURE/Consumer_Marketing_Literature_Scan_2026-09-15.md`.) Sixth session was
+2026-09-13 (recheck of the two legal/regulatory outcomes
 flagged as "genuinely open" 2026-09-09: Agri Stats DOJ case and the Tyson $82.5M DPP settlement,
 both resolved/advanced via direct primary court-record reads; plus folding the 2026-09-09 USDA
 ERS Meat Price Spreads decade-trend figures into Claim #2 and the Evidence Table. See dated note
@@ -132,7 +142,14 @@ place. This is a chain+moderator structure consistent with the pattern
 already used in Britton's prior published work. Full ranking of six
 candidate angles: `NOTES/Marketing_Contribution_Options.md`. Full theory
 literature review (17 lenses, ranked, with verified citations):
-`THEORY_CANDIDATES.md`.
+`THEORY_CANDIDATES.md`. **2026-09-15 gap-check** (targeted, not systematic — see
+`LITERATURE/Consumer_Marketing_Literature_Scan_2026-09-15.md`): two 2025 U.S. beef/price-fairness
+studies exist (Sun & Moon, *Foods* and *Nutrients*) but in food-science journals with an
+organic/freshness framing, not COO/corporate-explanation; one 2024 marketing-journal
+transparency→price-fairness study exists (Casteran, *Recherche et Applications en Marketing*) but
+for general retail/Fairtrade, not meat. This project's specific combination — COO disclosure ×
+corporate price-explanation type in a meat context, in a marketing journal — still reads as an
+open gap on this evidence, cautiously not definitively.
 
 ## Recommended multi-study architecture (tentative — not locked)
 
@@ -481,6 +498,47 @@ done" in that pass) into Claim #2 (`NOTES/Claim_Fact_Check.md`) and
 `SOURCE_VERIFICATION/Evidence_Table.md` (new beef and pork decade-average rows) — closing that
 loose end.
 
+## 2026-09-15 research pass (see `NOTES/2026-09-15-litigation-recheck-pork-margin-literature-scouting.md` for full detail)
+
+Tonight's task brief described the Agri Stats DOJ case as "still not granted/no outcome found as
+of 09-13" — that framing was already stale; this project's own 2026-09-13 note had already
+resolved it. Correcting that plainly rather than re-doing finished work or silently ignoring the
+brief:
+
+- **Agri Stats DOJ case: reconfirmed resolved, no new developments.** Still Final Judgment signed
+  September 10, 2026, injunctive/behavioral remedies only. Secondary corroboration found (Law360,
+  PYMNTS). **Checked and ruled out a "$350,000 payment to states" figure** appearing in some
+  secondary/AI-summarized sources — re-searched the full primary Final Judgment text (2,597 lines)
+  directly and found no such figure anywhere in the document; a law-firm client alert (WilmerHale)
+  independently confirms no monetary payment exists in this settlement. Do not use "$350,000"
+  anywhere in this project.
+- **Tyson $82.5M DPP settlement: real schedule change found.** The Final Approval Hearing has been
+  **rescheduled from October 1, 2026 to November 12, 2026**, and the objection/opt-out deadline
+  extended from September 14 to **October 23, 2026** — per Co-Lead Class Counsel's own amended
+  class notice (published September 14, 2026), because counsel added a litigation-costs/
+  service-awards request requiring re-notice. Still not decided as of tonight. **Any reference to
+  "October 1, 2026" for this specific settlement elsewhere in this project needs updating to
+  November 12, 2026.**
+- **Schaefer/poultry-concentration thread**: confirmed already resolved (2026-09-08, Open Decision
+  #6) — nothing further to advance.
+- **Idea 28 (beef price-fixing saga)**: no criminal indictments filed yet; no material new
+  developments since the 2026-09-08 DOJ-retailer-probe confirmation. Its home record
+  (`Claude_Knowledge/Research_Stream_Ideas.md`, outside this project's folder) was not edited
+  tonight per this project's scope restriction — flagging for whoever next has write access there
+  to port over the November 12 hearing-date update if idea 28 gets touched again.
+- **Claim #13 (pork COVID-margin dynamics) upgraded to Supported**: Balagtas & Cooper (2021), the
+  same primary source already anchoring the beef COVID-margin finding (Claim #12), was re-read and
+  its own Figure 3 explicitly covers pork margin-widening too, not just beef. See
+  `NOTES/Claim_Fact_Check.md`.
+- **Meat Institute rebuttal page**: still 403-blocked, third consecutive session. Recommend
+  deprioritizing further automated retries on this specific low-value URL.
+- **Literature-gap scouting**: three relevant recent sources found and verified (two 2025 U.S.
+  beef/price-fairness studies in food-science journals — Sun & Moon, *Foods* and *Nutrients*; one
+  2024 marketing-journal transparency/price-fairness study — Casteran, *Recherche et Applications
+  en Marketing*). None occupy this project's specific COO-disclosure × corporate-explanation-type
+  × meat angle — a cautiously reassuring, not definitive, gap finding (targeted search, not a
+  systematic review). Full detail: `LITERATURE/Consumer_Marketing_Literature_Scan_2026-09-15.md`.
+
 ## Next actions (prioritized)
 
 1. **DONE 2026-09-05/2026-09-07/2026-09-08**: Erol & Saghaian (2022) resolved
@@ -557,3 +615,12 @@ loose end.
      that the event hasn't happened — correct as "preliminarily approved May 14, 2026, final
      approval pending, no hearing date yet set" and stop chasing a final-approval date until closer
      to/after the claims deadline.
+9. **UPDATED 2026-09-15**: the Tyson $82.5M DPP settlement's Final Approval Hearing date in items
+   7-8 above (October 1, 2026) is now superseded — it was **rescheduled to November 12, 2026**
+   (objection/opt-out deadline extended to October 23, 2026) via an amended class notice published
+   September 14, 2026. See the 2026-09-15 research pass above and
+   `NOTES/2026-09-15-litigation-recheck-pork-margin-literature-scouting.md`. **Current correct
+   framing: preliminarily approved May 14, 2026; Final Approval Hearing now scheduled for November
+   12, 2026; not yet decided.** Agri Stats' DOJ case needed no update (already resolved, reconfirmed
+   tonight) beyond ruling out an unsupported "$350,000 payment to states" figure circulating in
+   some secondary sources — do not use that figure.
