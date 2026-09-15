@@ -2726,3 +2726,144 @@ above (Flock, gambling/prediction-markets, agentic commerce) — time went to br
 across all nine adjacent lines per tonight's brief, on the premise that a comprehensive negative result
 is more useful than a shallow re-verification pass over entries already refreshed multiple times this
 month.
+
+## 2026-09-15 — nightly scouting run (WebSearch and WebFetch this session; WebFetch worked cleanly
+against every site tried tonight — interestingengineering.com, wbrz.com, sports.yahoo.com — no blocks
+or egress issues encountered). Read the README and the full 36-entry log before starting, per tonight's
+brief specifically not to re-run the same nine lines 2026-09-14 already checked and closed out
+(MAHA food-dye, BNPL, shrinkflation, FTC dark patterns, data-center water litigation, Flock, CCS, Moss
+Bluff, prediction-markets/Illinois tax) — instead scouted for what's changed since 09-14 and for angles
+genuinely outside the data-center/tariff cluster.
+
+### 37. Grid-scale battery storage (BESS) siting opposition — a catastrophic/dread-risk-perception
+mechanism, distinct from every other infrastructure-opposition entry in this file, anchored to
+Louisiana's first major BESS project entering public review this month (high confidence — genuinely
+different theoretical mechanism from Data Center/CCS/SpaceX/LNG/nuclear/Cancer Alley's shared
+procedural/distributive-justice framing; sharply dated national wave plus a live, prospective Louisiana
+case with public meetings starting September 2026; honest caveat that the Louisiana case is bundled
+inside a data-center campus and has no opposition corpus yet, so Britton should weigh whether this
+becomes a standalone paper or DATA_CENTER_PAPER corpus material)
+
+- **Gap/question:** every Louisiana-infrastructure-opposition entry already logged in this file or
+  active as a project (`DATA_CENTER_PAPER`, `CCS_PAPER`, `SPACEX_LOUISIANA_PAPER`, plus set-aside ideas
+  3a/LNG, 5/nuclear, 8/solar, 12/Cancer Alley) uses some flavor of procedural-justice, distributive-
+  fairness, or institutional-trust/legitimacy as the mediator — confirmed directly for CCS_PAPER by
+  reading `CCS_PAPER/Conceptual_Model_and_Theory_v2_DRAFT_2026-09-08.md`, whose mediators are explicitly
+  procedural justice (Tyler), institutional trust (Terwel et al. 2009's competence/integrity split), and
+  perceived legitimacy (Gehman et al. 2017). Grid-scale battery energy storage siting opposition runs on
+  a different psychological mechanism entirely: acute, catastrophic/dread risk perception (Slovic's
+  psychometric-risk-paradigm territory — fire, toxic smoke, forced evacuation) rather than a fairness or
+  legitimacy judgment about who benefits or who was consulted. The open question: does exposure to
+  fire-incident-salience (awareness of a real, prior BESS fire disaster) change perceived catastrophic
+  risk and opposition intention toward a *new, local* BESS proposal, and does the specificity of the
+  developer's economic-benefit claim (precise jobs/tax figures vs. vague ones — the same
+  magnitude-specificity code already used in TARIFF_PAPER's Study 1 and idea 16's SpaceX framing) do
+  anything to offset that dread-risk reaction, or does safety fear simply override economic framing in a
+  way procedural-justice-driven opposition doesn't.
+- **Why tractable soon, national wave:** on January 16, 2025, a fire at Vistra's Moss Landing, CA
+  facility (one of the world's largest battery storage installations) forced a 24-hour evacuation of
+  ~1,200 residents and burned for days; "one year later" retrospective coverage (Santa Cruz Local, KQED,
+  Monterey County Now, Local News Matters) was still running through January-February 2026, meaning
+  public salience hasn't faded. A resident group, Never Again Moss Landing, formed and is still active.
+  Nationally, the opposition wave triggered by that fire is large and current: at least 96 battery
+  projects (25,000 MW cumulative) have faced public pushback since 2021 per Heatmap News's own tracking,
+  moratoriums have proliferated (Orange County's San Juan Capistrano and Laguna Niguel both formally
+  opposed a 250 MW facility sited ~1,500 feet from homes; San Juan Capistrano's moratorium was extended
+  through April 1, 2026), and developers nationally have reportedly cancelled 79 GW of battery storage
+  capacity, with public opposition cited as a major factor.
+- **Why tractable soon, Louisiana-specific:** confirmed via direct WebFetch of two independent
+  outlets (interestingengineering.com, wbrz.com) — ONE Nuclear Energy LLC announced site control
+  (Aug 31, 2026) for "Project Cayman," Louisiana's first major grid-scale BESS project: a 700 MW / 2.88
+  GWh battery system paired with a 2.88 GW gas plant and a co-located data-center campus, near the
+  17,000-acre RiverPlex MegaPark in Ascension Parish (near Donaldsonville — the same industrial corridor
+  as Hyundai's steel mill, already flagged as CCS_PAPER-adjacent corpus in this file's 2026-08-31 entry).
+  Public information meetings with local parishes and government agencies are explicitly scheduled
+  **September through December 2026** — starting this month, meaning a Study 1 corpus (meeting minutes,
+  local news, any resident reaction) can be captured from the ground up in real time, the same
+  "young enough to capture the framing live" logic this file used for idea 16's SpaceX entry. No
+  opposition has been documented yet in any source checked tonight — an honest limit on how much
+  corpus exists today, not a sign the mechanism won't apply.
+- **Saturation check, done directly:** existing academic literature on BESS and consumer response is
+  real but answers a different question. Multiple Malaysia-based PLS-SEM/TAM studies exist ("Consumer
+  Acceptance Index for Large-Scale Energy Storage Systems Using Batteries in Malaysia"; "Determinants of
+  Residential Consumers' Acceptance of a Utility-Scale Battery Energy Storage System in Malaysia") —
+  these measure generic *willingness-to-host/use* intention via attitude, social norms, and self-efficacy,
+  not *local-siting opposition* specifically, and don't use a fire-incident-salience stimulus or an
+  economic-benefit-claim-specificity moderator. A U.S.-specific "Watt's the risk? Public understanding of
+  battery usage and storage" (ScienceDirect) paper maps general public risk understanding but isn't
+  siting-opposition-framed either. A separate search for siting-opposition/NIMBY-specific marketing or
+  PLS-SEM treatment combining fire-risk salience and economic-benefit framing came back empty — what
+  exists is trade-press coverage (Latitude Media, Fire Engineering, RenewableEnergyWorld) and a
+  Journal of the Association of Environmental and Resource Economists NIMBY-cost paper (economic, not
+  psychological-mechanism-focused). The specific chain proposed here — dread-risk perception as mediator,
+  in the marketing/PLS-SEM tradition, on a real Louisiana case — appears genuinely open.
+- **Honest caveat:** Project Cayman is bundled with a data-center campus and gas plant on the same site,
+  which risks reading as one more `DATA_CENTER_PAPER` case (Ascension Parish, same
+  claimed-economic-benefit-vs-local-impact shape as the Meta/Richland Parish anchor case) rather than a
+  standalone paper. The differentiator that should settle this for Britton: `DATA_CENTER_PAPER`'s locked
+  design and CCS_PAPER's own coded mediators are both justice/legitimacy-framed, not risk-framed — a BESS
+  paper built around Moss Landing-style dread risk, even if Project Cayman supplies the Louisiana case, is
+  testing a different theoretical mechanism than either existing project's corpus was built to capture,
+  which is the case for treating it as its own thread rather than folding it in by default. Flagging the
+  choice rather than assuming either answer, the same treatment this file gave ideas 3a/12/28/34/35.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template with the fairness mediator
+  swapped for a risk-perception one. Antecedent: exposure to a fire-incident-salience vignette (a real,
+  Moss-Landing-style summary) crossed with developer economic-benefit-claim specificity (precise vs. vague
+  jobs/tax figures, modeled on Project Cayman's own eventual public materials). Mediator: perceived
+  catastrophic/dread risk (distinct from the procedural/distributive-justice or institutional-trust
+  mediators every other infrastructure-opposition entry in this file uses) and/or trust in the developer's
+  specific safety claims. Outcome: opposition intention, support for a local moratorium. Plausible
+  moderator: geographic proximity to the proposed site, or prior awareness of Moss Landing specifically. A
+  light Study 1 (AI-assisted content analysis of the growing national BESS-moratorium/opposition corpus,
+  plus Louisiana coverage as Project Cayman's public meetings actually happen this fall) could precede a
+  Study 2 vignette-survey testing the dread-risk model.
+- **Human-subjects flag:** Study 1 as scoped (news coverage, meeting minutes/public comment once public)
+  is public-record content analysis, no IRB concern. Any Study 2 vignette-survey work measuring real
+  respondents' risk perception/opposition judgments is primary human-subjects data and would need IRB
+  approval before proceeding — flagging per standing repo rule, not proceeding past the idea stage.
+- **Target venue:** *Journal of Public Policy & Marketing* (infrastructure-siting-opposition framing,
+  consistent with Data Center/CCS/SpaceX's own lane) or *Energy Research & Social Science* (the venue
+  already used for idea 3a's LNG entry, and a strong fit for a risk-perception-specific paper).
+- Leads: [Interesting Engineering — ONE Nuclear's Project Cayman, Louisiana (direct fetch)](https://interestingengineering.com/energy/one-nuclear-project-cayman-louisiana-power-data-center), [WBRZ — Louisiana natural gas and battery storage project near RiverPlex MegaPark (direct fetch)](https://www.wbrz.com/news/louisiana-natural-gas-and-battery-storage-project-planned-near-riverplex-megapark/), [Ascension EDC — RiverPlex MegaPark of Louisiana](https://ascensionedc.com/site-selection/megasite/riverplex-megapark-of-louisiana/), [Santa Cruz Local — Moss Landing restaurant owner fights for her livelihood a year after battery fire](https://santacruzlocal.org/2026/02/01/moss-landing-restaurant-owner-fights-for-her-livelihood-a-year-after-battery-fire/), [KQED — residents challenge official response a year after Moss Landing battery plant fire](https://www.kqed.org/news/12071138/residents-challenge-official-response-a-year-after-moss-landing-battery-plant-fire), [Energy Tech News — community opposition to battery storage projects spreads across U.S.](https://energytech-news.com/community-opposition-to-battery-storage-projects), [Fire Engineering — fears of massive battery fires spark opposition to energy storage projects](https://www.fireengineering.com/fire-safety/fears-of-massive-battery-fires-spark-local-opposition-to-energy-storage-projects/), [ResearchGate — Consumer Acceptance Index for Large-Scale Energy Storage Systems Using Batteries in Malaysia](https://www.researchgate.net/publication/373198297_Consumer_Acceptance_Index_for_Large-Scale_Energy_Storage_Systems_Using_Batteries_in_Malaysia), [ScienceDirect — "Watt's the risk?": Public understanding of battery usage and storage in the United States](https://www.sciencedirect.com/science/article/pii/S2214629625003019)
+
+Proposal only, per standing rule — nothing built, nothing committed to. This is the one new idea logged
+tonight.
+
+Also checked tonight and explicitly set aside, each for a specific reason:
+- **Louisiana NIL (name/image/likeness) donor fatigue** — genuinely fresh and Louisiana-specific (an
+  Aug 28, 2026 Louisiana Board of Regents symposium at Grambling State, Louisiana Illuminator/Yahoo Sports
+  coverage Sept 1, 2026 on "unrealistic expectations, exhausted donors," a Grambling AD quote on donor
+  fatigue), but a saturation check found this is not a gap: a specific Journal of Intercollegiate Sport
+  study already quantifies NIL-driven donor fatigue (53% of athletic administrators surveyed reported it),
+  and the broader college-athletic-donor-motivation literature is a decades-old, well-established field
+  (Ko, Rhee, Walker & Lee 2014 and its many descendants). Also a weaker fit for Britton's line than most
+  entries here — donors are a fundraising audience, not consumers in the usual sense. Set aside on both
+  saturation and fit grounds.
+- **Louisiana ICE detention facility (England Airpark, Alexandria)** — real, sharply dated (opening
+  expected end of September 2026, per Prism Reports/Truthout/Detention Watch Network coverage), and has
+  exactly the economic-benefit-claim-vs-community-opposition shape ($530,000/year to the district vs.
+  CENLA Activism-led resident opposition) this file's siting-opposition entries use — but this is the
+  eighth Louisiana facility-siting-opposition candidate surfaced across this file's scouting sessions
+  (after data centers, CCS, SpaceX, LNG/3a, nuclear/5, solar/8, Cancer Alley/12, Hyundai) with no
+  distinctly new marketing mechanism found tonight to justify a ninth entry in the same genre — the same
+  standard this file applied to Hyundai's steel mill (2026-08-31) and further LNG opposition (2026-08-30).
+  Idea 37 above was written up instead specifically because its risk-perception mechanism is different in
+  kind, not just in facility type.
+- **Airline AI/algorithmic dynamic pricing (Delta's Fetcherr partnership, the Aug 4, 2026 Senate
+  Judiciary surveillance-pricing hearing)** — real and current, but this file's own 2026-09-13 entry
+  already flagged this as the same surveillance/algorithmic-pricing mechanism logged under idea 11, just
+  in the airline category; nothing found tonight changes that call.
+- **Algorithmic return-fraud scoring/blacklisting** (ASOS, REI, and Target tightening return policies;
+  85% of retailers reportedly now using AI to flag suspicious return patterns per ReturnPro's 2026
+  Consumer Trust Gap report; 69% of consumers say strict return policies now deter a purchase, up from 59%
+  in 2023) — a real and growing trend with a plausible "awareness of being algorithmically flagged erodes
+  trust" marketing question, but no single fixed dated event anchors it (a slow-building policy trend
+  across many retailers, not a court ruling, law, or single incident) — the same "evergreen, no fresh
+  hook" standard this file has applied to shrinkflation and FTC dark patterns. Worth another look only if
+  a specific lawsuit, regulatory action, or high-profile blacklisting-error story breaks.
+- **FDA menthol cigarette ban** — confirmed still stale: the rule was withdrawn January 21, 2025, and
+  no 2026 movement toward reinstating it was found tonight. Ruled out as a dated hook, consistent with
+  this file's standing "no fresh event" bar.
+
+Ideas 1-36 were not rechecked for fresh developments tonight — time went to the breadth-first scan above,
+consistent with last night's approach.
