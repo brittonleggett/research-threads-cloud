@@ -2867,3 +2867,114 @@ Also checked tonight and explicitly set aside, each for a specific reason:
 
 Ideas 1-36 were not rechecked for fresh developments tonight — time went to the breadth-first scan above,
 consistent with last night's approach.
+
+## 2026-09-16 — nightly scouting run (WebSearch and WebFetch this session; WebFetch worked cleanly
+against aapor.org and developmentcorporate.com, failed to extract readable text from one PDF —
+norc.org's fraud-lit-review brief — noted below rather than cited from). Read the README and the full
+37-entry log (via header scan plus a close read of idea 37 and the 2026-09-15 rejected-candidates list)
+before starting. Searched Louisiana infrastructure/energy, tariffs, AI-augmented qualitative methods,
+and non-Louisiana facility-siting opposition as a cross-check against genre-redundancy.
+
+### 38. The AI/synthetic-respondent disclosure gap in market research — practitioner trust as a new
+AI-augmented-methods thread, distinct from Britton's own AI-thematic-analysis workflow (moderate-high
+confidence — genuinely live industry governance fight with a real, dated professional-body report and
+survey this quarter; main caveat is that Study 2's respondents would be marketing/research
+practitioners, not ordinary consumers, a real departure from this file's usual pattern)
+
+- **Gap/question:** every AI-disclosure entry already logged in this file (idea 25's NY synthetic-
+  performer-in-ads law, idea 14's "AI Booing/AI Washing" mistrust cycle) is about disclosing AI-generated
+  content to *end consumers*. This is a different disclosure question, one level upstream: does
+  disclosing that a customer-insight finding (a survey result, a focus-group theme, a "voice of the
+  customer" summary) was generated in whole or part by AI/synthetic respondents, rather than real human
+  respondents, change a marketing decision-maker's or research buyer's trust in that finding and
+  willingness to act on it? This sits squarely in Britton's own methodological lane — AI-augmented
+  qualitative/quant research — but asks about the market-research industry's adoption of AI-generated
+  respondents broadly, not about Britton's specific six-phase AI-thematic-analysis workflow (already the
+  subject of ideas 4/18).
+- **Why tractable soon:** confirmed directly via WebFetch of the primary source — AAPOR's Task Force on
+  Responsible AI Integration in Survey Research released its report, "Responsible AI Integration in
+  Survey Research," on **May 8, 2026** (aapor.org), proposing transparency and disclosure standards for
+  AI-assisted survey research, explicitly addressing "synthetic responses" (the task force's own term,
+  chosen over "synthetic samples" since it isn't a sampling design), with revisions submitted to AAPOR's
+  own code pending a membership vote. Separately, User Interviews' "State of Synthetic Users" report
+  (primary source userinterviews.com, fielded May 2026, n=150 research professionals plus five
+  moderated interviews of senior practitioners, 62% at enterprises with 500+ employees) found a sharp
+  adoption/trust gap, confirmed via WebFetch of a secondary write-up citing the report directly: 97% of
+  researchers use AI somewhere in their workflow but only 8% regularly use synthetic-respondent-
+  generating tools specifically (21% have tried once or twice, 28% actively choose not to), 64% describe
+  themselves as "skeptical or outright opposed," 80% worry stakeholders will over-trust AI-generated
+  findings, and 63% of organizations have no formal policy governing synthetic-respondent use at all.
+  ESOMAR's ICC Code (per multiple 2026 industry sources checked, though not verified against ESOMAR's own
+  site directly tonight) has added synthetic-data provisions requiring buyers be told when synthetic data
+  was used — meaning this is a live, current governance fight inside the research industry right now, not
+  a speculative future one.
+- **Saturation check, done directly:** found plenty of practitioner-facing "when to trust synthetic
+  data" guidance (an arXiv paper, "Synthetic Data in Marketing Research: How to Evaluate and When to
+  Trust"; vendor and consultancy blog posts from Qualtrics, Escalent, Cascade Insights, and others) and
+  academic work on *disclosing AI-generated ad content to consumers* (already covered by this file's own
+  idea 25/14 lane). No PLS-SEM or experimental study was found measuring whether *disclosure of
+  synthetic-respondent sourcing* causally changes a marketing manager's or research buyer's trust in, or
+  willingness to act on, a specific finding — industry commentary itself says "a vocabulary for data
+  quality barely exists, with no shared definition of what good means" for synthetic respondents, which
+  reads as confirmation the empirical gap is real rather than already filled.
+- **Honest caveat:** Study 2's respondents would be marketing/research practitioners evaluating a
+  finding for a business decision, not ordinary consumers — a genuine departure from the audience in
+  every other paper and scouted idea in this file. It is also the entry most methodologically adjacent to
+  Britton's own AI-thematic-analysis workflow (ideas 4/18), so Britton may want to weigh whether this
+  reads better as a companion methods-trust piece to that thread than as a fully separate empirical paper.
+- **Rough method sketch:** Study 1 — AI-assisted thematic analysis of the current industry discourse
+  (the AAPOR report, ESOMAR/ICC Code guidance, the User Interviews report, trade-press and vendor
+  commentary) to extract the specific drivers of trust and skepticism practitioners cite. Study 2 — a
+  vignette experiment presenting marketing/research professionals with a customer-insight finding,
+  manipulating disclosure (disclosed synthetic-respondent-sourced vs. non-disclosed vs. traditional
+  human-respondent-sourced) and possibly finding-stakes (low- vs. high-stakes business decision),
+  mediated by perceived data quality/epistemic trust in the finding, outcome = willingness to act on or
+  cite the finding and confidence in the resulting decision.
+- **Human-subjects flag:** Study 1 as scoped (public industry reports, trade press, published guidance)
+  is public-record content analysis, no IRB concern. Study 2 (a practitioner survey/experiment) is
+  primary human-subjects data and would need IRB approval before proceeding — flagging per standing repo
+  rule, not proceeding past the idea stage.
+- **Target venue:** *International Journal of Market Research* (MRS's own journal, direct fit for a
+  practitioner-facing research-methodology question) as lead candidate; *Journal of Marketing Research*
+  or *Journal of the Academy of Marketing Science* if reframed with a stronger theoretical contribution.
+- Leads: [AAPOR — Task Force on Responsible AI Integration in Survey Research report announcement](https://aapor.org/announcements/task-force-on-responsible-ai-integration-in-survey-research-report/), [AAPOR — full report PDF](https://aapor.org/wp-content/uploads/2026/05/Responsible-AI-Integration-In-Survey-Research.pdf), [User Interviews — State of Synthetic Users report](https://www.userinterviews.com/state-of-synthetic-users-report), [Development Corporate — Synthetic Users in 2026 (secondary write-up citing the User Interviews report directly)](https://developmentcorporate.com/product-management/synthetic-users-in-2026-why-97-of-researchers-use-ai-but-only-8-trust-ai-generated-participants/), [arXiv — Synthetic Data in Marketing Research: How to Evaluate and When to Trust](https://arxiv.org/abs/2609.13995)
+
+Proposal only, per standing rule — nothing built, nothing committed to. This is the one new idea logged
+tonight.
+
+Also checked tonight and explicitly set aside, each for a specific reason:
+- **Gulf Coast Sequestration's "Project Goose Lake" CCS permit fight** (Calcasieu Parish residents
+  opposing a coastal-use permit for CCS testing wells near the Sabine National Wildlife Refuge, active
+  as of mid-September 2026 despite Governor Landry's October 2025 sequestration-permit moratorium) —
+  real and current, but this is feed material for the already-active `CCS_PAPER`, the same call this
+  file has made on every other Louisiana CCS development.
+- **Air Products' cancellation of its $4.5B Louisiana Clean Energy Complex** (blue hydrogen + CCS,
+  Ascension/Livingston/St. James/St. John the Baptist/Tangipahoa parishes, killed after years of
+  Earthworks/Earthjustice-documented community resistance) — a genuinely significant Louisiana
+  opposition-success story, but the cancellation itself dates to June/July 2026, not this month, and it
+  sits in the same Ascension Parish CCS/industrial-corridor territory this file already treats as
+  `CCS_PAPER` feed material (the same call made on Hyundai's steel mill, 2026-08-31, in the same
+  corridor). Worth flagging to that project rather than logging as a new scouted idea.
+- **Non-Louisiana warehouse/fulfillment-center siting opposition** (Amazon projects contested in Maine,
+  Oregon, Connecticut, and New Jersey through 2026) and **semiconductor-fab siting opposition** (Micron
+  in Clay, NY; SK Hynix in Indiana; a Musk-backed "Terafab" in Texas) — both real, current, and
+  nationwide waves, but both run on the same generic economic-benefit-vs.-local-impact NIMBY shape this
+  file has already logged repeatedly (Data Center/CCS/SpaceX/LNG/nuclear/solar/Cancer Alley/Hyundai/idea
+  37's BESS entry), have no Louisiana tie found tonight, and no distinctly new psychological mechanism
+  was identified to justify treating either as its own entry — the same "ninth entry in the same genre"
+  standard idea 37 applied to the England Airpark ICE-facility candidate last night.
+- **Canada-targeted Section 338 tariff proclamations** (five proclamations signed Sept 8, 2026, revising
+  which goods — certain oils and cheeses added, cement and unwrought refined lead removed — are
+  covered) — real and dated, but a narrow trade-technical adjustment without a consumer-marketing angle
+  distinct from what ideas 7 (IEEPA-ruling non-reversal), 19 (de minimis), 21 (Made in USA), and 22
+  (refund-windfall retention) already cover.
+- **General tariff-pass-through-to-consumer-prices coverage** (Minneapolis Fed, St. Louis Fed, and MPR
+  News reporting that tariff cost pass-through "has arrived" as of mid-2026, with apparel and electronics
+  categories hit hardest and low-income households bearing a proportionally larger burden) — real and
+  useful, but this is background/feed material for the already-active `TARIFF_PAPER`, not a new
+  standalone mechanism.
+
+Ideas 1-37 were not individually rechecked for fresh developments tonight beyond the CCS/hydrogen
+spot-check above — time went to the new-idea search and its saturation/verification work, consistent
+with this file's recent practice of prioritizing a well-verified single strong candidate over a shallow
+re-scan of the full backlog.
