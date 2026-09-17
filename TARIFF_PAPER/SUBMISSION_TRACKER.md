@@ -103,6 +103,18 @@ scattered notes did.
   entries) unchanged; V.O.S. Selections' Oct 5 extension motion is still
   unruled. No "Date Terminated" field on any of the four — all still open.
   See `notes/2026-09-15-litigation-recheck.md`.
+- **2026-09-17: litigation docket recheck — V.O.S. Selections' extension
+  motion (the one item flagged above as "still unruled") has in fact been
+  granted.** New entry #26 on the V.O.S. Selections docket, a text-only
+  order entered 09/15/2026 4:05 PM, grants the Oct 5 extension exactly as
+  requested — response brief now due **10/05/2026**. This ruling predates
+  the 09-16 recheck's fetch window but wasn't yet reflected in
+  CourtListener's docket mirror at that time (same sync-lag pattern
+  previously documented for Section 301 on 09-10); it only showed up in
+  tonight's fetch. Separately, **Section 301's Sep 18 government reply
+  deadline is still unmet as of tonight (still 51 entries, no extension
+  motion filed)** — that deadline is tomorrow. See
+  `notes/2026-09-17-litigation-recheck.md`.
 
 ## ⚠ Urgent discrepancy found 2026-09-03 — read before touching the scales
 
