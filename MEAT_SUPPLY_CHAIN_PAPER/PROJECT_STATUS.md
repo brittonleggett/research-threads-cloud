@@ -1,6 +1,16 @@
 # Project Status — Meat Supply Chain Paper
 
-Last updated: 2026-09-15 (seventh research session — rechecked the Agri Stats DOJ case, which was
+Last updated: 2026-09-17 (eighth research session — confirmed the Sept. 1, 2026 Agri Stats broiler
+End-User Consumer settlement's final-approval hearing was held and the settlement approved
+(behavioral-only, distinct from DOJ's own already-resolved case); found a genuinely new,
+well-corroborated development outside tonight's original scope — a bipartisan Senate farm-bill
+effort to restore mandatory COOL for beef is actively advancing (committee markup Aug. 6, 2026;
+full bill reported out of committee Sept. 16, 2026); found a new $117M pork price-fixing consumer
+settlement not previously tracked; confirmed no change to the Tyson $82.5M DPP settlement (Nov. 12,
+2026 hearing still pending); ran a second literature-gap scouting pass (one adjacent-but-not-
+gap-closing source found). See
+`NOTES/2026-09-17-agristats-broiler-final-approval-mcool-farmbill-scouting.md`.) Seventh research
+session was 2026-09-15 (rechecked the Agri Stats DOJ case, which was
 already resolved as of 2026-09-13 (this reconfirms that, catches and rules out an unsupported
 "$350,000 payment to states" figure circulating in secondary sources, and finds no further
 developments); found a real, material update to the Tyson $82.5M DPP settlement's schedule — its
@@ -539,6 +549,51 @@ brief:
   × meat angle — a cautiously reassuring, not definitive, gap finding (targeted search, not a
   systematic review). Full detail: `LITERATURE/Consumer_Marketing_Literature_Scan_2026-09-15.md`.
 
+## 2026-09-17 research pass (see `NOTES/2026-09-17-agristats-broiler-final-approval-mcool-farmbill-scouting.md` for full detail)
+
+Tonight's brief specifically asked to check whether the Sept. 1, 2026 Agri Stats broiler final-approval
+hearing (the private End-User Consumer class's own settlement, separate from DOJ's case) had happened,
+since that date had passed. It had:
+
+- **Agri Stats End-User Consumer broiler settlement: final approval CONFIRMED granted at the Sept. 1,
+  2026 hearing.** Best source: MLex (specialist antitrust newswire), byline confirmed directly as
+  "Clayton Vickers, September 1, 2026, 19:40 GMT" — same-day reporting, not a stale/AI-conflated
+  article (checked this explicitly after a near-miss: an official settlement-administrator PDF site
+  I initially found and pulled documents from turned out, once each PDF's own "Filed:" date was
+  checked, to hold a different, older 2024 Direct-Purchaser-Plaintiff Agri Stats settlement, not this
+  one — caught before citing it, not after). Terms: behavioral/injunctive only, no cash from Agri
+  Stats — closely paralleling DOJ's own Sept. 10 settlement terms. **Caveat: the actual signed court
+  order's text was not independently read** (CourtListener's docket for the master case, 1:16-cv-08637,
+  N.D. Ill., Judge Durkin, didn't expose further entries without PACER-backed access) — this rests on
+  a same-day specialist-newswire report, a notch below this project's usual "read the order directly"
+  standard for litigation items, but a real resolution of what was "genuinely unconfirmed" as of
+  2026-09-15.
+- **Tyson $82.5M DPP settlement: no change.** Nov. 12, 2026 Final Approval Hearing still pending,
+  nothing new found.
+- **New, not previously tracked**: a separate $117.065M pork price-fixing End-User Consumer
+  settlement (Tyson $85M, Clemens $13.5M, Seaboard $10M, Hormel $4.465M, Triumph $4.1M),
+  preliminarily approved July 31, 2026 — a later wave of pork defendants distinct from the
+  already-tracked Smithfield/JBS pork settlements. Not yet independently read against a primary
+  document. Added to Claim #15.
+- **Genuinely significant, found outside tonight's original ask**: a live, bipartisan Senate effort to
+  restore mandatory COOL for beef is actively moving. Sen. Thune's American Beef Labeling Act (S.421)
+  amendment passed Senate Agriculture Committee markup Aug. 6, 2026 (17-6 per most outlets, 16-7 per
+  one — an unresolved discrepancy between sources); the full Senate farm bill ("Agricultural Act of
+  2026") containing it was reported out of committee **yesterday, Sept. 16, 2026**, on a 12-11
+  party-line vote, headed to a full Senate floor vote expected after the November 2026 midterms —
+  still not close to enactment. This doesn't change Claim #11's verdict (nothing has been enacted),
+  but it is real, dated, and well-corroborated across multiple independent trade-press outlets plus
+  one official Senate press release (no primary bill/vote text independently read — congress.gov and
+  the Senate committee's own site both blocked automated fetches). Also newly noted: USDA's own
+  October 2025 "Beef Industry Plan" white paper names "consumer transparency" as one of three
+  explicit policy pillars (secondary-sourced only, usda.gov itself 403'd). See Claim #11 and the
+  dated note for full detail.
+- **Literature scouting**: one additional real marketing-journal COO-in-meat study found — Holdershaw
+  & Konopka (2023), *Asia Pacific Journal of Marketing and Logistics* (label-visibility/font-size
+  effects on meat preference) — adjacent but not occupying this project's specific price-fairness ×
+  corporate-explanation-type gap. That gap still reads as open after a second scouting pass with
+  different search angles.
+
 ## Next actions (prioritized)
 
 1. **DONE 2026-09-05/2026-09-07/2026-09-08**: Erol & Saghaian (2022) resolved
@@ -621,6 +676,25 @@ brief:
    September 14, 2026. See the 2026-09-15 research pass above and
    `NOTES/2026-09-15-litigation-recheck-pork-margin-literature-scouting.md`. **Current correct
    framing: preliminarily approved May 14, 2026; Final Approval Hearing now scheduled for November
-   12, 2026; not yet decided.** Agri Stats' DOJ case needed no update (already resolved, reconfirmed
-   tonight) beyond ruling out an unsupported "$350,000 payment to states" figure circulating in
-   some secondary sources — do not use that figure.
+   12, 2026; not yet decided (still true as of 2026-09-17, nothing new found).** Agri Stats' DOJ case
+   needed no update (already resolved, reconfirmed tonight) beyond ruling out an unsupported
+   "$350,000 payment to states" figure circulating in some secondary sources — do not use that
+   figure.
+10. **RESOLVED 2026-09-17**: the separate, private End-User Consumer class's own Agri Stats
+    settlement (distinct from DOJ's case) had its Final Approval Hearing on September 1, 2026 as
+    scheduled, and **the settlement was approved that day** — behavioral/injunctive only, no cash
+    from Agri Stats, closely paralleling DOJ's own Sept. 10 settlement terms. Confirmed via a
+    same-day specialist antitrust newswire (MLex, byline checked directly), not via a directly-read
+    court order (see the dated note for the access attempts and why this falls a notch short of this
+    project's usual primary-document standard for litigation items). See the 2026-09-17 research
+    pass above and
+    `NOTES/2026-09-17-agristats-broiler-final-approval-mcool-farmbill-scouting.md`.
+11. **New, informational, 2026-09-17 — not a decision needed yet, but Britton should know**: a
+    bipartisan Senate farm-bill effort to restore mandatory COOL for beef is actively moving
+    (committee markup Aug. 6, 2026; full bill reported out of committee Sept. 16, 2026; floor vote
+    expected after the November 2026 midterms). Nothing enacted yet — Claim #11's verdict is
+    unchanged — but this is a live, dated development that could affect the "consumers cannot verify
+    origin from a label" backdrop during this project's writing/review timeline, and the political
+    discourse around it (NCBA vs. R-CALF-style positions) looks like strong potential Study 1
+    material. Flagging as context, not making a scope call — Study 1 source/commodity scope stays
+    Britton's per Open Decisions #1/#2. See the 2026-09-17 research pass above and the dated note.
