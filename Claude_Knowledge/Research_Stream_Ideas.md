@@ -2978,3 +2978,146 @@ Ideas 1-37 were not individually rechecked for fresh developments tonight beyond
 spot-check above — time went to the new-idea search and its saturation/verification work, consistent
 with this file's recent practice of prioritizing a well-verified single strong candidate over a shallow
 re-scan of the full backlog.
+
+## 2026-09-17 — nightly scouting run (WebSearch and WebFetch this session; WebFetch worked cleanly
+against journals.sagepub.com's redirect chain and researchportal.scu.edu.au's S3-hosted PDF, failed
+with a 403 on the SAGE article page itself — worked around via WebSearch snippets instead of citing
+unread full text). Read the README and the full 38-entry log (via header/section scan plus a close read
+of ideas 37-38 and the 2026-09-16 rejected-candidates list) before starting. Searched Louisiana energy/
+infrastructure, tariffs-and-consumer-behavior, AI-augmented qualitative methods, and several speculative
+adjacent categories (BNPL, GLP-1 marketing, dupe culture, retail media/surveillance pricing, PBM reform,
+crypto-mining siting) as a breadth-first cross-check before committing search time to the one candidate
+that survived scrutiny.
+
+### 39. Tariff-burden-sharing asymmetry — CEO pay "neutralized" against tariff costs while consumers
+absorb the price increases, as a distributive-fairness/corporate-hypocrisy mechanism (high confidence —
+real, dated, current 2026 proxy-season controversy; confirmed via direct saturation check that no
+existing study tests this specific mechanism)
+
+- **Gap/question:** 2026's proxy season surfaced a live, well-documented asymmetry: multiple large
+  companies that raised consumer prices citing tariffs also had their compensation committees exercise
+  discretion to *exclude* tariff costs from the metrics used to calculate executive bonuses — i.e.,
+  tariffs count as an uncontrollable cost consumers must absorb, but not one executives' pay should be
+  penalized for. RTX's CEO received an 85% bonus increase (to $27.7M total 2025 compensation); Ross
+  Stores' and Gap's CEOs received $17.4M and $17.2M respectively; MGP Ingredients disclosed adjusting
+  operating income, EBITDA, and EPS metrics for tariff impact. Per Pearl Meyer's count, roughly 10% of
+  S&P 500 companies disclosed some tariff-related incentive-plan adjustment in their 2026 proxies, and
+  RTX, Gap, and Ross Stores were called out by name for disclosing *that* they adjusted without
+  disclosing *what it was worth in dollars*. The open question: does awareness of this specific
+  asymmetry (consumer absorbs tariff cost via price increase; executive pay shielded from the same cost
+  via compensation-committee discretion) change consumer perceptions of distributive fairness/corporate
+  hypocrisy, and does that in turn affect brand trust, purchase intention, or support for say-on-pay-
+  style regulatory intervention — beyond what the existing "CEO pay ratio hurts brand trust" literature
+  (e.g., the Journal of Business Ethics' "When CEO Pay Becomes a Brand Problem," 2023) already covers,
+  since that literature is about pay *level*, not this specific *cost-shielding-during-a-blamed-external-
+  shock* mechanism.
+- **Why tractable soon:** this is not a single-day event but a live, ongoing 2026 controversy with a
+  concrete evidence trail: Fortune's April 29, 2026 investigative piece ("Boards 'neutralized' impact of
+  tariffs when calculating CEO pay. Some won't say what it was worth") broke the RTX/Gap/Ross Stores
+  disclosures; Harvard Law School's Forum on Corporate Governance published follow-up analyses on May 27,
+  2026 ("Companies Disclose Executive Pay Impacts of Trump Tariffs") and June 18, 2026 ("Tariff
+  Disclosures and Executive Compensation"); shareholder-advocacy and governance-trade coverage (ISS-
+  Corporate, ~NACD/Boardmember, WTW) continued through Q3 2026 describing heightened say-on-pay scrutiny
+  of exactly this practice. The underlying material (proxy-statement language, media coverage, say-on-pay
+  vote results) is public record and available now — no future event needs to happen for a Study 1 corpus
+  to be built.
+- **Saturation check, done directly:** confirmed a Columbia Business School study exists on tariff
+  *price-presentation* format (itemized vs. bundled at point of sale) and its effect on consumer fairness
+  perceptions/blame attribution toward firms and government — a related but structurally distinct
+  mechanism (about how a price is shown, not about a paired disclosure of who bears the cost internally
+  vs. externally). The Journal of Business Ethics CEO-pay-brand-trust literature is about pay *level*
+  generally, not a specific externally-imposed-cost-shielding disclosure. No PLS-SEM or experimental study
+  was found testing whether disclosure/awareness of this tariff-cost-shielding asymmetry specifically
+  drives perceived corporate hypocrisy and its downstream consumer effects — this reads as a genuine,
+  not just assumed, gap.
+- **Rough method sketch:** Study 1 (AI-assisted thematic analysis, directly reusable machinery from
+  TARIFF_PAPER) — a naturally paired corpus of the *same* companies' internal-facing language (proxy-
+  statement compensation-committee rationale, e.g. RTX/Gap/Ross Stores/MGP Ingredients framing tariffs as
+  "externally imposed, unpredictable, and unrelated to operational execution") against their external-
+  facing consumer language (earnings-call and press language justifying price increases to the same
+  tariffs) — coding for framing symmetry/asymmetry in how the same cost is described to two audiences.
+  Study 2 (PLS-SEM survey/vignette experiment): antecedent = disclosed tariff-burden-sharing asymmetry
+  (vignette manipulation: disclosed vs. not, or measured awareness); mediator = perceived distributive
+  (in)justice / corporate hypocrisy attribution; outcome = brand trust, purchase/boycott intention,
+  support for say-on-pay-style regulatory intervention; plausible moderator = respondent's own exposure
+  to tariff-driven price increases (financial strain) or political ideology.
+- **Honest caveat:** this sits close enough to this file's existing tariff-and-corporate-fairness cluster
+  (idea 21's Made-in-USA claim-specificity framing, idea 22's tariff-refund-windfall-retention framing)
+  that Britton should weigh whether a third entry in this cluster is additive or crowds the same territory
+  — the differentiator here is that the "wronged party" comparison is internal-vs-external cost-bearing
+  (consumer vs. executive), not a claims-credibility or refund-distribution question, but the three would
+  need to be pitched as clearly distinct contributions if more than one is pursued.
+- **Target venue:** *Journal of Public Policy & Marketing* (distributive-fairness/regulatory framing, in
+  line with several of Britton's other JPP&M-track entries in this file) as lead candidate; *Journal of
+  Business Ethics* as a strong alternate given its existing CEO-pay-and-brand-trust precedent to extend.
+- **Sources:** [Fortune, Apr 29 2026 — Boards "neutralized" impact of tariffs when calculating CEO pay](https://fortune.com/2026/04/29/ceo-pay-tariff-adjustment-rtx-ross-gap/), [Yahoo Finance/Fortune — Some CEOs are receiving millions in bonuses after tariff costs were "neutralized" — consumers get nothing](https://finance.yahoo.com/economy/policy/articles/ceos-receiving-millions-bonuses-tariff-094500029.html), [Harvard Law Forum on Corporate Governance, May 27 2026 — Companies Disclose Executive Pay Impacts of Trump Tariffs](https://corpgov.law.harvard.edu/2026/05/27/companies-disclose-executive-pay-impacts-of-trump-tariffs/), [Harvard Law Forum on Corporate Governance, Jun 18 2026 — Tariff Disclosures and Executive Compensation](https://corpgov.law.harvard.edu/2026/06/18/tariff-disclosures-and-executive-compensation/), [Equilar — Companies Disclose Executive Pay Impacts of Trump Tariffs](https://www.equilar.com/blogs/628-tariff-disclosures.html), [ISS-Corporate — Proxy Season 2026: CEO Compensation](https://www.iss-corporate.com/resources/blog/proxy-season-2026-ceo-compensation/), [Columbia Business School — How Tariff Price Presentation Affects Consumer Responses, Fairness Perceptions, and Attitudes toward Firms and Government](https://business.columbia.edu/faculty/awards/how-tariff-price-presentation-affects-consumer-responses-fairness-perceptions-and), [Journal of Business Ethics — When CEO Pay Becomes a Brand Problem (2023)](https://link.springer.com/article/10.1007/s10551-023-05394-0)
+
+Proposal only, per standing rule — nothing built, nothing committed to. This is the one new idea logged
+tonight.
+
+### Not a new idea, but a flag worth Britton seeing directly: idea 38's recommended target venue (IJMR)
+is more crowded than last night's write-up could have known. A direct search tonight surfaced that the
+*International Journal of Market Research* ran (or is running) a cluster of 2026 papers on exactly the
+"generative AI + qualitative/thematic-analysis methodology" territory that ideas 4/18 (Britton's own
+AI-thematic-analysis-workflow methods paper) and idea 38 both sit in: Jayawardene & Ewing (2026),
+"Generative AI-Augmented Thematic Analysis" (IJMR, 68(2), 162-193) — a validated three-phase GAATA
+workflow (prompt design, code generation/validation, theme generation/validation) reporting Cohen's
+Kappa = 0.94 human-AI code alignment; Ganassali (2026), "Shift or Shimmer? The Promises of Generative AI
+for Automated Content Analysis in Marketing," same journal; and Sung, Pitardi, Paas & Cartwright (2026),
+"Market Research in the Age of Generative AI: Opportunities and Challenges," also IJMR — reading together
+like a themed cluster or special issue on this exact topic. This doesn't kill ideas 4/18/38 outright —
+Britton's own papers are domain-specific applications (tariff messaging, data-center opposition, etc.)
+answering substantive consumer/marketing questions, not pure methodology-contribution papers competing
+head-to-head with GAATA — but it does mean a *general-purpose* "here is our AI-assisted-TA methodology"
+contribution paper aimed at IJMR specifically would need to be pitched hard against at least three 2026
+papers already occupying that exact ground, which idea 38's write-up last night did not know about.
+Worth Britton's eyes before committing further effort to that specific framing/venue combination. Not
+logged as its own idea number since it isn't a new paper opportunity — it's competitive-landscape
+information about existing ones.
+
+Also checked tonight and explicitly set aside, each for a specific reason:
+- **"Dupe culture" and tariff-driven imitation-goods consumption** (Lululemon v. Costco filed June 2026,
+  Sol de Janeiro v. MCoBeauty, Morning Consult's 2026 Gen Z dupe-shopping data, tariff coverage explicitly
+  linking 2025-2026 tariffs to Chinese manufacturers marketing dupes directly to price-conscious U.S.
+  shoppers) — a real and current consumer-behavior story with a genuine tariff tie-in, but a direct
+  saturation check found the academic space filling in fast: at least four 2025-2026 papers already treat
+  dupe-brand attitudes, perceived value, and consumer ethical perceptions directly (Benhissi & Sánchez
+  Romero 2026; Zafran & Irfan 2025; a 2026 Fashion and Textiles paper on "legally copied products"; a 2025
+  Journal of Management Studies and Development paper on Gen Z ethical perceptions of duped products).
+  Also sits close enough to this file's own idea 2a (tariff-attributed framing accelerating brand-
+  switching) to need hard differentiation even before the saturation problem. Set aside on both grounds.
+- **Louisiana crawfish-tariff natural experiment** (Sen. Cassidy's Home Market Restoration Act of 2026,
+  targeting Chinese crawfish specifically with a stepped duty up to 402.5% ad valorem after a quota is
+  hit; import-dumping having driven prices from $5.53/lb to $2.56/lb) — real, current, and Louisiana-
+  specific, but it is the same senator, the same bundled bill (shrimp/crawfish/catfish together), and the
+  same underlying "Certified Louisiana Seafood" provenance-label mechanism this file's idea 9 already
+  built its entire design around for shrimp — this reads as refresh/extension material for idea 9 (a
+  second commodity for the same natural experiment), not a distinct new idea, consistent with idea 9's
+  own note (line ~603) flagging this exact risk in advance.
+- **Retail-media-network/electronic-shelf-label privacy backlash** (Kroger's facial-recognition-adjacent
+  surveillance-pricing scrutiny, Walmart's ESL rollout and shopper-data patents, a 12-state legislative
+  push plus a federal "Stop Price Gouging in Grocery Stores Act of 2026") — real and current, but this
+  is literally idea 11's own subject matter (surveillance/algorithmic pricing) in its latest chapter, the
+  same call this file has made on every other Kroger/dynamic-pricing development since idea 11 was first
+  logged 2026-08-24.
+- **BNPL and GLP-1 direct-to-consumer marketing** — rechecked briefly; both were already explicitly ruled
+  out in this file (2026-08-25 for BNPL: weak Louisiana/tariff/AI tie-in and an already-saturated fintech-
+  disclosure literature; 2026-08-27 for GLP-1 telehealth marketing: a heavily-trodden decades-deep DTC-
+  pharma-advertising literature). Nothing found tonight changes either conclusion.
+- **Pharmacy benefit manager (PBM) reform and rural pharmacy closures** (the federal PBM Reform Act
+  signed into law Feb 3, 2026; Louisiana's own PBM-affiliated-drugstore restriction bill stalling in the
+  legislature; a $45M Louisiana Caremark/PBM settlement) — real and dated, but this is healthcare-supply-
+  chain policy rather than a consumer-facing marketing mechanism, a weak fit for Britton's established
+  lane, and Louisiana's own reform effort specifically stalled rather than advancing. Set aside on fit
+  grounds without a deep saturation check.
+- **Louisiana cryptocurrency/Bitcoin-mining facility siting opposition** — a real national genre (Texas
+  nuisance lawsuits over mining-facility noise, Fort Worth considering a ban) with an obvious structural
+  parallel to Britton's data-center/CCS/SpaceX/BESS opposition papers, but no confirmed Louisiana
+  opposition case was found tonight (only a single Louisiana crypto-mining facility mention, with no
+  opposition angle), and without a Louisiana tie this would be a ninth entry in the same generic
+  NIMBY-siting genre this file has repeatedly flagged as saturated (most recently for idea 37's BESS
+  entry and last night's warehouse/semiconductor-siting rule-out).
+
+Ideas 1-38 were not individually rechecked for fresh developments tonight beyond the flag noted above —
+time went to the new-idea search, its saturation/verification work, and the six rule-out checks above,
+consistent with this file's recent practice.
