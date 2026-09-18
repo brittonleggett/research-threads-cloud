@@ -115,6 +115,19 @@ scattered notes did.
   deadline is still unmet as of tonight (still 51 entries, no extension
   motion filed)** — that deadline is tomorrow. See
   `notes/2026-09-17-litigation-recheck.md`.
+- **2026-09-18 (same-day check on the flagged deadline): Section 301's
+  government reply, due today, had not yet been filed as of ~1:08 AM Eastern
+  this morning** (fetch confirmed fresh via `x-cache: Miss from cloudfront`
+  and a matching `date:` header of `Fri, 18 Sep 2026 05:08:00 GMT`) — still
+  51 entries, entry #22's text unchanged verbatim. This is expected, not a
+  red flag: the check ran in the very early hours of the 18th itself, well
+  before a same-day filing would typically post. All four dockets otherwise
+  fully unchanged from 09-17 (Section 122 at 102 entries, V.O.S. Selections
+  at 26, Axle of Dearborn at 79; no "Date Terminated" on any). **This one
+  genuinely needs a later-in-the-day-or-next-day recheck (evening of 9/18 or
+  morning of 9/19) to confirm the reply actually landed** — tonight's check
+  can only confirm it hadn't slipped as of first thing in the morning. See
+  `notes/2026-09-18-litigation-recheck.md`.
 
 ## ⚠ Urgent discrepancy found 2026-09-03 — read before touching the scales
 
