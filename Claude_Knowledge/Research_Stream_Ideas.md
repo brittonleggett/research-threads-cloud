@@ -3302,3 +3302,164 @@ Ideas 1-39 were not individually rechecked for fresh developments tonight beyond
 flags noted above — time went to the two new-idea searches, their saturation/verification work, and the
 CF Industries/Bay Area rule-out checks, consistent with this file's recent practice of prioritizing
 well-verified new candidates over a shallow re-scan of the full backlog.
+
+## 2026-09-19 — nightly scouting run (WebSearch and WebFetch this session; WebFetch worked cleanly
+against wdbj7.com and blog.ucs.org, returned 403 on openai.com's own blog post so that source is cited
+via WebSearch snippets/syndicated coverage rather than a direct fetch). Read the README and the full
+41-entry log (header/section scan across all entries plus a close read of ideas 1a, 40, and 41 and the
+2026-09-17/09-18 rejected-candidates lists) before starting. Searched consumer/AI-marketing trust,
+tariffs, Louisiana energy/regulatory dockets, and AI-augmented-qualitative-methods/market-research
+developments as a breadth-first cross-check before committing search time to the one new candidate below.
+
+### 42. OpenAI's in-answer ChatGPT ads as a new "conversational native advertising" disclosure test —
+distinct from ideas 10/25/31/38's AI-ad-trust angles and from the existing chatbot-trust and native-
+advertising-disclosure literatures separately (moderate-high confidence — real, dated, an actively
+expanding 2026 rollout with industry data already in hand; the main open risk is that this could be
+argued as "just" a native-advertising-disclosure replication, so the write-up below leans hard on the
+specific mechanism that literature doesn't cover)
+
+- **Gap/question:** OpenAI has been testing paid, sponsored messages inside ChatGPT's own conversational
+  answers since early 2026, expanding through a wave of Sept 16, 2026 coverage ("Ads have arrived:
+  ChatGPT," syndicated across Gray Media stations). Ads are appended below the organic answer and
+  labeled "Sponsored," targeted by conversational context/intent rather than keywords, and — per OpenAI's
+  own framing — designed not to "become part of the answer." The open marketing question: does a
+  disclosed sponsored message attached to an answer a user just asked a trusted, seemingly-neutral AI
+  assistant for activate persuasion knowledge and erode trust *in the answer itself*, not just in the ad,
+  in a way that's mechanistically distinct from (a) classic native-advertising disclosure in editorial
+  media (a news article vs. its sponsored-content neighbor are recognizably different genres/authors) and
+  (b) existing shopping-chatbot-trust literature (which studies dedicated commerce bots users already know
+  are selling something, not a general-purpose "answer engine" a user queries the way they'd query a
+  neutral reference source). Call the candidate mediator "epistemic-authority contamination" — the
+  suspicion that if the assistant profits from an adjacent answer, the *whole* conversation's neutrality is
+  suspect, not just the labeled ad unit — and test it against classic persuasion-knowledge activation as a
+  comparison mediator to see if it's actually a distinct construct or just a relabeling.
+- **Why tractable soon:** confirmed via WebFetch of a Gray Media syndicated piece (wdbj7.com, Sept 16,
+  2026) and WebSearch corroboration across at least seven other Gray-affiliate sites republishing the same
+  wire piece the same day, plus OpenAI's own "Testing ads in ChatGPT" post (found via WebSearch, blocked by
+  a 403 on direct fetch tonight — cited as a company primary source, not independently read in full) and a
+  follow-up OpenAI post dated March 26, 2026 reporting its own pilot metrics. Industry survey data is
+  already circulating to test against: a Zappi survey (May 2026, n=1,000 US adults) found 82% consider
+  AI-assistant advertising at least as trustworthy as Google Search ads, but 33% worried answers would
+  become "biased toward advertisers," 28% worried ads would be hard to distinguish from real answers, and
+  27% worried about commercial influence over recommendations — i.e., the industry's own data already shows
+  a live, measurable split between stated trust and specific mechanism-level worry, which is exactly the
+  kind of gap a mediated antecedent-mediator-outcome design is built to explain. OpenAI's rollout is
+  presently limited to logged-in free/Go-tier users and is explicitly described as expanding, so the
+  corpus/stimulus material (real ad placements, real disclosure language) is available now and will keep
+  growing rather than being a one-off event to miss.
+- **Saturation check, done directly:** two adjacent literatures exist and are real, but neither covers this
+  specific mechanism. Native-advertising-disclosure research (Wojdynski & Evans on disclosure position/
+  language and native-ad recognition; Boerman, Van Reijmersdal & Neijens 2012 and Boerman, Willemsen & Van
+  der Aa 2017 on sponsorship-disclosure-driven persuasion-knowledge activation; Amazeen & Wojdynski 2020 on
+  disclosure format across legacy/online publishers) is built entirely around editorial media (news
+  articles, social posts) where the "host" content and the reader's relationship to it is fundamentally
+  different from a conversational AI assistant answering a direct question. Chatbot-trust PLS-SEM
+  literature (anthropomorphism, avatar choice, uncanny-valley effects, chatbot initial trust →  purchase/
+  continuance intention) is real and substantial but is built around dedicated shopping/customer-service
+  bots the user already knows are commercially motivated, not a general-purpose answer engine whose core
+  value proposition is neutral information retrieval. A 2025 Journal of Interactive Advertising study on
+  AI-generation disclosures ("Disclaimer! This Content Is AI-Generated") tests trust effects of disclosing
+  that an *ad itself* was AI-generated — a different disclosure object than disclosing that a *sponsor paid
+  to appear next to* an AI's own answer. No PLS-SEM or experimental study was found testing perceived
+  answer-neutrality/epistemic-authority erosion from disclosed advertising embedded in a general-purpose
+  conversational AI assistant's own responses — this reads as a genuine, not merely assumed, gap, though
+  Britton should expect this space to fill in fast given how much industry attention it's drawing right now.
+- **Honest caveat:** this sits adjacent to ideas 10 (AI-answer brand exclusion/GEO), 25 (NY synthetic-
+  performer ad disclosure), 31 (Meta Ray-Ban), and 38 (AI/synthetic-respondent disclosure gap in market
+  research) in the sense that all five are "AI + disclosure + marketing trust" — but each targets a
+  different object of disclosure (exclusion from answers; synthetic actors in ads; covert recording;
+  synthetic survey respondents; here, sponsored placement inside an answer itself) and Britton should treat
+  this as one candidate in a crowded-but-differentiated cluster, not assume it's automatically distinct
+  enough on its own to clear a reviewer without an explicit differentiation paragraph, same caveat this
+  file has given other entries in this cluster.
+- **Rough method sketch:** fits the antecedent→mediator→outcome template. Antecedent: disclosed sponsored
+  placement within a ChatGPT-style answer (vignette manipulating presence/prominence of the "Sponsored"
+  label within an otherwise-identical AI answer, modeled directly on OpenAI's real placement) vs. an
+  identical answer with no ad. Mediator: epistemic-authority contamination / perceived answer-neutrality
+  (candidate new construct) tested against classic persuasion-knowledge activation and general AI trust as
+  comparison mediators to establish incremental/distinct contribution. Outcome: trust in the specific
+  answer, trust in the platform generally, switching intention to a rival AI assistant (directly named as a
+  real risk by an e-marketer analyst quoted in coverage), and purchase intention toward the sponsor.
+  Plausible moderator: query type (informational/reference query vs. shopping-intent query — does the same
+  ad placement read as more or less legitimate depending on what the user was actually asking) or prior
+  AI-literacy/frequency of AI-assistant use.
+- **Human-subjects flag:** Study 1 as scoped (OpenAI's own disclosed policy language, press coverage,
+  publicly reported pilot-metric disclosures) is public-record content analysis, no IRB concern. Any Study
+  2 vignette-survey work measuring real respondents' trust/switching judgments is primary human-subjects
+  data and would need IRB approval before proceeding — flagging per standing repo rule, not proceeding past
+  the idea stage.
+- **Target venue:** *Journal of Interactive Advertising* (direct fit with the existing disclosure
+  literature it would need to engage) as lead candidate; *Journal of Advertising* or *Journal of Consumer
+  Marketing* (matching TARIFF_PAPER's own target) as alternates.
+- Leads: [WDBJ7/Gray Media, Sept 16 2026 — Why OpenAI Is Putting Ads in ChatGPT — And What Comes Next (direct fetch)](https://www.wdbj7.com/2026/09/16/ads-have-arrived-chatgpt-what-future-ai-search-could-mean-brands/), [OpenAI — Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt/), [OpenAI — Our approach to advertising and expanding access to ChatGPT](https://openai.com/index/our-approach-to-advertising-and-expanding-access/), [BestMediaInfo — Will ads change how much users trust ChatGPT's answers? (Zappi survey data)](https://bestmediainfo.com/mediainfo/mediainfo-digital/will-ads-change-how-much-users-trust-chatgpts-answers-12442557), [OpenAI ad policies](https://openai.com/policies/ad-policies/), [Journal of Interactive Advertising — Disclaimer! This Content Is AI-Generated: How AI-Disclosures Influence Trust in Advertisements and Organizations](https://doi.org/10.1080/15252019.2025.2554149), [Wiley/Journal of Consumer Affairs — Measuring Sponsorship Transparency in the Age of Native Advertising (Wojdynski 2018)](https://onlinelibrary.wiley.com/doi/abs/10.1111/joca.12144)
+
+Proposal only, per standing rule — nothing built, nothing committed to. This is the one new idea logged
+tonight.
+
+### Refresh, not a new idea: idea 1a's Louisiana ratepayer/regulatory-capture angle has a fresh, distinct
+escalation — the LPSC's "Lightning Initiative"
+
+Idea 1a (ratepayer cost-shifting, most recently sharpened 2026-09-02 with the killed-subpoena/Meta-
+Hyperion material) now has a second, mechanistically distinct antecedent worth flagging to whoever next
+works `DATA_CENTER_PAPER`/1a directly: the LPSC's "Lightning Initiative" (a Commissioner Coussan directive,
+first reported Dec 16, 2025) creates an expedited seven-month approval pathway for large-load power
+infrastructure that waives competitive-bidding (RFP) requirements and was adopted with no formal
+stakeholder-comment period. Confirmed via direct WebFetch (blog.ucs.org) and WebSearch corroboration
+(American Press, Sept 17, 2026): Cleco's application — covering its Applied Digital data-center service
+agreement, a Tenaska capacity deal, and new gas generation — became the first major case to proceed under
+this pathway this week, with the LPSC voting unanimously to let the case move forward *without* a final
+recommendation from an administrative law judge first. Where idea 1a's existing material (the killed
+subpoena) is about a *company* withholding information, this is about the *regulator itself* narrowing the
+procedural steps available to the public/intervenors before costs are locked in — a second, complementary
+antecedent for the same distributive-injustice/regulatory-capture mediator chain, and one that scales
+across all future large-load dockets rather than a single project. Not logged as its own idea number since
+it's the same mechanism family already claimed by 1a, not a new one — flagging so the next session doesn't
+have to re-discover it.
+
+### Checked tonight, no fresh anchor found (or already covered) — set aside without a full write-up:
+- **Louisiana coastal-erosion litigation against Chevron/ExxonMobil settlements** — rechecked; this file's
+  2026-09-14 entry already set this aside for lacking a fresh dated event, and tonight's search found
+  nothing newer than the already-known July 31, 2026 Exxon settlement effective date. Still worth
+  revisiting if a new ruling or settlement lands.
+- **Louisiana CCS eminent-domain fight and the Landry moratorium's exemption list (Project Goose Lake,
+  Project Minerva)** — real and substantive, but the legislative eminent-domain defeat is an April 2026
+  event and the moratorium/exemption story is corpus-refresh material for `CCS_PAPER` (already an active
+  project), not a new stream.
+- **Louisiana sugar and rice tariff-relief pushes (Cassidy's Home Market Restoration Act of 2026)** — real,
+  but this is literally the same bundled bill and provenance-labeling mechanism this file's idea 9 already
+  built around Louisiana shrimp, and the crawfish version of this exact bill was explicitly ruled out on
+  09-08 for the same reason; sugar/rice read as a third and fourth commodity under the identical mechanism,
+  not a new idea.
+- **ESOMAR's updated 2026 synthetic-data/AI research-code guidelines** — real and current, but this is
+  refresh material strengthening idea 38's (AI/synthetic-respondent disclosure gap) evidentiary base, not a
+  new mechanism.
+- **The proposed federal AI AGENT Act (Sen. Warner's June 29, 2026 discussion draft) and FTC agentic-
+  commerce guidance** — real and current, but this is a policy-environment update to already-logged idea 6
+  (agentic AI commerce delegation), not a distinct psychological mechanism.
+- **xAI's Colossus/MZX Tech Memphis-area pollution litigation (NAACP v. X.AI Corp.)** — already tracked as
+  Tier 2 corpus material inside the active `DATA_CENTER_PAPER` project per the root README, not a new
+  scouting idea.
+
+### Follow-up on idea 40's open corpus-integrity question (not a new idea — a check requested by last
+night's entry)
+
+Idea 40 flagged an unresolved question for whoever next works `DATA_CENTER_PAPER`/`CCS_PAPER` directly: had
+either project's own Study 1 corpus drawn on a public-comment docket later found to contain AI-astroturfed
+submissions? A limited check tonight (reading `CCS_PAPER/README.md`, `CCS_PAPER/Corpus_1`'s file listing,
+and `DATA_CENTER_PAPER`'s most recent Study 1 corpus-and-coding draft plus its `notes/` primary-source-pull
+files) found no evidence of exposure so far, for a straightforward reason: neither project has actually
+built the kind of large, individually-scraped public-comment corpus that astroturfing at SCAQMD's scale
+would even show up in yet. `CCS_PAPER`'s `Corpus_1` is 18 legislative/regulatory documents (bills, digests,
+fiscal notes, agency orders, one Federal Register notice, a single public comment, and a Tunica Tribe
+document) — its planned Study 1 (AI-assisted netnography of public/consumer social-media discourse) hasn't
+had a data platform chosen yet, per its own README. `DATA_CENTER_PAPER`'s built corpus so far leans on
+litigation dockets (CourtListener), news coverage, and individually-named/quoted public comments rather
+than a bulk-scraped comment dataset from an LPSC docket. This is a reassuring-but-shallow finding, not a
+clearance — it means there's nothing to check for astroturfing *yet*, not that a future bulk-comment pull
+(e.g., from LPSC Docket X-37921, which idea 40 itself flagged as structurally exactly the kind of record at
+risk) would be safe from this problem once one is actually built. Worth a repeat check once either project
+does pull a bulk public-comment dataset.
+
+Ideas 1-41 were not individually rechecked for fresh developments tonight beyond the flags noted above —
+time went to the new-idea search and its saturation/verification work, the rule-out checks above, and the
+idea-40 corpus-integrity follow-up requested by last night's entry.
