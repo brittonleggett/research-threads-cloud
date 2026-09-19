@@ -128,6 +128,28 @@ scattered notes did.
   morning of 9/19) to confirm the reply actually landed** — tonight's check
   can only confirm it hadn't slipped as of first thing in the morning. See
   `notes/2026-09-18-litigation-recheck.md`.
+- **2026-09-19: RESOLVED — Section 301's Sep 18 reply deadline was met,
+  filed on time.** New docket entry #52 (51→52 entries), filed and entered
+  09/18/2026: a "Reply in Support of Motion for Judgment on the Agency
+  Record" by Pratik A. Shah (Akin Gump) on behalf of All Plaintiffs. **One
+  correction to the 09-15 through 09-18 entries above: this was always the
+  plaintiffs' reply, not "the government's reply."** Rereading entries #16
+  and #22 directly: entry #16 (Aug 24) is the plaintiffs' own Motion for
+  Judgment on the Agency Record (same filer, Pratik Shah); entry #22 (Sep
+  4) is the government's *response* to that motion, with "Replies due by
+  9/18/2026" — under standard motion practice the reply is filed by the
+  movant (plaintiffs) responding to the opponent's response, which is
+  exactly what entry #52 is (explicitly captioned as replying to "related
+  document(s) 22"). The deadline outcome (met, on time) is unaffected by
+  this correction — only the party label in prior nights' notes/tracker
+  entries was wrong. Also: Section 122 picked up two new, non-substantive
+  entries (102→104) closing out the already-known Economists' amicus
+  "out of time" motion (order granting it, then the corrected brief filed)
+  — government's own brief deadline remains untouched at 11/12/2026. V.O.S.
+  Selections (26 entries) and Axle of Dearborn (79 entries) fully
+  unchanged. No "Date Terminated" on any of the four. This closes out the
+  multi-night Section 301 deadline watch — no further recheck needed on
+  this specific question. See `notes/2026-09-19-litigation-recheck.md`.
 
 ## ⚠ Urgent discrepancy found 2026-09-03 — read before touching the scales
 
