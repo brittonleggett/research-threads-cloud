@@ -1,6 +1,16 @@
 # Project Status — Meat Supply Chain Paper
 
-Last updated: 2026-09-17 (eighth research session — confirmed the Sept. 1, 2026 Agri Stats broiler
+Last updated: 2026-09-19 (ninth research session — read primary court documents in the pork antitrust
+MDL (18-1776, D. Minn.) for the first time, correcting the "$117.065M pork settlement preliminarily
+approved July 31, 2026" framing (that date is actually the class-notice-plan order; the five
+settlements were preliminarily approved individually between July 2024 and May 2026) and finding a
+previously-untracked fourth Agri Stats settlement track (pork Direct Purchaser Plaintiffs, final
+approval Sept. 10, 2026); sharpened the 17-6 vs. 16-7 MCOOL vote-count discrepancy toward 17-6 as the
+better-supported figure (still not primary-confirmed); corroborated the DOJ retailer-probe's July 14,
+2026 letter date via a named wire-service report. Confirmed the Schaefer/poultry-concentration and
+idea-28 threads are already resolved/current and did not re-do that work. See
+`NOTES/2026-09-19-pork-mdl-primary-docs-mcool-vote-doj-probe-corroboration.md`.) Eighth research
+session was 2026-09-17 (confirmed the Sept. 1, 2026 Agri Stats broiler
 End-User Consumer settlement's final-approval hearing was held and the settlement approved
 (behavioral-only, distinct from DOJ's own already-resolved case); found a genuinely new,
 well-corroborated development outside tonight's original scope — a bipartisan Senate farm-bill
@@ -594,6 +604,37 @@ since that date had passed. It had:
   corporate-explanation-type gap. That gap still reads as open after a second scouting pass with
   different search angles.
 
+## 2026-09-19 research pass (see `NOTES/2026-09-19-pork-mdl-primary-docs-mcool-vote-doj-probe-corroboration.md` for full detail)
+
+Ninth research session. Checked `PROJECT_STATUS.md` and `NOTES/Claim_Fact_Check.md` first and confirmed
+the Schaefer/poultry-concentration thread (Open Decision #6) and idea 28's core facts are already
+resolved as of 2026-09-08/09-15 — did not re-do that work. Picked up three genuinely open loose ends
+instead:
+
+- **Pork antitrust MDL primary documents read directly for the first time.** *In re Pork Antitrust
+  Litigation*, No. 18-1776 (JRT/JFD), D. Minn. — found and read Doc. 3436 (filed 7/31/26) and Doc. 3472
+  (filed 9/10/26) via govinfo.gov. **Correction**: the $117.065M pork settlement (Tyson $85M, Clemens
+  $13.5M, Seaboard $10M, Hormel $4.465M, Triumph $4.1M) was not "preliminarily approved July 31, 2026"
+  as recorded 2026-09-17 — that date is when the Court approved the class-notice plan; the five
+  settlements were each preliminarily approved individually and earlier (Hormel 7/9/24, Seaboard
+  8/6/24, Clemens 6/13/25, Tyson 11/7/25, Triumph+Agri Stats 5/5/26). Dollar figures unaffected. Also
+  corrected the class's official name to "Consumer Indirect Purchaser Plaintiffs" (not "End-User
+  Consumer," which is the broiler MDL's own, differently-named class). **New, not previously tracked**:
+  a separate pork-specific Direct Purchaser Plaintiff settlement with Agri Stats reached final approval
+  September 10, 2026 — same day as DOJ's own civil Agri Stats Final Judgment — giving Agri Stats four
+  confirmed settlement tracks (DOJ, broiler End-User Consumer, pork Consumer IPP, pork DPP) resolved
+  within about six weeks of each other.
+- **MCOOL 17-6 vs. 16-7 vote-count discrepancy sharpened, not fully resolved.** The committee's own
+  record is still blocked (agriculture.senate.gov 404, congress.gov 403, on a second attempt). But
+  reading the underlying articles directly shows two independent, contemporaneous, named-vote-breakdown
+  sources (Capital Press, DTN's own Aug. 6 article) both give 17-6, while the sole 16-7 figure traces to
+  one later (Sept. 17) DTN piece with no supporting detail. Evidence now leans clearly toward 17-6.
+- **DOJ retailer-probe's July 14, 2026 letter date corroborated** via Transport Topics (syndicating
+  Bloomberg wire content) — upgraded from "not independently confirmed" (2026-09-08) to corroborated by
+  a named, dated wire-service report, though still not a DOJ-authored document.
+- Tyson $82.5M DPP settlement, idea 28's broader status, and literature-gap scouting: rechecked briefly,
+  nothing new found; not re-worked in depth given the three items above.
+
 ## Next actions (prioritized)
 
 1. **DONE 2026-09-05/2026-09-07/2026-09-08**: Erol & Saghaian (2022) resolved
@@ -698,3 +739,10 @@ since that date had passed. It had:
     discourse around it (NCBA vs. R-CALF-style positions) looks like strong potential Study 1
     material. Flagging as context, not making a scope call — Study 1 source/commodity scope stays
     Britton's per Open Decisions #1/#2. See the 2026-09-17 research pass above and the dated note.
+12. **CORRECTED 2026-09-19**: the $117.065M pork settlement's "preliminarily approved July 31, 2026"
+    framing (item above, 2026-09-17) is now corrected via direct primary-document reads — see the
+    2026-09-19 research pass above. **New, not a decision needed yet**: a fourth Agri Stats settlement
+    track (pork Direct Purchaser Plaintiffs, final approval Sept. 10, 2026) surfaced; and the MCOOL
+    17-6/16-7 discrepancy now leans toward 17-6, though the committee's own record remains a genuine
+    hard wall (agriculture.senate.gov 404, congress.gov 403, tried twice). See
+    `NOTES/2026-09-19-pork-mdl-primary-docs-mcool-vote-doj-probe-corroboration.md`.
