@@ -3463,3 +3463,82 @@ does pull a bulk public-comment dataset.
 Ideas 1-41 were not individually rechecked for fresh developments tonight beyond the flags noted above —
 time went to the new-idea search and its saturation/verification work, the rule-out checks above, and the
 idea-40 corpus-integrity follow-up requested by last night's entry.
+
+## 2026-09-20 — nightly scouting run (WebSearch and WebFetch this session; WebFetch worked cleanly against
+legis.la.gov and americanpress.com, used to directly verify a bill status claim below). Read the README and
+did a header/section scan across all 42 entries (grep of every `### N.` heading) plus a close read of ideas
+6, 11, and 15 before starting, to calibrate against the file's most crowded clusters (tariffs: 8 entries;
+AI-ad/disclosure trust: 5; gambling: 3; data-center/CCS siting: several). Ran a genuinely breadth-first pass
+tonight across all six listed adjacencies — Flock/ALPR, Louisiana data centers, tariffs, gambling/sports
+betting, meatpacking/food supply chain, CCS, SpaceX Louisiana, AI-augmented qualitative/market-research
+methods, Louisiana insurance, Louisiana AI legislation, algorithmic/surveillance pricing, and PBM/drug-
+pricing reform — specifically hunting for something dated and new enough to clear this file's own bar,
+rather than settling for the first plausible-sounding lead.
+
+**No new idea logged tonight.** Every candidate that surfaced turned out to be one of three things: (a)
+corpus-refresh material for an already-active project, not a new stream; (b) a close duplicate of an
+already-logged idea's mechanism, arriving via a new but non-differentiating fact; or (c) too weak/unverified
+a hook to write up honestly. Logging none tonight rather than padding, per the standing instruction that
+fewer, higher-quality entries beat forcing a marginal one. Specifics, so the next session doesn't have to
+re-check the same ground:
+
+- **Georgia/Arizona data centers caught drawing undisclosed/unpaid-for water volumes (reported May 2026)**
+  — real and dated, but Georgia and Arizona are both already-designated Tier 2 states inside the active
+  `DATA_CENTER_PAPER` comparative design (per the root README), so this is corpus/transferability material
+  for that project's own boundary-condition testing, not a new paper — flagging for whoever next works that
+  project directly rather than logging it here.
+- **Brazil/Argentina beef tariff-free exemption (Sept 4, 2026) paired with a new mandatory country-of-origin-
+  labeling executive order** — real, dated, and Louisiana-adjacent, but this lands squarely inside
+  `MEAT_SUPPLY_CHAIN_PAPER`'s own already-stated live angle (transparency of value distribution, COO
+  disclosure, price-fairness attribution, per the root README) — it sharpens that project's existing fact-
+  vs-narrative gap (protectionist rhetoric vs. an actual tariff-free carve-out for beef specifically) rather
+  than opening a new one. Flagging for that project's next session rather than logging as new here.
+- **DraftKings' own "Predictions" product facing a South Carolina lawsuit and Connecticut's new suit against
+  Kalshi for unlicensed sports betting** — real, dated (both within the past two weeks) escalations of the
+  exact regulatory-classification fight idea 15 already covers in depth, down to the same CFTC NPRM and the
+  same DraftKings/Fanatics/FanDuel lobbying-for-consumer-protections fact idea 15 already cites. The angle
+  that looked most distinct on inspection — a licensed incumbent's own sub-brand using the loophole it
+  publicly lobbies against, a hypocrisy/trust mechanism rather than an ad-framing one — turned out to be a
+  reinterpretation of facts idea 15 already has in hand, not new external information, and gambling is
+  already this file's third-most-crowded cluster (ideas 15/34/41, the last two carrying their own explicit
+  crowding caveats). Didn't force a fourth entry on a synthesis rather than a fresh hook.
+- **Louisiana HB 425 (Rep. Mandie Landry) — would have required clear disclosure when a consumer is
+  transacting with a chatbot/AI agent rather than a human, an unfair-trade-practices hook with real teeth.**
+  Checked directly because it looked like a strong, Louisiana-specific AI-disclosure angle distinct from
+  this file's already-crowded AI-ad-trust cluster (a *transactional* disclosure, not an *advertising*
+  disclosure). Verified via direct WebFetch of the bill's own legis.la.gov status page: **the bill did not
+  pass** — status reads "Pending House Commerce" as of its last action (March 9, 2026), and a separate
+  WebFetch of American Press's own July 21, 2026 roundup of Louisiana AI laws taking effect Aug. 1, 2026
+  (HB 119 deepfake-imagery penalties, HB 459 AI-political-ad disclosure, plus 2025's AI-evidence court
+  procedures) does not include HB 425 at all — a WebSearch AI-generated summary had incorrectly listed it
+  as enacted, caught only by fetching the primary source directly. Worth remembering if HB 425 or a
+  successor bill resurfaces in a future session; not tractable as a "live/enacted law" hook right now since
+  it's dead this session, and the caveat above is the actual finding worth keeping.
+- **Electronic shelf labels / digital price tags (Kroger, Walmart) and the "surge pricing" fear they've
+  triggered** — real, dated, high political salience (Sen. Warren et al., UFCW's ban campaign, a federal
+  Stop Price Gouging in Grocery Stores Act, Maryland's food-specific surveillance-pricing law) and a
+  genuinely interesting empirical wrinkle (a study of hundreds of millions of transactions found virtually
+  no actual surge pricing before or after ESL adoption — a real perception-vs-reality gap in Britton's usual
+  register). But on inspection this is the same disclosure/algorithmic-pricing-fairness mechanism idea 11
+  already covers in detail (same mediators — perceived fairness, perceived autonomy — same outcome set, same
+  JPP&M/Journal of Consumer Marketing venue fit), just instantiated through retail hardware instead of a
+  disclosure label. Not logged as a new number; flagging the "fear outpaces measured reality" finding as a
+  sharper antecedent-framing option for whoever picks up idea 11 (manipulate *technology presence* rather
+  than *disclosure label content* as the antecedent, since the gap between the two literatures may itself be
+  the more novel framing).
+- **PBM/pharmacy-benefit-manager drug-pricing reform (Louisiana AG Murrill's Sept. 2, 2026 suit against
+  Express Scripts/Ascent)** — real, dated, and structurally similar to `MEAT_SUPPLY_CHAIN_PAPER`'s
+  concentrated-middleman-squeeze narrative, but it's healthcare/pharmacy rather than any of Britton's six
+  listed adjacencies, sits inside a much larger and already federally-litigated reform fight (FTC's Feb 2026
+  Express Scripts settlement, a three-way FTC suit against the largest PBMs), and reads as a stretch rather
+  than a genuine adjacency — set aside rather than forced.
+- Also breadth-checked and found nothing new enough to write up: Louisiana insurance news (positive-direction
+  rate/market news this month, not a fresh opposition or disclosure angle); AI-qualitative-research-methods
+  industry news (a Conveo funding round, a Quirk's-conference "don't let AI replace human qual" theme — real
+  but not a marketing-controversy hook); "agent-to-agent" AI commerce coverage (infrastructure/protocol
+  story — Google's Agent Payments Protocol, etc. — not a distinct psychological mechanism from idea 6's
+  existing delegation-dial framing); AI-generated fake reviews/FTC enforcement (an active area but no fresh
+  2026 development beyond what's already several years into enforcement); and junk-fees/hidden-fee
+  disclosure (FTC's rule and enforcement predate 2026, no new September development found).
+
+Ideas 1-42 were not individually rechecked for fresh developments tonight beyond the flags noted above.
