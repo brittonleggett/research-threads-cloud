@@ -11,67 +11,143 @@ factorial; PLS-SEM vs. Hayes-PROCESS) — nothing below decides any of the three
 fielded. There is no Results section and there will not be one until it runs. Nothing here has been
 reviewed by Britton.
 
+**2026-09-20 sync note (AI-run, under the standing 2026-08-16 Phase 3 exception):** this draft still
+described the original 2-condition disclosure manipulation and an unresolved single-manipulation-
+vs.-factorial call. Britton actually decided this on 2026-09-08
+(`notes/2026-09-08-four-arm-vignette-draft.md`): a **4-arm single-factor between-subjects design**
+(neutral / safety-benefit / broad-network-access / disparate-impact), plus a new pre-exposure
+**baseline trust in police** moderator and a real Monte Carlo power analysis. This resolves the
+single-manipulation-vs.-factorial call (the actual answer was neither original option) but leaves
+the archival-vs.-self-report and PLS-SEM-vs.-Hayes-PROCESS calls open, unchanged. Sections below are
+updated to match; `Study2_Instrument_DRAFT_2026-08-27.md` was synced the same session.
+
 ---
 
 ## Study 2: Method
 
 ### Design Overview
 
-Study 2 tests the theory chain locked in Study 1 (`Introduction_and_Theory_DRAFT_2026-08-16.md`;
-`notes/2026-08-16-phase3-theme-review-and-theory-lock.md`) via a single-factor, two-condition,
-between-subjects experimental vignette design with moderated serial mediation: a manipulated
-disclosure condition (transparent/local-only vs. secret/broad-access-default data-sharing policy)
+**Revised 2026-09-20 — see sync note above.** Study 2 tests the theory chain locked in Study 1
+(`Introduction_and_Theory_DRAFT_2026-08-16.md`; `notes/2026-08-16-phase3-theme-review-and-theory-
+lock.md`) via a **single-factor, 4-level (4-arm), between-subjects experimental vignette design**
+with moderated serial mediation. The manipulated factor is condition content — neutral/baseline,
+safety-benefit, broad-network-access, or disparate-impact (`notes/2026-09-08-four-arm-vignette-
+draft.md`; supersedes the original 2-condition transparent-vs.-secret disclosure manipulation) —
+mirroring Study 1's own candidate themes directly rather than a single disclosure/non-disclosure
+contrast. The design retains the paper's locked mediation structure: the manipulated condition
 predicts perceived procedural injustice (Mediator 1), which predicts institutional trust
 (Mediator 2), which predicts opposition intention (DV) — moderated at the first stage by prior
-distributive-surveillance-exposure and at the last stage by perceived crime-solving
-necessity/efficacy (H1-H6, `Introduction_and_Theory_DRAFT_2026-08-16.md`).
+distributive-surveillance-exposure (H5) and at the last stage by perceived crime-solving
+necessity/efficacy (H6) (`Introduction_and_Theory_DRAFT_2026-08-16.md`). A **baseline trust in
+police** measure, collected before vignette exposure, was added 2026-09-08 as an additional
+first-stage moderator/covariate not part of the original locked H1-H6 chain — see Measures below.
 
-**Open design call, not resolved here:** whether this remains a single-manipulation design (as
-described above) or is expanded to a 2×2 factorial crossing disclosure with an explicit
-necessity-framing manipulation is Britton's call (`notes/2026-08-16-study2-design-memo.md`). This
-section describes the single-manipulation version as the base case; a factorial extension would
-add a second manipulated factor and corresponding hypotheses without changing the measures,
-procedure, or recruitment approach described below.
+**Design calls now resolved (2026-09-08, Britton):**
+- **4 arms, not the originally-considered 5** — a wrongful-stop/accuracy-harm arm was dropped to
+  control CloudResearch fielding cost.
+- **Between-subjects, not within-subjects** — Britton's explicit call for publishability in
+  policy/public-administration journals.
+- **Single-factor 4-level, not a 2×2 factorial** crossing disclosure with a necessity-framing
+  manipulation — this closes the design-call question the 2026-08-29 draft of this section left
+  open; the actual answer was neither of the two originally-considered options.
+
+**Still open, unchanged:** archival vs. self-report operationalization of Moderator 1 (Section 8 of
+the instrument document), and PLS-SEM vs. Hayes-PROCESS analysis approach.
 
 ### Participants
 
-Participants will be recruited through an online research panel (Prolific, matching the recruitment
-platform used in Tariff Paper's own Study 2 — `notes/2026-08-21-irb-application-draft.md`'s
-Recruitment Procedure section), restricted to U.S. adult residents (18+, screened at entry — see
-Procedure). Standard attention-check and English-fluency screening items are embedded in the
-survey flow (`Study2_Instrument_DRAFT_2026-08-27.md`, Section 2).
+**Revised 2026-09-20.** Per Britton's 2026-09-08 decision, the main study will be fielded on
+**CloudResearch**, with a **student/convenience sample used for the pilot** (cost management;
+`notes/2026-09-08-four-arm-vignette-draft.md`) — a change from the earlier plan to use Prolific
+throughout, matching Tariff Paper's Study 2 platform (`notes/2026-08-21-irb-application-draft.md`'s
+Recruitment Procedure section). CloudResearch vs. Prolific cost is roughly at parity per a
+peer-reviewed comparison checked 2026-09-08 (Peer et al., PMC10013894: Prolific ≈$1.90/high-quality
+respondent vs. CloudResearch ≈$2.00), correcting an earlier assumption in project notes that
+CloudResearch was meaningfully cheaper; head-to-head turnaround time remains unverified and will be
+treated as an open question until the first actual CloudResearch field. Sample restricted to U.S.
+adult residents (18+, screened at entry — see Procedure). Standard attention-check and
+English-fluency screening items are embedded in the survey flow
+(`Study2_Instrument_DRAFT_2026-08-27.md`, Section 2). The pilot sample requires its own IRB coverage
+even though it is a convenience sample, not exempt simply because it is informal
+(`notes/2026-09-08-four-arm-vignette-draft.md`) — IRB submission for both the pilot and the main
+study has not yet been started (Britton's 2026-09-08 call to defer this and prioritize CCS Paper
+work first).
 
-**Sample size:** target N = 500-800, currently a placeholder pending a formal a priori power
-analysis (flagged as outstanding in both the IRB draft and the design memo — not run as of this
-draft, since it depends on the PLS-SEM-vs-PROCESS analytic decision below). This range reflects the
-IRB draft's own reasoning that a moderated serial-mediation design with two moderators needs a
-larger sample than a simple two-group mean comparison, not a calculated target.
+**Sample size and power analysis — run 2026-09-08** (Monte Carlo simulation via numpy/scipy;
+script not yet copied from that session's scratchpad into this project folder, per
+`notes/2026-09-08-four-arm-vignette-draft.md`), **replacing the earlier N=500-800 placeholder**.
+Power differs sharply by which test is asked of the data:
 
-**Sampling consideration specific to this design:** detecting the first-stage moderation effect
-(H5, prior distributive-surveillance-exposure) requires real variance on that moderator. A sample
-drawn only from communities with little documented camera-placement disparity would have low power
-to detect this interaction regardless of overall N. The design memo recommends deliberately
-oversampling respondents from communities with documented disparity patterns (e.g., Hampton
-Roads/Norfolk VA, or other DeFlock-trackable high-disparity deployment areas identified in the
-Study 1 corpus) rather than relying on natural variance in a general national sample — this requires
-real geographic-sampling-frame work not yet done, and is noted as an open operational item, not a
-theoretical one.
+1. **Omnibus 4-group main effect on the mediator** (any condition differs): well-powered even at
+   modest per-cell N — a medium effect (Cohen's f = .25) reaches ~99% power at n=100/cell (400
+   total); even a small effect (f = .15) reaches 88% power at n=150/cell (600 total).
+2. **Planned contrast, neutral vs. disparate-impact, full mediation chain (H4-style serial
+   mediation through both mediators)**: needs more. Using Merola, Lum & Murphy (2018)'s own
+   observed trust-erosion effect (d = .33, **citation verified 2026-09-20** via Crossref, DOI
+   10.1007/s11292-018-9332-8, *Journal of Experimental Criminology*, 15(1), 55-66) as the a-path
+   and a moderate mediator-to-DV link (b = .40), n=150/cell (300 in the pairwise contrast) gives
+   ~75% power; n=200/cell reaches ~87%. A more conservative assumption (a = .20, b = .30) needs
+   n=300/cell for comparable power — the real target depends on how much this literature-informed
+   effect-size assumption is trusted.
+3. **Moderated first-stage interaction (baseline-trust-in-police × condition), the hardest to
+   power.** Realistic field-research interaction effect sizes are small (β ≈ .10-.20, per
+   McClelland & Judd 1993's general point that interactions are almost always smaller than main
+   effects — **citation verified 2026-09-20** via Crossref, DOI 10.1037/0033-2909.114.2.376,
+   *Psychological Bulletin*, 114(2), 376-390). At those sizes, even n=300-400/cell reaches only
+   50-70% power under a plain random sample, motivating the oversampling design below.
+
+**Oversampling design for the moderated interaction test.** Rather than a naive "screen and keep
+only the extremes" approach, this design follows the technique Preacher, Rucker, MacCallum, &
+Nicewander (2005, *Psychological Methods*, 10(2), 178-192, DOI 10.1037/1082-989x.10.2.178 —
+**citation verified 2026-09-20** via Crossref) identify, via McClelland & Judd (1993) and Pitts
+(1993), as the better alternative to the pure extreme-groups approach (EGA) for interaction/
+moderation power specifically: **oversample the tails of baseline trust in police while retaining a
+reasonable share of midrange respondents**, then analyze the moderator continuously rather than
+dichotomizing it — McClelland & Judd's own finding is that removing the middle entirely is "unwise"
+and that adding it back "can only increase power." **Note:** Pitts (1993) could not be
+independently verified via Crossref, Semantic Scholar, or OpenAlex this session (no matching DOI
+record found; likely an unpublished dissertation cited secondhand within Preacher et al. 2005) —
+flagged rather than treated as confirmed.
+
+- **Mechanics:** field a short baseline-trust-in-police screener to a broad initial pool, collect
+  each respondent's platform participant ID via a URL parameter, then build a follow-up invite list
+  weighted toward low- and high-trust scorers (not excluding the middle) and invite that list to
+  the full paid Study 2 instrument. Confirmed as a real, documented workflow on Prolific (a "custom
+  allowlist" screener keyed to prior-study participant IDs); not yet confirmed whether CloudResearch
+  supports an equivalent mechanic — check once the account exists.
+- **Reporting caveat for the eventual Results section:** oversampling inflates R² and standardized
+  effect sizes for the moderator test but does not bias unstandardized regression coefficients
+  (assuming linearity) — report the interaction in raw coefficient terms, not only standardized
+  effect size, and disclose the oversampling design explicitly to reviewers.
+- **Regression-to-the-mean risk:** someone extreme on trust at screening may not remain as extreme
+  by the time they take the main study — run the two waves close together in time to limit this.
+
+**Sampling consideration for H5** (prior distributive-surveillance-exposure, the paper's original
+locked first-stage moderator, distinct from the new baseline-trust-in-police moderator above):
+detecting this effect also requires real variance on that moderator. The design memo's
+recommendation to deliberately oversample respondents from communities with documented disparity
+patterns (e.g., Hampton Roads/Norfolk VA, or other DeFlock-trackable high-disparity deployment
+areas identified in the Study 1 corpus) remains unaddressed by the 2026-09-08 session's oversampling
+design above, which targets the baseline-trust moderator specifically — real geographic-sampling-
+frame work for H5 is still not done, and remains an open operational item.
 
 ### Procedure
 
-After electronic informed consent and screening (`Study2_Instrument_DRAFT_2026-08-27.md`, Sections
-1-2), participants are randomly assigned with equal probability to one of the two vignette
-conditions (Section 3) describing a fictitious city ("Meridian Falls") adopting an ALPR camera
-network, differing only in whether the network's data-sharing policy was disclosed and limited to
-local law enforcement (transparent condition) or included an undisclosed default allowing broader
-federal/out-of-state access (secret condition) (Section 4). A brief forced minimum-time-on-page
+**Revised 2026-09-20.** After electronic informed consent and screening
+(`Study2_Instrument_DRAFT_2026-08-27.md`, Sections 1-2), participants complete the **baseline
+trust in police** measure (Section 2b) before any exposure to the manipulation. Participants are
+then randomly assigned with equal probability to one of **four** vignette conditions (Section 3)
+describing a fictitious city ("Meridian Falls") adopting an ALPR camera network: neutral/baseline,
+safety-benefit, broad-network-access, or disparate-impact (Section 4) — replacing the original
+2-condition transparent-vs.-secret disclosure manipulation. A brief forced minimum-time-on-page
 delay discourages skimming, matching Tariff Paper's own instrument convention. Participants then
-complete manipulation-check and confound-check items (Sections 5-6), the Mediator 1 (procedural
-injustice), Moderator 1 (if the self-report branch is used), Mediator 2 (institutional trust), and
-Moderator 2 (crime-solving necessity) measures, the DV (opposition intention), and a demographics
-battery, before receiving a full debriefing (Sections 7-13). Estimated completion time is
-10-12 minutes, compensated at the panel's academic rate (target ~$12.00/hour, matching Tariff
-Paper's own rate — `notes/2026-08-21-irb-application-draft.md`, Compensation section).
+complete the shared manipulation-check item and confound-check items (Sections 5-6), the Mediator 1
+(procedural injustice), Moderator 1 (if the self-report branch is used), Mediator 2 (institutional
+trust), and Moderator 2 (crime-solving necessity) measures, the DV (opposition intention), and a
+demographics battery, before receiving a full debriefing (Sections 7-13). Estimated completion time
+is 10-12 minutes, compensated at the panel's academic rate (target ~$12.00/hour, matching Tariff
+Paper's own rate — `notes/2026-08-21-irb-application-draft.md`, Compensation section); exact rate
+on CloudResearch not yet separately confirmed.
 
 ### Measures
 
@@ -106,6 +182,13 @@ status for the Method write-up.
   tract data) or, as a fallback, a **single self-report item**
   (`Study2_Instrument_DRAFT_2026-08-27.md`, Section 8). Which branch is used is Britton's decision,
   not resolved by this draft.
+- **Baseline trust in police** (new pre-exposure moderator/covariate, added 2026-09-08, not part of
+  the original locked H1-H6 chain) has no validated published scale identified either; per
+  `notes/2026-09-08-four-arm-vignette-draft.md` it will use a short custom screener that doubles as
+  the oversampling mechanism above (see Sample size and power analysis). Item wording not yet
+  drafted. Motivated by Merola, Lum, & Murphy (2018)'s own future-research call regarding their
+  high-trust Fairfax County sample (**citation verified 2026-09-20**, DOI
+  10.1007/s11292-018-9332-8).
 
 **Verification status, stated plainly:** all four literature-sourced constructs above (Mediators 1
 and 2, Moderator 2, the DV) have been checked at the item-wording level against directly-pulled
@@ -115,9 +198,12 @@ verification tier as of this draft.
 
 ### Manipulation and Confound Checks
 
-Pass-fail criteria were set before piloting, not post hoc: a strong main effect of disclosure
-condition on both manipulation-check items, ≥80% correct recall per condition on the forced-choice
-item, and no significant between-condition difference on any confound-check item
+**Revised 2026-09-20:** the manipulation check is now a single shared 4-option item across all four
+conditions, which doubles as a cross-contamination check (`Study2_Instrument_DRAFT_2026-08-27.md`,
+Section 5; redesigned 2026-09-08, superseding the original per-condition forced-choice recall
+item). Pass-fail criteria were set before piloting, not post hoc: a strong main effect of condition
+on the continuous clarity item, ≥80% correct on the shared forced-choice item per condition, and no
+significant between-condition difference on any confound-check item
 (`notes/2026-08-19-instrument-adaptation-and-manipulation-checks.md`). Both checks are retained in
 the main study instrument for data-quality screening, not run only as a separate pretest — matching
 Tariff Paper's own practice.
@@ -137,16 +223,19 @@ instrument itself. If PLS-SEM is used, reliability/validity reporting will follo
 ### Pilot Testing
 
 **Not yet run.** The instrument document's scale items received a literature-grounded face-validity
-desk review (`notes/2026-08-20-face-validity-review-scale-items.md`); the vignette text received a
-separate face-validity desk review on 2026-08-27 that surfaced four concerns (a factual
-documentation error, a sentence-complexity mismatch between conditions, both conditions likely
-exceeding the instrument's stated ~8th-grade reading-level target, and a possible confound between
-Condition B's framing and perceived government incompetence — `notes/2026-08-27-webfetch-retry-and-study2-vignette-face-validity-review.md`).
-Two of these were mechanically fixed 2026-08-29 (see `notes/2026-08-29-vignette-mechanical-fixes-and-buildout.md`
-and `Study2_Instrument_DRAFT_2026-08-27.md` Section 4); the reading-level gap was reduced but not
-closed, and the government-incompetence confound question was deliberately left for Britton's
-judgment rather than resolved unilaterally. **None of this substitutes for an actual human pilot
-with real respondents**, which remains the single highest-priority step before fielding anything.
+desk review (`notes/2026-08-20-face-validity-review-scale-items.md`). The *original 2-condition*
+vignette text received a face-validity desk review on 2026-08-27 that surfaced four concerns (a
+factual documentation error, a sentence-complexity mismatch between conditions, both conditions
+likely exceeding the instrument's stated ~8th-grade reading-level target, and a possible confound
+between Condition B's framing and perceived government incompetence —
+`notes/2026-08-27-webfetch-retry-and-study2-vignette-face-validity-review.md`); two of these were
+mechanically fixed 2026-08-29. That design has since been **superseded by the 4-arm design**
+(2026-09-08), whose v2 wording was directly built with the reading-level lesson applied and
+measured via real Flesch-Kincaid checks (FK 7.6-9.7 across the four conditions, 2026-09-09 —
+`notes/readability_check_2026-09-09.py`), rather than inheriting the original design's unresolved
+13.7-14.9 gap. **None of this substitutes for an actual human pilot with real respondents**, which
+remains the single highest-priority step before fielding anything — no condition in either design
+has been pilot-tested with real respondents.
 
 ### Limitations (to carry into the eventual manuscript)
 
@@ -156,25 +245,40 @@ with real respondents**, which remains the single highest-priority step before f
 - Moderator 1's operationalization is not yet settled (archival vs. self-report), and the archival
   branch's feasibility (real data access to Flock deployment records or the DeFlock tracker at
   ZIP/tract granularity) has not been confirmed.
+- The new baseline-trust-in-police moderator has no validated published scale and will use an
+  unvalidated custom screener; item wording not yet drafted.
 - No validation pilot has been run on any measure with actual respondents; all face-validity work
-  to date is desk review against source text and general vignette-methodology principles, not
-  empirical piloting.
-- Single-manipulation design (as described above) tests disclosure as the sole experimental factor;
-  it does not test whether an explicit necessity-framing manipulation would interact with
-  disclosure, a question a factorial extension could address if Britton chooses that design instead.
+  to date is desk review against source text, real Flesch-Kincaid calculations, and general
+  vignette-methodology principles, not empirical piloting.
+- The 4-arm single-factor design (revised 2026-09-20) tests condition content as the sole
+  experimental factor; a wrongful-stop/accuracy-harm fifth arm was considered and dropped for cost
+  reasons, and it does not test an explicit necessity-framing manipulation crossed with condition,
+  which a factorial extension could address if Britton reconsiders that design instead.
+- Oversampling on baseline trust in police (for the moderated-interaction test) inflates R² and
+  standardized effect sizes for that test; unstandardized coefficients remain unbiased under
+  linearity, but this must be disclosed explicitly to reviewers.
 
 ---
 
 ## What still needs to happen before this section is submission-ready
 
-1. Britton's resolution of the three reserved design calls (archival-moderator feasibility,
-   single-manipulation vs. factorial, PLS-SEM vs. Hayes-PROCESS) — this draft is written to remain
-   accurate either way, but the final manuscript needs one committed answer per call.
-2. A real a priori power analysis to replace the N=500-800 placeholder, which depends on the
-   PLS-SEM-vs-PROCESS decision above.
-3. An actual human face-validity pilot of the vignette and scale items — still not run.
-4. IRB submission and approval (draft application exists — `notes/2026-08-21-irb-application-draft.md`
-   — not yet formally submitted).
-5. Resolution of the geographic-oversampling operational question (how to identify and recruit from
-   documented high-disparity-exposure communities through a panel platform) if Moderator 1's
-   archival branch is adopted.
+**Updated 2026-09-20 — see sync note at the top of this file.**
+
+1. Britton's resolution of the two remaining reserved design calls (archival-moderator feasibility,
+   PLS-SEM vs. Hayes-PROCESS) — this draft is written to remain accurate either way, but the final
+   manuscript needs one committed answer per call. The single-manipulation-vs.-factorial call is
+   now resolved (4-arm single-factor, 2026-09-08).
+2. Final target N — the Monte Carlo power analysis (2026-09-08) replaced the N=500-800 placeholder
+   with test-specific figures (see Sample size and power analysis above), but still depends on the
+   PLS-SEM-vs-PROCESS decision and which effect-size assumption is trusted.
+3. An actual human face-validity pilot of the 4-arm vignette and scale items — still not run.
+4. Baseline-trust-in-police screener item wording — not yet drafted.
+5. IRB submission and approval, covering both the pilot and CloudResearch main study (draft
+   application exists — `notes/2026-08-21-irb-application-draft.md` — not yet formally submitted;
+   Britton's 2026-09-08 call to defer this).
+6. Resolution of the geographic-oversampling operational question for H5 (how to identify and
+   recruit from documented high-disparity-exposure communities through a panel platform) if
+   Moderator 1's archival branch is adopted — distinct from, and still unaddressed by, the
+   2026-09-08 baseline-trust oversampling design.
+7. Confirmation of whether CloudResearch supports a Prolific-style custom-allowlist follow-up-invite
+   mechanic, needed for the baseline-trust oversampling design.
