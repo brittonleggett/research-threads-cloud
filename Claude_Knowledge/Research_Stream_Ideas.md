@@ -3542,3 +3542,111 @@ re-check the same ground:
   disclosure (FTC's rule and enforcement predate 2026, no new September development found).
 
 Ideas 1-42 were not individually rechecked for fresh developments tonight beyond the flags noted above.
+
+## 2026-09-21 — nightly scouting run (WebSearch and WebFetch this session; WebFetch worked cleanly
+against ftc.gov, used to directly verify the settlement details below). Read the README and did a
+header/section scan across all 42 prior entries before starting, plus a close read of last night's
+(09-20) entry, which named six areas already run to ground (data-center water disclosure, tariff-exempt
+beef, gambling-platform litigation, Louisiana AI legislation, electronic shelf labels, PBM litigation) —
+deliberately searched away from all six tonight. Checked several leads against the file's existing
+crowded clusters (tariffs: 9 entries; AI-ad/disclosure trust: 6; gambling: 3) before writing anything up.
+
+### 43. StubHub's concealed-conflict-of-interest and "false scarcity" ticket-market suits — a live,
+Louisiana-filed platform-neutrality-betrayal mechanism (moderate-high confidence — dated, Louisiana-
+specific, and undupicated at the concealed-bias/regulatory-disclosure level, though it sits adjacent to
+an existing scarcity-framing literature that needs an explicit differentiation, noted below)
+
+- **Gap/question:** does disclosure that a resale platform which markets itself as a neutral "fan-to-fan"
+  marketplace actually (a) has an undisclosed financial stake in the professional reseller operations
+  that supply its own inventory, and/or (b) advertises manufactured scarcity that is false relative to
+  the primary seller's own real-time, concurrently-available inventory, erode trust and shift purchase
+  behavior toward the primary/direct seller? Three real, independent legal actions converged on StubHub
+  in 2026: (1) the FTC's April 9, 2026 $10M settlement, confirmed by direct WebFetch of the FTC's own
+  press release, for violating its new Fees Rule by not disclosing total price on ticket listings, tied
+  specifically to purchases made May 12-14, 2025 (the Fees Rule's first two days in effect); (2) a July
+  13, 2026 federal class action (Sanquini v. StubHub Holdings Inc. and CEO Eric Baker) alleging StubHub
+  marketed itself as a neutral marketplace for individual fans while concealing Baker's ownership/
+  management role in Andro Capital, a professional ticket-reseller that itself supplies StubHub inventory,
+  plus financial/referral ties to an affiliate, Colloquy Capital; and (3) a September 10, 2026 lawsuit
+  filed in the U.S. District Court for the Eastern District of Louisiana by New Orleans venue The Howlin'
+  Wolf, alleging Lanham Act false advertising and violations of the Louisiana Unfair Trade Practices and
+  Consumer Protection Law over StubHub's facilitation of "spec" (speculative) selling — brokers listing
+  and selling non-existent "ghost tickets" before acquiring them from the primary seller. The complaint's
+  concrete example: for a September 7, 2026 Hot 8 Brass Band show in the venue's small "Den" room, all 100
+  general-admission tickets were available on Howlin' Wolf's own site for $20, while StubHub's listing
+  simultaneously claimed "Only 1% of tickets left" and advertised $76 tickets. That third suit is the
+  Louisiana-specific hook this file's standing preference favors, and it is genuinely fresh (11 days old
+  at the time of this search) and filed under Louisiana's own consumer-protection statute.
+- **Why tractable soon:** all three legal threads are live and unresolved as of tonight (the FTC
+  settlement's consumer-relief process is ongoing; Sanquini and Howlin' Wolf are both open federal
+  litigation with no resolution date), meaning a survey or vignette experiment fielded now captures
+  reaction to a genuinely current, still-unfolding controversy rather than a settled or recalled one.
+  Multiple independent trade-press sources (Music Business Worldwide, Pollstar, CelebrityAccess, Hypebot)
+  independently corroborate the Howlin' Wolf complaint's specific facts, and the FTC's own press release
+  (WebFetch-verified directly, not just WebSearch-summarized) confirms the settlement amount, date, and
+  underlying Fees Rule violation. A companion WebSearch for existing PLS-SEM or marketing-journal
+  treatment of platform-neutrality *betrayal* (as distinct from plain scarcity-framing perception) came
+  back empty.
+- **Important differentiation from existing literature (flagging honestly, not smoothing over):** a 2023
+  academic study ("10,000 Available or 10% Remaining: The Impact of Scarcity Framing on Ticket
+  Availability Perceptions in the Secondary Ticket Market," on NFL tickets) already treats numeracy-framed
+  scarcity messaging and its effect on perceived availability — so a study built purely around "scarcity
+  framing changes perception" would not be novel. The angle that *is* undupicated is narrower and sits one
+  level up: not scarcity-message framing itself, but the *discovery that a platform holding itself out as
+  a neutral intermediary has a concealed financial stake in the very supply it claims to broker fairly,
+  combined with scarcity claims that are demonstrably false against the primary seller's own concurrent,
+  publicly-visible inventory*. That is a platform-legitimacy/betrayal mechanism (closer to corporate-
+  hypocrisy and moral-outrage literatures than to scarcity-perception literature), and no PLS-SEM
+  treatment of it was found.
+- **Rough method sketch:** fits the antecedent → psychological mediator → outcome template. Antecedent:
+  exposure to disclosure of the platform's concealed financial stake in reseller supply and/or a
+  demonstrated scarcity-claim discrepancy against the primary seller's own listed inventory (vignette-
+  manipulated: disclosed-conflict-and-discrepancy vs. neither, using the real Howlin' Wolf/StubHub facts
+  as stimulus material). Mediator: perceived platform-neutrality betrayal / moral outrage (adaptable from
+  existing corporate-hypocrisy and consumer betrayal scales). Outcome: purchase intention on the resale
+  platform, intention to buy direct from the venue/primary seller instead, negative WOM, boycott
+  intention. Plausible moderator: parasocial attachment to the artist/venue (fans of small, independent
+  venues like Howlin' Wolf may react more strongly than arena/stadium-show buyers), or general skepticism
+  toward secondary ticket markets.
+- **Target venue:** Journal of Consumer Marketing or Journal of Public Policy & Marketing — the FTC Fees
+  Rule enforcement angle and the state (Louisiana) consumer-protection-statute angle give this a genuine
+  public-policy hook alongside the platform-trust marketing mechanism, similar in spirit to how idea 7
+  (tariff-surcharge non-reversal) pairs a marketing mechanism with an active regulatory/legal event.
+- Leads (WebFetch-verified: FTC press release; WebSearch-sourced, not independently fetched, for the
+  rest): [FTC — StubHub refunding $10 million after deceptive ticket pricing](https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing), [Music Business Worldwide — Howlin' Wolf sues StubHub over "false scarcity" ticket ads](https://www.musicbusinessworldwide.com/new-orleans-venue-the-howlin-wolf-sues-stubhub-over-false-scarcity-ticket-ads-citing-a-24-94-ticket-listed-at-76/), [Pollstar — New Orleans' Howlin' Wolf latest venue to sue StubHub citing "false scarcity" tactics](https://news.pollstar.com/2026/09/18/new-orleans-howlin-wolf-latest-venue-to-sue-stubhub-citing-false-scarcity-tactics/), [CelebrityAccess — NOLA's Howlin' Wolf sues StubHub over spec ticket sales](https://celebrityaccess.com/2026/09/15/nolas-howlin-wolf-sues-stubhub-over-spec-ticket-sales), [ClaimDepot — StubHub hid CEO's ticket reseller ties, new class action alleges](https://www.claimdepot.com/cases/stubhub-class-action-alleges-ceo-hid-ties-to-professional-ticket-resellers), [ResearchGate — "10,000 Available" or "10% Remaining" scarcity-framing study (2023, the adjacent-literature paper to differentiate from)](https://www.researchgate.net/publication/370136187_10000_Available_or_10_Remaining_The_Impact_of_Scarcity_Framing_on_Ticket_Availability_Perceptions_in_the_Secondary_Ticket_Market)
+
+Proposal only, per standing rule — nothing built, nothing committed to.
+
+### Checked tonight, no fresh anchor found (or already covered) — set aside without a full write-up:
+- **Cocoa/chocolate tariff price-surge consumer backlash** (retail chocolate prices staying elevated even
+  as raw cocoa futures fell ~60-70% off their 2024 peak in early 2026) — real and current, but on
+  inspection this is the same "rockets and feathers" asymmetric-price-stickiness mechanism as idea 7
+  (tariff-surcharge non-reversal), just instantiated through cocoa/chocolate instead of general retail
+  pricing; this file's 2026-08-29 entry already explicitly considered and set aside a near-identical
+  coffee/cocoa non-pass-through angle for the same reason.
+- **GLP-1/weight-loss-drug telehealth marketing (FDA's September 16, 2026 wave of 55+ warning letters to
+  compounded-GLP-1 sellers) and buy-now-pay-later regulation** — both real and current, but both were
+  already explicitly checked and ruled out earlier in this file (GLP-1 telehealth marketing: 2026-08-27,
+  a heavily-trodden decades-deep DTC-pharma-advertising literature; BNPL: 2026-08-25, weak Louisiana/
+  tariff/AI tie-in and an already-saturated fintech-disclosure literature) and re-confirmed as still
+  applicable tonight, not re-logged.
+- **Retail facial recognition for anti-theft (Macy's and Target BIPA/privacy class actions, Connecticut
+  and New York bill proposals, Wegmans' January 2026 disclosure)** — a real, live 2026 story with fresh
+  named defendants, but this file's 2026-08-30 entry already found a fairly active existing marketing-
+  academic literature on facial-recognition-payment adoption and a 2026 facial-recognition-plus-
+  neuromarketing systematic review, plus overlap with idea 11 (surveillance pricing); tonight's fresher
+  lawsuits (Macy's, Target) don't change that underlying saturation finding.
+- **AI-augmented qualitative research methods / thematic-analysis tooling** — searched specifically since
+  it's one of Britton's own named adjacencies, but found only tool-vendor roundups (Dovetail, Conveo,
+  CleverX, Notably, MAXQDA) and a couple of new academic method papers (GAATA, GATOS workflows) refining
+  AI-assisted coding technique — useful as literature for `TARIFF_PAPER`'s or `CCS_PAPER`'s own methods
+  sections, but no live controversy or regulatory hook of the kind this file's scouting brief is looking
+  for. Nothing to log as a new stream.
+- **Louisiana coastal/Mississippi River infrastructure (Mid-Barataria sediment diversion funding fight,
+  CPRA coastal master plan)** — real and Louisiana-specific, but on inspection this reads as environmental/
+  fiscal policy without a clear company-to-consumer marketing mechanism of the kind Britton's chain
+  template needs (no brand, no messaging antecedent, no consumer-facing claim) — closer to a stretch than
+  a genuine adjacency, similar to how PBM litigation was set aside on 2026-09-20 for the same reason.
+- **Venture Global CP2 LNG seafood-industry lawsuit (Louisiana fishers/processors, filed July 30, 2026)** —
+  real and dated, but this is Cameron Parish LNG-terminal opposition, which is already idea 3/3a's subject;
+  reads as corpus-refresh material for that already-logged idea, not a new stream.
