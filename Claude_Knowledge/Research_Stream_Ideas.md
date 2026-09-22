@@ -3650,3 +3650,125 @@ Proposal only, per standing rule — nothing built, nothing committed to.
 - **Venture Global CP2 LNG seafood-industry lawsuit (Louisiana fishers/processors, filed July 30, 2026)** —
   real and dated, but this is Cameron Parish LNG-terminal opposition, which is already idea 3/3a's subject;
   reads as corpus-refresh material for that already-logged idea, not a new stream.
+
+## 2026-09-22 — nightly scouting run (WebSearch and WebFetch this session; WebFetch worked cleanly against
+reason.com and a Yahoo News/AP-syndicated piece, both fetched directly and cross-checked against each
+other; a WebFetch attempt against ij.org returned a 403, so that source is cited via WebSearch snippet
+only, not independently read in full). Read the README and did a header/section scan across all 43 prior
+entries (all `### N.` headings) plus a close read of idea 43's full write-up as the most recent style
+reference before starting. Searched ALPR/Flock-adjacent news, AI-augmented market-research developments,
+Louisiana-specific consumer/marketing news, and meat-supply-chain/COO-labeling news as a breadth-first pass
+before committing verification time to the one candidate below.
+
+### 44. Flock Safety's selectively-presented "11% crime drop" study — a live vendor-efficacy-claim-spin
+exposure feeding directly into an active wave of city-council contract-renewal votes (moderate-high
+confidence — dated, well-corroborated across independent outlets, and mechanistically distinct from
+`FLOCK_CAMERAS_PAPER`'s own public-policy-framed opposition angle, though it needs an explicit
+differentiation from that project's scope since it's the same company)
+
+- **Gap/question:** on August 24, 2026, Flock Safety published a blog post ("Independent Study: Vehicle
+  Thefts Fell 11% After Flock Cameras Went Live," found via WebSearch, not independently fetched tonight)
+  promoting a working paper by criminologists Scott Mourtgos and Ian Adams (posted to CrimRxiv August 14,
+  2026; 216 agencies with Flock fixed cameras vs. 3,000+ comparison agencies, 2017-2023 data), headlining
+  an 11.0% decline in reported motor vehicle theft and a 15.9% rise in theft arrests. Confirmed via direct
+  WebFetch of a Reason.com analysis (Sept 18, 2026) and a Yahoo News/AP-syndicated piece, both citing the
+  underlying paper directly: the 11% figure only holds when the data are weighted toward higher-crime
+  agencies (unweighted/population-weighted results are not statistically significant), the paper's own
+  confidence interval was a wide -17.3% to -4.2%, clearance-rate increases began three months *before*
+  recorded camera-deployment dates (suggesting a confound, not a caused effect), there was no statistically
+  detectable improvement in actual vehicle-recovery speed, and the paper's entire section on "documented
+  histories of misuse" of camera databases was absent from Flock's own summary. This is a distinct object
+  from `FLOCK_CAMERAS_PAPER`'s current scope (public opposition to the *existence* of ALPR networks — ICE
+  data-access fights, racial-disparity findings, wrongful-stop harms, municipal rejection votes, explicitly
+  scoped to public-policy venues per the root README because "the central actors are government bodies, not
+  a company marketing to consumers"): the open question here is squarely about Flock *as a company making an
+  efficacy claim to a B2G buyer and the public* — does exposure of a vendor's selective, favorable-weighting
+  presentation of its own safety/efficacy data erode trust not just in the vendor's claims generally, but
+  specifically in the *local government body* that relied on those claims to justify a purchase or renewal,
+  and does that erosion predict opposition to contract renewal beyond whatever baseline surveillance/privacy
+  concern already exists?
+- **Why tractable soon:** this isn't a one-off story — it lands inside a live, actively-resolving national
+  wave of city-council ALPR contract decisions happening this month, independent of this specific study.
+  WebSearch tonight surfaced concrete, dated 2026 examples of councils voting to end or reconsider Flock
+  contracts explicitly over efficacy/trust concerns: Lynchburg, VA (voted to end its contract, Sept 3, 2026,
+  per WSLS); Pflugerville, TX (declined to renew, Aug 2026, per Community Impact); Shelton-Mason County, WA
+  (contract reconsideration, Aug 20, 2026); and a dedicated public contract-tracking site
+  ("Who Approved This," whoapprovedthis.org) and a "Finding Flock" contract-cancellation tracker exist
+  specifically because this fight is playing out council-by-council right now. A vendor's own efficacy
+  claim being publicly shown (via a named, credentialed set of criminologists' own working paper) to have
+  been selectively presented is exactly the kind of concrete, dated, stimulus-ready material a vignette
+  study needs, and it is actively feeding real votes rather than being a settled or historical dispute.
+- **Saturation check, done directly:** searched for existing empirical marketing/consumer-trust literature
+  on cherry-picked or selectively-weighted corporate statistics and found real adjacent work that doesn't
+  cover this mechanism directly. A Management Science paper ("Persuasion Through Selective Disclosure:
+  Implications for Marketing, Campaigning, and Privacy Regulation") models selective disclosure
+  game-theoretically (how much information a sender strategically reveals) but is not an empirical
+  trust-erosion study with human respondents. Trade-press commentary (UserEvidence) describes a broad B2B
+  "credibility crisis" from cherry-picked ROI statistics as a live industry problem, confirming the
+  practical phenomenon is real and recognized, but no PLS-SEM or experimental marketing study was found
+  testing whether *exposure of a specific vendor's statistical spin* erodes trust in a *third-party adopting
+  institution* (as opposed to just the vendor itself) — this reads as the genuinely open part of the
+  mechanism, distinct from general corporate-transparency and native-advertising-disclosure literatures
+  already covered elsewhere in this file (ideas 14/25/38/42's AI-ad-trust cluster, none of which are about
+  statistical-evidence spin specifically).
+- **Honest caveat:** this is the same company (Flock Safety) already at the center of an active project in
+  this repo, so Britton should treat this explicitly as a *distinct paper*, not a de facto extension of
+  `FLOCK_CAMERAS_PAPER` — the mechanism, audience, and venue are all different (a marketing-claims-integrity
+  study aimed at JPP&M/marketing readers vs. that project's public-policy opposition-typology study), but
+  reviewers may still ask why it isn't folded in, so the differentiation paragraph above should travel with
+  this idea if pursued. No Louisiana-specific instance of a Flock contract fight was found tonight
+  (unlike several of this file's other Louisiana-anchored entries) — a genuine gap in the sourcing, flagged
+  rather than papered over; this idea stands on its national currency and direct company-claim mechanism
+  instead.
+- **Rough method sketch:** fits the antecedent → psychological mediator → outcome template. Antecedent:
+  exposure to a vendor's efficacy claim as originally presented (headline stat, no caveats — modeled on
+  Flock's real blog post) vs. the same claim presented with its actual uncertainty/caveats disclosed
+  (modeled on the Reason/Mourtgos-Adams critique) vs. a spin-*exposure* condition (the claim plus a
+  journalistic finding that the vendor omitted known caveats). Mediator: perceived vendor statistical-
+  spin/deceptive-evidence-use (a construct distinct from general privacy concern or institutional distrust,
+  adaptable from corporate-hypocrisy and deceptive-advertising scales), tested against general institutional
+  trust as a comparison mediator. Outcome: support for the local government's continued contract/renewal
+  decision, perceived credibility of the vendor's *future* claims, and willingness to publicly comment/
+  oppose at a council meeting. Plausible moderator: prior attitude toward surveillance technology generally
+  (does spin-exposure move already-skeptical residents differently than previously-neutral or -supportive
+  ones) or general numeracy/statistical literacy.
+- **Human-subjects flag:** Study 1 as scoped (the CrimRxiv working paper, Flock's own blog post, independent
+  journalistic analyses, public council-meeting records/votes) is public-record content analysis, no IRB
+  concern. Any Study 2 vignette-survey work measuring real residents' trust/support judgments is primary
+  human-subjects data and would need IRB approval before proceeding — flagging per standing repo rule, not
+  proceeding past the idea stage.
+- **Target venue:** *Journal of Public Policy & Marketing* (matches this file's own reasoning for idea 40's
+  astroturfed-comments/legitimacy entry and for `DATA_CENTER_PAPER`/`CCS_PAPER`) as lead candidate;
+  *Public Administration Review* or *Journal of Business Ethics* as alternates given the institutional-
+  trust and corporate-honesty angles respectively.
+- Leads (WebFetch-verified: the Reason.com analysis and the Yahoo News/AP-syndicated piece; WebSearch-
+  sourced, not independently fetched, for the rest): [Reason — Analysis Casts Doubt on Claim That Flock Cameras Reduce Car Thefts (direct fetch)](https://reason.com/2026/09/18/the-shaky-evidence-that-flock-cameras-reduce-crime-rates/), [Yahoo News/AP — Flock Safety Claims an 11% Drop in Car Theft. Here's What It Left Out (direct fetch)](https://www.yahoo.com/news/us/articles/flock-safety-claims-11-drop-231500064.html), [Flock Safety — Independent Study: Vehicle Thefts Fell 11% After Flock Cameras Went Live](https://www.flocksafety.com/blog/independent-study-vehicle-thefts-fell-11-after-flock-cameras-went-live), [Institute for Justice — Do Flock cameras actually reduce crime? The jury is still out. (403 on direct fetch tonight, cited via WebSearch snippet only)](https://ij.org/do-flock-cameras-actually-reduce-crime-the-jury-is-still-out/), [WSLS — Lynchburg City Council votes to end Flock Safety contract amid surveillance concerns](https://www.wsls.com/news/local/2026/09/03/lynchburg-flock-camera-resolution/), [Community Impact — Pflugerville City Council votes to end Flock Safety contract](https://communityimpact.com/pflugerville-hutto/government/pflugerville-city-council-votes-to-end-flock-safety-contract/), [Who Approved This — Flock Contract Tracker](https://whoapprovedthis.org/), [INFORMS/Management Science — Persuasion Through Selective Disclosure: Implications for Marketing, Campaigning, and Privacy Regulation](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3455)
+
+Proposal only, per standing rule — nothing built, nothing committed to. This is the one new idea logged
+tonight.
+
+### Checked tonight, no fresh anchor found (or already covered) — set aside without a full write-up:
+- **Mandatory Country-of-Origin Labeling (MCOOL) advancing in the Senate Farm Bill (an amendment tied to
+  the American Beef Labeling Act cleared a key hurdle Sept 18-21, 2026, per DTN/Progressive Farmer and
+  KXEL)** — real, dated, and directly on-point, but this lands squarely inside `MEAT_SUPPLY_CHAIN_PAPER`'s
+  own already-stated live angle (COO disclosure, price-fairness attribution, per the root README) — it's
+  corpus-refresh material for that active project, not a new stream. Flagging for whoever next works that
+  project directly rather than logging it here.
+- **The "existential threat" of undetectable AI/bot survey respondents (Sean Westwood's autonomous
+  synthetic-respondent agent passing 99.8% of attention checks across 6,000 trials and evading every
+  detection method tested, per a PNAS piece found tonight, plus broader 2026 survey-fraud-crisis coverage)**
+  — real and alarming, but on inspection this is the same AI-in-market-research governance/trust crisis
+  idea 38 (the AI/synthetic-respondent disclosure gap) already covers in depth; the specific wrinkle that
+  fraud can now be fully undetectable strengthens idea 38's evidentiary base (a reason disclosure/policy
+  regimes matter more urgently) rather than describing a new antecedent-mediator-outcome mechanism of its
+  own — flagging as a sharper "why now" fact for whoever next develops idea 38, not logging as a separate
+  number.
+- **Louisiana Motor Vehicle Commission's May 2026 advertising-bulletin aligning state dealer-ad rules with
+  the FTC's CARS-rule-era guidance (fee-inclusive pricing disclosure)** — real, but dates to May 2026 (not
+  fresh this week), and reads as the same junk-fee/price-disclosure mechanism idea 11 already covers in
+  detail; no new September development found to justify a fresh entry, same call this file made on
+  electronic shelf labels on 2026-09-20.
+
+Ideas 1-43 were not individually rechecked for fresh developments tonight beyond the flags noted above —
+time went to the one new-idea search and its saturation/verification work, plus the three rule-out checks
+above.
