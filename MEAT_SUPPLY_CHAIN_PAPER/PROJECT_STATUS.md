@@ -635,6 +635,30 @@ instead:
 - Tyson $82.5M DPP settlement, idea 28's broader status, and literature-gap scouting: rechecked briefly,
   nothing new found; not re-worked in depth given the three items above.
 
+## 2026-09-22 research pass (see `NOTES/2026-09-22-agristats-pork-dpp-confirmation-mcool-vote-corroboration-litigation-recheck.md` for full detail)
+
+Tenth research session. Worked the four open items flagged 2026-09-19, in order:
+
+- **Pork DPP Agri Stats settlement: fully confirmed.** Fairness Hearing held Sept. 8, 2026 (D. Minn.,
+  Courtroom 14E); MLex's same-day report and the official settlement-notice site both confirm approval,
+  and the notice site's own FAQ language directly confirms the "no cash, conduct reforms only" terms —
+  closing the one residual gap (settlement terms not independently pulled) flagged 2026-09-19. The
+  written order's Sept. 10, 2026 docket-entry date (read 2026-09-19) is two days after the hearing, an
+  ordinary lag, not a contradiction.
+- **Tyson $82.5M DPP settlement**: reconfirmed unchanged — Nov. 12, 2026 Fairness Hearing, not yet
+  decided.
+- **MCOOL 17-6 vs. 16-7**: a fourth independent source (National Sustainable Agriculture Coalition's own
+  markup recap) states "Approved by roll call vote, 17-6" — further sharpening confidence toward 17-6.
+  The official committee record (agriculture.senate.gov, congress.gov) remains blocked after three
+  separate sessions trying different routes; C-SPAN's markup video page is now paywalled (HTTP 402).
+  Recommend no further automated-retry time on the official record.
+- **Farm bill floor vote**: still pending, no change; new context noted — the current farm bill
+  extension expires Sept. 30, 2026, adding time pressure.
+- **General litigation recheck**: DOJ's eight-retailer beef-price probe, the Smithfield/JBS pork
+  settlements, and the $117.065M Consumer IPP settlement's ~Dec. 11, 2026 hearing date were all
+  rechecked fresh — nothing new found beyond one additional secondary-source corroboration of the Dec.
+  11 date.
+
 ## Next actions (prioritized)
 
 1. **DONE 2026-09-05/2026-09-07/2026-09-08**: Erol & Saghaian (2022) resolved
@@ -746,3 +770,18 @@ instead:
     17-6/16-7 discrepancy now leans toward 17-6, though the committee's own record remains a genuine
     hard wall (agriculture.senate.gov 404, congress.gov 403, tried twice). See
     `NOTES/2026-09-19-pork-mdl-primary-docs-mcool-vote-doj-probe-corroboration.md`.
+13. **CONFIRMED 2026-09-22**: the pork Direct Purchaser Plaintiffs' Agri Stats settlement (surfaced as
+    item 12 above) is now fully closed out. The official settlement-notice site (porkantitrustlitigation.com)
+    confirms the Fairness Hearing was held **Sept. 8, 2026** (Courtroom 14E, D. Minn.) and states in its
+    own words there is **no cash to the class — conduct reforms only** (removes participant lists, stops
+    sales reports if Agri Stats ever resumes pork reports); MLex's Sept. 8, 2026 same-day report
+    independently confirms approval was granted that day. The written order (Doc. 3472, already read
+    2026-09-19) was entered on the docket two days later, Sept. 10, 2026 — an ordinary hearing-then-order
+    lag, not a discrepancy between sources. **MCOOL 17-6 vote count further corroborated**: a fourth
+    independent source (National Sustainable Agriculture Coalition's own markup recap, not news-wire
+    syndication) states directly "Approved by roll call vote, 17-6." The official committee record
+    remains unreachable by this environment's tooling after three separate sessions (09-17/09-19/09-22)
+    trying different routes — recommend no further automated-retry time on it. Tyson $82.5M DPP hearing
+    (Nov. 12, 2026) and the farm bill's floor-vote timeline (still pending, extension expires Sept. 30,
+    2026) both reconfirmed unchanged. See
+    `NOTES/2026-09-22-agristats-pork-dpp-confirmation-mcool-vote-corroboration-litigation-recheck.md`.
