@@ -30,6 +30,79 @@ C = existence-confirmed but content not yet extracted.
 | 6h | Louisiana Illuminator | "Louisiana launches immunity law to lure aerospace companies" — HB1098's 33-3 Senate passage; names a 2026-05-01 Texas Tribune-reported Boca Chica-area homeowner lawsuit over rocket-shock home damage as the claim type the bill immunizes against in Louisiana; quotes Sen. Luneau (opposing) and Sen. Connick ("No other state gives immunity away like we just did"); confirms a companion public-records exemption for aerospace company records | 2026-05-29 | A (fetched directly via proxy) | [lailluminator.com/2026/05/29/aerospace-immunity-law](https://lailluminator.com/2026/05/29/aerospace-immunity-law/) |
 | 6i | The Current (Lafayette) | "What does SpaceX's legal shield mean for Vermilion Parish residents?" — names Act 874 + companion Act 343 (HB1250, blocks injunctions/enables early dismissal of nuisance suits with fee-shifting); quotes attorney Bill Goodell calling both acts likely unconstitutional and a "double shield" (IDB of Vermilion Parish holds spaceport land under long-term lease); explicitly links the state liability shield's FAA-license-violation exception to the pending federal waiver fight (row 5) | 2026-08-31 | A (fetched directly via proxy) | [thecurrentla.com/.../what-does-spacexs-legal-shield-mean...](https://thecurrentla.com/2026/what-does-spacexs-legal-shield-mean-for-vermilion-parish-residents/) |
 
+## Update — 2026-09-23 (see notes/2026-09-23-sb1198-enrolled-text-cah-docket-and-literature-refresh.md)
+
+- **Row 16 (SB 1198) — enrolled statutory text now directly read, and an important legal-mechanism
+  correction.** The enrolled bill text (`capitol.texas.gov/tlodocs/89R/billtext/html/SB01198F.htm`,
+  fetched directly via `curl`) confirms SB 1198 amends **Government Code § 424.001** — a chapter
+  titled "Damaging or Destroying Critical Infrastructure Facility" (§424.051, third-degree felony)
+  and "Impairing or Interrupting Operation of Critical Infrastructure Facility" (§424.052, state
+  jail felony) — **not** Penal Code § 30.05, the more commonly-cited misdemeanor criminal-trespass
+  statute. Penal Code § 30.05 has its **own, separate** "critical infrastructure facility"
+  definition (§30.05(b)(7): chemical plants, refineries, power plants, water/wastewater facilities,
+  gas compressor stations, LNG terminals, telecom switching offices, ports/rail/trucking terminals,
+  gas processing plants, broadcast transmission facilities) that SB 1198 did **not** amend and that
+  does **not** include spaceports. This means SB 1198 raises the criminal exposure specifically for
+  **damaging/destroying or impairing/interrupting** a spacecraft launch/landing/recovery/testing
+  facility (felony-level), not for the act of mere unauthorized **entry** onto one (which stays
+  governed by Penal Code 30.05's unchanged, narrower definition). This is a real nuance for row 16's
+  existing note that SOTXEJN's July 2026 post frames this as "entering the town 'could' mean felony
+  arrest exposure" — that characterization is not cleanly supported by the amended statute's actual
+  mechanism as read tonight; it may rest on a different provision, a broader reading, or context not
+  captured in this project's prior notes. Flagging as an open nuance, not a correction of SOTXEJN's
+  own statement (their full post was not re-read tonight to check for a fuller explanation). See the
+  dated note for the full verbatim enrolled text and the Government Code / Penal Code cross-reference
+  chain (423.0045(a)(1-a) as the base list, both fetched directly from FindLaw's codified-statute
+  pages).
+- **Row 20 (Cards Against Humanity v. SpaceX) UPGRADED A-minus → A.** The actual 21-page Original
+  Petition was located and fetched directly (hosted by CAH's own campaign site,
+  `cah-sues-elon-musk.s3.amazonaws.com`) and read in full. Confirms: Cause No. **2024-DCL-05445**,
+  Cameron County District Clerk (Laura Perez-Reyes), **404th District Court**; filed 9/19/2024 6:36
+  PM; plaintiff's counsel Kenneth E. McKay (McKay Law Offices, Bellaire, TX); four causes of action
+  (trespass, nuisance, unjust enrichment, tortious interference with existing/prospective business
+  relationships) plus a jury demand; damages pleaded "up to" $15,000,000 plus exemplary damages,
+  attorney's fees, and a permanent injunction; property legally described as **Lot 11, Block 4,
+  Tarpon Haven Subdivision, Cameron County** (matches Bellingcat's satellite-imagery parcel
+  identification). The petition itself states SpaceX's use of the property had gone on "for at least
+  six (6) months" as of the Sept. 2024 filing (i.e., roughly since spring 2024) — a modest date
+  discrepancy worth flagging against Bellingcat's independent finding of construction activity
+  beginning around June 2023; not necessarily contradictory (the petition's "six months" describes
+  the more intensive construction-storage use CAH is suing over specifically, not first detectable
+  activity), but not identical either. The presiding judge (Ricardo M. Adobbati, per a Trellis.law
+  case-page WebSearch snippet) and the case's docket entries/settlement-filing date were **not**
+  independently verified tonight — Trellis.law, law.justia.com, codes.findlaw.com's case pages, and
+  `research.txcourts.gov` (re:SearchTX) all returned Cloudflare/403 blocks to both direct `curl` and
+  the `r.jina.ai` proxy; Cameron County's state-court docket remains structurally inaccessible to
+  this session's tooling, consistent with every prior session's finding. Treat the judge's name as
+  B-tier (search-summary only) pending independent confirmation.
+- **New row 21**: City of Starbase's own police department (Ordinance OR 2026-4, "Establishing the
+  Starbase Police Department," confirmed directly from the city's own `starbase.texas.gov/ordinances`
+  page) — approved by the SpaceX-staffed City Commission Feb. 3, 2026, after a $3.5M/5-year Cameron
+  County Sheriff's Office law-enforcement contract broke down (county couldn't recruit deputies
+  because the assignment carried no civil-service job protection, per Sheriff Manuel Treviño's own
+  on-record quote). City Administrator Kent Myers, on record: "There is a lot of assets here with the
+  operations of SpaceX... those assets need to be protected, and so the police department will play a
+  critical part in protecting those assets." Directly extends row 17's incorporation-election finding
+  (SpaceX employees running the municipal government) into a second, sharper regulatory-capture data
+  point: the same company-staffed government now runs its own law enforcement. Tier A (KVEO-TV/
+  ValleyCentral news article, published 2026-02-04, fetched via `r.jina.ai` proxy after a direct 403;
+  city's own ordinances page fetched directly).
+- **New row 22**: SpaceX's own application for Texas's Enterprise Zone Program sales-tax-refund
+  incentive (via the City of Starbase, whose three-member Commission includes two SpaceX employees) —
+  two projects (GigaBay, a $506M investment, and an unnamed expansion, $480M), each seeking up to
+  $3.75M in state sales-tax refunds (up to $7.5M combined), tied to a "Triple Jumbo Project"
+  designation requiring $250M+ capital investment. Construction on the GigaBay project began in April
+  2025, before the state application was filed — Good Jobs First researchers Kristan Wong Karinen and
+  Kasia Tarczynska are quoted directly questioning whether a company already operating in the area,
+  already under construction, meets the incentive program's own "would not have happened without it"
+  logic ("By already having this company within that town, and then retroactively giving it
+  subsidies, it doesn't meet the definition of an incentive"). This is a sharp, directly on-point
+  primary source for the paper's economic-benefit-claim-specificity/additionality frame — a named,
+  credentialed critique of the incentive's own logic, not just opposition sentiment. Tier A (Texas
+  Tribune reporting by Berenice Garcia, republished by KVEO-TV/ValleyCentral 2026-01-29, fetched via
+  `r.jina.ai` proxy after a direct 403).
+- No theory chain, coding scheme, or Study 1 option decided — same standing rule as before.
+
 ## Update — 2026-09-20 (see notes/2026-09-20-reuters-search-exhausted-and-cards-against-humanity-critical-infrastructure-added.md)
 
 - **New row 20**: *Cards Against Humanity v. SpaceX* (Cameron County District Court, 404th District,

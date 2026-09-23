@@ -3772,3 +3772,55 @@ tonight.
 Ideas 1-43 were not individually rechecked for fresh developments tonight beyond the flags noted above —
 time went to the one new-idea search and its saturation/verification work, plus the three rule-out checks
 above.
+
+## 2026-09-23 — scouting folded into a `SPACEX_LOUISIANA_PAPER` deep-dive session (WebSearch and WebFetch
+this session; WebFetch worked cleanly against some sites, was blocked/403'd on several legal-database
+domains — trellis.law, law.justia.com, codes.findlaw.com, research.txcourts.gov — worked around via direct
+`curl` or the `r.jina.ai` reader proxy elsewhere)
+
+Per tonight's task brief, most of this session's time went to `SPACEX_LOUISIANA_PAPER`'s own open items
+(see `SPACEX_LOUISIANA_PAPER/notes/2026-09-23-sb1198-enrolled-text-cah-docket-and-literature-refresh.md`),
+with a shorter broader-scouting pass folded in per the standing nightly-rotation convention. Checked ideas
+1-44 first (most recent: #44, Flock Safety efficacy-claim spin, logged 2026-09-22) to avoid duplicating.
+
+**No new idea is being logged tonight.** Several leads were checked and ruled out or set aside rather than
+force a weak entry:
+
+### Checked tonight, no fresh anchor found (or already covered) — set aside without a full write-up:
+- **Louisiana ratepayer/gas-plant cost fight (Entergy's proposed $4.1B in new gas plants; EDF's expert
+  testimony that Entergy hasn't shown these are the lowest-cost/lowest-risk option, raising the risk
+  ratepayers get stuck paying for capacity built for industrial/data-center demand that may not fully
+  materialize)** — real, dated (reporting from August 2026), and squarely Louisiana energy-infrastructure
+  territory, but this is the same ratepayer-cost-shifting mechanism this file's own idea 1a (data-center
+  grid-buildout cost allocation) already covers in depth — a corpus-refresh lead for whoever next develops
+  that thread, not a new stream.
+- **General 2026 "corporate claims vs. consumer trust" trend coverage** (PwC's Global CEO/consumer trust-
+  perception-gap survey, Gen-Z sustainability-claim skepticism stats, insurance-industry and AI-adoption
+  trust-gap trade pieces) — real background material confirming the broader phenomenon is live and
+  widely tracked, but none of it names a single dated, tractable, siting- or claims-specific controversy
+  with a concrete antecedent-mediator-outcome mechanism distinct from what this file's existing entries
+  (14/25/38/40/42/44's cluster) already cover — too diffuse to log as its own numbered idea.
+- **AI-in-qualitative-research disclosure/methods literature** (a September 2026 pilot study testing
+  whether GPT-5 can reliably assess qualitative-research reporting quality, plus general 2026 commentary
+  on AI-assisted qualitative workflows and journal AI-disclosure policies) — genuinely current, but this
+  is background methods literature, not a live, dated news-anchored gap of the kind this file's entries
+  are built around; also overlaps idea 38's AI/synthetic-respondent disclosure-gap thread already logged.
+- **"Self-incorporated company town grants itself state tax incentives for its own founding employer"**
+  (surfaced while working `SPACEX_LOUISIANA_PAPER` tonight — the City of Starbase, TX, whose governing
+  Commission includes two SpaceX employees, both formed its own police department after a county
+  law-enforcement contract fell through, and separately nominated SpaceX projects for a state Enterprise
+  Zone sales-tax refund) — real, well-documented, and a sharp regulatory-capture data point, but this is
+  the *same* company/case already central to an active project in this repo (`SPACEX_LOUISIANA_PAPER`),
+  and it's a deepening of that paper's own already-established regulatory-capture thread (row 17 in its
+  corpus table, the incorporation election) rather than a distinct paper-level mechanism, audience, or
+  venue — logged directly into that project's corpus table and notes instead of here (see rows 21-22,
+  `SPACEX_LOUISIANA_PAPER/Study1_Corpus_and_Coding_DRAFT_2026-08-27.md`), matching how the root README's
+  nightly-rotation guidance treats project-specific corpus material versus a genuinely new stream.
+- **September 2026 tariff/trade news** (US-China talks ahead of a Trump-Xi summit, Section 338 Canada
+  tariffs, AGOA extension, a new CBP low-value-mail entry process) — active and real, but general trade-
+  policy tracking rather than a new consumer-marketing-behavior mechanism distinct from `TARIFF_PAPER`'s
+  own existing scope or this file's prior tariff-adjacent entries (28, 39, 41).
+
+Ideas 1-44 were not individually rechecked for fresh developments tonight beyond the flags noted above —
+this was a shorter pass than a dedicated scouting night, per the task brief's instruction to fold it in
+around the `SPACEX_LOUISIANA_PAPER` deep-dive rather than treat it as the session's primary focus.
