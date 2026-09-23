@@ -21,6 +21,10 @@ single-manipulation-vs.-factorial call (the actual answer was neither original o
 the archival-vs.-self-report and PLS-SEM-vs.-Hayes-PROCESS calls open, unchanged. Sections below are
 updated to match; `Study2_Instrument_DRAFT_2026-08-27.md` was synced the same session.
 
+**2026-09-23 addition (AI-drafted, under the standing exception):** the baseline-trust-in-police
+screener item wording (Measures below), previously flagged "not yet drafted," is now drafted — see
+`notes/2026-09-23-baseline-trust-screener-pitts-citation-and-municipal-wave-verification.md`.
+
 ---
 
 ## Study 2: Method
@@ -104,10 +108,16 @@ Nicewander (2005, *Psychological Methods*, 10(2), 178-192, DOI 10.1037/1082-989x
 moderation power specifically: **oversample the tails of baseline trust in police while retaining a
 reasonable share of midrange respondents**, then analyze the moderator continuously rather than
 dichotomizing it — McClelland & Judd's own finding is that removing the middle entirely is "unwise"
-and that adding it back "can only increase power." **Note:** Pitts (1993) could not be
-independently verified via Crossref, Semantic Scholar, or OpenAlex this session (no matching DOI
-record found; likely an unpublished dissertation cited secondhand within Preacher et al. 2005) —
-flagged rather than treated as confirmed.
+and that adding it back "can only increase power." **Pitts (1993) citation now verified 2026-09-23**
+by reading Preacher et al. (2005)'s own reference list directly (open-access author PDF,
+quantpsy.org, text-extracted and checked): **Pitts, S. C. (1993). The utility of extreme groups
+analysis to detect interactions among correlated predictor variables. Unpublished master's thesis,
+Arizona State University, Tempe.** Confirms this session's standing inference that it was an
+unpublished, secondhand-cited source (a master's thesis, specifically, not a dissertation as
+previously guessed) — this is exactly why no Crossref/OpenAlex/Semantic Scholar record exists; it
+was never published. Correctly cited here as a secondary citation (Pitts, 1993, as cited in
+Preacher, Rucker, MacCallum, & Nicewander, 2005), which is standard practice for an unpublished,
+unobtainable primary source.
 
 - **Mechanics:** field a short baseline-trust-in-police screener to a broad initial pool, collect
   each respondent's platform participant ID via a URL parameter, then build a follow-up invite list
@@ -183,12 +193,20 @@ status for the Method write-up.
   (`Study2_Instrument_DRAFT_2026-08-27.md`, Section 8). Which branch is used is Britton's decision,
   not resolved by this draft.
 - **Baseline trust in police** (new pre-exposure moderator/covariate, added 2026-09-08, not part of
-  the original locked H1-H6 chain) has no validated published scale identified either; per
-  `notes/2026-09-08-four-arm-vignette-draft.md` it will use a short custom screener that doubles as
-  the oversampling mechanism above (see Sample size and power analysis). Item wording not yet
-  drafted. Motivated by Merola, Lum, & Murphy (2018)'s own future-research call regarding their
-  high-trust Fairfax County sample (**citation verified 2026-09-20**, DOI
-  10.1007/s11292-018-9332-8).
+  the original locked H1-H6 chain). **Item wording drafted 2026-09-23**: rather than a new,
+  unvalidated custom screener, this reuses the same validated 4-item Trust in Police subscale already
+  sourced for Mediator 2 — Reisig, Bratton, & Gertz (2007, *Criminal Justice and Behavior*, 34(8),
+  1005-1028; DOI `10.1177/0093854807301275`, re-confirmed via Crossref 2026-09-23) — administered
+  pre-exposure with the source's original general-community referent ("police in your community"),
+  not the camera-network-specific referent used post-exposure in Mediator 2, both to fit the
+  pre-exposure flow (participants haven't yet been told about Meridian Falls or its camera network)
+  and to avoid a repeated-item demand effect. Full item text and scoring in
+  `Study2_Instrument_DRAFT_2026-08-27.md`, Section 2b. A targeted search this session for a
+  purpose-built short-form trust-in-police screener (distinct from the full scales already in this
+  project) did not surface one; reusing an already-verified field-tested subscale was judged more
+  defensible than constructing new items. Motivated by Merola, Lum, & Murphy (2018)'s own
+  future-research call regarding their high-trust Fairfax County sample (**citation verified
+  2026-09-20**, DOI 10.1007/s11292-018-9332-8).
 
 **Verification status, stated plainly:** all four literature-sourced constructs above (Mediators 1
 and 2, Moderator 2, the DV) have been checked at the item-wording level against directly-pulled
@@ -245,8 +263,9 @@ has been pilot-tested with real respondents.
 - Moderator 1's operationalization is not yet settled (archival vs. self-report), and the archival
   branch's feasibility (real data access to Flock deployment records or the DeFlock tracker at
   ZIP/tract granularity) has not been confirmed.
-- The new baseline-trust-in-police moderator has no validated published scale and will use an
-  unvalidated custom screener; item wording not yet drafted.
+- The new baseline-trust-in-police moderator now reuses a validated published scale (Reisig,
+  Bratton & Gertz 2007's Trust in Police subscale) rather than an invented custom screener
+  (drafted 2026-09-23); still not piloted with real respondents.
 - No validation pilot has been run on any measure with actual respondents; all face-validity work
   to date is desk review against source text, real Flesch-Kincaid calculations, and general
   vignette-methodology principles, not empirical piloting.
@@ -272,7 +291,8 @@ has been pilot-tested with real respondents.
    with test-specific figures (see Sample size and power analysis above), but still depends on the
    PLS-SEM-vs-PROCESS decision and which effect-size assumption is trusted.
 3. An actual human face-validity pilot of the 4-arm vignette and scale items — still not run.
-4. Baseline-trust-in-police screener item wording — not yet drafted.
+4. Baseline-trust-in-police screener item wording — **drafted 2026-09-23** (reused Reisig, Bratton
+   & Gertz 2007 subscale, general referent). Still not piloted.
 5. IRB submission and approval, covering both the pilot and CloudResearch main study (draft
    application exists — `notes/2026-08-21-irb-application-draft.md` — not yet formally submitted;
    Britton's 2026-09-08 call to defer this).

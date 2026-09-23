@@ -34,6 +34,12 @@ framing manipulation, but a single-factor 4-level (4-arm) manipulation directly 
 candidate themes. Calls #1 (archival vs. self-report Moderator 1) and #3 (PLS-SEM vs. Hayes-PROCESS)
 remain open, unchanged.
 
+**2026-09-23 addition (AI-drafted, under the standing exception):** Section 2b's baseline-trust-in-
+police screener item wording, previously flagged "not yet drafted," is now drafted below — a reused,
+general-referent version of the same Reisig, Bratton & Gertz (2007) Trust in Police subscale already
+sourced for Mediator 2, not a new instrument. See `notes/2026-09-23-baseline-trust-screener-pitts-
+citation-and-municipal-wave-verification.md` for the full rationale and citation re-verification.
+
 ---
 
 ## 1. Consent
@@ -81,12 +87,54 @@ rather than freshly confirmed) likely produced a conservative estimate of their 
 awareness-to-trust-erosion effect; they explicitly suggested testing this across communities with
 varying baseline trust, which this design's national CloudResearch sampling frame is suited to.
 
-No validated multi-item published scale for this specific construct was located; per the 09-08
-note, a short trust-in-police screener item set (not yet drafted in this document) will double as
-(a) the baseline-trust covariate/moderator measure and (b) the oversampling screener described in
-`Study2_Methods_Section_DRAFT_2026-08-29.md`'s Sampling section. **Not yet drafted as specific
-item wording** — flagged here as the concrete next step for this construct, rather than inventing
-item wording without a source.
+**Item wording drafted 2026-09-23** (AI-drafted, under the standing exception; not yet reviewed by
+Britton or piloted). No validated multi-item scale built specifically for a *pre-exposure baseline
+trust screener* was located in a fresh search this session (WebSearch for a purpose-built "brief
+trust-in-police screener" in the Tyler procedural-justice tradition turned up general trust-in-
+police literature — Sunshine & Tyler 2003; Tyler's process-based-policing program generally — but
+no separate short-form instrument distinct from the full scales already in this project). Rather
+than construct new, unvalidated items for this purpose, this draft **reuses the same validated
+4-item Trust in Police subscale already sourced for Mediator 2** — Reisig, Bratton, & Gertz (2007),
+*Criminal Justice and Behavior*, 34(8), 1005-1028, Table 2, p. 1014 (real item wording transcribed
+directly from the source article via Ole Miss/SAGE access, `notes/2026-08-16-scale-sourcing.md`).
+**Citation re-verified via Crossref this session (2026-09-23):** DOI `10.1177/0093854807301275`,
+confirmed real (authors, journal, volume/issue/pages, and abstract all match).
+
+This is a deliberate design choice, not a default: reusing an already-verified, field-tested scale
+avoids inventing a new instrument for the sake of brevity, and administering the same underlying
+construct before and after the manipulation is a standard pretest-posttest logic that also supports
+a change-score analysis if Britton wants one later (not part of the locked H1-H6 chain, an optional
+extension). **The referent is kept as the source article's original general-community wording**
+("police in your community"), not adapted to "the police department [running the camera network]"
+the way Mediator 2's post-exposure version is (Section 9 below) — this is necessary, not just
+stylistic: at this point in the flow the participant has not yet been told about Meridian Falls, its
+police department, or any camera network, so a department/camera-specific referent would not make
+sense pre-exposure. Using the general referent here and the camera-network-specific referent
+post-exposure also avoids an obvious repeated-item demand effect ("didn't I just answer this?").
+4-point scale (1 = strongly disagree, 4 = strongly agree), same format as the source and as
+Mediator 2:
+
+1. Police in your community have too much power. *(reverse-scored)*
+2. People's basic rights are well protected by the police.
+3. The police can be trusted to make decisions that are right for your community.
+4. Most police officers in your community do their job well.
+
+Scored as the mean (or sum) of the four items after reverse-coding item 1, producing a continuous
+baseline-trust score — matching the "analyze as continuous, don't dichotomize into low/high groups"
+recommendation from the McClelland & Judd (1993)/Preacher et al. (2005) oversampling design
+(`notes/2026-09-08-four-arm-vignette-draft.md`). This continuous score is what both (a) the H3
+moderator analysis and (b) the oversampling screener/follow-up-invite mechanism
+(`Study2_Methods_Section_DRAFT_2026-08-29.md`, Sampling section) would use. **All four items kept
+intact rather than trimmed to fewer items for screener brevity** — the full subscale is already
+short (a few minutes at most), and cutting a validated scale down ad hoc to save time would itself
+be an unvalidated modification; not done here.
+
+**Not yet piloted, not yet reviewed by Britton** — same standing caveat as every other item in this
+document. This closes the "not yet drafted" flag from the 09-20 note's "still open" list, but does
+not resolve either of the two items still reserved for Britton (archival vs. self-report Moderator
+1; PLS-SEM vs. Hayes-PROCESS) — this is instrument content only, within the scope of the 2026-08-16
+Phase 3/build-out exception, not a new theory-chain, mediator, or moderator decision (the moderator
+itself was already decided 2026-09-08).
 
 Direction of this moderation is treated as an open empirical question (could attenuate via a floor
 effect, or amplify via a confirmation-bias-style effect), not assumed in either direction.
@@ -373,8 +421,9 @@ information (real, not placeholder, per that note — confirm current before use
 3. **Actual piloting** — the 4-arm vignette text (Section 4) has a real, measured Flesch-Kincaid
    check (FK 7.6-9.7, near the 8th-grade target) but **no human pilot yet**, same standing gap as
    the original design. This remains the single highest-priority item before fielding anything.
-4. **Baseline-trust-in-police item wording** (Section 2b) — not yet drafted; needed both as the
-   pre-exposure moderator measure and as the oversampling screener.
+4. **Baseline-trust-in-police item wording** (Section 2b) — **drafted 2026-09-23** (reused,
+   general-referent version of the already-verified Reisig, Bratton & Gertz 2007 Trust in Police
+   subscale, DOI re-confirmed via Crossref). Still not piloted or reviewed by Britton.
 5. **Exploratory race-composition item and "lower-income only" wording variant** (flagged in
    Section 4) — recommended for the pilot, neither built yet.
 6. **Platform build** — this is a content-order document, not a configured Qualtrics/panel-vendor
