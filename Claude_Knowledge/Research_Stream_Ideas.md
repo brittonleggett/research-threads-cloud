@@ -3824,3 +3824,73 @@ force a weak entry:
 Ideas 1-44 were not individually rechecked for fresh developments tonight beyond the flags noted above —
 this was a shorter pass than a dedicated scouting night, per the task brief's instruction to fold it in
 around the `SPACEX_LOUISIANA_PAPER` deep-dive rather than treat it as the session's primary focus.
+
+## 2026-09-24 — nightly scouting run, folded in after a `GAMBLING_SOCIAL_COST_PAPER` deep-dive session
+(WebSearch this session; WebFetch 403'd on courtlistener.com and sbcamericas.com, worked around via direct
+`curl` for the former only, tonight's gambling-project work, not this scouting pass)
+
+Read this file's header/section scan across all 44 prior entries before starting, with close reads of
+ideas 15, 18, and their "checked and set aside" notes specifically (the categories closest to tonight's
+leads) to avoid duplicating either the mechanism or the venue reasoning already on record. Checked breadth
+-first across all six adjacent categories named in the task brief: tariffs, data centers, AI-augmented
+qualitative-research methods, Louisiana energy/infrastructure, gambling/prediction markets, and meat
+supply chain/COOL.
+
+**No new idea is being logged tonight** — one lead (below) was checked in real depth and set aside for a
+specific, stated reason rather than forced in; the rest were weaker and are logged only as brief flags.
+
+### Checked in depth, set aside — Sen. John Curtis's Sept 21, 2026 call to subpoena Donald Trump Jr. over his simultaneous paid-advisory/equity ties to *both* Kalshi and Polymarket
+Real and freshly dated: in a Sept. 21, 2026 letter to the Senate Judiciary Committee (Grassley/Durbin),
+Utah Sen. John Curtis asked that Trump Jr. be subpoenaed over "significant financial and advisory ties to
+prediction market platforms that depend on favorable federal regulatory decisions being considered by the
+[CFTC]" — Trump Jr. holds a paid advisory role and received equity at Kalshi, and is also an advisor and a
+partner at 1789 Capital, which committed $300M to a recent Polymarket funding round (confirmed via
+Washington Times, Axios, Daily Caller, and sportsbettingdime.com/sbcamericas coverage, all independently
+reporting the same letter and the same dual-platform-stake facts; sbcamericas' own article 403'd on direct
+WebFetch, so it's cited via search-snippet/other-outlets' corroboration, not independently read in full).
+The mechanism this suggested — does disclosure that a politically-connected insider profits from *both*
+sides of a regulated marketplace's competition (not just one favored firm) uniquely undermine consumers'
+and the public's belief in market competition as an accountability check, beyond an ordinary single-sided
+conflict-of-interest disclosure — is a real, distinct wrinkle from anything already in this file, and it
+sits directly adjacent to `GAMBLING_SOCIAL_COST_PAPER`'s own live CFTC/Kalshi/Arizona preemption-litigation
+thread (see that project's `notes/2026-09-24-arizona-docket-connecticut-primary-source-scouting.md` from
+tonight) and to idea 15's prediction-market regulatory-gap angle here. **Set aside anyway, after a
+saturation check**: conflict-of-interest disclosure's effects on trust is already a substantial, mature
+empirical literature — Sah, Loewenstein & Cain's "insinuation anxiety"/advisor-disclosure work, a
+well-known "conflict of interest disclosures inspire misplaced trust" finding (Cornell, JPSP-track), and
+Crepaz (2024, *Regulation & Governance*) on transparency/asset-disclosure and perceived political
+corruption all cover closely adjacent ground. Nothing found tonight isolates the specific "profits from
+every competitor, not just one" structure as its own tested mechanism, but the surrounding literature is
+dense enough, and the story's center of gravity (Senate Judiciary subpoena politics) is political-trust
+territory more than consumer-marketing-behavior territory, that this reads as a weaker, harder-to-defend
+gap than this file's bar asks for — flagging for whoever next develops `GAMBLING_SOCIAL_COST_PAPER`'s own
+background material rather than logging as a standalone numbered idea.
+
+### Checked, no fresh anchor found (or already covered) — set aside without a full write-up:
+- **A live Journal of the Association for Consumer Research "AI in the Consumer Marketplace" special-issue
+  author/reviewer information session held at the ACR Conference in Chicago, Sept 24-26, 2026** — real and
+  current, but this is the exact same special issue (Vol. 13, Iss. 3) idea 18 already targets in full
+  detail with its CFP dates and topic language already quoted; a scheduling/info-session detail, not a new
+  mechanism or gap, so it belongs as a footnote for whoever drafts idea 18's manuscript, not a new entry.
+- **Southern Spirit Transmission Line (Pattern Energy's 320-mile Texas-to-Southeast interconnection,
+  opposed by Entergy before Mississippi regulators and in the Louisiana legislature)** — a real Louisiana
+  grid-infrastructure fight, but the search results trace to 2024-era reporting with no fresh September
+  2026 development found tonight; also reads as the same incumbent-utility-cost-shifting mechanism already
+  covered by idea 1/1a rather than a distinct new one.
+- **Dark-patterns/deceptive e-commerce enforcement news** (France's consumer watchdog naming dark patterns
+  a 2025-2028 enforcement priority, general 2026 consumer-frugality trend pieces) — real but a mature,
+  heavily-studied area already covered by this file's idea 11 (surveillance/algorithmic-pricing disclosure)
+  lineage; no Louisiana-specific or otherwise fresh differentiator found tonight.
+- **MCOOL's Senate Farm Bill advance and the beef-labeling executive order** — same live story this file's
+  09-22 entry already flagged as `MEAT_SUPPLY_CHAIN_PAPER` corpus-refresh material, not a new stream;
+  confirmed still moving (Meat Institute's Sept 10 statement on Trump's executive order) but no new stream
+  -level angle beyond what 09-22 already logged.
+- **Kalshi overtaking Polymarket in global trading volume, and the Tenth Circuit's denial of Kalshi's
+  emergency injunction motion against Utah** (Pew Research, Sept 23, 2026, on doubled May-July trading
+  volume driven by sports; a fresh circuit-level prediction-market ruling) — real and current, but reads as
+  more litigation/market-share tracking for idea 15's and `GAMBLING_SOCIAL_COST_PAPER`'s existing threads
+  rather than a distinct new consumer-marketing mechanism.
+
+Ideas 1-44 were not individually rechecked for fresh developments tonight beyond the flags noted above —
+time went to the one in-depth check above plus the breadth-first pass across all six categories named in
+tonight's task brief.
