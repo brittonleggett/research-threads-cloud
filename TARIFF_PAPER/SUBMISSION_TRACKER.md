@@ -343,12 +343,19 @@ which can and should happen now in parallel with waiting.
 3. ~~Fairness scale~~ — **resolved 2026-09-03**, Campbell (1999) Study 2
    two-item scale (r=.84), see `notes/2026-08-04-full-instrument-
    assembly.md` item 6.
-4. ~~Purchase Intention~~ — **resolved 2026-09-07**, real Dodds, Monroe &
-   Grewal (1991) appendix pulled via library access, verbatim 5-item
-   "Willingness to Buy" scale (not the Grewal et al. 1998 proxy), see
+4. ~~Purchase Intention~~ — **fully resolved 2026-09-07, including the
+   5-item-vs-3-item-subset choice.** Real Dodds, Monroe & Grewal (1991)
+   appendix pulled via library access, verbatim 5-item "Willingness to
+   Buy" scale (not the Grewal et al. 1998 proxy), see
    `notes/2026-09-07-purchase-intention-1991-original-resolved-library-
-   pull.md`. Only remaining choice is 5 items vs. a 3-item subset — a quick
-   yes/no, not a blind pick.
+   pull.md`. **Correction (2026-09-24):** this item previously still
+   listed the 5-vs-3-item choice as outstanding — it was not. Britton's
+   2026-09-07 call was to use all 5 original items, already documented
+   in `Study2_Qualtrics_Instrument_READY_2026-09-09.md` Block 8 ("use all
+   5 original items (not the trimmed 3-item subset)") and already built
+   into the live survey — confirmed 2026-09-24 by grepping all 5 items
+   directly in `Study2_Qualtrics_IMPORT_2026-09-11.txt`. Nothing left to
+   decide here.
 5. **Has the grad assistant completed the blind-coding worksheet yet?**
    Confirmed this pass: as of 2026-08-27 it was still an unfilled
    instruction sheet, not a completed comparison — no Gwet's AC1 computed.
