@@ -39,6 +39,24 @@ scaffolding for you to review, same non-negotiable rule as the original draft.
 draft plus the 2026-08-15 expansion pass. See that draft's corpus table and Phase 1
 codes — not reproduced here to avoid drift between two copies of the same coding.
 
+**2026-09-24 addition — Tier 1 (Louisiana), continuation of the 08-15 note's artifact
+#16 (Caddo Parish transparency/environmental-study measures, "fail to pass," Jun-Aug
+2026):**
+
+| # | Site/Project | Location | Artifact type | Date | Source |
+|---|---|---|---|---|---|
+| 16b | Caddo Parish Commission rejects data-center-construction pause resolution (Comm. John-Paul Young); Planning & Zoning Chairman Jake Brown pivots to ordinance-based tools (nuisance ordinance, tax-incentive freeze, environmental/noise studies) since the parish's unincorporated areas have no zoning | Caddo Parish | Local news (commission vote + follow-up), direct-fetched, cross-corroborated across 2 independent outlets | 2026-08-31 (vote, 6-4, 2 absent); 2026-09-08 (Brown pivot) | [KSLA](https://www.ksla.com/2026/09/15/caddo-parish-commission-rejects-pause-data-center-construction/) (pub. 2026-09-14), [Shreveport-Bossier Advocate](https://www.shreveportbossieradvocate.com/news/yall-have-got-tools-caddo-zoning-official-pushes-alternatives-for-data-center-restrictions/article_ce48f3dd-3ef0-4313-a595-254db26e4139.html) (pub. 2026-09-08) — added 2026-09-24, see `notes/2026-09-24-naacp-xai-stay-motion-caddo-moratorium-vote-loudoun-pause-adopted.md` for full detail |
+
+Provisional codes: `regulatory-void` (extends existing code — no parish-wide zoning is
+precisely why a rezoning-style win like Clinton County's isn't available here), `formal-
+opposition-institutional-loss` (extends Theme 6/moderator 3's "formal opposition mostly
+lost" pattern — a second Louisiana instance beyond the PSC/Caddo-planning-commission
+cases already in the corpus), `venue-adaptation-after-defeat` (new candidate code —
+advocates pivoting from a failed zoning/moratorium ask to police-power ordinance tools;
+Phase 3 call on whether this is its own code or a sub-case of existing procedural-exclusion
+material). **Not yet Phase-1 coded in full** — flagged for whoever next does a coding pass,
+same as the rest of Tier 1.
+
 **Tier 2 — other states, WebFetch-verified (9 artifacts, new, not yet Phase-1 coded
 line-by-line — codes below are the scan note's provisional read, need your Phase 3
 pass same as everything else).**
@@ -50,7 +68,7 @@ pass same as everything else).**
 | 20 | Statewide ratepayer bills (HB1063/SB410) + PSC rate freeze | GA | State policy coverage | 2026-01/02 | [Stateline](https://stateline.org/2026/02/05/with-electricity-bills-rising-some-states-consider-new-data-center-laws/), [Georgia Recorder](https://georgiarecorder.com/2026/01/20/outrage-over-surge-of-data-centers-in-georgia-inspires-wave-of-bipartisan-bills/) |
 | 21 | Stratos Project (Kevin O'Leary-backed, MIDA) | UT (Millard Co.) | Local news (400 formal protests) | 2026-05 | [Cache Valley Daily](https://www.cachevalleydaily.com/news/hundreds-of-utahns-file-to-block-kevin-o-leary-s-proposed-massive-data-center-campus/article_eea61d19-f3fd-4951-a517-b14b3353dd1f.html) |
 | 22 | Statewide water-disclosure bill (Rep. Koford) | UT | State policy coverage | 2026-01-23 | [Utah News Dispatch](https://utahnewsdispatch.com/2026/01/23/bill-to-force-data-centers-to-publicly-disclose-water-use-advances/) |
-| 23 | Loudoun County development pause | VA | Local news (Board of Supervisors) | 2026-07-24 | [NBC Washington](https://www.nbcwashington.com/news/local/northern-virginia/loudoun-county-considers-putting-pause-on-data-center-development/4134004/) |
+| 23 | Loudoun County development pause | VA | Local news (Board of Supervisors) | 2026-07-24 (considered); **2026-09-16 (adopted, 7-1-1 vote: 7 yes incl. Chair Randall, Umstattd no, Kershner abstained — 12-month pause on new applications only; final resolution vote expected Oct 2026)** | [NBC Washington](https://www.nbcwashington.com/news/local/northern-virginia/loudoun-county-considers-putting-pause-on-data-center-development/4134004/), [WJLA](https://wjla.com/news/local/loudoun-county-data-centers-development-applications-board-supervisors-pause-northern-virginia-regulations-leesburg-catoctin-grid-reliability-dominion-energy-merger-power-lines-laws), [Bloomberg](https://www.bloomberg.com/news/articles/2026-09-16/virginia-s-data-center-alley-moves-to-pause-new-applications) — updated 2026-09-24, see note |
 | 24 | Project Blue (Beale Infrastructure) | AZ (Tucson) | Local/independent news (protest coverage) | 2026-04-24 | [AZ Luminaria](https://azluminaria.org/2026/04/24/we-said-no-dozens-protest-as-construction-of-project-blue-data-center-begins/) |
 | 25 | Mesa/Avondale/Phoenix water caps; Buckeye/Pinal Co. (Tract) | AZ | Local/policy coverage | 2026 | (per 2026-08-16 scan note; re-verify exact source URLs before citing) |
 | 26 | NY Executive Order 62 (statewide moratorium) | NY | State policy coverage | 2026-07-14 | [Axios](https://www.axios.com/2026/07/14/ny-gov-kathy-hochul-data-center-moratorium-executive-order), [NY Governor's office](https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops) |
