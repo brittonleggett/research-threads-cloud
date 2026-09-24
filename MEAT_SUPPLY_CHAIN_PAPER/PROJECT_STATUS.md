@@ -659,6 +659,52 @@ Tenth research session. Worked the four open items flagged 2026-09-19, in order:
   rechecked fresh — nothing new found beyond one additional secondary-source corroboration of the Dec.
   11 date.
 
+## 2026-09-24 research pass (see `NOTES/2026-09-24-litigation-recheck-usitc-import-price-effect-schaefer-review.md` for full detail)
+
+Eleventh research session. Litigation recheck, Schaefer thread review, and real primary-source
+verification work on Claim #7, per the brief's four-part scope:
+
+- **Tyson $82.5M DPP settlement**: unchanged (Nov. 12, 2026 hearing); new date found — attorneys'-fees
+  motion due Oct. 1, 2026.
+- **Farm-bill floor-vote timing — correction to the existing framing**: the "expected after the November
+  2026 midterms" framing (recorded 2026-09-17) is more settled-sounding than the actual evidence
+  supports. Fresh reporting shows genuine, unresolved disagreement: Sen. Grassley is publicly pushing
+  Majority Leader Thune for a pre-midterm floor vote, the Senate is "scheduled to remain in session
+  through early October" (a real but narrow pre-midterm window), and Democratic leadership's own stated
+  goal is only "by the end of the year" — no date has actually been set either way. Also newly confirmed:
+  the Aug. 3, 2026 general government-funding deal (through Dec. 11, 2026) is separate from and does not
+  address the farm bill's own Sept. 30, 2026 extension deadline — the two should not be conflated.
+- **Schaefer/poultry-concentration thread (Open Decision #6) reviewed in full** per the brief's
+  instruction — confirmed already substantively resolved (2026-09-08) with no further automated-access
+  channel available (Unpaywall's own index shows `is_oa: false` for the DOI); no further action needed
+  from either an automated pass or Britton beyond an optional two-minute footnote check if he still has
+  the PDF.
+- **Claim #7 ("do imports materially suppress domestic cattle prices?") materially advanced** — a real
+  primary source was read in full for the first time: USITC Publication 3048, "Cattle and Beef: Impact of
+  the NAFTA and Uruguay Round Agreements on U.S. Trade" (Investigation No. 332-371, July 1997),
+  10,761 lines of text extracted locally via `curl` + `pdftotext` after WebFetch was blocked. It cites and
+  corroborates two 1990s Montana State University studies (Marsh & Greer 1994; Marsh & Peck 1996) finding
+  small (well under 0.5%) Canadian-import effects on U.S. steer/feeder cattle prices, plus its own
+  econometric Mexican-beef import-demand elasticity (~-1.1) and its own conclusion that NAFTA itself had
+  no major impact on live-cattle trade (pre-NAFTA tariffs were already under 2%). A related working paper
+  (Brester & Marsh 1999, found via RePEc's bibliographic record, PDF itself inaccessible — HTTP
+  202/empty on two attempts) gives a specific converging figure: ~4.4% (~$0.35/cwt of an $8/cwt decline)
+  of 1990s cattle-price decline attributable to Canadian imports. **Upgrade**: Claim #7 moves from
+  "Unresolved, no verified econometric estimate exists" to a split verdict — real, small-magnitude,
+  mutually-corroborating estimates now exist for the historical NAFTA-era Canada-specific case, while the
+  current (2020s, Australia/Brazil-dominated, record-low-herd) import environment still has no comparable
+  estimate and remains genuinely unresolved. See `SOURCE_VERIFICATION/Evidence_Table_Imports.md` (four new
+  rows) and `NOTES/Claim_Fact_Check.md` (Claim #7 rewritten).
+- **Literature scouting**: one more adjacent-but-not-occupying paper checked directly (not just a search
+  snippet) — Sun & Moon (2025, *Foods*), on organic-perception/freshness/price-fairness in beef, no COOL
+  or value-distribution-transparency dimension. This project's specific price-fairness ×
+  corporate-explanation-type × COO-disclosure gap still reads as open after a third scouting pass.
+- Also logged tonight as a general methodological finding: a WebSearch-tool synthesized answer
+  misattributed a "17-6" MCOOL vote count to a specific DTN article that, read directly via WebFetch,
+  contains no vote count at all — this project's MCOOL assessment is unaffected (it rests on four
+  directly-read sources already), but it's a concrete reminder of why this project's standing practice of
+  reading the actual article, not trusting a search engine's summary, continues to matter.
+
 ## Next actions (prioritized)
 
 1. **DONE 2026-09-05/2026-09-07/2026-09-08**: Erol & Saghaian (2022) resolved
@@ -785,3 +831,20 @@ Tenth research session. Worked the four open items flagged 2026-09-19, in order:
     (Nov. 12, 2026) and the farm bill's floor-vote timeline (still pending, extension expires Sept. 30,
     2026) both reconfirmed unchanged. See
     `NOTES/2026-09-22-agristats-pork-dpp-confirmation-mcool-vote-corroboration-litigation-recheck.md`.
+14. **CORRECTED / ADVANCED 2026-09-24**: item 11's "floor vote expected after the November 2026
+    midterms" framing is corrected — the actual evidence shows genuinely contested, unresolved timing
+    (Grassley publicly pushing Thune for a pre-midterm vote within a real but narrow window, the Senate
+    "in session through early October"; Democratic leadership targeting only "by the end of the year";
+    no date set either way). Also newly noted: the Aug. 3, 2026 general government-funding deal (through
+    Dec. 11, 2026) is separate from the farm bill's own Sept. 30, 2026 extension deadline — do not
+    conflate the two in any manuscript background section. **Claim #7 materially advanced**: USITC
+    Publication 3048 (Investigation No. 332-371, July 1997) read in full directly, corroborating two
+    1990s Montana State University studies (Marsh & Greer 1994; Marsh & Peck 1996) and a related working
+    paper (Brester & Marsh 1999, secondary-sourced via RePEc) that together give real, small-magnitude
+    (well under 5%), mutually-corroborating estimates of Canadian imports' effect on U.S. cattle prices
+    in the 1990s NAFTA era — closing the "no verified econometric estimate exists" gap for that specific
+    historical case, while the current (2020s, Australia/Brazil-dominated) import environment still has
+    no comparable estimate and remains open. The Schaefer/poultry thread (Open Decision #6) was reviewed
+    in full and confirmed to need no further action from anyone. See
+    `NOTES/2026-09-24-litigation-recheck-usitc-import-price-effect-schaefer-review.md` and
+    `SOURCE_VERIFICATION/Evidence_Table_Imports.md`.
