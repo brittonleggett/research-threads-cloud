@@ -1,5 +1,19 @@
 # Decision Log
 
+## 2026-09-24 — Connecticut promo-deduction fully resolved via direct primary-statute read; Arizona/Kalshi docket corrected (see `notes/2026-09-24-arizona-docket-connecticut-primary-source-scouting.md` for full detail)
+Two items closed this pass, full sourcing/detail in the dated note, not repeated here: (1) Connecticut's
+promotional-deduction tax treatment (13.75% GGR rate; 25%/20%/15% Year 1/2/3 promo-coupon cap) is now
+confirmed directly against Sec. 18 of the enrolled Public Act 21-23 text itself (cga.ct.gov, previously
+503'd three passes running, returned cleanly this pass) — upgraded from two-secondary-source to
+primary-text confirmation, matching what both secondary sources already said. (2) The Arizona/Kalshi
+docket (*KalshiEX LLC v. Johnson*, CV-26-1715-PHX-MTL, D. Ariz.) was read directly via CourtListener —
+the May 5, 2026 order was a **preliminary** injunction won by the **CFTC's** motion, not a permanent
+injunction won by Kalshi (whose own TRO/PI motions were actually denied in April); the case has been
+stayed since May 18, 2026 pending Ninth Circuit mandates and shows no docket activity reacting to the
+Ninth Circuit's Aug 28 Assad ruling. See `policy/state_policy_variables.md` Connecticut row and the
+2026-09-24 note for full sourcing, quotes, and docket-entry citations.
+
+
 ## 2026-09-15 — Promo-deduction tax-treatment gap closed via direct statute pass; found a real 4-category structure, not a binary
 Per the 09-09 next-step flag, checked all 9 previously-unpopulated states (MA, ME, NJ, NC, IL, AZ,
 MI, PA, TN) directly against their actual sports-wagering tax statutes (state legislature/code
