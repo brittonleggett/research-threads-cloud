@@ -3894,3 +3894,108 @@ background material rather than logging as a standalone numbered idea.
 Ideas 1-44 were not individually rechecked for fresh developments tonight beyond the flags noted above —
 time went to the one in-depth check above plus the breadth-first pass across all six categories named in
 tonight's task brief.
+
+## 2026-09-25 — dedicated scouting-only run (no project-folder work this session; WebSearch only, no
+WebFetch attempted tonight)
+
+Read the README (including the full "Nightly rotation" step 3 scouting brief), the header/section scan
+across all 44 prior `### N.` entries, and the 09-23/09-24 "checked and set aside" lists specifically, to
+avoid re-litigating recently-ruled-out leads (Louisiana ratepayer/gas-plant cost fight, general
+corporate-trust-gap trend coverage, AI-qualitative-methods tooling, Southern Spirit transmission line,
+dark-patterns enforcement, MCOOL's farm-bill advance, Kalshi/Tenth Circuit litigation tracking, and — per
+explicit task instruction — Sen. Curtis's Sept 21 Trump Jr./Kalshi-Polymarket subpoena call, not
+re-litigated). Searched breadth-first across all ten adjacency categories named in this session's task
+brief (consumer/marketing behavior, tariffs, AI-augmented qualitative methods, Louisiana energy/
+infrastructure, data centers, gambling/prediction markets, meat supply chain, ALPR/surveillance cameras,
+carbon capture, SpaceX/aerospace siting), then went deep on the two strongest-looking candidates that
+surfaced.
+
+**No new idea is being logged tonight.** This is a reasoned negative result after real search effort, not
+a skipped task — every lead checked either duplicated an already-logged mechanism, was refresh/corpus
+material for an already-active project, or was directly saturated by a specific piece of existing academic
+literature found on inspection. Detail on the two leads checked in real depth, plus the rest as brief flags,
+below.
+
+### Checked in real depth, set aside — McCormick/Cholula "quiet reformulation" class action (undisclosed
+ingredient substitution behind an unchanged "Original" claim, post-acquisition)
+Real and fresh: on August 10, 2026, New York resident LaTonya Wright filed a class action against McCormick
+& Co. in the U.S. District Court for the Eastern District of New York, alleging McCormick quietly
+reformulated Cholula Original Hot Sauce after its 2020 acquisition of the brand — replacing vinegar with
+acetic acid and raising the xanthan-gum ratio — while continuing to sell it as "Original" at an unchanged
+premium price (confirmed via classaction.org, Law360, and topclassactions.com, all independently reporting
+the same filing, date, and ingredient-substitution allegations; not independently WebFetched tonight). This
+looked initially like a clean antecedent → mediator → outcome candidate — disclosure of a post-acquisition,
+cost-driven recipe change concealed behind unchanged heritage/"Original" branding, mediator: brand-
+authenticity-betrayal or nostalgia-violation (distinct from generic shrinkflation, which this file already
+checked and set aside twice — 2026-08-29 on cocoa/chocolate, 2026-09-21 on Connecticut's stalled
+disclosure bill), outcome: brand trust, purchase intention, willingness to pay premium — and it sits inside
+a real, larger 2026 wave (trade coverage cites ~32-45 food/beverage labeling class actions filed per month
+in 2026). **Set aside anyway, after a direct saturation check**: a 2026 *Journal of Consumer Research*
+advance article, "Skimpflation Penalty: Decreases in Product Quality Trigger Stronger Consumer Reactions
+than Decreases in Size or Increases in Price" (academic.oup.com/jcr), tests exactly this mechanism —
+consumer reactions to quality/ingredient reduction vs. size reduction vs. price increases — in a top
+marketing journal already this year. A narrower angle (does disclosure that the change followed a
+conglomerate *acquisition* specifically, versus an unattributed formula change, add a distinct betrayal
+effect beyond generic skimpflation) might still be defensible, but it reads as a moderator-level refinement
+of an already-published mechanism rather than a fresh gap, and doesn't clear this file's bar on its own.
+Flagging the JCR paper itself as a useful citation for whoever eventually works a shrinkflation/skimpflation
+angle, not logging Cholula as a new numbered idea.
+
+### Checked in real depth, set aside — New York's Sept 24, 2026 suit against Polymarket ("illegal,
+unlicensed gambling operation")
+Real and same-day fresh: NY AG Letitia James and Gov. Hochul sued QCX LLC d/b/a Polymarket U.S. in Manhattan
+state court on Sept 24, alleging unlicensed gambling, underage access, and citing Polymarket's own ad
+copy ("BAD NEWS (For sportsbooks): Polymarket is coming home to the US... TRADE EVERY FOOTBALL GAME IN ALL
+50 STATES") as evidence it knowingly operates as a sports-betting product; Polymarket removed the case to
+federal court and countersued James and the state Gaming Commission same day (confirmed via CNBC, Al
+Jazeera, and Covers.com, cross-corroborating). This is the fourth prediction-market platform NY has sued,
+two months after its Kalshi suit. On inspection this is the same regulatory-classification-loophole
+mechanism this file's idea 15 (logged 2026-08-27, moderate-high confidence) already covers in full —
+a platform's own ad copy now being read back against it in
+litigation is a sharper instance of exactly the "financial/event contract" vs. "sports betting" framing
+question idea 15 already proposes to test, not a distinct mechanism. Flagging as a strong, very current
+stimulus-material lead for whoever eventually builds idea 15's Study 1 corpus (the ad copy quoted directly
+in the complaint is close to ready-made vignette material), not logging as a separate idea. Also surfaced
+in the same search: a smaller, harder-to-verify trade item (a Substack post, not independently corroborated
+tonight) claiming legacy sportsbooks were forced by state AGs to stop labeling bonus bets "free," while
+prediction-market platforms haven't adopted the same restraint — the same idea-15 mechanism again, not a
+new one, and not independently confirmed enough to add as a citable fact.
+
+### Checked, no fresh anchor found (or already covered/corpus material) — set aside without a full write-up:
+- **ONE Nuclear's Project Amberjack (1GW small-modular-reactor campus) and Project Cayman (2.88GW gas-plant-
+  plus-BESS) near Starbase Louisiana, Vermilion Parish** — real, dated (community outreach meetings running
+  Sept-Dec 2026, per Rigzone/DCD/American Press), and Louisiana-specific, but this is corpus-extension
+  material for `DATA_CENTER_PAPER` (idea 5's nuclear-fuel-cycle-buildout thread) and geographically
+  overlaps `SPACEX_LOUISIANA_PAPER`'s own Vermilion Parish corpus, not a distinct new mechanism — flagging
+  for whoever next works either project directly.
+- **Tallahassee City Commission's immediate suspension of both its Flock Safety and Motorola ALPR
+  contracts (Sept 2026)** — real and dated, but the same vendor-efficacy-claim-spin/contract-renewal-wave
+  mechanism idea 44 (logged 2026-09-22) already covers; a two-vendor simultaneous suspension is a sharper
+  instance, not a different mechanism. Corpus material for `FLOCK_CAMERAS_PAPER` or idea 44, not a new
+  stream.
+- **USDA's "Product of USA" labeling rule (effective Jan 1, 2026) and the related Taylor v. JBS/Tyson/
+  Cargill/National Beef antitrust-labeling suit (Eighth Circuit oral arguments held Feb 2026)** — real and
+  live, but a direct-text search of `MEAT_SUPPLY_CHAIN_PAPER`'s own notes/evidence-table files confirmed
+  this is already tracked in that project's COOL/transparency corpus, not an unlogged gap.
+- **FTC's 2026 Consumer Review Rule (fake reviews/testimonials) enforcement ramp-up** (warning letters to
+  10 companies Dec 2025, a May 2026 FTC/Illinois suit and July 2026 consent order against Premium Home
+  Service) — real and current, but the rule itself is nearly two years old (finalized Aug 2024) and this
+  reads as routine enforcement of an already-mature disclosure regime rather than a fresh, undupped
+  consumer-marketing-behavior gap.
+- **A broader University of Pennsylvania poll finding 61% of Americans now oppose new data centers in their
+  community (up 12 points), cited in Sept 21, 2026 Bloomberg coverage of $68B in Q2 2026 project
+  disruptions** — real and useful, but background trend data for `DATA_CENTER_LEGITIMACY_PAPER`'s existing
+  benefit-burden-asymmetry construct, not a new stream.
+- **Rocket-launch-site opposition litigation outside SpaceX/Louisiana** (an 80-plaintiff South Texas
+  homeowner property-damage suit against SpaceX at Boca Chica, an FWS/SpaceX Laguna Atascosa land-swap
+  challenge, and Australia's Whalers Way launch-site opposition) — real, but each is either more Boca Chica
+  comparison-case material `SPACEX_LOUISIANA_PAPER` already draws on, or too geographically remote
+  (Australia) to anchor a Louisiana-adjacent U.S. marketing study.
+- **AI-research-integrity retractions for undisclosed generative-AI use** (a June 2026 *Journal of Value
+  and Health* retraction, ICMJE/Nature AI-disclosure-policy tightening) — real and current, useful as
+  methods-section background for this repo's own AI-assisted-thematic-analysis disclosure practice, but
+  not a live company-to-consumer marketing controversy of the kind this file's entries are built around.
+
+Ideas 1-44 were not individually rechecked for fresh developments tonight beyond the flags noted above —
+time went to the two in-depth checks above plus the breadth-first pass across all ten categories named in
+tonight's task brief.
