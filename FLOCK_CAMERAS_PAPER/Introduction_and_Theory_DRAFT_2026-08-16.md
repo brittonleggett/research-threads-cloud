@@ -4,7 +4,11 @@
 one-time exception letting AI complete Phase 3 (theme review) and draft through Theory —
 see `notes/2026-08-16-phase3-theme-review-and-theory-lock.md` for the disclosure and reasoning
 behind every judgment call made without his prior sign-off. This is real academic prose
-grounded in the verified 22-artifact corpus and real, checked literature citations (see
+grounded in the verified corpus (22 artifacts as originally drafted 2026-08-16; grown to 50
+artifacts across 18 states and 7 national-level pieces as of 2026-09-25 — see
+`Study1_Corpus_and_Coding_DRAFT_2026-08-16.md` for the current corpus and
+`notes/2026-09-25-corpus-recency-sweep-and-literature-methods-sync.md` for the update log) and
+real, checked literature citations (see
 citation-verification notes inline and in `notes/2026-08-16-scale-sourcing.md`), but it is
 **pending Britton's read-through** — nothing here should be treated as final until he's seen
 it. No Results section — Study 2 has not run.
@@ -23,7 +27,9 @@ and customs agencies query the department's plate-read data — Captain Beekman'
 the city council were blunt: "What we didn't know is that National Lookup is a reciprocal
 sharing feature." In Illinois, a state audit found that even Flock's own leadership was unaware
 its Customs and Border Protection pilot program was running in a local department at all. Across
-at least fourteen states in 2026 alone, city councils, courts, and state regulators have
+at least eighteen states in 2026 alone (updated 2026-09-25 from the original "fourteen" as the
+corpus grew; see `Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`), city councils, courts, and
+state regulators — and, as of September 2026, Congress and the White House — have
 confronted a common pattern: a surveillance technology adopted for one stated purpose — solving
 property crime — whose actual data-sharing architecture was not disclosed to, or understood by,
 the communities and even the police departments deploying it.
@@ -44,8 +50,9 @@ the point of adoption, what a surveillance system will actually do with their da
 happens to public trust and political opposition when they find out they did not.
 
 This paper addresses that question empirically in two studies. Study 1 inductively derives a
-typology of real ALPR controversies from a 22-artifact corpus spanning fourteen states and one
-national-level pattern, identifying institutional secrecy around default data-sharing practices
+typology of real ALPR controversies from a corpus (52 artifacts as of 2026-09-25, spanning 18
+states plus 7 national-level artifacts; 22 artifacts across fourteen states as originally coded
+2026-08-16), identifying institutional secrecy around default data-sharing practices
 — not corporate non-disclosure agreements, but a *technical* default nobody flagged at the
 point of adoption — as the mechanism with the broadest evidentiary support and the clearest
 manipulable structure for experimental study. Study 2 experimentally manipulates disclosure of
@@ -500,3 +507,21 @@ into the present design.
    entirely as-is — not re-decided. Full detail, including what remains unverified (the Police
    Journal article's exact disclosure-statement wording; Tyler/Tyler & Huo/Nissenbaum's book text
    itself, not just their existence) in `notes/2026-09-01-literature-citation-verification-pass.md`.
+12. **2026-09-25 update:** corpus-count language throughout this draft (22 artifacts/fourteen
+    states) was synced to the current, much-grown corpus (52 artifacts, 18 states, 7
+    national-level pieces — a real independent recount this session also corrected a pre-existing
+    "20 states" overcount in the corpus file's own summary prose to the true figure, 18). No
+    theme, hypothesis, or design element changed — this is a factual-currency fix, not a
+    theory-chain edit. Also this date: a fresh literature-grounding attempt for the Nhan & Helfers
+    disclosure-statement question and the Przeszlowski & Guerette ScienceDirect spot-check found
+    no new route past either paywall (see `notes/2026-09-25-corpus-recency-sweep-and-literature-
+    methods-sync.md` for what was tried); both remain open exactly as previously stated, not
+    reopened speculatively. A major real-world development was also found and added to the corpus
+    this session (not yet reflected in this Introduction's prose, flagged for a future session or
+    Britton's own read): a Sept. 23, 2026 Senate Judiciary Subcommittee hearing ("Always Watching:
+    Flock's Nationwide A.I. Surveillance Network," corpus #49) at which all four invited company
+    CEOs declined to testify, and the corpus's first executive-branch reactions — President
+    Trump's public endorsement and FBI Director Patel's supportive comments (corpus #50) — a
+    genuine counter-current to the legislative/state-regulatory scrutiny pattern the rest of the
+    corpus documents, worth Britton's own judgment on whether/how to fold into the
+    theory/discussion section.

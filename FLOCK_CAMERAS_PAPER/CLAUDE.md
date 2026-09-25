@@ -1,12 +1,32 @@
 # Flock Safety Cameras & Public Trust/Surveillance Response — Project Brief
 
-## What this is
+## Status as of 2026-09-25 (read this before the "What this is" section below, which is the
+## original 2026-08-16 orientation snapshot and is now stale in several places)
+Design is **locked**, not exploratory. On 2026-08-16 (later the same day the orientation below
+was written), Britton granted a one-time exception letting AI complete Phase 3 (theme review)
+and lock the primary theory chain — see `notes/2026-08-16-phase3-theme-review-and-theory-lock.md`.
+This does not extend to any other paper in the repo. Since then: the theory chain (H1-H6, a
+disclosure → procedural injustice → institutional trust → opposition-intention serial mediation,
+moderated by prior distributive-surveillance exposure and perceived crime-solving necessity) is
+drafted in `Introduction_and_Theory_DRAFT_2026-08-16.md`; Study 2's full instrument and methods
+section are drafted (`Study2_Instrument_DRAFT_2026-08-27.md`,
+`Study2_Methods_Section_DRAFT_2026-08-29.md`); the Study 1 corpus has grown from 22 to 52
+artifacts across 18 states plus 7 national-level pieces (`Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`
+— the filename date is stale but the content is a running, continuously-updated document, not a
+frozen 08-16 snapshot). **Three design calls remain explicitly reserved for Britton regardless of
+the exception** (they are not Phase-3/theme-review calls): archival vs. self-report
+operationalization of Moderator 1, single-manipulation vs. factorial Study 2 design, and PLS-SEM
+vs. Hayes-PROCESS analysis. Vignette wording (the Condition B secrecy/government-incompetence
+framing question, the not-fully-closed 8th-grade readability gap) is also left for Britton or an
+actual pilot. Read the newest-dated file(s) in `notes/` before starting new work — don't
+re-litigate what's already locked or duplicate a just-finished pass.
+
+## What this is (original 2026-08-16 orientation — venue/background paragraphs below still
+## accurate; the "not yet a locked design" framing is superseded by the section above)
 Exploratory paper concept (started 2026-08-16): public opposition to Flock
 Safety's automated license-plate-reader (ALPR) camera networks, motivated by
 Britton's read that this is "another point of contention with the public,"
-same category of live controversy as the Data Center and CCS papers. Not yet
-a locked design — this is the "explore" stage, same starting point those two
-papers were at before their own design-lock conversations.
+same category of live controversy as the Data Center and CCS papers.
 
 ## Why this fits the existing pipeline
 Fourth parallel research thread alongside TARIFF_PAPER, DATA_CENTER_PAPER,
@@ -55,19 +75,33 @@ white ones; (3) wrongful-stop/accuracy harms (Toledo K9 mauling case, LAPD's
 
 ## Folder contents
 - `notes/2026-08-16-orientation.md` — real-world fact base, candidate theory
-  frames, venue read, open design questions. Read this first.
+  frames, venue read, open design questions as of the very first session.
+  Historical starting point, not the current state — read the "Status as of
+  2026-09-25" section above and the newest-dated `notes/` file(s) instead for
+  what's actually current.
+- `Introduction_and_Theory_DRAFT_2026-08-16.md`, `Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`,
+  `Study1_Methods_Section_DRAFT_2026-08-16.md`, `Study2_Instrument_DRAFT_2026-08-27.md`,
+  `Study2_Methods_Section_DRAFT_2026-08-29.md` — the live manuscript-section drafts (filenames
+  keep their original creation date by this project's convention even as content is updated in
+  place with dated inline change-log entries; check each file's own top-of-file status note and
+  bottom change log for its true current state, not its filename date).
 
 ## Working conventions (matching TARIFF_PAPER/DATA_CENTER_PAPER's established pattern)
-- Work in small, reviewable steps. Show a plan before locking any design
-  decision — this project has not had a design-lock conversation yet.
-- Prefer creating new dated files for drafts/notes over overwriting.
+- Work in small, reviewable steps. The primary theory chain is locked (see the "Status as of
+  2026-09-25" section above) — don't re-open or re-litigate it; the three design calls and
+  vignette-wording questions listed there remain genuinely open and are Britton's to decide.
+- Prefer creating new dated files for drafts/notes over overwriting; where a draft is updated in
+  place instead (matching this project's own established practice for its manuscript sections),
+  add a dated inline change-log entry rather than silently rewriting prior content.
 - Never fabricate a source, quote, or statistic — every factual claim needs
   a real, checkable source; flag anything WebSearch-summarized-only vs.
   directly fetched, same standard as the other three papers.
 - If this moves toward primary data collection involving human subjects
   (interviews, surveys, experiments), treat with the same IRB-aware care as
-  the other papers once that stage arrives — nothing here yet requires IRB
-  review (public news/document sources only, so far).
-- The orientation pass's literature novelty check was a quick first pass,
-  not the deep multi-agent scan Data Center Paper got on 2026-08-16 — don't
-  treat "looks novel" as confirmed until a proper scan is run.
+  the other papers once that stage arrives — an IRB application draft exists
+  (`notes/2026-08-21-irb-application-draft.md`) but has not been formally submitted, and Study 2
+  has not been fielded or piloted.
+- A deep literature-novelty scan was run 2026-08-24 (`notes/2026-08-24-literature-novelty-deep-scan.md`)
+  and found no competing study that experimentally manipulates ALPR/Flock disclosure with this
+  paper's specific serial-mediation chain — treat that as the current novelty-check status, not the
+  original orientation pass's shallower first look.

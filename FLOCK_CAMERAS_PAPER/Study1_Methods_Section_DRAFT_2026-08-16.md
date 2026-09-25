@@ -27,7 +27,34 @@ Nissenbaum's (2010) theory of privacy as contextual integrity (see
 
 ### Data
 
-The corpus consisted of 22 artifacts — public news coverage (with embedded resident, official,
+**Corpus size note, updated 2026-09-25 (AI-run, under the standing Phase 3/build-out exception;
+see `notes/2026-09-25-corpus-recency-sweep-and-literature-methods-sync.md`):** this subsection
+was drafted 2026-08-16 against a 22-artifact corpus and left unsynced through nine subsequent
+weeks of corpus growth. The corpus now stands at 52 artifacts (see
+`Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`'s own running "Corpus (N artifacts as of
+[date])" header and per-row addition dates for the full growth history), spanning **18 U.S.
+states** (Oregon, Illinois, New York, Virginia, Texas, Ohio, California, Nebraska, Colorado,
+Michigan, Massachusetts, Wisconsin, Oklahoma, Washington, Arizona, Kentucky, North Carolina, and
+Missouri — the original 08-16 corpus covered 12 of these 18; the other 6 [Oklahoma, Washington,
+Arizona, Kentucky, North Carolina, Missouri] were added across the intervening six weeks, per the
+corpus file's own per-row addition dates; note the original draft's "fourteen states" claim for
+the 12-state 08-16 corpus does not itself reconcile exactly against a direct count either — not
+resolved here, flagged rather than silently corrected, since the original 22-artifact
+state-by-state breakdown was not re-audited this session),
+**7 national-level artifacts** (the PBS efficacy feature, the federal Flock-Off Act, the Senate
+Judiciary investigation and its Sept. 23, 2026 hearing, a federal class action, the Institute for
+Justice ALPR-misuse database, and the first executive-branch reactions — President Trump, FBI
+Director Patel), and **one unspecified/thin-sourced row** not attributable to a named state.
+(An earlier running total in the corpus file itself had overcounted this as "20 states"; this
+session recounted directly from the corpus table's Location column and corrected it to 18 — see
+`notes/2026-09-25-corpus-recency-sweep-and-literature-methods-sync.md`.) The verification-tier
+split below (16/22 directly verified, six thin-sourced) is the 08-16 baseline and has not been
+recomputed for the full 50-artifact corpus as of this update — the corpus file's own per-row
+"Fetch status" column is the current, authoritative verification-tier record for every individual
+artifact; this subsection's original prose is left below for its own historical accuracy at the
+point it was written, not updated into a fabricated new tally.
+
+The original corpus consisted of 22 artifacts — public news coverage (with embedded resident, official,
 and advocate quotes), federal and state audit findings, lawsuit filings, and city council votes
 and public hearing records — documenting real Flock Safety/ALPR controversies across fourteen
 U.S. states and one national-level pattern (Oregon, Illinois, New York, Virginia ×3, Texas ×2,
