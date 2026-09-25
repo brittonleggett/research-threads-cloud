@@ -3,3 +3,7 @@
 # Blanket-ignoring all PDFs is the safe default rather than relying on manual
 # vigilance each time one gets added to a project's Literature folder.
 *.pdf
+
+# Claude Code session scratch directory (isolated agent worktrees, local
+# session state) — tooling artifacts, not research content.
+.claude/
