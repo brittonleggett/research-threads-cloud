@@ -1,6 +1,21 @@
 # Project Status — Meat Supply Chain Paper
 
-Last updated: 2026-09-19 (ninth research session — read primary court documents in the pork antitrust
+Last updated: 2026-09-26 (twelfth research session — resolved an apparent tension in the farm-bill
+timeline (the Aug. 6 markup held separate votes: the S.421 labeling amendment passed 17-6, but the
+overall bill's final committee vote that same day failed 10-11 and was recessed, not adjourned — both
+facts now sit in one coherent timeline); found a real, current-era (2020s, Australia/Brazil/Argentina)
+natural experiment directly bearing on Claim #7 via two Trump beef-import-TRQ proclamations (read in full)
+and Farm Bureau's own tracked retail-price data; confirmed Brester & Marsh (1999) is very likely a dead
+end for automated tooling specifically (same unusual HTTP-202-empty failure mode on retry, three new
+channels also closed off); and found two entire previously-untracked litigation settlement classes
+(commercial/institutional indirect purchasers, beef and pork) by reading Tyson's own SEC 10-Q directly.
+See `NOTES/2026-09-26-farmbill-deadline-2020s-import-natural-experiment-litigation-update.md`.) Eleventh
+research session was 2026-09-24 (litigation recheck, a full primary read of USITC Publication 3048 on
+NAFTA-era Canadian import effects on cattle prices, and a review of the Schaefer/poultry-concentration
+thread confirming it needs no further action — see `NOTES/2026-09-24-litigation-recheck-usitc-import-
+price-effect-schaefer-review.md` and the dated section below for full detail). Tenth research session was
+2026-09-22 (pork DPP Agri Stats settlement fully confirmed, MCOOL vote count further corroborated toward
+17-6 — see the dated section below). Ninth research session was 2026-09-19 (read primary court documents in the pork antitrust
 MDL (18-1776, D. Minn.) for the first time, correcting the "$117.065M pork settlement preliminarily
 approved July 31, 2026" framing (that date is actually the class-notice-plan order; the five
 settlements were preliminarily approved individually between July 2024 and May 2026) and finding a
@@ -705,6 +720,45 @@ verification work on Claim #7, per the brief's four-part scope:
   directly-read sources already), but it's a concrete reminder of why this project's standing practice of
   reading the actual article, not trusting a search engine's summary, continues to matter.
 
+## 2026-09-26 research pass (see `NOTES/2026-09-26-farmbill-deadline-2020s-import-natural-experiment-litigation-update.md` for full detail)
+
+Twelfth research session, run with the Sept. 30, 2026 farm-bill extension deadline 4 days away. Five
+things worth knowing:
+
+- **Farm-bill Aug. 6 markup clarified, not contradicted**: the S.421 labeling amendment passed 17-6 within
+  that session, but the *overall bill's* final committee vote that same day separately failed 10-11
+  (McConnell/Tuberville absent) and Chairman Boozman recessed rather than adjourned — resolving what
+  looked like tension between "17-6 passed" and "still stalled" into one timeline. Floor-vote timing
+  remains genuinely unresolved: no vote scheduled, and a real discrepancy exists between sources on
+  whether the Senate's pre-midterm recess begins before or after Sept. 30 (could not be resolved tonight
+  — agweb.com PerimeterX-CAPTCHA-blocked, factually.co/thewellnews.com Cloudflare-blocked). New,
+  informational: USDA Secretary Rollins signaled (Sept. 1, 2026) personal sympathy for mandatory COOL and
+  said she'd raise it with Trump — an administrative-path data point, not a change to the bill.
+- **Claim #7's current-era (2020s) gap materially advanced, though still short of a peer-reviewed
+  estimate**: two Trump beef-import-TRQ proclamations (11010, Feb. 6, 2026; 11059, Aug. 26, 2026 — both
+  read in full directly from govinfo.gov) expanded the beef tariff-rate quota specifically to test whether
+  more imports lower retail prices. American Farm Bureau Federation's own 3-week, 41-store retail-price
+  tracking found only a 2% decline against a 25%-discount policy target, while cattle/feeder prices fell
+  $300-400/head over the same window. Real, current, Australia/Brazil/Argentina-era observational
+  evidence — not an econometric estimate — that fits, rather than contradicts, this project's existing
+  GAO-02-246 theoretical framework.
+- **Brester & Marsh (1999): confirmed, on a second attempt, to be a genuine dead end for automated
+  tooling.** Same unusual HTTP-202-empty failure mode from the one host that hosts the file, plus three
+  new channels closed off (RePEc has no alternate link; CORE redirect-looped; Semantic Scholar
+  rate-limited). Recommend no further automated-retry time; likely needs Britton's own institutional
+  access, as with Schaefer et al. (2024).
+- **Schaefer/poultry thread and idea 28**: rechecked, nothing new to report on Schaefer (already as
+  resolved as it gets). DOJ's beef-pricing probe: Acting AG Todd Blanche states DOJ has reviewed "more
+  than 3 million documents" — still no indictment, no new DOJ.gov document.
+- **New, substantial litigation finding**: reading Tyson's own SEC 10-Q (period ended June 27, 2026)
+  directly surfaced two entire settlement classes this project didn't know existed — a **Commercial and
+  Institutional Indirect Plaintiff (CIIPP)** class for both beef ($47M) and pork ($48M), distinct from the
+  direct-purchaser and consumer-indirect-purchaser classes already tracked — plus independent corroboration
+  of the already-tracked $82.5M beef DPP settlement's own component breakdown ($80M + $2.5M admin), and two
+  open (unsettled) Canadian beef price-fixing class actions against Tyson not previously tracked. Worth a
+  future session checking whether other defendants (JBS, Cargill, National Beef, Smithfield) have parallel
+  untracked CIIPP-class settlements, using the same "read the 10-K/10-Q directly" method.
+
 ## Next actions (prioritized)
 
 1. **DONE 2026-09-05/2026-09-07/2026-09-08**: Erol & Saghaian (2022) resolved
@@ -848,3 +902,19 @@ verification work on Claim #7, per the brief's four-part scope:
     in full and confirmed to need no further action from anyone. See
     `NOTES/2026-09-24-litigation-recheck-usitc-import-price-effect-schaefer-review.md` and
     `SOURCE_VERIFICATION/Evidence_Table_Imports.md`.
+15. **ADVANCED 2026-09-26**: item 14's "current (2020s) import environment ... remains open" gap now has
+    real, current-era, primary-sourced *observational* evidence (still not a peer-reviewed econometric
+    estimate) — two Trump beef-import-TRQ proclamations (read in full) and American Farm Bureau
+    Federation's own tracked retail-price data. Farm-bill floor-vote timing: still no date set as of the
+    Sept. 30 deadline being 4 days away; the Aug. 6 markup's apparent "17-6 passed" vs. "still stalled"
+    tension is now resolved (two separate votes that day, not a contradiction), but a new discrepancy
+    surfaced over the exact pre-midterm recess start date — unresolved, needs either better tooling
+    against agweb.com/factually.co's bot-challenge pages or Britton checking the Senate's own calendar.
+    Brester & Marsh (1999): confirmed a likely genuine dead end for automated tooling (same HTTP-202-empty
+    signature on retry, three more channels closed off) — recommend Britton's institutional access if this
+    exact figure is ever needed with primary sourcing. **New**: reading Tyson's own SEC 10-Q directly
+    surfaced two previously-untracked settlement classes (beef and pork Commercial/Institutional Indirect
+    Plaintiff settlements, $47M and $48M) plus two open Canadian beef price-fixing suits against Tyson —
+    recommend a future session check the other defendants' own 10-Ks/10-Qs for parallel untracked
+    settlements. See
+    `NOTES/2026-09-26-farmbill-deadline-2020s-import-natural-experiment-litigation-update.md`.
