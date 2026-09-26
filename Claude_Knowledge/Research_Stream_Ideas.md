@@ -3999,3 +3999,98 @@ new one, and not independently confirmed enough to add as a citable fact.
 Ideas 1-44 were not individually rechecked for fresh developments tonight beyond the flags noted above —
 time went to the two in-depth checks above plus the breadth-first pass across all ten categories named in
 tonight's task brief.
+
+## 2026-09-26 — dedicated scouting-only run (WebSearch and WebFetch this session; WebFetch worked cleanly
+against ehn.org, used to directly correct a stale WebSearch-summary date error below)
+
+Read the README (including the full "Nightly rotation" step 3 scouting brief and "Working conventions"),
+the header/section scan across all 44 prior `### N.` entries, and a close read of the 09-20/09-23/09-24/
+09-25 "checked and set aside" lists specifically, to avoid re-litigating recently-ruled-out leads
+(data-center water disclosure, tariff-exempt beef, gambling-platform litigation tracking, Louisiana AI
+legislation, electronic shelf labels, PBM litigation, the Curtis/Trump Jr. Kalshi-Polymarket subpoena
+call, McCormick/Cholula shrinkflation, and NY v. Polymarket). Also briefly checked
+`DATA_CENTER_LEGITIMACY_PAPER/CLAUDE.md` and `GAMBLING_SOCIAL_COST_PAPER`'s folder listing directly (not
+just the root README's paragraph) to make sure both newer papers' actual scope was accounted for before
+ruling candidates in or out. Searched breadth-first across a wide set of adjacency categories: tariffs/
+trade litigation, Louisiana data centers (plus the national moratorium wave as potential Tier-2/
+transferability material), Flock/ALPR, gambling/prediction markets, CCS, meat supply chain/COOL, SpaceX
+Louisiana (including the coastal-wetlands/migratory-bird angle), Louisiana insurance, AI companion
+chatbots, buy-now-pay-later, self-checkout AI loss-prevention, grocery/surveillance pricing, ticketing
+dynamic pricing, deepfake celebrity-endorsement scam ads, Louisiana seafood-labeling enforcement, and
+Louisiana chemical-plant/environmental-justice litigation.
+
+**No new idea is being logged tonight.** This is a reasoned negative result after real search depth
+across roughly fifteen categories, not a skipped task. Every lead checked fell into one of four buckets:
+(a) corpus-refresh material for an already-active project; (b) the same mechanism as an already-logged
+idea, arriving via a new but non-differentiating fact; (c) too saturated by existing academic literature
+or too mature/settled a regulatory fight to read as a fresh gap; or (d) a WebSearch-summary date error
+that evaporated on direct verification. Detail, so the next session doesn't have to re-check the same
+ground:
+
+- **A WebSearch summary claimed a "September 17, 2026" Baton Rouge court ruling overturning all 14 air
+  permits for Formosa Plastics' St. James Parish complex.** Checked directly because if real this would
+  have been a major, dated escalation of this file's idea 12 (St. James Parish "Cancer Alley" zoning
+  suit, logged 2026-08-24) or a fresh Louisiana environmental-justice hook in its own right. **The date
+  was wrong** — direct WebFetch of an EHN.org article the search cited found no such ruling, and a
+  follow-up WebSearch traced the actual sequence: District Judge Trudy White voided Formosa's LDEQ air
+  permits on September 14, **2022**; Louisiana's First Circuit Court of Appeals reversed that ruling and
+  reinstated the permits on January 19, **2024**. No September 2026 permit ruling exists. Flagging this
+  explicitly as a caught fabricated-date error, per the standing rule to verify rather than take a
+  search summary's word for it — the same category of mistake this file's 09-20 entry caught on HB 425's
+  status (an AI summary states something confidently and wrong; only a primary-source fetch catches it).
+- **Nationwide data-center moratorium wave** (Buffalo, Salem OR, Galesburg IL, Americus GA, Fort Worth
+  TX, San Francisco/Hayward all passed or advanced moratoria in August-September 2026) — real and
+  dated, but this is background/transferability material for `DATA_CENTER_PAPER`'s existing multi-state
+  comparative design (most of these are outside the four already-designated Tier 2 states, so not even
+  corpus material yet, just confirmation the national trend is accelerating) rather than a new stream —
+  flagging for whoever next works that project's boundary-condition testing, not logging here.
+- **Sixth Circuit's September 25, 2026 ruling that states can regulate prediction markets (against
+  Kalshi), plus New York's countersuit-and-countersued fight with Polymarket continuing to escalate**
+  (Polymarket removed NY's suit to federal court and countersued the same day, per CNBC/Al Jazeera) — real
+  and freshly dated, but this is litigation-tracking material for idea 15 (prediction-market regulatory-
+  classification gap, logged 2026-08-27) and `GAMBLING_SOCIAL_COST_PAPER`'s own live docket-tracking
+  notes, not a distinct new mechanism — the file's 09-25 entry already made the identical call on NY v.
+  Polymarket specifically.
+- **AI companion-chatbot regulation and litigation** (California's new child-safety chatbot laws signed
+  this month, effective July 2027; Character.AI/Google's quiet wrongful-death settlements; 78 state
+  bills and 58 lawsuits tracked nationally) — real, current, and superficially AI-disclosure-adjacent,
+  but on inspection this is child-safety/mental-health-harm territory, not a company-to-consumer
+  marketing-trust mechanism of the kind this file's entries are built around, and the space is already
+  extremely crowded (dozens of bills, dozens of lawsuits, multiple law-firm trackers) well before any
+  marketing-journal treatment would have a clean opening — set aside as a poor fit rather than forced
+  into the already-crowded AI-ad-trust cluster (ideas 10/14/25/31/38/42/44).
+- **Deepfake celebrity-endorsement scam ads** (fake Oprah/celebrity AI-video ads pushing a "LipoMax"
+  supplement, Meta's own Feb 2026 lawsuit against scam-ad networks, 45,000+ deceptive campaigns removed
+  in 2026) — real and dated, but this is outright fraud/impersonation by anonymous scam networks, not a
+  named company's own marketing claim or disclosure choice — a materially different actor and mechanism
+  than every antecedent this file's AI-ad-trust cluster tests (which are all about a real company's own
+  disclosed practice), and the consumer-fraud-literacy literature this would sit in is a different, more
+  mature field. Set aside as a weak fit, not a fresh gap.
+- **Ticketmaster/Live Nation dynamic pricing and deceptive-pricing litigation** — checked because
+  StubHub's idea 43 (logged 2026-09-21) made platform-ticketing a live cluster, but everything found
+  (the FTC's Sept 2025 suit, DC's $9.9M settlement, the March 2026 antitrust trial verdict) predates or
+  is background to idea 43 rather than a fresh, undupped Sept 2026 development.
+- **Louisiana seafood-mislabeling enforcement** (genetic testing of restaurant shrimp, House committee
+  bills strengthening the state's imported-seafood-disclosure law) — real and Louisiana-specific, but
+  this is the same domestic-provenance-branding/consumer-fairness mechanism idea 9 (Louisiana shrimp
+  tariffs, logged 2026-08-22) already covers, just via restaurant fraud enforcement rather than the
+  tariff angle — corpus-refresh material for idea 9, not a new number.
+- **SpaceX Louisiana coastal-wetlands/migratory-bird opposition** (three wildlife groups' formal
+  opposition to federal-review waivers, concern over bird "no-life zones" near the launch site) — real,
+  dated, and a genuinely new *fact* this month, but it's environmental-review corpus material for the
+  already-active `SPACEX_LOUISIANA_PAPER` (its environmental-commitment/greenwashing framing thread),
+  not a distinct paper-level mechanism — flagging for whoever next works that project directly.
+- Also breadth-checked and found nothing new enough to write up: Louisiana insurance news (FORTIFIED
+  discount rollout and Citizens depopulation, both positive-direction market news, not a fresh opposition
+  or disclosure angle); buy-now-pay-later regulation (New York's new BNPL consumer-protection law is real
+  but is straightforward debt/lending-disclosure regulation with no company-specific marketing-deception
+  hook yet, and no PLS-SEM antecedent-mediator gap suggested itself on inspection); self-checkout AI
+  loss-prevention (industry commentary on false-positive theft flags is real but reads as a solved/
+  solving operational problem in 2026 coverage, not a live consumer-facing controversy); grocery/
+  surveillance-pricing (Seattle's new "Fair Pricing and Transparency" ordinance is real and dated but is
+  the same disclosure/algorithmic-pricing-fairness mechanism idea 11 already covers in detail, per this
+  file's own 09-20 call on electronic shelf labels).
+
+Ideas 1-44 were not individually rechecked for fresh developments tonight beyond the flags noted above —
+time went to the breadth-first pass across roughly fifteen categories and the one direct-verification
+check (the Formosa permit-date error) above.
