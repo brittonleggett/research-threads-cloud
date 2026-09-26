@@ -151,6 +151,66 @@ scattered notes did.
   multi-night Section 301 deadline watch — no further recheck needed on
   this specific question. See `notes/2026-09-19-litigation-recheck.md`.
 
+## ⚠ Possible critical discrepancy found 2026-09-26 — the "Oct 15, 2026" deadline itself needs Britton to verify directly
+
+**This needs Britton's own eyes, not another automated recheck — flagging
+prominently rather than touching the "Hard deadline" line above.** Tonight's
+scheduled scouting pass for JCM/AMS CFP news (see `notes/2026-09-26-
+litigation-recheck-and-lit-scan.md` §4) turned up something that doesn't
+square with this file's "Hard deadline: October 15, 2026" line above.
+
+**What was directly fetched and read tonight (primary source, not a search
+summary):** the actual CFP PDF for this special issue
+(`static1.squarespace.com/.../JCM+SI+CFP+for+AMS+website.pdf`, the same
+file this project's own `notes/2026-08-04-design-locked-jcm-fit.md` cites
+as having been "fetched and read 2026-08-04"). Read in full tonight,
+verbatim, under "Key Dates":
+> Submission Deadline for Initial Full Manuscripts: **October 15, 2025**
+> AMS 2026 Annual Conference: May 12–14, 2026
+> Revised Manuscript Submission to JCM: Post-conference, **June 15-August
+> 15, 2026**
+
+That is **2025**, not 2026, for the AMS-conference-track manuscript
+deadline — and the JCM ScholarOne window is exactly the June 15–Aug 15,
+2026 one this file already separately notes (line ~81 above) "already
+closed." Nowhere in this document does the string "October 15, 2026"
+appear. A second, independently-uploaded copy of what looks like the same
+CFP (ResearchGate, publication ID 396046122) is even titled *"...Submission
+Deadline: August 15, 2026"* — external corroboration for Aug 15, 2026 as
+the terminal date, not Oct 15, 2026.
+
+**Against that:** a WebSearch AI-generated summary tonight (not a primary
+source, not independently confirmed) claimed the Emerald-hosted version of
+this CFP shows "Special Issue submission deadline: 15 October 2026."
+Attempts tonight to verify that directly failed both ways — the Emerald/
+JCM page itself returned a Cloudflare 403 challenge on every attempt, and
+the AMS.org news-page URL the same search surfaced is a genuine, confirmed
+404 (real "Page Not Found" content, not a block page). So tonight's session
+could not confirm the "2026" date from any primary source, and could not
+rule it out either — Emerald's page may say something different from the
+squarespace/ResearchGate copies, or the squarespace copy may be a stale
+draft from before a one-year slip, or the WebSearch summary may simply be
+wrong (possibly even echoing this project's own already-public "Oct 15,
+2026" framing back at itself — these files are on GitHub and searchable).
+**Genuinely unresolved as of tonight, not spun either direction.**
+
+**Why this matters enough to flag loudly rather than quietly fix:** if the
+squarespace/ResearchGate reading is the accurate one, both stated entry
+points into this special issue (Oct 15, 2025 AMS-track manuscript deadline;
+June 15–Aug 15, 2026 direct JCM ScholarOne window) have **already closed**
+— months ago in the first case, about six weeks ago in the second — which
+would mean there may be no live submission path left for this venue at all,
+completely independent of this paper's own Study 2/3 timeline. That is a
+different and more urgent problem than "can we hit Oct 15" and changes what
+the actual critical path even is. Given the stakes, this session is not
+overwriting the "Hard deadline" line above or `CLAUDE.md`'s framing on its
+own judgment — **this needs Britton (or a direct, human check of
+https://www.emerald.com/jcm/calls-for-submissions/1762/Crafting-Shape-in-a-
+Fluid-World-The-Intersection from an ordinary browser, or a direct email to
+the guest editors — Kevin James kjames@uttyler.edu, Janna Parker
+parke4jm@jmu.edu, Hyunju Shin hshin13@kennesaw.edu — to ask what the actual
+current deadline is) before anyone treats either date as settled.**
+
 ## ⚠ Urgent discrepancy found 2026-09-03 — read before touching the scales
 
 Britton's memory system (`project_tariff_paper_pipeline.md`) states that
