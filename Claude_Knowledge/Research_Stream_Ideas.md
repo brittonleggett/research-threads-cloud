@@ -4094,3 +4094,172 @@ ground:
 Ideas 1-44 were not individually rechecked for fresh developments tonight beyond the flags noted above —
 time went to the breadth-first pass across roughly fifteen categories and the one direct-verification
 check (the Formosa permit-date error) above.
+
+## 2026-09-27 — dedicated scouting-only run (WebSearch and WebFetch this session; WebFetch worked cleanly
+against cbsnews.com, used to directly verify the settlement facts below; a WebFetch attempt against
+axios.com returned a 403, so that source is cited via WebSearch snippet only)
+
+Read the README and the header/section scan across all 44 prior `### N.` entries, plus a close read of
+idea 14 (the AI Booing/AI Washing cycle) and the 09-19/09-20/09-22 "checked and set aside" AI-ad-trust
+notes specifically, since tonight's strongest candidate (below) sits adjacent to that cluster and needed a
+careful differentiation check before writing anything up. Also read the last five nights' entries in full
+(09-20, 09-23, 09-24, 09-25, 09-26 — all logged as negative results) to avoid re-litigating anything already
+ruled out: Georgia/Arizona data-center water use, tariff-exempt beef, gambling-platform litigation tracking
+(NY v. Polymarket, the Sixth Circuit ruling, the Curtis/Trump Jr. subpoena call), Louisiana AI legislation
+(HB 425, dead), electronic shelf labels, PBM litigation, McCormick/Cholula shrinkflation, the Formosa
+permit-date fabrication, the nationwide data-center moratorium wave, AI companion-chatbot regulation,
+deepfake celebrity-endorsement ads, Ticketmaster dynamic pricing, and Louisiana seafood-mislabeling
+enforcement. Searched breadth-first across roughly fifteen distinct query angles spanning consumer/loyalty
+marketing, tariffs, Louisiana energy/infrastructure, Flock/ALPR, gambling/prediction markets, meat supply
+chain, CCS, SpaceX Louisiana, AI-augmented qualitative-research methods, home-insurance AI underwriting,
+and general AI-disclosure/marketing-controversy news, before going deep on the one candidate below.
+
+### 45. Apple's $250M "Apple Intelligence" false-advertising settlement — testing whether an AI-branded
+capability promise gets a harsher expectancy-disconfirmation penalty than an equivalent conventional
+feature promise (moderate-high confidence — the underlying disconfirmation-distrust model is a well-
+established, decades-old paradigm, so the honest gap here is narrow and specific: it's the AI-vs-
+conventional moderator test, not the mediator chain itself, that's undone; flagging that distinction
+plainly rather than overselling novelty)
+
+- **Gap/question:** In *Landsheft, et al. v. Apple Inc.* (Case No. 5:25-cv-2668, N.D. Cal.), plaintiffs
+  alleged Apple advertised "Apple Intelligence" Siri features — specifically personal context awareness
+  and in-app controls — in commercials and at WWDC 2024 ahead of the iPhone 16 launch, knowing it could not
+  yet deliver them, generating what the complaint calls "unprecedented excitement" the company couldn't
+  fulfill. Apple agreed to a $250 million settlement (no admission of wrongdoing), which counsel is calling
+  "the largest false-advertising settlement in history." Confirmed via direct WebFetch of CBS News (cross-
+  checked against Fox Business, Yahoo Finance, AppleInsider, and MacRumors, all independently reporting the
+  same case number, dollar figure, and dates): Judge Noël Wise granted preliminary approval July 17, 2026;
+  the claims portal opened September 21, 2026; the claims deadline is December 21, 2026; the final-approval
+  hearing is set for February 24, 2027. Eligible class members (iPhone 15 Pro/Pro Max and any iPhone 16
+  model purchased June 10, 2024–March 29, 2025 in the U.S.) can claim $25 per device, floating up to $95
+  depending on total claims filed. The open marketing question: the classic expectancy-disconfirmation-
+  to-distrust model (misleading claim → product failure to deliver → negative disconfirmation → generalized
+  consumer distrust, with documented carryover/spillover to unrelated products and companies) is already
+  well-established (Darke, Ashworth & Main 2010, *Journal of the Academy of Marketing Science* 38(3),
+  347–362). What hasn't been tested: does a broken promise specifically framed as an *AI capability* —
+  in the current 2026 climate of documented, fast-rising AI skepticism (a Fractl tracking study found
+  consumers saying heavy AI use would decrease trust in a favorite brand roughly doubled year-over-year,
+  20% in 2025 to 40% in 2026) — produce a *larger* disconfirmation-distrust effect and a wider spillover
+  (to the brand's other AI claims, and to other companies' AI claims generally) than a functionally
+  identical broken promise about a conventional, non-AI feature? That's a moderator test grafted onto an
+  established mediator chain, not a from-scratch theory, and should be described to Britton that way.
+- **Why tractable soon:** the case gives an unusually clean, massive, and currently live stimulus: a
+  real, litigated, settled, dollar-quantified false-advertising case with court-documented specific unmet
+  claims (not a researcher-constructed hypothetical), an active claims process generating fresh news
+  coverage and social commentary through at least December 21, 2026, and a final-approval hearing not
+  until February 2027 — meaning a survey fielded now captures reaction to a genuinely current, still-
+  unfolding event rather than a settled and forgotten one. The 2026 AI-skepticism backdrop (the Fractl
+  data above, plus a 2026 industry finding that only 27% of consumers trust brand marketing that uses AI)
+  supplies a testable, dated "why now" for the moderator itself, not just the stimulus case.
+- **Saturation check, done directly:** the general disconfirmation-distrust-with-spillover mechanism is
+  not new (Darke et al. 2010, above) and claim-specificity effects on credibility are also already studied
+  (a *Journal of Business Research*-track "double-edged effects of claim specificity in green advertising"
+  paper, and a Manchester "being specific, being credible" green-advertising paper). A search for existing
+  empirical work on the Apple Siri case itself, or on any direct AI-vs-conventional-claim moderator test of
+  the disconfirmation model, came back empty — the closest 2026 academic hit found tonight, "The State of
+  AI 2026: Exaggerated Promises and the Illusion of Innovation," is a content analysis of CES 2026 corporate
+  presentations (B2B/investor-facing claims), not a consumer-level trust study and not built around this
+  case. This reads as a genuine, narrow, honestly-scoped gap rather than an assumed one.
+- **Honest differentiation from idea 14 (AI Washing/AI Booing, Coca-Cola's AI holiday ads):** both sit in
+  this file's AI-ad-trust territory, but the antecedent and mechanism differ. Idea 14 is about a company's
+  defiant *repetition* of AI-generated creative content despite public backlash (an authenticity-violation/
+  insincerity mechanism, content the company chose to keep making). This idea is about a company's *product-
+  capability promise* going unmet by launch (a classic misleading-claim/product-failure mechanism, not a
+  choice to keep offending taste) — closer in spirit to Britton's own claim-specificity framing already used
+  in `TARIFF_PAPER` and `SPACEX_LOUISIANA_PAPER` than to the disclosure/authenticity cluster (ideas 10, 25,
+  31, 38, 42, 44). Britton should still expect a reviewer to ask why this isn't "just" idea 14 or "just"
+  Darke et al. (2010) again, so this differentiation paragraph should travel with the idea if pursued.
+- **Rough method sketch:** fits the antecedent → mediator → outcome template, extending Darke et al.'s
+  (2010) model with a moderator. Antecedent: a pre-purchase capability claim (vignette manipulated: AI-
+  labeled feature vs. functionally identical conventional/non-AI feature) paired with claim specificity
+  (specific/demoed vs. vague) and outcome (delivered on time vs. delayed/undelivered, modeled directly on
+  the real Siri personal-context-awareness and in-app-controls claims). Mediators: negative expectancy
+  disconfirmation and perceived deceptive intent (both already validated constructs from the 2010 paper,
+  giving ready-made measures to adapt rather than build from scratch). Outcome: brand distrust, distrust
+  spillover to the brand's *other* AI claims, distrust spillover to *other companies'* AI claims (a novel
+  outcome measure this file's cluster hasn't tested), purchase regret, and willingness to join/support a
+  future class action. Plausible moderator (beyond the AI-vs-conventional manipulation itself): general AI
+  skepticism/optimism (given the documented 2025→2026 generational and overall skepticism shift) or prior
+  product involvement/fandom.
+- **Human-subjects flag:** Study 1 as scoped (the complaint, the settlement terms, contemporaneous ad/
+  keynote coverage, and ongoing claims-process news) is public-record content analysis, no IRB concern.
+  Any Study 2 vignette-survey work measuring real respondents' disconfirmation/distrust judgments is
+  primary human-subjects data and would need IRB approval before proceeding — flagging per standing repo
+  rule, not proceeding past the idea stage.
+- **Target venue:** *Journal of the Academy of Marketing Science* (the venue that published the Darke et
+  al. 2010 foundational model, and a natural home for the first moderator extension of it, though also the
+  highest-scrutiny venue for exactly that reason) as lead candidate; *Journal of Consumer Marketing* (matching
+  `TARIFF_PAPER`'s own target) or *Journal of Advertising* as alternates.
+- Leads (WebFetch-verified: CBS News; WebSearch-sourced, not independently fetched, for the rest):
+  [CBS News — Apple settlement offers eligible iPhone owners up to $95. Here is how to file a claim (direct
+  fetch)](https://www.cbsnews.com/news/apple-settlement-iphone-siri-claim/), [Fox Business — Apple's $250M
+  Siri class action settlement opens claims for iPhone users](https://www.foxbusiness.com/technology/apple-settlement-could-mean-payout-some-iphone-owners),
+  [AppleInsider — Claim your $25 in Apple's $250 million settlement over delayed Siri features](https://appleinsider.com/articles/26/09/21/claim-your-25-in-apples-250-million-settlement-over-delayed-siri-features),
+  [MacRumors — Siri AI Settlement Website Now Live: Apple to Pay Some iPhone Owners](https://www.macrumors.com/2026/09/20/siri-ai-settlement-website-now-live/),
+  [classaction.org — $250M iPhone Settlement Proposed in Apple Lawsuit Over Allegedly Misrepresented AI
+  Features](https://www.classaction.org/news/250m-iphone-16-settlement-resolves-apple-lawsuit-over-allegedly-misrepresented-ai-features),
+  [phonearena.com — Furious iPhone users sue Apple for false advertising of AI capabilities](https://www.phonearena.com/news/furious-iphone-users-sue-apple-for-false-advertising-of-ai-capabilities_id168753),
+  [Springer/JAMS — Darke, Ashworth & Main (2010), "Great expectations and broken promises: misleading
+  claims, product failure, expectancy disconfirmation and consumer distrust"](https://link.springer.com/article/10.1007/s11747-009-0168-7),
+  [ResearchGate — "The State of AI 2026: Exaggerated Promises and the Illusion of Innovation" (CES 2026
+  content analysis, the closest 2026 academic hit, not a match)](https://www.researchgate.net/publication/399961402_The_State_of_AI_2026_Exaggerated_Promises_and_the_Illusion_of_Innovation)
+
+Proposal only, per standing rule — nothing built, nothing committed to. This is the one new idea logged
+tonight.
+
+### Checked in real depth, set aside — DOT's airline frequent-flyer-program "deceptive practices" investigation
+Checked because a 2026 wave of loyalty-program devaluations (dynamic award pricing replacing published
+charts, American Airlines' Basic Economy fares no longer earning miles, Marriott Bonvoy's point value
+dropping) looked like a fresh, live regulatory hook. On direct verification this fell apart as a "live in
+2026" story: the DOT investigation was actually launched by Secretary Pete Buttigieg in **September 2024**
+(confirmed via direct WebFetch of a Regulatory Review article), not 2026, and search results plus a May
+2025 Senate Appropriations exchange between Sen. Durbin and current Secretary Sean Duffy indicate the
+inquiry has stalled/been deprioritized under the current administration rather than producing any 2026
+action. The underlying devaluation-wave facts are real and current, and the psychological mechanism
+(psychological-contract-breach/betrayal from a company unilaterally devaluing something consumers treat as
+quasi-currency) is a live area — but a direct saturation check found it's already a fairly mature one:
+Montgomery (2018, *Journal of Consumer Psychology*) on psychological contract breach in committed brand
+relationships, a 2025 ScienceDirect paper distinguishing functional vs. ethical brand-transgression
+mechanisms, and 2024's "Betrayed by the favorite brand" brand-shame paper (*European Journal of Marketing*)
+all cover closely adjacent ground, and none of tonight's search turned up a specific loyalty-program-
+devaluation wrinkle sharp enough to clear that existing literature. Set aside rather than forced; flagging
+the stalled-DOT-investigation correction so a future session doesn't repeat the "assume 2024 Biden-era news
+is live 2026 news" error this file's 09-20 (HB 425) and 09-26 (Formosa permit date) entries already caught
+in other forms.
+
+### Checked, no fresh anchor found (or already covered/corpus material) — set aside without a full write-up:
+- **Schumer's "Family Grocery and Farmer Relief Act"** (proposed legislation requiring large meatpackers to
+  focus on a single protein sector rather than operate across beef/pork/poultry) — real and current, but
+  this is a structural-remedy escalation of the same meatpacking-concentration narrative
+  `MEAT_SUPPLY_CHAIN_PAPER` already tracks, corpus material for that active project rather than a new stream.
+- **Florida's new restaurant "operations charge" disclosure law (SB 606, effective July 1, 2026)** — real
+  and dated, but no Louisiana-specific instance found tonight, and this is the same junk-fee/price-
+  disclosure mechanism idea 11 already covers in detail (per this file's own 09-20/09-26 calls on
+  electronic shelf labels and grocery surveillance pricing) — not a distinct new mechanism.
+- **AI-driven home-insurance claims-denial algorithms** ("algorithmic bad faith" litigation, a 12-state AI
+  Systems Evaluation Tool pilot expected nationwide by November 2026) — real and current, and Louisiana's
+  own insurance crisis is an active adjacency, but on inspection this reads as healthcare-AI-claims-denial
+  litigation (UnitedHealth-style) migrating into home insurance generally, with no Louisiana-specific
+  instance found tonight and no clear company-to-consumer marketing-claim antecedent (it's an internal
+  claims-processing practice, not an advertised claim) — a weaker fit than idea 24's existing premium-
+  transparency angle, set aside rather than forced.
+- **Mississippi River saltwater intrusion, third consecutive low-flow year** — checked as a possible fresh
+  Louisiana infrastructure angle, but as of tonight New Orleans water intakes remain unaffected (the 2023
+  Corps of Engineers underwater sill is holding), so there's no active consumer-facing event to anchor a
+  study on right now, just a background risk — not tractable tonight.
+- **EV federal tax-credit expiration and dealership urgency marketing** — real, but the credit itself
+  expired September 30, 2025, and 2026 coverage is entirely about the sales-decline aftermath, not a fresh
+  regulatory or disclosure event; also a well-trodden scarcity/urgency-marketing literature.
+- Also breadth-checked and found nothing new enough to write up: Flock/ALPR news (an active but familiar
+  wave of contract terminations — Chandler and Surprise, AZ; a Senate hearing on Indianapolis-officer
+  misuse — all corpus material for `FLOCK_CAMERAS_PAPER`/idea 44, not a new mechanism); Kalshi/Polymarket
+  (NY's suit and countersuit continuing to escalate, already covered by idea 15's and 09-25/09-26's notes);
+  Louisiana CCS (a healthy, growing sector per 2026-session coverage, no fresh controversy beyond what
+  `CCS_PAPER` already tracks); SpaceX Louisiana (no fresh September development beyond what
+  `SPACEX_LOUISIANA_PAPER`'s own notes already have); and AI-augmented qualitative-research-methods tooling
+  (a new GAATA-framework paper, more vendor-tool roundups — literature-refresh material, not a live
+  controversy).
+
+Ideas 1-44 were not individually rechecked for fresh developments tonight beyond the flags noted above —
+time went to the one new-idea search and its saturation/verification work, the DOT/loyalty-program check,
+and the breadth-first pass across the remaining categories above.
