@@ -1,5 +1,26 @@
 # Decision Log
 
+## 2026-09-27 — Arizona/Kalshi: found real Ninth Circuit appellate movement the 09-24 district-docket-only read missed; Illinois HB 5143 appears stalled, not just "unresolved" (see `notes/2026-09-27-arizona-appellate-movement-illinois-status-ftc-hr10357-recheck.md` for full detail)
+The 09-24 note read only the D. Ariz. district docket (2:26-cv-01715) and correctly found it dormant.
+This pass additionally read the two Ninth Circuit appellate dockets directly via CourtListener
+(No. 26-4281, Arizona's own interlocutory appeal; No. 25-7516, the consolidated *Assad* case) and
+found real, dated activity: Arizona filed a Sept 14, 2026 motion for summary disposition asking the
+Ninth Circuit to vacate the May 5 preliminary injunction in light of the Aug 28 *Assad* ruling; the
+CFTC responded Sept 24 (its position not independently confirmed — the document itself 403'd).
+Separately, and more consequentially for citing the Aug 28 ruling as final: **Kalshi filed a petition
+for panel/en banc rehearing on Sept 9, 2026, which under FRAP 41 automatically stays the mandate** —
+so the Aug 28 opinion is not yet final and no mandate has issued as of this pass. The underlying
+district case itself remains untouched (no motion to lift its stay has been filed there). **Judgment
+call: reporting all of this as multiple separate, precisely-dated facts rather than one summary
+conclusion**, since conflating "Ninth Circuit ruled Aug 28" with "the ruling is final" would repeat
+the same kind of error the 09-24 note caught and corrected regarding the May 5 order. Separately,
+Illinois HB 5143 (the per-wager-tax repeal bill) was found via two independent Google-indexed
+snippets of the ilga.gov bill-status page itself (not secondary press) to have been re-referred to
+the House Rules Committee under Rule 19(a) on 3/27/2026 — normally a sign a bill is shelved for the
+session, not merely "status unresolved." Flagging as **not full primary-source-page confidence**:
+ilga.gov itself could not be directly fetched this session (503s via WebFetch, TLS failures via
+`curl`, on an otherwise-working proxy/CA-bundle setup) — a future pass should confirm directly.
+
 ## 2026-09-24 — Connecticut promo-deduction fully resolved via direct primary-statute read; Arizona/Kalshi docket corrected (see `notes/2026-09-24-arizona-docket-connecticut-primary-source-scouting.md` for full detail)
 Two items closed this pass, full sourcing/detail in the dated note, not repeated here: (1) Connecticut's
 promotional-deduction tax treatment (13.75% GGR rate; 25%/20%/15% Year 1/2/3 promo-coupon cap) is now
