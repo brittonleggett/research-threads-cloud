@@ -151,6 +151,14 @@ scattered notes did.
   multi-night Section 301 deadline watch — no further recheck needed on
   this specific question. See `notes/2026-09-19-litigation-recheck.md`.
 
+- **2026-09-27: litigation docket recheck — all four dockets fully stable,
+  no change since 09-26** (entry counts unchanged: Section 301 at 54, Section
+  122 at 106, V.O.S. Selections at 26, Axle of Dearborn at 79; latest-entry
+  text verbatim-identical to 09-26 on all four). V.O.S. Selections' response
+  brief is now 8 days out (10/05/2026); no filing or oral-argument date yet.
+  See `notes/2026-09-27-litigation-stable-davidson-schaefer-deep-read-jcm-
+  deadline-partial-lead.md`.
+
 ## ⚠ Possible critical discrepancy found 2026-09-26 — the "Oct 15, 2026" deadline itself needs Britton to verify directly
 
 **This needs Britton's own eyes, not another automated recheck — flagging
@@ -210,6 +218,30 @@ Fluid-World-The-Intersection from an ordinary browser, or a direct email to
 the guest editors — Kevin James kjames@uttyler.edu, Janna Parker
 parke4jm@jmu.edu, Hyunju Shin hshin13@kennesaw.edu — to ask what the actual
 current deadline is) before anyone treats either date as settled.**
+
+**2026-09-27 follow-up attempt — still inconclusive, one new partial data
+point.** Tried a different route (a CFP-aggregator site, `knowledgesteez.com`,
+not Emerald or AMS directly) since Emerald's own page and the AMS.org URL
+both remained blocked/dead again tonight (confirmed via two more independent
+attempts: a direct `curl` retry, and a third-party `r.jina.ai` reader proxy —
+both got the same Cloudflare challenge Emerald has served every night). The
+aggregator page (real, directly fetched, `HTTP 200`, cited Emerald as its
+ScholarOne source, phrasing consistent with Emerald's standard CFP template)
+reads: "Opening date for manuscripts submissions: 15/08/2026 / Closing date
+for manuscript submission: 15/10/2026" — i.e., a *single* continuous window
+where Aug 15, 2026 is the **opening**, not a separate closing date, and Oct
+15, 2026 is the real close. If accurate, this would mean nothing has actually
+closed and this project's "Oct 15, 2026" framing is correct after all, for a
+different reason than assumed (one window, not two deadlines). **This is
+still not a primary-source confirmation** — Emerald's own page and
+ResearchGate's PDF both remained inaccessible tonight — so this doesn't
+resolve the discrepancy, it just adds one more (partial, corroborating-but-
+not-conclusive) data point on the "Oct 15, 2026 is real" side. See
+`notes/2026-09-27-litigation-stable-davidson-schaefer-deep-read-jcm-deadline-
+partial-lead.md` §3 for the full account, including one confirmed dead end
+(an AMS.org URL that is real but is for an unrelated *Journal of Sustainable
+Marketing* special issue, not this one — don't re-chase it). **Still needs
+Britton's own direct check before either date is treated as settled.**
 
 ## ⚠ Urgent discrepancy found 2026-09-03 — read before touching the scales
 
