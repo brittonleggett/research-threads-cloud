@@ -4,10 +4,11 @@
 one-time exception letting AI complete Phase 3 (theme review) and draft through Theory —
 see `notes/2026-08-16-phase3-theme-review-and-theory-lock.md` for the disclosure and reasoning
 behind every judgment call made without his prior sign-off. This is real academic prose
-grounded in the verified corpus (22 artifacts as originally drafted 2026-08-16; grown to 50
-artifacts across 18 states and 7 national-level pieces as of 2026-09-25 — see
+grounded in the verified corpus (22 artifacts as originally drafted 2026-08-16; grown to 58
+artifacts across 21 states and 7 national-level pieces as of 2026-09-28 — see
 `Study1_Corpus_and_Coding_DRAFT_2026-08-16.md` for the current corpus and
-`notes/2026-09-25-corpus-recency-sweep-and-literature-methods-sync.md` for the update log) and
+`notes/2026-09-28-corpus-recency-sweep-and-policy-diffusion-literature.md` for the latest update
+log) and
 real, checked literature citations (see
 citation-verification notes inline and in `notes/2026-08-16-scale-sourcing.md`), but it is
 **pending Britton's read-through** — nothing here should be treated as final until he's seen
@@ -50,7 +51,7 @@ the point of adoption, what a surveillance system will actually do with their da
 happens to public trust and political opposition when they find out they did not.
 
 This paper addresses that question empirically in two studies. Study 1 inductively derives a
-typology of real ALPR controversies from a corpus (52 artifacts as of 2026-09-25, spanning 18
+typology of real ALPR controversies from a corpus (58 artifacts as of 2026-09-28, spanning 21
 states plus 7 national-level artifacts; 22 artifacts across fourteen states as originally coded
 2026-08-16), identifying institutional secrecy around default data-sharing practices
 — not corporate non-disclosure agreements, but a *technical* default nobody flagged at the
@@ -360,10 +361,62 @@ much stronger it now is (see `notes/2026-08-21-corpus-addendum-new-evidence.md` 
 `notes/2026-08-22-theory-draft-strengthening-mountain-view-and-function-creep.md`). Second,
 algorithmic accuracy and wrongful-stop harms (a Toledo, Ohio K9 mauling
 following a single-digit plate misread; a Los Angeles Police Department audit finding a 32.3%
-false-positive rate on stolen-vehicle flags) constitute a distinct causal story — dread risk
-(Slovic) operating largely independent of the disclosure/trust chain modeled here — and are
-flagged as a strong candidate for a follow-up study or robustness check rather than force-fit
-into the present design.
+false-positive rate on stolen-vehicle flags; **added 2026-09-28:** a Roseville, CA police audit
+finding a 71% plate-misread rate on stolen/felony-vehicle alerts, and a Plymouth, MN case in which
+a civilian was detained at gunpoint over a misread plate — see corpus #58 and #56) constitute a
+distinct causal story — dread risk (Slovic) operating largely independent of the disclosure/trust
+chain modeled here — and are flagged as a strong candidate for a follow-up study or robustness
+check rather than force-fit into the present design.
+
+### Candidate Literature Grounding for the Municipal Rejection-Wave Pattern (Theme 5) — found 2026-09-28, not yet integrated
+
+**Disclosure:** the two citations below were located, and verified as real via Crossref, by an AI
+system under this project's build-out exception, specifically in response to the 2026-09-25 note's
+own flagged gap ("a real policy-diffusion-theory grounding for the Discussion section... a live
+gap"). They are presented here as a candidate grounding for Theme 5's own pattern (the corpus's
+recurring wave/cascade structure — Wisconsin's #39-43 cascade, Missouri's #47-48 wave, Virginia's
+#34 regional cluster, the Rhode Island and now Texas sub-cascades in #49-50/#53-55), **not
+integrated into the H1-H6 hypothesis chain or the Study 2 design** — per the 09-25 note's own
+caution, folding a diffusion/termination frame into the Discussion section is closer to a genuine
+theoretical-framing decision than a citation-verification fix, and stays Britton's call on scope
+and emphasis, consistent with how this exception has always treated the boundary between
+literature grounding (in scope) and new theoretical contribution (not).
+
+- **Shipan, C. R., & Volden, C. (2008). The Mechanisms of Policy Diffusion. *American Journal of
+  Political Science*, 52(4), 840–857.** DOI `10.1111/j.1540-5907.2008.00346.x` — confirmed real via
+  Crossref (title, authors, journal, volume/issue/pages, and abstract all match; 1,053 citing works
+  per Crossref's own count, a well-established piece). Studies antismoking-policy adoption across
+  675 U.S. cities (1975–2000) and identifies four empirically distinguishable diffusion mechanisms
+  — **learning** from earlier adopters, **economic competition** among proximate jurisdictions,
+  **imitation** of larger/prominent jurisdictions, and **coercion** by higher-level government — a
+  clean typology for describing *why* the corpus's rejection cascades spread jurisdiction to
+  jurisdiction (e.g., the Wisconsin cascade's own internal cross-references, or Missouri's Kehoe
+  executive order following the St. Charles Co. case, corpus #47/#48 — a plausible coercion-type
+  mechanism running from a local case to a state-level mandate).
+- **Krause, R. M., Yi, H., & Feiock, R. C. (2016). Applying Policy Termination Theory to the
+  Abandonment of Climate Protection Initiatives by U.S. Local Governments. *Policy Studies
+  Journal*, 44(2), 176–195.** DOI `10.1111/psj.12117` — confirmed real via Crossref (title, authors,
+  journal match). Arguably the closer structural fit of the two: it applies policy-*termination*
+  theory (Bardach 1976; deLeon 1978) — not adoption/diffusion theory — specifically to local
+  governments **abandoning a program they had themselves previously adopted**, the same basic
+  structure as this corpus's rejection wave (a city or county that adopted Flock, then terminated
+  it), rather than the more common diffusion-of-new-adoption framing Shipan & Volden and most of
+  the policy-diffusion literature otherwise addresses. Published in *Policy Studies Journal* —
+  itself one of this paper's own candidate target venues, a modest additional point in its favor as
+  a grounding source reviewers in that venue would recognize.
+- **Not pursued further tonight, flagged as a possible third leg:** classical policy-termination
+  theory itself (Bardach, E. (1976). Policy termination as a political process. *Policy Sciences*,
+  7(2), 123–131; deLeon, P. (1978). Public policy termination: An end and a beginning. *Policy
+  Analysis*, 4(3), 369–392) — the foundational works Krause, Yi, & Feiock (2016) itself builds on.
+  Both titles/venues were found via WebSearch this session but **not yet independently verified via
+  Crossref or another primary bibliographic source** — named here as a lead for a future session or
+  for Britton's own citation of the Krause et al. piece's own reference list, not asserted as
+  confirmed.
+
+This is offered as a real, well-fitting, verified addition to the literature the Discussion section
+could draw on — not a rewrite of any locked theme or hypothesis, and not itself added to any
+Discussion-section prose (no Discussion section exists yet in this draft to add it to). Full
+verification detail in `notes/2026-09-28-corpus-recency-sweep-and-policy-diffusion-literature.md`.
 
 ---
 
@@ -525,3 +578,19 @@ into the present design.
     genuine counter-current to the legislative/state-regulatory scrutiny pattern the rest of the
     corpus documents, worth Britton's own judgment on whether/how to fold into the
     theory/discussion section.
+13. **2026-09-28 update:** corpus-count language synced again (58 artifacts, 21 states, 7
+    national-level pieces — two new states, Minnesota and Maine, plus three new Texas rows and one
+    new California row; see `Study1_Corpus_and_Coding_DRAFT_2026-08-16.md` and
+    `notes/2026-09-28-corpus-recency-sweep-and-policy-diffusion-literature.md`). The Roseville, CA
+    (#58) and Plymouth, MN (#56) accuracy/wrongful-stop cases were added to the "themes not built
+    into the primary model" algorithmic-accuracy paragraph above. A new subsection above presents
+    two Crossref-verified candidate literature citations for a policy-diffusion/termination framing
+    of Theme 5's rejection-wave pattern (Shipan & Volden 2008; Krause, Yi, & Feiock 2016) — found in
+    direct response to the 2026-09-25 note's own flagged literature gap, verified real, but
+    deliberately **not** integrated into the H1-H6 chain or written into Discussion-section prose,
+    since that framing decision is closer to a new theoretical contribution than a grounding fix
+    and stays Britton's call, per this exception's standing boundary. Neither of the two items
+    reserved for Britton regardless of the exception's literature work (Nhan & Helfers's disclosure
+    wording; Przeszlowski & Guerette's full text) was re-attempted tonight — both were confirmed
+    closed to every automated route as recently as 2026-09-25, and re-running the same closed
+    checks would be pure repetition, not new verification.

@@ -1,6 +1,6 @@
 # Flock Safety Cameras & Public Trust/Surveillance Response — Project Brief
 
-## Status as of 2026-09-25 (read this before the "What this is" section below, which is the
+## Status as of 2026-09-28 (read this before the "What this is" section below, which is the
 ## original 2026-08-16 orientation snapshot and is now stale in several places)
 Design is **locked**, not exploratory. On 2026-08-16 (later the same day the orientation below
 was written), Britton granted a one-time exception letting AI complete Phase 3 (theme review)
@@ -10,16 +10,24 @@ disclosure → procedural injustice → institutional trust → opposition-inten
 moderated by prior distributive-surveillance exposure and perceived crime-solving necessity) is
 drafted in `Introduction_and_Theory_DRAFT_2026-08-16.md`; Study 2's full instrument and methods
 section are drafted (`Study2_Instrument_DRAFT_2026-08-27.md`,
-`Study2_Methods_Section_DRAFT_2026-08-29.md`); the Study 1 corpus has grown from 22 to 52
-artifacts across 18 states plus 7 national-level pieces (`Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`
+`Study2_Methods_Section_DRAFT_2026-08-29.md`), including the baseline-trust-in-police pre-exposure
+screener drafted 2026-09-23; the Study 1 corpus has grown from 22 to 58
+artifacts across 21 states plus 7 national-level pieces (`Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`
 — the filename date is stale but the content is a running, continuously-updated document, not a
-frozen 08-16 snapshot). **Three design calls remain explicitly reserved for Britton regardless of
-the exception** (they are not Phase-3/theme-review calls): archival vs. self-report
-operationalization of Moderator 1, single-manipulation vs. factorial Study 2 design, and PLS-SEM
-vs. Hayes-PROCESS analysis. Vignette wording (the Condition B secrecy/government-incompetence
-framing question, the not-fully-closed 8th-grade readability gap) is also left for Britton or an
-actual pilot. Read the newest-dated file(s) in `notes/` before starting new work — don't
-re-litigate what's already locked or duplicate a just-finished pass.
+frozen 08-16 snapshot). Two Crossref-verified candidate literature citations for a policy-
+diffusion/termination framing of the corpus's municipal rejection-wave pattern (Shipan & Volden
+2008; Krause, Yi, & Feiock 2016) were added 2026-09-28 — flagged as literature grounding, not
+integrated into the Discussion section or the locked chain (see
+`notes/2026-09-28-corpus-recency-sweep-and-policy-diffusion-literature.md`). **Three design calls
+remain explicitly reserved for Britton regardless of the exception** (they are not Phase-3/theme-
+review calls): archival vs. self-report operationalization of Moderator 1, single-manipulation vs.
+factorial Study 2 design, and PLS-SEM vs. Hayes-PROCESS analysis. Vignette wording (the Condition B
+secrecy/government-incompetence framing question, the not-fully-closed 8th-grade readability gap)
+is also left for Britton or an actual pilot. **The single highest-priority remaining step is a
+human pilot of the 4-arm vignette and full instrument — still not run, and not runnable by an AI
+session (requires Britton's own CloudResearch/IRB access).** Read the newest-dated file(s) in
+`notes/` before starting new work — don't re-litigate what's already locked or duplicate a
+just-finished pass.
 
 ## What this is (original 2026-08-16 orientation — venue/background paragraphs below still
 ## accurate; the "not yet a locked design" framing is superseded by the section above)

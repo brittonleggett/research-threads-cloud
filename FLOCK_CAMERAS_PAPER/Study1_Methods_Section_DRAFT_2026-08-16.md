@@ -27,20 +27,23 @@ Nissenbaum's (2010) theory of privacy as contextual integrity (see
 
 ### Data
 
-**Corpus size note, updated 2026-09-25 (AI-run, under the standing Phase 3/build-out exception;
-see `notes/2026-09-25-corpus-recency-sweep-and-literature-methods-sync.md`):** this subsection
+**Corpus size note, updated 2026-09-28 (AI-run, under the standing Phase 3/build-out exception;
+see `notes/2026-09-28-corpus-recency-sweep-and-policy-diffusion-literature.md`, building on
+`notes/2026-09-25-corpus-recency-sweep-and-literature-methods-sync.md`):** this subsection
 was drafted 2026-08-16 against a 22-artifact corpus and left unsynced through nine subsequent
-weeks of corpus growth. The corpus now stands at 52 artifacts (see
-`Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`'s own running "Corpus (N artifacts as of
-[date])" header and per-row addition dates for the full growth history), spanning **18 U.S.
-states** (Oregon, Illinois, New York, Virginia, Texas, Ohio, California, Nebraska, Colorado,
-Michigan, Massachusetts, Wisconsin, Oklahoma, Washington, Arizona, Kentucky, North Carolina, and
-Missouri — the original 08-16 corpus covered 12 of these 18; the other 6 [Oklahoma, Washington,
-Arizona, Kentucky, North Carolina, Missouri] were added across the intervening six weeks, per the
-corpus file's own per-row addition dates; note the original draft's "fourteen states" claim for
-the 12-state 08-16 corpus does not itself reconcile exactly against a direct count either — not
-resolved here, flagged rather than silently corrected, since the original 22-artifact
-state-by-state breakdown was not re-audited this session),
+weeks of corpus growth before the 2026-09-25 sync; it has grown further since. The corpus now
+stands at 58 artifacts (see `Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`'s own running
+"Corpus (N artifacts as of [date])" header and per-row addition dates for the full growth
+history), spanning **21 U.S. states** (Oregon, Illinois, New York, Virginia, Texas, Ohio,
+California, Nebraska, Colorado, Michigan, Massachusetts, Wisconsin, Oklahoma, Washington,
+Arizona, Kentucky, North Carolina, Missouri, Rhode Island, Minnesota, and Maine — the original
+08-16 corpus covered 12 of these 21; the other 9 were added across the following six weeks
+[Oklahoma, Washington, Arizona, Kentucky, North Carolina, Missouri] and the two most recent
+sessions [Rhode Island 2026-09-23, Minnesota and Maine 2026-09-28], per the corpus file's own
+per-row addition dates; note the original draft's "fourteen states" claim for the 12-state 08-16
+corpus does not itself reconcile exactly against a direct count either — not resolved here,
+flagged rather than silently corrected, since the original 22-artifact state-by-state breakdown
+was not re-audited this session),
 **7 national-level artifacts** (the PBS efficacy feature, the federal Flock-Off Act, the Senate
 Judiciary investigation and its Sept. 23, 2026 hearing, a federal class action, the Institute for
 Justice ALPR-misuse database, and the first executive-branch reactions — President Trump, FBI
