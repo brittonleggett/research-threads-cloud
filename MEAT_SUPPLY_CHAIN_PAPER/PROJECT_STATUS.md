@@ -1,6 +1,17 @@
 # Project Status — Meat Supply Chain Paper
 
-Last updated: 2026-09-26 (twelfth research session — resolved an apparent tension in the farm-bill
+Last updated: 2026-09-28 (thirteenth research session — followed up on the twelfth session's own
+recommendation to cross-check other beef/pork defendants' filings for untracked CIIPP-class settlements;
+found real new detail (Cargill's $32.5M specific share of the already-tracked $87.5M beef Consumer IPP
+settlement) and caught a real error via a direct primary-source court-filing read (JBS's pork CIIPP
+settlement is $12.75M, not the $24.5M a WebSearch synthesis offered — the exact kind of error this
+project's "read the primary document" standard exists to catch); also corroborated (via three independent
+secondary sources, still not primary-confirmed) that the Senate's pre-midterm recess begins the week of
+Oct. 4, 2026, favoring the "in session through early October" framing of the farm-bill floor-vote timing
+question over a lower-credibility "recess begins before Sept. 30" claim; rechecked DOJ probe, Schaefer,
+and literature-scouting threads with no material change. See
+`NOTES/2026-09-28-ciipp-cross-defendant-litigation-check-farmbill-recess-corroboration.md`.) Twelfth
+research session was 2026-09-26 (resolved an apparent tension in the farm-bill
 timeline (the Aug. 6 markup held separate votes: the S.421 labeling amendment passed 17-6, but the
 overall bill's final committee vote that same day failed 10-11 and was recessed, not adjourned — both
 facts now sit in one coherent timeline); found a real, current-era (2020s, Australia/Brazil/Argentina)
@@ -759,6 +770,39 @@ things worth knowing:
   future session checking whether other defendants (JBS, Cargill, National Beef, Smithfield) have parallel
   untracked CIIPP-class settlements, using the same "read the 10-K/10-Q directly" method.
 
+## 2026-09-28 research pass (see `NOTES/2026-09-28-ciipp-cross-defendant-litigation-check-farmbill-recess-corroboration.md` for full detail)
+
+Thirteenth research session, run with the Sept. 30, 2026 farm-bill extension deadline 2 days away. Followed
+up on the 2026-09-26 note's own recommended next step plus rechecked the standing threads:
+
+- **Cross-defendant CIIPP settlement check (the 09-26 recommendation), done tonight — real new detail plus a
+  real correction via primary-source read.** Beef: Cargill's specific $32.5M share of the already-tracked
+  $87.5M Consumer IPP settlement is now known (Cargill $32.5M + Tyson $55M = $87.5M); JBS's own separate,
+  earlier (2023) beef CIIPP settlement is $25M; the $47M beef CIIPP settlement is confirmed, via the actual
+  class-notice text, to be **Tyson's alone**, not a Tyson+Cargill combined figure as two WebSearch syntheses
+  tonight incorrectly suggested; Cargill's own CIIPP status remains unconfirmed; National Beef and JBS
+  remain unsettled, non-settling defendants on the beef Direct Purchaser class. Pork: a direct primary-source
+  read of the actual court filing (*In re Pork Antitrust Litigation*, D. Minn., CIIPP/JBS preliminary-approval
+  motion, filed 4/15/21) **confirms JBS's pork CIIPP settlement at $12.75 million, correcting a $24.5M
+  figure one WebSearch synthesis offered tonight** — a concrete, caught-before-citing example of exactly the
+  error this project's "read the primary document" standard exists to prevent. Smithfield's pork CIIPP
+  settlement is very likely $42M (per Smithfield's own SEC disclosure language) but wasn't read from the
+  primary footnote text directly. **Hormel's, Seaboard's, and Clemens's exact pork CIIPP figures remain
+  genuinely unconfirmed** — two WebSearch syntheses gave conflicting numbers for Seaboard specifically; do
+  not use any of the four unconfirmed figures in the manuscript. See Claim #15 in `NOTES/Claim_Fact_Check.md`
+  for the full detail.
+- **Farm-bill recess timing corroborated, not resolved**: three independent secondary sources (Bloomberg
+  Government, Roll Call, The Well News) all describe the Senate's 2026 pre-midterm recess as covering full
+  weeks beginning Oct. 4 — favoring the "in session through early October" framing over the lower-credibility
+  "recess begins before Sept. 30" claim flagged 2026-09-26, though still not confirmed against the Senate's
+  own primary calendar text. No floor vote scheduled as of Sept. 27, 2026. MCOOL reconfirmed as an explicit
+  named priority in the farm bill per multiple Sept. 16-18 committee-passage summaries.
+- **DOJ probe, Schaefer/poultry thread, idea 28**: all rechecked, no material change from 2026-09-26.
+- **Literature scouting**: one candidate (a PMC beef price-fairness article) checked directly and confirmed
+  to be the already-tracked Sun & Moon (2025, *Foods*) paper, not new; one adjacent sustainability-labeling
+  study (Berikou et al. 2026, *PLOS One*) found but doesn't occupy this project's specific gap. Still reads
+  as open after a fourth scouting pass.
+
 ## Next actions (prioritized)
 
 1. **DONE 2026-09-05/2026-09-07/2026-09-08**: Erol & Saghaian (2022) resolved
@@ -918,3 +962,13 @@ things worth knowing:
     recommend a future session check the other defendants' own 10-Ks/10-Qs for parallel untracked
     settlements. See
     `NOTES/2026-09-26-farmbill-deadline-2020s-import-natural-experiment-litigation-update.md`.
+16. **DONE 2026-09-28**: item 15's cross-defendant CIIPP check completed — see the 2026-09-28 research pass
+    above and `NOTES/2026-09-28-ciipp-cross-defendant-litigation-check-farmbill-recess-corroboration.md`.
+    Real new detail found (Cargill's $32.5M beef Consumer IPP share) and a real error caught via primary-
+    source read (JBS's pork CIIPP settlement is $12.75M, not $24.5M). **Remaining, genuinely open**:
+    Cargill's own CIIPP-class status (beef); Hormel's, Seaboard's, and Clemens's exact pork CIIPP dollar
+    figures (conflicting search-synthesized numbers, none primary-confirmed) — a future session should pull
+    Hormel's and Seaboard's own SEC filings directly, or the porkcommercialcase.com settlement-administrator
+    site via a non-blocked channel, to close this out. Farm-bill recess timing: three independent sources
+    now favor "recess begins week of Oct. 4" over "before Sept. 30," still not primary-confirmed against the
+    Senate's own calendar.
