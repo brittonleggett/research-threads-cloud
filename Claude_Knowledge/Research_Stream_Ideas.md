@@ -4263,3 +4263,83 @@ in other forms.
 Ideas 1-44 were not individually rechecked for fresh developments tonight beyond the flags noted above —
 time went to the one new-idea search and its saturation/verification work, the DOT/loyalty-program check,
 and the breadth-first pass across the remaining categories above.
+
+## 2026-09-28 — dedicated scouting-only run (WebSearch this session; one WebFetch, against gizmodo.com, used
+to directly date-check the Salesforce Agentforce lead below; no other project-folder work this session)
+
+Read the README (including the full "Nightly rotation" step 3 scouting brief and "Who Britton is" section)
+and the header/section scan across all 45 prior `### N.` entries, plus a close read of the last three nights
+in full (09-26, 09-27, and 09-25's "checked and set aside" lists) to avoid re-litigating anything already
+ruled out: data-center water/moratorium coverage, tariff-exempt beef, MCOOL's farm-bill advance, gambling-
+platform litigation tracking (NY v. Polymarket, the Sixth Circuit ruling, the Curtis/Trump Jr. subpoena
+call), Louisiana AI legislation (HB 425, dead), electronic shelf labels, PBM litigation, McCormick/Cholula
+shrinkflation (saturated by a 2026 JCR "skimpflation" paper), the Formosa permit-date fabrication, AI
+companion-chatbot regulation, deepfake celebrity-endorsement ads, Ticketmaster dynamic pricing, Louisiana
+seafood-mislabeling enforcement, and the DOT airline-loyalty investigation (stalled since 2024). Searched
+breadth-first across roughly twenty distinct query angles: FTC/state-AG consumer-protection actions,
+tariff/trade policy (the new US-China reciprocal tariff-cut deal announced today), greenwashing settlements,
+AI-capability-promise controversies (following up on idea 45's Apple Siri settlement), algorithmic-pricing/
+collusion enforcement, Louisiana data centers/insurance/CCS/SpaceX news, Flock/ALPR, meat supply chain/beef
+prices, livestream-shopping disclosure enforcement, and consumer boycott/backlash coverage.
+
+**No new idea is being logged tonight.** This is a reasoned negative result after real search depth across
+roughly twenty categories, not a skipped task. Every lead checked fell into one of three buckets: (a)
+corpus-refresh material for an already-active project; (b) the same mechanism as an already-logged idea,
+arriving via a new but non-differentiating fact; or (c) real but stale (weeks-to-months old, not a fresh
+this-month hook) on direct verification. Detail, so the next session doesn't have to re-check the same
+ground:
+
+- **Salesforce Agentforce's "AI vaporware" controversy** (Bloomberg's investigation finding three marquee
+  reference customers — Williams-Sonoma, Finnair, University of Chicago Medicine — had AI features shown
+  live on a Salesforce conference stage that were, months later, still unconnected/"future planning only";
+  CEO Marc Benioff defended it as ordinary forward-looking tech-industry marketing) looked like a strong
+  companion case to idea 45 (Apple's Siri settlement) — a second, currently-circulating instance of an
+  AI-capability-promise gap, this time B2B/enterprise rather than consumer. Checked in real depth and set
+  aside for two reasons: (1) direct WebFetch of the Gizmodo piece repeating it confirmed the underlying
+  Bloomberg investigation dates to **May 2026**, not this month — no September 2026 follow-up development
+  (lawsuit, regulatory inquiry, new disclosure) was found, so it doesn't clear this file's "tractable soon,
+  currently unfolding" bar the way idea 45's live claims-process does; and (2) the mechanism it would test —
+  does exposure of a vendor's selectively-presented/aspirational efficacy claims erode a *third-party
+  institutional buyer's* credibility and trust in that vendor's future claims — is structurally the same
+  question idea 44 (Flock Safety's "11% crime drop" selective-study spin, logged 2026-09-22) already covers
+  in depth, just with a SaaS/enterprise-software vendor and B2B buyers standing in for a surveillance-camera
+  vendor and B2G buyers. Not a distinct gap on top of idea 44, and not fresh enough on its own; flagged here
+  rather than logged as a new number.
+- **FTC's $100M FleetCor/Corpay hidden-fuel-card-fee settlement** (Federal Register notice published Sept
+  22, 2026, opening a comment period through Oct 22) — real and dated as a settlement, but the underlying
+  case was filed in December 2019 and litigated for six years before this month's finalization; the
+  allegations (unauthorized fees, unfulfilled savings claims) are the same junk-fee/deceptive-savings-claim
+  mechanism idea 11 already covers, just aimed at small-business B2B customers rather than individual
+  consumers. Not a fresh event or a distinct mechanism — set aside.
+- **The Trump-Xi summit's US-China reciprocal tariff-cut deal** (detailed today, Sept 28 — roughly 77-1,619
+  product lines getting tariffs cut toward MFN rates) — real, dated, and directly on-point for `TARIFF_PAPER`,
+  but it's a live-news feed for that project's own existing scope (and a mirror-image instance of the same
+  asymmetric-price-adjustment/"rockets and feathers" mechanism ideas 7 and 22 already cover — will retailers
+  pass a tariff *cut* through to consumers as readily as they passed the increase through?) rather than a
+  new stream. Flagging for whoever next works `TARIFF_PAPER` directly rather than logging here.
+- **Tyson Foods' greenwashing settlement** (agreeing to stop "net-zero" and "climate-smart beef" claims for
+  five years) — real, but the settlement itself dates to November 2025, not 2026, and it's `MEAT_SUPPLY_
+  CHAIN_PAPER`-adjacent corpus material (Tyson is one of the two companies, with JBS, that produce ~50% of
+  U.S. beef) rather than a new stream; also a mature, well-litigated greenwashing-claims-substantiation
+  mechanism with no fresh wrinkle found tonight.
+- **RealPage-style algorithmic-pricing/collusion enforcement in a genuinely new industry** — checked
+  specifically since idea 29 (software/data-intermediary-mediated collusion) already flags this as worth
+  watching for a fresh instantiation, but found only continued litigation-tracking on RealPage itself (DOJ
+  settlement finalized November 2025) and general 2026-outlook commentary, no new industry's algorithmic-
+  pricing case broke this month.
+- Also breadth-checked and found nothing new enough to write up: TikTok Shop livestream-disclosure
+  enforcement (search results tonight were dominated by low-quality SEO/content-farm sites, not primary
+  sources or major outlets — no verifiable fresh FTC action found); Louisiana insurance (continued
+  rate-stabilization news, same positive-direction, non-opposition story this file's 09-26 entry already
+  found); consumer boycott/backlash coverage (People's Union USA's September Amazon/PepsiCo boycott,
+  Neutrogena backlash) — real but diffuse political-consumer-activism territory with no dated regulatory/
+  legal hook or clear antecedent-mediator-outcome mechanism distinct from existing literature; Louisiana
+  CCS (continued ExxonMobil buildout and NGO-oversight friction, no fresh controversy beyond what `CCS_PAPER`
+  tracks); SpaceX Louisiana (a community meeting this week on road/environmental/vibration concerns — real
+  but corpus-refresh material for `SPACEX_LOUISIANA_PAPER`, not a new mechanism); and the FTC's junk-fees
+  rule status (the auto-dealer CARS Rule was formally withdrawn in February 2026 after the Fifth Circuit
+  struck it down — old news, and this file's idea 11/43 already track the surviving ticketing/lodging rule).
+
+Ideas 1-45 were not individually rechecked for fresh developments tonight beyond the flags noted above —
+time went to the breadth-first pass across roughly twenty categories and the one in-depth check (Salesforce
+Agentforce) above.
