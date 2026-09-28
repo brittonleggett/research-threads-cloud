@@ -158,6 +158,20 @@ scattered notes did.
   brief is now 8 days out (10/05/2026); no filing or oral-argument date yet.
   See `notes/2026-09-27-litigation-stable-davidson-schaefer-deep-read-jcm-
   deadline-partial-lead.md`.
+- **2026-09-28: litigation docket recheck — all four dockets fully stable,
+  no change since 09-27** (entry counts unchanged: Section 301 at 54, Section
+  122 at 106, V.O.S. Selections at 26, Axle of Dearborn at 79; latest-entry
+  text verbatim-identical to 09-27 on all four). V.O.S. Selections' response
+  brief is now 7 days out (10/05/2026); no filing or oral-argument date yet.
+  Also: a strong new literature find this pass — Campbell, Pomerance &
+  Percival Carter (2025/2026, *Journal of Consumer Research*), "Painful
+  Prices: The Moral Harm Model of Price Fairness" (DOI: 10.1093/jcr/ucaf045)
+  — same Margaret C. Campbell as this project's own 1999 fairness scale,
+  extending it into a "moral harm" model with inferred firm motives and
+  political orientation as moderators. Abstract verified, full text
+  paywalled — worth Britton's own JCR pull. See `notes/2026-09-28-
+  litigation-recheck-stable-campbell-2025-jcr-lit-find-jcm-deadline-not-
+  reattempted.md`.
 
 ## ⚠ Possible critical discrepancy found 2026-09-26 — the "Oct 15, 2026" deadline itself needs Britton to verify directly
 
@@ -242,6 +256,15 @@ partial-lead.md` §3 for the full account, including one confirmed dead end
 (an AMS.org URL that is real but is for an unrelated *Journal of Sustainable
 Marketing* special issue, not this one — don't re-chase it). **Still needs
 Britton's own direct check before either date is treated as settled.**
+
+**2026-09-28: not re-attempted, by design.** This has now been flagged
+unresolved for three consecutive nights (09-26, 09-27, 09-28) using several
+different automated routes, all exhausted (direct fetch, Wayback, Google
+cache, `r.jina.ai` proxy, a CFP-aggregator mirror). Per instruction, tonight's
+session did not try a fourth automated method and nightly runs should stop
+re-attempting this on their own from here — **this needs Britton's own eyes
+(an ordinary-browser visit to the Emerald CFP page, or a direct email to the
+guest editors listed above) rather than another automated pass.**
 
 ## ⚠ Urgent discrepancy found 2026-09-03 — read before touching the scales
 
