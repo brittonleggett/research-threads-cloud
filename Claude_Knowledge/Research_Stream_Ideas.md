@@ -4343,3 +4343,8 @@ ground:
 Ideas 1-45 were not individually rechecked for fresh developments tonight beyond the flags noted above —
 time went to the breadth-first pass across roughly twenty categories and the one in-depth check (Salesforce
 Agentforce) above.
+
+## 2026-09-30 scouting note
+No new idea logged. Only one light check run (consumer/retailer tariff-messaging surveys); results were
+industry surveys (KPMG, Simon-Kucher, Numerator) that belong to TARIFF_PAPER's introduction motivation,
+not a new stream. Ideas 1-45 not rechecked.
