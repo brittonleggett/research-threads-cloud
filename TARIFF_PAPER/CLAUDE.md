@@ -1,5 +1,14 @@
 # Tariff Messaging & Consumer Behavior — Project Brief
 
+> **ALREADY KNOWN — do not re-report as a new find (added 2026-09-30 by an interactive
+> Claude session, from Britton's local project state):** Campbell, Pomerance & Percival
+> Carter, "Painful Prices: The Moral Harm Model of Price Fairness," *JCR* 53(3), 444-466.
+> Britton has held the full text locally since 2026-09-15. It already publishes this
+> paper's **H2 main effect**, so the surviving contribution is **H3 (word vs. deed)**.
+> Year of record is unsettled (the held copy prints 2025). Nightly runs flagged it as
+> "new" on 09-22, 09-26 and 09-28 — please stop. Useful work on it now is only: how H3
+> differentiates from it, not whether it exists.
+
 ## What this is
 A research paper on tariff messaging and consumer behavior. Presented at
 GSBRC (conference submission/presentation materials in this folder). Next
