@@ -4348,3 +4348,9 @@ Agentforce) above.
 No new idea logged. Only one light check run (consumer/retailer tariff-messaging surveys); results were
 industry surveys (KPMG, Simon-Kucher, Numerator) that belong to TARIFF_PAPER's introduction motivation,
 not a new stream. Ideas 1-45 not rechecked.
+
+## 2026-10-01 scouting note
+No new idea logged. One lead worth a look for DATA_CENTER_PAPER rather than a new stream: municipal-run
+opposition measurement (Charlotte's city/WRI study and 78% resident-opposition survey, Sept 2026; unverified
+snippet level) — see `DATA_CENTER_PAPER/notes/2026-10-01-search-level-recheck-charlotte-study-xai.md`.
+Ideas 1-45 not rechecked.

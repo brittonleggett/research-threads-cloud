@@ -510,3 +510,9 @@ Britton has a paid Consensus.app subscription (see memory:
 above. Good next use: verifying Campbell (1999)'s actual fairness-item
 wording directly, and any citation-accuracy spot-checks during the final
 pass in step 6 above.
+
+- **2026-10-01 (re-check of the deadline discrepancy above):** Re-read the squarespace CFP PDF text — it
+  still says "Submission Deadline for Initial Full Manuscripts: October 15, 2025" and JCM portal "June
+  15-August 15, 2026". A fresh WebSearch snippet again claimed the Emerald page says 15 Oct 2026 (opens 15
+  Aug 2026); Emerald page still returns 403 to automated fetch. Conflict unresolved — nothing new. 14 days to
+  Oct 15. Britton needs to open the Emerald CFP page himself.
