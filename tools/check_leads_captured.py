@@ -36,8 +36,13 @@ def norm(url: str) -> str:
 def captured_urls(data_dir: pathlib.Path) -> set:
     found = set()
     for path in data_dir.rglob("*.csv"):
-        text = path.read_text(encoding="utf-8", errors="replace")
-        found.update(norm(u) for u in URL_RE.findall(text))
+        # Parse cell by cell. A raw regex over the file would swallow the comma and the next field
+        # into the URL.
+        with open(path, encoding="utf-8", errors="replace", newline="") as fh:
+            for row in csv.reader(fh):
+                for cell in row:
+                    for part in re.split(r"[;\s]+", cell):
+                        found.update(norm(u) for u in URL_RE.findall(part))
     ignore = data_dir / "url_ignore.txt"
     if ignore.exists():
         for line in ignore.read_text(encoding="utf-8").splitlines():
