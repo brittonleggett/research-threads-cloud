@@ -130,7 +130,10 @@ having to hand-hold each session. Each run should:
 
 1. **Orient first.** Read this README, then the most recent `OVERNIGHT_SUMMARY_*.md`
    files and each project's `notes/` folder (newest file = current status) to see
-   what already happened and what's still open. Don't redo finished work.
+   what already happened and what's still open. Don't redo finished work. Where a
+   project has `00_START_HERE/DECISION_LOG.md` and `04_DATA/`, read them first: the
+   decision log overrides older notes, and the 04_DATA CSVs are the current corpus,
+   leads and watchlist (see "Structured capture" below).
 2. **Work the priority queue**, spending real time on at least one item rather than
    shallow-touching all of them: (1) `TARIFF_PAPER` — top priority, "I need this
    one"; (2) `DATA_CENTER_PAPER`; (3) `CCS_PAPER`; (4) `FLOCK_CAMERAS_PAPER` — added
@@ -167,6 +170,39 @@ having to hand-hold each session. Each run should:
    and don't stall the whole run on it — write it plainly as an open question in the
    summary and move to the next queued item.
 5. **Commit and push** per the rule above before finishing.
+
+## Structured capture — REQUIRED (added 2026-10-02, Britton's instruction)
+
+Why this exists: through 2026-10-01, nightly runs wrote what they found only into narrative
+`notes/` files. By 2026-10-02, 149 Data Center leads (cases, votes, lawsuits, URLs) were
+stranded in 43 notes and never reached the corpus. Some items were rechecked ten nights in a
+row ("still no ruling"). Two fabricated case numbers sat in notes too. Notes are a diary of
+what a session did. They are not where findings are stored.
+
+For any project that has a `04_DATA/README.md` (DATA_CENTER_PAPER does as of 2026-10-02),
+follow that file. It is binding. In short:
+
+1. **Every new lead or case goes into `<PROJECT>/04_DATA/candidate_leads.csv`.** Append a
+   row with the URL, the date, the source level and `status=CANDIDATE`. Do not leave it only
+   in a note.
+2. **Every pending item goes into `<PROJECT>/04_DATA/watchlist.csv` with a `next_check`
+   date.** Before rechecking anything, read the watchlist and skip any item whose
+   `next_check` is in the future.
+3. **Never add or delete rows in `corpus_inventory.csv`.** It is the corpus of record.
+   Interactive sessions promote leads into it after verification. Correction proposals go in
+   `candidate_leads.csv` with `status=CORRECTION_PROPOSED`.
+4. **Closing check before you commit:** run
+   `python tools/check_leads_captured.py <PROJECT> --since <today>` for every project whose
+   notes you wrote tonight. It must print `UNCAPTURED: 0`. Fix gaps by adding the URL to the
+   right CSV, or to `04_DATA/url_ignore.txt` with a reason if it is literature or background.
+5. In the OVERNIGHT_SUMMARY, list **"Rows added: candidate_leads N, watchlist N"** for each
+   project. A night with findings and "0 rows added" is a failed run.
+
+For projects without a `04_DATA/README.md` yet, still put leads into a CSV
+(`<PROJECT>/04_DATA/candidate_leads.csv`; create it with the columns used in
+DATA_CENTER_PAPER's file) rather than only into notes. **Do not create files under
+04_DATA that contain participant or survey data, or copyrighted article text. This repo is
+public.**
 
 ## Who Britton is (for context, not to be repeated back to him)
 
