@@ -14,7 +14,15 @@ Tariff Paper and the CCS paper — see
 for the reusable method template. "Milk all three threads similarly" —
 his framing, 2026-08-12.
 
-## Scope note — FINAL, locked 2026-09-10 (supersedes the 08-17 note below)
+## Scope update 2026-10-02 (Britton) — supersedes the expansion limit below
+"I would think more in the corpus is better as a general rule." NY (#26), IN (#27) and
+MS/TN (#28) stay in. Corpus = **28 case entries**: LA (Tier 1) + GA, UT, VA, AZ, NY, IN, MS/TN.
+Add verified cases by default, and stop holding them out. A proposed inclusion rule awaits Britton's OK
+in `00_START_HERE\DECISION_LOG.md`. Louisiana remains the anchor.
+**This is the EMPIRICAL paper (JPP&M).** Never use the conceptual CSREM paper's title
+("The Cloud Has a Zip Code…") or its BBA constructs/propositions here.
+
+## Scope note — locked 2026-09-10 (expansion limit superseded 2026-10-02, see above)
 Britton locked the multi-state comparative design 2026-09-10, resolving a
 CLAUDE.md/README inconsistency that had been sitting open since 08-17. His own words:
 
