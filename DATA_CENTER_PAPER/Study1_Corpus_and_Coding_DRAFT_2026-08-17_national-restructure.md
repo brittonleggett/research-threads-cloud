@@ -1,5 +1,12 @@
 # Data Center Paper — Study 1: Multi-State Corpus & Coding (RESTRUCTURED DRAFT)
 
+> **2026-10-02 — SUPERSEDED AS THE CORPUS OF RECORD (Claude, Opus 5.5).** The corpus now lives in
+> `04_DATA/corpus_inventory.csv`: 138 included cases, built from fetch receipts. This file's tables still
+> contain errors that the 10-02 re-check found. For example, #11 is REMOVED, #21 is Box Elder (not
+> Millard), and #28 is in the Oxford division. See `04_DATA/verification_2026-10-02/verified_corpus_existing.csv`
+> and `00_START_HERE/DECISION_LOG.md`. The narrative thematic map below is unchanged and still pre-Phase-3.
+
+
 **Supersedes `Study1_Corpus_and_Coding_DRAFT_2026-08-12.md`.** Britton approved this
 restructuring 2026-08-17 (go-ahead on the option the `2026-08-16-national-scan-beyond-
 louisiana.md` note laid out but didn't act on). This document folds that scan's

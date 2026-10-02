@@ -1,0 +1,14 @@
+# URLs in notes that are not corpus leads. Seeded 2026-10-02 by Claude (Opus 5.5).
+https://datasociety.net/research-library/the-ai-factory-data-centers-power-and-resistance-in-late-industrial-pennsylvania/  # literature/author page
+https://dusp.mit.edu/people/justin-kollar  # literature/author page
+https://lpsc.louisiana.gov/...  # law-firm/commentary/portal/background, not a case source
+https://lpsc.louisiana.gov/docs/minutes/  # law-firm/commentary/portal/background, not a case source
+https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/Docket_Documents  # law-firm/commentary/portal/background, not a case source
+https://scholar.google.com/citations?user=TC_rfnAAAAAJ&hl=en  # literature/author page
+https://technical.ly/civics/data-center-world-opposition-concerns/  # law-firm/commentary/portal/background, not a case source
+https://www.crowell.com/en/insights/client-alerts/epa-hands-over-ai-data-center-regulation-to-states-and-communities-to-develop-best-practices  # law-firm/commentary/portal/background, not a case source
+https://www.justinmkollar.com/  # literature/author page
+https://www.mondaq.com/unitedstates/environmental-law/1833690/doj-motion-raises-questions-about-clean-air-act-citizen-suits  # law-firm/commentary/portal/background, not a case source
+https://www.stevevladeck.com/p/234-doj-citizen-suits-and-the-xai  # law-firm/commentary/portal/background, not a case source
+https://www.tandfonline.com/doi/full/10.1080/01944363.2026.2618221  # literature/author page
+https://www.turbomachinerymag.com/view/doj-intervenes-in-xai-gas-turbine-lawsuit-citing-national-security  # law-firm/commentary/portal/background, not a case source

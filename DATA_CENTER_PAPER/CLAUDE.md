@@ -16,9 +16,9 @@ his framing, 2026-08-12.
 
 ## Scope update 2026-10-02 (Britton) — supersedes the expansion limit below
 "I would think more in the corpus is better as a general rule." NY (#26), IN (#27) and
-MS/TN (#28) stay in. Corpus = **28 case entries**: LA (Tier 1) + GA, UT, VA, AZ, NY, IN, MS/TN.
-Add verified cases by default, and stop holding them out. A proposed inclusion rule awaits Britton's OK
-in `00_START_HERE\DECISION_LOG.md`. Louisiana remains the anchor.
+MS/TN (#28) stay in. **Corpus of record = `04_DATA/corpus_inventory.csv` (138 included as of 2026-10-02 evening; by type 57 site disputes / 72 local policy / 9 statewide; which types count toward N is Britton's open call).** Read `04_DATA/README.md` before touching corpus data.
+Add verified cases by default, and stop holding them out. The inclusion rule was APPROVED by Britton 2026-10-02
+(see `00_START_HERE\DECISION_LOG.md` and `04_DATA\README.md`). Louisiana remains the anchor.
 **This is the EMPIRICAL paper (JPP&M).** Never use the conceptual CSREM paper's title
 ("The Cloud Has a Zip Code…") or its BBA constructs/propositions here.
 
