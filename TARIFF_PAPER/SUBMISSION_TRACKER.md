@@ -516,3 +516,5 @@ pass in step 6 above.
   15-August 15, 2026". A fresh WebSearch snippet again claimed the Emerald page says 15 Oct 2026 (opens 15
   Aug 2026); Emerald page still returns 403 to automated fetch. Conflict unresolved — nothing new. 14 days to
   Oct 15. Britton needs to open the Emerald CFP page himself.
+
+- **2026-10-02 (deadline discrepancy, third recheck):** A WebSearch result again states the JCM special issue "closes October 15, 2026" (the ResearchGate title for the same CFP reads "Submission Deadline: August 15, 2026"). ams-web.org's special-issue page now returns 404. Two readings of the same CFP still conflict; nothing new that resolves it. 13 days to Oct 15. Britton should open the Emerald CFP page himself — this remains the single most consequential open item for this paper.

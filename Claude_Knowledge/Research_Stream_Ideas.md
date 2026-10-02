@@ -4354,3 +4354,6 @@ No new idea logged. One lead worth a look for DATA_CENTER_PAPER rather than a ne
 opposition measurement (Charlotte's city/WRI study and 78% resident-opposition survey, Sept 2026; unverified
 snippet level) — see `DATA_CENTER_PAPER/notes/2026-10-01-search-level-recheck-charlotte-study-xai.md`.
 Ideas 1-45 not rechecked.
+
+## 2026-10-02 scouting note
+No new idea logged. The only fresh signal found was a continuing municipal Flock rejection wave (Newburgh NY, Liberty Hill TX, Monroe OH, plus a Marin County CA data-sharing violation) — corpus material for `FLOCK_CAMERAS_PAPER` (rows #59-62), not a new stream. One framing worth noting for that paper: several councils cite *other places'* incidents (e.g., Newburgh citing a Texas abortion search) rather than a local audit, which fits the policy-diffusion literature already being added there. Ideas 1-45 not rechecked.
