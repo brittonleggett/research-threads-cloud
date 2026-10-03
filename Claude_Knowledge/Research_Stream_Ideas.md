@@ -4357,3 +4357,6 @@ Ideas 1-45 not rechecked.
 
 ## 2026-10-02 scouting note
 No new idea logged. The only fresh signal found was a continuing municipal Flock rejection wave (Newburgh NY, Liberty Hill TX, Monroe OH, plus a Marin County CA data-sharing violation) — corpus material for `FLOCK_CAMERAS_PAPER` (rows #59-62), not a new stream. One framing worth noting for that paper: several councils cite *other places'* incidents (e.g., Newburgh citing a Texas abortion search) rather than a local audit, which fits the policy-diffusion literature already being added there. Ideas 1-45 not rechecked.
+
+## 2026-10-03 scouting note
+No new idea logged. Time went to the Tariff JCM deadline question. Ideas 1-45 not rechecked.

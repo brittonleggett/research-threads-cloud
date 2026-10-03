@@ -518,3 +518,5 @@ pass in step 6 above.
   Oct 15. Britton needs to open the Emerald CFP page himself.
 
 - **2026-10-02 (deadline discrepancy, third recheck):** A WebSearch result again states the JCM special issue "closes October 15, 2026" (the ResearchGate title for the same CFP reads "Submission Deadline: August 15, 2026"). ams-web.org's special-issue page now returns 404. Two readings of the same CFP still conflict; nothing new that resolves it. 13 days to Oct 15. Britton should open the Emerald CFP page himself — this remains the single most consequential open item for this paper.
+
+- **2026-10-03:** JCM deadline conflict likely explained: aggregator + search snippet say submissions OPEN Aug 15, DEADLINE Oct 15 via ScholarOne. This may contradict the 'June 15-Aug 15 window already closed' bullet above (unverified; primary CFP unreachable). See `notes/2026-10-03-jcm-deadline-discrepancy-explained-window-opens-aug15.md`.
