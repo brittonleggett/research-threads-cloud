@@ -32,7 +32,7 @@ see `notes/2026-09-28-corpus-recency-sweep-and-policy-diffusion-literature.md`, 
 `notes/2026-09-25-corpus-recency-sweep-and-literature-methods-sync.md`):** this subsection
 was drafted 2026-08-16 against a 22-artifact corpus and left unsynced through nine subsequent
 weeks of corpus growth before the 2026-09-25 sync; it has grown further since. The corpus now
-stands at 58 artifacts (see `Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`'s own running
+stands at 63 artifacts (see `Study1_Corpus_and_Coding_DRAFT_2026-08-16.md`'s own running
 "Corpus (N artifacts as of [date])" header and per-row addition dates for the full growth
 history), spanning **21 U.S. states** (Oregon, Illinois, New York, Virginia, Texas, Ohio,
 California, Nebraska, Colorado, Michigan, Massachusetts, Wisconsin, Oklahoma, Washington,

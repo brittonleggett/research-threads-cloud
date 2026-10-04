@@ -4360,3 +4360,6 @@ No new idea logged. The only fresh signal found was a continuing municipal Flock
 
 ## 2026-10-03 scouting note
 No new idea logged. Time went to the Tariff JCM deadline question. Ideas 1-45 not rechecked.
+
+## 2026-10-04 scouting note
+No new idea logged. Only Flock-related follow-up searches ran (Lansing, Denver, Monroe); all are corpus material for `FLOCK_CAMERAS_PAPER`. One framing worth noting: Lansing shows a council that can only *ask* the executive to cancel a vendor contract (non-binding resolution) — a council-vs-executive governance variant for the Flock paper. Ideas 1-45 not rechecked.

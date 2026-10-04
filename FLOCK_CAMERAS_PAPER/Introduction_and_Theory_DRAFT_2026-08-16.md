@@ -51,7 +51,7 @@ the point of adoption, what a surveillance system will actually do with their da
 happens to public trust and political opposition when they find out they did not.
 
 This paper addresses that question empirically in two studies. Study 1 inductively derives a
-typology of real ALPR controversies from a corpus (58 artifacts as of 2026-09-28, spanning 21
+typology of real ALPR controversies from a corpus (63 artifacts as of 2026-10-04, spanning 21
 states plus 7 national-level artifacts; 22 artifacts across fourteen states as originally coded
 2026-08-16), identifying institutional secrecy around default data-sharing practices
 — not corporate non-disclosure agreements, but a *technical* default nobody flagged at the
