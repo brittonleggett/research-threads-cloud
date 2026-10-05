@@ -1,0 +1,5 @@
+lead_id,case_name,state,locality,event_type,event_date,outcome_status_latest,best_source_urls,source_level,problems_noted,already_in_corpus,first_note,latest_note,status,status_date
+T001,MA H.5036 tariff cost disclosure (vehicles + retail ch. 93M),MA,,legislation,2025-10-01,Filed petition; committee action unverified,https://malegislature.gov/Bills/194/H5036.pdf,PRIMARY_DIRECT_FETCH,Retail-chapter operative text not read,N,2026-10-05,2026-10-05,CANDIDATE,2026-10-05
+T002,NJ bill requiring retailers to report tariff costs,NJ,,legislation,,unknown,https://newjerseymonitor.com/?p=20931,WEBSEARCH_ONLY,Page 403,N,2026-10-05,2026-10-05,CANDIDATE,2026-10-05
+T003,Truth in Tariffs Act H.R. 3306,US,,legislation,,unknown,https://policysoup.com/bills/hr3306-119,WEBSEARCH_ONLY,Not opened,N,2026-10-05,2026-10-05,CANDIDATE,2026-10-05
+T004,Katten: tariff surcharge disclosure tips (law-firm note),,,secondary,,background,https://katten.com/tips-for-companies-crafting-tariff-surcharge-disclosures,SECONDARY_FETCHED,,N,2026-10-05,2026-10-05,CANDIDATE,2026-10-05

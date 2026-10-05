@@ -4363,3 +4363,13 @@ No new idea logged. Time went to the Tariff JCM deadline question. Ideas 1-45 no
 
 ## 2026-10-04 scouting note
 No new idea logged. Only Flock-related follow-up searches ran (Lansing, Denver, Monroe); all are corpus material for `FLOCK_CAMERAS_PAPER`. One framing worth noting: Lansing shows a council that can only *ask* the executive to cancel a vendor contract (non-binding resolution) — a council-vs-executive governance variant for the Flock paper. Ideas 1-45 not rechecked.
+
+## 2026-10-05 scouting note
+No new standalone idea. One addition to idea 7 (tariff-surcharge non-reversal): there is live state/federal legislation
+that would *mandate* tariff-cost labels — Massachusetts H.5036 (read from the legislature's PDF: vehicle "tariff cost
+estimate" labels, AG enforcement, up to $1,000/vehicle, plus a retail chapter whose operative text I did not read; a
+filed bill, not law) and, at snippet level only, NJ and the federal Truth in Tariffs Act (H.R. 3306). Gap: no experiment
+compares mandated itemized tariff labels against voluntary surcharge lines on blame and purchase intent. Method: 2x2
+(label mandated/voluntary × amount shown/not) vignette PLS-SEM; venue: Journal of Public Policy & Marketing. Leads in
+`TARIFF_PAPER/04_DATA/candidate_leads.csv`. SpaceX Louisiana search returned only the Aug 2026 announcement coverage,
+nothing new. Ideas 1-45 not rechecked.
