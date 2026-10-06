@@ -4373,3 +4373,6 @@ compares mandated itemized tariff labels against voluntary surcharge lines on bl
 (label mandated/voluntary × amount shown/not) vignette PLS-SEM; venue: Journal of Public Policy & Marketing. Leads in
 `TARIFF_PAPER/04_DATA/candidate_leads.csv`. SpaceX Louisiana search returned only the Aug 2026 announcement coverage,
 nothing new. Ideas 1-45 not rechecked.
+
+## 2026-10-06 scouting note
+No new standalone idea. One search on consumer valuation of "Product of USA" beef labels returned the USDA/FSIS 2022 consumer-comprehension and willingness-to-pay report (search snippet only: ~16% understood the claim correctly; $1.15/lb WTP premium for born-raised-slaughtered-processed ground beef). That is background for MEAT_SUPPLY_CHAIN_PAPER's COO-disclosure angle; I did not check whether `LITERATURE/Consumer_Marketing_Literature_Scan_2026-09-15.md` already covers it. Ideas 1-45 not rechecked.
