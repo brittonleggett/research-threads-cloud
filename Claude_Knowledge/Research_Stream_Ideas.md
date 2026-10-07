@@ -4376,3 +4376,6 @@ nothing new. Ideas 1-45 not rechecked.
 
 ## 2026-10-06 scouting note
 No new standalone idea. One search on consumer valuation of "Product of USA" beef labels returned the USDA/FSIS 2022 consumer-comprehension and willingness-to-pay report (search snippet only: ~16% understood the claim correctly; $1.15/lb WTP premium for born-raised-slaughtered-processed ground beef). That is background for MEAT_SUPPLY_CHAIN_PAPER's COO-disclosure angle; I did not check whether `LITERATURE/Consumer_Marketing_Literature_Scan_2026-09-15.md` already covers it. Ideas 1-45 not rechecked.
+
+## 2026-10-07 scouting note
+No new standalone idea. Two searches. (1) A tariff-surcharge/blame-attribution query returned only the Columbia Business School (Bernstein Center) study already logged on 2026-09-26 (search-summary level; live pages 403 again) plus the older surcharge-blame paper in *Journal of Service Research* (Maastricht/Penn State listings, 2018). Nothing newer. (2) A search for Campbell (2007) scale wording returned only bibliographic hits, no item text, so that reference gap stays open. Ideas 1-45 not rechecked.
