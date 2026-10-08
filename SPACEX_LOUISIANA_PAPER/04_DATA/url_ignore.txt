@@ -1,0 +1,4 @@
+https://api.openalex.org/works/W7207814066 # literature tooling
+https://doi.org/10.1922/ejprd.v34i6s.1720 # literature, quality-flagged
+https://www.ejprd.org/download.php?op=view_article&article_id=1720 # literature, quality-flagged
+https://servicesetu.org/call-for-paper/journals/journalofconsumermarketing # Tariff JCM CFP aggregator, logged in Tariff watchlist
