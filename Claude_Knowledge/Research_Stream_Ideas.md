@@ -4382,3 +4382,6 @@ No new standalone idea. Two searches. (1) A tariff-surcharge/blame-attribution q
 
 ## 2026-10-08 scouting note
 No new standalone idea. Related to the SpaceX line: the "claim specificity" literature is now attracting low-quality review papers (a 2026 "systematic review" of green-claim specificity is indexed in a dentistry journal), which supports the earlier finding that a clean peer-reviewed synthesis for infrastructure/economic-benefit claims does not exist yet. Gap restated: no study tests whether specific vs. vague economic-benefit claims (jobs, PILOT payments) change local opposition to siting. Method: Study 1 AI-thematic analysis of the SpaceX/Boca Chica corpus, then a vignette PLS-SEM study. Venue: Journal of Public Policy & Marketing. Tariff JCM CFP re-searched: only the aggregator source again (Aug 15 open / Oct 15 deadline).
+
+## 2026-10-09 scouting note
+No new standalone idea. One CO2-pipeline litigation search (Summit Carbon, Iowa/ND/SD) surfaced only 2025-26 items already adjacent to CCS_PAPER; logged as leads in `CCS_PAPER/04_DATA/`. Ideas 1-45 not rechecked.
