@@ -6,3 +6,7 @@ Denver: current Flock/Axon contract status,2026-10-18,Fetch Axios 2026-03-11 and
 Renton WA: contract expiry decision,2026-11-02,Existing agreement expires Nov 2026
 Newburgh NY / Liberty Hill TX: second-source corroboration,2026-10-18,Single-outlet each
 Marin County CA: sheriff response to EFF/ACLU demand,2026-10-25,
+Kyle TX: fetch Hoodline/local source for vote date and the 2027 ballot measure details (negative case),2026-10-24,403 on first fetch
+Santa Barbara: confirm council vote date/count via a non-student source,2026-10-24,Aug 23 2026 is a Sunday
+Houston Chronicle Texas Flock vote map: extract city list and compare to corpus TX rows,2026-10-24,Possible bulk source of missed TX rejections
+IJ license-plate-reader cancellation database: compare list to corpus,2026-10-24,Names South Windsor CT and Ledyard CT and Adrian MI (not in corpus)

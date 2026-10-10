@@ -4385,3 +4385,6 @@ No new standalone idea. Related to the SpaceX line: the "claim specificity" lite
 
 ## 2026-10-09 scouting note
 No new standalone idea. One CO2-pipeline litigation search (Summit Carbon, Iowa/ND/SD) surfaced only 2025-26 items already adjacent to CCS_PAPER; logged as leads in `CCS_PAPER/04_DATA/`. Ideas 1-45 not rechecked.
+
+## 2026-10-10 scouting note
+One addition to the Flock line (not a new standalone idea): the municipal rejection wave now has enough variation in *removal mode* and *outcome* to support a small comparative piece. Gap: no study compares councils that terminate, merely stop using ("cover the cameras", South Lyon MI), or refuse to terminate and send it to voters (Kyle TX, 2027 ballot; snippet-level, fetch 403). Method: Study 1 AI-thematic comparison across those three outcomes using the existing corpus (65 artifacts). Venue: Government Information Quarterly or Public Administration Review. Also noted: the Institute for Justice cancellation database and the Houston Chronicle Texas vote map are ready-made bulk sources for completing the corpus. JCM tariff CFP re-searched once more: nothing found. Ideas 1-45 not rechecked.
