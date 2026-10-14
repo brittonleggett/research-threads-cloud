@@ -4394,3 +4394,9 @@ One addition to the Meat line (not a new standalone idea): Proclamation 11059 bu
 
 ## 2026-10-13 scouting note
 One addition to the Flock line (not a new standalone idea). The Houston Chronicle Texas map plus search results show a mechanism the municipal-wave framing misses: Gov. Abbott's 2026-08-27 pause on state-agency Flock spending (search-summary level) sits on top of a state-grant program that funded at least 3,200 cameras since 2023 (corpus #26). Several Texas "pauses" (Dallas's 321 state-funded readers, El Paso, Elgin) follow the funding signal rather than resident opposition. Gap: nobody has separated bottom-up rejection (council votes after public comment) from top-down fiscal withdrawal in the same state. Method sketch: code the 18 new Texas leads (F010-F027) by trigger (public comment, sheriff request, state funding, misuse scandal) and compare timing against the 08-27 order; fits the existing Flock paper as a boundary-condition section, not a separate paper. Venue unchanged (Government Information Quarterly). Ideas 1-45 not rechecked.
+
+## 2026-10-14 — "Pause" vs "moratorium" framing in data-center governance
+- **Gap:** Loudoun's county attorney reportedly said a moratorium is not legal, so the Board calls its action a "pause." Press uses both words. Does the label shift public/media legitimacy framing?
+- **Why tractable:** public-record corpus already exists (DATA_CENTER_PAPER corpus has many LOCAL_POLICY cases).
+- **Method sketch:** code corpus entries for label used by officials vs press; compare with outcome (extended, lapsed, litigated).
+- **Venue:** Public Administration Review or Journal of Public Policy & Marketing. Scouting only; needs Britton's greenlight. (Search-level only; Loudoun legal-opinion claim from one search summary.)
