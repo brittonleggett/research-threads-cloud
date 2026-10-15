@@ -4400,3 +4400,9 @@ One addition to the Flock line (not a new standalone idea). The Houston Chronicl
 - **Why tractable:** public-record corpus already exists (DATA_CENTER_PAPER corpus has many LOCAL_POLICY cases).
 - **Method sketch:** code corpus entries for label used by officials vs press; compare with outcome (extended, lapsed, litigated).
 - **Venue:** Public Administration Review or Journal of Public Policy & Marketing. Scouting only; needs Britton's greenlight. (Search-level only; Loudoun legal-opinion claim from one search summary.)
+
+## 2026-10-15 — Pre-emptive moratorium rejection (Louisiana parishes)
+- **Gap:** Most data-center pause literature/cases involve a live project. St. Charles Parish (LA) rejected a moratorium 5-3 with no project pending, on a "closed for business" argument vs. a "no regulations in place" argument. Does the absence of a concrete project change which legitimacy frames win?
+- **Why tractable:** public council records and local news; Louisiana is the Tier 1 case already in the Data Center paper.
+- **Method sketch:** collect Louisiana parish/municipal votes on pauses (passed and rejected), code arguments as economic-signal vs. protective-regulation; compare pre-emptive vs. project-triggered.
+- **Venue:** Public Administration Review or Journal of Public Policy & Marketing. Scouting only; needs Britton's greenlight. Based on one fetched article.
