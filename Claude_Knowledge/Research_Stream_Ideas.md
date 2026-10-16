@@ -4406,3 +4406,6 @@ One addition to the Flock line (not a new standalone idea). The Houston Chronicl
 - **Why tractable:** public council records and local news; Louisiana is the Tier 1 case already in the Data Center paper.
 - **Method sketch:** collect Louisiana parish/municipal votes on pauses (passed and rejected), code arguments as economic-signal vs. protective-regulation; compare pre-emptive vs. project-triggered.
 - **Venue:** Public Administration Review or Journal of Public Policy & Marketing. Scouting only; needs Britton's greenlight. Based on one fetched article.
+
+## 2026-10-16 scouting note
+No new standalone idea. Tariff line: the JCM special issue's theme list pairs tariffs with inflation, climate and wars as "external shocks," so a tariff paper there is competing with other shock framings; if the Oct 15 window was missed, other 2026-27 outlets for tariff-messaging work are worth scouting. Ideas 1-45 not rechecked.
