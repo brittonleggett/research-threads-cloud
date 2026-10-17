@@ -4409,3 +4409,6 @@ One addition to the Flock line (not a new standalone idea). The Houston Chronicl
 
 ## 2026-10-16 scouting note
 No new standalone idea. Tariff line: the JCM special issue's theme list pairs tariffs with inflation, climate and wars as "external shocks," so a tariff paper there is competing with other shock framings; if the Oct 15 window was missed, other 2026-27 outlets for tariff-messaging work are worth scouting. Ideas 1-45 not rechecked.
+
+## 2026-10-17 scouting note
+No new standalone idea. Data Center line: Charlotte's extension vote is now reported for Oct 26 with an 11-month proposal (search level). If it passes, Charlotte gives a clean "pause renewed after study" case to pair with Loudoun's Oct 20 vote for the pause-vs-moratorium framing idea (2026-10-14). Ideas 1-46 not rechecked.
