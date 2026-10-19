@@ -4415,3 +4415,6 @@ No new standalone idea. Data Center line: Charlotte's extension vote is now repo
 
 ## 2026-10-18 scouting note
 No new standalone idea. Flock line: this week's wave splits by who gave the reason. Midland TX ended on cost (a $225k year-two bill), Milford MI's police chief on vendor responsiveness, South Windsor and Cumberland on privacy and data control, and Kyle TX flipped to a suspension plus referendum after earlier voting to continue. That supports coding "stated trigger" by speaker (council, police, residents) and not only by outcome. Tariff line: Gladstone and Bellezza's itemized-tariff experiments (Columbia, unverified, see TARIFF_PAPER note) overlap with Study 2 framing; worth checking before Study 2 is designed. Ideas 1-46 not rechecked.
+
+## 2026-10-19 scouting note
+No new standalone idea. Observation for the Flock line: Denver (Feb 2026) is a vendor-switch case (Flock to Axon), distinct from removal or suspension. It suggests an outcome category in Study 1: "ALPR continues under a different vendor." Not yet verified beyond a search summary.
