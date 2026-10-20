@@ -4418,3 +4418,9 @@ No new standalone idea. Flock line: this week's wave splits by who gave the reas
 
 ## 2026-10-19 scouting note
 No new standalone idea. Observation for the Flock line: Denver (Feb 2026) is a vendor-switch case (Flock to Axon), distinct from removal or suspension. It suggests an outcome category in Study 1: "ALPR continues under a different vendor." Not yet verified beyond a search summary.
+
+## 2026-10-20 — Price-transmission natural experiment: tariff-free beef quota (Proclamation 11059) and retail prices
+- **Gap/question:** When import policy cuts input costs (in-quota expansion), do retail prices follow, and do consumers attribute price fairness to retailers, packers, or government?
+- **Why tractable soon:** BLS average-price series are public monthly (Sep 2026 retail ground beef fell only ~1.9% vs a much larger import-trimmings price drop); a few more months give a usable before/after.
+- **Method sketch:** Public price series (BLS/USDA ERS) plus thematic analysis of news/commentary attributing blame; later a PLS-SEM attribution study.
+- **Venue:** Journal of Public Policy & Marketing or Journal of Consumer Affairs. Scouting only; folds into MEAT_SUPPLY_CHAIN_PAPER if Britton prefers.
