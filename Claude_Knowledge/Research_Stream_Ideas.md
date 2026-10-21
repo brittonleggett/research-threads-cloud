@@ -4424,3 +4424,6 @@ No new standalone idea. Observation for the Flock line: Denver (Feb 2026) is a v
 - **Why tractable soon:** BLS average-price series are public monthly (Sep 2026 retail ground beef fell only ~1.9% vs a much larger import-trimmings price drop); a few more months give a usable before/after.
 - **Method sketch:** Public price series (BLS/USDA ERS) plus thematic analysis of news/commentary attributing blame; later a PLS-SEM attribution study.
 - **Venue:** Journal of Public Policy & Marketing or Journal of Consumer Affairs. Scouting only; folds into MEAT_SUPPLY_CHAIN_PAPER if Britton prefers.
+
+## 2026-10-21 scouting note
+No new standalone idea. Flock line: Newburgh (failed cancellation, no termination clause, state grant funding, ~$400k exit cost) and Liberty Hill (7-0 removal) bracket the outcome space. Contract lock-in and grant funding look like a testable barrier variable for "why some councils can't exit," worth an explicit code in Study 1. Search/one-fetch level only.
