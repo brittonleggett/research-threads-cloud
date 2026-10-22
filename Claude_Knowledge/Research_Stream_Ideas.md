@@ -4427,3 +4427,6 @@ No new standalone idea. Observation for the Flock line: Denver (Feb 2026) is a v
 
 ## 2026-10-21 scouting note
 No new standalone idea. Flock line: Newburgh (failed cancellation, no termination clause, state grant funding, ~$400k exit cost) and Liberty Hill (7-0 removal) bracket the outcome space. Contract lock-in and grant funding look like a testable barrier variable for "why some councils can't exit," worth an explicit code in Study 1. Search/one-fetch level only.
+
+## 2026-10-22 scouting note
+No new standalone idea. Data Center line: Loudoun's deferral from Oct 20 to Nov 17 (county release) adds a "pause delayed pending legal review" state; County Attorney's view that a moratorium is not allowed in Virginia but a pause on applications is makes Loudoun a clean case for the pause-vs-moratorium framing idea (2026-10-14). The xAI case shows a federal party seeking to end a citizen Clean Air Act suit and losing at the district level; possible legitimacy-contest angle, but legal-process heavy and outside marketing venues. Ideas 1-47 not rechecked.
