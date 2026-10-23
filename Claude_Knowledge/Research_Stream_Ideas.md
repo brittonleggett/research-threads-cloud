@@ -4430,3 +4430,6 @@ No new standalone idea. Flock line: Newburgh (failed cancellation, no terminatio
 
 ## 2026-10-22 scouting note
 No new standalone idea. Data Center line: Loudoun's deferral from Oct 20 to Nov 17 (county release) adds a "pause delayed pending legal review" state; County Attorney's view that a moratorium is not allowed in Virginia but a pause on applications is makes Loudoun a clean case for the pause-vs-moratorium framing idea (2026-10-14). The xAI case shows a federal party seeking to end a citizen Clean Air Act suit and losing at the district level; possible legitimacy-contest angle, but legal-process heavy and outside marketing venues. Ideas 1-47 not rechecked.
+
+## 2026-10-23 scouting note
+No new standalone idea. CCS line: Couser v. Shelby County (8th Cir. 2025, cert denied 2026-01-12) shows county pipeline ordinances are preempted by federal and Iowa law, so "local control" claims in CO2-pipeline discourse are legally weak; a possible Study 1 code ("local-control claim vs. preemption reality"). Tariff line: industry surveys (Morning Consult, CivicScience) suggest upfront messaging beats receipt line items; background only, unverified. Ideas 1-47 not rechecked.
