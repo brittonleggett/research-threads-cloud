@@ -4433,3 +4433,6 @@ No new standalone idea. Data Center line: Loudoun's deferral from Oct 20 to Nov 
 
 ## 2026-10-23 scouting note
 No new standalone idea. CCS line: Couser v. Shelby County (8th Cir. 2025, cert denied 2026-01-12) shows county pipeline ordinances are preempted by federal and Iowa law, so "local control" claims in CO2-pipeline discourse are legally weak; a possible Study 1 code ("local-control claim vs. preemption reality"). Tariff line: industry surveys (Morning Consult, CivicScience) suggest upfront messaging beats receipt line items; background only, unverified. Ideas 1-47 not rechecked.
+
+## 2026-10-24 scouting note
+No new standalone idea. Meat line: the Hormel pork CIIPP settlement is about $2.4M (secondary-fetched), so settlement dollars are tiny against pork-concentration rhetoric; a possible Study 1 code contrasts "scale of alleged harm in discourse" with "scale of settlements." Ideas 1-48 not rechecked.
