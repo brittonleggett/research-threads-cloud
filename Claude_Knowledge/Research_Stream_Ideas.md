@@ -4436,3 +4436,6 @@ No new standalone idea. CCS line: Couser v. Shelby County (8th Cir. 2025, cert d
 
 ## 2026-10-24 scouting note
 No new standalone idea. Meat line: the Hormel pork CIIPP settlement is about $2.4M (secondary-fetched), so settlement dollars are tiny against pork-concentration rhetoric; a possible Study 1 code contrasts "scale of alleged harm in discourse" with "scale of settlements." Ideas 1-48 not rechecked.
+
+## 2026-10-25 scouting note
+No new standalone idea. Flock line: Santa Barbara ended Flock with no replacement running (Verkada delayed, possibly a year), a "gap" outcome distinct from removal or a vendor switch (Denver). Worth one Study 1 outcome code. Search-level only. Ideas 1-48 not rechecked.
