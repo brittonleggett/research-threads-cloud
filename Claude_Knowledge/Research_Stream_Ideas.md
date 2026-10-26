@@ -4439,3 +4439,6 @@ No new standalone idea. Meat line: the Hormel pork CIIPP settlement is about $2.
 
 ## 2026-10-25 scouting note
 No new standalone idea. Flock line: Santa Barbara ended Flock with no replacement running (Verkada delayed, possibly a year), a "gap" outcome distinct from removal or a vendor switch (Denver). Worth one Study 1 outcome code. Search-level only. Ideas 1-48 not rechecked.
+
+## 2026-10-26 scouting note
+No new standalone idea. Tariff line: Morwitz & Fitzsimons (Columbia, abstract only) show itemized tariffs raise government blame and lower fairness; that is partitioned pricing applied to tariffs. A gap that remains for us: *corporate statement framing* (not bill itemization) as the manipulation, and attribution to corporations vs government, which our Study 1 corpus can ground. Ideas 1-48 not rechecked.
