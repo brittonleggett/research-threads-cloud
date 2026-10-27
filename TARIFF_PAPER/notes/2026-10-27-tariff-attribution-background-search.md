@@ -1,0 +1,4 @@
+# 2026-10-27 Tariff attribution background (search-summary level, unverified)
+
+One WebSearch. Nothing peer-reviewed new. Industry sources only: Morning Consult (2025: 57% of those seeing tariffs as inflationary say US companies at least somewhat to blame; proactive explanation may limit anger), a DKC message test via eMarketer (blaming other countries' retaliation lowered net buyer confidence 16 points; explaining price rises protect employee pay ranked well), ITEP Jan 2026 (executive statements about passing tariff costs on; John Deere example). Morwitz Columbia research still abstract-only (see 2026-10-26 note). All figures are from search snippets, not fetched; do not cite without opening the originals.
+Use: these are candidate corpus/background items for Study 1 message-type codes (explain-and-protect-workers vs blame-foreign-retaliation), not evidence yet.

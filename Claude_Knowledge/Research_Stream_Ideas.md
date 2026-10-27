@@ -4442,3 +4442,6 @@ No new standalone idea. Flock line: Santa Barbara ended Flock with no replacemen
 
 ## 2026-10-26 scouting note
 No new standalone idea. Tariff line: Morwitz & Fitzsimons (Columbia, abstract only) show itemized tariffs raise government blame and lower fairness; that is partitioned pricing applied to tariffs. A gap that remains for us: *corporate statement framing* (not bill itemization) as the manipulation, and attribution to corporations vs government, which our Study 1 corpus can ground. Ideas 1-48 not rechecked.
+
+## 2026-10-27 scouting note
+No new standalone idea. Tariff line: industry tests (DKC via eMarketer, snippet only) suggest the message's blame target (foreign retaliation vs. worker protection) moves buyer confidence; supports coding corporate tariff statements by blame target in Study 1 and gives Study 2 a manipulation to differentiate from Morwitz & Fitzsimons' bill-itemization design. Ideas 1-48 not rechecked.
