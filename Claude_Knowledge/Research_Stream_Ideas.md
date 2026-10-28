@@ -4445,3 +4445,6 @@ No new standalone idea. Tariff line: Morwitz & Fitzsimons (Columbia, abstract on
 
 ## 2026-10-27 scouting note
 No new standalone idea. Tariff line: industry tests (DKC via eMarketer, snippet only) suggest the message's blame target (foreign retaliation vs. worker protection) moves buyer confidence; supports coding corporate tariff statements by blame target in Study 1 and gives Study 2 a manipulation to differentiate from Morwitz & Fitzsimons' bill-itemization design. Ideas 1-48 not rechecked.
+
+## 2026-10-28 scouting note
+No new standalone idea. SpaceX line: the claim that the FAA streamlining proposal would exempt launch operators from many environmental laws circulates mostly via aggregator rewrites; if the primary Federal Register text is pulled, "regulatory-waiver claim vs. text" could be a Study 1 code. Unverified. Ideas 1-48 not rechecked.
