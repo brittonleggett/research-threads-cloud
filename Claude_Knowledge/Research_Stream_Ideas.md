@@ -4448,3 +4448,6 @@ No new standalone idea. Tariff line: industry tests (DKC via eMarketer, snippet 
 
 ## 2026-10-28 scouting note
 No new standalone idea. SpaceX line: the claim that the FAA streamlining proposal would exempt launch operators from many environmental laws circulates mostly via aggregator rewrites; if the primary Federal Register text is pulled, "regulatory-waiver claim vs. text" could be a Study 1 code. Unverified. Ideas 1-48 not rechecked.
+
+## 2026-10-29 scouting note
+No new standalone idea. Cross-line pattern: Flock outcomes (Denver vendor switch 7-6, Santa Barbara gap, Monroe removal) and Data Center outcomes (St. Charles Parish: moratorium rejected 5-3, then unanimous weak-but-real zoning rules) share a "pause vs. regulate vs. replace" structure. A possible shared Study 1 outcome code across lines: "full stop / conditional allow / substitute." Search/article level only; ideas 1-48 not rechecked.
