@@ -4454,3 +4454,6 @@ No new standalone idea. Cross-line pattern: Flock outcomes (Denver vendor switch
 
 ## 2026-10-30 scouting note
 No new standalone idea. Data Center line: Charlotte's unanimous 11-month extension (Oct 26) was justified by state-law limits (no downzoning) and waiting on the legislature, not by evidence of harm. That gives a Study 1 code for pause rationale: "authority gap / waiting on state" vs. "study needed" vs. "community harm." Pairs with Loudoun (Nov 17) and St. Charles. Search/fetch-summary level. Ideas 1-48 not rechecked.
+
+## 2026-10-31 scouting note
+No new standalone idea. Tariff line: the Section 301 forced-labor tariffs (argued at the CIT 9/30, 25 state AGs plus small-business importers) shift the corporate justification from "reciprocal/emergency" to "forced labor"; a possible Study 1 code is whether firms cite the legal basis when explaining price changes. Search-level only. Ideas 1-48 not rechecked.

@@ -1,0 +1,2 @@
+# 2026-10-31 NAACP v. xAI recheck (search level only)
+No Fifth Circuit stay ruling found. Results place the case in N.D. Miss. (3:26-cv-00074); a DOJ official said an appeal to the 5th Cir. was "likely," i.e. anticipated, not filed. Our watchlist premise (DOJ appeal filed 09-18, stay motion 09-21) is not corroborated and may be wrong; verify on CourtListener. Turbine counts vary 33-46 across outlets. Lead L183.
