@@ -4457,3 +4457,6 @@ No new standalone idea. Data Center line: Charlotte's unanimous 11-month extensi
 
 ## 2026-10-31 scouting note
 No new standalone idea. Tariff line: the Section 301 forced-labor tariffs (argued at the CIT 9/30, 25 state AGs plus small-business importers) shift the corporate justification from "reciprocal/emergency" to "forced labor"; a possible Study 1 code is whether firms cite the legal basis when explaining price changes. Search-level only. Ideas 1-48 not rechecked.
+
+## 2026-11-01 scouting note
+No new standalone idea. Flock line: the cancellation wave now includes many small cities with near-unanimous votes (Edmonds, Flagstaff, Sheboygan) alongside split ones (Asheville 5-2, Renton 4-3). A possible Study 1 split is "unanimous exit" vs. "contested exit," plus a code for procedural triggers (Edmonds' procedural error). Tariff line: Massachusetts' disclosure bill appears parked in study, which is itself evidence for a "disclosure mandates stall" framing; unverified.
