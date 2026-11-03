@@ -4463,3 +4463,6 @@ No new standalone idea. Flock line: the cancellation wave now includes many smal
 
 ## 2026-11-02 scouting note
 No new standalone idea. Tariff + CCS cross-line: both H.R. 3306 (tariff-price display) and MA H.5036 are stalled in committee, so disclosure mandates are not coming soon; "voluntary disclosure by firms" (the corporate-statement framing in Study 1) is the live variable. CCS: Summit's Iowa permit was amended in July (Dakota-approval condition dropped, construction ban kept), a clean example of regulator-set conditions shifting; a possible Study 1 code is "condition on permit" claims vs. what the order says. Search-level only. Ideas 1-48 not rechecked.
+
+## 2026-11-03 scouting note
+No new standalone idea. Tariff line: surcharge-blame work (Bambauer-Sachse & Morwitz; a blame->fairness mediation paper) suggests Study 2 can be framed as "who the firm names as responsible" (government vs. supplier vs. firm) with perceived fairness as mediator, extending partitioned-pricing research from itemized bills to narrative corporate statements. Venue unchanged (marketing regular submission, e.g., JCP/JPP&M-type outlets); method: PLS-SEM, consistent with Study 2 design. Needs Britton's read of the source papers first.
