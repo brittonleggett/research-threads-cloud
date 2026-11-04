@@ -4466,3 +4466,6 @@ No new standalone idea. Tariff + CCS cross-line: both H.R. 3306 (tariff-price di
 
 ## 2026-11-03 scouting note
 No new standalone idea. Tariff line: surcharge-blame work (Bambauer-Sachse & Morwitz; a blame->fairness mediation paper) suggests Study 2 can be framed as "who the firm names as responsible" (government vs. supplier vs. firm) with perceived fairness as mediator, extending partitioned-pricing research from itemized bills to narrative corporate statements. Venue unchanged (marketing regular submission, e.g., JCP/JPP&M-type outlets); method: PLS-SEM, consistent with Study 2 design. Needs Britton's read of the source papers first.
+
+## 2026-11-04 scouting note
+No new standalone idea. Tariff line: Pallas, Bolton & Lobschat (2018, J Service Research) show external-locus surcharges can make surcharge pricing beneficial while internal ones hurt, so a firm blaming government for a tariff surcharge could plausibly help it, which sits in tension with the reported Morwitz & Fitzsimons finding (blame shifts, reactions stay negative). That tension is itself a publishable question for Study 2: does narrative blame-naming differ from bill itemization? Crossref-level only. Ideas 1-48 not rechecked.
