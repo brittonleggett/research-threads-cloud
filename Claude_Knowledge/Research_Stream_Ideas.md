@@ -4469,3 +4469,6 @@ No new standalone idea. Tariff line: surcharge-blame work (Bambauer-Sachse & Mor
 
 ## 2026-11-04 scouting note
 No new standalone idea. Tariff line: Pallas, Bolton & Lobschat (2018, J Service Research) show external-locus surcharges can make surcharge pricing beneficial while internal ones hurt, so a firm blaming government for a tariff surcharge could plausibly help it, which sits in tension with the reported Morwitz & Fitzsimons finding (blame shifts, reactions stay negative). That tension is itself a publishable question for Study 2: does narrative blame-naming differ from bill itemization? Crossref-level only. Ideas 1-48 not rechecked.
+
+## 2026-11-05 scouting note
+No new standalone idea. Flock line: Manvel (mayor reversed after his own resident poll, 66% to discontinue) and Kendall (sheriff asked for "one more year to prove effectiveness," commissioners refused) show two distinct exit triggers: public-poll reversal and failed effectiveness defense. A possible Study 1 code split is "legitimacy-withdrawal by poll" vs. "performance-claim rejected." Target venue stays Government Information Quarterly.
