@@ -4472,3 +4472,6 @@ No new standalone idea. Tariff line: Pallas, Bolton & Lobschat (2018, J Service 
 
 ## 2026-11-05 scouting note
 No new standalone idea. Flock line: Manvel (mayor reversed after his own resident poll, 66% to discontinue) and Kendall (sheriff asked for "one more year to prove effectiveness," commissioners refused) show two distinct exit triggers: public-poll reversal and failed effectiveness defense. A possible Study 1 code split is "legitimacy-withdrawal by poll" vs. "performance-claim rejected." Target venue stays Government Information Quarterly.
+
+## 2026-11-06 scouting note
+No new standalone idea. Data-center line: the Oct 30 NAACP v. xAI ruling (citizen-suit standing upheld, mobile-source permit exemption rejected) plus the parallel MDEQ permit hearing (Nov 9) is a clean case of the same facility fought in two venues at once (federal court vs state regulator). Possible Tier 2 Mississippi comparison for the Data Center paper's venue/forum-shopping angle; flag for Britton, no corpus started.
