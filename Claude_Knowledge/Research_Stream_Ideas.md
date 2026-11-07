@@ -4475,3 +4475,6 @@ No new standalone idea. Flock line: Manvel (mayor reversed after his own residen
 
 ## 2026-11-06 scouting note
 No new standalone idea. Data-center line: the Oct 30 NAACP v. xAI ruling (citizen-suit standing upheld, mobile-source permit exemption rejected) plus the parallel MDEQ permit hearing (Nov 9) is a clean case of the same facility fought in two venues at once (federal court vs state regulator). Possible Tier 2 Mississippi comparison for the Data Center paper's venue/forum-shopping angle; flag for Britton, no corpus started.
+
+## 2026-11-07 scouting note
+No new standalone idea. Tariff line: a reported CIT ruling against a Section 122 global tariff (unverified, T013) would be another "legal status of the tariff changes mid-study" risk for Study 2 vignettes: stimuli naming a specific tariff authority could go stale. Consider keeping vignette wording generic about legal basis. Search-level only. Ideas 1-48 not rechecked.
