@@ -4478,3 +4478,6 @@ No new standalone idea. Data-center line: the Oct 30 NAACP v. xAI ruling (citize
 
 ## 2026-11-07 scouting note
 No new standalone idea. Tariff line: a reported CIT ruling against a Section 122 global tariff (unverified, T013) would be another "legal status of the tariff changes mid-study" risk for Study 2 vignettes: stimuli naming a specific tariff authority could go stale. Consider keeping vignette wording generic about legal basis. Search-level only. Ideas 1-48 not rechecked.
+
+## 2026-11-08 scouting note
+No new standalone idea. Flock line methodological lesson: a search-summary "5-2 vote" (Santa Barbara) turned out to be a no-vote direction to staff when the primary articles were read. For any "exit" coding, separate "formal vote," "council direction," and "staff recommendation" as distinct decision types, since secondary summaries blur them.
