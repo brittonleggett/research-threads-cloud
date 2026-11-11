@@ -4487,3 +4487,6 @@ No new standalone idea. Flock line methodological lesson: a search-summary "5-2 
 
 ## 2026-11-10 scouting note
 No new standalone idea. SpaceX line: search summaries disagree on basic project figures (site acreage 125k vs ~136k vs 50.5k ha), which is itself a Study 1 point: if corpus texts restate the same claim with different numbers, "claim specificity" should be coded from the source's own wording, not normalized. Treat acreage/jobs as per-source variables.
+
+## 2026-11-11 scouting note
+No new standalone idea. Tariff line: if attribution moves blame but not fairness (the Morwitz & Fitzsimons pattern as described), a methods-oriented paper could separate "blame shift" from "reaction shift" across disclosure formats (itemized line vs. narrative vs. silent). Same Study 2 design with blame as a measured mediator; target JCM/Journal of Business Research-type outlet. Unverified; depends on reading their working paper if it surfaces.
