@@ -4490,3 +4490,6 @@ No new standalone idea. SpaceX line: search summaries disagree on basic project 
 
 ## 2026-11-11 scouting note
 No new standalone idea. Tariff line: if attribution moves blame but not fairness (the Morwitz & Fitzsimons pattern as described), a methods-oriented paper could separate "blame shift" from "reaction shift" across disclosure formats (itemized line vs. narrative vs. silent). Same Study 2 design with blame as a measured mediator; target JCM/Journal of Business Research-type outlet. Unverified; depends on reading their working paper if it surfaces.
+
+## 2026-11-12 scouting note
+No new standalone idea tonight. Method spin-off candidate from the Tariff instrument audit: a measurement-focused short paper on a validated "price-increase blame allocation" scale (firm vs. government vs. market) — the pricing literature uses ad hoc locus items while attribution psychology has CDSII (McAuley, Duncan & Russell 1992) designed for achievement outcomes. Gap: no consumer-pricing adaptation located (not searched systematically). Tractable: Study 2 data would supply a first validation sample. Method: adapt CDSII locus/controllability items, test with PLS-SEM measurement checks per the shared checklist. Venue: Journal of Business Research or Marketing Letters (plausible, unchecked). Flag only; not greenlit.
