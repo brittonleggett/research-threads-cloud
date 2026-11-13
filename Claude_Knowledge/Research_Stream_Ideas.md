@@ -4493,3 +4493,6 @@ No new standalone idea. Tariff line: if attribution moves blame but not fairness
 
 ## 2026-11-12 scouting note
 No new standalone idea tonight. Method spin-off candidate from the Tariff instrument audit: a measurement-focused short paper on a validated "price-increase blame allocation" scale (firm vs. government vs. market) — the pricing literature uses ad hoc locus items while attribution psychology has CDSII (McAuley, Duncan & Russell 1992) designed for achievement outcomes. Gap: no consumer-pricing adaptation located (not searched systematically). Tractable: Study 2 data would supply a first validation sample. Method: adapt CDSII locus/controllability items, test with PLS-SEM measurement checks per the shared checklist. Venue: Journal of Business Research or Marketing Letters (plausible, unchecked). Flag only; not greenlit.
+
+## 2026-11-13 scouting note
+No new standalone idea. Data-center line: the xAI case has three parallel venues (MDEQ appeal, district-court PI, Fifth Circuit), each producing different "who is responsible" framings; for Louisiana-as-anchor comparison, a regulatory-venue-by-venue frame analysis is a possible Tier 2 chapter, not a separate paper.
