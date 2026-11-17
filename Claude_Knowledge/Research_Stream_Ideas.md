@@ -4505,3 +4505,6 @@ No new standalone idea. Data-center line: the xAI case has three parallel venues
 
 ## 2026-11-16 scouting note
 No new standalone idea. Observation for the beef line: the Senate "beef labeling" provision is a 180-day WTO-feasibility study mandate, not COOL reinstatement. Public discourse likely conflates the two, which fits the Meat paper's fact-vs-narrative gap (a possible Study 1 theme: "labeling promised vs labeling delivered"). Unchecked; flag only.
+
+## 2026-11-17 scouting note
+No new standalone idea. Methods note for the Tariff line: the vignettes avoid naming any tariff authority, which makes the design robust to the Section 122/IEEPA litigation. That robustness is worth stating in the paper's limitations/stimulus-design section (generic "tariffs" chosen on purpose), and it separates this study from any design that would name a specific tariff program.
