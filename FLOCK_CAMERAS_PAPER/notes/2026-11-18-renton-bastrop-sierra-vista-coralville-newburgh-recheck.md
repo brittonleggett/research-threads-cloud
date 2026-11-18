@@ -1,0 +1,11 @@
+# 2026-11-18 Flock recheck (search-level plus one direct fetch)
+
+Worked overdue watchlist items. Not a Phase 3 or design change.
+
+- **Renton WA (F046):** Search results (GovTech carrying Seattle Times; city page) say the 2-year contract began 2024-11-02 and the police department did not renew it at the Nov 2 deadline; city issued a release. Earlier: cameras paused May, covered by council motion early August, other ALPR (vehicle-mounted) unpaused in July. Source dates conflict (a KOMO piece describes a council vote "next week"). Treat "lapsed, not renewed" as search-level, unconfirmed by minutes. Note this is a non-renewal by the department, not a council vote.
+- **Bastrop TX:** Sept 8 outcome found: unanimous vote, Resolution R-2026-134, to decommission the system and (per Community Impact) bar future similar surveillance agreements. Sept 1 workshop had directed all 12 cameras covered. KBTX/CBS Austin/Fox 7 at search level. Contract had been due to auto-renew July 2027.
+- **Sierra Vista AZ (F050):** Direct fetch of KGUN9: council directed staff at a Feb 24 2026 work session; contract terminated April 2 2026. No vote tally in the article. Concerns: Flock owning/selling image rights, AI use. City is considering another ALPR vendor, so this is vendor-switch, not exit from ALPR. Note the date: this is February-April 2026, not a recent event.
+- **Coralville IA (F051):** Local-level search results: council voted 3-1 on Feb 24 2026 (Vogelzang dissenting) to cancel and rescind the ALPR policy after the Iowa AG warned the city to drop its no-sharing-with-ICE rule or risk state funding. Contract $36,000 over two fiscal years, still owed through July 2027. Camera count differs by source (2, 4, 6). Search-level, not fetched.
+- **Newburgh NY:** Already in corpus (#59) as the Sept 28 cancellation; WAMC Oct 12 confirms a 14-day grace period. No November coverage. Watchlist F035 (Aug failed vote) is superseded by that. Still unknown whether the exit actually happened (reported exit cost over $400,000 per the chief in June).
+
+Interpretive point: Sierra Vista and Coralville share a pattern in which an external state-level actor (Iowa AG funding threat) or data-ownership fear drove the exit, which fits the data-access/federal-pressure theme already locked. Pattern only, no new coding.

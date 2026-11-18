@@ -4508,3 +4508,6 @@ No new standalone idea. Observation for the beef line: the Senate "beef labeling
 
 ## 2026-11-17 scouting note
 No new standalone idea. Methods note for the Tariff line: the vignettes avoid naming any tariff authority, which makes the design robust to the Section 122/IEEPA litigation. That robustness is worth stating in the paper's limitations/stimulus-design section (generic "tariffs" chosen on purpose), and it separates this study from any design that would name a specific tariff program.
+
+## 2026-11-18 scouting note
+No new standalone idea. Flock line: Coralville (Iowa AG threatened state funding unless the city dropped its no-ICE-sharing rule) shows a state actor forcing the exit, while Sierra Vista and Renton exited via staff/department action without a council vote. A Study 1 code split could separate "legislative exit," "administrative non-renewal," and "state-pressure exit." Search-level only.
