@@ -4511,3 +4511,6 @@ No new standalone idea. Methods note for the Tariff line: the vignettes avoid na
 
 ## 2026-11-18 scouting note
 No new standalone idea. Flock line: Coralville (Iowa AG threatened state funding unless the city dropped its no-ICE-sharing rule) shows a state actor forcing the exit, while Sierra Vista and Renton exited via staff/department action without a council vote. A Study 1 code split could separate "legislative exit," "administrative non-renewal," and "state-pressure exit." Search-level only.
+
+## 2026-11-19 scouting note
+No new standalone idea. Data Center observation: Loudoun's County Attorney said a true moratorium is not legal, so the board voted a narrower "pause on considering legislative applications" with a grid-reliability exception, while Charlotte and Boise use formal moratoria. The *form* of the pause (legally hedged vs. formal) is a codable dimension for Tier 2 cross-case comparison, and shows officials adapting their framing to legal constraints.

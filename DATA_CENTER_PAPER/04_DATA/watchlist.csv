@@ -19,3 +19,5 @@ L038c,"Charlotte extension vote Oct 26: RESOLVED - unanimous, 11 months, to Oct 
 C28d,"NAACP v. xAI: verify whether any Fifth Circuit appeal/stay exists at all (2026-10-31 search found none; suspect earlier watchlist premise wrong)","check CourtListener for 3:26-cv-00074 directly",2026-11-14,2026-10-31
 C28e,"NAACP v. xAI: PI hearing date/ruling after Oct 30 ruling; reconcile 'Oct 19' Fifth Circuit order (C28b) vs district Oct 19 DOJ denial",check CourtListener 3:26-cv-00074 and Earthjustice/SELC pages,2026-11-16,2026-11-06
 C28f,MDEQ evidentiary hearing on xAI 41-turbine permit (Nov 9-10): outcome,search local coverage,2026-11-20,2026-11-13
+C23c,"Loudoun pause resolution Nov 17 outcome: search 2026-11-19 found no coverage of that meeting (only Sept 15 7-1-1 and deferral). loudoun.gov Statement 222331 is dated Sept 16, not Nov 17",fetch loudoun.gov newsflash / WJLA after Nov 17 minutes post,2026-11-24,2026-11-19
+L190b,"Minneapolis case-by-case data center ordinance: fetch MPR article, get vote count and terms",fetch mprnews URL,2026-11-24,2026-11-19
