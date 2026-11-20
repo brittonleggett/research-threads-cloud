@@ -4514,3 +4514,6 @@ No new standalone idea. Flock line: Coralville (Iowa AG threatened state funding
 
 ## 2026-11-19 scouting note
 No new standalone idea. Data Center observation: Loudoun's County Attorney said a true moratorium is not legal, so the board voted a narrower "pause on considering legislative applications" with a grid-reliability exception, while Charlotte and Boise use formal moratoria. The *form* of the pause (legally hedged vs. formal) is a codable dimension for Tier 2 cross-case comparison, and shows officials adapting their framing to legal constraints.
+
+## 2026-11-20 scouting note
+No new standalone idea. Louisiana-angle observation for the Data Center line: the Aug 2026 LPSC 3-1 vote (Lewis dissenting) to let Meta keep job-projection and load-calculation records private is a clean "information-asymmetry/legitimacy" episode. Possible short policy-marketing piece on transparency conflict in utility regulation of large-load customers, using LPSC orders, Illuminator/E&E coverage and Alliance for Affordable Energy filings as a public-record corpus (method: AI-assisted thematic analysis, same template). Venue candidates: Journal of Public Policy & Marketing, Energy Policy. Source level is search-only; not greenlit.
