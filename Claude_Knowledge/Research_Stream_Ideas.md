@@ -4517,3 +4517,6 @@ No new standalone idea. Data Center observation: Loudoun's County Attorney said 
 
 ## 2026-11-20 scouting note
 No new standalone idea. Louisiana-angle observation for the Data Center line: the Aug 2026 LPSC 3-1 vote (Lewis dissenting) to let Meta keep job-projection and load-calculation records private is a clean "information-asymmetry/legitimacy" episode. Possible short policy-marketing piece on transparency conflict in utility regulation of large-load customers, using LPSC orders, Illuminator/E&E coverage and Alliance for Affordable Energy filings as a public-record corpus (method: AI-assisted thematic analysis, same template). Venue candidates: Journal of Public Policy & Marketing, Energy Policy. Source level is search-only; not greenlit.
+
+## 2026-11-21 scouting note
+No new standalone idea. CCS observation: the pipeline fight splits into two codable legitimacy disputes: property rights (ND amalgamation / just compensation) vs. public-purpose/route viability (Iowa permit amendment, SD eminent-domain ban). A Study 1 code split on these would help the CCS theory chain, and Summit's response (re-routing to new storage states) is a "strategic repositioning" theme. Search-level only.
