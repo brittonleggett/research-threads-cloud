@@ -4520,3 +4520,6 @@ No new standalone idea. Louisiana-angle observation for the Data Center line: th
 
 ## 2026-11-21 scouting note
 No new standalone idea. CCS observation: the pipeline fight splits into two codable legitimacy disputes: property rights (ND amalgamation / just compensation) vs. public-purpose/route viability (Iowa permit amendment, SD eminent-domain ban). A Study 1 code split on these would help the CCS theory chain, and Summit's response (re-routing to new storage states) is a "strategic repositioning" theme. Search-level only.
+
+## 2026-11-22 scouting note
+No new standalone idea. Meat/tariff observation: Brazilian beef is carved out of the July 2026 Section 301 duty while USTR rejected comments to remove it, so the beef-price-vs-tariff narrative is policy-asymmetric (beef protected from price effects, other Brazil goods not). For the Meat paper's fact-vs-narrative gap and the Tariff line, a short stimulus on "which tariffs actually reach the grocery shelf" could test whether consumers attribute beef prices to tariffs that legally exempt it. Target: Journal of Consumer Affairs / JPP&M. Flag only.
