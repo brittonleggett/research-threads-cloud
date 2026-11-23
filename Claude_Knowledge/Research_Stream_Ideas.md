@@ -4523,3 +4523,6 @@ No new standalone idea. CCS observation: the pipeline fight splits into two coda
 
 ## 2026-11-22 scouting note
 No new standalone idea. Meat/tariff observation: Brazilian beef is carved out of the July 2026 Section 301 duty while USTR rejected comments to remove it, so the beef-price-vs-tariff narrative is policy-asymmetric (beef protected from price effects, other Brazil goods not). For the Meat paper's fact-vs-narrative gap and the Tariff line, a short stimulus on "which tariffs actually reach the grocery shelf" could test whether consumers attribute beef prices to tariffs that legally exempt it. Target: Journal of Consumer Affairs / JPP&M. Flag only.
+
+## 2026-11-23 scouting note — Tariff surcharge refund accountability
+Gap: after courts ordered tariff refunds, firms that itemized tariff surcharges (e.g., Fabletics, reportedly sued) face a visible accountability test; no academic work found on consumer response to refund/non-refund of itemized surcharges. Tractable: public-record corpus (retailer statements, class-action complaints, news) + Study 2-style vignette on refund vs. keep. Method: AI-assisted thematic analysis of refund statements, then 2x2 (refund/no refund x itemized/embedded). Venue: Journal of Consumer Affairs, JPP&M, JCM. Greenlight needed from Britton; evidence so far is secondary-only.
