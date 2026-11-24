@@ -4526,3 +4526,6 @@ No new standalone idea. Meat/tariff observation: Brazilian beef is carved out of
 
 ## 2026-11-23 scouting note — Tariff surcharge refund accountability
 Gap: after courts ordered tariff refunds, firms that itemized tariff surcharges (e.g., Fabletics, reportedly sued) face a visible accountability test; no academic work found on consumer response to refund/non-refund of itemized surcharges. Tractable: public-record corpus (retailer statements, class-action complaints, news) + Study 2-style vignette on refund vs. keep. Method: AI-assisted thematic analysis of refund statements, then 2x2 (refund/no refund x itemized/embedded). Venue: Journal of Consumer Affairs, JPP&M, JCM. Greenlight needed from Britton; evidence so far is secondary-only.
+
+## 2026-11-24 scouting note
+No strong new idea. Observation for Flock: several exits (Englewood, Denver, Sierra Vista) are vendor switches to Axon, not ALPR exits. A "vendor-switch vs. true exit" coding distinction could separate legitimacy-driven rejection from procurement churn. Method: add one variable to the existing corpus. Venue: same as Flock paper (GIQ).
