@@ -4529,3 +4529,6 @@ Gap: after courts ordered tariff refunds, firms that itemized tariff surcharges 
 
 ## 2026-11-24 scouting note
 No strong new idea. Observation for Flock: several exits (Englewood, Denver, Sierra Vista) are vendor switches to Axon, not ALPR exits. A "vendor-switch vs. true exit" coding distinction could separate legitimacy-driven rejection from procurement churn. Method: add one variable to the existing corpus. Venue: same as Flock paper (GIQ).
+
+## 2026-11-25 scouting note
+No new standalone idea. Data Center observation: Loudoun (executive-light, legally narrowed "pause on considering applications", 7-1-1) vs. Minneapolis (council vote-per-project requirement, vetoed by mayor as "de facto ban") show two distinct governance designs for the same demand. Possible Study 1 code: "who holds the approval gate" (legislature case-by-case vs. administrative standards). Fits the form-of-pause variable noted 11-19; Britton's call.
