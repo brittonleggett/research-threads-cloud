@@ -4532,3 +4532,6 @@ No strong new idea. Observation for Flock: several exits (Englewood, Denver, Sie
 
 ## 2026-11-25 scouting note
 No new standalone idea. Data Center observation: Loudoun (executive-light, legally narrowed "pause on considering applications", 7-1-1) vs. Minneapolis (council vote-per-project requirement, vetoed by mayor as "de facto ban") show two distinct governance designs for the same demand. Possible Study 1 code: "who holds the approval gate" (legislature case-by-case vs. administrative standards). Fits the form-of-pause variable noted 11-19; Britton's call.
+
+## 2026-11-26 scouting note
+No new standalone idea. SpaceX observation: the FAA's Starbase PEIS (up to 456 launches/yr vs. 25 authorized now, ~18x) gives a rare documented scale-up at an existing site, with a dated comment window (closes 11-30). Comparing Boca Chica comment themes before/after scale-up against Louisiana's pre-approval discourse would test whether concerns shift from economic-benefit claims to lived-harm claims. Method: public-comment corpus coding; venue candidates as in SpaceX project CLAUDE.md.
